@@ -12,8 +12,8 @@ A description of these datasets with annotated samples is available at http://ww
 * An inventory of rare disorders with their associated genes, including Orpha codes of the disease linked to the associated genes, with a characterisation of the relationship between gene and disease (causative, modifier, susceptibility, or playing a role in the phenotype) and the kind of mutation germline or somatic. In addition, the table includes the name of the gene in English, its Orpha number, chromosomal location, symbol and synonyms and cross-referenced with UniProtKB, HGNC, OMIM, Genatlas, ensembl, Reactome and IUPHAR-DB.
 * An inventory of phenotypes associated with rare diseases listed in Orphanet annotated with HPO phenotypes. The alignment is characterised by frequency (obligatory, very frequent, frequent, occasional, very rare or excluded) and whether the annotated HPO term is a major diagnostic criterion or a pathognomonic sign of the rare disease, the date and the validation status of the association between the rare disease and HPO terms.
 * An inventory of rare disorders with epidemiological data divised in two tables:
-- A table with preferred name and Orpha number of the diseases, groups of diseases or sub types: point prevalence, birth prevalence, lifelong prevalence and incidence, or the number of families reported together with their respective intervals per geographical area.
-- A table with preferred name and Orpha number of the diseases, their type of inheritance, interval average age of onset and age of death.
+	- A table with preferred name and Orpha number of the diseases, groups of diseases or sub types: point prevalence, birth prevalence, lifelong prevalence and incidence, or the number of families reported together with their respective intervals per geographical area.
+	- A table with preferred name and Orpha number of the diseases, their type of inheritance, interval average age of onset and age of death.
 
 ## Datasets available on request.
 
