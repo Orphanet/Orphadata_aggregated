@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-04-01 05:15:52" version="1.3.1 / 4.1.7 [2019-11-24] (orientdb version)" copyright="Orphanet (c) 2020">
+<JDBOR date="2020-05-04 04:04:52" version="1.3.1 / 4.1.7 [2019-11-24] (orientdb version)" copyright="Orphanet (c) 2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -7,19 +7,33 @@
       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
     </Licence>
   </Availability>
-  <DisorderList count="1">
-    <Disorder id="12974">
-      <OrphaNumber>97955</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97955</ExpertLink>
-      <Name lang="en">Rare respiratory disease</Name>
-      <ClassificationNodeList count="1">
+  <ClassificationList count="1">
+    <Classification id="184">
+      <OrphaNumber>162655</OrphaNumber>
+      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=162655</ExpertLink>
+      <ClassificationFlagList count="1">
+        <ClassificationFlag id="28">
+          <Value>2</Value>
+          <Label>Pat</Label>
+        </ClassificationFlag>
+      </ClassificationFlagList>
+      <Name lang="en">Orphanet classification of rare respiratory diseases</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="12974">
+            <OrphaNumber>97955</OrphaNumber>
+            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97955</ExpertLink>
+            <Name lang="en">Rare respiratory disease</Name>
+          </Disorder>
           <ClassificationNodeChildList count="8">
             <ClassificationNode>
               <Disorder id="2967">
                 <OrphaNumber>3347</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3347</ExpertLink>
                 <Name lang="en">Mounier-Kühn syndrome</Name>
+                <DisorderType id="21422">
+                  <Name lang="en">Clinical syndrome</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
@@ -29,6 +43,9 @@
                 <OrphaNumber>60025</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60025</ExpertLink>
                 <Name lang="en">Pulmonary alveolar microlithiasis</Name>
+                <DisorderType id="21394">
+                  <Name lang="en">Disease</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
@@ -38,6 +55,9 @@
                 <OrphaNumber>63999</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63999</ExpertLink>
                 <Name lang="en">IgG4-related mediastinitis</Name>
+                <DisorderType id="21394">
+                  <Name lang="en">Disease</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
@@ -47,6 +67,9 @@
                 <OrphaNumber>71198</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=71198</ExpertLink>
                 <Name lang="en">Rare pulmonary hypertension</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="6">
                 <ClassificationNode>
@@ -54,6 +77,9 @@
                     <OrphaNumber>70591</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70591</ExpertLink>
                     <Name lang="en">Chronic thromboembolic pulmonary hypertension</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -63,6 +89,9 @@
                     <OrphaNumber>182090</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182090</ExpertLink>
                     <Name lang="en">Pulmonary arterial hypertension</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
@@ -70,6 +99,9 @@
                         <OrphaNumber>422</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=422</ExpertLink>
                         <Name lang="en">Idiopathic/heritable pulmonary arterial hypertension</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -77,6 +109,9 @@
                             <OrphaNumber>275766</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275766</ExpertLink>
                             <Name lang="en">Idiopathic pulmonary arterial hypertension</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -86,6 +121,9 @@
                             <OrphaNumber>275777</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275777</ExpertLink>
                             <Name lang="en">Heritable pulmonary arterial hypertension</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -97,6 +135,9 @@
                         <OrphaNumber>275786</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275786</ExpertLink>
                         <Name lang="en">Drug- or toxin-induced pulmonary arterial hypertension</Name>
+                        <DisorderType id="21436">
+                          <Name lang="en">Clinical group</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -106,6 +147,9 @@
                         <OrphaNumber>275791</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275791</ExpertLink>
                         <Name lang="en">Pulmonary arterial hypertension associated with another disease</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="6">
                         <ClassificationNode>
@@ -113,6 +157,9 @@
                             <OrphaNumber>275798</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275798</ExpertLink>
                             <Name lang="en">Pulmonary arterial hypertension associated with connective tissue disease</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -122,6 +169,9 @@
                             <OrphaNumber>275803</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275803</ExpertLink>
                             <Name lang="en">Pulmonary arterial hypertension associated with congenital heart disease</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
                             <ClassificationNode>
@@ -129,6 +179,9 @@
                                 <OrphaNumber>97214</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97214</ExpertLink>
                                 <Name lang="en">Eisenmenger syndrome</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="en">Malformation syndrome</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -140,6 +193,9 @@
                             <OrphaNumber>275808</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275808</ExpertLink>
                             <Name lang="en">Pulmonary arterial hypertension associated with HIV infection</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -149,6 +205,9 @@
                             <OrphaNumber>275813</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275813</ExpertLink>
                             <Name lang="en">Pulmonary arterial hypertension associated with portal hypertension</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -158,6 +217,9 @@
                             <OrphaNumber>275823</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275823</ExpertLink>
                             <Name lang="en">Pulmonary arterial hypertension associated with schistosomiasis</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -167,6 +229,9 @@
                             <OrphaNumber>275828</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275828</ExpertLink>
                             <Name lang="en">Pulmonary arterial hypertension associated with chronic hemolytic anemia</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -180,6 +245,9 @@
                     <OrphaNumber>275837</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275837</ExpertLink>
                     <Name lang="en">Pulmonary hypertension owing to lung disease and/or hypoxia</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -189,6 +257,9 @@
                     <OrphaNumber>275844</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275844</ExpertLink>
                     <Name lang="en">Pulmonary hypertension with unclear multifactorial mechanism</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -198,6 +269,9 @@
                     <OrphaNumber>275853</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275853</ExpertLink>
                     <Name lang="en">Syndrome with pulmonary hypertension as a major feature</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
@@ -205,6 +279,9 @@
                         <OrphaNumber>52047</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=52047</ExpertLink>
                         <Name lang="en">Braddock syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -214,6 +291,9 @@
                         <OrphaNumber>363694</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=363694</ExpertLink>
                         <Name lang="en">Hyperuricemia-pulmonary hypertension-renal failure-alkalosis syndrome</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -225,6 +305,9 @@
                     <OrphaNumber>431353</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=431353</ExpertLink>
                     <Name lang="en">Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
@@ -232,6 +315,9 @@
                         <OrphaNumber>31837</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31837</ExpertLink>
                         <Name lang="en">Pulmonary venoocclusive disease</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -241,6 +327,9 @@
                         <OrphaNumber>199241</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=199241</ExpertLink>
                         <Name lang="en">Pulmonary capillary hemangiomatosis</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -254,6 +343,9 @@
                 <OrphaNumber>97957</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97957</ExpertLink>
                 <Name lang="en">Respiratory or thoracic malformation</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
@@ -261,6 +353,9 @@
                     <OrphaNumber>182108</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182108</ExpertLink>
                     <Name lang="en">Thoracic malformation</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="14">
                     <ClassificationNode>
@@ -268,6 +363,9 @@
                         <OrphaNumber>1505</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1505</ExpertLink>
                         <Name lang="en">Short rib-polydactyly syndrome</Name>
+                        <DisorderType id="21436">
+                          <Name lang="en">Clinical group</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="9">
                         <ClassificationNode>
@@ -275,6 +373,9 @@
                             <OrphaNumber>474</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=474</ExpertLink>
                             <Name lang="en">Jeune syndrome</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -284,6 +385,9 @@
                             <OrphaNumber>289</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289</ExpertLink>
                             <Name lang="en">Ellis Van Creveld syndrome</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -293,6 +397,9 @@
                             <OrphaNumber>1515</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1515</ExpertLink>
                             <Name lang="en">Cranioectodermal dysplasia</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -302,6 +409,9 @@
                             <OrphaNumber>93268</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93268</ExpertLink>
                             <Name lang="en">Short rib-polydactyly syndrome, Beemer-Langer type</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -311,6 +421,9 @@
                             <OrphaNumber>93269</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93269</ExpertLink>
                             <Name lang="en">Short rib-polydactyly syndrome, Majewski type</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -320,6 +433,9 @@
                             <OrphaNumber>93270</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93270</ExpertLink>
                             <Name lang="en">Short rib-polydactyly syndrome, Saldino-Noonan type</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -329,6 +445,9 @@
                             <OrphaNumber>93271</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93271</ExpertLink>
                             <Name lang="en">Short rib-polydactyly syndrome, Verma-Naumoff type</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -338,6 +457,9 @@
                             <OrphaNumber>397715</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397715</ExpertLink>
                             <Name lang="en">Joubert syndrome with Jeune asphyxiating thoracic dystrophy</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -347,6 +469,9 @@
                             <OrphaNumber>498497</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=498497</ExpertLink>
                             <Name lang="en">Short rib-polydactyly syndrome type 5</Name>
+                            <DisorderType id="21401">
+                              <Name lang="en">Malformation syndrome</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -358,6 +483,9 @@
                         <OrphaNumber>957</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=957</ExpertLink>
                         <Name lang="en">Acropectorovertebral dysplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -367,6 +495,9 @@
                         <OrphaNumber>994</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=994</ExpertLink>
                         <Name lang="en">Fetal akinesia deformation sequence</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -376,6 +507,9 @@
                         <OrphaNumber>1486</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1486</ExpertLink>
                         <Name lang="en">Lethal congenital contracture syndrome type 1</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -385,6 +519,9 @@
                         <OrphaNumber>1803</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1803</ExpertLink>
                         <Name lang="en">Thoracomelic dysplasia</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -394,6 +531,9 @@
                         <OrphaNumber>1861</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1861</ExpertLink>
                         <Name lang="en">Thoracic dysplasia-hydrocephalus syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -403,6 +543,9 @@
                         <OrphaNumber>2017</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2017</ExpertLink>
                         <Name lang="en">Sternal cleft</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -412,6 +555,9 @@
                         <OrphaNumber>2391</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2391</ExpertLink>
                         <Name lang="en">Congenitally short costocoracoid ligament</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -421,6 +567,9 @@
                         <OrphaNumber>2470</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2470</ExpertLink>
                         <Name lang="en">Matthew-Wood syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -430,6 +579,9 @@
                         <OrphaNumber>2753</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2753</ExpertLink>
                         <Name lang="en">Orofaciodigital syndrome type 4</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -439,6 +591,9 @@
                         <OrphaNumber>3181</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3181</ExpertLink>
                         <Name lang="en">Sprengel deformity</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -448,6 +603,9 @@
                         <OrphaNumber>3317</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3317</ExpertLink>
                         <Name lang="en">Thoracolaryngopelvic dysplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -457,6 +615,9 @@
                         <OrphaNumber>73230</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73230</ExpertLink>
                         <Name lang="en">Ossification anomalies-psychomotor developmental delay syndrome</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -466,6 +627,9 @@
                         <OrphaNumber>464366</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=464366</ExpertLink>
                         <Name lang="en">NEK9-related lethal skeletal dysplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -477,6 +641,9 @@
                     <OrphaNumber>182111</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182111</ExpertLink>
                     <Name lang="en">Respiratory malformation</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="20">
                     <ClassificationNode>
@@ -484,6 +651,9 @@
                         <OrphaNumber>2414</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2414</ExpertLink>
                         <Name lang="en">Congenital pulmonary lymphangiectasia</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -493,6 +663,9 @@
                         <OrphaNumber>2444</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2444</ExpertLink>
                         <Name lang="en">Congenital pulmonary airway malformation</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="5">
                         <ClassificationNode>
@@ -500,6 +673,9 @@
                             <OrphaNumber>280827</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280827</ExpertLink>
                             <Name lang="en">Congenital pulmonary airway malformation type 0</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -509,6 +685,9 @@
                             <OrphaNumber>280832</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280832</ExpertLink>
                             <Name lang="en">Congenital pulmonary airway malformation type 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -518,6 +697,9 @@
                             <OrphaNumber>280840</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280840</ExpertLink>
                             <Name lang="en">Congenital pulmonary airway malformation type 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -527,6 +709,9 @@
                             <OrphaNumber>280847</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280847</ExpertLink>
                             <Name lang="en">Congenital pulmonary airway malformation type 3</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -536,6 +721,9 @@
                             <OrphaNumber>280854</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280854</ExpertLink>
                             <Name lang="en">Congenital pulmonary airway malformation type 4</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -547,6 +735,9 @@
                         <OrphaNumber>3346</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3346</ExpertLink>
                         <Name lang="en">Tracheal agenesis</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -556,6 +747,9 @@
                         <OrphaNumber>984</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=984</ExpertLink>
                         <Name lang="en">Pulmonary agenesis</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -565,6 +759,9 @@
                         <OrphaNumber>2357</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2357</ExpertLink>
                         <Name lang="en">Bronchogenic cyst</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -574,6 +771,9 @@
                         <OrphaNumber>2040</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2040</ExpertLink>
                         <Name lang="en">Congenital respiratory-biliary fistula</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -583,6 +783,9 @@
                         <OrphaNumber>1928</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1928</ExpertLink>
                         <Name lang="en">Congenital lobar emphysema</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -592,6 +795,9 @@
                         <OrphaNumber>1120</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1120</ExpertLink>
                         <Name lang="en">Lung agenesis-heart defect-thumb anomalies syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -601,6 +807,9 @@
                         <OrphaNumber>2004</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2004</ExpertLink>
                         <Name lang="en">Laryngotracheoesophageal cleft</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="5">
                         <ClassificationNode>
@@ -608,6 +817,9 @@
                             <OrphaNumber>93938</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93938</ExpertLink>
                             <Name lang="en">Laryngotracheoesophageal cleft type 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -617,6 +829,9 @@
                             <OrphaNumber>93939</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93939</ExpertLink>
                             <Name lang="en">Laryngotracheoesophageal cleft type 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -626,6 +841,9 @@
                             <OrphaNumber>93940</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93940</ExpertLink>
                             <Name lang="en">Laryngotracheoesophageal cleft type 3</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -635,6 +853,9 @@
                             <OrphaNumber>93941</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93941</ExpertLink>
                             <Name lang="en">Laryngotracheoesophageal cleft type 4</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -644,6 +865,9 @@
                             <OrphaNumber>280205</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280205</ExpertLink>
                             <Name lang="en">Laryngotracheoesophageal cleft type 0</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -655,6 +879,9 @@
                         <OrphaNumber>2257</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2257</ExpertLink>
                         <Name lang="en">Primary pulmonary hypoplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -664,6 +891,9 @@
                         <OrphaNumber>2407</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2407</ExpertLink>
                         <Name lang="en">LOC syndrome</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -673,6 +903,9 @@
                         <OrphaNumber>2470</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2470</ExpertLink>
                         <Name lang="en">Matthew-Wood syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -682,6 +915,9 @@
                         <OrphaNumber>3035</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3035</ExpertLink>
                         <Name lang="en">Growth delay-hydrocephaly-lung hypoplasia syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -691,6 +927,9 @@
                         <OrphaNumber>3317</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3317</ExpertLink>
                         <Name lang="en">Thoracolaryngopelvic dysplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -700,6 +939,9 @@
                         <OrphaNumber>1132</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1132</ExpertLink>
                         <Name lang="en">Aortic arch defects</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="7">
                         <ClassificationNode>
@@ -707,6 +949,9 @@
                             <OrphaNumber>99075</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99075</ExpertLink>
                             <Name lang="en">Encircling double aortic arch</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -716,6 +961,9 @@
                             <OrphaNumber>99076</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99076</ExpertLink>
                             <Name lang="en">Persistent fifth aortic arch</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -725,6 +973,9 @@
                             <OrphaNumber>99077</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99077</ExpertLink>
                             <Name lang="en">Kommerell diverticulum</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -734,6 +985,9 @@
                             <OrphaNumber>99078</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99078</ExpertLink>
                             <Name lang="en">Neuhauser anomaly</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -743,6 +997,9 @@
                             <OrphaNumber>99079</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99079</ExpertLink>
                             <Name lang="en">Cervical aortic arch</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -752,6 +1009,9 @@
                             <OrphaNumber>99081</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99081</ExpertLink>
                             <Name lang="en">Right aortic arch</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -761,6 +1021,9 @@
                             <OrphaNumber>99082</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99082</ExpertLink>
                             <Name lang="en">Dysphagia lusoria</Name>
+                            <DisorderType id="21415">
+                              <Name lang="en">Morphological anomaly</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -772,6 +1035,9 @@
                         <OrphaNumber>3161</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3161</ExpertLink>
                         <Name lang="en">Congenital pulmonary sequestration</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
@@ -779,6 +1045,9 @@
                             <OrphaNumber>280802</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280802</ExpertLink>
                             <Name lang="en">Intralobar congenital pulmonary sequestration</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -788,6 +1057,9 @@
                             <OrphaNumber>280811</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280811</ExpertLink>
                             <Name lang="en">Extralobar congenital pulmonary sequestration</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -797,6 +1069,9 @@
                             <OrphaNumber>280821</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280821</ExpertLink>
                             <Name lang="en">Communicating congenital bronchopulmonary-foregut malformation</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -808,6 +1083,9 @@
                         <OrphaNumber>70589</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70589</ExpertLink>
                         <Name lang="en">Bronchopulmonary dysplasia</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -817,6 +1095,9 @@
                         <OrphaNumber>95430</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95430</ExpertLink>
                         <Name lang="en">Congenital tracheomalacia</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -826,6 +1107,9 @@
                         <OrphaNumber>411501</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=411501</ExpertLink>
                         <Name lang="en">Williams-Campbell syndrome</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -835,6 +1119,9 @@
                         <OrphaNumber>454750</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=454750</ExpertLink>
                         <Name lang="en">Isolated tracheoesophageal fistula</Name>
+                        <DisorderType id="21415">
+                          <Name lang="en">Morphological anomaly</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -848,6 +1135,9 @@
                 <OrphaNumber>98060</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98060</ExpertLink>
                 <Name lang="en">Rare respiratory tumor</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
@@ -855,6 +1145,9 @@
                     <OrphaNumber>466962</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=466962</ExpertLink>
                     <Name lang="en">SMARCA4-deficient sarcoma of thorax</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -864,6 +1157,9 @@
                     <OrphaNumber>150</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=150</ExpertLink>
                     <Name lang="en">Nasopharyngeal carcinoma</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -873,6 +1169,9 @@
                     <OrphaNumber>101945</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101945</ExpertLink>
                     <Name lang="en">Rare bronchopulmonary tumor</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="7">
                     <ClassificationNode>
@@ -880,6 +1179,9 @@
                         <OrphaNumber>2420</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2420</ExpertLink>
                         <Name lang="en">Primary pulmonary lymphoma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -889,6 +1191,9 @@
                         <OrphaNumber>50251</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=50251</ExpertLink>
                         <Name lang="en">Pleural mesothelioma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -898,6 +1203,9 @@
                         <OrphaNumber>64741</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64741</ExpertLink>
                         <Name lang="en">Pulmonary blastoma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -907,6 +1215,9 @@
                         <OrphaNumber>64742</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64742</ExpertLink>
                         <Name lang="en">Pleuropulmonary blastoma</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="5">
                         <ClassificationNode>
@@ -914,6 +1225,9 @@
                             <OrphaNumber>99933</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99933</ExpertLink>
                             <Name lang="en">Pleuropulmonary blastoma type 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -923,6 +1237,9 @@
                             <OrphaNumber>99934</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99934</ExpertLink>
                             <Name lang="en">Pleuropulmonary blastoma type 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -932,6 +1249,9 @@
                             <OrphaNumber>99935</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99935</ExpertLink>
                             <Name lang="en">Pleuropulmonary blastoma type 3</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -941,6 +1261,9 @@
                             <OrphaNumber>284343</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284343</ExpertLink>
                             <Name lang="en">Pleuropulmonary blastoma familial tumor susceptibility syndrome</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -950,6 +1273,9 @@
                             <OrphaNumber>284362</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284362</ExpertLink>
                             <Name lang="en">Fetal lung interstitial tumor</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -961,6 +1287,9 @@
                         <OrphaNumber>70573</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70573</ExpertLink>
                         <Name lang="en">Small cell lung cancer</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -970,6 +1299,9 @@
                         <OrphaNumber>97287</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97287</ExpertLink>
                         <Name lang="en">Bronchial neuroendocrine tumor</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -979,6 +1311,9 @@
                         <OrphaNumber>284395</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284395</ExpertLink>
                         <Name lang="en">Well-differentiated fetal adenocarcinoma of the lung</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -992,6 +1327,9 @@
                 <OrphaNumber>101944</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101944</ExpertLink>
                 <Name lang="en">Rare pulmonary disease</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="38">
                 <ClassificationNode>
@@ -999,6 +1337,9 @@
                     <OrphaNumber>586</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=586</ExpertLink>
                     <Name lang="en">Cystic fibrosis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1008,6 +1349,9 @@
                     <OrphaNumber>60</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60</ExpertLink>
                     <Name lang="en">Alpha-1-antitrypsin deficiency</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1017,6 +1361,9 @@
                     <OrphaNumber>2140</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2140</ExpertLink>
                     <Name lang="en">Congenital diaphragmatic hernia</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1026,6 +1373,9 @@
                     <OrphaNumber>2903</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2903</ExpertLink>
                     <Name lang="en">Familial spontaneous pneumothorax</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1035,6 +1385,9 @@
                     <OrphaNumber>244</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=244</ExpertLink>
                     <Name lang="en">Primary ciliary dyskinesia</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1044,6 +1397,9 @@
                     <OrphaNumber>1164</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1164</ExpertLink>
                     <Name lang="en">Allergic bronchopulmonary aspergillosis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1053,6 +1409,9 @@
                     <OrphaNumber>3389</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3389</ExpertLink>
                     <Name lang="en">Tuberculosis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1062,6 +1421,9 @@
                     <OrphaNumber>3471</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3471</ExpertLink>
                     <Name lang="en">Young syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1071,6 +1433,9 @@
                     <OrphaNumber>3167</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3167</ExpertLink>
                     <Name lang="en">Siegler-Brewer-Carey syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1080,6 +1445,9 @@
                     <OrphaNumber>1303</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1303</ExpertLink>
                     <Name lang="en">Bronchiolitis obliterans with obstructive pulmonary disease</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1089,6 +1457,9 @@
                     <OrphaNumber>3348</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3348</ExpertLink>
                     <Name lang="en">Tracheobronchopathia osteochondroplastica</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1098,6 +1469,9 @@
                     <OrphaNumber>36238</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=36238</ExpertLink>
                     <Name lang="en">Staphylococcal necrotizing pneumonia</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1107,6 +1481,9 @@
                     <OrphaNumber>60026</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60026</ExpertLink>
                     <Name lang="en">Pulmonary nodular lymphoid hyperplasia</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1116,6 +1493,9 @@
                     <OrphaNumber>60032</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60032</ExpertLink>
                     <Name lang="en">Recurrent respiratory papillomatosis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1125,6 +1505,9 @@
                     <OrphaNumber>60033</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60033</ExpertLink>
                     <Name lang="en">Idiopathic bronchiectasis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1134,6 +1517,9 @@
                     <OrphaNumber>70588</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70588</ExpertLink>
                     <Name lang="en">Meconium aspiration syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1143,6 +1529,9 @@
                     <OrphaNumber>70590</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70590</ExpertLink>
                     <Name lang="en">Infantile apnea</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="1">
                     <ClassificationNode>
@@ -1150,6 +1539,9 @@
                         <OrphaNumber>99981</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99981</ExpertLink>
                         <Name lang="en">Apnea of prematurity</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1161,6 +1553,9 @@
                     <OrphaNumber>90060</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90060</ExpertLink>
                     <Name lang="en">Diffuse alveolar hemorrhage</Name>
+                    <DisorderType id="21422">
+                      <Name lang="en">Clinical syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1170,6 +1565,9 @@
                     <OrphaNumber>90291</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90291</ExpertLink>
                     <Name lang="en">Systemic sclerosis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="4">
                     <ClassificationNode>
@@ -1177,6 +1575,9 @@
                         <OrphaNumber>90290</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90290</ExpertLink>
                         <Name lang="en">CREST syndrome</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1186,6 +1587,9 @@
                         <OrphaNumber>220393</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=220393</ExpertLink>
                         <Name lang="en">Diffuse cutaneous systemic sclerosis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1195,6 +1599,9 @@
                         <OrphaNumber>220402</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=220402</ExpertLink>
                         <Name lang="en">Limited cutaneous systemic sclerosis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1204,6 +1611,9 @@
                         <OrphaNumber>220407</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=220407</ExpertLink>
                         <Name lang="en">Limited systemic sclerosis</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -1215,6 +1625,9 @@
                     <OrphaNumber>140896</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=140896</ExpertLink>
                     <Name lang="en">Severe acute respiratory syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1224,6 +1637,9 @@
                     <OrphaNumber>168593</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=168593</ExpertLink>
                     <Name lang="en">Sudden infant death-dysgenesis of the testes syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1233,6 +1649,9 @@
                     <OrphaNumber>171700</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=171700</ExpertLink>
                     <Name lang="en">Diffuse panbronchiolitis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1242,6 +1661,9 @@
                     <OrphaNumber>178320</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178320</ExpertLink>
                     <Name lang="en">Acute lung injury</Name>
+                    <DisorderType id="21422">
+                      <Name lang="en">Clinical syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -1251,6 +1673,9 @@
                     <OrphaNumber>182095</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182095</ExpertLink>
                     <Name lang="en">Interstitial lung disease</Name>
+                    <DisorderType id="36561">
+                      <Name lang="en">Category</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="3">
                     <ClassificationNode>
@@ -1258,6 +1683,9 @@
                         <OrphaNumber>264656</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264656</ExpertLink>
                         <Name lang="en">Interstitial lung disease specific to childhood</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -1265,6 +1693,9 @@
                             <OrphaNumber>264665</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264665</ExpertLink>
                             <Name lang="en">Primary interstitial lung disease specific to childhood</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="4">
                             <ClassificationNode>
@@ -1272,6 +1703,9 @@
                                 <OrphaNumber>137631</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137631</ExpertLink>
                                 <Name lang="en">Lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1281,6 +1715,9 @@
                                 <OrphaNumber>264670</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264670</ExpertLink>
                                 <Name lang="en">Primary interstitial lung disease specific to childhood due to alveolar structure disorder</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
@@ -1288,6 +1725,9 @@
                                     <OrphaNumber>70587</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70587</ExpertLink>
                                     <Name lang="en">Infant acute respiratory distress syndrome</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1297,13 +1737,19 @@
                                     <OrphaNumber>100049</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100049</ExpertLink>
                                     <Name lang="en">Primary interstitial lung disease specific to childhood due to pulmonary surfactant protein anomalies</Name>
+                                    <DisorderType id="36561">
+                                      <Name lang="en">Category</Name>
+                                    </DisorderType>
                                   </Disorder>
-                                  <ClassificationNodeChildList count="5">
+                                  <ClassificationNodeChildList count="6">
                                     <ClassificationNode>
                                       <Disorder id="18666">
                                         <OrphaNumber>209905</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=209905</ExpertLink>
                                         <Name lang="en">Brain-lung-thyroid syndrome</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1313,6 +1759,9 @@
                                         <OrphaNumber>217563</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217563</ExpertLink>
                                         <Name lang="en">Neonatal acute respiratory distress due to SP-B deficiency</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1322,6 +1771,9 @@
                                         <OrphaNumber>264675</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264675</ExpertLink>
                                         <Name lang="en">Hereditary pulmonary alveolar proteinosis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1331,6 +1783,9 @@
                                         <OrphaNumber>440402</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440402</ExpertLink>
                                         <Name lang="en">Interstitial lung disease due to ABCA3 deficiency</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1340,6 +1795,21 @@
                                         <OrphaNumber>440427</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440427</ExpertLink>
                                         <Name lang="en">Severe early-onset pulmonary alveolar proteinosis due to MARS deficiency</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
+                                      </Disorder>
+                                      <ClassificationNodeChildList count="0">
+                                      </ClassificationNodeChildList>
+                                    </ClassificationNode>
+                                    <ClassificationNode>
+                                      <Disorder id="28746">
+                                        <OrphaNumber>572428</OrphaNumber>
+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=572428</ExpertLink>
+                                        <Name lang="en">Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1351,6 +1821,9 @@
                                     <OrphaNumber>306504</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306504</ExpertLink>
                                     <Name lang="en">Junctional epidermolysis bullosa with respiratory and renal involvement</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1362,6 +1835,9 @@
                                 <OrphaNumber>264683</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264683</ExpertLink>
                                 <Name lang="en">Primary interstitial lung disease specific to childhood due to alveolar vascular disorder</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="6">
                                 <ClassificationNode>
@@ -1369,6 +1845,9 @@
                                     <OrphaNumber>2414</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2414</ExpertLink>
                                     <Name lang="en">Congenital pulmonary lymphangiectasia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1378,6 +1857,9 @@
                                     <OrphaNumber>662</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=662</ExpertLink>
                                     <Name lang="en">Yellow nail syndrome</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1387,6 +1869,9 @@
                                     <OrphaNumber>210122</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=210122</ExpertLink>
                                     <Name lang="en">Congenital alveolar capillary dysplasia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1396,6 +1881,9 @@
                                     <OrphaNumber>264688</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264688</ExpertLink>
                                     <Name lang="en">Congenital chylothorax</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1405,6 +1893,9 @@
                                     <OrphaNumber>264691</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264691</ExpertLink>
                                     <Name lang="en">Isolated pulmonary capillaritis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1414,6 +1905,9 @@
                                     <OrphaNumber>352629</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352629</ExpertLink>
                                     <Name lang="en">16q24.1 microdeletion syndrome</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1425,6 +1919,9 @@
                                 <OrphaNumber>264694</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264694</ExpertLink>
                                 <Name lang="en">Interstitial lung disease specific to infancy</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="3">
                                 <ClassificationNode>
@@ -1432,6 +1929,9 @@
                                     <OrphaNumber>91359</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91359</ExpertLink>
                                     <Name lang="en">Chronic pneumonitis of infancy</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1441,6 +1941,9 @@
                                     <OrphaNumber>217557</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217557</ExpertLink>
                                     <Name lang="en">Pulmonary interstitial glycogenosis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1450,6 +1953,9 @@
                                     <OrphaNumber>217560</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217560</ExpertLink>
                                     <Name lang="en">Neuroendocrine cell hyperplasia of infancy</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1463,6 +1969,9 @@
                             <OrphaNumber>264699</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264699</ExpertLink>
                             <Name lang="en">Secondary interstitial lung disease specific to childhood associated with a systemic disease</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="5">
                             <ClassificationNode>
@@ -1470,6 +1979,9 @@
                                 <OrphaNumber>264704</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264704</ExpertLink>
                                 <Name lang="en">Secondary interstitial lung disease specific to childhood associated with a connective tissue disease</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="4">
                                 <ClassificationNode>
@@ -1477,6 +1989,9 @@
                                     <OrphaNumber>92</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=92</ExpertLink>
                                     <Name lang="en">Juvenile idiopathic arthritis</Name>
+                                    <DisorderType id="21436">
+                                      <Name lang="en">Clinical group</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="6">
                                     <ClassificationNode>
@@ -1484,6 +1999,9 @@
                                         <OrphaNumber>85410</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85410</ExpertLink>
                                         <Name lang="en">Oligoarticular juvenile idiopathic arthritis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="2">
                                         <ClassificationNode>
@@ -1491,6 +2009,9 @@
                                             <OrphaNumber>247839</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247839</ExpertLink>
                                             <Name lang="en">Oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="en">Etiological subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -1500,6 +2021,9 @@
                                             <OrphaNumber>247846</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247846</ExpertLink>
                                             <Name lang="en">Oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="en">Etiological subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -1511,6 +2035,9 @@
                                         <OrphaNumber>85414</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85414</ExpertLink>
                                         <Name lang="en">Systemic-onset juvenile idiopathic arthritis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1520,6 +2047,9 @@
                                         <OrphaNumber>85436</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85436</ExpertLink>
                                         <Name lang="en">Psoriasis-related juvenile idiopathic arthritis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1529,6 +2059,9 @@
                                         <OrphaNumber>85438</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85438</ExpertLink>
                                         <Name lang="en">Enthesitis-related juvenile idiopathic arthritis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1538,6 +2071,9 @@
                                         <OrphaNumber>91140</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91140</ExpertLink>
                                         <Name lang="en">Unspecified juvenile idiopathic arthritis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1547,6 +2083,9 @@
                                         <OrphaNumber>404580</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404580</ExpertLink>
                                         <Name lang="en">Polyarticular juvenile idiopathic arthritis</Name>
+                                        <DisorderType id="21436">
+                                          <Name lang="en">Clinical group</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="2">
                                         <ClassificationNode>
@@ -1554,6 +2093,9 @@
                                             <OrphaNumber>85408</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85408</ExpertLink>
                                             <Name lang="en">Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="2">
                                             <ClassificationNode>
@@ -1561,6 +2103,9 @@
                                                 <OrphaNumber>247854</OrphaNumber>
                                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247854</ExpertLink>
                                                 <Name lang="en">Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="en">Etiological subtype</Name>
+                                                </DisorderType>
                                               </Disorder>
                                               <ClassificationNodeChildList count="0">
                                               </ClassificationNodeChildList>
@@ -1570,6 +2115,9 @@
                                                 <OrphaNumber>247861</OrphaNumber>
                                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247861</ExpertLink>
                                                 <Name lang="en">Rheumatoid factor-negative juvenile idiopathic arthritis without anti-nuclear antibodies</Name>
+                                                <DisorderType id="21443">
+                                                  <Name lang="en">Etiological subtype</Name>
+                                                </DisorderType>
                                               </Disorder>
                                               <ClassificationNodeChildList count="0">
                                               </ClassificationNodeChildList>
@@ -1581,6 +2129,9 @@
                                             <OrphaNumber>85435</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85435</ExpertLink>
                                             <Name lang="en">Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -1594,6 +2145,9 @@
                                     <OrphaNumber>93552</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93552</ExpertLink>
                                     <Name lang="en">Pediatric systemic lupus erythematosus</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1603,6 +2157,9 @@
                                     <OrphaNumber>93568</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93568</ExpertLink>
                                     <Name lang="en">Juvenile polymyositis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1612,6 +2169,9 @@
                                     <OrphaNumber>93672</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93672</ExpertLink>
                                     <Name lang="en">Juvenile dermatomyositis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1623,6 +2183,9 @@
                                 <OrphaNumber>264709</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264709</ExpertLink>
                                 <Name lang="en">Secondary interstitial lung disease specific to childhood associated with a systemic vasculitis</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="1">
                                 <ClassificationNode>
@@ -1630,6 +2193,9 @@
                                     <OrphaNumber>761</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=761</ExpertLink>
                                     <Name lang="en">Immunoglobulin A vasculitis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1641,6 +2207,9 @@
                                 <OrphaNumber>264714</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264714</ExpertLink>
                                 <Name lang="en">Secondary interstitial lung disease specific to childhood associated with a granulomatous disease</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
@@ -1648,6 +2217,9 @@
                                     <OrphaNumber>379</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=379</ExpertLink>
                                     <Name lang="en">Chronic granulomatous disease</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1657,6 +2229,9 @@
                                     <OrphaNumber>90340</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90340</ExpertLink>
                                     <Name lang="en">Blau syndrome</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1668,6 +2243,9 @@
                                 <OrphaNumber>264719</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264719</ExpertLink>
                                 <Name lang="en">Secondary interstitial lung disease specific to childhood associated with a metabolic disease</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="5">
                                 <ClassificationNode>
@@ -1675,6 +2253,9 @@
                                     <OrphaNumber>405</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=405</ExpertLink>
                                     <Name lang="en">Familial hypocalciuric hypercalcemia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="3">
                                     <ClassificationNode>
@@ -1682,6 +2263,9 @@
                                         <OrphaNumber>93372</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93372</ExpertLink>
                                         <Name lang="en">Familial hypocalciuric hypercalcemia type 1</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="en">Etiological subtype</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1691,6 +2275,9 @@
                                         <OrphaNumber>101049</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101049</ExpertLink>
                                         <Name lang="en">Familial hypocalciuric hypercalcemia type 2</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="en">Etiological subtype</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1700,6 +2287,9 @@
                                         <OrphaNumber>101050</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101050</ExpertLink>
                                         <Name lang="en">Familial hypocalciuric hypercalcemia type 3</Name>
+                                        <DisorderType id="21443">
+                                          <Name lang="en">Etiological subtype</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -1711,6 +2301,9 @@
                                     <OrphaNumber>77260</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77260</ExpertLink>
                                     <Name lang="en">Gaucher disease type 2</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="en">Clinical subtype</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1720,6 +2313,9 @@
                                     <OrphaNumber>77261</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77261</ExpertLink>
                                     <Name lang="en">Gaucher disease type 3</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="en">Clinical subtype</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1729,6 +2325,9 @@
                                     <OrphaNumber>77293</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77293</ExpertLink>
                                     <Name lang="en">Niemann-Pick disease type B</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1738,6 +2337,9 @@
                                     <OrphaNumber>231500</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=231500</ExpertLink>
                                     <Name lang="en">Hermansky-Pudlak syndrome with pulmonary fibrosis</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="en">Clinical subtype</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1749,6 +2351,9 @@
                                 <OrphaNumber>444092</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=444092</ExpertLink>
                                 <Name lang="en">Autoimmune interstitial lung disease-arthritis syndrome</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1762,6 +2367,9 @@
                         <OrphaNumber>264735</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264735</ExpertLink>
                         <Name lang="en">Interstitial lung disease specific to adulthood</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -1769,6 +2377,9 @@
                             <OrphaNumber>264740</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264740</ExpertLink>
                             <Name lang="en">Primary interstitial lung disease specific to adulthood</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="8">
                             <ClassificationNode>
@@ -1776,6 +2387,9 @@
                                 <OrphaNumber>122</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=122</ExpertLink>
                                 <Name lang="en">Birt-Hogg-Dubé syndrome</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="en">Malformation syndrome</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1785,6 +2399,9 @@
                                 <OrphaNumber>538</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=538</ExpertLink>
                                 <Name lang="en">Lymphangioleiomyomatosis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1794,6 +2411,9 @@
                                 <OrphaNumber>747</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=747</ExpertLink>
                                 <Name lang="en">Autoimmune pulmonary alveolar proteinosis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1803,6 +2423,9 @@
                                 <OrphaNumber>70578</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70578</ExpertLink>
                                 <Name lang="en">Adult acute respiratory distress syndrome</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1812,6 +2435,9 @@
                                 <OrphaNumber>98300</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98300</ExpertLink>
                                 <Name lang="en">Idiopathic interstitial pneumonia</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="en">Clinical group</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="9">
                                 <ClassificationNode>
@@ -1819,6 +2445,9 @@
                                     <OrphaNumber>2032</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2032</ExpertLink>
                                     <Name lang="en">Idiopathic pulmonary fibrosis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1828,6 +2457,9 @@
                                     <OrphaNumber>1302</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1302</ExpertLink>
                                     <Name lang="en">Cryptogenic organizing pneumonia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1837,6 +2469,9 @@
                                     <OrphaNumber>79126</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79126</ExpertLink>
                                     <Name lang="en">Acute interstitial pneumonia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1846,6 +2481,9 @@
                                     <OrphaNumber>79127</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79127</ExpertLink>
                                     <Name lang="en">Respiratory bronchiolitis-interstitial lung disease syndrome</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1855,6 +2493,9 @@
                                     <OrphaNumber>79128</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79128</ExpertLink>
                                     <Name lang="en">Lymphoid interstitial pneumonia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1864,6 +2505,9 @@
                                     <OrphaNumber>91364</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91364</ExpertLink>
                                     <Name lang="en">Non-specific interstitial pneumonia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1873,6 +2517,9 @@
                                     <OrphaNumber>98852</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98852</ExpertLink>
                                     <Name lang="en">Desquamative interstitial pneumonia</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1882,6 +2529,9 @@
                                     <OrphaNumber>300564</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=300564</ExpertLink>
                                     <Name lang="en">Combined pulmonary fibrosis-emphysema syndrome</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1891,6 +2541,9 @@
                                     <OrphaNumber>494428</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=494428</ExpertLink>
                                     <Name lang="en">Idiopathic pleuroparenchymal fibroelastosis</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1902,6 +2555,9 @@
                                 <OrphaNumber>182098</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182098</ExpertLink>
                                 <Name lang="en">Pneumoconiosis</Name>
+                                <DisorderType id="21436">
+                                  <Name lang="en">Clinical group</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
@@ -1909,6 +2565,9 @@
                                     <OrphaNumber>2302</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2302</ExpertLink>
                                     <Name lang="en">Asbestos intoxication</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1918,6 +2577,9 @@
                                     <OrphaNumber>133</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=133</ExpertLink>
                                     <Name lang="en">Chronic beryllium disease</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -1929,6 +2591,9 @@
                                 <OrphaNumber>210136</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=210136</ExpertLink>
                                 <Name lang="en">Pulmonary fibrosis-hepatic hyperplasia-bone marrow hypoplasia syndrome</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1938,6 +2603,9 @@
                                 <OrphaNumber>221043</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=221043</ExpertLink>
                                 <Name lang="en">Hereditary fibrosing poikiloderma-tendon contractures-myopathy-pulmonary fibrosis syndrome</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1949,6 +2617,9 @@
                             <OrphaNumber>264745</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264745</ExpertLink>
                             <Name lang="en">Secondary interstitial lung disease specific to adulthood associated with a systemic disease</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="1">
                             <ClassificationNode>
@@ -1956,6 +2627,9 @@
                                 <OrphaNumber>797</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=797</ExpertLink>
                                 <Name lang="en">Sarcoidosis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1969,6 +2643,9 @@
                         <OrphaNumber>264757</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264757</ExpertLink>
                         <Name lang="en">Interstitial lung disease in childhood and adulthood</Name>
+                        <DisorderType id="36561">
+                          <Name lang="en">Category</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -1976,6 +2653,9 @@
                             <OrphaNumber>264762</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264762</ExpertLink>
                             <Name lang="en">Primary interstitial lung disease in childhood and adulthood</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="3">
                             <ClassificationNode>
@@ -1983,6 +2663,9 @@
                                 <OrphaNumber>99931</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99931</ExpertLink>
                                 <Name lang="en">Idiopathic pulmonary hemosiderosis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -1992,6 +2675,9 @@
                                 <OrphaNumber>264930</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264930</ExpertLink>
                                 <Name lang="en">Primary interstitial lung disease in childhood and adulthood due to alveolar structure disorder</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
@@ -1999,6 +2685,9 @@
                                     <OrphaNumber>217566</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217566</ExpertLink>
                                     <Name lang="en">Chronic respiratory distress with surfactant metabolism deficiency</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -2008,6 +2697,9 @@
                                     <OrphaNumber>440392</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440392</ExpertLink>
                                     <Name lang="en">Interstitial lung disease due to SP-C deficiency</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -2019,6 +2711,9 @@
                                 <OrphaNumber>264935</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264935</ExpertLink>
                                 <Name lang="en">Primary interstitial lung disease in childhood and adulthood due to alveolar vascular disorder</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="1">
                                 <ClassificationNode>
@@ -2026,6 +2721,9 @@
                                     <OrphaNumber>182101</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182101</ExpertLink>
                                     <Name lang="en">Idiopathic eosinophilic pneumonia</Name>
+                                    <DisorderType id="21436">
+                                      <Name lang="en">Clinical group</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
                                     <ClassificationNode>
@@ -2033,6 +2731,9 @@
                                         <OrphaNumber>2902</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2902</ExpertLink>
                                         <Name lang="en">Idiopathic chronic eosinophilic pneumonia</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -2042,6 +2743,9 @@
                                         <OrphaNumber>724</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=724</ExpertLink>
                                         <Name lang="en">Idiopathic acute eosinophilic pneumonia</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -2057,6 +2761,9 @@
                             <OrphaNumber>264944</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264944</ExpertLink>
                             <Name lang="en">Secondary interstitial lung disease in childhood and adulthood</Name>
+                            <DisorderType id="36561">
+                              <Name lang="en">Category</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="4">
                             <ClassificationNode>
@@ -2064,6 +2771,9 @@
                                 <OrphaNumber>99930</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99930</ExpertLink>
                                 <Name lang="en">Secondary pulmonary hemosiderosis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="1">
                                 <ClassificationNode>
@@ -2071,6 +2781,9 @@
                                     <OrphaNumber>99932</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99932</ExpertLink>
                                     <Name lang="en">Heiner syndrome</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="en">Clinical subtype</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -2082,6 +2795,9 @@
                                 <OrphaNumber>264949</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264949</ExpertLink>
                                 <Name lang="en">Secondary interstitial lung disease in childhood and adulthood associated with a systemic disease</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="4">
                                 <ClassificationNode>
@@ -2089,6 +2805,9 @@
                                     <OrphaNumber>375</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=375</ExpertLink>
                                     <Name lang="en">Anti-glomerular basement membrane disease</Name>
+                                    <DisorderType id="21394">
+                                      <Name lang="en">Disease</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -2098,6 +2817,9 @@
                                     <OrphaNumber>182104</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=182104</ExpertLink>
                                     <Name lang="en">Secondary interstitial lung disease in childhood and adulthood associated with a connective tissue disease</Name>
+                                    <DisorderType id="36561">
+                                      <Name lang="en">Category</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="1">
                                     <ClassificationNode>
@@ -2105,6 +2827,9 @@
                                         <OrphaNumber>809</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=809</ExpertLink>
                                         <Name lang="en">Mixed connective tissue disease</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -2116,6 +2841,9 @@
                                     <OrphaNumber>264968</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264968</ExpertLink>
                                     <Name lang="en">Secondary interstitial lung disease in childhood and adulthood associated with a metabolic disease</Name>
+                                    <DisorderType id="36561">
+                                      <Name lang="en">Category</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
                                     <ClassificationNode>
@@ -2123,6 +2851,9 @@
                                         <OrphaNumber>646</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=646</ExpertLink>
                                         <Name lang="en">Niemann-Pick disease type C</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="5">
                                         <ClassificationNode>
@@ -2130,6 +2861,9 @@
                                             <OrphaNumber>216972</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=216972</ExpertLink>
                                             <Name lang="en">Niemann-Pick disease type C, severe perinatal form</Name>
+                                            <DisorderType id="21450">
+                                              <Name lang="en">Clinical subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2139,6 +2873,9 @@
                                             <OrphaNumber>216975</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=216975</ExpertLink>
                                             <Name lang="en">Niemann-Pick disease type C, severe early infantile neurologic onset</Name>
+                                            <DisorderType id="21450">
+                                              <Name lang="en">Clinical subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2148,6 +2885,9 @@
                                             <OrphaNumber>216978</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=216978</ExpertLink>
                                             <Name lang="en">Niemann-Pick disease type C, late infantile neurologic onset</Name>
+                                            <DisorderType id="21450">
+                                              <Name lang="en">Clinical subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2157,6 +2897,9 @@
                                             <OrphaNumber>216981</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=216981</ExpertLink>
                                             <Name lang="en">Niemann-Pick disease type C, juvenile neurologic onset</Name>
+                                            <DisorderType id="21450">
+                                              <Name lang="en">Clinical subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2166,6 +2909,9 @@
                                             <OrphaNumber>216986</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=216986</ExpertLink>
                                             <Name lang="en">Niemann-Pick disease type C, adult neurologic onset</Name>
+                                            <DisorderType id="21450">
+                                              <Name lang="en">Clinical subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2177,6 +2923,9 @@
                                         <OrphaNumber>77259</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77259</ExpertLink>
                                         <Name lang="en">Gaucher disease type 1</Name>
+                                        <DisorderType id="21450">
+                                          <Name lang="en">Clinical subtype</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -2188,6 +2937,9 @@
                                     <OrphaNumber>264973</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264973</ExpertLink>
                                     <Name lang="en">Secondary interstitial lung disease in childhood and adulthood associated with a systemic vasculitis</Name>
+                                    <DisorderType id="36561">
+                                      <Name lang="en">Category</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
                                     <ClassificationNode>
@@ -2195,6 +2947,9 @@
                                         <OrphaNumber>91138</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91138</ExpertLink>
                                         <Name lang="en">Cryoglobulinemic vasculitis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="2">
                                         <ClassificationNode>
@@ -2202,6 +2957,9 @@
                                             <OrphaNumber>93554</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93554</ExpertLink>
                                             <Name lang="en">Type II mixed cryoglobulinemia</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="en">Etiological subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2211,6 +2969,9 @@
                                             <OrphaNumber>93555</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93555</ExpertLink>
                                             <Name lang="en">Mixed cryoglobulinemia type III</Name>
+                                            <DisorderType id="21443">
+                                              <Name lang="en">Etiological subtype</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2222,6 +2983,9 @@
                                         <OrphaNumber>156152</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=156152</ExpertLink>
                                         <Name lang="en">Anti-neutrophil cytoplasmic antibody-associated vasculitis</Name>
+                                        <DisorderType id="21436">
+                                          <Name lang="en">Clinical group</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="3">
                                         <ClassificationNode>
@@ -2229,6 +2993,9 @@
                                             <OrphaNumber>183</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=183</ExpertLink>
                                             <Name lang="en">Eosinophilic granulomatosis with polyangiitis</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2238,6 +3005,9 @@
                                             <OrphaNumber>727</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=727</ExpertLink>
                                             <Name lang="en">Microscopic polyangiitis</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2247,6 +3017,9 @@
                                             <OrphaNumber>900</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=900</ExpertLink>
                                             <Name lang="en">Granulomatosis with polyangiitis</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2262,6 +3035,9 @@
                                 <OrphaNumber>264984</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264984</ExpertLink>
                                 <Name lang="en">Exposure-related interstitial lung disease</Name>
+                                <DisorderType id="36561">
+                                  <Name lang="en">Category</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="2">
                                 <ClassificationNode>
@@ -2269,6 +3045,9 @@
                                     <OrphaNumber>31740</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31740</ExpertLink>
                                     <Name lang="en">Hypersensitivity pneumonitis</Name>
+                                    <DisorderType id="21436">
+                                      <Name lang="en">Clinical group</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="2">
                                     <ClassificationNode>
@@ -2276,6 +3055,9 @@
                                         <OrphaNumber>99907</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99907</ExpertLink>
                                         <Name lang="en">House allergic alveolitis</Name>
+                                        <DisorderType id="21394">
+                                          <Name lang="en">Disease</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="0">
                                       </ClassificationNodeChildList>
@@ -2285,6 +3067,9 @@
                                         <OrphaNumber>99909</OrphaNumber>
                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99909</ExpertLink>
                                         <Name lang="en">Occupational allergic alveolitis</Name>
+                                        <DisorderType id="21436">
+                                          <Name lang="en">Clinical group</Name>
+                                        </DisorderType>
                                       </Disorder>
                                       <ClassificationNodeChildList count="2">
                                         <ClassificationNode>
@@ -2292,6 +3077,9 @@
                                             <OrphaNumber>99906</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99906</ExpertLink>
                                             <Name lang="en">Farmer's lung disease</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2301,6 +3089,9 @@
                                             <OrphaNumber>99908</OrphaNumber>
                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99908</ExpertLink>
                                             <Name lang="en">Pigeon-breeder lung disease</Name>
+                                            <DisorderType id="21394">
+                                              <Name lang="en">Disease</Name>
+                                            </DisorderType>
                                           </Disorder>
                                           <ClassificationNodeChildList count="0">
                                           </ClassificationNodeChildList>
@@ -2314,6 +3105,9 @@
                                     <OrphaNumber>264978</OrphaNumber>
                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=264978</ExpertLink>
                                     <Name lang="en">Drug or radiation exposure-related interstitial lung disease</Name>
+                                    <DisorderType id="21429">
+                                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                                    </DisorderType>
                                   </Disorder>
                                   <ClassificationNodeChildList count="0">
                                   </ClassificationNodeChildList>
@@ -2325,6 +3119,9 @@
                                 <OrphaNumber>420259</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=420259</ExpertLink>
                                 <Name lang="en">Secondary pulmonary alveolar proteinosis</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -2340,6 +3137,9 @@
                     <OrphaNumber>228426</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228426</ExpertLink>
                     <Name lang="en">Syndromic multisystem autoimmune disease due to Itch deficiency</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2349,6 +3149,9 @@
                     <OrphaNumber>247522</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247522</ExpertLink>
                     <Name lang="en">Primary ciliary dyskinesia-retinitis pigmentosa syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2358,6 +3161,9 @@
                     <OrphaNumber>411703</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=411703</ExpertLink>
                     <Name lang="en">Pulmonary non-tuberculous mycobacterial infection</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2367,6 +3173,9 @@
                     <OrphaNumber>439881</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=439881</ExpertLink>
                     <Name lang="en">Plastic bronchitis</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2376,6 +3185,9 @@
                     <OrphaNumber>330012</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=330012</ExpertLink>
                     <Name lang="en">High altitude pulmonary edema</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2385,6 +3197,9 @@
                     <OrphaNumber>293987</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293987</ExpertLink>
                     <Name lang="en">Rapid-onset childhood obesity-hypothalamic dysfunction-hypoventilation-autonomic dysregulation syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2394,6 +3209,9 @@
                     <OrphaNumber>505248</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=505248</ExpertLink>
                     <Name lang="en">Mucopolysaccharidosis-like syndrome with congenital heart defects and hematopoietic disorders</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2403,6 +3221,9 @@
                     <OrphaNumber>90066</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90066</ExpertLink>
                     <Name lang="en">Pneumonia caused by Pseudomonas aeruginosa infection</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2412,6 +3233,9 @@
                     <OrphaNumber>449266</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449266</ExpertLink>
                     <Name lang="en">Pleural empyema</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2421,6 +3245,9 @@
                     <OrphaNumber>454836</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=454836</ExpertLink>
                     <Name lang="en">Avian influenza</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2430,6 +3257,9 @@
                     <OrphaNumber>505395</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=505395</ExpertLink>
                     <Name lang="en">Ventilator-induced diaphragmatic dysfunction</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2439,6 +3269,9 @@
                     <OrphaNumber>99803</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99803</ExpertLink>
                     <Name lang="en">Haddad syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2448,6 +3281,9 @@
                     <OrphaNumber>661</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=661</ExpertLink>
                     <Name lang="en">Ondine syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2457,6 +3293,9 @@
                     <OrphaNumber>217080</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217080</ExpertLink>
                     <Name lang="en">Pulmonary fungal infections in patients deemed at risk</Name>
+                    <DisorderType id="21429">
+                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -2468,13 +3307,16 @@
                 <OrphaNumber>289877</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289877</ExpertLink>
                 <Name lang="en">Transient hyperammonemia of the newborn</Name>
+                <DisorderType id="21429">
+                  <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

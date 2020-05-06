@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-04-01 05:15:55" version="1.3.1 / 4.1.7 [2019-11-24] (orientdb version)" copyright="Orphanet (c) 2020">
+<JDBOR date="2020-05-04 04:04:55" version="1.3.1 / 4.1.7 [2019-11-24] (orientdb version)" copyright="Orphanet (c) 2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -7,19 +7,33 @@
       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
     </Licence>
   </Availability>
-  <DisorderList count="1">
-    <Disorder id="12980">
-      <OrphaNumber>97962</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97962</ExpertLink>
-      <Name lang="en">Rare surgical thoracic disease</Name>
-      <ClassificationNodeList count="1">
+  <ClassificationList count="1">
+    <Classification id="186">
+      <OrphaNumber>162709</OrphaNumber>
+      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=162709</ExpertLink>
+      <ClassificationFlagList count="1">
+        <ClassificationFlag id="28">
+          <Value>2</Value>
+          <Label>Pat</Label>
+        </ClassificationFlag>
+      </ClassificationFlagList>
+      <Name lang="en">Orphanet classification of rare surgical thoracic diseases</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="12980">
+            <OrphaNumber>97962</OrphaNumber>
+            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97962</ExpertLink>
+            <Name lang="en">Rare surgical thoracic disease</Name>
+          </Disorder>
           <ClassificationNodeChildList count="6">
             <ClassificationNode>
               <Disorder id="12889">
                 <OrphaNumber>97330</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97330</ExpertLink>
                 <Name lang="en">Thoracic outlet syndrome</Name>
+                <DisorderType id="21394">
+                  <Name lang="en">Disease</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
@@ -27,6 +41,9 @@
                     <OrphaNumber>100073</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100073</ExpertLink>
                     <Name lang="en">Neurogenic thoracic outlet syndrome</Name>
+                    <DisorderType id="21450">
+                      <Name lang="en">Clinical subtype</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -36,6 +53,9 @@
                     <OrphaNumber>357107</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357107</ExpertLink>
                     <Name lang="en">Arterial thoracic outlet syndrome</Name>
+                    <DisorderType id="21450">
+                      <Name lang="en">Clinical subtype</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -45,6 +65,9 @@
                     <OrphaNumber>357131</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357131</ExpertLink>
                     <Name lang="en">Venous thoracic outlet syndrome</Name>
+                    <DisorderType id="21450">
+                      <Name lang="en">Clinical subtype</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -56,6 +79,9 @@
                 <OrphaNumber>108993</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108993</ExpertLink>
                 <Name lang="en">Non-syndromic respiratory or mediastinal malformation</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="4">
                 <ClassificationNode>
@@ -63,6 +89,9 @@
                     <OrphaNumber>3346</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3346</ExpertLink>
                     <Name lang="en">Tracheal agenesis</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -72,6 +101,9 @@
                     <OrphaNumber>1928</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1928</ExpertLink>
                     <Name lang="en">Congenital lobar emphysema</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -81,6 +113,9 @@
                     <OrphaNumber>2004</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2004</ExpertLink>
                     <Name lang="en">Laryngotracheoesophageal cleft</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="5">
                     <ClassificationNode>
@@ -88,6 +123,9 @@
                         <OrphaNumber>93938</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93938</ExpertLink>
                         <Name lang="en">Laryngotracheoesophageal cleft type 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -97,6 +135,9 @@
                         <OrphaNumber>93939</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93939</ExpertLink>
                         <Name lang="en">Laryngotracheoesophageal cleft type 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -106,6 +147,9 @@
                         <OrphaNumber>93940</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93940</ExpertLink>
                         <Name lang="en">Laryngotracheoesophageal cleft type 3</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -115,6 +159,9 @@
                         <OrphaNumber>93941</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93941</ExpertLink>
                         <Name lang="en">Laryngotracheoesophageal cleft type 4</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -124,6 +171,9 @@
                         <OrphaNumber>280205</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280205</ExpertLink>
                         <Name lang="en">Laryngotracheoesophageal cleft type 0</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -135,6 +185,9 @@
                     <OrphaNumber>454750</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=454750</ExpertLink>
                     <Name lang="en">Isolated tracheoesophageal fistula</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -146,6 +199,9 @@
                 <OrphaNumber>108995</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=108995</ExpertLink>
                 <Name lang="en">Syndromic respiratory or mediastinal malformation</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="1">
                 <ClassificationNode>
@@ -153,6 +209,9 @@
                     <OrphaNumber>2470</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2470</ExpertLink>
                     <Name lang="en">Matthew-Wood syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -164,6 +223,9 @@
                 <OrphaNumber>180776</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=180776</ExpertLink>
                 <Name lang="en">Non-syndromic diaphragmatic or thoracic malformation</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
@@ -171,6 +233,9 @@
                     <OrphaNumber>2140</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2140</ExpertLink>
                     <Name lang="en">Congenital diaphragmatic hernia</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -180,6 +245,9 @@
                     <OrphaNumber>2017</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2017</ExpertLink>
                     <Name lang="en">Sternal cleft</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -191,6 +259,9 @@
                 <OrphaNumber>180779</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=180779</ExpertLink>
                 <Name lang="en">Syndromic diaphragmatic or thoracic malformation</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="17">
                 <ClassificationNode>
@@ -198,6 +269,9 @@
                     <OrphaNumber>496693</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=496693</ExpertLink>
                     <Name lang="en">Omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -207,6 +281,9 @@
                     <OrphaNumber>480528</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480528</ExpertLink>
                     <Name lang="en">Lethal hydranencephaly-diaphragmatic hernia syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -216,6 +293,9 @@
                     <OrphaNumber>280</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280</ExpertLink>
                     <Name lang="en">Wolf-Hirschhorn syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -225,6 +305,9 @@
                     <OrphaNumber>199</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=199</ExpertLink>
                     <Name lang="en">Cornelia de Lange syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -234,6 +317,9 @@
                     <OrphaNumber>884</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=884</ExpertLink>
                     <Name lang="en">Tetrasomy 12p</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -243,6 +329,9 @@
                     <OrphaNumber>287</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=287</ExpertLink>
                     <Name lang="en">Classical Ehlers-Danlos syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -252,6 +341,9 @@
                     <OrphaNumber>373</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=373</ExpertLink>
                     <Name lang="en">Simpson-Golabi-Behmel syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -261,6 +353,9 @@
                     <OrphaNumber>991</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=991</ExpertLink>
                     <Name lang="en">PAGOD syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -270,6 +365,9 @@
                     <OrphaNumber>1335</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1335</ExpertLink>
                     <Name lang="en">Pentalogy of Cantrell</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -279,6 +377,9 @@
                     <OrphaNumber>2141</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2141</ExpertLink>
                     <Name lang="en">Diaphragmatic defect-limb deficiency-skull defect syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -288,6 +389,9 @@
                     <OrphaNumber>2143</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2143</ExpertLink>
                     <Name lang="en">Donnai-Barrow syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -297,6 +401,9 @@
                     <OrphaNumber>2322</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2322</ExpertLink>
                     <Name lang="en">Kabuki syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -306,6 +413,9 @@
                     <OrphaNumber>2470</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2470</ExpertLink>
                     <Name lang="en">Matthew-Wood syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -315,6 +425,9 @@
                     <OrphaNumber>209</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=209</ExpertLink>
                     <Name lang="en">Cutis laxa</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="11">
                     <ClassificationNode>
@@ -322,6 +435,9 @@
                         <OrphaNumber>2078</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2078</ExpertLink>
                         <Name lang="en">Geroderma osteodysplastica</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -331,6 +447,9 @@
                         <OrphaNumber>2962</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2962</ExpertLink>
                         <Name lang="en">De Barsy syndrome</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -338,6 +457,9 @@
                             <OrphaNumber>35664</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35664</ExpertLink>
                             <Name lang="en">ALDH18A1-related De Barsy syndrome</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -347,6 +469,9 @@
                             <OrphaNumber>293633</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293633</ExpertLink>
                             <Name lang="en">PYCR1-related De Barsy syndrome</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -358,6 +483,9 @@
                         <OrphaNumber>3134</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3134</ExpertLink>
                         <Name lang="en">SCARF syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -367,6 +495,9 @@
                         <OrphaNumber>3342</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3342</ExpertLink>
                         <Name lang="en">Arterial tortuosity syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -376,6 +507,9 @@
                         <OrphaNumber>198</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=198</ExpertLink>
                         <Name lang="en">Occipital horn syndrome</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -385,6 +519,9 @@
                         <OrphaNumber>90348</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90348</ExpertLink>
                         <Name lang="en">Autosomal dominant cutis laxa</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -394,6 +531,9 @@
                         <OrphaNumber>90349</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90349</ExpertLink>
                         <Name lang="en">Autosomal recessive cutis laxa type 1</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -403,6 +543,9 @@
                         <OrphaNumber>90350</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90350</ExpertLink>
                         <Name lang="en">Autosomal recessive cutis laxa type 2</Name>
+                        <DisorderType id="21436">
+                          <Name lang="en">Clinical group</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -410,6 +553,9 @@
                             <OrphaNumber>357058</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357058</ExpertLink>
                             <Name lang="en">Autosomal recessive cutis laxa type 2A</Name>
+                            <DisorderType id="21394">
+                              <Name lang="en">Disease</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="2">
                             <ClassificationNode>
@@ -417,6 +563,9 @@
                                 <OrphaNumber>2834</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2834</ExpertLink>
                                 <Name lang="en">Wrinkly skin syndrome</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="en">Clinical subtype</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -426,6 +575,9 @@
                                 <OrphaNumber>357074</OrphaNumber>
                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357074</ExpertLink>
                                 <Name lang="en">Autosomal recessive cutis laxa type 2, classic type</Name>
+                                <DisorderType id="21450">
+                                  <Name lang="en">Clinical subtype</Name>
+                                </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
@@ -437,6 +589,9 @@
                             <OrphaNumber>357064</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357064</ExpertLink>
                             <Name lang="en">Autosomal recessive cutis laxa type 2B</Name>
+                            <DisorderType id="21394">
+                              <Name lang="en">Disease</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -448,6 +603,9 @@
                         <OrphaNumber>217335</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217335</ExpertLink>
                         <Name lang="en">RIN2 syndrome</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -457,6 +615,9 @@
                         <OrphaNumber>221145</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=221145</ExpertLink>
                         <Name lang="en">Cutis laxa with severe pulmonary, gastrointestinal and urinary anomalies</Name>
+                        <DisorderType id="21401">
+                          <Name lang="en">Malformation syndrome</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -466,6 +627,9 @@
                         <OrphaNumber>314718</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314718</ExpertLink>
                         <Name lang="en">Lethal arteriopathy syndrome due to fibulin-4 deficiency</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -477,6 +641,9 @@
                     <OrphaNumber>96170</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96170</ExpertLink>
                     <Name lang="en">Emanuel syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -486,6 +653,9 @@
                     <OrphaNumber>230839</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=230839</ExpertLink>
                     <Name lang="en">Classical-like Ehlers-Danlos syndrome type 1</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -495,6 +665,9 @@
                     <OrphaNumber>527468</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=527468</ExpertLink>
                     <Name lang="en">Diaphragmatic hernia-short bowel-asplenia syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -506,6 +679,9 @@
                 <OrphaNumber>285014</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=285014</ExpertLink>
                 <Name lang="en">Rare disease with thoracic aortic aneurysm and aortic dissection</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="10">
                 <ClassificationNode>
@@ -513,6 +689,9 @@
                     <OrphaNumber>558</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=558</ExpertLink>
                     <Name lang="en">Marfan syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
@@ -520,6 +699,9 @@
                         <OrphaNumber>284963</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284963</ExpertLink>
                         <Name lang="en">Marfan syndrome type 1</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -529,6 +711,9 @@
                         <OrphaNumber>284973</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284973</ExpertLink>
                         <Name lang="en">Marfan syndrome type 2</Name>
+                        <DisorderType id="21450">
+                          <Name lang="en">Clinical subtype</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -540,6 +725,9 @@
                     <OrphaNumber>3342</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3342</ExpertLink>
                     <Name lang="en">Arterial tortuosity syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -549,6 +737,9 @@
                     <OrphaNumber>286</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=286</ExpertLink>
                     <Name lang="en">Vascular Ehlers-Danlos syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -558,6 +749,9 @@
                     <OrphaNumber>60030</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=60030</ExpertLink>
                     <Name lang="en">Loeys-Dietz syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -567,6 +761,9 @@
                     <OrphaNumber>91387</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91387</ExpertLink>
                     <Name lang="en">Familial thoracic aortic aneurysm and aortic dissection</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -576,6 +773,9 @@
                     <OrphaNumber>284979</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284979</ExpertLink>
                     <Name lang="en">Neonatal Marfan syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -585,6 +785,9 @@
                     <OrphaNumber>284984</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284984</ExpertLink>
                     <Name lang="en">Aneurysm-osteoarthritis syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -594,6 +797,9 @@
                     <OrphaNumber>402075</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=402075</ExpertLink>
                     <Name lang="en">Familial bicuspid aortic valve</Name>
+                    <DisorderType id="21415">
+                      <Name lang="en">Morphological anomaly</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -603,6 +809,9 @@
                     <OrphaNumber>229</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=229</ExpertLink>
                     <Name lang="en">Familial aortic dissection</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -612,6 +821,9 @@
                     <OrphaNumber>404463</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404463</ExpertLink>
                     <Name lang="en">Multisystemic smooth muscle dysfunction syndrome</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -620,7 +832,7 @@
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>

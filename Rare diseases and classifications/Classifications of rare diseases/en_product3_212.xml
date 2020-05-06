@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<JDBOR date="2020-04-01 05:16:31" version="1.3.1 / 4.1.7 [2019-11-24] (orientdb version)" copyright="Orphanet (c) 2020">
+<JDBOR date="2020-05-04 04:05:31" version="1.3.1 / 4.1.7 [2019-11-24] (orientdb version)" copyright="Orphanet (c) 2020">
   <Availability> 
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -7,19 +7,33 @@
       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
     </Licence>
   </Availability>
-  <DisorderList count="1">
-    <Disorder id="13068">
-      <OrphaNumber>98050</OrphaNumber>
-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98050</ExpertLink>
-      <Name lang="en">Rare allergic disease</Name>
-      <ClassificationNodeList count="1">
+  <ClassificationList count="1">
+    <Classification id="212">
+      <OrphaNumber>164832</OrphaNumber>
+      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=164832</ExpertLink>
+      <ClassificationFlagList count="1">
+        <ClassificationFlag id="28">
+          <Value>2</Value>
+          <Label>Pat</Label>
+        </ClassificationFlag>
+      </ClassificationFlagList>
+      <Name lang="en">Orphanet classification of rare allergic disease</Name>
+      <ClassificationNodeRootList count="1">
         <ClassificationNode>
+          <Disorder id="13068">
+            <OrphaNumber>98050</OrphaNumber>
+            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98050</ExpertLink>
+            <Name lang="en">Rare allergic disease</Name>
+          </Disorder>
           <ClassificationNodeChildList count="4">
             <ClassificationNode>
               <Disorder id="8618">
                 <OrphaNumber>658</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658</ExpertLink>
                 <Name lang="en">Non-histaminic angioedema</Name>
+                <DisorderType id="21436">
+                  <Name lang="en">Clinical group</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="2">
                 <ClassificationNode>
@@ -27,6 +41,9 @@
                     <OrphaNumber>91378</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91378</ExpertLink>
                     <Name lang="en">Hereditary angioedema</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
@@ -34,6 +51,9 @@
                         <OrphaNumber>528623</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528623</ExpertLink>
                         <Name lang="en">Hereditary angioedema with C1Inh deficiency</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -41,6 +61,9 @@
                             <OrphaNumber>100050</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100050</ExpertLink>
                             <Name lang="en">Hereditary angioedema type 1</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -50,6 +73,9 @@
                             <OrphaNumber>100051</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100051</ExpertLink>
                             <Name lang="en">Hereditary angioedema type 2</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -61,6 +87,9 @@
                         <OrphaNumber>528647</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528647</ExpertLink>
                         <Name lang="en">Hereditary angioedema with normal C1Inh</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="3">
                         <ClassificationNode>
@@ -68,6 +97,9 @@
                             <OrphaNumber>100054</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100054</ExpertLink>
                             <Name lang="en">F12-related hereditary angioedema with normal C1Inh</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -77,6 +109,9 @@
                             <OrphaNumber>537072</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=537072</ExpertLink>
                             <Name lang="en">PLG-related hereditary angioedema with normal C1Inh</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -86,6 +121,9 @@
                             <OrphaNumber>537891</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=537891</ExpertLink>
                             <Name lang="en">ANGPT1-related hereditary angioedema with normal C1Inh</Name>
+                            <DisorderType id="21443">
+                              <Name lang="en">Etiological subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -99,6 +137,9 @@
                     <OrphaNumber>91385</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91385</ExpertLink>
                     <Name lang="en">Acquired angioedema</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
@@ -106,6 +147,9 @@
                         <OrphaNumber>528663</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528663</ExpertLink>
                         <Name lang="en">Acquired angioedema with C1Inh deficiency</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -113,6 +157,9 @@
                             <OrphaNumber>100055</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100055</ExpertLink>
                             <Name lang="en">Acquired angioedema type 2</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -122,6 +169,9 @@
                             <OrphaNumber>100056</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100056</ExpertLink>
                             <Name lang="en">Acquired angioedema type 1</Name>
+                            <DisorderType id="21450">
+                              <Name lang="en">Clinical subtype</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -133,6 +183,9 @@
                         <OrphaNumber>100057</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100057</ExpertLink>
                         <Name lang="en">Renin-angiotensin-aldosterone system-blocker-induced angioedema</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -146,6 +199,9 @@
                 <OrphaNumber>79384</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79384</ExpertLink>
                 <Name lang="en">Rare urticaria</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="5">
                 <ClassificationNode>
@@ -153,6 +209,9 @@
                     <OrphaNumber>2483</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2483</ExpertLink>
                     <Name lang="en">Melkersson-Rosenthal syndrome</Name>
+                    <DisorderType id="21401">
+                      <Name lang="en">Malformation syndrome</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -162,6 +221,9 @@
                     <OrphaNumber>64745</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64745</ExpertLink>
                     <Name lang="en">Pruritic urticarial papules and plaques of pregnancy</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -171,6 +233,9 @@
                     <OrphaNumber>139402</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139402</ExpertLink>
                     <Name lang="en">Drug rash with eosinophilia and systemic symptoms</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -180,6 +245,9 @@
                     <OrphaNumber>493342</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=493342</ExpertLink>
                     <Name lang="en">Vibratory urticaria</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -189,6 +257,9 @@
                     <OrphaNumber>493348</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=493348</ExpertLink>
                     <Name lang="en">Vibratory angioedema</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -200,6 +271,9 @@
                 <OrphaNumber>98052</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98052</ExpertLink>
                 <Name lang="en">Rare allergic respiratory disease</Name>
+                <DisorderType id="36561">
+                  <Name lang="en">Category</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="3">
                 <ClassificationNode>
@@ -207,6 +281,9 @@
                     <OrphaNumber>1164</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1164</ExpertLink>
                     <Name lang="en">Allergic bronchopulmonary aspergillosis</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -216,6 +293,9 @@
                     <OrphaNumber>2902</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2902</ExpertLink>
                     <Name lang="en">Idiopathic chronic eosinophilic pneumonia</Name>
+                    <DisorderType id="21394">
+                      <Name lang="en">Disease</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="0">
                   </ClassificationNodeChildList>
@@ -225,6 +305,9 @@
                     <OrphaNumber>31740</OrphaNumber>
                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31740</ExpertLink>
                     <Name lang="en">Hypersensitivity pneumonitis</Name>
+                    <DisorderType id="21436">
+                      <Name lang="en">Clinical group</Name>
+                    </DisorderType>
                   </Disorder>
                   <ClassificationNodeChildList count="2">
                     <ClassificationNode>
@@ -232,6 +315,9 @@
                         <OrphaNumber>99907</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99907</ExpertLink>
                         <Name lang="en">House allergic alveolitis</Name>
+                        <DisorderType id="21394">
+                          <Name lang="en">Disease</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="0">
                       </ClassificationNodeChildList>
@@ -241,6 +327,9 @@
                         <OrphaNumber>99909</OrphaNumber>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99909</ExpertLink>
                         <Name lang="en">Occupational allergic alveolitis</Name>
+                        <DisorderType id="21436">
+                          <Name lang="en">Clinical group</Name>
+                        </DisorderType>
                       </Disorder>
                       <ClassificationNodeChildList count="2">
                         <ClassificationNode>
@@ -248,6 +337,9 @@
                             <OrphaNumber>99906</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99906</ExpertLink>
                             <Name lang="en">Farmer's lung disease</Name>
+                            <DisorderType id="21394">
+                              <Name lang="en">Disease</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -257,6 +349,9 @@
                             <OrphaNumber>99908</OrphaNumber>
                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99908</ExpertLink>
                             <Name lang="en">Pigeon-breeder lung disease</Name>
+                            <DisorderType id="21394">
+                              <Name lang="en">Disease</Name>
+                            </DisorderType>
                           </Disorder>
                           <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
@@ -272,13 +367,16 @@
                 <OrphaNumber>369992</OrphaNumber>
                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=369992</ExpertLink>
                 <Name lang="en">Severe dermatitis-multiple allergies-metabolic wasting syndrome</Name>
+                <DisorderType id="21394">
+                  <Name lang="en">Disease</Name>
+                </DisorderType>
               </Disorder>
               <ClassificationNodeChildList count="0">
               </ClassificationNodeChildList>
             </ClassificationNode>
           </ClassificationNodeChildList>
         </ClassificationNode>
-      </ClassificationNodeList>
-    </Disorder>
-  </DisorderList>
+      </ClassificationNodeRootList>
+    </Classification>
+  </ClassificationList>
 </JDBOR>
