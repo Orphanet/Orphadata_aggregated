@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+    <!-- Contact form JavaScript -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="shortcut icon" type="image/x-icon" href="img/header/favicon.gif" ><link rel="icon"          type="image/gif"    href="img/header/favicon.gif" >
+
+<title>OrphaData Contact</title>
+<meta name="keywords" content="<?= $keywords ?>" />
+<meta name="description" content="<?= $description ?>" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/breedjs.min.js"></script>
+	<script src="js/query.min.js"></script>
+	<script src="js/jquery-validate/jquery.validate.min.js"></script>
+	<script src="js/jshashtable-2.1.js"></script>
+	<script src="js/jquery.numberformatter-1.2.1.jsmin.js"></script>
+	 <link href="css/jquery.realperson.css" rel="stylesheet">
+
+	<script src="js/jquery.realperson.js"></script>
+
+ 
+     <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+ 
+     <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Custom styles for this template -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/breedjs.min.js"></script>
+	<script src="js/query.min.js"></script>
+	<script src="js/jquery-validate/jquery.validate.min.js"></script>
+	<script src="js/jshashtable-2.1.js"></script>
+	<script src="js/jquery.numberformatter-1.2.1.jsmin.js"></script>
+	 <link href="css/jquery.realperson.css" rel="stylesheet">
+	<script src="js/jquery.realperson.js"></script>
+
+
+
+
+	
+	
+<script type="text/javascript">
+$(function() {
+	$('#defaultReal').realperson({includeNumbers: true}); 
+
+});
+</script>
+
+  </head>
+  
+  <body id="page-top">
+
+  <div class="entry">
+	<form id="contact-form" action="send.php" method="post">
+
+	
+   <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            
+            <h3 class="section-subheading text-muted">
+		<font color="#fed136">
+			You may find answers to your questions in our <a href="http://www.orphadata.org/cgi-bin/faq.html" target="_blank">FAQ</a> or in 
+			the documents that describe the <a href="http://www.orphadata.org/cgi-bin/img/PDF/OrphadataFreeAccessProductsDescription.pdf" target="_blank">Free Datasets</a>
+			or the <a href="http://www.orphadata.org/cgi-bin/img/PDF/OrphadatOnRequestProductsDescription.pdf" target="_blank">On request data</a>.<br>
+			If not, the Orphadata team is ready to answer any questions you may have about accessing and using Orphadata.	
+		</font>
+	   </h3>
+
+   	<!-- During vacations -->
+	     <br><h3 class="section-subheading text-muted"><font color="#33ff33"><strong>!!&nbsp;&nbsp;Please note that responses may be delayed during the summer vacation period&nbsp;&nbsp;!!</strong></font></h3>
+	<!-- <br><h3 class="section-subheading text-muted"><font color="#33ff33"><strong>!!&nbsp;&nbsp;Please note that responses may be delayed during this vacation period&nbsp;&nbsp;!!</strong></font></h3>  -->
+	<!-- During vacations -->
+
+	  </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+		   <form id="contactForm" name="sentMessage" action="send.php" method="post">
+              <div class="row">
+
+			  
+			  
+			                  <div class="col-md-6">
+				
+		
+												  
+                  <div class="form-group">
+                    <input class="form-control" id="institution" name="institution" type="text" placeholder="Name Of Your Insitution *" required data-validation-required-message="Please enter your insitution name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+	  
+												  
+				  	<div class="form-group">
+						<label for="sel1">Status of institution</label>
+							<select class="form-control" id="instit_type" name="instit_type">
+								<option>Status of institution *</option>	
+								<option value="private-for-profit">private, for-profit</option>
+								<option value="private-non-for-profit">private, not-for-profit</option>
+								<option value="public-for-profit">public, for-profit</option>
+								<option value="public-not-for-profit">public, not-for-profit</option>
+							</select>
+							<p class="help-block text-danger"></p>
+					</div> 
+									
+				
+				
+								  <div class="form-group">
+                    <input class="form-control" id="position" name="position" type="text" placeholder="Your Position *" required data-validation-required-message="Please enter your p.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+				
+                  <div class="form-group">
+                    <input class="form-control" id="firstname" name="firstname" type="text" placeholder="First Name *" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" id="lastname" name="lastname" type="text" placeholder="Last Name *" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+				  
+				  
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" name="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+				  
+
+
+				
+
+					
+ 
+				  
+                </div>
+				
+				
+                <div class="col-md-6">
+
+	
+			
+			
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+					
+					
+                  </div>
+				  
+				  				  
+								
+
+
+
+
+
+		  <div class="form-group">
+						<label for="sel1">Your Purpose</label>
+							<select class="form-control" id="purpose" name="purpose">
+								<option>Your Purpose *</option>			
+								<option value="research_data_mining">Research data mining</option>
+								<option value="inclusion">Include Orphanet data in an information system</option>
+								<option value="annual_licence">Annual licence to access Orphanet data</option>						
+								<option value="other">Other</option>
+							</select>
+						<p class="help-block text-danger"></p>
+					</div> 
+				  
+				  
+		
+				  	<div class="form-group">
+					<label for="sel1">Your Country</label>
+						<select class="form-control" id="country" name="country">
+							<option>Your Country *</option>							
+							<option value="AX">&#214;land Islands</option>
+							<option value="AF">Afghanistan</option>
+							<option value="AL">Albania</option>
+							<option value="DZ">Algeria</option>
+							<option value="AS">American Samoa</option>
+							<option value="AD">Andorra</option>
+							<option value="AO">Angola</option>
+							<option value="AI">Anguilla</option>
+							<option value="AG">Antigua and Barbuda</option>
+							<option value="AR">Argentina</option>
+							<option value="AM">Armenia</option>
+							<option value="AW">Aruba</option>
+							<option value="AU">Australia</option>
+							<option value="AT">Austria</option>
+							<option value="AZ">Azerbaijan</option>
+							<option value="BS">Bahamas</option>
+							<option value="BH">Bahrain</option>
+							<option value="BD">Bangladesh</option>
+							<option value="BB">Barbados</option>
+							<option value="BY">Belarus</option>
+							<option value="BE">Belgium</option>
+							<option value="BZ">Belize</option>
+							<option value="BJ">Benin</option>
+							<option value="BM">Bermuda</option>
+							<option value="BT">Bhutan</option>
+							<option value="BO">Bolivia</option>
+							<option value="BA">Bosnia and Herzegovina</option>
+							<option value="BW">Botswana</option>
+							<option value="BR">Brazil</option>
+							<option value="IO">British Indian Ocean Territory</option>
+							<option value="BN">Brunei Darussalam</option>
+							<option value="BG">Bulgaria</option>
+							<option value="BF">Burkina Faso</option>
+							<option value="BI">Burundi</option>
+							<option value="KH">Cambodia</option>
+							<option value="CM">Cameroon</option>
+							<option value="CA">Canada</option>
+							<option value="CV">Cape Verde</option>
+							<option value="KY">Cayman Islands</option>
+							<option value="CF">Central African Republic</option>
+							<option value="TD">Chad</option>
+							<option value="CL">Chile</option>
+							<option value="CN">China</option>
+							<option value="CO">Colombia</option>
+							<option value="KM">Comoros</option>
+							<option value="CG">Congo</option>
+							<option value="CD">Democratic Republic of Congo</option>
+							<option value="CK">Cook Islands</option>
+							<option value="CR">Costa Rica</option>
+							<option value="CI">C&#244;te d'ivoire</option>
+							<option value="HR">Croatia</option>
+							<option value="CU">Cuba</option>
+							<option value="CY">Cyprus</option>
+							<option value="CZ">Czech Republic</option>
+							<option value="DK">Denmark</option>
+							<option value="DJ">Djibouti</option>
+							<option value="DM">Dominica</option>
+							<option value="DO">Dominican Republic</option>
+							<option value="TL">East Timor</option>
+							<option value="EC">Ecuador</option>
+							<option value="EG">Egypt</option>
+							<option value="SV">El Salvador</option>
+							<option value="GQ">Equatorial Guinea</option>
+							<option value="ER">Eritrea</option>
+							<option value="EE">Estonia</option>
+							<option value="ET">Ethiopia</option>
+							<option value="FK">Falkland Islands (Malvinas)</option>
+							<option value="FO">Faroe Islands</option>
+							<option value="FJ">Fiji</option>
+							<option value="FI">Finland</option>
+							<option value="FR">France</option>
+							<option value="PF">French Polynesia</option>
+							<option value="GA">Gabon</option>
+							<option value="GM">Gambia</option>
+							<option value="GE">Georgia</option>
+							<option value="DE">Germany</option>
+							<option value="GH">Ghana</option>
+							<option value="GI">Gibraltar</option>
+							<option value="GR">Greece</option>
+							<option value="GL">Greenland</option>
+							<option value="GD">Grenada</option>
+							<option value="GU">Guam</option>
+							<option value="GT">Guatemala</option>
+							<option value="GN">Guinea</option>
+							<option value="GW">Guinea-Bissau</option>
+							<option value="GY">Guyana</option>
+							<option value="HT">Haiti</option>
+							<option value="VA">Holy See (Vatican City State)</option>
+							<option value="HN">Honduras</option>
+							<option value="HK">Hong Kong</option>
+							<option value="HU">Hungary</option>
+							<option value="IS">Iceland</option>
+							<option value="IN">India</option>
+							<option value="ID">Indonesia</option>
+							<option value="IR">Iran</option>
+							<option value="IQ">Iraq</option>
+							<option value="IE">Ireland</option>
+							<option value="IL">Israel</option>
+							<option value="IT">Italy</option>
+							<option value="JM">Jamaica</option>
+							<option value="JP">Japan</option>
+							<option value="JO">Jordan</option>
+							<option value="KZ">Kazakstan</option>
+							<option value="KE">Kenya</option>
+							<option value="KI">Kiribati</option>
+							<option value="KP">North Korea</option>
+							<option value="KR">South Korea</option>
+							<option value="KW">Kuwait</option>
+							<option value="KG">Kyrgyzstan</option>
+							<option value="LA">Lao People's Democratic Republic</option>
+							<option value="LV">Latvia</option>
+							<option value="LB">Lebanon</option>
+							<option value="LS">Lesotho</option>
+							<option value="LR">Liberia</option>
+							<option value="LY">Libyan Arab Jamahiriya</option>
+							<option value="LI">Liechtenstein</option>
+							<option value="LT">Lithuania</option>
+							<option value="LU">Luxembourg</option>
+							<option value="MO">Macao</option>
+							<option value="MK">Macedonia</option>
+							<option value="MG">Madagascar</option>
+							<option value="MW">Malawi</option>
+							<option value="MY">Malaysia</option>
+							<option value="MV">Maldives</option>
+							<option value="ML">Mali</option>
+							<option value="MT">Malta</option>
+							<option value="MH">Marshall Islands</option>
+							<option value="MR">Mauritania</option>
+							<option value="MU">Mauritius</option>
+							<option value="MX">Mexico</option>
+							<option value="FM">Federated States of Micronesia</option>
+							<option value="MD">Republic of Moldova</option>
+							<option value="MC">Monaco</option>
+							<option value="MN">Mongolia</option>
+							<option value="ME">Montenegro</option>
+							<option value="MS">Montserrat</option>
+							<option value="MA">Morocco</option>
+							<option value="MZ">Mozambique</option>
+							<option value="MM">Myanmar</option>
+							<option value="NA">Namibia</option>
+							<option value="NR">Nauru</option>
+							<option value="NP">Nepal</option>
+							<option value="NL">Netherlands</option>
+							<option value="AN">Netherlands Antilles</option>
+							<option value="NZ">New Zealand</option>
+							<option value="NI">Nicaragua</option>
+							<option value="NE">Niger</option>
+							<option value="NG">Nigeria</option>
+							<option value="NU">Niue</option>
+							<option value="MP">Northern Mariana Islands</option>
+							<option value="NO">Norway</option>
+							<option value="OM">Oman</option>
+							<option value="PK">Pakistan</option>
+							<option value="PW">Palau</option>
+							<option value="PS">Occupied Palestinian Territory</option>
+							<option value="PA">Panama</option>
+							<option value="PG">Papua New Guinea</option>
+							<option value="PY">Paraguay</option>
+							<option value="PE">Peru</option>
+							<option value="PH">Philippines</option>
+							<option value="PN">Pitcairn</option>
+							<option value="PL">Poland</option>
+							<option value="PT">Portugal</option>
+							<option value="PR">Puerto Rico</option>
+							<option value="QA">Qatar</option>
+							<option value="RE">R&#233;union</option>
+							<option value="RO">Romania</option>
+							<option value="RU">Russian Federation</option>
+							<option value="RW">Rwanda</option>
+							<option value="SH">Saint Helena</option>
+							<option value="KN">Saint Kitts and Nevis</option>
+							<option value="LC">Saint Lucia</option>
+							<option value="VC">Saint Vincent and the Grenadines</option>
+							<option value="WS">Samoa</option>
+							<option value="SM">San Marino</option>
+							<option value="ST">Sao Tome and Principe</option>
+							<option value="SA">Saudi Arabia</option>
+							<option value="SN">Senegal</option>
+							<option value="CS">Serbia and Montenegro</option>
+							<option value="SC">Seychelles</option>
+							<option value="SL">Sierra Leone</option>
+							<option value="SG">Singapore</option>
+							<option value="SK">Slovakia</option>
+							<option value="SI">Slovenia</option>
+							<option value="SB">Solomon Islands</option>
+							<option value="SO">Somalia</option>
+							<option value="ZA">South Africa</option>
+							<option value="GS">South Georgia and the South Sandwich Islands</option>
+							<option value="ES">Spain</option>
+							<option value="LK">Sri Lanka</option>
+							<option value="SD">Sudan</option>
+							<option value="SR">Suriname</option>
+							<option value="SZ">Swaziland</option>
+							<option value="SE">Sweden</option>
+							<option value="CH">Switzerland</option>
+							<option value="SY">Syrian Arab Republic</option>
+							<option value="TW">Taiwan</option>
+							<option value="TJ">Tajikistan</option>
+							<option value="TZ">Tanzania</option>
+							<option value="TH">Thailand</option>
+							<option value="TG">Togo</option>
+							<option value="TO">Tonga</option>
+							<option value="TT">Trinidad and Tobago</option>
+							<option value="TN">Tunisia</option>
+							<option value="TR">Turkey</option>
+							<option value="TM">Turkmenistan</option>
+							<option value="TC">Turks and Caicos Islands</option>
+							<option value="TV">Tuvalu</option>
+							<option value="UG">Uganda</option>
+							<option value="UA">Ukraine</option>
+							<option value="AE">United Arab Emirates</option>
+							<option value="GB">United Kingdom</option>
+							<option value="US">United States</option>
+							<option value="UY">Uruguay</option>
+							<option value="UZ">Uzbekistan</option>
+							<option value="VU">Vanuatu</option>
+							<option value="VE">Venezuela</option>
+							<option value="VN">Viet Nam</option>
+							<option value="VG">British Virgin Islands</option>
+							<option value="VI">US Virgin Islands</option>
+							<option value="EH">Western Sahara</option>
+							<option value="YE">Yemen</option>
+							<option value="ZM">Zambia</option>
+							<option value="ZW">Zimbabwe</option>
+						</select>
+						<p class="help-block text-danger"></p>
+				</div> 
+				
+				
+						  
+				  
+				  
+				  
+				  
+                </div>
+			  
+
+
+
+
+
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+  $("#contact-form").validate({
+  rules: {
+  institution: { required: true, maxlength: 150 },
+  instit_type: { required: true, maxlength: 150 },
+  firstname: { maxlength: 50 },
+  lastname: { required: true, maxlength: 50 },
+  position: { maxlength: 50 },
+  email: { required: true, email: true, maxlength: 150 },
+  country: { required: true },
+  other_purpose: { required: function() { return ($('#purpose option:selected').val() == 'other'); }, maxlength: 150 }
+		}
+	});
+
+	$('#purpose').change(function(){
+		if ($('#purpose option:selected').val() == 'other') {
+        	$('#otherPurpose').show('slow');
+        }
+        else {
+        	$('#otherPurpose').hide('slow');
+        }
+	});
+
+	$("#message").keyup(function() {
+		var len = this.value.length;
+		if (len >= 3000) {
+			this.value = this.value.substring(0, 3000);
+		}
+		if (len >= 3000) {
+			$("#charLeft").text("0");
+		}
+		else {
+			var char_left = $.formatNumber(String(3000 - len), {format:"#,###", locale:"en"});
+			$("#charLeft").text(char_left);
+		}
+	});
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			  
+
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+				  			  </br>
+			  	  </br>
+					<input type="text" id="defaultReal" name="defaultReal">
+					<h3 class="section-subheading text-muted"><font color="#fed136">Please complete this test * (Mandatory)</font></h3>
+					<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                </div>
+	
+	
+	
+			</form>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+    
+    <!-- Clients And LOGOS -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/blank.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/logo-inserm-rvb.png" alt="" style="height:60px;">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/Co-Funded_by_the_EU_logo_ok.png" alt="" style="height:50px;">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/blank.jpg" alt="" style="height:50px;">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/IRR_edited.png" alt="" style="height:60px;">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/Global_Alliance.png" alt="" style="height:60px;">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/HVP Logo.png" alt="" style="height:80px;">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/body/support/ifb.png" alt="" style="height:60px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	
+	
+	    
+    <!-- Footer -->
+    
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+             <span class="copyright">&copy; 2011 Orphanet Inserm US14 <br> Last update:  27 May 20</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/orphanet" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://fr-fr.facebook.com/orphanet/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+		
+          <div class="col-md-4">
+            <span class="copyright">&copy; alice_photo / Fotolia <br>
+									&copy; Vlad Kochelaevskiy / Fotolia <br>
+									&copy; golubovy / Fotolia <br>
+									&copy; Julien Eichinger / stock.adobe.com <br>
+									&copy; Jakub Jirsák / stock.adobe.com</span>
+          </div>  
+		  
+        </div>
+      </div>
+    </footer>
+
+
+
+
+	
+  </body>
+
+</html>
