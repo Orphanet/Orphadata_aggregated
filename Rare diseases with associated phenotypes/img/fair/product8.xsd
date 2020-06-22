@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="JDBOR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="InstitutionList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Institution" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="OrphaNumber" type="xs:integer" />
+                    <xs:element name="Department_Service_Lab_PatientOrganisationAcronym" />
+                    <xs:element name="Department_Service_Lab_PatientOrganisationName" type="xs:string" />
+                    <xs:element name="UpperLevelOfAffiliationAcronym" />
+                    <xs:element name="UpperLevelOfAffiliation" type="xs:string" />
+                    <xs:element name="Status" minOccurs="0" maxOccurs="unbounded" >
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:integer" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Hosting_Institution" type="xs:string" />
+                          <xs:element name="Town">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Name" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Country">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Name">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="lang" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:integer" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Accreditation_EQAList" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Accreditation_EQA" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="QualityType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="Name">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="lang" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="QualityStatus" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="Name" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="lang" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="QualityLicensing" />
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:integer" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="count" type="xs:integer" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="DiagnosticTestList" minOccurs="0" maxOccurs="unbounded" >
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="DiagnosticTest">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ExpertLink">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="lang" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Name" type="xs:string" />
+                                <xs:element name="LanguageOfName" type="xs:string" />
+                                <xs:element name="DiagnosticTestTypeFlagList">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="DiagnosticTestTypeFlag">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="Name">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute name="lang" type="xs:string" use="required" />
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="id" type="xs:integer" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="count" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="DgsTestPurposeList">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="DgsTestPurpose" minOccurs="0" maxOccurs="unbounded" >
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="DgsTestPurposeLabel">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="OrphaNumber" type="xs:integer" />
+                                                  <xs:element name="Name">
+                                                    <xs:complexType>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                          <xs:attribute name="lang" type="xs:string" use="required" />
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:integer" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="id" type="xs:integer" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="count" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="DgsTestTechniqueList" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" maxOccurs="unbounded" name="DgsTestTechnique">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="DgsTestSpeciality">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="DgsTestSpecialityLabel">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="OrphaNumber" type="xs:integer" />
+                                                        <xs:element name="Name">
+                                                          <xs:complexType>
+                                                            <xs:simpleContent>
+                                                              <xs:extension base="xs:string">
+                                                                <xs:attribute name="lang" type="xs:string" use="required" />
+                                                              </xs:extension>
+                                                            </xs:simpleContent>
+                                                          </xs:complexType>
+                                                        </xs:element>
+                                                      </xs:sequence>
+                                                      <xs:attribute name="id" type="xs:integer" use="required" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="DgsTestSpecialityObjective" minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="DgsTestSpecialityObjectiveLabel">
+                                                          <xs:complexType>
+                                                            <xs:sequence>
+                                                              <xs:element name="OrphaNumber" type="xs:integer" />
+                                                              <xs:element name="Name">
+                                                                <xs:complexType>
+                                                                  <xs:simpleContent>
+                                                                    <xs:extension base="xs:string">
+                                                                      <xs:attribute name="lang" type="xs:string" use="required" />
+                                                                    </xs:extension>
+                                                                  </xs:simpleContent>
+                                                                </xs:complexType>
+                                                              </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="id" type="xs:integer" use="required" />
+                                                          </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="DgsTestSpecialityObjectiveTechnique" minOccurs="0" maxOccurs="unbounded">
+                                                          <xs:complexType>
+                                                            <xs:sequence>
+                                                              <xs:element name="DgsTestSpecialityObjectiveTechniqueLabel">
+                                                                <xs:complexType>
+                                                                  <xs:sequence>
+                                                                    <xs:element name="OrphaNumber" type="xs:integer" />
+                                                                    <xs:element name="Name">
+                                                                      <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                          <xs:extension base="xs:string">
+                                                                            <xs:attribute name="lang" type="xs:string" use="required" />
+                                                                          </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                      </xs:complexType>
+                                                                    </xs:element>
+                                                                  </xs:sequence>
+                                                                  <xs:attribute name="id" type="xs:integer" use="required" />
+                                                                </xs:complexType>
+                                                              </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="id" type="xs:integer" use="required" />
+                                                          </xs:complexType>
+                                                        </xs:element>
+                                                      </xs:sequence>
+                                                      <xs:attribute name="id" type="xs:integer" use="required" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:integer" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="id" type="xs:integer" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="count" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="DisorderList">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence minOccurs="0">
+                                      <xs:element maxOccurs="unbounded" name="Disorder">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="OrphaNumber" type="xs:integer" />
+                                            <xs:element name="Name">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute name="lang" type="xs:string" use="required" />
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="id" type="xs:integer" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="count" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="GeneList">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" maxOccurs="unbounded" name="Gene">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="OrphaNumber" type="xs:integer" />
+                                            <xs:element name="Symbol" type="xs:string" />
+                                          </xs:sequence>
+                                          <xs:attribute name="id" type="xs:integer" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="count" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Accreditation_EQAList" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence minOccurs="0">
+                                      <xs:element maxOccurs="unbounded" name="Accreditation_EQA">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="QualityType" minOccurs="0" maxOccurs="unbounded">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="Name">
+                                                    <xs:complexType>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                          <xs:attribute name="lang" type="xs:string" use="required" />
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:integer" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="QualityStatus" minOccurs="0" maxOccurs="unbounded">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="Name">
+                                                    <xs:complexType>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                          <xs:attribute name="lang" type="xs:string" use="required" />
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:integer" use="required" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="QualityLicensing" />
+                                          </xs:sequence>
+                                          <xs:attribute name="id" type="xs:integer" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="count" type="xs:integer" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:integer" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="count" type="xs:integer" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="count" type="xs:integer" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="date" type="xs:string" use="required" />
+      <xs:attribute name="version" type="xs:string" use="required" />
+      <xs:attribute name="copyright" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

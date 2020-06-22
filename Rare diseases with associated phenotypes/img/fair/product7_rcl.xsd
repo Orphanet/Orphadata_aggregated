@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="JDBOR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ClinicalTrialList"/>
+      </xs:sequence>
+      <xs:attribute name="copyright" use="required"/>
+      <xs:attribute name="date" use="required"/>
+      <xs:attribute name="version" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClinicalTrialList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ClinicalTrial"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClinicalTrial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ExpertLink"/>
+        <xs:element ref="Name_en"/>
+        <xs:element ref="ClinicalTrialTypeFlagList"/>
+        <xs:element ref="ClinicalTrialStatusFlagList"/>
+        <xs:element ref="Url"/>
+        <xs:element ref="ProtocolUrl"/>
+        <xs:element ref="PSOIEUrl"/>
+        <xs:element ref="Country"/>
+        <xs:element ref="GeoCoverage"/>
+        <xs:element minOccurs="0" ref="Phase"/>
+        <xs:element ref="ValidationDate"/>
+        <xs:element ref="Detail"/>
+        <xs:element ref="PersonList"/>
+        <xs:element ref="DisorderList"/>
+        <xs:element ref="GeneList"/>
+        <xs:element ref="DrugActivityDisorderList"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExpertLink">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="lang" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name_en" type="xs:string"/>
+  <xs:element name="ClinicalTrialTypeFlagList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ClinicalTrialTypeFlag"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClinicalTrialTypeFlag">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClinicalTrialStatusFlagList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ClinicalTrialStatusFlag"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClinicalTrialStatusFlag">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Url" type="xs:string"/>
+  <xs:element name="ProtocolUrl" type="xs:string"/>
+  <xs:element name="PSOIEUrl" type="xs:string"/>
+  <xs:element name="Country">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Iso"/>
+		<xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Iso" type="xs:string"/>
+  <xs:element name="GeoCoverage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Phase">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidationDate" type="xs:string"/>
+  <xs:element name="Detail" type="xs:string"/>
+  <xs:element name="PersonList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Person"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Person">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Firstname"/>
+        <xs:element ref="Lastname"/>
+        <xs:element ref="PersonActivityList"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Firstname" type="xs:string"/>
+  <xs:element name="Lastname" type="xs:string"/>
+  <xs:element name="PersonActivityList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="PersonActivity"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PersonActivity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PersonFunction"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PersonFunction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisorderList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Disorder"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Disorder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="OrphaNumber"/>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GeneList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Gene"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Gene">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="OrphaNumber"/>
+        <xs:element ref="Symbol"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Symbol" type="xs:string"/>
+  <xs:element name="DrugActivityDisorderList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="DrugActivityDisorder"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DrugActivityDisorder">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="Substance"/>
+        <xs:element ref="DrugTradeName"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DrugTradeName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="SubstanceList"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubstanceList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Substance"/>
+      </xs:sequence>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrphaNumber" type="xs:integer"/>
+  <xs:element name="Substance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="JDBOR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="HPODisorderSetStatusList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="HPODisorderSetStatus">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Disorder">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="OrphaNumber" type="xs:unsignedInt" />
+                          <xs:element name="Name">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="lang" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Source" type="xs:string" />
+                    <xs:element name="ValidationStatus" type="xs:string" />
+                    <xs:element name="Online" type="xs:string" />
+                    <xs:element name="ValidationDate" type="xs:string" />
+                    <xs:element name="CreationDate" type="xs:string" />
+                    <xs:element name="UpdateDate" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="count" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="date" type="xs:string" use="required" />
+      <xs:attribute name="version" type="xs:string" use="required" />
+      <xs:attribute name="copyright" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
