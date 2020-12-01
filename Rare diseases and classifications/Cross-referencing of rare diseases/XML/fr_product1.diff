@@ -1,0 +1,700 @@
+commit a9304bcd06b429331d3fd652192800e94c21e73c
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Dec 1 15:14:38 2020 +0100
+
+    DEC 2020
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml
+index d1e388f..840c8b5 100644
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2020-11-01 04:27:11" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2020-12-01 04:28:44" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10500">
++  <DisorderList count="10501">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=166024</ExpertLink>
+@@ -4193,7 +4193,7 @@
+     <Disorder id="34">
+       <OrphaCode>771</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=771</ExpertLink>
+-      <Name lang="fr">NON RARE EN EUROPE : Recto-colite hémorragique</Name>
++      <Name lang="fr">NON RARE EN EUROPE : Rectocolite hémorragique</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="461">
+           <Value>1024</Value>
+@@ -4204,10 +4204,9 @@
+           <Label>Non-rare disease in Europe</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="fr">Proctite ulcéreuse</Synonym>
+         <Synonym lang="fr">Proctosigmoïdite ulcéreuse</Synonym>
+-        <Synonym lang="fr">UC</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -19937,9 +19936,7 @@
+           <Label>Non-rare disease in Europe</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="fr">PAD</Synonym>
+-        <Synonym lang="fr">PCA</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="fr">Anomalie morphologique</Name>
+@@ -32664,7 +32661,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La myopathie centronucléaire autosomique récessive (MCN-AR) est une maladie neuromusculaire congénitale caractérisée par des signes cliniques de myopathie congénitale avec une position anormalement centrale d'un grand nombre de noyaux à la biopsie musculaire.</Contents>
++              <Contents>Myopathie congénitale autosomique récessive rare qui se caractérise par une observation à la biopsie musculaire de nombreux noyaux situés au centre des fibres et par les caractéristiques cliniques d'une myopathie congénitale, à savoir, hypotonie faciale, anomalies oculaires (ptosis et ophtalmoplégie externe) et faiblesse musculaire de sévérité variable généralement proximale et éventuellement distale.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -33013,7 +33010,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La myopathie centronucléaire autosomique dominante (MCN-AD) est une maladie neuromusculaire héréditaire définie par la déposition centrale des nombreux noyaux des fibres musculaires sur la biopsie musculaire et des signes d'une myopathie congénitale.</Contents>
++              <Contents>Myopathie congénitale autosomique dominante rare qui se caractérise par une observation à la biopsie musculaire de nombreux noyaux situés au centre des fibres et par les caractéristiques cliniques d'une myopathie congénitale, à savoir, hypotonie, faiblesse musculaire distale/proximale, déformations de la cage thoracique (parfois associées à une insuffisance respiratoire), ptosis, ophtalmoparésie et faiblesse des muscles d'expression faciale, ainsi que des traits dysmorphiques.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -72145,7 +72142,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La myopathie congénitale de type Paradas est une dysferlinopathie de début précoce caractérisée par une hypotonie post-natale, une faiblesse des membres inférieurs et des muscles fléchisseurs du cou présente à la naissance et un retard du développement moteur.</Contents>
++              <Contents>Dystrophie musculaire congénitale rare caractérisée par une apparition précoce de l'hypotonie, un retard du développement moteur et une faiblesse musculaire généralisée à progression variable. Une atteinte importante des muscles fléchisseurs du bassin et du cou a été rapportée, ainsi qu'une atteinte précoce des ischio-jambiers et des gastrocnémiens médians, identifiée à l'exploration par IRM des muscles. Les taux sériques de créatine kinase sont considérablement élevés (dans certains cas dès la petite enfance). La biopsie musculaire révèle l'absence de dysferline.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -78684,11 +78681,12 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="6">
++      <SynonymList count="7">
+         <Synonym lang="fr">CAVC</Synonym>
+         <Synonym lang="fr">Communication atrioventriculaire complète</Synonym>
+         <Synonym lang="fr">Communication auriculo-ventriculaire complète</Synonym>
+         <Synonym lang="fr">Défaut complet du septum atrioventriculaire</Synonym>
++        <Synonym lang="fr">Défaut complet du septum atrioventriculaire avec composantes auriculaires et ventriculaires</Synonym>
+         <Synonym lang="fr">Défaut septal atrioventriculaire complet</Synonym>
+         <Synonym lang="fr">Défaut septal auriculo-ventriculaire complet</Synonym>
+       </SynonymList>
+@@ -85122,7 +85120,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'hypoaldostéronisme ou déficit en aldostérone synthase correspond à un défaut héréditaire de la dernière étape de la biosynthèse de l'aldostérone (conversion de la déoxycorticostérone en aldostérone).</Contents>
++              <Contents>Hypoaldostéronisme génétique rare qui se présente généralement dans la petite enfance (présentation précoce de l'hypoaldosténisme familial) comme un déséquilibre électrolytique engageant le pronostic vital (retard de croissance, vomissements récurrents et déshydratation sévère). Des antécédents de fièvre, diarrhée, léthargie, faible prise de poids ainsi que de mauvaise alimentation peuvent également être présents depuis la naissance. Les sujets plus âgés (hypoaldostéronisme familial tardif) sont moins gravement atteints ou asymptomatiques.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -90866,7 +90864,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18199">
+@@ -128825,7 +128830,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="1539">
+@@ -128896,7 +128908,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Ce syndrome est caractérisé par un déficit intellectuel, des calcifications du plexus choroïde, et un taux élevé de protéine CSF. Il a été décrit chez deux fratries de deux familles différentes. Une des fratries (comprenant sept enfants) était issue de parents consanguins. Certains patients présentaient également un strabisme, une hyperreflexie tendineuse, et des anomalies des pieds.</Contents>
++              <Contents>Forme rare de déficience intellectuelle syndromique caractérisée par une déficience intellectuelle sévère et une calcification du plexus choroïde, associées à une concentration élevée de protéines du liquide céphalorachidien. Parmi les autres signes et symptômes, on retrouve le strabisme, l'augmentation des réflexes ostéotendineux profonds ainsi que des déformations du pied. Aucun cas n'a été décrit dans la littérature depuis 1993.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -129768,7 +129780,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="1559">
+@@ -133976,7 +133995,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La dermatoleucodystrophiee se caractérise par l'association d'une leucodystrophie progressive marquée par un handicap mental et moteur généralisé, et d'une peau épaisse et ridée. Elle a été décrite au Japon chez un frère et une soeur nés de parents en santé. Les deux patients sont décédés tôt dans l'enfance.</Contents>
++              <Contents>Leucodystrophie rare caractérisée par un épaississement congénital de la peau, présentant des rides et une perte d'élasticité. Elle est associée à l'apparition progressive, au cours de l'enfance, de troubles cognitifs et moteurs qui se généralisent rapidement entraînant un état végétatif et un décès précoce. L'examen neuropathologique révèle une leucodystrophie neuroaxonale, ainsi que de nombreux sphéroïdes neuroaxonaux et une perte diffuse des axones et des gaines de myéline.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -149983,7 +150002,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2014">
+@@ -163455,6 +163481,38 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="19474">
++      <OrphaCode>244275</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=244275</ExpertLink>
++      <Name lang="fr">Microangiopathie thrombotique de novo après transplantation rénale</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21429">
++        <Name lang="fr">Situation clinique particulière dans une maladie ou un syndrome</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme designe une indication pour un test pharmacogénétique.</Info>
++          </TextAuto>
++        </SummaryInformation>
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="2259">
+       <OrphaCode>2438</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2438</ExpertLink>
+@@ -179683,7 +179741,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Le syndrome de néphropathie-surdité-hyperparathyroïdie se caractérise par une insuffisance rénale sans hématurie, une hyperplasie des glandes parathyroïdes et une surdité neurosensorielle. Il a été décrit chez cinq enfants issus de parents consanguins. Son mode de transmission semble être de type autosomique récessif.</Contents>
++              <Contents>Surdité génétique rare caractérisée par une insuffisance rénale sans hématurie, une hyperplasie parathyroïdienne ainsi qu'une surdité de perception. Aucun cas n'a été décrit dans la littérature depuis 1989.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -191088,7 +191146,13 @@
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+         <SummaryInformation id="9130" lang="fr">
+-          <TextSectionList count="0">
++          <TextSectionList count="1">
++            <TextSection id="158283" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Forme syndromique rare d'anémie sidéroblastique héréditaire caractérisée par une anémie légère à modérée (avec hypochromie et microcytose) et une ataxie spinocérébelleuse précoce, à progression lente ou non progressive.</Contents>
++            </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+       </SummaryInformationList>
+@@ -198083,7 +198147,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Ce syndrome est caractérisé par une atrophie musculaire, une ataxie, une rétinite pigmentaire et un diabète sucré.</Contents>
++              <Contents>Ataxie héréditaire rare caractérisée par une atrophie musculaire neurogène associée à des signes d'ataxie cérébelleuse, d'hypesthésie, de dégénérescence de la rétine et du diabète sucré. La maladie débute à l'adolescence avec une évolution lente. Aucun cas n'a été décrit dans la littérature depuis 1983.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -215814,7 +215878,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Le syndrome cardio-crânien de Pfeiffer est une affection extrêmement rare décrite chez moins de dix patients dans le monde et caractérisée par une cardiopathie congénitale, une crâniosynostose sagittale et un retard de développement sévère (retard de croissance et déficit intellectuel).</Contents>
++              <Contents>Syndrome rare d'anomalies congénitales multiples associé à une déficience intellectuelle. La maladie se caractérise généralement par une dysmorphie faciale (craniosynostose sagittale, hypertélorisme, strabisme, oreilles dysplasiques à implantation basse, rétrognathie ou micrognathie, ankyloses mandibulaires, fente palatine, aplasie de la luette), des malformations cardiaques congénitales (communication interventriculaire, retour veineux anormal), des anomalies génitales (cryptorchidie, micropénis), ainsi qu'un retard de croissance. Dans certains cas, des anomalies trachéobronchiques, des contractures de ligaments larges, une syndactylie, des malformations des côtes et une hypoplasie rénale ont été rapportées Des anomalies cardiaques sont absents dans de rares cas.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -246323,7 +246387,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Les formes symptomatiques de la dystrophie musculaire de Duchenne et Becker (DMD et DMB : voir ces termes) de la femme conductrice sont caractérisées par une faiblesse musculaire de sévérité variable due à une myopathie progressive, associée parfois à une cardiomyopathie dilatée ou à une dilatation du ventricule gauche.</Contents>
++              <Contents>Dystrophie musculaire rare d'origine génétique de la femme transmettrice caractérisée par des degrés variables de faiblesse musculaire due à une myopathie squelettique progressive, parfois associée à une cardiomyopathie dilatée ou à une dilatation du ventricule gauche.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -255154,7 +255218,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'ataxie spinocérébelleuse type 29 (SCA29) est un sous-type très rare d'ataxie cérébelleuse autosomique dominante type 3 (voir ce terme) caractérisé par l'apparition pendant la petite enfance d'une ataxie de progression très lente ou non-progressive, d'une dysarthrie, d'un nystagmus, d'une adiadococinésie, d'une dystonie, d'une dysmétrie et d'un déficit intellectuel. Le gène causal n'a pas été identifié mais a été localisé sur le chromosome 3p et est dû à sa proximité avec le gène SCA15 (voir ce terme) &lt;i&gt;ITPR1&lt;/i&gt;. On pense que les deux maladies seraient alléliques.</Contents>
++              <Contents>Ataxie cérébelleuse autosomique dominante type I caractérisée par une ataxie de progression très lente ou non-progressive, une dysarthrie, des anomalies oculomotrices et une déficience intellectuelle.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -262391,7 +262455,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'ataxie spinocérébelleuse type 30 (SCA30) est un sous-type très rare d'ataxie cérébelleuse autosomique dominante type 3 (voir ce terme) caractérisé par une ataxie cérébelleuse pure de progression lente avec un âge moyen d'apparition de 52 ans, et décrit à ce jour chez 6 patients d'une même famille australienne. Le gène causal n'a pas encore été identifié, mais a été localisé sur le chromosome 4q34.3-q35.1.</Contents>
++              <Contents>Ataxie cérébelleuse autosomique dominante type III caractérisée par une ataxie cérébelleuse relativement pure de progression lente.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -272594,7 +272658,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'ataxie spinocérébelleuse type 31 (SCA31) est un sous-type très rare d'ataxie cérébelleuse autosomique dominante type 3 (voir ce terme) presque exclusivement observé au Japon, caractérisé par une ataxie cérébelleuse d'apparition tardive, une dysarthrie, un nystagmus fixe horizontal et une difficulté des mouvements de poursuite oculaire, et plus rarement par des signes pyramidaux et des troubles de l'audition, avec une évolution de la maladie sur plus de 10 ans.</Contents>
++              <Contents>Ataxie cérébelleuse autosomique dominante type III caractérisée par une ataxie d'apparition tardive, une dysarthrie, un nystagmus fixe horizontal et plus rarement par des signes pyramidaux et des tremblements, une altération du sens vibratoire et des troubles de l'audition.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -282249,7 +282313,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La cystathioninurie est une affection récessive autosomique due à un déficit en cystathioninase, le plus souvent pyridoxino-dépendant. Elle est généralement considérée comme une affection bénigne, sans caractère pathogène démontré. Cependant, l'association d'une cystathioninurie avec un déficit intellectuel a été rapportée dans plusieurs cas.</Contents>
++              <Contents>Erreurs innées rares du métabolisme caractérisées par une accumulation anormale de cystathionine plasmatique et une augmentation ultérieure de l'excrétion urinaire due à une carence en cystathionine gamma-lyase. La maladie est considérée comme bénigne sans évolution pathologique. La maladie est transmise selon le mode autosomique récessif.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -342987,7 +343051,13 @@
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+         <SummaryInformation id="64381" lang="fr">
+-          <TextSectionList count="0">
++          <TextSectionList count="1">
++            <TextSection id="158309" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Déficit immunitaire primaire rare caractérisé par des oscillations régulières du nombre de neutrophiles dans le sang, allant de niveaux physiologiques ou subnormaux à une neutropénie grave, généralement avec une durée de cycle d'environ 21 jours. Les principaux symptômes de la phase neutropénique comprennent la fièvre, les aphtes ainsi que la pneumonie et la péritonite. La maladie est transmise selon le mode autosomique dominant.</Contents>
++            </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+       </SummaryInformationList>
+@@ -343315,8 +343385,7 @@
+           <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
+-        <Synonym lang="fr">APS</Synonym>
++      <SynonymList count="3">
+         <Synonym lang="fr">SAPL</Synonym>
+         <Synonym lang="fr">Syndrome de Hughes</Synonym>
+         <Synonym lang="fr">Syndrome des anticorps antiphospholipides</Synonym>
+@@ -349678,8 +349747,7 @@
+           <Label>Non-rare disease in Europe</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="fr">RA</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -358769,7 +358837,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21345">
+@@ -362337,14 +362412,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="fr">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="fr">Cette maladie est décrite ici  Syndrome L1</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21238">
+@@ -384610,7 +384678,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22715">
+@@ -391126,8 +391201,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="fr">Déficit en FAR1</Synonym>
++        <Synonym lang="fr">Maladie peroxysomale par déficit en acyl-CoA réductase 1</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -424517,7 +424593,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'acromélanose est une hyperpigmentation congénitale de la peau qui touche généralement les extrémités des doigts et des orteils. Elle s'observe surtout chez les nouveau-nés ou durant les premières années de vie.</Contents>
++              <Contents>Anomalie rare de la pigmentation cutanée caractérisée par une hyperpigmentation (par ailleurs asymptomatique) de la peau affectant la face dorsale des doigts et des orteils, qui peut s'étendre rapidement vers les zones proximales, notamment les parties génitales, l'abdomen et les cuisses. Elle est surtout observée chez les nouveau-nés ou au cours des premières années de vie.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -442513,7 +442589,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La névralgie pudendale (NP) est une douleur neuropathique chronique, aggravée par la position assise et pour laquelle aucune cause organique n'a pu être déterminée par les examens d'imagerie. Elle s'accompagne souvent d'un dysfonctionnement pelvien.</Contents>
++              <Contents>Neuropathie périphérique acquise rare, caractérisée par une douleur neuropathique chronique touchant la région sensorielle du nerf pudendal (région périnéale, entre les organes génitaux et l'anus), aggravée en position assise et dont la cause organique n'a pu être identifiée par des examens d'imagerie ni des analyses en laboratoire. Elle s'accompagne souvent d'un dysfonctionnement pelvien.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -450006,7 +450082,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11189">
+@@ -458070,7 +458153,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Sous le nom de maladie de surcharge en esters de cholestérol sont regroupés les déficits en lipase acide lysosomale associés à un phénotype clinique moins sévère que celui observé dans la maladie de Wolman (voir ce terme).</Contents>
++              <Contents>Forme rare de déficit en lipase acide lysosomale caractérisée par l'accumulation progressive d'esters de cholestérol et de triglycérides dans les tissus et organes présentant typiquement une hépatosplénomégalie, un dysfonctionnement hépatique et/ou une dyslipidémie.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -465463,9 +465546,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="fr">Déficit combiné en FV et FVIII</Synonym>
+-        <Synonym lang="fr">Déficit familial multiple en facteurs de coagulation</Synonym>
+         <Synonym lang="fr">F5F8D</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -468029,7 +468111,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="fr">Somnolence excessive idiopathique</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -481799,7 +481882,14 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10523">
+@@ -481837,7 +481927,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="28123">
+@@ -496643,7 +496740,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="fr">Syndrome des gènes contigus TSC2/PKD1</Synonym>
+         <Synonym lang="fr">Syndrome du gène contigu de la sclérose tubéreuse/polykystose rénale</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -527229,10 +527327,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="fr">AJI systémique</Synonym>
+         <Synonym lang="fr">Maladie de Still</Synonym>
+-        <Synonym lang="fr">Polyarthrite systémique</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -536785,8 +536882,7 @@
+           <Label>Non-rare disease in Europe</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
+-        <Synonym lang="fr">APA</Synonym>
++      <SynonymList count="4">
+         <Synonym lang="fr">Adénome secréteur d'aldostérone</Synonym>
+         <Synonym lang="fr">Aldostéronisme primitif dû à un adénome de Conn</Synonym>
+         <Synonym lang="fr">Aldostéronome</Synonym>
+@@ -548009,8 +548105,14 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+-        <SummaryInformation id="41238" lang="fr">
+-          <TextSectionList count="0">
++        <SummaryInformation id="122157" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="158717" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Le syndrome de Brown-Vialetto-Van Laere (BVVL) est une maladie neurologique rare caractérisée par une paralysie pontobulbaire progressive associée à une surdité neurosensorielle.</Contents>
++            </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+       </SummaryInformationList>
+@@ -559964,7 +560066,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12370">
+@@ -561581,7 +561690,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12334">
+@@ -563158,8 +563274,7 @@
+           <Label>Non-rare disease in Europe</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="fr">BDD</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="fr">Syndrome  malformatif</Name>
+@@ -573844,7 +573959,7 @@
+     <Disorder id="29441">
+       <OrphaCode>589821</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589821</ExpertLink>
+-      <Name lang="fr">Dystrophie myotonique de Steinert à début congénitale</Name>
++      <Name lang="fr">Dystrophie myotonique de Steinert, forme congénitale</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -573852,8 +573967,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="fr">Dystrophie myotonique de type 1 à début congénitale</Synonym>
+-        <Synonym lang="fr">Maladie de Steinert à début congénitale</Synonym>
++        <Synonym lang="fr">Dystrophie myotonique de type 1, forme congénitale</Synonym>
++        <Synonym lang="fr">Maladie de Steinert, forme congénitale</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="fr">Sous-type clinique</Name>
+@@ -573880,8 +573995,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21436">
+-        <Name lang="fr">Groupe clinique</Name>
++      <DisorderType id="36561">
++        <Name lang="fr">Catégorie</Name>
+       </DisorderType>
+       <DisorderGroup id="36540">
+         <Name lang="fr">Groupe de pathologies</Name>
+@@ -573956,7 +574071,7 @@
+     <Disorder id="29442">
+       <OrphaCode>589824</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589824</ExpertLink>
+-      <Name lang="fr">Dystrophie myotonique de Steinert de l'enfant</Name>
++      <Name lang="fr">Dystrophie myotonique de Steinert, forme infantile</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -573964,8 +574079,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="fr">Dystrophie myotonique de type 1 de l'enfant</Synonym>
+-        <Synonym lang="fr">Maladie de Steinert de l'enfant</Synonym>
++        <Synonym lang="fr">Dystrophie myotonique de type 1, forme infantile</Synonym>
++        <Synonym lang="fr">Maladie de Steinert, forme infantile</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="fr">Sous-type clinique</Name>
+@@ -577793,7 +577908,7 @@
+     <Disorder id="29437">
+       <OrphaCode>589608</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589608</ExpertLink>
+-      <Name lang="fr">Hypopigmentation linéaire et asymétrie craniofaciale avec anomalies acrale, oculaire et cérébrale</Name>
++      <Name lang="fr">Hypopigmentation linéaire et asymétrie craniofaciale avec anomalies acrales, oculaires et cérébrales</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -579761,7 +579876,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>La dystrophie musculaire de Duchenne (DMD) est une maladie neuromusculaire caractérisée par une atrophie et une faiblesse musculaires progressives dues à une dégénérescence des muscles squelettiques, lisses et cardiaques.</Contents>
++              <Contents>Dystrophie musculaire rare d'origine génétique, caractérisée par une atrophie et une faiblesse musculaires progressives dues à une dégénérescence des muscles squelettiques, lisses et cardiaques.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -595686,7 +595801,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'ataxie spinocérébelleuse type 5 (SCA5) est un sous-type rare d'ataxie cérébelleuse autosomique dominante type 3 (voir ce terme), rapporté à ce jour dans 3 familles, et caractérisé par l'apparition précoce de signes cérébelleux et de mouvements oculaires anormaux avec une progression très lente de la maladie (évolution sur plus de 30 ans). Elle est due à une mutation sur le gène &lt;i&gt;SPTBN2&lt;/i&gt;.</Contents>
++              <Contents>Ataxie cérébelleuse autosomique dominante type III caractérisée par l'apparition précoce des signes du dysfonctionnement cérébelleux et des anomalies des mouvements oculaires, la progression de la maladie étant très lente.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -597184,7 +597299,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>L'ataxie spinocérébelleuse type 6 (SCA6) est le sous-type le plus commun d'ataxie cérébelleuse autosomique dominante type 3 (voir ce terme), observé le plus souvent au Japon, en Corée, aux Pays-Bas et en Allemagne, caractérisé par une ataxie de la marche d'apparition tardive et de progression lente, des signes cérébelleux, des troubles des mouvements oculaires, et qui est dû à des mutations sur le gène &lt;i&gt;CACNA1A&lt;/i&gt;.</Contents>
++              <Contents>Ataxie cérébelleuse autosomique dominante type III qui se caractérise par une ataxie de la marche à apparition tardive et à progression lente et par d'autres signes de dysfonctionnement cérébelleux, tels que l'altération de la coordination musculaire et le nystagmus.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -598452,7 +598567,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13327">

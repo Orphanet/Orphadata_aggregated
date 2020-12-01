@@ -1,0 +1,180 @@
+commit a9304bcd06b429331d3fd652192800e94c21e73c
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Dec 1 15:14:38 2020 +0100
+
+    DEC 2020
+
+diff --git a/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml b/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml
+index dbefe11..3593dad 100644
+--- a/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2020-11-01 04:37:09" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2020-12-01 04:40:06" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6585">
++  <DisorderList count="6586">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=166024</ExpertLink>
+@@ -11956,14 +11956,23 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pt">Pré-natal</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="pt">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="pt">Qualquer idade</Name>
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="pt">Adulto</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="pt">Idoso</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="pt">Adulto jovem</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="3">
+@@ -13617,7 +13626,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pt">Pré-natal</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="pt">Neonatal</Name>
+         </AverageAgeOfOnset>
+@@ -13627,16 +13639,13 @@
+           <Name lang="pt">esperança de vida normal</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="3">
++      <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23410">
+           <Name lang="pt">Autossómica dominante</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="pt">Autossómica recessiva</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23480">
+-          <Name lang="pt">Desconhecido</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="589">
+@@ -15688,13 +15697,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
+         <AverageAgeOfOnset id="23536">
+           <Name lang="pt">Adolescente</Name>
+         </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23543">
+           <Name lang="pt">Idade adulta</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pt">Idoso</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+@@ -43218,6 +43230,29 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="19474">
++      <OrphaCode>244275</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=244275</ExpertLink>
++      <Name lang="pt">Microangiopatia trombótica de novo após transplante renal</Name>
++      <DisorderType id="21429">
++        <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pt">Patologia</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23557">
++          <Name lang="pt">Qualquer idade</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23648">
++          <Name lang="pt">Qualquer idade</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="2259">
+       <OrphaCode>2438</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2438</ExpertLink>
+@@ -100539,10 +100574,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pt">Pré-natal</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pt">Infância</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pt">Neonatal</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+         <AverageAgeOfDeath id="23655">
+@@ -119212,7 +119253,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pt">Pré-natal</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="pt">Neonatal</Name>
+         </AverageAgeOfOnset>
+@@ -127689,7 +127733,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pt">Pré-natal</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pt">Infância</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pt">Neonatal</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>

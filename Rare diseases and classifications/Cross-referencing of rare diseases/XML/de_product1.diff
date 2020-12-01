@@ -1,0 +1,4170 @@
+commit a9304bcd06b429331d3fd652192800e94c21e73c
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Dec 1 15:14:38 2020 +0100
+
+    DEC 2020
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml
+index b2acadd..95afa15 100644
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2020-11-01 04:25:53" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2020-12-01 04:26:27" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10500">
++  <DisorderList count="10501">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
+@@ -2294,14 +2294,16 @@
+     <Disorder id="17618">
+       <OrphaCode>166100</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166100</ExpertLink>
+-      <Name lang="de">Stickler-Syndrom Typ 3</Name>
++      <Name lang="de">Oto-spondylo-megaepiphysäre Dysplasie, autosomal-dominante</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="3">
++        <Synonym lang="de">AD OSMED</Synonym>
++        <Synonym lang="de">Stickler-Syndrom Typ 3</Synonym>
+         <Synonym lang="de">Stickler-Syndrom, nicht-okulärer Typ</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -6509,7 +6511,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="de">MELAS-Syndrom</Synonym>
+-        <Synonym lang="de">Mitochondriale Enzephalomyopathie - Laktatazidose  - schlaganfallähnlichen Episoden</Synonym>
++        <Synonym lang="de">Mitochondriale Enzephalomyopathie - Laktatazidose - schlaganfallähnlichen Episoden</Synonym>
+         <Synonym lang="de">Mitochondriale Myopathie mit Enzephalopathie, Laktatazidose und schlaganfallähnlichen Episoden</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -9398,8 +9400,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
+-        <Synonym lang="de">Retino-Zerebelläre Angiomatose Hippel-Lindau</Synonym>
++      <SynonymList count="3">
+         <Synonym lang="de">Retino-zerebelläre Angiomatose, familiäre</Synonym>
+         <Synonym lang="de">VHL</Synonym>
+         <Synonym lang="de">Von-Hippel-Lindau-Syndrom</Synonym>
+@@ -11622,7 +11623,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="28494">
+             <OrphaCode>566243</OrphaCode>
+-            <Name lang="de">Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta</Name>
++            <Name lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im Thyroidhormonrezeptor beta</Name>
+           </TargetDisorder>
+           <RootDisorder id="17596" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -19905,7 +19906,7 @@
+     <Disorder id="238">
+       <OrphaCode>126</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=126</ExpertLink>
+-      <Name lang="de">Blepharophimose - Epicanthus inversus - Ptosis</Name>
++      <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -19913,7 +19914,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Blepharophimose vom Typ 1 und 2</Synonym>
++        <Synonym lang="de">BPES</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -21941,7 +21942,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Faktor VIII-Mangel mit Restaktivität  5 - 15 %</Synonym>
++        <Synonym lang="de">Faktor VIII-Mangel mit Restaktivität 5 - 15 %</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -28009,18 +28010,19 @@
+     <Disorder id="17819">
+       <OrphaCode>169095</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=169095</ExpertLink>
+-      <Name lang="de">Alymphoide zystische Thymus-Dysgenesie</Name>
++      <Name lang="de">Immundefekt, kombinierter schwerer, durch FOXN1-Defizienz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
+-        <Synonym lang="de">FOXN1-Mangel</Synonym>
++      <SynonymList count="6">
++        <Synonym lang="de">Alymphoide zystische Thymus-Dysgenesie</Synonym>
++        <Synonym lang="de">Nude/SCID</Synonym>
++        <Synonym lang="de">SCID durch FOXN1-Mangel</Synonym>
+         <Synonym lang="de">Schwerer T-Zell-Immundefekt-kongenitale Alopezie-Nageldystrophie-Syndrom</Synonym>
+         <Synonym lang="de">Winged-Helix-Defekt</Synonym>
+-        <Synonym lang="de">Winged-Helix-Nude (WHN)-Defekt</Synonym>
+         <Synonym lang="de">Winged-Helix-Nude-Defekt</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -30847,7 +30849,7 @@
+     <Disorder id="17831">
+       <OrphaCode>169160</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=169160</ExpertLink>
+-      <Name lang="de">Immundefekt, kombinierter schwerer, T- B+, durch CD3delta/CD3epsilon/CD3dzeta-Defekt</Name>
++      <Name lang="de">Immundefekt, kombinierter schwerer, T- B+, durch CD3delta/CD3epsilon/CD3zeta-Defekt</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -34280,7 +34282,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Skaphokephalie - Makrozephalie -  Oberkieferretrusion - Intelligenzminderung</Synonym>
++        <Synonym lang="de">Skaphokephalie - Makrozephalie - Oberkieferretrusion - Intelligenzminderung</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -41001,12 +41003,11 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
++      <SynonymList count="4">
+         <Synonym lang="de">Dysplasie, okulo-aurikulo-vertebrale</Synonym>
+-        <Synonym lang="de">Erweitertes Spektrum der hemifazialen Mikrosomie</Synonym>
+-        <Synonym lang="de">Fazio-aurikulo-vertebrale Dysplasie</Synonym>
++        <Synonym lang="de">Fazio-aurikulo-vertebrale Sequenz</Synonym>
+         <Synonym lang="de">OAV-Dysplasie</Synonym>
+-        <Synonym lang="de">Okulo-aurikulo-vertebrales Syndrom</Synonym>
++        <Synonym lang="de">Okulo-aurikulo-vertebrales Spektrum</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -48104,7 +48105,7 @@
+           <TargetDisorder id="612" cycle="true"/>
+           <RootDisorder id="19143">
+             <OrphaCode>230845</OrphaCode>
+-            <Name lang="de">Ehlers-Danlos-Syndrom, ähnlich vaskulärer Typ</Name>
++            <Name lang="de">Klassisches Ehlers-Danlos-Syndrom, ähnlich vaskulärer Typ</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21471">
+             <Name lang="de">Verschoben nach</Name>
+@@ -54506,8 +54507,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">PM</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -70709,7 +70709,7 @@
+     <Disorder id="18409">
+       <OrphaCode>199354</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=199354</ExpertLink>
+-      <Name lang="de">CARASIL</Name>
++      <Name lang="de">Zerebrale Arteriopathie mit subkortikalen Infarkten und Leukoenzephalopathie, autosomal-rezessiv</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -70717,8 +70717,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
++        <Synonym lang="de">CARASIL</Synonym>
+         <Synonym lang="de">Maeda-Syndrom</Synonym>
+-        <Synonym lang="de">Zerebrale Arteriopathie mit subkortikalen Infarkten und Leukoenzephalopathie, autosomal-rezessiv</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -74150,7 +74150,7 @@
+     <Disorder id="780">
+       <OrphaCode>2416</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2416</ExpertLink>
+-      <Name lang="de">Lymphödem, primäres, kongenitales</Name>
++      <Name lang="de">Kongenitales primäres Lymphödem ohne systemische oder viszerale Beteiligug</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -74399,10 +74399,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
++      <SynonymList count="2">
+         <Synonym lang="de">Atypisches HUS</Synonym>
+-        <Synonym lang="de">D-HUS</Synonym>
+-        <Synonym lang="de">Hämolytisch-urämisches Syndrom ohne Diarrhoe</Synonym>
+         <Synonym lang="de">aHUS</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -75346,7 +75344,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
++        <Synonym lang="de">EIEE</Synonym>
+         <Synonym lang="de">Frühinfantile epileptische Enzephalopathie mit Suppression-burst</Synonym>
+         <Synonym lang="de">Ohtahara-Syndrom</Synonym>
+       </SynonymList>
+@@ -75920,10 +75919,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
+-        <Synonym lang="de">BNS-Epilepsie</Synonym>
++      <SynonymList count="2">
+         <Synonym lang="de">Infantile Spasmen</Synonym>
+-        <Synonym lang="de">Intelligenzminderung - Hypsarrhythmie</Synonym>
++        <Synonym lang="de">Intelligenzminderung-Hypsarrhythmie-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+         <Name lang="de">Klinisches Syndrom</Name>
+@@ -79896,7 +79894,7 @@
+     <Disorder id="18313">
+       <OrphaCode>183713</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=183713</ExpertLink>
+-      <Name lang="de">Pyogene Bakterieninfektion durch MyD88-Mangel</Name>
++      <Name lang="de">Suszeptibilität für Bakterieninfektion durch TLR Signalweg-Defizienz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -86389,14 +86387,15 @@
+     <Disorder id="1001">
+       <OrphaCode>136</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=136</ExpertLink>
+-      <Name lang="de">CADASIL</Name>
++      <Name lang="de">Zerebrale autosomal-dominante Arteriopathie mit subkortikalen Infarkten und Leukenzephalopathie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">CADASIL</Synonym>
+         <Synonym lang="de">Demenz mit multiplen subkortikalen Infarkten, hereditäre Form</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -86785,7 +86784,7 @@
+     <Disorder id="1007">
+       <OrphaCode>528</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=528</ExpertLink>
+-      <Name lang="de">Lipodystrophie Typ Berardinelli</Name>
++      <Name lang="de">Lipodystrophie, kongenitale, Typ Berardinelli</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -86795,7 +86794,7 @@
+       <SynonymList count="4">
+         <Synonym lang="de">BSCL</Synonym>
+         <Synonym lang="de">Berardinelli-Seip-Syndrom</Synonym>
+-        <Synonym lang="de">Diabetes mellitus, lipatrophischer</Synonym>
++        <Synonym lang="de">Diabetes, lipatrophischer</Synonym>
+         <Synonym lang="de">Lipodystrophie, generalisierte kongenitale</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -86912,7 +86911,7 @@
+           <TargetDisorder id="1007" cycle="true"/>
+           <RootDisorder id="1357">
+             <OrphaCode>1060</OrphaCode>
+-            <Name lang="de">Angiomatose, systemische zystische - Seip-Syndrom</Name>
++            <Name lang="de">Systemische zystische Angiomatose-Seip-Syndrom</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21471">
+             <Name lang="de">Verschoben nach</Name>
+@@ -88496,7 +88495,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18199">
+@@ -99078,10 +99084,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="de">MLASA</Synonym>
+-        <Synonym lang="de">MSA</Synonym>
+-        <Synonym lang="de">Myopathie - Laktatazidose - sideroblastische Anämie</Synonym>
++        <Synonym lang="de">Myopathie mit Laktatazidose und sideroblastische Anämie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -99896,7 +99901,7 @@
+     <Disorder id="1357">
+       <OrphaCode>1060</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1060</ExpertLink>
+-      <Name lang="de">Angiomatose, systemische zystische - Seip-Syndrom</Name>
++      <Name lang="de">Systemische zystische Angiomatose-Seip-Syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="459">
+           <Value>256</Value>
+@@ -99907,7 +99912,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Brunzell-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -99921,7 +99927,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1007">
+             <OrphaCode>528</OrphaCode>
+-            <Name lang="de">Lipodystrophie Typ Berardinelli</Name>
++            <Name lang="de">Lipodystrophie, kongenitale, Typ Berardinelli</Name>
+           </TargetDisorder>
+           <RootDisorder id="1357" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -101161,8 +101167,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="de">Aplasia cutis congenita, autosomal-rezessive</Synonym>
++      <SynonymList count="1">
+         <Synonym lang="de">Bronspiegel-Zelnick-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -104334,7 +104339,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Ektodermale Dysplasie, amelo-onycho-hypohidrotische</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -105358,7 +105364,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">X-CALD</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -111406,7 +111413,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="2200">
+             <OrphaCode>2348</OrphaCode>
+-            <Name lang="de">Lipodystrophie, familiäre partielle, Typ Dunningan</Name>
++            <Name lang="de">Lipodystrophie, familiäre partielle, Typ  Dunnigan</Name>
+           </TargetDisorder>
+           <RootDisorder id="16733" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -113128,7 +113135,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Pierre Robin-Syndrom -  Kollagen-Störung</Synonym>
++        <Synonym lang="de">Pierre Robin-Syndrom - Kollagen-Störung</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+         <Name lang="de">Category</Name>
+@@ -119557,8 +119564,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">X-chromosomaler Hydrozephalus mit zerebellärer Agenesie und Intelligenzminderung</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -124872,7 +124878,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="1539">
+@@ -125805,7 +125818,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="1559">
+@@ -130212,8 +130232,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="de">Dermopathie, letale restriktive</Synonym>
++        <Synonym lang="de">Letale Hyperkeratose-Kontrakturen-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -130745,7 +130766,7 @@
+     <Disorder id="1757">
+       <OrphaCode>1671</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1671</ExpertLink>
+-      <Name lang="de">Diastematomyelie</Name>
++      <Name lang="de">Split-Cord-Malformation Typ I</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -130754,7 +130775,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="de">SCM Typ 1</Synonym>
+-        <Synonym lang="de">Split-Cord-Malformation Typ 1</Synonym>
++        <Synonym lang="de">SCM Typ I</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -132195,8 +132216,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="de">BFNIS</Synonym>
++        <Synonym lang="de">Benigne neonatal-infantile Epilepsie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -142245,7 +142267,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Lymphödeme - Lympangiektasien - geistige Retardierung</Synonym>
++        <Synonym lang="de">Lymphödem-Lympangiektasie-Intelligenzminderung-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -145192,7 +145214,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2014">
+@@ -146814,7 +146843,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Hypotonie-Arthrogrypose-Gesichtsdysmorphie-Lymphödem-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -147089,14 +147119,19 @@
+     <Disorder id="17164">
+       <OrphaCode>157965</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=157965</ExpertLink>
+-      <Name lang="de">Ehlers-Danlos-Syndrom, spondylo-cheiro dysplastische Form</Name>
++      <Name lang="de">SLC39A13-assoziiertes spondylodysplastisches Ehlers-Danlos-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="5">
++        <Synonym lang="de">Ehlers-Danlos-Syndrom, spondylo-cheiro dysplastische Form</Synonym>
++        <Synonym lang="de">SCD-EDS</Synonym>
++        <Synonym lang="de">SLC39A13-abhängiges spEDS</Synonym>
++        <Synonym lang="de">SLC39A13-assoziiertes spondylodysplastisches EDS</Synonym>
++        <Synonym lang="de">spEDS-SLC39A13</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -151100,10 +151135,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="6">
++      <SynonymList count="5">
+         <Synonym lang="de">BCD-Syndrom</Synonym>
+         <Synonym lang="de">Elschnig-Syndrom</Synonym>
+-        <Synonym lang="de">Gaumenspalte - Ektropion - konische Zähne</Synonym>
+         <Synonym lang="de">Inferiores Ektropium-Lippen- und/oder Gaumenspalte-Syndrom</Synonym>
+         <Synonym lang="de">Lagophthalmus-Lippen-Kiefer-Gaumenspalte-Syndrom</Synonym>
+         <Synonym lang="de">Spaltbildung-Ektropium-konische Zähne-Syndrom</Synonym>
+@@ -151379,7 +151413,7 @@
+     <Disorder id="2200">
+       <OrphaCode>2348</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2348</ExpertLink>
+-      <Name lang="de">Lipodystrophie, familiäre partielle, Typ Dunningan</Name>
++      <Name lang="de">Lipodystrophie, familiäre partielle, Typ  Dunnigan</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -151387,7 +151421,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="4">
+-        <Synonym lang="de">Dunningan-Syndrom</Synonym>
++        <Synonym lang="de">Dunnigan-Syndrom</Synonym>
+         <Synonym lang="de">FPLD2</Synonym>
+         <Synonym lang="de">Lipodystrophie, familiäre partielle, Typ 2</Synonym>
+         <Synonym lang="de">Lipodystrophie, familiäre partielle, Typ 2 (FPLD2)</Synonym>
+@@ -156932,7 +156966,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11709">
+             <OrphaCode>85408</OrphaCode>
+-            <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-negative</Name>
++            <Name lang="de">Arthritis, idiopathische juvenile polyartikuläre, Rheumafaktor-negative</Name>
+           </TargetDisorder>
+           <RootDisorder id="19558" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -158225,6 +158259,38 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="19474">
++      <OrphaCode>244275</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=244275</ExpertLink>
++      <Name lang="de">De-novo thrombotische Mikroangiopathie nach Nierentransplantation</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21429">
++        <Name lang="de">Besondere klinische Situation bei einer Krankheit oder einem Syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus beschreibt die Indikation für einen pharmakogenetischen Test.</Info>
++          </TextAuto>
++        </SummaryInformation>
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="2259">
+       <OrphaCode>2438</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2438</ExpertLink>
+@@ -158785,7 +158851,7 @@
+     <Disorder id="2243">
+       <OrphaCode>2419</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2419</ExpertLink>
+-      <Name lang="de">Lymphödem - Ptosis</Name>
++      <Name lang="de">Lymphödem-Ptosis-Syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="459">
+           <Value>256</Value>
+@@ -162677,7 +162743,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Hirschsprung-Krankheit - Intelligenzminderung</Synonym>
++        <Synonym lang="de">Hirschsprung-Krankheit-Intelligenzminderung-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -166314,15 +166380,16 @@
+     <Disorder id="19684">
+       <OrphaCode>251870</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251870</ExpertLink>
+-      <Name lang="de">Primitiver neuroektodermaler Tumor des Zentralnervensystems</Name>
++      <Name lang="de">ZNS-Tumor, embryonaler</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
+         <Synonym lang="de">PNET des Zentralnervensystems</Synonym>
++        <Synonym lang="de">Primitiver neuroektodermaler Tumor des Zentralnervensystems</Synonym>
+         <Synonym lang="de">ZNS- PNET</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+@@ -169670,7 +169737,7 @@
+     <Disorder id="2121">
+       <OrphaCode>2251</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2251</ExpertLink>
+-      <Name lang="de">Daumenfehlbildung - Alopezie - Pigmentanomalien</Name>
++      <Name lang="de">Daumenfehlbildung-Alopezie-Pigmentanomalie-Syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -169681,7 +169748,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Spärliches Haar-Kleinwuchs-Hautanomalien-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -170164,7 +170232,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">X-chromosomale Intelligenzminderung - Mikrozephalie - kortikale Fehlbildungen  - schlanker Habitus</Synonym>
++        <Synonym lang="de">X-chromosomale Intelligenzminderung-Mikrozephalie-kortikale Fehlbildung-schlanker Habitus-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -172338,7 +172406,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Persistierendes Fieber/Anhaltende Inflammation unbekannter Ursache</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -183636,7 +183705,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10999">
+             <OrphaCode>71277</OrphaCode>
+-            <Name lang="de">Enzephalopathie durch GLUT1-Defekt</Name>
++            <Name lang="de">Klassisches Glukosetransporter-Typ-1-Mangel-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="2558" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -188378,7 +188447,7 @@
+     <Disorder id="2343">
+       <OrphaCode>2535</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2535</ExpertLink>
+-      <Name lang="de">OBSOLET: Mikrokornea - Korektopie - Makulahypoplasie</Name>
++      <Name lang="de">OBSOLET: Mikrokornea-Korektopie-Makulahypoplasie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="455">
+           <Value>16</Value>
+@@ -188877,7 +188946,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="3713">
+             <OrphaCode>2542</OrphaCode>
+-            <Name lang="de">Anophthalmie/Mikrophthalmie-Syndrom, isoliertes</Name>
++            <Name lang="de">Mikrophthalmie-Anophthalmie-Kolobom, isoliert</Name>
+           </TargetDisorder>
+           <RootDisorder id="2350" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -194574,7 +194643,7 @@
+     <Disorder id="19882">
+       <OrphaCode>261501</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=261501</ExpertLink>
+-      <Name lang="de">Norrie-Syndrom, atypisches, durch Monosomie Xp11.3</Name>
++      <Name lang="de">Norrie-Syndrom, atypisches, durch Mikrodeletion Xp11.3</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -194583,7 +194652,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="de">Norrie-Syndrom, atypisches, durch Del(X)(p11.3)</Synonym>
+-        <Synonym lang="de">Norrie-Syndrom, atypisches, durch Mikrodeletion Xp11.3</Synonym>
++        <Synonym lang="de">Norrie-Syndrom, atypisches, durch Monosomie Xp11.3</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -194801,7 +194870,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="238">
+             <OrphaCode>126</OrphaCode>
+-            <Name lang="de">Blepharophimose - Epicanthus inversus - Ptosis</Name>
++            <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="19892" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -195274,7 +195343,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="238">
+             <OrphaCode>126</OrphaCode>
+-            <Name lang="de">Blepharophimose - Epicanthus inversus - Ptosis</Name>
++            <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="19890" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -195295,8 +195364,9 @@
+           <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="de">Blepharophimosis Typ 1 und 2 durch Punktmutationen</Synonym>
++        <Synonym lang="de">OBSOLET: Blepharophimosis Typ 1 und 2 durch Punktmutationen</Synonym>
+       </SynonymList>
+       <DisorderType id="21443">
+         <Name lang="de">Ätiologischer Subtyp</Name>
+@@ -195310,7 +195380,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="238">
+             <OrphaCode>126</OrphaCode>
+-            <Name lang="de">Blepharophimose - Epicanthus inversus - Ptosis</Name>
++            <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="19891" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -199920,9 +199990,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="de">Bartter-Syndrom Typ 5</Synonym>
+-        <Synonym lang="de">Bartter-Syndrom Typ V</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -201727,7 +201795,7 @@
+         <Synonym lang="de">APS Typ 2</Synonym>
+         <Synonym lang="de">APS-2</Synonym>
+         <Synonym lang="de">Autoimmun-polyglanduläres Syndrom Typ 2</Synonym>
+-        <Synonym lang="de">Autoimmune Schilddrüsenkrankheit und/oder Typ 1 Diabetes -  Addison-Krankheit</Synonym>
++        <Synonym lang="de">Autoimmune Schilddrüsenkrankheit und/oder Typ 1 Diabetes - Addison-Krankheit</Synonym>
+         <Synonym lang="de">Schmidt-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -206145,9 +206213,9 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="3">
+-        <Synonym lang="de">Pierre-Robin-Sequenz - kongenitaler Herzdefekt - Klumpfüße</Synonym>
+-        <Synonym lang="de">Pierre-Robin-Syndrom - Kardiopathie - Klumpfüße</Synonym>
+-        <Synonym lang="de">Talipes equinovarus -  Atriumseptumdefekt - Robin-Sequenz  - Persistenz des linken Ductus Cuvieri</Synonym>
++        <Synonym lang="de">Pierre-Robin-Sequenz-kongenitaler Herzdefekt-Klumpfuß-Syndrom</Synonym>
++        <Synonym lang="de">Pierre-Robin-Syndrom-Kardiopathie-Klumpfuß-Syndrom</Synonym>
++        <Synonym lang="de">Talipes equinovarus-Atriumseptumdefekt-Robin-Sequenz-persistierende linke obere Hohlvene-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -224485,10 +224553,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
+-        <Synonym lang="de">OSMED, heterozygot</Synonym>
+-        <Synonym lang="de">Oto-spondylo-mega-epiphyseale Dysplasie</Synonym>
+-        <Synonym lang="de">Pierre Robin-Sequenz - fetale Chondrodysplasie</Synonym>
++      <SynonymList count="2">
++        <Synonym lang="de">Pierre Robin-Sequenz-fetale Chondrodysplasie-Syndrom</Synonym>
++        <Synonym lang="de">Pierre Robin-Syndrom-fetale Chondrodysplasie-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -224524,7 +224591,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="17618">
+             <OrphaCode>166100</OrphaCode>
+-            <Name lang="de">Stickler-Syndrom Typ 3</Name>
++            <Name lang="de">Oto-spondylo-megaepiphysäre Dysplasie, autosomal-dominante</Name>
+           </TargetDisorder>
+           <RootDisorder id="3034" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -225055,7 +225122,7 @@
+     <Disorder id="20255">
+       <OrphaCode>269528</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=269528</ExpertLink>
+-      <Name lang="de">Syndrome mit Mikrozephalie als Hauptmerkmal</Name>
++      <Name lang="de">Syndrom mit Mikrozephalie als Hauptmerkmal</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -228144,7 +228211,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="28494">
+             <OrphaCode>566243</OrphaCode>
+-            <Name lang="de">Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta</Name>
++            <Name lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im Thyroidhormonrezeptor beta</Name>
+           </TargetDisorder>
+           <RootDisorder id="2878" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -229357,9 +229424,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
+-        <Synonym lang="de">Aarskog-Ose-Pande-Syndrom</Synonym>
+-        <Synonym lang="de">Lipodystrophie - Rieger-Anomalie - Diabetes</Synonym>
++      <SynonymList count="2">
++        <Synonym lang="de">Lipodystrophie-Rieger-Anomalie-Diabetes-Syndrom</Synonym>
+         <Synonym lang="de">Rieger-Anomalie-partielle Lipodystrophy-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -235963,18 +236029,17 @@
+     <Disorder id="2908">
+       <OrphaCode>3253</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3253</ExpertLink>
+-      <Name lang="de">Zlotogora-Ogur-Syndrom</Name>
++      <Name lang="de">Lippen-Kiefer-Gaumen-Spalte-ektodermale Dysplasie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
++      <SynonymList count="4">
+         <Synonym lang="de">CLPED1</Synonym>
+-        <Synonym lang="de">Lippen-Kiefer-Gaumen-Spalte - Syndaktylie - Pili torti</Synonym>
+-        <Synonym lang="de">Lippen-Kiefer-Gaumen-Spalte-ektodermale Dysplasie-Syndrom</Synonym>
+-        <Synonym lang="de">Syndaktylie - ektodermale Dysplasie - Lippen-Kiefer-Gaumen-Spalte</Synonym>
++        <Synonym lang="de">Lippen-Kiefer-Gaumen-Spalte-Syndaktylie-Pili torti-Syndrom</Synonym>
++        <Synonym lang="de">Syndaktylie-ektodermale Dysplasie-Lippen-Kiefer-Gaumen-Spalte-Syndrom</Synonym>
+         <Synonym lang="de">Zlotogora-Zilberman-Tenenbaum-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -236588,7 +236653,7 @@
+         <Synonym lang="de">Glykogen-Speicherkrankheit Typ 0a</Synonym>
+         <Synonym lang="de">Glykogenose Typ 0a</Synonym>
+         <Synonym lang="de">Glykogensynthase-Mangel der Leber</Synonym>
+-        <Synonym lang="de">Glykogensynthase-Mangel,  hepatischer</Synonym>
++        <Synonym lang="de">Glykogensynthase-Mangel, hepatischer</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -237024,18 +237089,16 @@
+     <Disorder id="3279">
+       <OrphaCode>572</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572</ExpertLink>
+-      <Name lang="de">Immundefekt durch HLA-Klasse II-Expressionsdefekt</Name>
++      <Name lang="de">Immundefekt durch MHC Klasse II-Expressionsdefekt</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
+-        <Synonym lang="de">HLA-Klasse 2-negativer SCID</Synonym>
+-        <Synonym lang="de">HLA-Klasse II-negativer schwerer kombinierter Immundefekt</Synonym>
++      <SynonymList count="3">
+         <Synonym lang="de">Haupthistokompatibilitäts-Komplex-Klasse-II-Expressionsdefekt</Synonym>
+-        <Synonym lang="de">MHC-Klasse II-Expressionsdefekt</Synonym>
++        <Synonym lang="de">MHC Klasse II-Defizienz</Synonym>
+         <Synonym lang="de">Nackte-Lymphozyten-Syndrom Typ II</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -237380,14 +237443,15 @@
+     <Disorder id="18484">
+       <OrphaCode>202948</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=202948</ExpertLink>
+-      <Name lang="de">Mikrophthalmie, syndromale</Name>
++      <Name lang="de">Syndromales Mikrophthalmie-Anophthalmie-Kolobom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Mikrophtalmie, syndromale</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+         <Name lang="de">Category</Name>
+@@ -246619,9 +246683,10 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
+         <Synonym lang="de">CAPS</Synonym>
+         <Synonym lang="de">Cryopyrinopathie</Synonym>
++        <Synonym lang="de">NLRP3-assoziierte systemische autoinflammatorische Krankheit</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+         <Name lang="de">Phenom-Gruppe</Name>
+@@ -249202,7 +249267,7 @@
+     <Disorder id="3131">
+       <OrphaCode>1167</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1167</ExpertLink>
+-      <Name lang="de">OBSOLET: Gesichtsasymmetrie - temporäre Anfälle</Name>
++      <Name lang="de">OBSOLET: Gesichtsasymmetrie-temporäre Anfälle-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="455">
+           <Value>16</Value>
+@@ -256506,7 +256571,7 @@
+           <TargetDisorder id="3562" cycle="true"/>
+           <RootDisorder id="3131">
+             <OrphaCode>1167</OrphaCode>
+-            <Name lang="de">OBSOLET: Gesichtsasymmetrie - temporäre Anfälle</Name>
++            <Name lang="de">OBSOLET: Gesichtsasymmetrie-temporäre Anfälle-Syndrom</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="de">Verwiesen auf</Name>
+@@ -260744,13 +260809,15 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="6">
++      <SynonymList count="8">
+         <Synonym lang="de">Adduzierte Daumen-Klumpfuß-Syndrom</Synonym>
++        <Synonym lang="de">Distale Arthrogrypose mit Gesichtsdysmorphie und Hydronephrose</Synonym>
++        <Synonym lang="de">Dundar-Syndrom</Synonym>
+         <Synonym lang="de">EDS Typ Kosho</Synonym>
+         <Synonym lang="de">EDS, muskulo-kontrakturaler Typ</Synonym>
+         <Synonym lang="de">Ehlers-Danlos-Syndrom Typ Kosho</Synonym>
+-        <Synonym lang="de">MCEDS</Synonym>
+         <Synonym lang="de">Muskulo-kontrakturales Ehlers-Danlos-Syndrom</Synonym>
++        <Synonym lang="de">mcEDS</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -265935,7 +266002,7 @@
+     <Disorder id="18844">
+       <OrphaCode>217315</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=217315</ExpertLink>
+-      <Name lang="de">Cutis verticis gyrata  - Retinitis pigmentosa - sensorineurale Schwerhörigkeit</Name>
++      <Name lang="de">Cutis verticis gyrata-Retinitis pigmentosa-sensorineurale Schwerhörigkeit-Syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="459">
+           <Value>256</Value>
+@@ -265947,9 +266014,9 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="3">
+-        <Synonym lang="de">Cutis verticis gyrata  - Retinitis pigmentosa - Schallempfindungsschwerhörigkeit</Synonym>
+-        <Synonym lang="de">Cutis verticis gyrata  - Retinitis pigmentosa - neurosensorischer Hörverlust</Synonym>
+-        <Synonym lang="de">Cutis verticis gyrata  - Retinitis pigmentosa - sensorineuraler Hörverlust</Synonym>
++        <Synonym lang="de">Cutis verticis gyrata - Retinitis pigmentosa - sensorineuraler Hörverlust</Synonym>
++        <Synonym lang="de">Cutis verticis gyrata mit Retinitis pigmentosa und neurosensorischen Hörverlust</Synonym>
++        <Synonym lang="de">Cutis verticis gyrata-Retinitis pigmentosa-Schallempfindungsschwerhörigkeit-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -266006,15 +266073,16 @@
+     <Disorder id="18845">
+       <OrphaCode>217330</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=217330</ExpertLink>
+-      <Name lang="de">Hyperurikämie - Anämie - Nierenversagen</Name>
++      <Name lang="de">Nierenkrankheit, tubulointerstitielle, autosomal-dominante, REN-assoziierte</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
+-        <Synonym lang="de">FJHN Typ  2</Synonym>
++      <SynonymList count="6">
++        <Synonym lang="de">ADTKD-REN</Synonym>
++        <Synonym lang="de">FJHN Typ 2</Synonym>
+         <Synonym lang="de">Nephropathie, familiäre hyperurikämische juvenile, Typ 2</Synonym>
+         <Synonym lang="de">REN-assoziierte FJHN</Synonym>
+         <Synonym lang="de">REN-assoziierte Nierenkrankheit</Synonym>
+@@ -269575,16 +269643,14 @@
+     <Disorder id="3443">
+       <OrphaCode>2041</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2041</ExpertLink>
+-      <Name lang="de">Koronararterienfisteln</Name>
++      <Name lang="de">Koronarfistel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="de">Fehlbildung, koronararterielle</Synonym>
+-        <Synonym lang="de">Fistel, koronarokardiale</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -279301,7 +279367,7 @@
+     <Disorder id="3735">
+       <OrphaCode>2126</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2126</ExpertLink>
+-      <Name lang="de">Tumor, fibröser solitärer</Name>
++      <Name lang="de">Solitärer fibröser Tumor/Hämangioperizytom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -279309,7 +279375,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">SFT</Synonym>
++        <Synonym lang="de">SFT/HPC</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -280401,10 +280467,10 @@
+       </DisorderFlagList>
+       <SynonymList count="5">
+         <Synonym lang="de">Dent-Syndrom</Synonym>
+-        <Synonym lang="de">Fanconi-Syndrom, renales, mit Nephrokalzinose und Nierensteinen</Synonym>
+         <Synonym lang="de">Nephrolithiasis, X-chromosomal-rezessive</Synonym>
+-        <Synonym lang="de">Niedermolekulare Proteinurie mit Hyperkalziurie und  Nephrokalzinose</Synonym>
++        <Synonym lang="de">Niedermolekulare Proteinurie mit Hyperkalziurie und Nephrokalzinose</Synonym>
+         <Synonym lang="de">Rachitis, hypokalziurische hypophosphatämische, X-chromosomal-rezessive</Synonym>
++        <Synonym lang="de">Renales Fanconi-Syndrom mit Nephrokalzinose und Nierensteinen</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -280605,16 +280671,15 @@
+     <Disorder id="3713">
+       <OrphaCode>2542</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2542</ExpertLink>
+-      <Name lang="de">Anophthalmie/Mikrophthalmie-Syndrom, isoliertes</Name>
++      <Name lang="de">Mikrophthalmie-Anophthalmie-Kolobom, isoliert</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="de">MAC-Spektrum</Synonym>
+-        <Synonym lang="de">Mikrophthalmie-Anophthalmie-Kolobom-Spektrum</Synonym>
++      <SynonymList count="1">
++        <Synonym lang="de">Anophthalmie/Mikrophthalmie-Syndrom, isoliertes</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+         <Name lang="de">Phenom-Gruppe</Name>
+@@ -282287,7 +282352,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1007">
+             <OrphaCode>528</OrphaCode>
+-            <Name lang="de">Lipodystrophie Typ Berardinelli</Name>
++            <Name lang="de">Lipodystrophie, kongenitale, Typ Berardinelli</Name>
+           </TargetDisorder>
+           <RootDisorder id="19133" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -286273,12 +286338,13 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="8">
++      <SynonymList count="9">
+         <Synonym lang="de">DYT1</Synonym>
+         <Synonym lang="de">Dystonia musculorum deformans</Synonym>
+-        <Synonym lang="de">Dystonie musculorum deformans</Synonym>
+         <Synonym lang="de">Dystonie, idiopathische</Synonym>
+         <Synonym lang="de">EOTD</Synonym>
++        <Synonym lang="de">Früh beginnende isolierte Dystonie</Synonym>
++        <Synonym lang="de">Früh-einsetzende primäre Dystonie</Synonym>
+         <Synonym lang="de">Idiopathische Torsionsdystonie</Synonym>
+         <Synonym lang="de">Oppenheim-Dystonie</Synonym>
+         <Synonym lang="de">Torsionsdystonie, früh beginnende</Synonym>
+@@ -288379,7 +288445,7 @@
+           <TargetDisorder id="3618" cycle="true"/>
+           <RootDisorder id="12467">
+             <OrphaCode>93686</OrphaCode>
+-            <Name lang="de">OBSOLET: Multizentrische Castleman-Krankheit (MCD)</Name>
++            <Name lang="de">OBSOLET: Multizentrische Castleman-Krankheit</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="de">Verwiesen auf</Name>
+@@ -290741,7 +290807,7 @@
+     <Disorder id="19143">
+       <OrphaCode>230845</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=230845</ExpertLink>
+-      <Name lang="de">Ehlers-Danlos-Syndrom, ähnlich vaskulärer Typ</Name>
++      <Name lang="de">Klassisches Ehlers-Danlos-Syndrom, ähnlich vaskulärer Typ</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="459">
+           <Value>256</Value>
+@@ -290752,8 +290818,12 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="5">
++        <Synonym lang="de">COL1A1-cEDS</Synonym>
+         <Synonym lang="de">EDS, ähnlich vaskulärer Typ</Synonym>
++        <Synonym lang="de">Klassisches EDS durch p.(Arg312Cys) im COL1A1-Gen</Synonym>
++        <Synonym lang="de">Klassisches EDS mit Neigung zu Arterienruptur</Synonym>
++        <Synonym lang="de">Klassisches Ehlers-Danlos-Syndrom durch COL1A1 p.(Arg312Cys)</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -290845,8 +290915,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
+         <Synonym lang="de">EDS, klassisch-ähnliches, Typ 1</Synonym>
++        <Synonym lang="de">Ehlers-Danlos-Syndrom durch Tenascin-X-Mangel</Synonym>
+         <Synonym lang="de">clEDS Typ 1</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -291826,8 +291897,13 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">EDS VI</Synonym>
++      <SynonymList count="6">
++        <Synonym lang="de">EDS VIA</Synonym>
++        <Synonym lang="de">Ehlers-Danlos-Syndrom Typ 6A</Synonym>
++        <Synonym lang="de">Kyphoskoliotisches EDS durch Lysyl-Hydroxylase 1-Mangel</Synonym>
++        <Synonym lang="de">Lysyl-Hydroxylase-defizientes EDS</Synonym>
++        <Synonym lang="de">Okulär-skoliotisches EDS</Synonym>
++        <Synonym lang="de">kEDS-PLOD1</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -291975,8 +292051,11 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="6">
++        <Synonym lang="de">Arteriell-ekchymotisches EDS</Synonym>
++        <Synonym lang="de">EDS IV</Synonym>
+         <Synonym lang="de">EDS, vaskuläres</Synonym>
++        <Synonym lang="de">Ehlers-Danlos-Syndrom Typ 4</Synonym>
+         <Synonym lang="de">Sack-Barabas-Syndrom</Synonym>
+         <Synonym lang="de">vEDS</Synonym>
+       </SynonymList>
+@@ -292137,8 +292216,12 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="6">
++        <Synonym lang="de">EDS III</Synonym>
++        <Synonym lang="de">EDS-HT</Synonym>
++        <Synonym lang="de">Ehlers-Danlos-Syndrom Typ 3</Synonym>
+         <Synonym lang="de">Hypermobiles EDS</Synonym>
++        <Synonym lang="de">Hypermobiles Ehlers-Danlos-Syndrom</Synonym>
+         <Synonym lang="de">hEDS</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -292408,9 +292491,10 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="4">
+         <Synonym lang="de">EDS VII C</Synonym>
+         <Synonym lang="de">Ehlers-Danlos-Syndrom Typ 7C</Synonym>
++        <Synonym lang="de">Humane Dermatosparaxie EDS VIIC</Synonym>
+         <Synonym lang="de">dEDS</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -292587,7 +292671,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="4">
++        <Synonym lang="de">Arthrochalasis multiplex congenita</Synonym>
+         <Synonym lang="de">EDS VII</Synonym>
+         <Synonym lang="de">Ehlers-Danlos-Syndrom Typ 7</Synonym>
+         <Synonym lang="de">aEDS</Synonym>
+@@ -302807,7 +302892,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Paragangliom-Somatostatinom-Polyzythämie-Syndrom</Synonym>
++        <Synonym lang="de">Parangangliom, multiples, mit assoziierter Erythrozytose</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -303139,7 +303226,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="2908">
+             <OrphaCode>3253</OrphaCode>
+-            <Name lang="de">Zlotogora-Ogur-Syndrom</Name>
++            <Name lang="de">Lippen-Kiefer-Gaumen-Spalte-ektodermale Dysplasie-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="21706" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -308237,8 +308324,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Ataxie, spinozerebelläre X-chromosomale, Typ 5</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -310629,8 +310715,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
+         <Synonym lang="de">PPNET</Synonym>
++        <Synonym lang="de">Peripheres Neuroepitheliom</Synonym>
+         <Synonym lang="de">pPNET</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -310690,9 +310777,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
++      <SynonymList count="3">
+         <Synonym lang="de">EOE</Synonym>
+-        <Synonym lang="de">Extraossäre Tumoren der Ewing Gruppe</Synonym>
+         <Synonym lang="de">Extraossäres Ewing-Sarkom</Synonym>
+         <Synonym lang="de">Extraskelettaler Ewing-Tumor</Synonym>
+       </SynonymList>
+@@ -318808,7 +318894,7 @@
+           <TargetDisorder id="22217" cycle="true"/>
+           <RootDisorder id="18844">
+             <OrphaCode>217315</OrphaCode>
+-            <Name lang="de">Cutis verticis gyrata  - Retinitis pigmentosa - sensorineurale Schwerhörigkeit</Name>
++            <Name lang="de">Cutis verticis gyrata-Retinitis pigmentosa-sensorineurale Schwerhörigkeit-Syndrom</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21471">
+             <Name lang="de">Verschoben nach</Name>
+@@ -319087,18 +319173,15 @@
+     <Disorder id="22195">
+       <OrphaCode>357008</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=357008</ExpertLink>
+-      <Name lang="de">Hämolytisch-urämisches Syndrom, atypische From mit DGKE-Mangel</Name>
++      <Name lang="de">Hämolytisch-urämisches Syndrom mit DGKE-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
+-        <Synonym lang="de">Atypisches HUS mit DGKE-Mangel</Synonym>
+-        <Synonym lang="de">D-HUS mit DGKE-Mangel</Synonym>
+-        <Synonym lang="de">Hämolytisch-urämisches Syndrom ohne Diarrhoe mit DGKE-Mangel</Synonym>
+-        <Synonym lang="de">aHUS mit DGKE-Mangel</Synonym>
++      <SynonymList count="1">
++        <Synonym lang="de">HUS mit DGKE-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -329419,7 +329502,7 @@
+     <Disorder id="20760">
+       <OrphaCode>289825</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=289825</ExpertLink>
+-      <Name lang="de">Lymphödem, primäres, spät-beginnendes</Name>
++      <Name lang="de">Spät-beginnendes primäres Lymphödem ohne systemische oder viszerale Beteiligung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -343179,14 +343262,15 @@
+     <Disorder id="21252">
+       <OrphaCode>306686</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=306686</ExpertLink>
+-      <Name lang="de">Kohlenstoffmonoxid-induzierter Parkinsonismus</Name>
++      <Name lang="de">Verzögerte Kohlenmonoxidenzephalopathie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Verzögerte Enzephalopathie durch CO-Intoxikation</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -347783,7 +347867,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21345">
+@@ -351255,14 +351346,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit wird beschrieben unter  L1-Syndrom</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21238">
+@@ -354644,9 +354728,13 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="6">
+         <Synonym lang="de">EDS mit progressiver Kyphoskoliose, Myopathie und Hörverlust</Synonym>
+         <Synonym lang="de">EDS, kyphoskoliotischer Typ mit Hörverlust</Synonym>
++        <Synonym lang="de">FKBP14-assoziiertes EDS</Synonym>
++        <Synonym lang="de">FKBP22-defizienzes EDS</Synonym>
++        <Synonym lang="de">Kyphoskoliotisches EDS durch FKBP22-Mangel</Synonym>
++        <Synonym lang="de">kEDS-FKBP14</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -358089,8 +358177,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">IgG4-assoziierte Periaortitis</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -359403,7 +359490,8 @@
+           <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">OBSOLET: Trunkuläre lymphatische Fehlbildung</Synonym>
+         <Synonym lang="de">Trunkuläre lymphatische Fehlbildung</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+@@ -364432,7 +364520,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">White-Sutton-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -373191,7 +373280,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22715">
+@@ -376125,8 +376221,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="de">Sekundäre nicht-traumatische AVN</Synonym>
++        <Synonym lang="de">Sekundäre nicht-traumatische Osteonekrose</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -379620,16 +379717,15 @@
+     <Disorder id="23367">
+       <OrphaCode>438178</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=438178</ExpertLink>
+-      <Name lang="de">Schwere Intelligenzminderung-Epilepsie-Katarakt-Syndrom durch Acyl-CoA-Reduktase 1-Mangel</Name>
++      <Name lang="de">Fettsäure Acyl-CoA-Reduktase 1-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="de">Schwere Intelligenzminderung-Epilepsie-Katarakt-Syndrom durch FAR1-Mangel</Synonym>
+-        <Synonym lang="de">Schwere Intelligenzminderung-Epilepsie-Katarakt-Syndrom durch peroxisomale Störung</Synonym>
++      <SynonymList count="1">
++        <Synonym lang="de">FAR1-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -391899,7 +391995,7 @@
+     <Disorder id="23200">
+       <OrphaCode>424933</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=424933</ExpertLink>
+-      <Name lang="de">Seltener epithelialer Tumor der Leber und intrahepatischen Gallengänge</Name>
++      <Name lang="de">Seltener maligner epithelialer Tumor der Leber und intrahepatischen Gallengänge</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -394741,7 +394837,7 @@
+           <TargetDisorder id="8737" cycle="true"/>
+           <RootDisorder id="13142">
+             <OrphaCode>98124</OrphaCode>
+-            <Name lang="de">OBSOLET: Ionenkanalkrankheit bei skeletomuskulärem ACh-Rezeptordefekt</Name>
++            <Name lang="de">OBSOLET: OIonenkanalkrankheit bei skeletomuskulärem ACh-Rezeptordefekt</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="de">Verwiesen auf</Name>
+@@ -414322,9 +414418,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="de">Alveolitis, exogen-allergische</Synonym>
+-        <Synonym lang="de">HP</Synonym>
+         <Synonym lang="de">Hypersensitive Pneumonitis</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+@@ -415032,7 +415127,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">UPS18-Defizienz</Synonym>
+         <Synonym lang="de">USP18-Defizienz</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -419890,19 +419986,18 @@
+     <Disorder id="10999">
+       <OrphaCode>71277</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=71277</ExpertLink>
+-      <Name lang="de">Enzephalopathie durch GLUT1-Defekt</Name>
++      <Name lang="de">Klassisches Glukosetransporter-Typ-1-Mangel-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="6">
++      <SynonymList count="5">
+         <Synonym lang="de">De Vivo-Krankheit</Synonym>
+-        <Synonym lang="de">GLUT1-Defekt</Synonym>
+-        <Synonym lang="de">Glukosetransporter Typ 1-Defekt</Synonym>
+-        <Synonym lang="de">Glukosetransporter Typ 1-Mangel-Syndrom</Synonym>
+-        <Synonym lang="de">Glut-1-Mangel-Syndrom</Synonym>
++        <Synonym lang="de">Enzephalopathie durch GLUT1-Defekt</Synonym>
++        <Synonym lang="de">GLUT1-Defekt, klassisch</Synonym>
++        <Synonym lang="de">GLUT1-Defizienz-Syndrom, klassische Form</Synonym>
+         <Synonym lang="de">Glut1-DS</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -420438,7 +420533,7 @@
+     <Disorder id="28179">
+       <OrphaCode>558411</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=558411</ExpertLink>
+-      <Name lang="de">Idiopathic gastroparesis</Name>
++      <Name lang="de">Gastroparese, idiopathische</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -421681,7 +421776,7 @@
+     <Disorder id="28167">
+       <OrphaCode>557866</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=557866</ExpertLink>
+-      <Name lang="de">Rare disorder with Hirschsprung disease as a major feature</Name>
++      <Name lang="de">Seltene Krankheit mit Hirschsprung-Krankheit als Hauptmerkmal</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -425532,14 +425627,16 @@
+     <Disorder id="28337">
+       <OrphaCode>562639</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=562639</ExpertLink>
+-      <Name lang="de">Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome</Name>
++      <Name lang="de">Primäre biliäre Cholangitis/primäre sklerosiierende Cholangitis und autoimmune Hepatitis-Übergangsform</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">PBC/PSC und AIH-Overlap-Syndrom</Synonym>
++        <Synonym lang="de">Überlappungssyndrome autoimmuner Lebererkrankungen</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -427039,14 +427136,15 @@
+     <Disorder id="28329">
+       <OrphaCode>562509</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=562509</ExpertLink>
+-      <Name lang="de">Heme oxygenase-1 deficiency</Name>
++      <Name lang="de">Hämoxygenase 1-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">HO-1-Defizienz</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -427288,14 +427386,15 @@
+     <Disorder id="28331">
+       <OrphaCode>562528</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=562528</ExpertLink>
+-      <Name lang="de">Congenital limbs-face contractures-hypotonia-developmental delay syndrome</Name>
++      <Name lang="de">Kongenitale Extremitäten- und Gesichtskontrakturen-Hypotonie-Entwicklungsverzögerung-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">CLIFAHDD-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -427396,14 +427495,15 @@
+     <Disorder id="28333">
+       <OrphaCode>562559</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=562559</ExpertLink>
+-      <Name lang="de">Anterior maxillary protrusion-strabismus-intellectual disability syndrome</Name>
++      <Name lang="de">Vordere Oberkieferprotrusion-Strabismus-Intelligenzminderung-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">MRAMS-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -427432,14 +427532,16 @@
+     <Disorder id="28332">
+       <OrphaCode>562538</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=562538</ExpertLink>
+-      <Name lang="de">Autosomal recessive extra-oral halitosis</Name>
++      <Name lang="de">Extraorale Halitosis, autosomal-rezessive</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">MTO-Mangel</Synonym>
++        <Synonym lang="de">Methanethiol-Oxidase-Defizienz</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -427518,7 +427620,7 @@
+     <Disorder id="28334">
+       <OrphaCode>562569</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=562569</ExpertLink>
+-      <Name lang="de">TMEM94-associated congenital heart defect-facial dysmorphism-developmental delay syndrome</Name>
++      <Name lang="de">TMEM94-assoziierter kongenitaler Herzdefekt-Gesichtsdysmorphie-Entwicklungsverzögerung-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -427783,7 +427885,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Pyknolepsie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -428637,14 +428740,15 @@
+     <Disorder id="28316">
+       <OrphaCode>561854</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=561854</ExpertLink>
+-      <Name lang="de">FOXG1 syndrome</Name>
++      <Name lang="de">FOXG1-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Enzephalopathie, epileptische, FOXG1-assoziierte</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -430065,7 +430169,7 @@
+     <Disorder id="28391">
+       <OrphaCode>563954</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563954</ExpertLink>
+-      <Name lang="de">Isolated congenital hypoglossia</Name>
++      <Name lang="de">Hypoglossie, isolierte, kongenitale</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -430166,7 +430270,7 @@
+     <Disorder id="28390">
+       <OrphaCode>563951</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563951</ExpertLink>
+-      <Name lang="de">Isolated congenital aglossia</Name>
++      <Name lang="de">Aglossie, isolierte, kongenitale</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -430427,14 +430531,17 @@
+     <Disorder id="28397">
+       <OrphaCode>564003</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=564003</ExpertLink>
+-      <Name lang="de">Osteochondrosis of the metatarsal bone</Name>
++      <Name lang="de">Osteochondrose des Mittelfußknochens</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Avaskuläre Nekrose der Metatarsalköpfchen</Synonym>
++        <Synonym lang="de">Freiberg-Krankheit</Synonym>
++        <Synonym lang="de">Osteochondronekrose der Metatarsalköpfchen</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -430523,14 +430630,17 @@
+     <Disorder id="28396">
+       <OrphaCode>563991</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563991</ExpertLink>
+-      <Name lang="de">Osteochondrosis of the tarsal bone</Name>
++      <Name lang="de">Osteochondrose des Fußwurzelknochens</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Aseptische Nekrose des Fußwurzelknochens</Synonym>
++        <Synonym lang="de">Avvaskuläre Nekrose des Fußwurzelknochens</Synonym>
++        <Synonym lang="de">Kohler-Krankheit</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -430585,7 +430695,7 @@
+     <Disorder id="28399">
+       <OrphaCode>564178</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=564178</ExpertLink>
+-      <Name lang="de">Primary hypomagnesemia with refractory seizures and intellectual deficiency</Name>
++      <Name lang="de">Primäre Hypomagnesiämie mit refraktären Krämpfen und Intelligenzminderung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -430610,7 +430720,7 @@
+     <Disorder id="28398">
+       <OrphaCode>564127</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=564127</ExpertLink>
+-      <Name lang="de">Genetic nephrotic syndrome without extrarenal manifestations</Name>
++      <Name lang="de">Nephrotisches Syndrom, hereditäres</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -430988,7 +431098,7 @@
+     <Disorder id="28372">
+       <OrphaCode>563690</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563690</ExpertLink>
+-      <Name lang="de">Furuncular myiasis due to Cordylobia rodhaini</Name>
++      <Name lang="de">Fliegenmadenbefall durch Cordylobia rodhaini</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -431049,14 +431159,15 @@
+     <Disorder id="28373">
+       <OrphaCode>563708</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563708</ExpertLink>
+-      <Name lang="de">Syndromic congenital sodium diarrhea</Name>
++      <Name lang="de">Syndromale kongenitale Natriumdiarrhöe</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Syndromale kongenitale Tufting-Enteropathie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -431150,14 +431261,15 @@
+     <Disorder id="28370">
+       <OrphaCode>563684</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563684</ExpertLink>
+-      <Name lang="de">Furuncular myiasis due to Dermatobia hominis</Name>
++      <Name lang="de">Furunkuloide Myiasis durch Dermatobia hominis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Fliegenmadenbefall durch Dermatobia hominis</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -431182,14 +431294,15 @@
+     <Disorder id="28371">
+       <OrphaCode>563687</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563687</ExpertLink>
+-      <Name lang="de">Furuncular myiasis due to Cordylobia anthropophaga</Name>
++      <Name lang="de">Furunkuloide Myiasis durch Cordylobia anthropophaga</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Fliegenmadenbefall durch Cordylobia anthropophaga</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -431399,14 +431512,15 @@
+     <Disorder id="28368">
+       <OrphaCode>563671</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563671</ExpertLink>
+-      <Name lang="de">Mucinous cystadenoma of childhood</Name>
++      <Name lang="de">Muzinöses Zystadenom der Kindheit</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Muzinöses Zystadenom des Ovars im Kindsalter</Synonym>
+       </SynonymList>
+       <DisorderType id="21457">
+         <Name lang="de">Histopathologischer Subtyp</Name>
+@@ -431494,14 +431608,15 @@
+     <Disorder id="28369">
+       <OrphaCode>563676</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563676</ExpertLink>
+-      <Name lang="de">Seromucinous cystadenoma of childhood</Name>
++      <Name lang="de">Seromuzinöses Zystadenom der Kindheit</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Seromuzinöses Zystadenom des Ovars im Kindsalter</Synonym>
+       </SynonymList>
+       <DisorderType id="21457">
+         <Name lang="de">Histopathologischer Subtyp</Name>
+@@ -432303,7 +432418,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="de">Glomerulonephritis, mesangiokapilläre</Synonym>
+-        <Synonym lang="de">MPGN</Synonym>
++        <Synonym lang="de">MPGN, primär</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -432608,14 +432723,15 @@
+     <Disorder id="28367">
+       <OrphaCode>563666</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563666</ExpertLink>
+-      <Name lang="de">Serous cystadenoma of childhood</Name>
++      <Name lang="de">Seröses Zystadenom der Kindheit</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Seröses Zystadenom des Ovars im Kindsalter</Synonym>
+       </SynonymList>
+       <DisorderType id="21457">
+         <Name lang="de">Histopathologischer Subtyp</Name>
+@@ -432707,7 +432823,7 @@
+     <Disorder id="28366">
+       <OrphaCode>563612</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563612</ExpertLink>
+-      <Name lang="de">Isolated exencephaly</Name>
++      <Name lang="de">Exenzephalie, isolierte</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -432739,7 +432855,7 @@
+     <Disorder id="28365">
+       <OrphaCode>563609</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563609</ExpertLink>
+-      <Name lang="de">Isolated anencephaly</Name>
++      <Name lang="de">Anenzephalie, isolierte</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -432841,14 +432957,16 @@
+     <Disorder id="28364">
+       <OrphaCode>563589</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563589</ExpertLink>
+-      <Name lang="de">Seronegative autoimmune hepatitis</Name>
++      <Name lang="de">Hepatitis, autoimmune seronegative</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">AIH, seronegative</Synonym>
++        <Synonym lang="de">Autoantikörper-negative autoimmune Hepatitis</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -432958,14 +433076,15 @@
+     <Disorder id="28363">
+       <OrphaCode>563581</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563581</ExpertLink>
+-      <Name lang="de">Autoimmune hepatitis type 2</Name>
++      <Name lang="de">Hepatitis, autoimmune, Typ 2</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">AIH Typ 2</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -433059,14 +433178,15 @@
+     <Disorder id="28362">
+       <OrphaCode>563576</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=563576</ExpertLink>
+-      <Name lang="de">Autoimmune hepatitis type 1</Name>
++      <Name lang="de">Hepatitis, autoimmune, Typ 1</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">AIH Typ 1</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -433438,14 +433558,17 @@
+     <Disorder id="28450">
+       <OrphaCode>565837</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565837</ExpertLink>
+-      <Name lang="de">Laminin subunit alpha 2-related limb-girdle muscular dystrophy R23</Name>
++      <Name lang="de">Laminin-Untereinheit alpha 2-assoziierte Gliedergürtelmuskeldystrophie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Gliedergürtelmuskeldystrophie, autosomal-rezessive, Typ 23</Synonym>
++        <Synonym lang="de">LGMDR23</Synonym>
++        <Synonym lang="de">Laminin-Untereinheit alpha 2-assoziierte spät-einsetzende Muskeldystrophie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -433463,7 +433586,7 @@
+     <Disorder id="28451">
+       <OrphaCode>565858</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565858</ExpertLink>
+-      <Name lang="de">Craniosynostosis-microretrognathia-several intellectual disability syndrome</Name>
++      <Name lang="de">Kraniosynostose-Mikroretrognathie-schwere Intelligenzminderung-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -433524,7 +433647,7 @@
+     <Disorder id="28448">
+       <OrphaCode>565788</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565788</ExpertLink>
+-      <Name lang="de">Infantile inflammatory bowel disease with neurological involvement</Name>
++      <Name lang="de">Infantile chronisch-entzündliche Darmerkrankung mit neurologischer Beteiligung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -433717,14 +433840,15 @@
+     <Disorder id="28452">
+       <OrphaCode>565899</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565899</ExpertLink>
+-      <Name lang="de">POMGNT2-related limb-girdle muscular dystrophy R24</Name>
++      <Name lang="de">POMGNT2-assoziierte Gliedergürtelmuskeldystrophie R24</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">POMGNT2-assoziierte Muskeldystrophie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -433786,14 +433910,16 @@
+     <Disorder id="28453">
+       <OrphaCode>565909</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565909</ExpertLink>
+-      <Name lang="de">Calpain-3-related limb-girdle muscular dystrophy D4</Name>
++      <Name lang="de">Calpain 3-assoziierte Gliedergürtelmuskeldystrophie D4</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">LGMD Typ D4</Synonym>
++        <Synonym lang="de">LGMD1I</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -434075,14 +434201,15 @@
+     <Disorder id="28477">
+       <OrphaCode>566067</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566067</ExpertLink>
+-      <Name lang="de">CEBPE-associated autoinflammation-immunodeficiency-neutrophil dysfunction syndrome</Name>
++      <Name lang="de">CEBPE-assoziierte Autoinflammation-Immundefekt- neutrophile Funktionsstörung-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">CAIN</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -435047,14 +435174,16 @@
+     <Disorder id="28443">
+       <OrphaCode>565624</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565624</ExpertLink>
+-      <Name lang="de">Combined oxidative phosphorylation defect type 39</Name>
++      <Name lang="de">Kombinierter Defekt der oxidativen Phosphorylierung Typ 39</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">COXPD39</Synonym>
++        <Synonym lang="de">GFM2-assoziierter Kombinierter Defekt der oxidativen Phosphorylierung</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -435083,14 +435212,16 @@
+     <Disorder id="28442">
+       <OrphaCode>565612</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565612</ExpertLink>
+-      <Name lang="de">Triglyceride deposit cardiomyovasculopathy</Name>
++      <Name lang="de">Triglycerid-Speicher-Kardiomyovaskulopathie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Neutralfett-Speicherkrankheit mit schwerer kardiovaskulärer Beteiligung</Synonym>
++        <Synonym lang="de">TGCV</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -435194,7 +435325,7 @@
+     <Disorder id="28445">
+       <OrphaCode>565779</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565779</ExpertLink>
+-      <Name lang="de">Rare disorder potentially indicated for transplant or complication after transplantation</Name>
++      <Name lang="de">Seltene Erkrankung zur potentiellen Transplantation nach Komplikation infolge Transplantation indiziert</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="458">
+           <Value>128</Value>
+@@ -435230,14 +435361,15 @@
+     <Disorder id="28444">
+       <OrphaCode>565641</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565641</ExpertLink>
+-      <Name lang="de">Primary desmosis coli</Name>
++      <Name lang="de">Desmosis coli, primäre</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Desmosis coli, aplastische</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -435319,7 +435451,7 @@
+     <Disorder id="28446">
+       <OrphaCode>565782</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=565782</ExpertLink>
+-      <Name lang="de">Methotrexate toxicity</Name>
++      <Name lang="de">Methotrexat-Toxizität</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -437079,7 +437211,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11189">
+@@ -437311,14 +437450,17 @@
+     <Disorder id="28493">
+       <OrphaCode>566231</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566231</ExpertLink>
+-      <Name lang="de">Resistance to thyroid hormone due to a mutation in thyroid hormone receptor alpha</Name>
++      <Name lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im Thyroidhormonrezeptor alpha</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">RTHa</Synonym>
++        <Synonym lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im TRa</Synonym>
++        <Synonym lang="de">Resistenz gegen Thyroidhormon alpha</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -437397,14 +437539,17 @@
+     <Disorder id="28494">
+       <OrphaCode>566243</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566243</ExpertLink>
+-      <Name lang="de">Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta</Name>
++      <Name lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im Thyroidhormonrezeptor beta</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">RTHb</Synonym>
++        <Synonym lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im TRb</Synonym>
++        <Synonym lang="de">Resistenz gegen Thyroidhormon beta</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -437528,14 +437673,15 @@
+     <Disorder id="28495">
+       <OrphaCode>566393</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566393</ExpertLink>
+-      <Name lang="de">Acute mast cell leukemia</Name>
++      <Name lang="de">Mastzell-Leukämie, akute</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Akute MCL</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -438006,14 +438152,17 @@
+     <Disorder id="28487">
+       <OrphaCode>566192</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566192</ExpertLink>
+-      <Name lang="de">Congenital autosmal recessive small-platelet thrombocytopenia</Name>
++      <Name lang="de">Kongenitale autosmale-rezessive Thrombozytopenie der kleinen Blutplättchen</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">ADAP-Defizienz</Synonym>
++        <Synonym lang="de">CARST</Synonym>
++        <Synonym lang="de">FYN-bindendes Protein-Defizienz</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -438277,14 +438426,16 @@
+     <Disorder id="28482">
+       <OrphaCode>566175</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566175</ExpertLink>
+-      <Name lang="de">Complement Hyperactivation - angiopathic thrombosis and Protein-losing enteropathy</Name>
++      <Name lang="de">Komplement-Hyperaktivierung-angiopathische Thrombose-Eiweißverlustenteropathie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">CD55-Defizienz</Synonym>
++        <Synonym lang="de">CHAPLE-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -439026,7 +439177,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="2121">
+             <OrphaCode>2251</OrphaCode>
+-            <Name lang="de">Daumenfehlbildung - Alopezie - Pigmentanomalien</Name>
++            <Name lang="de">Daumenfehlbildung-Alopezie-Pigmentanomalie-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="11158" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -439203,14 +439354,15 @@
+     <Disorder id="28496">
+       <OrphaCode>566396</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566396</ExpertLink>
+-      <Name lang="de">Chronic mast cell leukemia</Name>
++      <Name lang="de">Mastzell-Leukämie, chronische</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Chronische MCL</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -440141,14 +440293,16 @@
+     <Disorder id="28585">
+       <OrphaCode>567502</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567502</ExpertLink>
+-      <Name lang="de">B-cell immunodeficiency-limb abnormalities-urogenital malformations syndrome</Name>
++      <Name lang="de">B-Zell-Immundefekt-Extremitätenanomalien-urogenitale Fehlbildungen-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">BILU-Syndrom</Synonym>
++        <Synonym lang="de">Hoffman-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -440271,7 +440425,7 @@
+     <Disorder id="28591">
+       <OrphaCode>567550</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567550</ExpertLink>
+-      <Name lang="de">Idiopathic multidrug-resistant nephrotic syndrome</Name>
++      <Name lang="de">Idiopathisches MDR-resistentes nephrotisches Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -440334,14 +440488,15 @@
+     <Disorder id="28590">
+       <OrphaCode>567548</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567548</ExpertLink>
+-      <Name lang="de">Idiopathic steroid-resistant nephrotic syndrome</Name>
++      <Name lang="de">Idiopathisches Steroid-sensitives nephrotisches Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Idiopathisches SRNS</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+         <Name lang="de">Klinisches Syndrom</Name>
+@@ -440359,14 +440514,17 @@
+     <Disorder id="28589">
+       <OrphaCode>567546</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567546</ExpertLink>
+-      <Name lang="de">Idiopathic steroid-sensitive nephrotic syndrome with secondary steroid resistance</Name>
++      <Name lang="de">Idiopathisches Steroid-sensitives nephrotisches Syndrom mit sekundärer Steroid-Resistenz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Idiopathisches SSNS mit sekundärer Steroid-Resistenz</Synonym>
++        <Synonym lang="de">Nephrotisches Syndrom, sekundär Steroid-resistentes</Synonym>
++        <Synonym lang="de">Sekundäres SRNS</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+         <Name lang="de">Klinisches Syndrom</Name>
+@@ -440419,14 +440577,15 @@
+     <Disorder id="28588">
+       <OrphaCode>567544</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567544</ExpertLink>
+-      <Name lang="de">Idiopathic non-lupus full-house nephropathy</Name>
++      <Name lang="de">Idiopathische non-Lupus Full-House-Nephropathie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Idiopathische non-Lupus FHN</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+         <Name lang="de">Klinisches Syndrom</Name>
+@@ -440444,7 +440603,7 @@
+     <Disorder id="28594">
+       <OrphaCode>567556</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567556</ExpertLink>
+-      <Name lang="de">Genetic systemic disease with glomerulopathy as a major feature</Name>
++      <Name lang="de">Genetisch bedingte systemische Krankheit mit Glomerulopathie als Hauptmerkmal</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -440545,7 +440704,7 @@
+     <Disorder id="28595">
+       <OrphaCode>567558</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567558</ExpertLink>
+-      <Name lang="de">Non-genetic systemic disease with glomerulopathy as a major feature</Name>
++      <Name lang="de">Nicht genetisch bedingte systemische Krankheit mit Glomerulopathie als Hauptmerkmal</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -440577,14 +440736,15 @@
+     <Disorder id="28592">
+       <OrphaCode>567552</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567552</ExpertLink>
+-      <Name lang="de">Idiopathic steroid-resistant nephrotic syndrome with sensitivity to second-line immunosuppressive therapy</Name>
++      <Name lang="de">Idiopathisches Steroid-sensitives nephrotisches Syndrom mit Sensitivität zu immunsuppressiver Zweitlinien-Therapie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Idiopathisches Steroid-sensitives nephrotisches Syndrom mit Empfindlichkeit gegenüber verstärkter Immunsuppression</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -440602,7 +440762,7 @@
+     <Disorder id="28593">
+       <OrphaCode>567554</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567554</ExpertLink>
+-      <Name lang="de">Systemic disease with glomerulopathy as a major feature</Name>
++      <Name lang="de">Systemische Krankheit mit Glomerulopathie als Hauptmerkmal</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -440659,7 +440819,7 @@
+     <Disorder id="28598">
+       <OrphaCode>567564</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567564</ExpertLink>
+-      <Name lang="de">Nephrotic syndrome without extrarenal manifestations</Name>
++      <Name lang="de">Nephrotisches Syndrom ohne extrarenale Manifestationen</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -440856,7 +441016,7 @@
+     <Disorder id="28596">
+       <OrphaCode>567560</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567560</ExpertLink>
+-      <Name lang="de">Non-genetic vasculitis with glomerulopathy as a major feature</Name>
++      <Name lang="de">Systemische Vaskulitis mit assoziierter Glomerulopathie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -440953,7 +441113,7 @@
+     <Disorder id="28597">
+       <OrphaCode>567562</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567562</ExpertLink>
+-      <Name lang="de">Multisystemic disorder with glomerulopathy as a major feature</Name>
++      <Name lang="de">Multisystemische Störung mit Glomerulopathie als Hauptmerkmal</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -441259,14 +441419,15 @@
+     <Disorder id="28606">
+       <OrphaCode>567983</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=567983</ExpertLink>
+-      <Name lang="de">Parenteral nutrition-associated cholestasis</Name>
++      <Name lang="de">Parenterale Ernährung-assoziierte Cholestase</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">PNAC</Synonym>
+       </SynonymList>
+       <DisorderType id="21429">
+         <Name lang="de">Besondere klinische Situation bei einer Krankheit oder einem Syndrom</Name>
+@@ -441360,7 +441521,7 @@
+     <Disorder id="28607">
+       <OrphaCode>568041</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568041</ExpertLink>
+-      <Name lang="de">Primary lymphedema without systemic or visceral involvement</Name>
++      <Name lang="de">Primäres Lymphödem ohne systemische und viszerale Beteiligung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -442087,14 +442248,15 @@
+     <Disorder id="28553">
+       <OrphaCode>566847</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566847</ExpertLink>
+-      <Name lang="de">Aprosencephaly/atelencephaly spectrum</Name>
++      <Name lang="de">Aprosenzephalie/Atelenzephalie-Spektrum</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">AP/AT-Spektrum</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -442154,14 +442316,15 @@
+     <Disorder id="28552">
+       <OrphaCode>566841</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566841</ExpertLink>
+-      <Name lang="de">Liver adenomatosis</Name>
++      <Name lang="de">Adenomatose der Leber</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Hepatische Adenomatose</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -442233,7 +442396,7 @@
+     <Disorder id="28555">
+       <OrphaCode>566857</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566857</ExpertLink>
+-      <Name lang="de">Aprosencephaly</Name>
++      <Name lang="de">Aprosenzephalie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -442265,16 +442428,18 @@
+     <Disorder id="11082">
+       <OrphaCode>75392</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=75392</ExpertLink>
+-      <Name lang="de">Ehlers-Danlos-Syndrom, Periodontose Typ</Name>
++      <Name lang="de">Ehlers-Danlos-Syndrom, parodontaler Typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="4">
+         <Synonym lang="de">EDS VIII</Synonym>
++        <Synonym lang="de">EDS, Parodontitis Typ</Synonym>
+         <Synonym lang="de">Ehlers-Danlos-Syndrom Typ 8</Synonym>
++        <Synonym lang="de">pEDS</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -442342,14 +442507,15 @@
+     <Disorder id="28554">
+       <OrphaCode>566852</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566852</ExpertLink>
+-      <Name lang="de">Atelencephaly</Name>
++      <Name lang="de">Atelenzephalie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Mikrocephalyie, atelencephale</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -442374,21 +442540,23 @@
+     <Disorder id="11083">
+       <OrphaCode>75496</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=75496</ExpertLink>
+-      <Name lang="de">Ehlers-Danlos-Syndrom, progeroider Typ</Name>
++      <Name lang="de">B4GALT7-assoziiertes spondylodysplastisches Ehlers-Danlos-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="7">
++      <SynonymList count="9">
+         <Synonym lang="de">B4GALT7-CDG</Synonym>
++        <Synonym lang="de">B4GALT7-abhängiges spondylodysplastisches EDS</Synonym>
++        <Synonym lang="de">EDS mit Kleinwuchs und Extremitätenanomalien</Synonym>
+         <Synonym lang="de">EDS, progeroider Typ</Synonym>
+-        <Synonym lang="de">Galactosyltransferase-I-Mangel</Synonym>
++        <Synonym lang="de">EDS, progeroider Typ 1</Synonym>
+         <Synonym lang="de">PDS</Synonym>
+         <Synonym lang="de">Proteodermatansulfat-Biosynthesedefekt</Synonym>
+-        <Synonym lang="de">XGPT-Mangel</Synonym>
+         <Synonym lang="de">Xylosylprotein 4-beta-Galactosyltransferase-Mangel</Synonym>
++        <Synonym lang="de">spEDS-B4GALT7</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -442540,14 +442708,16 @@
+     <Disorder id="28556">
+       <OrphaCode>566862</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566862</ExpertLink>
+-      <Name lang="de">Left sided atrial isomerism</Name>
++      <Name lang="de">Linksatrialer Isomerismus</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Isomerie des linken Vorhofanhängsels</Synonym>
++        <Synonym lang="de">LAI</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -442696,14 +442866,16 @@
+     <Disorder id="28560">
+       <OrphaCode>566943</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=566943</ExpertLink>
+-      <Name lang="de">Mueller-Weiss syndrome</Name>
++      <Name lang="de">Mueller-Weiss-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Brailsford-Krankheit</Synonym>
++        <Synonym lang="de">Mueller-Weiss Osteonekrose des Fußwurzelknochens</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -443170,8 +443342,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Trunkuläre lymphatische Fehlbildung</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="36561">
+         <Name lang="de">Category</Name>
+@@ -444199,14 +444370,15 @@
+     <Disorder id="28655">
+       <OrphaCode>569821</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=569821</ExpertLink>
+-      <Name lang="de">Congenital primary lymphedema of Gordon</Name>
++      <Name lang="de">Kongenitales primäres Lymphödem vom Typ Gordon</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">VEGFC-assoziiertes kongenitales primäres Lymphödem</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -444280,7 +444452,7 @@
+     <Disorder id="28654">
+       <OrphaCode>569816</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=569816</ExpertLink>
+-      <Name lang="de">CELSR1-related late-onset primary lymphedema</Name>
++      <Name lang="de">CELSR1-assoziiertes spät-einsetzendes primäres Lymphödem</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -445035,14 +445207,17 @@
+     <Disorder id="28613">
+       <OrphaCode>568065</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568065</ExpertLink>
+-      <Name lang="de">EPHB4-related fetal hydrops with generalized lymphatic dysplasia</Name>
++      <Name lang="de">EPHB4-assoziierter fetaler Hydrops mit generalisierter lymphatischer Dysplasie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">EPHB4-assoziierte LRHF/GLD</Synonym>
++        <Synonym lang="de">EPHB4-assoziierte generalisierte lymphatische Dysplasie mit Vorhofseptumdefekt</Synonym>
++        <Synonym lang="de">EPHB4-assoziierte generalisierte lymphatische Dysplasie mit nicht-immunologischen Hydrops fetalis</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -445067,9 +445242,11 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
+-        <Synonym lang="de">FPD/AML-Syndrom</Synonym>
+-        <Synonym lang="de">FPS/AML-Syndrom</Synonym>
++      <SynonymList count="6">
++        <Synonym lang="de">FPD/AML</Synonym>
++        <Synonym lang="de">FPDMM</Synonym>
++        <Synonym lang="de">FPS/AML</Synonym>
++        <Synonym lang="de">Familiäre Blutplättchen-Störungen mit Prädisposition zu myeloischer Malignität</Synonym>
+         <Synonym lang="de">Familiäre Thrombozytopenie mit Prädisposition für AML</Synonym>
+         <Synonym lang="de">Familiäres Platelet-Syndrom mit Prädisposition für akute myeloische Leukämie</Synonym>
+       </SynonymList>
+@@ -445149,14 +445326,17 @@
+     <Disorder id="28612">
+       <OrphaCode>568062</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568062</ExpertLink>
+-      <Name lang="de">PIEZO1-related fetal hydrops with generalized lymphatic dysplasia</Name>
++      <Name lang="de">PIEZO1-assoziierter fetaler Hydrops mit generalisierter lymphatischer Dysplasie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Generalisierte lymphatische Dysplasie Fotiou</Synonym>
++        <Synonym lang="de">PIEZO1-assoziierte LRHF/GLD</Synonym>
++        <Synonym lang="de">PIEZO1-assoziierte generalisierte lymphatische Dysplasie mit systemischer Beteiligung</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -445357,7 +445537,7 @@
+     <Disorder id="28609">
+       <OrphaCode>568047</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568047</ExpertLink>
+-      <Name lang="de">Multisystemic syndrome associated with primary lymphedema</Name>
++      <Name lang="de">Störung mit multisystemischer Beteiligung und primären Lymphödem</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -445389,7 +445569,7 @@
+     <Disorder id="28608">
+       <OrphaCode>568044</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568044</ExpertLink>
+-      <Name lang="de">Primary lymphedema with systemic or visceral involvement</Name>
++      <Name lang="de">Primäres Lymphödem mit systemischer und viszeraler Beteiligung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -445421,14 +445601,16 @@
+     <Disorder id="28611">
+       <OrphaCode>568056</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568056</ExpertLink>
+-      <Name lang="de">Warts-immunodeficiency-lymphoedema-anogenital dysplasia syndrome</Name>
++      <Name lang="de">Warzen-Immundefekt-Lymphödem-anogenitale Dysplasie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Disseminierte Warzen-gestörte zellvermittelte Immunität-primäres Lymphödem-anogenitale Dysplasie-Syndrom</Synonym>
++        <Synonym lang="de">WILD-Syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -445446,7 +445628,7 @@
+     <Disorder id="28610">
+       <OrphaCode>568051</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=568051</ExpertLink>
+-      <Name lang="de">GJC2-related congenital primary lymphedema</Name>
++      <Name lang="de">GJC2-assoziiertes spät-beginnendes primäres Lymphödem</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -445741,14 +445923,15 @@
+     <Disorder id="28622">
+       <OrphaCode>569164</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=569164</ExpertLink>
+-      <Name lang="de">Angiomatoid fibrous histiocytoma</Name>
++      <Name lang="de">Histiozytom, angiomatöses fibröses</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">AFH</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -445985,14 +446168,17 @@
+     <Disorder id="28629">
+       <OrphaCode>569274</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=569274</ExpertLink>
+-      <Name lang="de">Multiple mitochondrial dysfunctions syndrome type 5</Name>
++      <Name lang="de">Mitochondriales Dysfunktions-Syndrom Typ 5</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">ISCA1-Defizienz</Synonym>
++        <Synonym lang="de">ISCA1-Mangel</Synonym>
++        <Synonym lang="de">MMDS5</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -446118,14 +446304,16 @@
+     <Disorder id="28631">
+       <OrphaCode>569290</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=569290</ExpertLink>
+-      <Name lang="de">Multiple mitochondrial dysfunctions syndrome type 6</Name>
++      <Name lang="de">Mitochondriales Dysfunktions-Syndrom Typ 6</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">PMPCB-Defizienz</Synonym>
++        <Synonym lang="de">PMPCB-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -446193,14 +446381,15 @@
+     <Disorder id="28626">
+       <OrphaCode>569248</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=569248</ExpertLink>
+-      <Name lang="de">Microcystic stromal tumor</Name>
++      <Name lang="de">Mikrozystischer Stromatumor</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">MCST</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -448310,7 +448499,7 @@
+     <Disorder id="10474">
+       <OrphaCode>68335</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=68335</ExpertLink>
+-      <Name lang="de">Chromosomenstörung</Name>
++      <Name lang="de">Seltene Chromosomenanomalie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -448751,15 +448940,16 @@
+     <Disorder id="10395">
+       <OrphaCode>35706</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=35706</ExpertLink>
+-      <Name lang="de">Glutaryl-CoA-Oxidase-Mangel</Name>
++      <Name lang="de">Glutarazidurie Typ 3</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Glutarazidurie Typ 3</Synonym>
++      <SynonymList count="2">
++        <Synonym lang="de">Glutarazidämie Typ 3</Synonym>
++        <Synonym lang="de">Glutaryl-CoA-Oxidase-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -453761,7 +453951,7 @@
+           <TargetDisorder id="10305" cycle="true"/>
+           <RootDisorder id="2243">
+             <OrphaCode>2419</OrphaCode>
+-            <Name lang="de">Lymphödem - Ptosis</Name>
++            <Name lang="de">Lymphödem-Ptosis-Syndrom</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21471">
+             <Name lang="de">Verschoben nach</Name>
+@@ -455551,7 +455741,7 @@
+     <Disorder id="10349">
+       <OrphaCode>34592</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=34592</ExpertLink>
+-      <Name lang="de">Immundefekt durch HLA-Klasse-I-Expressionsdefekt</Name>
++      <Name lang="de">Immundefekt durch MHC Klasse I-Expressionsdefekt</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -455560,7 +455750,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="de">BLS Typ 1</Synonym>
+-        <Synonym lang="de">MHC I-Expressionsdefekt</Synonym>
++        <Synonym lang="de">MHC Klasse I-Defizienz</Synonym>
+         <Synonym lang="de">Nackte-Lymphozyten-Syndrom Typ I</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -460318,7 +460508,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">CID durch CD70-Defizienz</Synonym>
+         <Synonym lang="de">SCID durch CD70-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -460802,7 +460993,7 @@
+     <Disorder id="10649">
+       <OrphaCode>50810</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=50810</ExpertLink>
+-      <Name lang="de">Mikrolissenzephalie - Mikromelie</Name>
++      <Name lang="de">Mikrolissenzephalie-Mikromelie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -462813,7 +463004,7 @@
+           <TargetDisorder id="28022" cycle="true"/>
+           <RootDisorder id="12617">
+             <OrphaCode>95493</OrphaCode>
+-            <Name lang="de">OBSOLET: Koronararterie, abnormaler Ursprung oder aberrante Verlauf der</Name>
++            <Name lang="de">OBSOLET: Abnormaler Ursprung oder aberrante Verlauf der Koronararterie</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="de">Verwiesen auf</Name>
+@@ -464577,7 +464768,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Epidermolysis bullosa acquisita</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -467769,7 +467961,14 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10523">
+@@ -467807,7 +468006,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="28123">
+@@ -467960,7 +468166,7 @@
+     <Disorder id="28139">
+       <OrphaCode>556985</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=556985</ExpertLink>
+-      <Name lang="de">Early-onset calcifying  leukoencephalopathy-skeletal dysplasia</Name>
++      <Name lang="de">Früh-einsetzende kalzifizierende Leukenzephalopathie mit Skelettdysplasie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -467985,7 +468191,7 @@
+     <Disorder id="28138">
+       <OrphaCode>556955</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=556955</ExpertLink>
+-      <Name lang="de">Pancreatic agenesis-holoprosencephaly syndrome</Name>
++      <Name lang="de">Pankreasagenesie-Holoprosenzephalie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -468021,7 +468227,7 @@
+     <Disorder id="28137">
+       <OrphaCode>556508</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=556508</ExpertLink>
+-      <Name lang="de">Rare disorder due to poisoning</Name>
++      <Name lang="de">Seltene Krankheit durch Vergiftung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -468083,7 +468289,7 @@
+     <Disorder id="28142">
+       <OrphaCode>557064</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=557064</ExpertLink>
+-      <Name lang="de">Neonatal epileptic encephalopathy due to glutaminase deficiency</Name>
++      <Name lang="de">Neonatale epileptische Enzephalopathie durch Glutaminase-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -468132,7 +468338,7 @@
+     <Disorder id="28141">
+       <OrphaCode>557056</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=557056</ExpertLink>
+-      <Name lang="de">Spastic ataxia-dysarthria due to glutaminase deficiency</Name>
++      <Name lang="de">Spastische Ataxie mit Dysarthrie durch Glutaminase-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -468634,7 +468840,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Kongenitale Anophthalmie mit Zysten</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -468943,7 +469150,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Thygeson-Keratitis</Synonym>
++        <Synonym lang="de">Thygesons oberflächliche punktierte Keratopathie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -469116,7 +469325,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="28446">
+             <OrphaCode>565782</OrphaCode>
+-            <Name lang="de">Methotrexate toxicity</Name>
++            <Name lang="de">Methotrexat-Toxizität</Name>
+           </TargetDisorder>
+           <RootDisorder id="11961" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -471068,14 +471277,16 @@
+     <Disorder id="11925">
+       <OrphaCode>90023</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90023</ExpertLink>
+-      <Name lang="de">Infektionen, rekurrente - Kleinwuchs - Hypopigmentation - grobe Gesichtszüge</Name>
++      <Name lang="de">Primäres Immundefekt-Syndrom durch LAMTOR2-Defizienz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Primäres Immundefekt-Syndrom durch p14-Mangel</Synonym>
++        <Synonym lang="de">Primäres Immundefekt-Syndrom mit Kleinwuchs</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -471432,15 +471643,14 @@
+     <Disorder id="11921">
+       <OrphaCode>90003</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90003</ExpertLink>
+-      <Name lang="de">Hepatopathie, IgG4-assoziierte</Name>
++      <Name lang="de">Pseudotumor der Leber, inflammatorischer</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Pseudotumor der Leber, inflammatorischer</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -471584,18 +471794,23 @@
+     <Disorder id="11935">
+       <OrphaCode>90038</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90038</ExpertLink>
+-      <Name lang="de">Hämolytisch-urämisches Syndrom, typisches</Name>
++      <Name lang="de">Shiga-ähnliches Toxin-assoziiertes Hämolytisch-urämisches Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
+-        <Synonym lang="de">D+HUS</Synonym>
++      <SynonymList count="9">
++        <Synonym lang="de">D+ HUS</Synonym>
++        <Synonym lang="de">EHEC-HUS</Synonym>
++        <Synonym lang="de">Hämolytisch-urämisches Syndrom assoziiert mit Shiga toxin-produzierenden Escherichia coli</Synonym>
+         <Synonym lang="de">Hämolytisch-urämisches Syndrom mit Diarrhoe</Synonym>
++        <Synonym lang="de">Hämolytisch-urämisches Syndrom, typisches</Synonym>
++        <Synonym lang="de">STEC-HUS</Synonym>
+         <Synonym lang="de">Shiga-ähnliches Toxin-assoziierte HUS</Synonym>
+         <Synonym lang="de">Sxt-HUS</Synonym>
++        <Synonym lang="de">Typisches HUS</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -471841,7 +472056,7 @@
+           <TargetDisorder id="27227" cycle="true"/>
+           <RootDisorder id="13674">
+             <OrphaCode>98657</OrphaCode>
+-            <Name lang="de">OBSOLET: Vitreoretinale Krankheit</Name>
++            <Name lang="de">OBSOLET: Vitreoretinale Krankheit, genetisch bedingte</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="de">Verwiesen auf</Name>
+@@ -473154,7 +473369,7 @@
+           <TargetDisorder id="27213" cycle="true"/>
+           <RootDisorder id="2343">
+             <OrphaCode>2535</OrphaCode>
+-            <Name lang="de">OBSOLET: Mikrokornea - Korektopie - Makulahypoplasie</Name>
++            <Name lang="de">OBSOLET: Mikrokornea-Korektopie-Makulahypoplasie-Syndrom</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="de">Verwiesen auf</Name>
+@@ -473488,7 +473703,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="2908">
+             <OrphaCode>3253</OrphaCode>
+-            <Name lang="de">Zlotogora-Ogur-Syndrom</Name>
++            <Name lang="de">Lippen-Kiefer-Gaumen-Spalte-ektodermale Dysplasie-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="12016" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -474800,7 +475015,8 @@
+           <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">EDS II</Synonym>
+       </SynonymList>
+       <DisorderType id="21443">
+         <Name lang="de">Ätiologischer Subtyp</Name>
+@@ -474835,7 +475051,8 @@
+           <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">EDS I</Synonym>
+       </SynonymList>
+       <DisorderType id="21443">
+         <Name lang="de">Ätiologischer Subtyp</Name>
+@@ -475645,9 +475862,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="de">Lymphödem, hereditäres, Typ II</Synonym>
+-        <Synonym lang="de">Lymphödem, primäres, spät-beginnendes</Synonym>
+         <Synonym lang="de">Meige-Lymphödem</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -481768,7 +481984,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Extrinsische Gallenwegskompression</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+         <Name lang="de">Klinisches Syndrom</Name>
+@@ -482276,7 +482493,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">Keratomykose</Synonym>
+         <Synonym lang="de">Pilz-Keratitis</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -483989,8 +484207,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Dysostose, humero-spinale</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -496938,12 +497155,11 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="5">
++      <SynonymList count="4">
+         <Synonym lang="de">Kryoglobulinämie, essentielle</Synonym>
+         <Synonym lang="de">Kryoglobulinämie, essentielle gemischte</Synonym>
+         <Synonym lang="de">Kryoglobulinämie, gemischte</Synonym>
+         <Synonym lang="de">Kryoglobulinämie, primäre</Synonym>
+-        <Synonym lang="de">MC</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -499733,8 +499949,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Milroy-ähnliche Krankheit</Synonym>
++      <SynonymList count="0">
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -512155,16 +512370,17 @@
+     <Disorder id="11709">
+       <OrphaCode>85408</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=85408</ExpertLink>
+-      <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-negative</Name>
++      <Name lang="de">Arthritis, idiopathische juvenile polyartikuläre, Rheumafaktor-negative</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
++        <Synonym lang="de">Juvenile Polyarthritis ohne Rheumafaktor</Synonym>
+         <Synonym lang="de">Polyarthritis, juvenile, Rheumafaktor-negative</Synonym>
+-        <Synonym lang="de">Rheumafaktor-negative JIA</Synonym>
++        <Synonym lang="de">Rheumafaktor-negative polyartikuläre JIA</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -512506,7 +512722,7 @@
+     <Disorder id="11712">
+       <OrphaCode>85435</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=85435</ExpertLink>
+-      <Name lang="de">Arthritis, idiopathische juvenile, Rheumafaktor-positive</Name>
++      <Name lang="de">Arthritis, idiopathische juvenile polyartikuläre, Rheumafaktor-positive</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -512514,9 +512730,9 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="3">
+-        <Synonym lang="de">Polyarthritis mit Rheumafaktor</Synonym>
++        <Synonym lang="de">Juvenile Polyarthritis mit Rheumafaktor</Synonym>
+         <Synonym lang="de">Polyarthritis, juvenile, Rheumafaktor-positive</Synonym>
+-        <Synonym lang="de">Rheumafaktor-positive JIA</Synonym>
++        <Synonym lang="de">Rheumafaktor-positive polyartikuläre JIA</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -517297,8 +517513,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="de">EDS mit periventrikulärer Heterotopie</Synonym>
++        <Synonym lang="de">Filamin A-assoziiertes EDS mit periventrikulärer nodulärer Heterotopie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -523085,7 +523302,7 @@
+     <Disorder id="13142">
+       <OrphaCode>98124</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98124</ExpertLink>
+-      <Name lang="de">OBSOLET: Ionenkanalkrankheit bei skeletomuskulärem ACh-Rezeptordefekt</Name>
++      <Name lang="de">OBSOLET: OIonenkanalkrankheit bei skeletomuskulärem ACh-Rezeptordefekt</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="455">
+           <Value>16</Value>
+@@ -529418,7 +529635,7 @@
+     <Disorder id="12914">
+       <OrphaCode>97363</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=97363</ExpertLink>
+-      <Name lang="de">Nierendysplasie, multizystische, unilaterale From</Name>
++      <Name lang="de">Nierendysplasie, multizystische, unilaterale Form</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -529947,7 +530164,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="28398">
+             <OrphaCode>564127</OrphaCode>
+-            <Name lang="de">Genetic nephrotic syndrome without extrarenal manifestations</Name>
++            <Name lang="de">Nephrotisches Syndrom, hereditäres</Name>
+           </TargetDisorder>
+           <RootDisorder id="12925" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -533425,7 +533642,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="28493">
+             <OrphaCode>566231</OrphaCode>
+-            <Name lang="de">Resistance to thyroid hormone due to a mutation in thyroid hormone receptor alpha</Name>
++            <Name lang="de">Resistenz gegen Schilddrüsenhormone durch Mutation im Thyroidhormonrezeptor alpha</Name>
+           </TargetDisorder>
+           <RootDisorder id="12947" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -533784,7 +534001,7 @@
+     <Disorder id="12663">
+       <OrphaCode>95708</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95708</ExpertLink>
+-      <Name lang="de">Pubertät, vorzeitige</Name>
++      <Name lang="de">Seltene Form der vorzeitigen Pubertät</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -536108,7 +536325,7 @@
+     <Disorder id="12617">
+       <OrphaCode>95493</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95493</ExpertLink>
+-      <Name lang="de">OBSOLET: Koronararterie, abnormaler Ursprung oder aberrante Verlauf der</Name>
++      <Name lang="de">OBSOLET: Abnormaler Ursprung oder aberrante Verlauf der Koronararterie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="455">
+           <Value>16</Value>
+@@ -536310,7 +536527,7 @@
+     <Disorder id="12595">
+       <OrphaCode>95448</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=95448</ExpertLink>
+-      <Name lang="de">Aortenklappenatresie</Name>
++      <Name lang="de">Aortenklappenatresie, kongenitale</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -538186,7 +538403,7 @@
+         <Synonym lang="de">ADCA3</Synonym>
+         <Synonym lang="de">ADCAIII</Synonym>
+         <Synonym lang="de">Ataxie, zerebelläre, autosomal-dominante, Typ 3</Synonym>
+-        <Synonym lang="de">Rein Zerebelläres Syndrom  - milde pyramidale Störungen</Synonym>
++        <Synonym lang="de">Rein Zerebelläres Syndrom - milde pyramidale Störungen</Synonym>
+         <Synonym lang="de">Reines zerebelläres Syndrom mit milden pyramidalen Störungen</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+@@ -543765,7 +543982,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12370">
+@@ -545356,7 +545580,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12334">
+@@ -546073,7 +546304,7 @@
+     <Disorder id="12290">
+       <OrphaCode>93359</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93359</ExpertLink>
+-      <Name lang="de">Dysplasie, spondyloepimetaphysäre - Überstreckbarkeit der Gelenke</Name>
++      <Name lang="de">Spondyloepimetaphysäre Dysplasie mit Überstreckbarkeit der Gelenke</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -550435,14 +550666,15 @@
+     <Disorder id="12467">
+       <OrphaCode>93686</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93686</ExpertLink>
+-      <Name lang="de">OBSOLET: Multizentrische Castleman-Krankheit (MCD)</Name>
++      <Name lang="de">OBSOLET: Multizentrische Castleman-Krankheit</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="455">
+           <Value>16</Value>
+           <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">MCD</Synonym>
+         <Synonym lang="de">Multizentrische Riesenganglien-Hyperplasie</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+@@ -550471,14 +550703,15 @@
+     <Disorder id="12466">
+       <OrphaCode>93685</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93685</ExpertLink>
+-      <Name lang="de">Castleman-Krankheit, lokalisierte</Name>
++      <Name lang="de">Castleman-Krankheit, unizentrische</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Castleman-Krankheit, lokalisierte</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -551316,18 +551549,19 @@
+     <Disorder id="12421">
+       <OrphaCode>93581</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93581</ExpertLink>
+-      <Name lang="de">Atypisches hämolytisch-urämische Syndrom mit anti-Faktor H-</Name>
++      <Name lang="de">Atypisches hämolytisch-urämische Syndrom mit anti-Faktor H-Antikörpern</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
+-        <Synonym lang="de">Atypisches HUS mit anti-Faktor H-</Synonym>
++      <SynonymList count="5">
++        <Synonym lang="de">Atypisches HUS mit anti-Faktor H-Antikörpern</Synonym>
+         <Synonym lang="de">D-HUS mit anti-Faktor H-</Synonym>
+         <Synonym lang="de">Hämolytisch-urämisches Syndrom ohne Diarrhoe mit anti-Faktor H-</Synonym>
+         <Synonym lang="de">aHUS mit anti-Faktor H-</Synonym>
++        <Synonym lang="de">aHUS mit neutralisierenden Autoantikörpern gegen Faktor H</Synonym>
+       </SynonymList>
+       <DisorderType id="21443">
+         <Name lang="de">Ätiologischer Subtyp</Name>
+@@ -552490,7 +552724,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
++        <Synonym lang="de">COSA</Synonym>
+         <Synonym lang="de">Koronarostiumstenose oder -atresie</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+@@ -553654,14 +553889,16 @@
+     <Disorder id="14140">
+       <OrphaCode>99123</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99123</ExpertLink>
+-      <Name lang="de">IVC-Unterbrechung</Name>
++      <Name lang="de">Unterbrechung der Vena cava inferior ohne Azygoskontinuität</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">IVC-Unterbrechung</Synonym>
++        <Synonym lang="de">Vena cava inferior-Unterbrechung</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -553748,8 +553985,10 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="de">Azygos-Kontinuation der Vena cava inferior</Synonym>
++      <SynonymList count="3">
++        <Synonym lang="de">Azygoskontinuität der VCI</Synonym>
++        <Synonym lang="de">Azygoskontinuität der Vena cava inferior</Synonym>
++        <Synonym lang="de">Unterbrechung der Vena cava inferior mit Azygoskontinuität</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -554070,14 +554309,17 @@
+     <Disorder id="14128">
+       <OrphaCode>99111</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99111</ExpertLink>
+-      <Name lang="de">SVC, linkspersistierende, mit Mündung in den linken Vorhof</Name>
++      <Name lang="de">Persistenz der linken Vena cava superior mit Verbindung zum dorsalen Bereich des linken Vorhofes</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Persistierende LVCS mit Mündung in den linken Vorhof</Synonym>
++        <Synonym lang="de">Persistierende linke obere Hohlvene mit Mündung in den linken Vorhof</Synonym>
++        <Synonym lang="de">Persistierende linke obere Hohlvene mit Verbindung zum dorsalen Bereich des linken Vorhofes</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -554186,7 +554428,7 @@
+     <Disorder id="14126">
+       <OrphaCode>99109</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99109</ExpertLink>
+-      <Name lang="de">Persistierende linke Vena cava superior mit Mündung in den linken Vorhof</Name>
++      <Name lang="de">Persistenz der linken Vena cava superior mit Mündung in den linken Vorhof über den Koronarsinus</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -554194,8 +554436,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="de">LVCS mit Mündung in den linken Vorhof</Synonym>
+-        <Synonym lang="de">Persistierende linke obere Hohlvene mit Mündung in den linken Vorhof</Synonym>
++        <Synonym lang="de">Persistierende LVCS mit Mündung in den linken Vorhof über den Koronarsinus</Synonym>
++        <Synonym lang="de">Persistierende linke obere Hohlvene mit Mündung in den linken Vorhof über den Koronarsinus</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -557304,8 +557546,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21436">
+-        <Name lang="de">Phenom-Gruppe</Name>
++      <DisorderType id="36561">
++        <Name lang="de">Category</Name>
+       </DisorderType>
+       <DisorderGroup id="36540">
+         <Name lang="de">Gruppe von Störungen</Name>
+@@ -562312,7 +562554,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="de">Christmas-Krankheit </Synonym>
+-        <Synonym lang="de">Faktor  IX-Mangel</Synonym>
++        <Synonym lang="de">Faktor IX-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -563448,7 +563690,8 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">PVNH</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -570057,7 +570300,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="de">Kongenitale  nicht korrigierte Transposition der großen Gefäße mit Koarktation</Synonym>
++        <Synonym lang="de">Kongenitale nicht korrigierte Transposition der großen Gefäße mit Koarktation</Synonym>
+         <Synonym lang="de">TGA mit Koarktation</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+@@ -574277,7 +574520,7 @@
+     <Disorder id="13674">
+       <OrphaCode>98657</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98657</ExpertLink>
+-      <Name lang="de">OBSOLET: Vitreoretinale Krankheit</Name>
++      <Name lang="de">OBSOLET: Vitreoretinale Krankheit, genetisch bedingte</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="455">
+           <Value>16</Value>
+@@ -578123,7 +578366,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Angelman-Syndrom  durch maternale Monosomie 15q11q13</Synonym>
++        <Synonym lang="de">Angelman-Syndrom durch maternale Monosomie 15q11q13</Synonym>
+       </SynonymList>
+       <DisorderType id="21443">
+         <Name lang="de">Ätiologischer Subtyp</Name>
+@@ -578518,8 +578761,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="de">ADNFLE</Synonym>
++        <Synonym lang="de">Autosomal-dominante Schlaf-assoziierte hypermotorische Epilepsie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -581591,7 +581835,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13327">
+@@ -582615,7 +582866,7 @@
+     <Disorder id="28845">
+       <OrphaCode>576232</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576232</ExpertLink>
+-      <Name lang="de">Partial atrioventricular septal defect with ventricular hypoplasia</Name>
++      <Name lang="de">Partieller atrioventrikulärer Septumdefekt mit ventrikulärer Hypoplasie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -582640,7 +582891,7 @@
+     <Disorder id="28846">
+       <OrphaCode>576235</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576235</ExpertLink>
+-      <Name lang="de">Partial atrioventricular septal defect without ventricular hypoplasia</Name>
++      <Name lang="de">Partieller atrioventrikulärer Septumdefekt ohne ventrikuläre Hypoplasie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -582665,7 +582916,7 @@
+     <Disorder id="28843">
+       <OrphaCode>576227</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576227</ExpertLink>
+-      <Name lang="de">Complete atrioventricular septal defect without ventricular hypoplasia</Name>
++      <Name lang="de">Kompletter atrioventrikulärer Septumdefekt ohne ventrikuläre Hypoplasie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -582819,14 +583070,15 @@
+     <Disorder id="28832">
+       <OrphaCode>575553</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=575553</ExpertLink>
+-      <Name lang="de">Cathepsin A-related arteriopathy-strokes-leukoencephalopathy</Name>
++      <Name lang="de">Cathepsin A-assoziierte Arteriopathie-Schlaganfall-Leukoenzephalopathie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">CARASAL</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -582954,14 +583206,15 @@
+     <Disorder id="28857">
+       <OrphaCode>576742</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576742</ExpertLink>
+-      <Name lang="de">Genetic hemolytic uremic syndrome</Name>
++      <Name lang="de">Hämolytisch-urämisches Syndrom, genetisch bedingtes</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">HUS, genetisch bedingt</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+         <Name lang="de">Category</Name>
+@@ -583076,14 +583329,16 @@
+     <Disorder id="28856">
+       <OrphaCode>576379</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576379</ExpertLink>
+-      <Name lang="de">Iatrogenic Creutzfeldt-Jakob disease</Name>
++      <Name lang="de">Creutzfeldt-Jakob-Krankheit, iatrogene From</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">Iatrogene CJD</Synonym>
++        <Synonym lang="de">iCJD</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -583101,7 +583356,7 @@
+     <Disorder id="28853">
+       <OrphaCode>576356</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576356</ExpertLink>
+-      <Name lang="de">Sporadic human prion disease</Name>
++      <Name lang="de">Prionkrankheit, humane, sporadiche Form</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -583133,14 +583388,17 @@
+     <Disorder id="28852">
+       <OrphaCode>576349</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576349</ExpertLink>
+-      <Name lang="de">NLRC4-related autoinflammatory syndrome</Name>
++      <Name lang="de">NLRC4-assoziiertes familiäres kälteinduziertes autoinflammatorisches Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">Autoinflammatorisches Syndrom, kälteinduziertes, familiäres, Typ 4</Synonym>
++        <Synonym lang="de">FCAS4</Synonym>
++        <Synonym lang="de">NLRC4-assoziierte familiäre Kälte-Urtikaria</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -583169,14 +583427,16 @@
+     <Disorder id="28855">
+       <OrphaCode>576370</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576370</ExpertLink>
+-      <Name lang="de">Variant Creutzfeldt-Jakob disease</Name>
++      <Name lang="de">Creutzfeldt-Jakob-Krankheit, Variante</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">V-MCJ</Synonym>
++        <Synonym lang="de">vCJD</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -583194,7 +583454,7 @@
+     <Disorder id="28854">
+       <OrphaCode>576360</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576360</ExpertLink>
+-      <Name lang="de">Acquired human prion disease</Name>
++      <Name lang="de">Prionkrankheit, humane, erworbene Form</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -583226,7 +583486,7 @@
+     <Disorder id="28849">
+       <OrphaCode>576242</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576242</ExpertLink>
+-      <Name lang="de">Intermediate atrioventricular septal defect</Name>
++      <Name lang="de">Intermediärer atrioventrikulärer Septumdefekt</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -583289,7 +583549,7 @@
+     <Disorder id="28851">
+       <OrphaCode>576283</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576283</ExpertLink>
+-      <Name lang="de">SATB2-associated syndrome due to a pathogenic variant</Name>
++      <Name lang="de">SATB2-assoziiertes Syndrom durch eine pathogene Variante</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -583325,14 +583585,15 @@
+     <Disorder id="28850">
+       <OrphaCode>576278</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576278</ExpertLink>
+-      <Name lang="de">SATB2-associated syndrome</Name>
++      <Name lang="de">SATB2-assoziiertes Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">SAS</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -583350,7 +583611,7 @@
+     <Disorder id="28814">
+       <OrphaCode>573163</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=573163</ExpertLink>
+-      <Name lang="de">Pheochromocytoma-paraganglioma</Name>
++      <Name lang="de">Phaeochromozytom-Paragangliom-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -583421,14 +583682,17 @@
+     <Disorder id="28815">
+       <OrphaCode>573253</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=573253</ExpertLink>
+-      <Name lang="de">Split cord malformation type II</Name>
++      <Name lang="de">Split-Cord-Malformation Typ II</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="3">
++        <Synonym lang="de">SCM Typ 2</Synonym>
++        <Synonym lang="de">SCM Typ II</Synonym>
++        <Synonym lang="de">Split-Cord-Malformation Typ 2</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -583919,14 +584183,15 @@
+     <Disorder id="28824">
+       <OrphaCode>574957</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=574957</ExpertLink>
+-      <Name lang="de">Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency</Name>
++      <Name lang="de">Autosomal-rezessive Mendelsche Anfälligkeit für Erkrankungen durch Mykobakterien durch partiellen JAK1-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Autosomal-rezessive MSMD durch partiellen JAK1-Mangel</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -583944,7 +584209,7 @@
+     <Disorder id="28823">
+       <OrphaCode>574918</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=574918</ExpertLink>
+-      <Name lang="de">Predisposition to severe viral infection due to IRF7 deficiency</Name>
++      <Name lang="de">Prädisposition zur schweren Virusinfektion durch IRF7-Defizienz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -584063,14 +584328,15 @@
+     <Disorder id="28816">
+       <OrphaCode>573278</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=573278</ExpertLink>
+-      <Name lang="de">Split cord malformation</Name>
++      <Name lang="de">Split-Cord-Malformation</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">SCM</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+@@ -584556,7 +584822,7 @@
+     <Disorder id="28738">
+       <OrphaCode>572385</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572385</ExpertLink>
+-      <Name lang="de">Brachydactyly type B1</Name>
++      <Name lang="de">Brachydaktylie Typ B1</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -584592,14 +584858,15 @@
+     <Disorder id="28736">
+       <OrphaCode>572361</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572361</ExpertLink>
+-      <Name lang="de">Blepharophimosis-ptosis-epicanthus inversus syndrome type 2</Name>
++      <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom Typ 2</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">BPES Typ 2</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -584797,14 +585064,16 @@
+     <Disorder id="28746">
+       <OrphaCode>572428</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572428</ExpertLink>
+-      <Name lang="de">Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia</Name>
++      <Name lang="de">Pulmonale Alveolarproteinose-Hypogammaglobulinämie, infantile Form</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">OAS1-Defizienz</Synonym>
++        <Synonym lang="de">OAS1-assoziierte Pulmonale Alveolarproteinose-Hypogammaglobulinämie mit Beginn im Kleinkindalter</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -584936,14 +585205,16 @@
+     <Disorder id="28754">
+       <OrphaCode>572543</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572543</ExpertLink>
+-      <Name lang="de">RFVT2-related riboflavin transporter deficiency</Name>
++      <Name lang="de">RFVT2-assoziierte Riboflavin-Transporter-Defizienz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">RTD2</Synonym>
++        <Synonym lang="de">Riboflavin-Transporter-Mangel Typ 2</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -584979,14 +585250,16 @@
+     <Disorder id="28755">
+       <OrphaCode>572550</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572550</ExpertLink>
+-      <Name lang="de">RFVT3-related riboflavin transporter deficiency</Name>
++      <Name lang="de">RFVT3-assoziierte Riboflavin-Transporter-Defizienz</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">RTD3</Synonym>
++        <Synonym lang="de">Riboflavin-Transporter-Mangel Typ 3</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -585022,14 +585295,15 @@
+     <Disorder id="28766">
+       <OrphaCode>572773</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572773</ExpertLink>
+-      <Name lang="de">Microcephaly-short stature-limb abnormalities syndrome</Name>
++      <Name lang="de">Mikrozphalie-Kleinwuchs-Extremitätenanomalien-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">MISSLA</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -585093,14 +585367,15 @@
+     <Disorder id="28767">
+       <OrphaCode>572798</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572798</ExpertLink>
+-      <Name lang="de">WARS2-related combined oxidative phosphorylation defect</Name>
++      <Name lang="de">Kombinierter Defekt der oxidativen Phosphorylierung, WARS2-assoziierter</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Mitochondriale Tryptophanyl-tRNA-Synthetase-Defizienz</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -585129,7 +585404,7 @@
+     <Disorder id="28764">
+       <OrphaCode>572761</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572761</ExpertLink>
+-      <Name lang="de">DONSON-related microcephaly-short stature-limb abnormalities spectrum</Name>
++      <Name lang="de">DONSON-assoziierte Mikrozphalie-Kleinwuchs-Extremitätenanomalien-Spektrum</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -585154,14 +585429,15 @@
+     <Disorder id="28765">
+       <OrphaCode>572768</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572768</ExpertLink>
+-      <Name lang="de">Microcephaly-micromelia syndrome</Name>
++      <Name lang="de">Mikrozephalie-Mikromelie-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">MIMIS</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -585529,14 +585805,15 @@
+     <Disorder id="28726">
+       <OrphaCode>572013</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572013</ExpertLink>
+-      <Name lang="de">Posterior-predominant lissencephaly-broad flat pons and medulla-midline crossing defects syndrome</Name>
++      <Name lang="de">Vorwiegend posteriore Lissenzephalie mit breiter flacher Pons und Medulla-Mittelliniendefekt</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Lissenzephalie Typ 9 mit komplexer Hirnstammfehlbildung</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -585660,14 +585937,16 @@
+     <Disorder id="28732">
+       <OrphaCode>572333</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572333</ExpertLink>
+-      <Name lang="de">Blepharophimosis-ptosis-epicanthus inversus syndrome plus</Name>
++      <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom plus</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">BPES plus</Synonym>
++        <Synonym lang="de">Mikrodeletionssyndrom 3q23</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -585685,14 +585964,15 @@
+     <Disorder id="28735">
+       <OrphaCode>572354</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=572354</ExpertLink>
+-      <Name lang="de">Blepharophimosis-ptosis-epicanthus inversus syndrome type 1</Name>
++      <Name lang="de">Blepharophimose-Epicanthus inversus-Ptosis-Syndrom Typ 1</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">BPES Typ 1</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -585823,14 +586103,15 @@
+     <Disorder id="28678">
+       <OrphaCode>570762</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570762</ExpertLink>
+-      <Name lang="de">Infective endocariditis</Name>
++      <Name lang="de">Endokarditis, infektiöse</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Bakterielle Endokarditis</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -585873,14 +586154,15 @@
+     <Disorder id="28677">
+       <OrphaCode>570491</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570491</ExpertLink>
+-      <Name lang="de">QRSL1-related combined oxidative phosphorylation defect</Name>
++      <Name lang="de">Kombinierter Defekt der oxidativen Phosphorylierung, QRSL1-assoziierter</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">COXPD, QRSL1-assoziiert</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -586031,7 +586313,7 @@
+     <Disorder id="28676">
+       <OrphaCode>570470</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570470</ExpertLink>
+-      <Name lang="de">Ricin poisoning</Name>
++      <Name lang="de">Rizin-Vergiftung</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -586056,14 +586338,15 @@
+     <Disorder id="28675">
+       <OrphaCode>570438</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570438</ExpertLink>
+-      <Name lang="de">HHV-8-associated multicentric Castleman disease</Name>
++      <Name lang="de">Castleman-Krankheit, multizentrische, HHV-8-assoziierte</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Humane Herpesvirus 8-assoziierte multizentrische Castleman-Krankheit</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -586094,14 +586377,16 @@
+     <Disorder id="28674">
+       <OrphaCode>570431</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570431</ExpertLink>
+-      <Name lang="de">Multicentric idiopathic Castleman disease</Name>
++      <Name lang="de">Castleman-Krankheit, multizentrische, idiopathische</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">HHV-8-negative multizentrische Castleman-Krankheit</Synonym>
++        <Synonym lang="de">Humane Herpesvirus 8-negative multizentrische Castleman-Krankheit</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -586132,14 +586417,16 @@
+     <Disorder id="28673">
+       <OrphaCode>570422</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570422</ExpertLink>
+-      <Name lang="de">Galactose mutarotase deficiency</Name>
++      <Name lang="de">Galaktose-Mutarotase-Mangel</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="de">GALM-Defizienz</Synonym>
++        <Synonym lang="de">Galaktosämie Typ 4</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -586168,14 +586455,15 @@
+     <Disorder id="28672">
+       <OrphaCode>570371</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=570371</ExpertLink>
+-      <Name lang="de">Transient antenatal Bartter syndrome</Name>
++      <Name lang="de">Bartter -Syndrom, antenatales transientes</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="de">Bartter-Syndrom Typ 5</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+@@ -594754,7 +595042,7 @@
+     <Disorder id="14754">
+       <OrphaCode>101043</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=101043</ExpertLink>
+-      <Name lang="de">Aortenklappendysplasie</Name>
++      <Name lang="de">Aortenklappendysplasie, kongenitale</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -595799,7 +596087,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="2908">
+             <OrphaCode>3253</OrphaCode>
+-            <Name lang="de">Zlotogora-Ogur-Syndrom</Name>
++            <Name lang="de">Lippen-Kiefer-Gaumen-Spalte-ektodermale Dysplasie-Syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="14747" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -598534,8 +598822,14 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="7">
++        <Synonym lang="de">Angioneurotisches Ödem, hereditäres, Typ 3</Synonym>
+         <Synonym lang="de">Angioödem, hereditäres, Typ 3</Synonym>
++        <Synonym lang="de">F12-assoziiertes HAE mit normalem C1-Inhibitor</Synonym>
++        <Synonym lang="de">HAE 3</Synonym>
++        <Synonym lang="de">HAE-III</Synonym>
++        <Synonym lang="de">Vererbtes Östrogen-abhängiges Angioneurotisches Ödem</Synonym>
++        <Synonym lang="de">Vererbtes Östrogen-assoziiertes Angioödem</Synonym>
+       </SynonymList>
+       <DisorderType id="21443">
+         <Name lang="de">Ätiologischer Subtyp</Name>
