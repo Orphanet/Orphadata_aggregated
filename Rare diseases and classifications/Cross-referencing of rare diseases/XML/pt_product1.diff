@@ -1,17 +1,19 @@
-commit bbf94d552a3c459862632b82d2e2166d94fb6b4e
+commit f6243403226f6a943b8a6925758d3dfb41a1e668
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Dec 1 15:14:38 2020 +0100
+Date:   Sat Jan 2 20:37:59 2021 +0100
 
-    DEC 2020
+    JAN 2021
 
 diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pt_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pt_product1.xml
-index 6c23c34..3fc5ff5 100644
+old mode 100644
+new mode 100755
+index 3fc5ff5..f43cb35
 --- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pt_product1.xml	
 +++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pt_product1.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2020-11-01 04:28:07" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2020-12-01 04:30:42" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2020-12-01 04:30:42" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-01-01 04:31:15" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -19,12 +21,39 @@ index 6c23c34..3fc5ff5 100644
        <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
      </Licence>
    </Availability>
--  <DisorderList count="10500">
-+  <DisorderList count="10501">
+-  <DisorderList count="10501">
++  <DisorderList count="10512">
      <Disorder id="17601">
        <OrphaCode>166024</OrphaCode>
        <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=166024</ExpertLink>
-@@ -86241,7 +86241,14 @@
+@@ -56061,8 +56061,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21422">
+-        <Name lang="pt">Síndrome clínica</Name>
++      <DisorderType id="21429">
++        <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+@@ -56104,7 +56104,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="pt">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="pt">Esta é uma doença rara para a qual existe uma designação orfã Europeia e/ou Americana.Este termo designa uma indicação para um teste farmacogenético.</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18012">
+@@ -60451,7 +60458,14 @@
        </ExternalReferenceList>
        <DisorderDisorderAssociationList count="0">
        </DisorderDisorderAssociationList>
@@ -39,95 +68,65 @@ index 6c23c34..3fc5ff5 100644
 +        </SummaryInformation>
        </SummaryInformationList>
      </Disorder>
-     <Disorder id="18199">
-@@ -121407,7 +121414,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="1539">
-@@ -122306,7 +122320,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="1559">
-@@ -141184,7 +141205,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="2014">
-@@ -153690,6 +153718,38 @@
-       <SummaryInformationList count="0">
-       </SummaryInformationList>
-     </Disorder>
-+    <Disorder id="19474">
-+      <OrphaCode>244275</OrphaCode>
-+      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=244275</ExpertLink>
-+      <Name lang="pt">Microangiopatia trombótica de novo após transplante renal</Name>
-+      <DisorderFlagList count="1">
+     <Disorder id="738">
+@@ -176141,9 +176155,9 @@
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=252175</ExpertLink>
+       <Name lang="pt">Schwannoma vestibular</Name>
+       <DisorderFlagList count="1">
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
 +        <DisorderFlag id="475">
 +          <Value>1</Value>
 +          <Label></Label>
-+        </DisorderFlag>
-+      </DisorderFlagList>
-+      <SynonymList count="0">
-+      </SynonymList>
-+      <DisorderType id="21429">
-+        <Name lang="pt">Situação clínica particular numa doença ou síndrome</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="pt">Patologia</Name>
-+      </DisorderGroup>
-+      <ExternalReferenceList count="0">
-+      </ExternalReferenceList>
-+      <DisorderDisorderAssociationList count="0">
-+      </DisorderDisorderAssociationList>
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo designa uma indicação para um teste farmacogenético.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-+      </SummaryInformationList>
-+    </Disorder>
-     <Disorder id="2259">
-       <OrphaCode>2438</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2438</ExpertLink>
-@@ -337112,7 +337172,14 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="4">
+@@ -176158,7 +176172,42 @@
+       <DisorderGroup id="36554">
+         <Name lang="pt">Subtipo de patologia</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="0">
++      <ExternalReferenceList count="3">
++        <ExternalReference id="186438">
++          <Source>MedDRA</Source>
++          <Reference>10000523</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="pt">Direção exacta (os termos e os conceitos são equivalentes)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pt">Validado</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="186437">
++          <Source>UMLS</Source>
++          <Reference>C0027859</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="pt">Direção exacta (os termos e os conceitos são equivalentes)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pt">Validado</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="186440">
++          <Source>ICD-10</Source>
++          <Reference>D33.3</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="pt">Direção exacta (os termos e os conceitos são equivalentes)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21583">
++            <Name lang="pt">Código específico (O código ORPHA tem o seu código próprio na classificação ICD10)</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pt">Validado</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+@@ -199959,7 +200008,14 @@
        </ExternalReferenceList>
        <DisorderDisorderAssociationList count="0">
        </DisorderDisorderAssociationList>
@@ -142,8 +141,8 @@ index 6c23c34..3fc5ff5 100644
 +        </SummaryInformation>
        </SummaryInformationList>
      </Disorder>
-     <Disorder id="21345">
-@@ -340458,14 +340525,7 @@
+     <Disorder id="2614">
+@@ -225172,14 +225228,7 @@
        </ExternalReferenceList>
        <DisorderDisorderAssociationList count="0">
        </DisorderDisorderAssociationList>
@@ -152,14 +151,33 @@ index 6c23c34..3fc5ff5 100644
 -          <TextSectionList count="0">
 -          </TextSectionList>
 -          <TextAuto>
--            <Info lang="pt">Esta doença está descrita em  Síndrome de L1</Info>
+-            <Info lang="pt">Esta doença está descrita em  Síndrome de Coffin-Lowry</Info>
 -          </TextAuto>
 -        </SummaryInformation>
 +      <SummaryInformationList count="0">
        </SummaryInformationList>
      </Disorder>
-     <Disorder id="21238">
-@@ -361867,7 +361927,14 @@
+     <Disorder id="2920">
+@@ -261853,7 +261902,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="3338" cycle="true"/>
++          <RootDisorder id="20880">
++            <OrphaCode>293848</OrphaCode>
++            <Name lang="pt">Atrofia lobar temporal direita</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="pt">Movido para</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+         <SummaryInformation id="-1" lang="pt">
+@@ -272740,7 +272799,14 @@
        </ExternalReferenceList>
        <DisorderDisorderAssociationList count="0">
        </DisorderDisorderAssociationList>
@@ -174,117 +192,96 @@ index 6c23c34..3fc5ff5 100644
 +        </SummaryInformation>
        </SummaryInformationList>
      </Disorder>
-     <Disorder id="22715">
-@@ -396357,7 +396424,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="8684">
-@@ -423461,7 +423535,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="11189">
-@@ -452915,7 +452996,14 @@
-           </DisorderDisorderAssociationType>
-         </DisorderDisorderAssociation>
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="10523">
-@@ -452953,7 +453041,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="28123">
-@@ -526175,7 +526270,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="12370">
-@@ -527764,7 +527866,14 @@
-       </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
-       </DisorderDisorderAssociationList>
--      <SummaryInformationList count="0">
-+      <SummaryInformationList count="1">
-+        <SummaryInformation id="-1" lang="pt">
-+          <TextSectionList count="0">
-+          </TextSectionList>
-+          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
-+          </TextAuto>
-+        </SummaryInformation>
-       </SummaryInformationList>
-     </Disorder>
-     <Disorder id="12334">
-@@ -539513,8 +539622,8 @@
+     <Disorder id="19020">
+@@ -311383,8 +311449,8 @@
        </DisorderFlagList>
        <SynonymList count="0">
        </SynonymList>
--      <DisorderType id="21436">
--        <Name lang="pt">Grupo de fenótipos</Name>
-+      <DisorderType id="36561">
-+        <Name lang="pt">Category</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pt">Subtipo clínico</Name>
++      <DisorderType id="21443">
++        <Name lang="pt">Subtipo etiologico</Name>
        </DisorderType>
-       <DisorderGroup id="36540">
-         <Name lang="pt">Grupo de patologias</Name>
-@@ -563039,7 +563148,14 @@
+       <DisorderGroup id="36554">
+         <Name lang="pt">Subtipo de patologia</Name>
+@@ -312245,8 +312311,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21450">
+-        <Name lang="pt">Subtipo clínico</Name>
++      <DisorderType id="21443">
++        <Name lang="pt">Subtipo etiologico</Name>
+       </DisorderType>
+       <DisorderGroup id="36554">
+         <Name lang="pt">Subtipo de patologia</Name>
+@@ -312301,8 +312367,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21450">
+-        <Name lang="pt">Subtipo clínico</Name>
++      <DisorderType id="21443">
++        <Name lang="pt">Subtipo etiologico</Name>
+       </DisorderType>
+       <DisorderGroup id="36554">
+         <Name lang="pt">Subtipo de patologia</Name>
+@@ -314763,7 +314829,11 @@
+       <OrphaCode>293848</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=293848</ExpertLink>
+       <Name lang="pt">Atrofia lobar temporal direita</Name>
+-      <DisorderFlagList count="1">
++      <DisorderFlagList count="2">
++        <DisorderFlag id="459">
++          <Value>256</Value>
++          <Label>Deprecated entity</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+@@ -314780,35 +314850,28 @@
+       <DisorderGroup id="36547">
+         <Name lang="pt">Patologia</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="2">
+-        <ExternalReference id="122990">
+-          <Source>ICD-10</Source>
+-          <Reference>G31.0</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="pt">NTBT (O Termo Detalhado do código ORPHA relaciona-se com o Termo Abrangente)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation id="21604">
+-            <Name lang="pt">Atribuido (O código ICD10 é atribuido pela Orphanet)</Name>
+-          </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pt">Validado</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="141351">
+-          <Source>OMIM</Source>
+-          <Reference>600274</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="pt">NTBT (O Termo Detalhado do código ORPHA relaciona-se com o Termo Abrangente)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pt">Validado</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="0">
        </ExternalReferenceList>
-       <DisorderDisorderAssociationList count="0">
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="3338">
++            <OrphaCode>282</OrphaCode>
++            <Name lang="pt">Demência fronto-temporal</Name>
++          </TargetDisorder>
++          <RootDisorder id="20880" cycle="true"/>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="pt">Movido para</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
        </DisorderDisorderAssociationList>
 -      <SummaryInformationList count="0">
 +      <SummaryInformationList count="1">
@@ -292,9 +289,365 @@ index 6c23c34..3fc5ff5 100644
 +          <TextSectionList count="0">
 +          </TextSectionList>
 +          <TextAuto>
-+            <Info lang="pt">Este termo não caracteriza uma doença mas sim um grupo de doenças. Para saber mais sobre as doenças inlcuidas no termo abaixo, consulte por favor as classificações.</Info>
++            <Info lang="pt">Esta doença foi movida para  Demência fronto-temporal</Info>
 +          </TextAuto>
 +        </SummaryInformation>
        </SummaryInformationList>
      </Disorder>
-     <Disorder id="13327">
+     <Disorder id="20878">
+@@ -327914,9 +327977,9 @@
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=284408</ExpertLink>
+       <Name lang="pt">Deficiência da glicerol cinase, infantil</Name>
+       <DisorderFlagList count="1">
+-        <DisorderFlag id="475">
+-          <Value>1</Value>
+-          <Label></Label>
++        <DisorderFlag id="461">
++          <Value>1024</Value>
++          <Label>Obsolete with resources</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -327927,31 +327990,7 @@
+       <DisorderGroup id="36554">
+         <Name lang="pt">Subtipo de patologia</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="2">
+-        <ExternalReference id="141326">
+-          <Source>OMIM</Source>
+-          <Reference>307030</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="pt">NTBT (O Termo Detalhado do código ORPHA relaciona-se com o Termo Abrangente)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pt">Validado</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="122860">
+-          <Source>ICD-10</Source>
+-          <Reference>E74.8</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="pt">NTBT (O Termo Detalhado do código ORPHA relaciona-se com o Termo Abrangente)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation id="21604">
+-            <Name lang="pt">Atribuido (O código ICD10 é atribuido pela Orphanet)</Name>
+-          </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pt">Validado</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+@@ -537451,6 +537490,56 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29576">
++      <OrphaCode>592850</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592850</ExpertLink>
++      <Name lang="pt">Neuromyelitis optica spectrum disorder with anti-AQP4 antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29577">
++      <OrphaCode>592856</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592856</ExpertLink>
++      <Name lang="pt">Neuromyelitis optica spectrum disorder with anti-MOG antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="14152">
+       <OrphaCode>99135</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99135</ExpertLink>
+@@ -537489,6 +537578,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29578">
++      <OrphaCode>592869</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592869</ExpertLink>
++      <Name lang="pt">Neuromyelitis optica spectrum disorder without anti-MOG and without anti-AQP4 antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="14155">
+       <OrphaCode>99138</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99138</ExpertLink>
+@@ -537527,6 +537641,81 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29579">
++      <OrphaCode>592873</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592873</ExpertLink>
++      <Name lang="pt">Acute transverse myelitis with anti-MOG antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29580">
++      <OrphaCode>592885</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592885</ExpertLink>
++      <Name lang="pt">Isolated optic neuritis without anti-MOG antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29581">
++      <OrphaCode>592888</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592888</ExpertLink>
++      <Name lang="pt">Optic neuritis with anti-MOG antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="14156">
+       <OrphaCode>99139</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99139</ExpertLink>
+@@ -537563,6 +537752,56 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29582">
++      <OrphaCode>592894</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592894</ExpertLink>
++      <Name lang="pt">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29583">
++      <OrphaCode>592900</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592900</ExpertLink>
++      <Name lang="pt">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="pt">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="14158">
+       <OrphaCode>99141</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99141</ExpertLink>
+@@ -539177,6 +539416,81 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29566">
++      <OrphaCode>592574</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592574</ExpertLink>
++      <Name lang="pt">Menke-Hennekam syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21401">
++        <Name lang="pt">Síndrome malformativo</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pt">Patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29564">
++      <OrphaCode>592564</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592564</ExpertLink>
++      <Name lang="pt">GNAO1-related developmental delay-seizures-movement disorder spectrum</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pt">Doença</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pt">Patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29565">
++      <OrphaCode>592570</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=592570</ExpertLink>
++      <Name lang="pt">TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21401">
++        <Name lang="pt">Síndrome malformativo</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pt">Patologia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="14267">
+       <OrphaCode>99694</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99694</ExpertLink>

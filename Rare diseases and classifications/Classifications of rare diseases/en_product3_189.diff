@@ -1,262 +1,39 @@
-commit bbf94d552a3c459862632b82d2e2166d94fb6b4e
+commit f6243403226f6a943b8a6925758d3dfb41a1e668
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Dec 1 15:14:38 2020 +0100
+Date:   Sat Jan 2 20:37:59 2021 +0100
 
-    DEC 2020
+    JAN 2021
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml
-index 8124fe1..d3ab3c6 100644
+old mode 100644
+new mode 100755
+index d3ab3c6..e6c127f
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2020-11-01 04:29:46" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2020-12-01 04:32:38" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2020-12-01 04:32:38" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-01-01 04:33:16" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -1859,7 +1859,67 @@
-                                   <Name lang="en">Disease</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="0">
-+                              <ClassificationNodeChildList count="5">
-+                                <ClassificationNode>
-+                                  <Disorder id="29442">
-+                                    <OrphaCode>589824</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589824</ExpertLink>
-+                                    <Name lang="en">Childhood-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29443">
-+                                    <OrphaCode>589827</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589827</ExpertLink>
-+                                    <Name lang="en">Juvenile-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29444">
-+                                    <OrphaCode>589830</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589830</ExpertLink>
-+                                    <Name lang="en">Adult-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29445">
-+                                    <OrphaCode>589833</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589833</ExpertLink>
-+                                    <Name lang="en">Late-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29441">
-+                                    <OrphaCode>589821</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589821</ExpertLink>
-+                                    <Name lang="en">Congenital-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-                             <ClassificationNode>
-@@ -6119,7 +6179,7 @@
-                                   <Name lang="en">Category</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="51">
-+                              <ClassificationNodeChildList count="52">
-                                 <ClassificationNode>
-                                   <Disorder id="11544">
-                                     <OrphaCode>79665</OrphaCode>
-@@ -7836,6 +7896,18 @@
-                                   <ClassificationNodeChildList count="0">
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29429">
-+                                    <OrphaCode>589442</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589442</ExpertLink>
-+                                    <Name lang="en">Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome</Name>
-+                                    <DisorderType id="21401">
-+                                      <Name lang="en">Malformation syndrome</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-                           </ClassificationNodeChildList>
-@@ -8663,7 +8735,7 @@
-                                   <Name lang="en">Category</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="10">
-+                              <ClassificationNodeChildList count="8">
-                                 <ClassificationNode>
-                                   <Disorder id="155">
-                                     <OrphaCode>792</OrphaCode>
-@@ -8700,30 +8772,6 @@
-                                   <ClassificationNodeChildList count="0">
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="3414">
--                                    <OrphaCode>566</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=566</ExpertLink>
--                                    <Name lang="en">Congenital microcoria</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="12151">
--                                    <OrphaCode>91491</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91491</ExpertLink>
--                                    <Name lang="en">Congenital ectropion uveae</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
-                                 <ClassificationNode>
-                                   <Disorder id="13651">
-                                     <OrphaCode>98634</OrphaCode>
-@@ -9321,7 +9369,19 @@
-                                       <Name lang="en">Category</Name>
-                                     </DisorderType>
-                                   </Disorder>
--                                  <ClassificationNodeChildList count="6">
-+                                  <ClassificationNodeChildList count="7">
-+                                    <ClassificationNode>
-+                                      <Disorder id="10901">
-+                                        <OrphaCode>67041</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=67041</ExpertLink>
-+                                        <Name lang="en">Hyaluronidase deficiency</Name>
-+                                        <DisorderType id="21394">
-+                                          <Name lang="en">Disease</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-                                     <ClassificationNode>
-                                       <Disorder id="24">
-                                         <OrphaCode>583</OrphaCode>
-@@ -10163,7 +10223,7 @@
-                                   <Name lang="en">Clinical group</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="5">
-+                              <ClassificationNodeChildList count="2">
-                                 <ClassificationNode>
-                                   <Disorder id="1247">
-                                     <OrphaCode>920</OrphaCode>
-@@ -10224,42 +10284,6 @@
-                                     </ClassificationNode>
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="29042">
--                                    <OrphaCode>583602</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583602</ExpertLink>
--                                    <Name lang="en">Neu-laxova syndrome due to phosphoserine aminotransferase deficiency</Name>
--                                    <DisorderType id="21443">
--                                      <Name lang="en">Etiological subtype</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="29043">
--                                    <OrphaCode>583607</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583607</ExpertLink>
--                                    <Name lang="en">Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency</Name>
--                                    <DisorderType id="21443">
--                                      <Name lang="en">Etiological subtype</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="29044">
--                                    <OrphaCode>583612</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583612</ExpertLink>
--                                    <Name lang="en">Neu-laxova syndrome due to 3-phosphoserine phosphatase deficiency</Name>
--                                    <DisorderType id="21443">
--                                      <Name lang="en">Etiological subtype</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-                             <ClassificationNode>
-@@ -11011,7 +11035,19 @@
-                                           <Name lang="en">Clinical group</Name>
-                                         </DisorderType>
-                                       </Disorder>
--                                      <ClassificationNodeChildList count="6">
-+                                      <ClassificationNodeChildList count="7">
-+                                        <ClassificationNode>
-+                                          <Disorder id="20746">
-+                                            <OrphaCode>289586</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289586</ExpertLink>
-+                                            <Name lang="en">Exfoliative ichthyosis</Name>
-+                                            <DisorderType id="21394">
-+                                              <Name lang="en">Disease</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-                                         <ClassificationNode>
-                                           <Disorder id="20528">
-                                             <OrphaCode>281122</OrphaCode>
-@@ -11265,7 +11301,67 @@
+@@ -700,12 +700,48 @@
+                                   <Disorder id="10986">
+                                     <OrphaCode>71211</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=71211</ExpertLink>
+-                                    <Name lang="en">Neuromyelitis optica</Name>
++                                    <Name lang="en">Neuromyelitis optica spectrum disorder</Name>
+                                     <DisorderType id="21394">
                                        <Name lang="en">Disease</Name>
                                      </DisorderType>
                                    </Disorder>
 -                                  <ClassificationNodeChildList count="0">
-+                                  <ClassificationNodeChildList count="5">
++                                  <ClassificationNodeChildList count="3">
 +                                    <ClassificationNode>
-+                                      <Disorder id="29442">
-+                                        <OrphaCode>589824</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589824</ExpertLink>
-+                                        <Name lang="en">Childhood-onset Steinert myotonic dystrophy</Name>
++                                      <Disorder id="29576">
++                                        <OrphaCode>592850</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592850</ExpertLink>
++                                        <Name lang="en">Neuromyelitis optica spectrum disorder with anti-AQP4 antibodies</Name>
 +                                        <DisorderType id="21450">
 +                                          <Name lang="en">Clinical subtype</Name>
 +                                        </DisorderType>
@@ -265,10 +42,10 @@ index 8124fe1..d3ab3c6 100644
 +                                      </ClassificationNodeChildList>
 +                                    </ClassificationNode>
 +                                    <ClassificationNode>
-+                                      <Disorder id="29443">
-+                                        <OrphaCode>589827</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589827</ExpertLink>
-+                                        <Name lang="en">Juvenile-onset Steinert myotonic dystrophy</Name>
++                                      <Disorder id="29578">
++                                        <OrphaCode>592869</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592869</ExpertLink>
++                                        <Name lang="en">Neuromyelitis optica spectrum disorder without anti-MOG and without anti-AQP4 antibodies</Name>
 +                                        <DisorderType id="21450">
 +                                          <Name lang="en">Clinical subtype</Name>
 +                                        </DisorderType>
@@ -277,34 +54,10 @@ index 8124fe1..d3ab3c6 100644
 +                                      </ClassificationNodeChildList>
 +                                    </ClassificationNode>
 +                                    <ClassificationNode>
-+                                      <Disorder id="29444">
-+                                        <OrphaCode>589830</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589830</ExpertLink>
-+                                        <Name lang="en">Adult-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29445">
-+                                        <OrphaCode>589833</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589833</ExpertLink>
-+                                        <Name lang="en">Late-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29441">
-+                                        <OrphaCode>589821</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589821</ExpertLink>
-+                                        <Name lang="en">Congenital-onset Steinert myotonic dystrophy</Name>
++                                      <Disorder id="29577">
++                                        <OrphaCode>592856</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592856</ExpertLink>
++                                        <Name lang="en">Neuromyelitis optica spectrum disorder with anti-MOG antibodies</Name>
 +                                        <DisorderType id="21450">
 +                                          <Name lang="en">Clinical subtype</Name>
 +                                        </DisorderType>
@@ -315,35 +68,31 @@ index 8124fe1..d3ab3c6 100644
                                    </ClassificationNodeChildList>
                                  </ClassificationNode>
                                  <ClassificationNode>
-@@ -12433,7 +12529,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="15">
-+                          <ClassificationNodeChildList count="14">
-                             <ClassificationNode>
-                               <Disorder id="1864">
-                                 <OrphaCode>1896</OrphaCode>
-@@ -12537,7 +12633,7 @@
-                                       <Name lang="en">Category</Name>
+@@ -717,7 +753,31 @@
+                                       <Name lang="en">Disease</Name>
                                      </DisorderType>
                                    </Disorder>
--                                  <ClassificationNodeChildList count="17">
-+                                  <ClassificationNodeChildList count="18">
-                                     <ClassificationNode>
-                                       <Disorder id="23025">
-                                         <OrphaCode>411641</OrphaCode>
-@@ -12790,6 +12886,18 @@
-                                       <ClassificationNodeChildList count="0">
-                                       </ClassificationNodeChildList>
-                                     </ClassificationNode>
+-                                  <ClassificationNodeChildList count="0">
++                                  <ClassificationNodeChildList count="2">
 +                                    <ClassificationNode>
-+                                      <Disorder id="29428">
-+                                        <OrphaCode>589435</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589435</ExpertLink>
-+                                        <Name lang="en">Spondylometaphyseal dysplasia-corneal dystrophy syndrome</Name>
-+                                        <DisorderType id="21401">
-+                                          <Name lang="en">Malformation syndrome</Name>
++                                      <Disorder id="29582">
++                                        <OrphaCode>592894</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592894</ExpertLink>
++                                        <Name lang="en">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
++                                    <ClassificationNode>
++                                      <Disorder id="29583">
++                                        <OrphaCode>592900</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592900</ExpertLink>
++                                        <Name lang="en">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
 +                                        </DisorderType>
 +                                      </Disorder>
 +                                      <ClassificationNodeChildList count="0">
@@ -352,91 +101,111 @@ index 8124fe1..d3ab3c6 100644
                                    </ClassificationNodeChildList>
                                  </ClassificationNode>
                                  <ClassificationNode>
-@@ -13454,18 +13562,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29428">
--                                <OrphaCode>589435</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589435</ExpertLink>
--                                <Name lang="en">Spondylometaphyseal dysplasia-corneal dystrophy syndrome</Name>
--                                <DisorderType id="21401">
--                                  <Name lang="en">Malformation syndrome</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-@@ -14875,7 +14971,67 @@
-                                           <Name lang="en">Disease</Name>
+@@ -753,7 +813,31 @@
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+                                   </Disorder>
+-                                  <ClassificationNodeChildList count="0">
++                                  <ClassificationNodeChildList count="2">
++                                    <ClassificationNode>
++                                      <Disorder id="29580">
++                                        <OrphaCode>592885</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592885</ExpertLink>
++                                        <Name lang="en">Isolated optic neuritis without anti-MOG antibodies</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
++                                    <ClassificationNode>
++                                      <Disorder id="29581">
++                                        <OrphaCode>592888</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592888</ExpertLink>
++                                        <Name lang="en">Optic neuritis with anti-MOG antibodies</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
+                                 <ClassificationNode>
+@@ -9099,8 +9183,8 @@
+                                         <OrphaCode>353277</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
                                          </DisorderType>
                                        </Disorder>
--                                      <ClassificationNodeChildList count="0">
-+                                      <ClassificationNodeChildList count="5">
-+                                        <ClassificationNode>
-+                                          <Disorder id="29442">
-+                                            <OrphaCode>589824</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589824</ExpertLink>
-+                                            <Name lang="en">Childhood-onset Steinert myotonic dystrophy</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="29443">
-+                                            <OrphaCode>589827</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589827</ExpertLink>
-+                                            <Name lang="en">Juvenile-onset Steinert myotonic dystrophy</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="29444">
-+                                            <OrphaCode>589830</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589830</ExpertLink>
-+                                            <Name lang="en">Adult-onset Steinert myotonic dystrophy</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="29445">
-+                                            <OrphaCode>589833</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589833</ExpertLink>
-+                                            <Name lang="en">Late-onset Steinert myotonic dystrophy</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="29441">
-+                                            <OrphaCode>589821</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589821</ExpertLink>
-+                                            <Name lang="en">Congenital-onset Steinert myotonic dystrophy</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-                                       </ClassificationNodeChildList>
-                                     </ClassificationNode>
-                                     <ClassificationNode>
+                                       <ClassificationNodeChildList count="0">
+@@ -9111,8 +9195,8 @@
+                                         <OrphaCode>353281</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -9123,8 +9207,8 @@
+                                         <OrphaCode>353284</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -16504,7 +16588,7 @@
+                                   <Disorder id="24042">
+                                     <OrphaCode>464738</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=464738</ExpertLink>
+-                                    <Name lang="en">Congenital cataract-microcephaly-nevus flammeus simplex-severe intellectual disability syndrome</Name>
++                                    <Name lang="en">Basel-Vanagaite-Smirin-Yosef syndrome</Name>
+                                     <DisorderType id="21401">
+                                       <Name lang="en">Malformation syndrome</Name>
+                                     </DisorderType>
+@@ -17033,8 +17117,8 @@
+                                     <OrphaCode>353277</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                                     <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -17045,8 +17129,8 @@
+                                     <OrphaCode>353281</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                                     <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -17057,8 +17141,8 @@
+                                     <OrphaCode>353284</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                                     <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">

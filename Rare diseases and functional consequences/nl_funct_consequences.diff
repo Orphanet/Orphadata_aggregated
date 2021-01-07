@@ -1,170 +1,117 @@
-commit bbf94d552a3c459862632b82d2e2166d94fb6b4e
+commit f6243403226f6a943b8a6925758d3dfb41a1e668
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Dec 1 15:14:38 2020 +0100
+Date:   Sat Jan 2 20:37:59 2021 +0100
 
-    DEC 2020
+    JAN 2021
 
 diff --git a/Rare diseases and functional consequences/nl_funct_consequences.xml b/Rare diseases and functional consequences/nl_funct_consequences.xml
-index 67a37a2..4899d3c 100644
+old mode 100644
+new mode 100755
+index 4899d3c..fbf2634
 --- a/Rare diseases and functional consequences/nl_funct_consequences.xml	
 +++ b/Rare diseases and functional consequences/nl_funct_consequences.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2020-11-01 04:08:30" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2020-12-01 04:08:35" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2020-12-01 04:08:35" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-01-01 04:08:44" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -40742,7 +40742,7 @@
-       <Disorder id="12177">
-         <OrphaCode>93172</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93172</ExpertLink>
--        <Name lang="nl">Unilaterale renale dysplasie</Name>
-+        <Name lang="nl">Renale dysplasie, unilateraal</Name>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderDisabilityRelevanceList count="911">
++  <DisorderDisabilityRelevanceList count="910">
+     <DisorderDisabilityRelevance id="5">
+       <Disorder id="230">
+         <OrphaCode>893</OrphaCode>
+@@ -40768,7 +40768,7 @@
+       <Disorder id="12163">
+         <OrphaCode>93100</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93100</ExpertLink>
+-        <Name lang="nl">Unilaterale renale agenesie</Name>
++        <Name lang="nl">Agenesie van nier, unilateraal</Name>
          <DisorderType id="21450">
            <Name lang="nl">Klinisch subtype</Name>
          </DisorderType>
-@@ -163656,7 +163656,7 @@
-       <Disorder id="10738">
-         <OrphaCode>53696</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=53696</ExpertLink>
--        <Name lang="nl">Letale artrogrypose - anterieure hoorncelziekte-syndroom</Name>
-+        <Name lang="nl">Artrogrypose - voorhoornaandoening-syndroom</Name>
+@@ -135420,7 +135420,7 @@
+       <Disorder id="10804">
+         <OrphaCode>60039</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=60039</ExpertLink>
+-        <Name lang="nl">Pudendale neuralgie</Name>
++        <Name lang="nl">Pudendusneuralgie</Name>
+         <DisorderType id="21394">
+           <Name lang="nl">Ziekte</Name>
+         </DisorderType>
+@@ -257092,7 +257092,7 @@
+       <Disorder id="20103">
+         <OrphaCode>264580</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264580</ExpertLink>
+-        <Name lang="nl">Glycogeenstapelingsziekte type 9A</Name>
++        <Name lang="nl">Glycogeenstapelingsziekte door hepatische fosforylasekinasedeficiëntie</Name>
+         <DisorderType id="21394">
+           <Name lang="nl">Ziekte</Name>
+         </DisorderType>
+@@ -289840,34 +289840,6 @@
+       </DisabilityCategory>
+       <ReasonForNotApplicable/>
+     </DisorderDisabilityRelevance>
+-    <DisorderDisabilityRelevance id="4145">
+-      <Disorder id="20880">
+-        <OrphaCode>293848</OrphaCode>
+-        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=293848</ExpertLink>
+-        <Name lang="nl">Frontotemporale dementie, rechter temporale atrofie variant</Name>
+-        <DisorderType id="21394">
+-          <Name lang="nl">Ziekte</Name>
+-        </DisorderType>
+-        <DisorderGroup id="36547">
+-          <Name lang="nl">Disorder</Name>
+-        </DisorderGroup>
+-        <DisabilityDisorderAssociationList count="0">
+-        </DisabilityDisorderAssociationList>
+-      </Disorder>
+-      <SourceOfValidation>Orphanet</SourceOfValidation>
+-      <SpecificManagement>n</SpecificManagement>
+-      <Online>y</Online>
+-      <AnnotationDate>2019-02-04 00:00:00.0</AnnotationDate>
+-      <StatusDisability id="27320">
+-        <Name lang="nl">Gevalideerd</Name>
+-      </StatusDisability>
+-      <DisabilityCategory id="27285">
+-        <Name lang="nl">Niet toepasbaar</Name>
+-      </DisabilityCategory>
+-      <ReasonForNotApplicable id="27306">
+-        <Name lang="nl">Hypervariabel functioneren</Name>
+-      </ReasonForNotApplicable>
+-    </DisorderDisabilityRelevance>
+     <DisorderDisabilityRelevance id="4097">
+       <Disorder id="357">
+         <OrphaCode>370</OrphaCode>
+@@ -309229,7 +309201,7 @@
+       <Disorder id="21149">
+         <OrphaCode>300878</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=300878</ExpertLink>
+-        <Name lang="nl">Haarcelleukemie variant</Name>
++        <Name lang="nl">Variant van haarcelleukemie</Name>
+         <DisorderType id="21394">
+           <Name lang="nl">Ziekte</Name>
+         </DisorderType>
+@@ -347330,7 +347302,7 @@
+       <Disorder id="120">
+         <OrphaCode>908</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=908</ExpertLink>
+-        <Name lang="nl">Fragiele X-syndroom</Name>
++        <Name lang="nl">Fragiele-X-syndroom</Name>
          <DisorderType id="21401">
            <Name lang="nl">Malformatiesyndroom</Name>
          </DisorderType>
-@@ -199583,7 +199583,7 @@
-       <Disorder id="784">
-         <OrphaCode>3002</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3002</ExpertLink>
--        <Name lang="nl">Immuungemedieerde trombocytopenische purpura</Name>
-+        <Name lang="nl">Immuuntrombocytopenie</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -270934,7 +270934,7 @@
-       <Disorder id="131">
-         <OrphaCode>580</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=580</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 2</Name>
-+        <Name lang="nl">Mucopolysacharidose type 2</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -272359,7 +272359,7 @@
-       <Disorder id="18824">
-         <OrphaCode>217085</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=217085</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 2, ernstige vorm</Name>
-+        <Name lang="nl">Mucopolysacharidose type 2, ernstige vorm</Name>
+@@ -495276,7 +495248,7 @@
+       <Disorder id="2656">
+         <OrphaCode>1848</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1848</ExpertLink>
+-        <Name lang="nl">Bilaterale renale agenesie</Name>
++        <Name lang="nl">Agenesie van nier, bilateraal</Name>
          <DisorderType id="21450">
            <Name lang="nl">Klinisch subtype</Name>
-         </DisorderType>
-@@ -275612,7 +275612,7 @@
-       <Disorder id="3296">
-         <OrphaCode>20</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=20</ExpertLink>
--        <Name lang="nl">3-hydroxy-3-methylglutaarzuuracidurie</Name>
-+        <Name lang="nl">3-hydroxy-3-methylglutaaracidurie</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -277689,7 +277689,7 @@
-       <Disorder id="40">
-         <OrphaCode>584</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=584</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 7</Name>
-+        <Name lang="nl">Mucopolysacharidose type 7</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -277717,7 +277717,7 @@
-       <Disorder id="20357">
-         <OrphaCode>276223</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276223</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 6, langzaam progressief</Name>
-+        <Name lang="nl">Mucopolysacharidose type 6, traag progressief</Name>
-         <DisorderType id="21450">
-           <Name lang="nl">Klinisch subtype</Name>
-         </DisorderType>
-@@ -278088,7 +278088,7 @@
-       <Disorder id="20356">
-         <OrphaCode>276212</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=276212</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 6, snel progressief</Name>
-+        <Name lang="nl">Mucopolysacharidose type 6, snel progressief</Name>
-         <DisorderType id="21450">
-           <Name lang="nl">Klinisch subtype</Name>
-         </DisorderType>
-@@ -279275,7 +279275,7 @@
-       <Disorder id="872">
-         <OrphaCode>582</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=582</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 4</Name>
-+        <Name lang="nl">Mucopolysacharidose type 4</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -280897,7 +280897,7 @@
-       <Disorder id="653">
-         <OrphaCode>581</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=581</ExpertLink>
--        <Name lang="nl">Mucopolysaccharidose type 3</Name>
-+        <Name lang="nl">Mucopolysacharidose type 3</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -310971,7 +310971,7 @@
-       <Disorder id="324">
-         <OrphaCode>753</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=753</ExpertLink>
--        <Name lang="nl">46,XY geslachtsontwikkelingsstoornis als gevolg van 5-alfa-reductase 2-deficiëntie</Name>
-+        <Name lang="nl">46,XY geslachtsontwikkelingsstoornis door 5-alfa-reductase 2-deficiëntie</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -340895,7 +340895,7 @@
-       <Disorder id="1310">
-         <OrphaCode>994</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=994</ExpertLink>
--        <Name lang="nl">Foetale akinesie-deformatiesequentie</Name>
-+        <Name lang="nl">Foetale akinesie - deformatie-sequentie</Name>
-         <DisorderType id="21401">
-           <Name lang="nl">Malformatiesyndroom</Name>
-         </DisorderType>
-@@ -367536,7 +367536,7 @@
-       <Disorder id="62">
-         <OrphaCode>269</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=269</ExpertLink>
--        <Name lang="nl">Facio-scapulo-humerale dystrofie</Name>
-+        <Name lang="nl">Facioscapulohumerale dystrofie</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -440796,7 +440796,7 @@
-       <Disorder id="1536">
-         <OrphaCode>1305</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1305</ExpertLink>
--        <Name lang="nl">Feingoldsyndroom</Name>
-+        <Name lang="nl">Syndroom van Feingold</Name>
-         <DisorderType id="21401">
-           <Name lang="nl">Malformatiesyndroom</Name>
-         </DisorderType>
-@@ -498071,7 +498071,7 @@
-       <Disorder id="17146">
-         <OrphaCode>157798</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=157798</ExpertLink>
--        <Name lang="nl">Hyperplastische polyposis-syndroom</Name>
-+        <Name lang="nl">Gekartelde polyposis-syndroom</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -502939,7 +502939,7 @@
-       <Disorder id="3759">
-         <OrphaCode>319</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=319</ExpertLink>
--        <Name lang="nl">Skeletaal Ewingsarcoom</Name>
-+        <Name lang="nl">Skeletaal Ewing-sarcoom</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
          </DisorderType>
