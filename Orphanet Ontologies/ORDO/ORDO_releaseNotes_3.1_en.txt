@@ -1,0 +1,1865 @@
+Ontology Diff Summary
+Diff date: 2020/12/17 13:43:56
+First ontology URI: ORDO_en_3.0.owl
+Second ontology URI: ORDO_en_3.1.owl
+Number of classes changed: 271
+Number of classes added: 69
+Number of classes deleted: 7
+ 
+
+################
+@Classes modified from previous
+
+Class: http://www.orpha.net/ORDO/Orphanet_30391
+Label(s): Isolated biliary atresia 
++ 'Isolated biliary atresia' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_300501
+Label(s): Painful orbital and systemic neurofibromas-marfanoid habitus syndrome 
+- 'Painful orbital and systemic neurofibromas-marfanoid habitus syndrome' SubClassOf 'disease'
++ 'Painful orbital and systemic neurofibromas-marfanoid habitus syndrome' SubClassOf 'malformation syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_250977
+Label(s): AICA-ribosiduria 
+- 'AICA-ribosiduria' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 1.0f)
++ 'AICA-ribosiduria' SubClassOf 'has_age_of_onset' some 'antenatal'
++ 'AICA-ribosiduria' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 4.0f)
+
+Class: http://www.orpha.net/ORDO/Orphanet_320375
+Label(s): Autosomal recessive spastic paraplegia type 55 
+- 'Autosomal recessive spastic paraplegia type 55' SubClassOf 'part_of' some 'Autosomal recessive complex spastic paraplegia'
+
+Class: http://www.orpha.net/ORDO/Orphanet_284408
+Label(s): Glycerol kinase deficiency, infantile form 
+- 'Glycerol kinase deficiency, infantile form' SubClassOf 'clinical subtype'
+- 'Glycerol kinase deficiency, infantile form' SubClassOf 'part_of' some 'Isolated glycerol kinase deficiency'
+- 'Glycerol kinase deficiency, infantile form' SubClassOf 'part_of' some 'Syndromic neurometabolic disease with X-linked intellectual disability'
+- 'Glycerol kinase deficiency, infantile form' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_361157
+Label(s): sodium voltage-gated channel beta subunit 2 
+- 'sodium voltage-gated channel beta subunit 2' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'sodium voltage-gated channel beta subunit 2' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2233
+Label(s): Hypogonadism-mitral valve prolapse-intellectual disability syndrome 
++ 'Hypogonadism-mitral valve prolapse-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Hypogonadism-mitral valve prolapse-intellectual disability syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Hypogonadism-mitral valve prolapse-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_445018
+Label(s): Combined immunodeficiency due to LRBA deficiency 
+- 'Combined immunodeficiency due to LRBA deficiency' SubClassOf 'part_of' some 'Intractable diarrhea of infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_464288
+Label(s): Short stature-brachydactyly-obesity-global developmental delay syndrome 
++ 'Short stature-brachydactyly-obesity-global developmental delay syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Short stature-brachydactyly-obesity-global developmental delay syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_499096
+Label(s): Isolated optic neuritis 
++ 'Isolated optic neuritis' SubClassOf 'part_of' some 'Rare neuroinflammatory or neuroimmunological disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_122773
+Label(s): potassium voltage-gated channel subfamily E regulatory subunit 3 
+- 'potassium voltage-gated channel subfamily E regulatory subunit 3' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'potassium voltage-gated channel subfamily E regulatory subunit 3' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_120888
+Label(s): cathepsin A 
++ 'cathepsin A' SubClassOf 'disease-causing germline mutation(s) in' some 'Cathepsin A-related arteriopathy-strokes-leukoencephalopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2962
+Label(s): De Barsy syndrome 
++ 'De Barsy syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'De Barsy syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_169095
+Label(s): Severe combined immunodeficiency due to FOXN1 deficiency 
++ 'Severe combined immunodeficiency due to FOXN1 deficiency' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_209301
+Label(s): transient receptor potential cation channel subfamily M member 4 
+- 'transient receptor potential cation channel subfamily M member 4' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+- 'transient receptor potential cation channel subfamily M member 4' SubClassOf 'major susceptibility factor in' some 'Brugada syndrome'
++ 'transient receptor potential cation channel subfamily M member 4' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_422270
+Label(s): calmodulin 2 
+- 'calmodulin 2' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_117673
+Label(s): ATP binding cassette subfamily C member 9 
+- 'ATP binding cassette subfamily C member 9' SubClassOf 'disease-causing germline mutation(s) (gain of function) in' some 'Brugada syndrome'
++ 'ATP binding cassette subfamily C member 9' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_119371
+Label(s): complement factor I 
++ 'complement factor I' SubClassOf 'biomarker tested in' some http://www.orpha.net/ORDO/Orphanet_244275
+
+Class: http://www.orpha.net/ORDO/Orphanet_363534
+Label(s): Mitochondrial DNA depletion syndrome, hepatocerebrorenal form 
+- 'Mitochondrial DNA depletion syndrome, hepatocerebrorenal form' SubClassOf 'part_of' some 'Rare metabolic liver disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2038
+Label(s): Pulmonary arteriovenous malformation 
++ 'Pulmonary arteriovenous malformation' SubClassOf 'part_of' some 'Respiratory malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_389
+Label(s): Langerhans cell histiocytosis 
++ 'Langerhans cell histiocytosis' SubClassOf 'part_of' some 'Rare pulmonary disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_252175
+Label(s): Vestibular schwannoma 
+- 'Vestibular schwannoma' SubClassOf ('has_annual_incidence_range' some '1-9 / 100 000') and ('present_in' some 'Denmark') and ('has_annual_incidence_average_value' value 2.0f)
+- 'Vestibular schwannoma' SubClassOf ('has_annual_incidence_range' some '1-9 / 100 000') and ('present_in' some 'Europe')
+- 'Vestibular schwannoma' SubClassOf ('has_annual_incidence_range' some '1-9 / 1 000 000') and ('present_in' some 'Specific population') and ('has_annual_incidence_average_value' value 0.8f)
+- 'Vestibular schwannoma' SubClassOf ('has_annual_incidence_range' some '1-9 / 100 000') and ('present_in' some 'United States') and ('has_annual_incidence_average_value' value 1.2f)
++ 'Vestibular schwannoma' SubClassOf 'part_of' some 'Rare otorhinolaryngologic tumor'
+
+Class: http://www.orpha.net/ORDO/Orphanet_456312
+Label(s): Infantile multisystem neurologic-endocrine-pancreatic disease 
++ 'Infantile multisystem neurologic-endocrine-pancreatic disease' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Infantile multisystem neurologic-endocrine-pancreatic disease' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_300208
+Label(s): calcium voltage-gated channel auxiliary subunit alpha2delta 1 
+- 'calcium voltage-gated channel auxiliary subunit alpha2delta 1' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'calcium voltage-gated channel auxiliary subunit alpha2delta 1' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_271861
+Label(s): Hereditary ATTR amyloidosis 
++ 'Hereditary ATTR amyloidosis' SubClassOf 'Familial restrictive cardiomyopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_169399
+Label(s): NADH:ubiquinone oxidoreductase complex assembly factor 6 
++ 'NADH:ubiquinone oxidoreductase complex assembly factor 6' SubClassOf 'disease-causing germline mutation(s) in' some 'Primary Fanconi renotubular syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_179408
+Label(s): netrin G1 
++ 'netrin G1' SubClassOf 'disease-causing germline mutation(s) in' some 'Non-specific syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1973
+Label(s): Faciocardiorenal syndrome 
++ 'Faciocardiorenal syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Faciocardiorenal syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_297206
+Label(s): potassium voltage-gated channel subfamily J member 8 
+- 'potassium voltage-gated channel subfamily J member 8' SubClassOf 'major susceptibility factor in' some 'Brugada syndrome'
++ 'potassium voltage-gated channel subfamily J member 8' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1947
+Label(s): Progressive epilepsy-intellectual disability syndrome, Finnish type 
++ 'Progressive epilepsy-intellectual disability syndrome, Finnish type' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Progressive epilepsy-intellectual disability syndrome, Finnish type' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Progressive epilepsy-intellectual disability syndrome, Finnish type' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93950
+Label(s): X-linked intellectual disability, Sutherland-Haan type 
+- 'X-linked intellectual disability, Sutherland-Haan type' SubClassOf 'part_of' some 'Syndromic anorectal malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1229
+Label(s): Congenital intrauterine infection-like syndrome 
+- 'Congenital intrauterine infection-like syndrome' SubClassOf 'part_of' some 'Rare neurologic disease'
++ 'Congenital intrauterine infection-like syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Congenital intrauterine infection-like syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Congenital intrauterine infection-like syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_160008
+Label(s): A-kinase anchoring protein 9 
+- 'A-kinase anchoring protein 9' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'A-kinase anchoring protein 9' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_404448
+Label(s): ADNP syndrome 
+- 'ADNP syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 10.0f)
+- 'ADNP syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some '<1 / 1 000 000')
++ 'ADNP syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some '1-9 / 100 000')
+
+Class: http://www.orpha.net/ORDO/Orphanet_324416
+Label(s): Muscular hypertrophy-hepatomegaly-polyhydramnios syndrome 
++ 'Muscular hypertrophy-hepatomegaly-polyhydramnios syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Muscular hypertrophy-hepatomegaly-polyhydramnios syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_325604
+Label(s): minichromosome maintenance complex component 6 
+- 'minichromosome maintenance complex component 6' SubClassOf 'gene with protein product'
+- 'minichromosome maintenance complex component 6' SubClassOf 'has_chromosomal location' value "2q21.3"^^http://www.w3.org/2001/XMLSchema#string
+- 'minichromosome maintenance complex component 6' SubClassOf 'candidate gene tested in' some 'Congenital sucrase-isomaltase deficiency with starch and lactose intolerance'
+
+Class: http://www.orpha.net/ORDO/Orphanet_456298
+Label(s): 1p35.2 microdeletion syndrome 
++ '1p35.2 microdeletion syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ '1p35.2 microdeletion syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_96169
+Label(s): Koolen-De Vries syndrome 
++ 'Koolen-De Vries syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Koolen-De Vries syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_121150
+Label(s): DNA methyltransferase 3 beta 
++ 'DNA methyltransferase 3 beta' SubClassOf 'disease-causing germline mutation(s) in' some 'Facioscapulohumeral dystrophy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_182040
+Label(s): Aplastic anemia 
+- 'Aplastic anemia' SubClassOf 'Rare constitutional anemia'
+
+Class: http://www.orpha.net/ORDO/Orphanet_583612
+Label(s): Neu-laxova due to 3-phosphoserine phosphatase deficiency 
+- 'Neu-laxova due to 3-phosphoserine phosphatase deficiency' SubClassOf 'part_of' some 'Lissencephaly type 3'
+- 'Neu-laxova due to 3-phosphoserine phosphatase deficiency' SubClassOf 'part_of' some 'Autosomal ichthyosis syndrome with prominent neurologic signs'
+- 'Neu-laxova due to 3-phosphoserine phosphatase deficiency' SubClassOf 'part_of' some 'Autosomal ichthyosis syndrome with fatal disease course'
+- 'Neu-laxova due to 3-phosphoserine phosphatase deficiency' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+- 'Neu-laxova due to 3-phosphoserine phosphatase deficiency' SubClassOf 'part_of' some 'Microblepharon-ablephara syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_391641
+Label(s): Feingold syndrome type 1 
+- 'Feingold syndrome type 1' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'Feingold syndrome type 1' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_583607
+Label(s): Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency 
+- 'Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency' SubClassOf 'part_of' some 'Autosomal ichthyosis syndrome with prominent neurologic signs'
+- 'Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency' SubClassOf 'part_of' some 'Autosomal ichthyosis syndrome with fatal disease course'
+- 'Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency' SubClassOf 'part_of' some 'Lissencephaly type 3'
+- 'Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency' SubClassOf 'part_of' some 'Microblepharon-ablephara syndrome'
+- 'Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_98305
+Label(s): Genetic lipodystrophy 
++ 'Genetic lipodystrophy' SubClassOf 'Genetic subcutaneous tissue disorder'
+
+Class: http://www.orpha.net/ORDO/Orphanet_583602
+Label(s): Neu-laxova syndrome due to phosphoserine aminotransferase deficiency 
+- 'Neu-laxova syndrome due to phosphoserine aminotransferase deficiency' SubClassOf 'part_of' some 'Lissencephaly type 3'
+- 'Neu-laxova syndrome due to phosphoserine aminotransferase deficiency' SubClassOf 'part_of' some 'Autosomal ichthyosis syndrome with fatal disease course'
+- 'Neu-laxova syndrome due to phosphoserine aminotransferase deficiency' SubClassOf 'part_of' some 'Microblepharon-ablephara syndrome'
+- 'Neu-laxova syndrome due to phosphoserine aminotransferase deficiency' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+- 'Neu-laxova syndrome due to phosphoserine aminotransferase deficiency' SubClassOf 'part_of' some 'Autosomal ichthyosis syndrome with prominent neurologic signs'
+
+Class: http://www.orpha.net/ORDO/Orphanet_79242
+Label(s): Holocarboxylase synthetase deficiency 
++ 'Holocarboxylase synthetase deficiency' SubClassOf 'has_age_of_onset' some 'childhood'
+
+Class: http://www.orpha.net/ORDO/Orphanet_457490
+Label(s): Dmx like 2 
++ 'Dmx like 2' SubClassOf 'disease-causing germline mutation(s) in' some 'Early infantile epileptic encephalopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_470676
+Label(s): RAN guanine nucleotide release factor 
+- 'RAN guanine nucleotide release factor' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'RAN guanine nucleotide release factor' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_210548
+Label(s): Macrocephaly-intellectual disability-autism syndrome 
++ 'Macrocephaly-intellectual disability-autism syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Macrocephaly-intellectual disability-autism syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1816
+Label(s): Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome 
++ 'Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1812
+Label(s): Ectodermal dysplasia-intellectual disability-central nervous system malformation syndrome 
++ 'Ectodermal dysplasia-intellectual disability-central nervous system malformation syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Ectodermal dysplasia-intellectual disability-central nervous system malformation syndrome' SubClassOf 'part_of' some 'X-linked syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1809
+Label(s): Hidrotic ectodermal dysplasia, Halal type 
++ 'Hidrotic ectodermal dysplasia, Halal type' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Hidrotic ectodermal dysplasia, Halal type' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_488197
+Label(s): Familial progressive retinal dystrophy-iris coloboma-congenital cataract syndrome 
+- 'Familial progressive retinal dystrophy-iris coloboma-congenital cataract syndrome' SubClassOf 'part_of' some 'Genetic developmental defect of the eye'
+- 'Familial progressive retinal dystrophy-iris coloboma-congenital cataract syndrome' SubClassOf 'part_of' some 'Developmental defect of the eye'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363965
+Label(s): Koolen-De Vries syndrome due to a point mutation 
++ 'Koolen-De Vries syndrome due to a point mutation' SubClassOf 'has_inheritance' some 'autosomal dominant'
++ 'Koolen-De Vries syndrome due to a point mutation' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Koolen-De Vries syndrome due to a point mutation' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363958
+Label(s): 17q21.31 microdeletion syndrome 
++ '17q21.31 microdeletion syndrome' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_508523
+Label(s): Hyperphenylalaninemia due to DNAJC12 deficiency 
+- 'Hyperphenylalaninemia due to DNAJC12 deficiency' SubClassOf 'part_of' some 'Neurometabolic disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_122381
+Label(s): hyperpolarization activated cyclic nucleotide gated potassium channel 4 
+- 'hyperpolarization activated cyclic nucleotide gated potassium channel 4' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'hyperpolarization activated cyclic nucleotide gated potassium channel 4' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_120164
+Label(s): TNF receptor superfamily member 11b 
++ 'TNF receptor superfamily member 11b' SubClassOf 'candidate gene tested in' some 'Familial calcium pyrophosphate deposition'
+
+Class: http://www.orpha.net/ORDO/Orphanet_120160
+Label(s): TNF receptor superfamily member 11a 
++ 'TNF receptor superfamily member 11a' SubClassOf 'disease-causing germline mutation(s) in' some 'Dysosteosclerosis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_443909
+Label(s): Hereditary nonpolyposis colon cancer 
++ 'Hereditary nonpolyposis colon cancer' SubClassOf http://www.orpha.net/ORDO/Orphanet_589746
+
+Class: http://www.orpha.net/ORDO/Orphanet_408692
+Label(s): sarcolemma associated protein 
+- 'sarcolemma associated protein' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'sarcolemma associated protein' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_293848
+Label(s): Frontotemporal dementia, right temporal atrophy variant 
+- 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 200.0f)
+- 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf 'disease'
+- 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
+- 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf 'part_of' some 'Frontotemporal dementia'
+- 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf 'has_inheritance' some 'unknown inheritance'
+- 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Frontotemporal dementia, right temporal atrophy variant' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_314647
+Label(s): Non-progressive cerebellar ataxia with intellectual disability 
++ 'Non-progressive cerebellar ataxia with intellectual disability' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Non-progressive cerebellar ataxia with intellectual disability' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_168624
+Label(s): Familial scaphocephaly syndrome, McGillivray type 
++ 'Familial scaphocephaly syndrome, McGillivray type' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Familial scaphocephaly syndrome, McGillivray type' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Familial scaphocephaly syndrome, McGillivray type' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_458247
+Label(s): PLAG1 zinc finger 
++ 'PLAG1 zinc finger' SubClassOf 'disease-causing germline mutation(s) in' some 'Silver-Russell syndrome due to a point mutation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_68380
+Label(s): Mitochondrial disease 
+- 'Mitochondrial disease' SubClassOf 'Developmental anomaly of metabolic origin'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93607
+Label(s): Autosomal recessive proximal renal tubular acidosis 
++ 'Autosomal recessive proximal renal tubular acidosis' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Autosomal recessive proximal renal tubular acidosis' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_276183
+Label(s): Spinocerebellar ataxia type 32 
++ 'Spinocerebellar ataxia type 32' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Spinocerebellar ataxia type 32' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_391646
+Label(s): Feingold syndrome type 2 
+- 'Feingold syndrome type 2' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'Feingold syndrome type 2' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99
+Label(s): Autosomal dominant cerebellar ataxia 
+- 'Autosomal dominant cerebellar ataxia' SubClassOf 'Rare neurodegenerative disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_81
+Label(s): Antisynthetase syndrome 
++ 'Antisynthetase syndrome' SubClassOf 'part_of' some 'Secondary interstitial lung disease specific to adulthood associated with a systemic disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_91491
+Label(s): Congenital ectropion uveae 
+- 'Congenital ectropion uveae' SubClassOf 'part_of' some 'Congenital malformation of the eye with glaucoma as a major feature'
+- 'Congenital ectropion uveae' SubClassOf 'part_of' some 'Genetic congenital malformation of the eye with glaucoma as a major feature'
+
+Class: http://www.orpha.net/ORDO/Orphanet_3085
+Label(s): Retinitis pigmentosa-intellectual disability-deafness-hypogonadism syndrome 
++ 'Retinitis pigmentosa-intellectual disability-deafness-hypogonadism syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Retinitis pigmentosa-intellectual disability-deafness-hypogonadism syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Retinitis pigmentosa-intellectual disability-deafness-hypogonadism syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_33
+Label(s): Isovaleric acidemia 
++ 'Isovaleric acidemia' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Isovaleric acidemia' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Isovaleric acidemia' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_455925
+Label(s): RAP1B, member of RAS oncogene family 
+- 'RAP1B, member of RAS oncogene family' SubClassOf 'has_chromosomal location' value "12q15"^^http://www.w3.org/2001/XMLSchema#string
+- 'RAP1B, member of RAS oncogene family' SubClassOf 'disease-causing germline mutation(s) in' some 'Kabuki syndrome'
+- 'RAP1B, member of RAS oncogene family' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_3243
+Label(s): Sweet syndrome 
+- 'Sweet syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
+- 'Sweet syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 100.0f)
++ 'Sweet syndrome' SubClassOf 'has_inheritance' some 'multigenic/multifactorial'
+
+Class: http://www.orpha.net/ORDO/Orphanet_792
+Label(s): X-linked retinoschisis 
++ 'X-linked retinoschisis' SubClassOf 'has_age_of_onset' some 'adolescent'
++ 'X-linked retinoschisis' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'X-linked retinoschisis' SubClassOf 'has_age_of_onset' some 'adult'
+
+Class: http://www.orpha.net/ORDO/Orphanet_306486
+Label(s): Congenital sucrase-isomaltase deficiency without sucrose intolerance 
+- 'Congenital sucrase-isomaltase deficiency without sucrose intolerance' SubClassOf 'part_of' some 'Congenital sucrase-isomaltase deficiency'
+- 'Congenital sucrase-isomaltase deficiency without sucrose intolerance' SubClassOf 'clinical subtype'
++ 'Congenital sucrase-isomaltase deficiency without sucrose intolerance' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_306474
+Label(s): Congenital sucrase-isomaltase deficiency with starch and lactose intolerance 
+- 'Congenital sucrase-isomaltase deficiency with starch and lactose intolerance' SubClassOf 'clinical subtype'
+- 'Congenital sucrase-isomaltase deficiency with starch and lactose intolerance' SubClassOf 'part_of' some 'Congenital sucrase-isomaltase deficiency'
++ 'Congenital sucrase-isomaltase deficiency with starch and lactose intolerance' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_33108
+Label(s): Lethal multiple pterygium syndrome 
+- 'Lethal multiple pterygium syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Lethal multiple pterygium syndrome' SubClassOf 'part_of' some 'Genetic lethal multiple congenital anomalies/dysmorphic syndrome'
++ 'Lethal multiple pterygium syndrome' SubClassOf 'part_of' some 'Lethal multiple congenital anomalies/dysmorphic syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_306462
+Label(s): Congenital sucrase-isomaltase deficiency without starch intolerance 
+- 'Congenital sucrase-isomaltase deficiency without starch intolerance' SubClassOf 'part_of' some 'Congenital sucrase-isomaltase deficiency'
+- 'Congenital sucrase-isomaltase deficiency without starch intolerance' SubClassOf 'clinical subtype'
++ 'Congenital sucrase-isomaltase deficiency without starch intolerance' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_33111
+Label(s): Granulomatous slack skin 
+- 'Granulomatous slack skin' SubClassOf 'part_of' some 'Rare skin tumor or hamartoma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_306446
+Label(s): Congenital sucrase-isomaltase deficiency with minimal starch tolerance 
+- 'Congenital sucrase-isomaltase deficiency with minimal starch tolerance' SubClassOf 'part_of' some 'Congenital sucrase-isomaltase deficiency'
+- 'Congenital sucrase-isomaltase deficiency with minimal starch tolerance' SubClassOf 'clinical subtype'
++ 'Congenital sucrase-isomaltase deficiency with minimal starch tolerance' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_306436
+Label(s): Congenital sucrase-isomaltase deficiency with starch intolerance 
+- 'Congenital sucrase-isomaltase deficiency with starch intolerance' SubClassOf 'clinical subtype'
+- 'Congenital sucrase-isomaltase deficiency with starch intolerance' SubClassOf 'part_of' some 'Congenital sucrase-isomaltase deficiency'
++ 'Congenital sucrase-isomaltase deficiency with starch intolerance' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_158588
+Label(s): HNF1 homeobox B 
++ 'HNF1 homeobox B' SubClassOf 'disease-causing germline mutation(s) in' some 'Renal dysplasia, unilateral'
++ 'HNF1 homeobox B' SubClassOf 'disease-causing germline mutation(s) in' some 'Renal dysplasia, bilateral'
+
+Class: http://www.orpha.net/ORDO/Orphanet_238583
+Label(s): Hyperphenylalaninemia due to tetrahydrobiopterin deficiency 
+- 'Hyperphenylalaninemia due to tetrahydrobiopterin deficiency' SubClassOf 'part_of' some 'Neurometabolic disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363741
+Label(s): Colobomatous microphthalmia-obesity-hypogenitalism-intellectual disability syndrome 
++ 'Colobomatous microphthalmia-obesity-hypogenitalism-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Colobomatous microphthalmia-obesity-hypogenitalism-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363727
+Label(s): X-linked dyserythropoietic anemia with abnormal platelets and neutropenia 
+- 'X-linked dyserythropoietic anemia with abnormal platelets and neutropenia' SubClassOf 'part_of' some 'Isolated constitutional thrombocytopenia'
+
+Class: http://www.orpha.net/ORDO/Orphanet_238517
+Label(s): Hypotonia-cystinuria type 1 syndrome 
+- 'Hypotonia-cystinuria type 1 syndrome' SubClassOf 'Mitochondrial disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_122149
+Label(s): glycerol kinase 
+- 'glycerol kinase' SubClassOf 'disease-causing germline mutation(s) in' some 'Glycerol kinase deficiency, infantile form'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363705
+Label(s): Craniofaciofrontodigital syndrome 
++ 'Craniofaciofrontodigital syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Craniofaciofrontodigital syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
++ 'Craniofaciofrontodigital syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_248487
+Label(s): high mobility group AT-hook 2 
++ 'high mobility group AT-hook 2' SubClassOf 'disease-causing germline mutation(s) in' some 'Silver-Russell syndrome due to a point mutation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_332111
+Label(s): SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1 
++ 'SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Meningioma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1652
+Label(s): Dent disease 
+- 'Dent disease' SubClassOf 'part_of' some 'Rare renal tubular disease'
+- 'Dent disease' SubClassOf 'part_of' some 'Genetic renal tubular disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_575553
+Label(s): Cathepsin A-related arteriopathy-strokes-leukoencephalopathy 
+- 'Cathepsin A-related arteriopathy-strokes-leukoencephalopathy' SubClassOf 'part_of' some 'Rare dementia'
+- 'Cathepsin A-related arteriopathy-strokes-leukoencephalopathy' SubClassOf 'part_of' some 'Genetic dementia'
++ 'Cathepsin A-related arteriopathy-strokes-leukoencephalopathy' SubClassOf 'has_inheritance' some 'autosomal dominant'
++ 'Cathepsin A-related arteriopathy-strokes-leukoencephalopathy' SubClassOf 'has_age_of_onset' some 'adult'
+
+Class: http://www.orpha.net/ORDO/Orphanet_218675
+Label(s): sodium voltage-gated channel beta subunit 3 
+- 'sodium voltage-gated channel beta subunit 3' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'sodium voltage-gated channel beta subunit 3' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_218672
+Label(s): glycerol-3-phosphate dehydrogenase 1 like 
+- 'glycerol-3-phosphate dehydrogenase 1 like' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'glycerol-3-phosphate dehydrogenase 1 like' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1675
+Label(s): Dihydropyrimidine dehydrogenase deficiency 
+- 'Dihydropyrimidine dehydrogenase deficiency' SubClassOf 'part_of' some 'Osteochondrosis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_893
+Label(s): WAGR syndrome 
++ 'WAGR syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'WAGR syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'WAGR syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_75858
+Label(s): MORM syndrome 
++ 'MORM syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'MORM syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_281472
+Label(s): AKT serine/threonine kinase 1 
++ 'AKT serine/threonine kinase 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Meningioma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363686
+Label(s): Severe intellectual disability-poor language-strabismus-grimacing face-long fingers syndrome 
++ 'Severe intellectual disability-poor language-strabismus-grimacing face-long fingers syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363680
+Label(s): 2p13.2 microdeletion syndrome 
++ '2p13.2 microdeletion syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_77243
+Label(s): Lipedema 
+- 'Lipedema' SubClassOf 'disease'
+- 'Lipedema' SubClassOf 'has_age_of_onset' some 'adolescent'
+- 'Lipedema' SubClassOf 'part_of' some 'Genetic subcutaneous tissue disorder'
+- 'Lipedema' SubClassOf ('present_in' some 'United Kingdom') and ('has_point_prevalence_range' some '1-9 / 100 000') and ('has_point_prevalence_average_value' value 1.39f)
+- 'Lipedema' SubClassOf 'part_of' some 'Subcutaneous tissue disease'
+- 'Lipedema' SubClassOf 'has_age_of_onset' some 'adult'
+- 'Lipedema' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some '1-9 / 100 000')
+
+Class: http://www.orpha.net/ORDO/Orphanet_448950
+Label(s): RAP1A, member of RAS oncogene family 
+- 'RAP1A, member of RAS oncogene family' SubClassOf 'has_chromosomal location' value "1p13.2"^^http://www.w3.org/2001/XMLSchema#string
+- 'RAP1A, member of RAS oncogene family' SubClassOf 'gene with protein product'
+- 'RAP1A, member of RAS oncogene family' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Kabuki syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_86884
+Label(s): Subcutaneous panniculitis-like T-cell lymphoma 
+- 'Subcutaneous panniculitis-like T-cell lymphoma' SubClassOf 'part_of' some 'Rare skin tumor or hamartoma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93321
+Label(s): Radial hemimelia 
++ 'Radial hemimelia' SubClassOf 'has_age_of_onset' some 'antenatal'
++ 'Radial hemimelia' SubClassOf 'has_inheritance' some 'X-linked recessive'
++ 'Radial hemimelia' SubClassOf 'has_inheritance' some 'multigenic/multifactorial'
+
+Class: http://www.orpha.net/ORDO/Orphanet_118716
+Label(s): sucrase-isomaltase 
+- 'sucrase-isomaltase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital sucrase-isomaltase deficiency with minimal starch tolerance'
+- 'sucrase-isomaltase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital sucrase-isomaltase deficiency without sucrose intolerance'
+- 'sucrase-isomaltase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital sucrase-isomaltase deficiency without starch intolerance'
+- 'sucrase-isomaltase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital sucrase-isomaltase deficiency with starch intolerance'
+- 'sucrase-isomaltase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital sucrase-isomaltase deficiency with starch and lactose intolerance'
++ 'sucrase-isomaltase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital sucrase-isomaltase deficiency'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1488
+Label(s): Cooper-Jabs syndrome 
++ 'Cooper-Jabs syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Cooper-Jabs syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1478
+Label(s): Interatrial communication 
++ 'Interatrial communication' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Interatrial communication' SubClassOf 'has_age_of_onset' some 'elderly'
++ 'Interatrial communication' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_79241
+Label(s): Biotinidase deficiency 
++ 'Biotinidase deficiency' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Biotinidase deficiency' SubClassOf 'has_age_of_onset' some 'childhood'
++ 'Biotinidase deficiency' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2249
+Label(s): Ulna hypoplasia-intellectual disability syndrome 
++ 'Ulna hypoplasia-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Ulna hypoplasia-intellectual disability syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Ulna hypoplasia-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_294689
+Label(s): semaphorin 3A 
++ 'semaphorin 3A' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_83472
+Label(s): CAMOS syndrome 
++ 'CAMOS syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'CAMOS syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_229787
+Label(s): polynucleotide kinase 3'-phosphatase 
++ 'polynucleotide kinase 3'-phosphatase' SubClassOf 'disease-causing germline mutation(s) in' some 'Charcot-Marie-Tooth disease type 2B2'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1399
+Label(s): Richards-Rundle syndrome 
++ 'Richards-Rundle syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Richards-Rundle syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Richards-Rundle syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1305
+Label(s): Feingold syndrome 
++ 'Feingold syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Feingold syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Feingold syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_881
+Label(s): Turner syndrome 
+- 'Turner syndrome' SubClassOf 'part_of' some 'Rare endocrine growth disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93323
+Label(s): Fibular hemimelia 
+- 'Fibular hemimelia' SubClassOf 'has_age_of_onset' some 'neonatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1766
+Label(s): Dysequilibrium syndrome 
++ 'Dysequilibrium syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Dysequilibrium syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_138451
+Label(s): telomerase reverse transcriptase 
++ 'telomerase reverse transcriptase' SubClassOf 'disease-causing somatic mutation(s) in' some 'Meningioma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_254793
+Label(s): Mitochondrial oxidative phosphorylation disorder due to a duplication of mitochondrial DNA 
+- 'Mitochondrial oxidative phosphorylation disorder due to a duplication of mitochondrial DNA' SubClassOf 'group of disorders'
+- 'Mitochondrial oxidative phosphorylation disorder due to a duplication of mitochondrial DNA' SubClassOf 'Mitochondrial oxidative phosphorylation disorder due to mitochondrial DNA anomalies'
++ 'Mitochondrial oxidative phosphorylation disorder due to a duplication of mitochondrial DNA' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99900
+Label(s): Long chain acyl-CoA dehydrogenase deficiency 
+- 'Long chain acyl-CoA dehydrogenase deficiency' SubClassOf 'disease'
+- 'Long chain acyl-CoA dehydrogenase deficiency' SubClassOf 'part_of' some 'Fatty acid oxidation and ketogenesis disorder with hypertrophic cardiomyopathy'
+- 'Long chain acyl-CoA dehydrogenase deficiency' SubClassOf 'part_of' some 'Metabolic disease due to other fatty acid oxidation disorder'
++ 'Long chain acyl-CoA dehydrogenase deficiency' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_821
+Label(s): Sotos syndrome 
+- 'Sotos syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
++ 'Sotos syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_228384
+Label(s): 5q14.3 microdeletion syndrome 
++ '5q14.3 microdeletion syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ '5q14.3 microdeletion syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_325976
+Label(s): sodium voltage-gated channel alpha subunit 10 
+- 'sodium voltage-gated channel alpha subunit 10' SubClassOf 'major susceptibility factor in' some 'Brugada syndrome'
++ 'sodium voltage-gated channel alpha subunit 10' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_118532
+Label(s): sodium channel epithelial 1 alpha subunit 
++ 'sodium channel epithelial 1 alpha subunit' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1296
+Label(s): Lambert syndrome 
++ 'Lambert syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
++ 'Lambert syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Lambert syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_118513
+Label(s): sodium voltage-gated channel alpha subunit 5 
+- 'sodium voltage-gated channel alpha subunit 5' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'sodium voltage-gated channel alpha subunit 5' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1236
+Label(s): Severe microbrachycephaly-intellectual disability-athetoid cerebral palsy syndrome 
++ 'Severe microbrachycephaly-intellectual disability-athetoid cerebral palsy syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Severe microbrachycephaly-intellectual disability-athetoid cerebral palsy syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99877
+Label(s): Familial parathyroid adenoma 
+- 'Familial parathyroid adenoma' SubClassOf 'part_of' some 'Rare parathyroid tumor'
+- 'Familial parathyroid adenoma' SubClassOf 'part_of' some 'Rare genetic parathyroid disease and phosphocalcic metabolism disorder'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99860
+Label(s): Precursor B-cell acute lymphoblastic leukemia 
+- 'Precursor B-cell acute lymphoblastic leukemia' SubClassOf 'part_of' some 'Aggressive B-cell non-Hodgkin lymphoma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_774
+Label(s): Hereditary hemorrhagic telangiectasia 
++ 'Hereditary hemorrhagic telangiectasia' SubClassOf 'part_of' some 'Respiratory malformation'
++ 'Hereditary hemorrhagic telangiectasia' SubClassOf 'part_of' some 'Genetic respiratory malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_765
+Label(s): Pyruvate dehydrogenase deficiency 
+- 'Pyruvate dehydrogenase deficiency' SubClassOf 'part_of' some 'Mitochondrial disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1964
+Label(s): Extrasystoles-short stature-hyperpigmentation-microcephaly syndrome 
++ 'Extrasystoles-short stature-hyperpigmentation-microcephaly syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Extrasystoles-short stature-hyperpigmentation-microcephaly syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_261337
+Label(s): Distal 22q11.2 microduplication syndrome 
++ 'Distal 22q11.2 microduplication syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
++ 'Distal 22q11.2 microduplication syndrome' SubClassOf 'has_inheritance' some 'autosomal dominant'
++ 'Distal 22q11.2 microduplication syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Distal 22q11.2 microduplication syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'Distal 22q11.2 microduplication syndrome' SubClassOf 'has_age_of_onset' some 'childhood'
+
+Class: http://www.orpha.net/ORDO/Orphanet_261330
+Label(s): Distal 22q11.2 microdeletion syndrome 
++ 'Distal 22q11.2 microdeletion syndrome' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_727
+Label(s): Microscopic polyangiitis 
++ 'Microscopic polyangiitis' SubClassOf 'has_age_of_onset' some 'childhood'
+
+Class: http://www.orpha.net/ORDO/Orphanet_289390
+Label(s): Primary Sjögren syndrome 
++ 'Primary Sjögren syndrome' SubClassOf 'part_of' some 'Rare pulmonary disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_313795
+Label(s): Jawad syndrome 
++ 'Jawad syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Jawad syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_231556
+Label(s): Late-onset localized junctional epidermolysis bullosa-intellectual disability syndrome 
++ 'Late-onset localized junctional epidermolysis bullosa-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Late-onset localized junctional epidermolysis bullosa-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1240
+Label(s): Metaphyseal acroscyphodysplasia 
++ 'Metaphyseal acroscyphodysplasia' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Metaphyseal acroscyphodysplasia' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Metaphyseal acroscyphodysplasia' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1246
+Label(s): Brachydactyly-nystagmus-cerebellar ataxia syndrome 
++ 'Brachydactyly-nystagmus-cerebellar ataxia syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Brachydactyly-nystagmus-cerebellar ataxia syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
++ 'Brachydactyly-nystagmus-cerebellar ataxia syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_329332
+Label(s): Microcephaly-cerebellar hypoplasia-cardiac conduction defect syndrome 
++ 'Microcephaly-cerebellar hypoplasia-cardiac conduction defect syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_435628
+Label(s): Keppen-Lubinsky syndrome 
++ 'Keppen-Lubinsky syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Keppen-Lubinsky syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_461367
+Label(s): smoothened, frizzled class receptor 
++ 'smoothened, frizzled class receptor' SubClassOf 'disease-causing somatic mutation(s) in' some 'Meningioma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_506307
+Label(s): Stromme syndrome 
++ 'Stromme syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Stromme syndrome' SubClassOf 'has_inheritance' some 'autosomal recessive'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1188
+Label(s): Ataxia-deafness-intellectual disability syndrome 
++ 'Ataxia-deafness-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Ataxia-deafness-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1184
+Label(s): Ataxia-photosensitivity-short stature syndrome 
++ 'Ataxia-photosensitivity-short stature syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Ataxia-photosensitivity-short stature syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_85438
+Label(s): Enthesitis-related juvenile idiopathic arthritis 
++ 'Enthesitis-related juvenile idiopathic arthritis' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_85436
+Label(s): Psoriasis-related juvenile idiopathic arthritis 
++ 'Psoriasis-related juvenile idiopathic arthritis' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1172
+Label(s): Autosomal recessive cerebellar ataxia 
+- 'Autosomal recessive cerebellar ataxia' SubClassOf 'Rare neurodegenerative disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_3363
+Label(s): Trichomegaly-retina pigmentary degeneration-dwarfism syndrome 
++ 'Trichomegaly-retina pigmentary degeneration-dwarfism syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Trichomegaly-retina pigmentary degeneration-dwarfism syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Trichomegaly-retina pigmentary degeneration-dwarfism syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99408
+Label(s): Pituitary adenoma 
+- 'Pituitary adenoma' SubClassOf 'Rare hypothalamic or pituitary disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93172
+Label(s): Renal dysplasia, unilateral 
++ 'Renal dysplasia, unilateral' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1130
+Label(s): Arachnodactyly-intellectual disability-dysmorphism syndrome 
++ 'Arachnodactyly-intellectual disability-dysmorphism syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Arachnodactyly-intellectual disability-dysmorphism syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Arachnodactyly-intellectual disability-dysmorphism syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_681
+Label(s): Hypokalemic periodic paralysis 
++ 'Hypokalemic periodic paralysis' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93110
+Label(s): Posterior urethral valve 
+- 'Posterior urethral valve' SubClassOf 'has_age_of_onset' some 'antenatal'
+- 'Posterior urethral valve' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Posterior urethral valve' SubClassOf 'has_age_of_onset' some 'all ages'
+
+Class: http://www.orpha.net/ORDO/Orphanet_652
+Label(s): Multiple endocrine neoplasia type 1 
+- 'Multiple endocrine neoplasia type 1' SubClassOf 'part_of' some 'Genetic hyperparathyroidism'
+- 'Multiple endocrine neoplasia type 1' SubClassOf 'part_of' some 'Rare parathyroid tumor'
+
+Class: http://www.orpha.net/ORDO/Orphanet_90647
+Label(s): Jervell and Lange-Nielsen syndrome 
+- 'Jervell and Lange-Nielsen syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
+- 'Jervell and Lange-Nielsen syndrome' SubClassOf 'has_age_of_onset' some 'childhood'
++ 'Jervell and Lange-Nielsen syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_606
+Label(s): Proximal myotonic myopathy 
++ 'Proximal myotonic myopathy' SubClassOf 'has_age_of_onset' some 'adolescent'
++ 'Proximal myotonic myopathy' SubClassOf 'has_age_of_onset' some 'elderly'
+
+Class: http://www.orpha.net/ORDO/Orphanet_431140
+Label(s): X-linked colobomatous microphthalmia-microcephaly-intellectual disability-short stature syndrome 
++ 'X-linked colobomatous microphthalmia-microcephaly-intellectual disability-short stature syndrome' SubClassOf 'part_of' some 'X-linked syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_213517
+Label(s): Familial ovarian cancer 
++ 'Familial ovarian cancer' SubClassOf http://www.orpha.net/ORDO/Orphanet_589746
+
+Class: http://www.orpha.net/ORDO/Orphanet_75234
+Label(s): Cholesteryl ester storage disease 
++ 'Cholesteryl ester storage disease' SubClassOf 'has_age_of_onset' some 'adolescent'
++ 'Cholesteryl ester storage disease' SubClassOf 'has_age_of_onset' some 'adult'
+
+Class: http://www.orpha.net/ORDO/Orphanet_370933
+Label(s): GM3 synthase deficiency 
+- 'GM3 synthase deficiency' SubClassOf 'group of disorders'
+- 'GM3 synthase deficiency' SubClassOf 'Disorder of phospholipids, sphingolipids and fatty acids biosynthesis with central nervous system predominant involvement'
+- 'GM3 synthase deficiency' SubClassOf 'Congenital disorder of glycosylation with epilepsy as a major feature'
+- 'GM3 synthase deficiency' SubClassOf 'Congenital disorder of glycosylation with skin involvement'
+- 'GM3 synthase deficiency' SubClassOf 'Non-X-linked congenital disorder of glycosylation with intellectual disability as a major feature'
+- 'GM3 synthase deficiency' SubClassOf 'Disorder of glycosphingolipid and glycosylphosphatidylinositol anchor glycosylation'
++ 'GM3 synthase deficiency' SubClassOf 'part_of' some 'Disorder of phospholipids, sphingolipids and fatty acids biosynthesis with central nervous system predominant involvement'
++ 'GM3 synthase deficiency' SubClassOf 'part_of' some 'Congenital disorder of glycosylation with epilepsy as a major feature'
++ 'GM3 synthase deficiency' SubClassOf 'part_of' some 'Disorder of glycosphingolipid and glycosylphosphatidylinositol anchor glycosylation'
++ 'GM3 synthase deficiency' SubClassOf 'disease'
++ 'GM3 synthase deficiency' SubClassOf 'part_of' some 'Non-X-linked congenital disorder of glycosylation with intellectual disability as a major feature'
++ 'GM3 synthase deficiency' SubClassOf 'part_of' some 'Congenital disorder of glycosylation with skin involvement'
+
+Class: http://www.orpha.net/ORDO/Orphanet_370927
+Label(s): SSR4-CDG 
++ 'SSR4-CDG' SubClassOf 'part_of' some 'X-linked syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1014
+Label(s): Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome 
++ 'Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_582
+Label(s): Mucopolysaccharidosis type 4 
++ 'Mucopolysaccharidosis type 4' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_3293
+Label(s): Telecanthus-hypertelorism-strabismus-pes cavus syndrome 
++ 'Telecanthus-hypertelorism-strabismus-pes cavus syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
++ 'Telecanthus-hypertelorism-strabismus-pes cavus syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Telecanthus-hypertelorism-strabismus-pes cavus syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_567
+Label(s): 22q11.2 deletion syndrome 
+- '22q11.2 deletion syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
+- '22q11.2 deletion syndrome' SubClassOf 'has_inheritance' some 'unknown inheritance'
+- '22q11.2 deletion syndrome' SubClassOf 'has_inheritance' some 'not genetically inherited'
++ '22q11.2 deletion syndrome' SubClassOf 'has_age_of_onset' some 'all ages'
+
+Class: http://www.orpha.net/ORDO/Orphanet_566
+Label(s): Congenital microcoria 
+- 'Congenital microcoria' SubClassOf 'part_of' some 'Congenital malformation of the eye with glaucoma as a major feature'
+- 'Congenital microcoria' SubClassOf 'part_of' some 'Genetic congenital malformation of the eye with glaucoma as a major feature'
+
+Class: http://www.orpha.net/ORDO/Orphanet_103908
+Label(s): Congenital sodium diarrhea 
++ 'Congenital sodium diarrhea' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_353284
+Label(s): Rubinstein-Taybi syndrome due to EP300 haploinsufficiency 
+- 'Rubinstein-Taybi syndrome due to EP300 haploinsufficiency' SubClassOf 'clinical subtype'
++ 'Rubinstein-Taybi syndrome due to EP300 haploinsufficiency' SubClassOf 'etiological subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_59305
+Label(s): Gestational trophoblastic neoplasm 
+- 'Gestational trophoblastic neoplasm' SubClassOf 'Rare genetic gynecological and obstetrical diseases'
+
+Class: http://www.orpha.net/ORDO/Orphanet_353281
+Label(s): Rubinstein-Taybi syndrome due to 16p13.3 microdeletion 
+- 'Rubinstein-Taybi syndrome due to 16p13.3 microdeletion' SubClassOf 'clinical subtype'
++ 'Rubinstein-Taybi syndrome due to 16p13.3 microdeletion' SubClassOf 'etiological subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_423306
+Label(s): Microcephaly-short stature-intellectual disability-facial dysmorphism syndrome 
++ 'Microcephaly-short stature-intellectual disability-facial dysmorphism syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Microcephaly-short stature-intellectual disability-facial dysmorphism syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_247854
+Label(s): Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies 
+- 'Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'etiological subtype'
+- 'Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'part_of' some 'Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_118023
+Label(s): prion protein 
++ 'prion protein' SubClassOf 'disease-causing germline mutation(s) in' some http://www.orpha.net/ORDO/Orphanet_586130
+
+Class: http://www.orpha.net/ORDO/Orphanet_247846
+Label(s): Oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies 
+- 'Oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies' SubClassOf 'etiological subtype'
+- 'Oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies' SubClassOf 'part_of' some 'Oligoarticular juvenile idiopathic arthritis'
++ 'Oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_443173
+Label(s): Postpartum psychosis 
++ 'Postpartum psychosis' SubClassOf 'part_of' some 'Rare neurologic disease with psychiatric involvement'
+
+Class: http://www.orpha.net/ORDO/Orphanet_247839
+Label(s): Oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies 
+- 'Oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'part_of' some 'Oligoarticular juvenile idiopathic arthritis'
+- 'Oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'etiological subtype'
++ 'Oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_574957
+Label(s): Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency 
++ 'Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency' SubClassOf 'has_inheritance' some 'autosomal recessive'
+
+Class: http://www.orpha.net/ORDO/Orphanet_3188
+Label(s): Congenital pulmonary veins atresia or stenosis 
++ 'Congenital pulmonary veins atresia or stenosis' SubClassOf 'part_of' some 'Respiratory malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2278
+Label(s): Ichthyosis-intellectual disability-dwarfism-renal impairment syndrome 
++ 'Ichthyosis-intellectual disability-dwarfism-renal impairment syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Ichthyosis-intellectual disability-dwarfism-renal impairment syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Ichthyosis-intellectual disability-dwarfism-renal impairment syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_73272
+Label(s): Growth delay due to insulin-like growth factor type 1 deficiency 
++ 'Growth delay due to insulin-like growth factor type 1 deficiency' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Growth delay due to insulin-like growth factor type 1 deficiency' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_574918
+Label(s): Predisposition to severe viral infection due to IRF7 deficiency 
++ 'Predisposition to severe viral infection due to IRF7 deficiency' SubClassOf 'has_inheritance' some 'autosomal recessive'
+
+Class: http://www.orpha.net/ORDO/Orphanet_90970
+Label(s): Primary lipodystrophy 
+- 'Primary lipodystrophy' SubClassOf 'Genetic subcutaneous tissue disorder'
+
+Class: http://www.orpha.net/ORDO/Orphanet_475
+Label(s): Joubert syndrome 
+- 'Joubert syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_429
+Label(s): Hypochondroplasia 
++ 'Hypochondroplasia' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Hypochondroplasia' SubClassOf 'has_age_of_onset' some 'adolescent'
++ 'Hypochondroplasia' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Hypochondroplasia' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'Hypochondroplasia' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93685
+Label(s): Unicentric Castleman disease 
+- 'Unicentric Castleman disease' SubClassOf 'part_of' some 'Lymphoid hemopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_247861
+Label(s): Rheumatoid factor-negative juvenile idiopathic arthritis without anti-nuclear antibodies 
+- 'Rheumatoid factor-negative juvenile idiopathic arthritis without anti-nuclear antibodies' SubClassOf 'part_of' some 'Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis'
+- 'Rheumatoid factor-negative juvenile idiopathic arthritis without anti-nuclear antibodies' SubClassOf 'etiological subtype'
++ 'Rheumatoid factor-negative juvenile idiopathic arthritis without anti-nuclear antibodies' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_75249
+Label(s): Familial isolated restrictive cardiomyopathy 
+- 'Familial isolated restrictive cardiomyopathy' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some '1-9 / 100 000') and ('has_point_prevalence_average_value' value 2.5f)
++ 'Familial isolated restrictive cardiomyopathy' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
+
+Class: http://www.orpha.net/ORDO/Orphanet_75233
+Label(s): Wolman disease 
+- 'Wolman disease' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some '1-9 / 1 000 000')
+- 'Wolman disease' SubClassOf ('present_in' some 'Germany') and ('has_birth_prevalence_range' some '1-9 / 1 000 000') and ('has_birth_prevalence_average_value' value 0.28f)
++ 'Wolman disease' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
+
+Class: http://www.orpha.net/ORDO/Orphanet_171714
+Label(s): Amish infantile epilepsy syndrome 
+- 'Amish infantile epilepsy syndrome' SubClassOf 'part_of' some 'GM3 synthase deficiency'
+- 'Amish infantile epilepsy syndrome' SubClassOf 'disease'
+- 'Amish infantile epilepsy syndrome' SubClassOf 'has_inheritance' some 'autosomal recessive'
+- 'Amish infantile epilepsy syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'Amish infantile epilepsy syndrome' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2670
+Label(s): Pierson syndrome 
++ 'Pierson syndrome' SubClassOf 'has_age_of_onset' some 'childhood'
+
+Class: http://www.orpha.net/ORDO/Orphanet_375
+Label(s): Anti-glomerular basement membrane disease 
++ 'Anti-glomerular basement membrane disease' SubClassOf 'has_age_of_onset' some 'elderly'
+
+Class: http://www.orpha.net/ORDO/Orphanet_65283
+Label(s): Timothy syndrome 
++ 'Timothy syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
++ 'Timothy syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Timothy syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_648
+Label(s): Noonan syndrome 
+- 'Noonan syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
++ 'Noonan syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some '1-5 / 10 000')
+
+Class: http://www.orpha.net/ORDO/Orphanet_370938
+Label(s): Salt-and-pepper syndrome 
+- 'Salt-and-pepper syndrome' SubClassOf 'part_of' some 'GM3 synthase deficiency'
+- 'Salt-and-pepper syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some '<1 / 1 000 000')
+- 'Salt-and-pepper syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
+- 'Salt-and-pepper syndrome' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 3.0f)
+- 'Salt-and-pepper syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
+- 'Salt-and-pepper syndrome' SubClassOf 'part_of' some 'Pigmentation anomaly of the skin'
+- 'Salt-and-pepper syndrome' SubClassOf 'has_inheritance' some 'autosomal recessive'
+- 'Salt-and-pepper syndrome' SubClassOf 'disease'
++ 'Salt-and-pepper syndrome' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2427
+Label(s): Macrocephaly-short stature-paraplegia syndrome 
++ 'Macrocephaly-short stature-paraplegia syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Macrocephaly-short stature-paraplegia syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_50811
+Label(s): Lipodystrophy-intellectual disability-deafness syndrome 
++ 'Lipodystrophy-intellectual disability-deafness syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Lipodystrophy-intellectual disability-deafness syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2435
+Label(s): Hypo- and hypermelanotic cutaneous macules-retarded growth-intellectual disability syndrome 
++ 'Hypo- and hypermelanotic cutaneous macules-retarded growth-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Hypo- and hypermelanotic cutaneous macules-retarded growth-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_289543
+Label(s): BRCA1 associated protein 1 
++ 'BRCA1 associated protein 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Meningioma'
++ 'BRCA1 associated protein 1' SubClassOf 'disease-causing somatic mutation(s) in' some 'Meningioma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_580933
+Label(s): Lethal brain and heart developmental defects 
++ 'Lethal brain and heart developmental defects' SubClassOf 'has_inheritance' some 'autosomal recessive'
+
+Class: http://www.orpha.net/ORDO/Orphanet_289522
+Label(s): Microtriplication 11q24.1 
++ 'Microtriplication 11q24.1' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Microtriplication 11q24.1' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93108
+Label(s): Renal dysplasia 
++ 'Renal dysplasia' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_286
+Label(s): Vascular Ehlers-Danlos syndrome 
+- 'Vascular Ehlers-Danlos syndrome' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some '1-9 / 100 000') and ('has_point_prevalence_average_value' value 1.0f)
++ 'Vascular Ehlers-Danlos syndrome' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
+
+Class: http://www.orpha.net/ORDO/Orphanet_273
+Label(s): Steinert myotonic dystrophy 
+- 'Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare disorder with hypergonadotropic hypogonadism'
+
+Class: http://www.orpha.net/ORDO/Orphanet_255
+Label(s): Dopa-responsive dystonia 
+- 'Dopa-responsive dystonia' SubClassOf 'Neurometabolic disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_232
+Label(s): Sickle cell anemia 
+- 'Sickle cell anemia' SubClassOf 'part_of' some 'Rare disorder with hypogonadotropic hypogonadism'
+
+Class: http://www.orpha.net/ORDO/Orphanet_85451
+Label(s): ATTRV122I amyloidosis 
+- 'ATTRV122I amyloidosis' SubClassOf 'part_of' some 'Familial restrictive cardiomyopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_159889
+Label(s): acyl-CoA dehydrogenase long chain 
+- 'acyl-CoA dehydrogenase long chain' SubClassOf 'has_chromosomal location' value "2q34"^^http://www.w3.org/2001/XMLSchema#string
+- 'acyl-CoA dehydrogenase long chain' SubClassOf 'gene with protein product'
+- 'acyl-CoA dehydrogenase long chain' SubClassOf 'disease-causing germline mutation(s) in' some 'Long chain acyl-CoA dehydrogenase deficiency'
+
+Class: http://www.orpha.net/ORDO/Orphanet_201
+Label(s): Cowden syndrome 
++ 'Cowden syndrome' SubClassOf 'part_of' some http://www.orpha.net/ORDO/Orphanet_589746
+
+Class: http://www.orpha.net/ORDO/Orphanet_217
+Label(s): Isolated Dandy-Walker malformation 
+- 'Isolated Dandy-Walker malformation' SubClassOf 'part_of' some 'Genetic cerebellar malformation'
+- 'Isolated Dandy-Walker malformation' SubClassOf 'part_of' some 'Malformation of the cerebellar vermis'
++ 'Isolated Dandy-Walker malformation' SubClassOf 'part_of' some 'Genetic posterior fossa malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_77261
+Label(s): Gaucher disease type 3 
+- 'Gaucher disease type 3' SubClassOf 'part_of' some 'Lysosomal disease with restrictive cardiomyopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2828
+Label(s): Young-onset Parkinson disease 
+- 'Young-onset Parkinson disease' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2518
+Label(s): Autosomal recessive chorioretinopathy-microcephaly syndrome 
++ 'Autosomal recessive chorioretinopathy-microcephaly syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Autosomal recessive chorioretinopathy-microcephaly syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Autosomal recessive chorioretinopathy-microcephaly syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_119140
+Label(s): calcium voltage-gated channel subunit alpha1 C 
+- 'calcium voltage-gated channel subunit alpha1 C' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'calcium voltage-gated channel subunit alpha1 C' SubClassOf 'disease-causing germline mutation(s) in' some 'Brugada syndrome'
++ 'calcium voltage-gated channel subunit alpha1 C' SubClassOf 'disease-causing germline mutation(s) in' some 'Romano-Ward syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_52901
+Label(s): Isolated follicle stimulating hormone deficiency 
+- 'Isolated follicle stimulating hormone deficiency' SubClassOf 'part_of' some 'Non-acquired pituitary hormone deficiency'
+
+Class: http://www.orpha.net/ORDO/Orphanet_119164
+Label(s): calcium voltage-gated channel auxiliary subunit beta 2 
+- 'calcium voltage-gated channel auxiliary subunit beta 2' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'calcium voltage-gated channel auxiliary subunit beta 2' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_193
+Label(s): Cohen syndrome 
++ 'Cohen syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_186
+Label(s): Primary biliary cholangitis 
++ 'Primary biliary cholangitis' SubClassOf 'has_inheritance' some 'multigenic/multifactorial'
+
+Class: http://www.orpha.net/ORDO/Orphanet_177
+Label(s): Rhizomelic chondrodysplasia punctata 
+- 'Rhizomelic chondrodysplasia punctata' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'Rhizomelic chondrodysplasia punctata' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1516
+Label(s): Craniofacial dyssynostosis 
+- 'Craniofacial dyssynostosis' SubClassOf 'part_of' some 'Genetic cranial malformation'
+- 'Craniofacial dyssynostosis' SubClassOf 'part_of' some 'Cranial malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_145
+Label(s): Hereditary breast and ovarian cancer syndrome 
+- 'Hereditary breast and ovarian cancer syndrome' SubClassOf 'part_of' some 'Inherited cancer-predisposing syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_136
+Label(s): Cerebral autosomal dominant arteriopathy-subcortical infarcts-leukoencephalopathy 
+- 'Cerebral autosomal dominant arteriopathy-subcortical infarcts-leukoencephalopathy' SubClassOf 'part_of' some 'Genetic dementia'
+- 'Cerebral autosomal dominant arteriopathy-subcortical infarcts-leukoencephalopathy' SubClassOf 'part_of' some 'Rare dementia'
+
+Class: http://www.orpha.net/ORDO/Orphanet_117871
+Label(s): plakophilin 2 
+- 'plakophilin 2' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'plakophilin 2' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_425120
+Label(s): STING-associated vasculopathy with onset in infancy 
++ 'STING-associated vasculopathy with onset in infancy' SubClassOf 'part_of' some 'Rare pulmonary disease'
++ 'STING-associated vasculopathy with onset in infancy' SubClassOf 'part_of' some 'Rare genetic respiratory disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_71267
+Label(s): Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability syndrome 
++ 'Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_117820
+Label(s): phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha 
++ 'phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha' SubClassOf 'disease-causing somatic mutation(s) in' some 'Meningioma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_352333
+Label(s): Congenital ichthyosis-intellectual disability-spastic quadriplegia syndrome 
++ 'Congenital ichthyosis-intellectual disability-spastic quadriplegia syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Congenital ichthyosis-intellectual disability-spastic quadriplegia syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_140989
+Label(s): Primary angiitis of the central nervous system 
++ 'Primary angiitis of the central nervous system' SubClassOf 'part_of' some 'Predominantly small-vessel vasculitis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2616
+Label(s): 3M syndrome 
+- '3M syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
+- '3M syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
++ '3M syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_500095
+Label(s): Tall stature-intellectual disability-renal anomalies syndrome 
++ 'Tall stature-intellectual disability-renal anomalies syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_119990
+Label(s): T cell immune regulator 1, ATPase H+ transporting V0 subunit a3 
++ 'T cell immune regulator 1, ATPase H+ transporting V0 subunit a3' SubClassOf 'disease-causing germline mutation(s) in' some 'Dysosteosclerosis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_394615
+Label(s): synaptojanin 1 
++ 'synaptojanin 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Young-onset Parkinson disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_523
+Label(s): Hereditary leiomyomatosis and renal cell cancer 
++ 'Hereditary leiomyomatosis and renal cell cancer' SubClassOf 'part_of' some http://www.orpha.net/ORDO/Orphanet_589746
+
+Class: http://www.orpha.net/ORDO/Orphanet_35122
+Label(s): Congenital sucrase-isomaltase deficiency 
++ 'Congenital sucrase-isomaltase deficiency' SubClassOf 'has_age_of_onset' some 'adolescent'
++ 'Congenital sucrase-isomaltase deficiency' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Congenital sucrase-isomaltase deficiency' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_119363
+Label(s): complement factor H 
++ 'complement factor H' SubClassOf 'biomarker tested in' some http://www.orpha.net/ORDO/Orphanet_244275
+
+Class: http://www.orpha.net/ORDO/Orphanet_2773
+Label(s): Osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome 
++ 'Osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2776
+Label(s): Autosomal recessive distal osteolysis syndrome 
++ 'Autosomal recessive distal osteolysis syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Autosomal recessive distal osteolysis syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99050
+Label(s): Abnormal origin of right or left pulmonary artery from the aorta 
++ 'Abnormal origin of right or left pulmonary artery from the aorta' SubClassOf 'part_of' some 'Respiratory malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_238475
+Label(s): Familial hypercholanemia 
+- 'Familial hypercholanemia' SubClassOf 'part_of' some 'Rare metabolic liver disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_123191
+Label(s): MEFV innate immuity regulator, pyrin 
++ 'MEFV innate immuity regulator, pyrin' SubClassOf 'disease-causing germline mutation(s) in' some 'Sweet syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_251688
+Label(s): RP1 like 1 
++ 'RP1 like 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Retinitis pigmentosa'
+
+Class: http://www.orpha.net/ORDO/Orphanet_329802
+Label(s): 5p13 microduplication syndrome 
++ '5p13 microduplication syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_300496
+Label(s): Multiple congenital anomalies-hypotonia-seizures syndrome type 2 
++ 'Multiple congenital anomalies-hypotonia-seizures syndrome type 2' SubClassOf 'part_of' some 'X-linked syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_302951
+Label(s): potassium voltage-gated channel subfamily D member 3 
+- 'potassium voltage-gated channel subfamily D member 3' SubClassOf 'disease-causing germline mutation(s) (gain of function) in' some 'Brugada syndrome'
++ 'potassium voltage-gated channel subfamily D member 3' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2869
+Label(s): Peutz-Jeghers syndrome 
++ 'Peutz-Jeghers syndrome' SubClassOf 'part_of' some http://www.orpha.net/ORDO/Orphanet_589746
+
+Class: http://www.orpha.net/ORDO/Orphanet_352587
+Label(s): Focal epilepsy-intellectual disability-cerebro-cerebellar malformation 
++ 'Focal epilepsy-intellectual disability-cerebro-cerebellar malformation' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Focal epilepsy-intellectual disability-cerebro-cerebellar malformation' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Focal epilepsy-intellectual disability-cerebro-cerebellar malformation' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_122768
+Label(s): potassium voltage-gated channel subfamily E regulatory subunit 5 
+- 'potassium voltage-gated channel subfamily E regulatory subunit 5' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'potassium voltage-gated channel subfamily E regulatory subunit 5' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_118498
+Label(s): sodium voltage-gated channel beta subunit 1 
+- 'sodium voltage-gated channel beta subunit 1' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
++ 'sodium voltage-gated channel beta subunit 1' SubClassOf 'candidate gene tested in' some 'Brugada syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93591
+Label(s): Infantile nephronophthisis 
++ 'Infantile nephronophthisis' SubClassOf 'has_age_of_onset' some 'childhood'
++ 'Infantile nephronophthisis' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
++ 'Infantile nephronophthisis' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'Infantile nephronophthisis' SubClassOf 'has_age_of_onset' some 'antenatal'
++ 'Infantile nephronophthisis' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_185
+Label(s): Scimitar syndrome 
++ 'Scimitar syndrome' SubClassOf 'part_of' some 'Respiratory malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_93173
+Label(s): Renal dysplasia, bilateral 
++ 'Renal dysplasia, bilateral' SubClassOf 'has_inheritance' some 'not genetically inherited'
++ 'Renal dysplasia, bilateral' SubClassOf 'has_inheritance' some 'autosomal dominant'
+
+Class: http://www.orpha.net/ORDO/Orphanet_98896
+Label(s): Duchenne muscular dystrophy 
+- 'Duchenne muscular dystrophy' SubClassOf ('present_in' some 'Europe') and ('has_birth_prevalence_range' some '1-5 / 10 000') and ('has_birth_prevalence_average_value' value 15.1f)
+
+Class: http://www.orpha.net/ORDO/Orphanet_2431
+Label(s): Central bilateral macrogyria 
+- 'Central bilateral macrogyria' SubClassOf ('present_in' some 'Worldwide') and ('has_cases/families_value' value 4.0f)
+- 'Central bilateral macrogyria' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some '<1 / 1 000 000')
+- 'Central bilateral macrogyria' SubClassOf 'disease'
+- 'Central bilateral macrogyria' SubClassOf 'has_age_of_onset' some 'childhood'
+- 'Central bilateral macrogyria' SubClassOf 'has_inheritance' some 'unknown inheritance'
+- 'Central bilateral macrogyria' SubClassOf 'part_of' some 'Cerebral cortical dysplasia'
++ 'Central bilateral macrogyria' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_353277
+Label(s): Rubinstein-Taybi syndrome due to CREBBP mutations 
+- 'Rubinstein-Taybi syndrome due to CREBBP mutations' SubClassOf 'clinical subtype'
++ 'Rubinstein-Taybi syndrome due to CREBBP mutations' SubClassOf 'etiological subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2970
+Label(s): Prune belly syndrome 
++ 'Prune belly syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+Class: http://www.orpha.net/ORDO/Orphanet_99083
+Label(s): Pulmonary artery hypoplasia 
++ 'Pulmonary artery hypoplasia' SubClassOf 'part_of' some 'Respiratory malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_572013
+Label(s): Posterior-predominant lissencephaly-broad flat pons and medulla-midline crossing defects syndrome 
+- 'Posterior-predominant lissencephaly-broad flat pons and medulla-midline crossing defects syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+- 'Posterior-predominant lissencephaly-broad flat pons and medulla-midline crossing defects syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_437180
+Label(s): calmodulin 3 
++ 'calmodulin 3' SubClassOf 'disease-causing germline mutation(s) in' some 'Romano-Ward syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_68383
+Label(s): Rare constitutional aplastic anemia 
++ 'Rare constitutional aplastic anemia' SubClassOf 'Rare constitutional anemia'
+
+Class: http://www.orpha.net/ORDO/Orphanet_1727
+Label(s): 22q11.2 microduplication syndrome 
+- '22q11.2 microduplication syndrome' SubClassOf 'has_inheritance' some 'not genetically inherited'
+- '22q11.2 microduplication syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
++ '22q11.2 microduplication syndrome' SubClassOf 'has_age_of_onset' some 'all ages'
+
+Class: http://www.orpha.net/ORDO/Orphanet_48435
+Label(s): Postinfectious vasculitis 
++ 'Postinfectious vasculitis' SubClassOf 'part_of' some 'Brain inflammatory disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_3019
+Label(s): Ramon syndrome 
++ 'Ramon syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Ramon syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Ramon syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_363203
+Label(s): Ring chromosome 
+- 'Ring chromosome' SubClassOf 'Autosomal monosomy'
++ 'Ring chromosome' SubClassOf 'Autosomal anomaly'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2399
+Label(s): Nasopalpebral lipoma-coloboma syndrome 
+- 'Nasopalpebral lipoma-coloboma syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_139450
+Label(s): Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome 
+- 'Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome' SubClassOf 'part_of' some 'Developmental defect of the eye'
+- 'Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome' SubClassOf 'part_of' some 'Genetic developmental defect of the eye'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2332
+Label(s): KBG syndrome 
+- 'KBG syndrome' SubClassOf 'has_inheritance' some 'not genetically inherited'
++ 'KBG syndrome' SubClassOf 'has_age_of_onset' some 'neonatal'
++ 'KBG syndrome' SubClassOf 'has_age_of_onset' some 'infancy'
++ 'KBG syndrome' SubClassOf 'has_age_of_onset' some 'adolescent'
+
+Class: http://www.orpha.net/ORDO/Orphanet_2322
+Label(s): Kabuki syndrome 
++ 'Kabuki syndrome' SubClassOf 'has_age_of_onset' some 'antenatal'
+
+
+################
+@Classes new to this version
+
+Class: http://www.orpha.net/ORDO/Orphanet_494111
+Label(s): WD repeat and FYVE domain containing 3 
++ 'WD repeat and FYVE domain containing 3' SubClassOf 'has_chromosomal location' value "4q21.23"^^http://www.w3.org/2001/XMLSchema#string
++ 'WD repeat and FYVE domain containing 3' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Non-specific syndromic intellectual disability'
++ 'WD repeat and FYVE domain containing 3' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586292
+Label(s): sirtuin 6 
++ 'sirtuin 6' SubClassOf 'gene with protein product'
++ 'sirtuin 6' SubClassOf 'has_chromosomal location' value "19p13.3"^^http://www.w3.org/2001/XMLSchema#string
++ 'sirtuin 6' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Lethal brain and heart developmental defects'
+
+Class: http://www.orpha.net/ORDO/Orphanet_508970
+Label(s): cadherin 2 
++ 'cadherin 2' SubClassOf 'has_chromosomal location' value "18q12.1"^^http://www.w3.org/2001/XMLSchema#string
++ 'cadherin 2' SubClassOf 'disease-causing germline mutation(s) in' some 'Familial isolated arrhythmogenic ventricular dysplasia, right dominant form'
++ 'cadherin 2' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586130
+Label(s): Sporadic fatal insomnia 
++ 'Sporadic fatal insomnia' SubClassOf 'disease'
++ 'Sporadic fatal insomnia' SubClassOf 'part_of' some 'Sporadic human prion disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_98593
+Label(s): OBSOLETE: Neurogenic palpebral tumor 
++ 'OBSOLETE: Neurogenic palpebral tumor' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_470430
+Label(s): heart and neural crest derivatives expressed 2 
++ 'heart and neural crest derivatives expressed 2' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Familial isolated dilated cardiomyopathy'
++ 'heart and neural crest derivatives expressed 2' SubClassOf 'has_chromosomal location' value "4q34.1"^^http://www.w3.org/2001/XMLSchema#string
++ 'heart and neural crest derivatives expressed 2' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585956
+Label(s): B-lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3) 
++ 'B-lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3)' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3)' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585948
+Label(s): B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3) 
++ 'B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3)' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
++ 'B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3)' SubClassOf 'etiological subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585942
+Label(s): B-lymphoblastic leukemia/lymphoma with hypodiploidy 
++ 'B-lymphoblastic leukemia/lymphoma with hypodiploidy' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with hypodiploidy' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585936
+Label(s): B-lymphoblastic leukemia/lymphoma with hyperdiploidy 
++ 'B-lymphoblastic leukemia/lymphoma with hyperdiploidy' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with hyperdiploidy' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585929
+Label(s): B-lymphoblastic leukemia/lymphoma with t(12;21)(p13.2;q22.1) 
++ 'B-lymphoblastic leukemia/lymphoma with t(12;21)(p13.2;q22.1)' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with t(12;21)(p13.2;q22.1)' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585918
+Label(s): B-lymphoblastic leukemia/lymphoma with t(v;11q23.3) 
++ 'B-lymphoblastic leukemia/lymphoma with t(v;11q23.3)' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with t(v;11q23.3)' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585909
+Label(s): B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2) 
++ 'B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)' SubClassOf 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality'
+
+Class: http://www.orpha.net/ORDO/Orphanet_506519
+Label(s): cyclin dependent kinase 19 
++ 'cyclin dependent kinase 19' SubClassOf 'has_chromosomal location' value "6q21"^^http://www.w3.org/2001/XMLSchema#string
++ 'cyclin dependent kinase 19' SubClassOf 'disease-causing germline mutation(s) in' some 'Undetermined early-onset epileptic encephalopathy'
++ 'cyclin dependent kinase 19' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585877
+Label(s): B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality 
++ 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality' SubClassOf 'etiological subtype'
++ 'B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality' SubClassOf 'part_of' some 'Precursor B-cell acute lymphoblastic leukemia'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585867
+Label(s): Acute myeloid leukemia with t(9;22)(q34.1;q11.2) 
++ 'Acute myeloid leukemia with t(9;22)(q34.1;q11.2)' SubClassOf 'disease'
++ 'Acute myeloid leukemia with t(9;22)(q34.1;q11.2)' SubClassOf 'part_of' some 'Acute myeloid leukemia with recurrent genetic anomaly'
+
+Class: http://www.orpha.net/ORDO/Orphanet_519394
+Label(s): OBSOLETE: Isolated microphakia 
++ 'OBSOLETE: Isolated microphakia' SubClassOf 'obsolete class'
+
+Class: http://www.orpha.net/ORDO/Orphanet_244275
+Label(s): De novo thrombotic microangiopathy after kidney transplantation 
++ 'De novo thrombotic microangiopathy after kidney transplantation' SubClassOf 'has_age_of_onset' some 'all ages'
++ 'De novo thrombotic microangiopathy after kidney transplantation' SubClassOf 'part_of' some 'Thrombotic microangiopathy'
++ 'De novo thrombotic microangiopathy after kidney transplantation' SubClassOf 'particular clinical situation in a disease or syndrome'
++ 'De novo thrombotic microangiopathy after kidney transplantation' SubClassOf ('present_in' some 'Worldwide') and ('has_point_prevalence_range' some 'Unknown_epidemiological_range')
+
+Class: http://www.orpha.net/ORDO/Orphanet_589905
+Label(s): PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome 
++ 'PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome' SubClassOf 'part_of' some 'Rare neurologic disease with psychiatric involvement'
++ 'PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome' SubClassOf 'part_of' some 'Syndromic obesity'
++ 'PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome' SubClassOf 'disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_509296
+Label(s): TNF receptor associated factor 7 
++ 'TNF receptor associated factor 7' SubClassOf 'has_chromosomal location' value "16p13.3"^^http://www.w3.org/2001/XMLSchema#string
++ 'TNF receptor associated factor 7' SubClassOf 'disease-causing somatic mutation(s) in' some 'Meningioma'
++ 'TNF receptor associated factor 7' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589833
+Label(s): Late-onset Steinert myotonic dystrophy 
++ 'Late-onset Steinert myotonic dystrophy' SubClassOf 'clinical subtype'
++ 'Late-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Steinert myotonic dystrophy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589830
+Label(s): Adult-onset Steinert myotonic dystrophy 
++ 'Adult-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Adult-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Adult-onset Steinert myotonic dystrophy' SubClassOf 'clinical subtype'
++ 'Adult-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Steinert myotonic dystrophy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589827
+Label(s): Juvenile-onset Steinert myotonic dystrophy 
++ 'Juvenile-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Steinert myotonic dystrophy'
++ 'Juvenile-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Juvenile-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Juvenile-onset Steinert myotonic dystrophy' SubClassOf 'clinical subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589824
+Label(s): Childhood-onset Steinert myotonic dystrophy 
++ 'Childhood-onset Steinert myotonic dystrophy' SubClassOf 'clinical subtype'
++ 'Childhood-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Childhood-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Childhood-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Steinert myotonic dystrophy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589821
+Label(s): Congenital-onset Steinert myotonic dystrophy 
++ 'Congenital-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Congenital-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Congenital-onset Steinert myotonic dystrophy' SubClassOf 'part_of' some 'Steinert myotonic dystrophy'
++ 'Congenital-onset Steinert myotonic dystrophy' SubClassOf 'clinical subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_585369
+Label(s): tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2 
++ 'tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2' SubClassOf 'has_chromosomal location' value "17q23.2-q23.3"^^http://www.w3.org/2001/XMLSchema#string
++ 'tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2' SubClassOf 'disease-causing germline mutation(s) in' some 'Non-specific syndromic intellectual disability'
++ 'tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_469890
+Label(s): ATP binding cassette subfamily C member 1 
++ 'ATP binding cassette subfamily C member 1' SubClassOf 'gene with protein product'
++ 'ATP binding cassette subfamily C member 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal dominant non-syndromic sensorineural deafness type DFNA'
++ 'ATP binding cassette subfamily C member 1' SubClassOf 'has_chromosomal location' value "16p13.11"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_592894
+Label(s): Acute disseminated encephalomyelitis with anti-MOG antibodies 
++ 'Acute disseminated encephalomyelitis with anti-MOG antibodies' SubClassOf 'clinical subtype'
++ 'Acute disseminated encephalomyelitis with anti-MOG antibodies' SubClassOf 'part_of' some 'Acute disseminated encephalomyelitis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592869
+Label(s): Neuromyelitis optica spectrum disorder without anti-MOG and without anti-AQP4 antibodies 
++ 'Neuromyelitis optica spectrum disorder without anti-MOG and without anti-AQP4 antibodies' SubClassOf 'part_of' some 'Neuromyelitis optica spectrum disorder'
++ 'Neuromyelitis optica spectrum disorder without anti-MOG and without anti-AQP4 antibodies' SubClassOf 'clinical subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589595
+Label(s): Mixed phenotype acute leukemia with t(v;11q23.3) 
++ 'Mixed phenotype acute leukemia with t(v;11q23.3)' SubClassOf 'part_of' some 'Mixed phenotype acute leukemia'
++ 'Mixed phenotype acute leukemia with t(v;11q23.3)' SubClassOf 'etiological subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592856
+Label(s): Neuromyelitis optica spectrum disorder with anti-MOG antibodies 
++ 'Neuromyelitis optica spectrum disorder with anti-MOG antibodies' SubClassOf 'clinical subtype'
++ 'Neuromyelitis optica spectrum disorder with anti-MOG antibodies' SubClassOf 'part_of' some 'Neuromyelitis optica spectrum disorder'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589547
+Label(s): GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder 
++ 'GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder' SubClassOf 'part_of' some 'Rare disease with autism'
++ 'GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder' SubClassOf 'disease'
++ 'GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589542
+Label(s): Myeloid/lymphoid neoplasm associated with JAK2 rearrangement 
++ 'Myeloid/lymphoid neoplasm associated with JAK2 rearrangement' SubClassOf 'disease'
++ 'Myeloid/lymphoid neoplasm associated with JAK2 rearrangement' SubClassOf 'part_of' some 'Myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of PDGFRA, PDGFRB, FGFR1 or JAK2'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589534
+Label(s): Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2) 
++ 'Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)' SubClassOf 'part_of' some 'Mixed phenotype acute leukemia'
++ 'Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)' SubClassOf 'etiological subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589527
+Label(s): Spinocerebellar ataxia type 45 
++ 'Spinocerebellar ataxia type 45' SubClassOf 'part_of' some 'Autosomal dominant cerebellar ataxia type III'
++ 'Spinocerebellar ataxia type 45' SubClassOf 'disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_509088
+Label(s): Janus kinase 1 
++ 'Janus kinase 1' SubClassOf 'gene with protein product'
++ 'Janus kinase 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency'
++ 'Janus kinase 1' SubClassOf 'has_chromosomal location' value "1p31.3"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_590539
+Label(s): Isolated melanotic schwannoma 
++ 'Isolated melanotic schwannoma' SubClassOf 'disease'
++ 'Isolated melanotic schwannoma' SubClassOf 'part_of' some 'Benign peripheral nerve sheath tumor'
++ 'Isolated melanotic schwannoma' SubClassOf 'part_of' some 'Soft tissue sarcoma'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586469
+Label(s): trafficking protein particle complex 4 
++ 'trafficking protein particle complex 4' SubClassOf 'gene with protein product'
++ 'trafficking protein particle complex 4' SubClassOf 'has_chromosomal location' value "11q23.3"^^http://www.w3.org/2001/XMLSchema#string
++ 'trafficking protein particle complex 4' SubClassOf 'disease-causing germline mutation(s) in' some 'Non-specific syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589746
+Label(s): Inherited gynecological cancer-predisposing syndrome 
++ 'Inherited gynecological cancer-predisposing syndrome' SubClassOf 'Inherited cancer-predisposing syndrome'
++ 'Inherited gynecological cancer-predisposing syndrome' SubClassOf 'group of disorders'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589435
+Label(s): Spondylometaphyseal dysplasia-corneal dystrophy syndrome 
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'part_of' some 'Spondylometaphyseal dysplasia'
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'malformation syndrome'
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'part_of' some 'Syndromic corneal dystrophy'
++ 'Spondylometaphyseal dysplasia-corneal dystrophy syndrome' SubClassOf 'part_of' some 'Rare syndrome with cardiac malformations'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589442
+Label(s): Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome 
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Syndromic genetic deafness'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Malformation syndrome with short stature'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Genetic malformation syndrome with short stature'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Syndromic inherited retinal disorder'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Primary bone dysplasia with multiple joint dislocations'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'malformation syndrome'
++ 'Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592900
+Label(s): Acute disseminated encephalomyelitis without anti-MOG antibodies 
++ 'Acute disseminated encephalomyelitis without anti-MOG antibodies' SubClassOf 'part_of' some 'Acute disseminated encephalomyelitis'
++ 'Acute disseminated encephalomyelitis without anti-MOG antibodies' SubClassOf 'clinical subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589515
+Label(s): PUM1-associated developmental disability-ataxia-seizure syndrome 
++ 'PUM1-associated developmental disability-ataxia-seizure syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'PUM1-associated developmental disability-ataxia-seizure syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'PUM1-associated developmental disability-ataxia-seizure syndrome' SubClassOf 'part_of' some 'Monogenic disease with epilepsy'
++ 'PUM1-associated developmental disability-ataxia-seizure syndrome' SubClassOf 'part_of' some 'Autosomal dominant cerebellar ataxia type I'
++ 'PUM1-associated developmental disability-ataxia-seizure syndrome' SubClassOf 'disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589522
+Label(s): Spinocerebellar ataxia type 46 
++ 'Spinocerebellar ataxia type 46' SubClassOf 'disease'
++ 'Spinocerebellar ataxia type 46' SubClassOf 'part_of' some 'Cerebellar ataxia with peripheral neuropathy'
++ 'Spinocerebellar ataxia type 46' SubClassOf 'part_of' some 'Autosomal dominant cerebellar ataxia type I'
+
+Class: http://www.orpha.net/ORDO/Orphanet_587127
+Label(s): DALR anticodon binding domain containing 3 
++ 'DALR anticodon binding domain containing 3' SubClassOf 'gene with protein product'
++ 'DALR anticodon binding domain containing 3' SubClassOf 'has_chromosomal location' value "3p21.31"^^http://www.w3.org/2001/XMLSchema#string
++ 'DALR anticodon binding domain containing 3' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Undetermined early-onset epileptic encephalopathy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_587121
+Label(s): neuron derived neurotrophic factor 
++ 'neuron derived neurotrophic factor' SubClassOf 'gene with protein product'
++ 'neuron derived neurotrophic factor' SubClassOf 'has_chromosomal location' value "4q27"^^http://www.w3.org/2001/XMLSchema#string
++ 'neuron derived neurotrophic factor' SubClassOf 'disease-causing germline mutation(s) in' some 'Kallmann syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_587118
+Label(s): NAD synthetase 1 
++ 'NAD synthetase 1' SubClassOf 'gene with protein product'
++ 'NAD synthetase 1' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital vertebral-cardiac-renal anomalies syndrome'
++ 'NAD synthetase 1' SubClassOf 'has_chromosomal location' value "11q13.4"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_587111
+Label(s): nucleolus and neural progenitor protein 
++ 'nucleolus and neural progenitor protein' SubClassOf 'gene with protein product'
++ 'nucleolus and neural progenitor protein' SubClassOf 'disease-causing germline mutation(s) in' some 'Anauxetic dysplasia'
++ 'nucleolus and neural progenitor protein' SubClassOf 'has_chromosomal location' value "3q13.2"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_592574
+Label(s): Menke-Hennekam syndrome 
++ 'Menke-Hennekam syndrome' SubClassOf 'part_of' some 'Genetic malformation syndrome with short stature'
++ 'Menke-Hennekam syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'Menke-Hennekam syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Menke-Hennekam syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'Menke-Hennekam syndrome' SubClassOf 'malformation syndrome'
++ 'Menke-Hennekam syndrome' SubClassOf 'part_of' some 'Malformation syndrome with short stature'
++ 'Menke-Hennekam syndrome' SubClassOf 'part_of' some 'Syndromic renal or urinary tract malformation'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592570
+Label(s): TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome 
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Rare syndrome with cardiac malformations'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Other syndrome with a central nervous system malformation as a major feature'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Genetic syndrome with limb malformations as a major feature'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Genetic syndrome with a central nervous system malformation as a major feature'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'malformation syndrome'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Syndrome with limb malformations as a major feature'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-intellectual disability'
++ 'TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592564
+Label(s): GNAO1-related developmental delay-seizures-movement disorder spectrum 
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'part_of' some 'Rare genetic hyperkinetic movement disorder'
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'part_of' some 'Rare hyperkinetic movement disorder'
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'disease'
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'part_of' some 'Monogenic disease with epilepsy'
++ 'GNAO1-related developmental delay-seizures-movement disorder spectrum' SubClassOf 'part_of' some 'Syndromic genetic disorder with strabismus'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589608
+Label(s): Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies 
++ 'Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies' SubClassOf 'part_of' some 'Malformation syndrome with odontal and/or periodontal component'
++ 'Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies' SubClassOf 'part_of' some 'Hypopigmentation of the skin'
++ 'Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies' SubClassOf 'part_of' some 'Ectodermal dysplasia syndrome'
++ 'Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies' SubClassOf 'part_of' some 'Dysostosis with brachydactyly with extraskeletal manifestations'
++ 'Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies' SubClassOf 'disease'
+
+Class: http://www.orpha.net/ORDO/Orphanet_589618
+Label(s): Dystonia 28 
++ 'Dystonia 28' SubClassOf 'part_of' some 'Rare syndromic intellectual disability'
++ 'Dystonia 28' SubClassOf 'part_of' some 'Persistent combined dystonia'
++ 'Dystonia 28' SubClassOf 'disease'
++ 'Dystonia 28' SubClassOf 'part_of' some 'Rare genetic syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592850
+Label(s): Neuromyelitis optica spectrum disorder with anti-AQP4 antibodies 
++ 'Neuromyelitis optica spectrum disorder with anti-AQP4 antibodies' SubClassOf 'part_of' some 'Neuromyelitis optica spectrum disorder'
++ 'Neuromyelitis optica spectrum disorder with anti-AQP4 antibodies' SubClassOf 'clinical subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592873
+Label(s): Acute transverse myelitis with anti-MOG antibodies 
++ 'Acute transverse myelitis with anti-MOG antibodies' SubClassOf 'clinical subtype'
++ 'Acute transverse myelitis with anti-MOG antibodies' SubClassOf 'part_of' some 'Acute transverse myelitis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592885
+Label(s): Isolated optic neuritis without anti-MOG antibodies 
++ 'Isolated optic neuritis without anti-MOG antibodies' SubClassOf 'clinical subtype'
++ 'Isolated optic neuritis without anti-MOG antibodies' SubClassOf 'part_of' some 'Isolated optic neuritis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_592888
+Label(s): Optic neuritis with anti-MOG antibodies 
++ 'Optic neuritis with anti-MOG antibodies' SubClassOf 'part_of' some 'Isolated optic neuritis'
++ 'Optic neuritis with anti-MOG antibodies' SubClassOf 'clinical subtype'
+
+Class: http://www.orpha.net/ORDO/Orphanet_470518
+Label(s): interferon regulatory factor 7 
++ 'interferon regulatory factor 7' SubClassOf 'candidate gene tested in' some 'Predisposition to severe viral infection due to IRF7 deficiency'
++ 'interferon regulatory factor 7' SubClassOf 'gene with protein product'
++ 'interferon regulatory factor 7' SubClassOf 'has_chromosomal location' value "11p15.5"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_589856
+Label(s): Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome 
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'malformation syndrome'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual disability syndrome'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Nose and cavum anomaly'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Syndromic genetic deafness'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Multiple congenital anomalies/dysmorphic syndrome-variable intellectual disability syndrome'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Syndromic hypothyroidism'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Genetic nose and cavum anomaly'
++ 'Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome' SubClassOf 'part_of' some 'Syndrome with hypoparathyroidism'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586548
+Label(s): methyltransferase like 5 
++ 'methyltransferase like 5' SubClassOf 'gene with protein product'
++ 'methyltransferase like 5' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal recessive primary microcephaly'
++ 'methyltransferase like 5' SubClassOf 'has_chromosomal location' value "2q31.1"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_586512
+Label(s): malonyl-CoA-acyl carrier protein transacylase 
++ 'malonyl-CoA-acyl carrier protein transacylase' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal recessive isolated optic atrophy'
++ 'malonyl-CoA-acyl carrier protein transacylase' SubClassOf 'gene with protein product'
++ 'malonyl-CoA-acyl carrier protein transacylase' SubClassOf 'has_chromosomal location' value "22q13.2"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_586501
+Label(s): triokinase and FMN cyclase 
++ 'triokinase and FMN cyclase' SubClassOf 'has_chromosomal location' value "11q12.2"^^http://www.w3.org/2001/XMLSchema#string
++ 'triokinase and FMN cyclase' SubClassOf 'disease-causing germline mutation(s) in' some 'Congenital cataract-hypertrophic cardiomyopathy-mitochondrial myopathy syndrome'
++ 'triokinase and FMN cyclase' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586494
+Label(s): junctional adhesion molecule 2 
++ 'junctional adhesion molecule 2' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Bilateral striopallidodentate calcinosis'
++ 'junctional adhesion molecule 2' SubClassOf 'gene with protein product'
++ 'junctional adhesion molecule 2' SubClassOf 'has_chromosomal location' value "21q21.3"^^http://www.w3.org/2001/XMLSchema#string
+
+Class: http://www.orpha.net/ORDO/Orphanet_586486
+Label(s): IKAROS family zinc finger 5 
++ 'IKAROS family zinc finger 5' SubClassOf 'gene with protein product'
++ 'IKAROS family zinc finger 5' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal thrombocytopenia with normal platelets'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586477
+Label(s): DEAH-box helicase 37 
++ 'DEAH-box helicase 37' SubClassOf 'disease-causing germline mutation(s) in' some '46,XY partial gonadal dysgenesis'
++ 'DEAH-box helicase 37' SubClassOf 'has_chromosomal location' value "12q24.31"^^http://www.w3.org/2001/XMLSchema#string
++ 'DEAH-box helicase 37' SubClassOf 'disease-causing germline mutation(s) in' some 'Testicular regression syndrome'
++ 'DEAH-box helicase 37' SubClassOf 'gene with protein product'
++ 'DEAH-box helicase 37' SubClassOf 'disease-causing germline mutation(s) in' some '46,XY complete gonadal dysgenesis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586463
+Label(s): collectrin, amino acid transport regulator 
++ 'collectrin, amino acid transport regulator' SubClassOf 'disease-causing germline mutation(s) in' some 'Hartnup disease'
++ 'collectrin, amino acid transport regulator' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_586454
+Label(s): mediator complex subunit 12L 
++ 'mediator complex subunit 12L' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal dominant non-syndromic intellectual disability'
++ 'mediator complex subunit 12L' SubClassOf 'has_chromosomal location' value "3q25.1"^^http://www.w3.org/2001/XMLSchema#string
++ 'mediator complex subunit 12L' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_494085
+Label(s): ASH1 like histone lysine methyltransferase 
++ 'ASH1 like histone lysine methyltransferase' SubClassOf 'gene with protein product'
++ 'ASH1 like histone lysine methyltransferase' SubClassOf 'has_chromosomal location' value "1q22"^^http://www.w3.org/2001/XMLSchema#string
++ 'ASH1 like histone lysine methyltransferase' SubClassOf 'disease-causing germline mutation(s) in' some 'Autosomal dominant non-syndromic intellectual disability'
+
+Class: http://www.orpha.net/ORDO/Orphanet_500290
+Label(s): cytochrome c oxidase subunit 4I1 
++ 'cytochrome c oxidase subunit 4I1' SubClassOf 'gene with protein product'
++ 'cytochrome c oxidase subunit 4I1' SubClassOf 'has_chromosomal location' value "16q24.1"^^http://www.w3.org/2001/XMLSchema#string
++ 'cytochrome c oxidase subunit 4I1' SubClassOf 'disease-causing germline mutation(s) in' some 'Isolated cytochrome C oxidase deficiency'
+
+
+################
+@Classes deleted from this version
+
+Class: http://www.orpha.net/ORDO/Orphanet_284408
+Label(s): Glycerol kinase deficiency, infantile form 
++ 'Glycerol kinase deficiency, infantile form' SubClassOf 'clinical subtype'
++ 'Glycerol kinase deficiency, infantile form' SubClassOf 'part_of' some 'Isolated glycerol kinase deficiency'
++ 'Glycerol kinase deficiency, infantile form' SubClassOf 'part_of' some 'Syndromic neurometabolic disease with X-linked intellectual disability'
++ 'Glycerol kinase deficiency, infantile form' SubClassOf 'has_age_of_onset' some 'infancy'
+
+Class: http://www.orpha.net/ORDO/Orphanet_325604
+Label(s): minichromosome maintenance complex component 6 
++ 'minichromosome maintenance complex component 6' SubClassOf 'gene with protein product'
++ 'minichromosome maintenance complex component 6' SubClassOf 'has_chromosomal location' value "2q21.3"^^http://www.w3.org/2001/XMLSchema#string
++ 'minichromosome maintenance complex component 6' SubClassOf 'candidate gene tested in' some 'Congenital sucrase-isomaltase deficiency with starch and lactose intolerance'
+
+Class: http://www.orpha.net/ORDO/Orphanet_455925
+Label(s): RAP1B, member of RAS oncogene family 
++ 'RAP1B, member of RAS oncogene family' SubClassOf 'has_chromosomal location' value "12q15"^^http://www.w3.org/2001/XMLSchema#string
++ 'RAP1B, member of RAS oncogene family' SubClassOf 'disease-causing germline mutation(s) in' some 'Kabuki syndrome'
++ 'RAP1B, member of RAS oncogene family' SubClassOf 'gene with protein product'
+
+Class: http://www.orpha.net/ORDO/Orphanet_77243
+Label(s): Lipedema 
++ 'Lipedema' SubClassOf 'disease'
++ 'Lipedema' SubClassOf 'has_age_of_onset' some 'adolescent'
++ 'Lipedema' SubClassOf 'part_of' some 'Genetic subcutaneous tissue disorder'
++ 'Lipedema' SubClassOf ('present_in' some 'United Kingdom') and ('has_point_prevalence_range' some '1-9 / 100 000') and ('has_point_prevalence_average_value' value 1.39f)
++ 'Lipedema' SubClassOf 'part_of' some 'Subcutaneous tissue disease'
++ 'Lipedema' SubClassOf 'has_age_of_onset' some 'adult'
++ 'Lipedema' SubClassOf ('present_in' some 'Europe') and ('has_point_prevalence_range' some '1-9 / 100 000')
+
+Class: http://www.orpha.net/ORDO/Orphanet_448950
+Label(s): RAP1A, member of RAS oncogene family 
++ 'RAP1A, member of RAS oncogene family' SubClassOf 'has_chromosomal location' value "1p13.2"^^http://www.w3.org/2001/XMLSchema#string
++ 'RAP1A, member of RAS oncogene family' SubClassOf 'gene with protein product'
++ 'RAP1A, member of RAS oncogene family' SubClassOf 'disease-causing germline mutation(s) (loss of function) in' some 'Kabuki syndrome'
+
+Class: http://www.orpha.net/ORDO/Orphanet_247854
+Label(s): Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies 
++ 'Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'etiological subtype'
++ 'Rheumatoid factor-negative juvenile idiopathic arthritis with anti-nuclear antibodies' SubClassOf 'part_of' some 'Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis'
+
+Class: http://www.orpha.net/ORDO/Orphanet_159889
+Label(s): acyl-CoA dehydrogenase long chain 
++ 'acyl-CoA dehydrogenase long chain' SubClassOf 'has_chromosomal location' value "2q34"^^http://www.w3.org/2001/XMLSchema#string
++ 'acyl-CoA dehydrogenase long chain' SubClassOf 'gene with protein product'
++ 'acyl-CoA dehydrogenase long chain' SubClassOf 'disease-causing germline mutation(s) in' some 'Long chain acyl-CoA dehydrogenase deficiency'
+

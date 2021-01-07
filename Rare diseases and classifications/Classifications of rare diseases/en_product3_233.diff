@@ -1,144 +1,73 @@
-commit bbf94d552a3c459862632b82d2e2166d94fb6b4e
+commit f6243403226f6a943b8a6925758d3dfb41a1e668
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Dec 1 15:14:38 2020 +0100
+Date:   Sat Jan 2 20:37:59 2021 +0100
 
-    DEC 2020
+    JAN 2021
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_233.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_233.xml
-index 82322f3..3d2c672 100644
+old mode 100644
+new mode 100755
+index 3d2c672..f35ef90
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_233.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_233.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2020-11-01 04:30:23" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2020-12-01 04:33:16" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2020-12-01 04:33:16" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-01-01 04:33:54" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -21,7 +21,7 @@
-               <Name lang="en">Category</Name>
-             </DisorderType>
-           </Disorder>
--          <ClassificationNodeChildList count="9">
-+          <ClassificationNodeChildList count="8">
-             <ClassificationNode>
-               <Disorder id="11944">
-                 <OrphaCode>90053</OrphaCode>
-@@ -1653,7 +1653,67 @@
-                                       <Name lang="en">Disease</Name>
-                                     </DisorderType>
-                                   </Disorder>
--                                  <ClassificationNodeChildList count="0">
-+                                  <ClassificationNodeChildList count="5">
-+                                    <ClassificationNode>
-+                                      <Disorder id="29442">
-+                                        <OrphaCode>589824</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589824</ExpertLink>
-+                                        <Name lang="en">Childhood-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29443">
-+                                        <OrphaCode>589827</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589827</ExpertLink>
-+                                        <Name lang="en">Juvenile-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29444">
-+                                        <OrphaCode>589830</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589830</ExpertLink>
-+                                        <Name lang="en">Adult-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29445">
-+                                        <OrphaCode>589833</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589833</ExpertLink>
-+                                        <Name lang="en">Late-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29441">
-+                                        <OrphaCode>589821</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589821</ExpertLink>
-+                                        <Name lang="en">Congenital-onset Steinert myotonic dystrophy</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
-                               </ClassificationNodeChildList>
-@@ -4323,7 +4383,7 @@
+@@ -4923,7 +4923,7 @@
                            <Name lang="en">Category</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="14">
-+                      <ClassificationNodeChildList count="15">
-                         <ClassificationNode>
-                           <Disorder id="3717">
-                             <OrphaCode>2260</OrphaCode>
-@@ -4552,6 +4612,18 @@
-                             </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="20715">
-+                            <OrphaCode>289365</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289365</ExpertLink>
-+                            <Name lang="en">Familial vesicoureteral reflux</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="2726">
-                             <OrphaCode>3033</OrphaCode>
-@@ -4851,7 +4923,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="61">
-+                      <ClassificationNodeChildList count="63">
+-                      <ClassificationNodeChildList count="63">
++                      <ClassificationNodeChildList count="64">
                          <ClassificationNode>
                            <Disorder id="44">
                              <OrphaCode>881</OrphaCode>
-@@ -5584,6 +5656,18 @@
+@@ -5119,8 +5119,8 @@
+                                 <OrphaCode>353277</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                                 <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
++                                <DisorderType id="21443">
++                                  <Name lang="en">Etiological subtype</Name>
+                                 </DisorderType>
+                               </Disorder>
+                               <ClassificationNodeChildList count="0">
+@@ -5131,8 +5131,8 @@
+                                 <OrphaCode>353281</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                                 <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
++                                <DisorderType id="21443">
++                                  <Name lang="en">Etiological subtype</Name>
+                                 </DisorderType>
+                               </Disorder>
+                               <ClassificationNodeChildList count="0">
+@@ -5143,8 +5143,8 @@
+                                 <OrphaCode>353284</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                                 <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
++                                <DisorderType id="21443">
++                                  <Name lang="en">Etiological subtype</Name>
+                                 </DisorderType>
+                               </Disorder>
+                               <ClassificationNodeChildList count="0">
+@@ -5896,6 +5896,18 @@
                            <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
 +                        <ClassificationNode>
-+                          <Disorder id="25997">
-+                            <OrphaCode>500135</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=500135</ExpertLink>
-+                            <Name lang="en">Multinucleated neurons-anhydramnios-renal dysplasia-cerebellar hypoplasia-hydranencephaly syndrome</Name>
++                          <Disorder id="29566">
++                            <OrphaCode>592574</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592574</ExpertLink>
++                            <Name lang="en">Menke-Hennekam syndrome</Name>
 +                            <DisorderType id="21401">
 +                              <Name lang="en">Malformation syndrome</Name>
 +                            </DisorderType>
@@ -146,222 +75,6 @@ index 82322f3..3d2c672 100644
 +                          <ClassificationNodeChildList count="0">
 +                          </ClassificationNodeChildList>
 +                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="126">
-                             <OrphaCode>567</OrphaCode>
-@@ -5800,6 +5884,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="12168">
-+                            <OrphaCode>93111</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93111</ExpertLink>
-+                            <Name lang="en">HNF1B-related autosomal dominant tubulointerstitial kidney disease</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
                        </ClassificationNodeChildList>
                      </ClassificationNode>
                      <ClassificationNode>
-@@ -10971,7 +11067,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="11">
-+                      <ClassificationNodeChildList count="10">
-                         <ClassificationNode>
-                           <Disorder id="2157">
-                             <OrphaCode>2290</OrphaCode>
-@@ -11020,18 +11116,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="23515">
--                            <OrphaCode>445018</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=445018</ExpertLink>
--                            <Name lang="en">Combined immunodeficiency due to LRBA deficiency</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="3613">
-                             <OrphaCode>1670</OrphaCode>
-@@ -11233,7 +11317,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="46">
-+                          <ClassificationNodeChildList count="45">
-                             <ClassificationNode>
-                               <Disorder id="1814">
-                                 <OrphaCode>1834</OrphaCode>
-@@ -11894,18 +11978,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="12508">
--                                <OrphaCode>93950</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93950</ExpertLink>
--                                <Name lang="en">X-linked intellectual disability, Sutherland-Haan type</Name>
--                                <DisorderType id="21450">
--                                  <Name lang="en">Clinical subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="1536">
-                                 <OrphaCode>1305</OrphaCode>
-@@ -12825,7 +12897,31 @@
-                                       <Name lang="en">Disease</Name>
-                                     </DisorderType>
-                                   </Disorder>
--                                  <ClassificationNodeChildList count="0">
-+                                  <ClassificationNodeChildList count="2">
-+                                    <ClassificationNode>
-+                                      <Disorder id="29433">
-+                                        <OrphaCode>589534</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589534</ExpertLink>
-+                                        <Name lang="en">Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)</Name>
-+                                        <DisorderType id="21443">
-+                                          <Name lang="en">Etiological subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29436">
-+                                        <OrphaCode>589595</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589595</ExpertLink>
-+                                        <Name lang="en">Mixed phenotype acute leukemia with t(v;11q23.3)</Name>
-+                                        <DisorderType id="21443">
-+                                          <Name lang="en">Etiological subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
-                               </ClassificationNodeChildList>
-@@ -12841,7 +12937,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="3">
-+                          <ClassificationNodeChildList count="4">
-                             <ClassificationNode>
-                               <Disorder id="17803">
-                                 <OrphaCode>168950</OrphaCode>
-@@ -12854,6 +12950,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="29434">
-+                                <OrphaCode>589542</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589542</ExpertLink>
-+                                <Name lang="en">Myeloid/lymphoid neoplasm associated with JAK2 rearrangement</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="17802">
-                                 <OrphaCode>168947</OrphaCode>
-@@ -13947,7 +14055,19 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="6">
-+                      <ClassificationNodeChildList count="8">
-+                        <ClassificationNode>
-+                          <Disorder id="26326">
-+                            <OrphaCode>505227</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=505227</ExpertLink>
-+                            <Name lang="en">Combined immunodeficiency due to GINS1 deficiency</Name>
-+                            <DisorderType id="21394">
-+                              <Name lang="en">Disease</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="430">
-                             <OrphaCode>125</OrphaCode>
-@@ -14020,6 +14140,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="11081">
-+                            <OrphaCode>75391</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=75391</ExpertLink>
-+                            <Name lang="en">Primary immunodeficiency with natural-killer cell deficiency and adrenal insufficiency</Name>
-+                            <DisorderType id="21394">
-+                              <Name lang="en">Disease</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -15315,19 +15447,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="9">
--                        <ClassificationNode>
--                          <Disorder id="12466">
--                            <OrphaCode>93685</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93685</ExpertLink>
--                            <Name lang="en">Unicentric Castleman disease</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-+                      <ClassificationNodeChildList count="8">
-                         <ClassificationNode>
-                           <Disorder id="21111">
-                             <OrphaCode>300324</OrphaCode>
-@@ -20962,18 +21082,6 @@
-               <ClassificationNodeChildList count="0">
-               </ClassificationNodeChildList>
-             </ClassificationNode>
--            <ClassificationNode>
--              <Disorder id="10952">
--                <OrphaCode>70568</OrphaCode>
--                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70568</ExpertLink>
--                <Name lang="en">Post-transplant lymphoproliferative disease</Name>
--                <DisorderType id="21394">
--                  <Name lang="en">Disease</Name>
--                </DisorderType>
--              </Disorder>
--              <ClassificationNodeChildList count="0">
--              </ClassificationNodeChildList>
--            </ClassificationNode>
-             <ClassificationNode>
-               <Disorder id="10460">
-                 <OrphaCode>39812</OrphaCode>

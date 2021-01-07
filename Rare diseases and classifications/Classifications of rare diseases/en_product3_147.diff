@@ -1,1451 +1,497 @@
-commit bbf94d552a3c459862632b82d2e2166d94fb6b4e
+commit f6243403226f6a943b8a6925758d3dfb41a1e668
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Dec 1 15:14:38 2020 +0100
+Date:   Sat Jan 2 20:37:59 2021 +0100
 
-    DEC 2020
+    JAN 2021
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml
-index c114bff..138d200 100644
+old mode 100644
+new mode 100755
+index 138d200..c5bc949
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2020-11-01 04:28:27" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2020-12-01 04:31:19" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2020-12-01 04:31:19" version="1.3.6 / 4.1.7 [2020-04-17] (orientdb version)" copyright="Orphanet (c) 2020" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-01-01 04:31:53" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -77,7 +77,7 @@
+@@ -617,7 +617,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="63">
++                  <ClassificationNodeChildList count="64">
+                     <ClassificationNode>
+                       <Disorder id="44">
+                         <OrphaCode>881</OrphaCode>
+@@ -705,8 +705,8 @@
+                             <OrphaCode>353277</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -717,8 +717,8 @@
+                             <OrphaCode>353281</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -729,8 +729,8 @@
+                             <OrphaCode>353284</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -1566,6 +1566,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="29566">
++                        <OrphaCode>592574</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592574</ExpertLink>
++                        <Name lang="en">Menke-Hennekam syndrome</Name>
++                        <DisorderType id="21401">
++                          <Name lang="en">Malformation syndrome</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="27331">
+                         <OrphaCode>521438</OrphaCode>
+@@ -4277,7 +4289,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="41">
++                  <ClassificationNodeChildList count="42">
+                     <ClassificationNode>
+                       <Disorder id="25408">
+                         <OrphaCode>488618</OrphaCode>
+@@ -4998,6 +5010,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="29565">
++                        <OrphaCode>592570</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592570</ExpertLink>
++                        <Name lang="en">TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome</Name>
++                        <DisorderType id="21401">
++                          <Name lang="en">Malformation syndrome</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+               </ClassificationNodeChildList>
+@@ -11922,7 +11946,7 @@
+                               <Disorder id="21690">
+                                 <OrphaCode>319671</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319671</ExpertLink>
+-                                <Name lang="en">Microcephalic primordial dwarfism, Alazami type</Name>
++                                <Name lang="en">Alazami syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -12111,7 +12135,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="41">
++                      <ClassificationNodeChildList count="42">
+                         <ClassificationNode>
+                           <Disorder id="27595">
+                             <OrphaCode>529574</OrphaCode>
+@@ -12604,6 +12628,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="29565">
++                            <OrphaCode>592570</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592570</ExpertLink>
++                            <Name lang="en">TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome</Name>
++                            <DisorderType id="21401">
++                              <Name lang="en">Malformation syndrome</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                   </ClassificationNodeChildList>
+@@ -17193,8 +17229,8 @@
+                             <OrphaCode>353277</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -17205,8 +17241,8 @@
+                             <OrphaCode>353281</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -17217,8 +17253,8 @@
+                             <OrphaCode>353284</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -27603,8 +27639,8 @@
+                                         <OrphaCode>353277</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -27615,8 +27651,8 @@
+                                         <OrphaCode>353281</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -27627,8 +27663,8 @@
+                                         <OrphaCode>353284</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -30847,7 +30883,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="48">
++              <ClassificationNodeChildList count="49">
+                 <ClassificationNode>
+                   <Disorder id="145">
+                     <OrphaCode>904</OrphaCode>
+@@ -30875,8 +30911,8 @@
+                         <OrphaCode>353277</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                         <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                        <DisorderType id="21450">
+-                          <Name lang="en">Clinical subtype</Name>
++                        <DisorderType id="21443">
++                          <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+                       </Disorder>
+                       <ClassificationNodeChildList count="0">
+@@ -30887,8 +30923,8 @@
+                         <OrphaCode>353281</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                         <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                        <DisorderType id="21450">
+-                          <Name lang="en">Clinical subtype</Name>
++                        <DisorderType id="21443">
++                          <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+                       </Disorder>
+                       <ClassificationNodeChildList count="0">
+@@ -30899,8 +30935,8 @@
+                         <OrphaCode>353284</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                         <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                        <DisorderType id="21450">
+-                          <Name lang="en">Clinical subtype</Name>
++                        <DisorderType id="21443">
++                          <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+                       </Disorder>
+                       <ClassificationNodeChildList count="0">
+@@ -31688,6 +31724,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="29566">
++                    <OrphaCode>592574</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592574</ExpertLink>
++                    <Name lang="en">Menke-Hennekam syndrome</Name>
++                    <DisorderType id="21401">
++                      <Name lang="en">Malformation syndrome</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+               </ClassificationNodeChildList>
+             </ClassificationNode>
+             <ClassificationNode>
+@@ -32649,8 +32697,8 @@
+                             <OrphaCode>353277</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -32661,8 +32709,8 @@
+                             <OrphaCode>353281</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -32673,8 +32721,8 @@
+                             <OrphaCode>353284</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -46647,8 +46695,8 @@
+                                         <OrphaCode>353281</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                                         <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
++                                        <DisorderType id="21443">
++                                          <Name lang="en">Etiological subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -48701,7 +48749,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="405">
++                  <ClassificationNodeChildList count="407">
+                     <ClassificationNode>
+                       <Disorder id="24010">
+                         <OrphaCode>464282</OrphaCode>
+@@ -50396,7 +50444,7 @@
+                           <Disorder id="21690">
+                             <OrphaCode>319671</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319671</ExpertLink>
+-                            <Name lang="en">Microcephalic primordial dwarfism, Alazami type</Name>
++                            <Name lang="en">Alazami syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -50590,7 +50638,7 @@
+                       <Disorder id="22327">
+                         <OrphaCode>363611</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=363611</ExpertLink>
+-                        <Name lang="en">Intellectual disability-feeding difficulties-developmental delay-microcephaly syndrome</Name>
++                        <Name lang="en">CTCF-related neurodevelopmental disorder</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -52510,7 +52558,7 @@
+                       <Disorder id="26002">
+                         <OrphaCode>500163</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=500163</ExpertLink>
+-                        <Name lang="en">SIN3A-related intellectual disability syndrome</Name>
++                        <Name lang="en">Witteveen-Kolk syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+@@ -52834,7 +52882,7 @@
+                       <Disorder id="24042">
+                         <OrphaCode>464738</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=464738</ExpertLink>
+-                        <Name lang="en">Congenital cataract-microcephaly-nevus flammeus simplex-severe intellectual disability syndrome</Name>
++                        <Name lang="en">Basel-Vanagaite-Smirin-Yosef syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+@@ -52893,8 +52941,8 @@
+                             <OrphaCode>353277</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -52905,8 +52953,8 @@
+                             <OrphaCode>353281</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -52917,8 +52965,8 @@
+                             <OrphaCode>353284</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                             <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -54426,6 +54474,30 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="29565">
++                        <OrphaCode>592570</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592570</ExpertLink>
++                        <Name lang="en">TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome</Name>
++                        <DisorderType id="21401">
++                          <Name lang="en">Malformation syndrome</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="29566">
++                        <OrphaCode>592574</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592574</ExpertLink>
++                        <Name lang="en">Menke-Hennekam syndrome</Name>
++                        <DisorderType id="21401">
++                          <Name lang="en">Malformation syndrome</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -56590,7 +56662,7 @@
+                       <Disorder id="421">
+                         <OrphaCode>1146</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1146</ExpertLink>
+-                        <Name lang="en">Digitotalar dysmorphism</Name>
++                        <Name lang="en">Distal arthrogryposis type 1</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+@@ -57821,7 +57893,7 @@
                        <Name lang="en">Category</Name>
                      </DisorderType>
                    </Disorder>
 -                  <ClassificationNodeChildList count="14">
 +                  <ClassificationNodeChildList count="15">
                      <ClassificationNode>
-                       <Disorder id="481">
-                         <OrphaCode>1851</OrphaCode>
-@@ -594,6 +594,18 @@
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="20715">
-+                        <OrphaCode>289365</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289365</ExpertLink>
-+                        <Name lang="en">Familial vesicoureteral reflux</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -605,7 +617,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="60">
-+                  <ClassificationNodeChildList count="63">
-                     <ClassificationNode>
-                       <Disorder id="44">
-                         <OrphaCode>881</OrphaCode>
-@@ -1506,6 +1518,30 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="10995">
-+                        <OrphaCode>71273</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=71273</ExpertLink>
-+                        <Name lang="en">Renal nutcracker syndrome</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="2577">
-+                        <OrphaCode>2838</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2838</ExpertLink>
-+                        <Name lang="en">Renal caliceal diverticuli-deafness syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="25995">
-                         <OrphaCode>500095</OrphaCode>
-@@ -1542,6 +1578,18 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="2725">
-+                        <OrphaCode>3032</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3032</ExpertLink>
-+                        <Name lang="en">NPHP3-related Meckel-like syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-               </ClassificationNodeChildList>
-@@ -4963,7 +5011,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="11">
-+              <ClassificationNodeChildList count="10">
-                 <ClassificationNode>
-                   <Disorder id="443">
-                     <OrphaCode>1452</OrphaCode>
-@@ -5756,18 +5804,6 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="1683">
--                    <OrphaCode>1516</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1516</ExpertLink>
--                    <Name lang="en">Craniofacial dyssynostosis</Name>
--                    <DisorderType id="21401">
--                      <Name lang="en">Malformation syndrome</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="1790">
-                     <OrphaCode>1790</OrphaCode>
-@@ -6195,7 +6231,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="46">
-+                      <ClassificationNodeChildList count="45">
-                         <ClassificationNode>
-                           <Disorder id="126">
-                             <OrphaCode>567</OrphaCode>
-@@ -6856,18 +6892,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="12508">
--                            <OrphaCode>93950</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93950</ExpertLink>
--                            <Name lang="en">X-linked intellectual disability, Sutherland-Haan type</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="1536">
-                             <OrphaCode>1305</OrphaCode>
-@@ -9275,43 +9299,7 @@
-                                   <Name lang="en">Category</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="4">
--                                <ClassificationNode>
--                                  <Disorder id="456">
--                                    <OrphaCode>217</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217</ExpertLink>
--                                    <Name lang="en">Isolated Dandy-Walker malformation</Name>
--                                    <DisorderType id="21415">
--                                      <Name lang="en">Morphological anomaly</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="2">
--                                    <ClassificationNode>
--                                      <Disorder id="20246">
--                                        <OrphaCode>269212</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=269212</ExpertLink>
--                                        <Name lang="en">Isolated Dandy-Walker malformation with hydrocephalus</Name>
--                                        <DisorderType id="21450">
--                                          <Name lang="en">Clinical subtype</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                    <ClassificationNode>
--                                      <Disorder id="20247">
--                                        <OrphaCode>269215</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=269215</ExpertLink>
--                                        <Name lang="en">Isolated Dandy-Walker malformation without hydrocephalus</Name>
--                                        <DisorderType id="21450">
--                                          <Name lang="en">Clinical subtype</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
-+                              <ClassificationNodeChildList count="3">
-                                 <ClassificationNode>
-                                   <Disorder id="1022">
-                                     <OrphaCode>475</OrphaCode>
-@@ -10645,7 +10633,7 @@
-                               <Name lang="en">Clinical group</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="6">
-+                          <ClassificationNodeChildList count="3">
-                             <ClassificationNode>
-                               <Disorder id="2439">
-                                 <OrphaCode>2671</OrphaCode>
-@@ -10718,42 +10706,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29042">
--                                <OrphaCode>583602</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583602</ExpertLink>
--                                <Name lang="en">Neu-laxova syndrome due to phosphoserine aminotransferase deficiency</Name>
--                                <DisorderType id="21443">
--                                  <Name lang="en">Etiological subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29043">
--                                <OrphaCode>583607</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583607</ExpertLink>
--                                <Name lang="en">Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency</Name>
--                                <DisorderType id="21443">
--                                  <Name lang="en">Etiological subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29044">
--                                <OrphaCode>583612</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583612</ExpertLink>
--                                <Name lang="en">Neu-laxova syndrome due to 3-phosphoserine phosphatase deficiency</Name>
--                                <DisorderType id="21443">
--                                  <Name lang="en">Etiological subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -13687,7 +13639,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="25">
-+              <ClassificationNodeChildList count="23">
-                 <ClassificationNode>
-                   <Disorder id="11574">
-                     <OrphaCode>83461</OrphaCode>
-@@ -13981,7 +13933,7 @@
-                               <Name lang="en">Clinical group</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="5">
-+                          <ClassificationNodeChildList count="2">
-                             <ClassificationNode>
-                               <Disorder id="1247">
-                                 <OrphaCode>920</OrphaCode>
-@@ -14042,42 +13994,6 @@
-                                 </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29042">
--                                <OrphaCode>583602</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583602</ExpertLink>
--                                <Name lang="en">Neu-laxova syndrome due to phosphoserine aminotransferase deficiency</Name>
--                                <DisorderType id="21443">
--                                  <Name lang="en">Etiological subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29043">
--                                <OrphaCode>583607</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583607</ExpertLink>
--                                <Name lang="en">Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency</Name>
--                                <DisorderType id="21443">
--                                  <Name lang="en">Etiological subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="29044">
--                                <OrphaCode>583612</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583612</ExpertLink>
--                                <Name lang="en">Neu-laxova syndrome due to 3-phosphoserine phosphatase deficiency</Name>
--                                <DisorderType id="21443">
--                                  <Name lang="en">Etiological subtype</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -14747,7 +14663,67 @@
-                                   <Name lang="en">Disease</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="0">
-+                              <ClassificationNodeChildList count="5">
-+                                <ClassificationNode>
-+                                  <Disorder id="29442">
-+                                    <OrphaCode>589824</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589824</ExpertLink>
-+                                    <Name lang="en">Childhood-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29443">
-+                                    <OrphaCode>589827</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589827</ExpertLink>
-+                                    <Name lang="en">Juvenile-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29444">
-+                                    <OrphaCode>589830</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589830</ExpertLink>
-+                                    <Name lang="en">Adult-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29445">
-+                                    <OrphaCode>589833</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589833</ExpertLink>
-+                                    <Name lang="en">Late-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29441">
-+                                    <OrphaCode>589821</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589821</ExpertLink>
-+                                    <Name lang="en">Congenital-onset Steinert myotonic dystrophy</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-                             <ClassificationNode>
-@@ -15105,7 +15081,7 @@
-                                       <Name lang="en">Clinical group</Name>
+                       <Disorder id="1548">
+                         <OrphaCode>1325</OrphaCode>
+@@ -58409,8 +58481,8 @@
+                                     <OrphaCode>353277</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353277</ExpertLink>
+                                     <Name lang="en">Rubinstein-Taybi syndrome due to CREBBP mutations</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
                                      </DisorderType>
                                    </Disorder>
--                                  <ClassificationNodeChildList count="6">
-+                                  <ClassificationNodeChildList count="7">
-                                     <ClassificationNode>
-                                       <Disorder id="20529">
-                                         <OrphaCode>281127</OrphaCode>
-@@ -15178,6 +15154,18 @@
-                                       <ClassificationNodeChildList count="0">
-                                       </ClassificationNodeChildList>
-                                     </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="20746">
-+                                        <OrphaCode>289586</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289586</ExpertLink>
-+                                        <Name lang="en">Exfoliative ichthyosis</Name>
-+                                        <DisorderType id="21394">
-+                                          <Name lang="en">Disease</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
-                               </ClassificationNodeChildList>
-@@ -16513,7 +16501,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="4">
-+                          <ClassificationNodeChildList count="6">
-                             <ClassificationNode>
-                               <Disorder id="230">
-                                 <OrphaCode>893</OrphaCode>
-@@ -16562,6 +16550,30 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="1362">
-+                                <OrphaCode>1067</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1067</ExpertLink>
-+                                <Name lang="en">Aniridia-ptosis-intellectual disability-familial obesity syndrome</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="1363">
-+                                <OrphaCode>1068</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1068</ExpertLink>
-+                                <Name lang="en">Aniridia-intellectual disability syndrome</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -17384,18 +17396,6 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="16899">
--                    <OrphaCode>139450</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139450</ExpertLink>
--                    <Name lang="en">Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome</Name>
--                    <DisorderType id="21401">
--                      <Name lang="en">Malformation syndrome</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="1654">
-                     <OrphaCode>1471</OrphaCode>
-@@ -17420,18 +17420,6 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="25390">
--                    <OrphaCode>488197</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=488197</ExpertLink>
--                    <Name lang="en">Familial progressive retinal dystrophy-iris coloboma-congenital cataract syndrome</Name>
--                    <DisorderType id="21394">
--                      <Name lang="en">Disease</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="13962">
-                     <OrphaCode>98945</OrphaCode>
-@@ -17489,7 +17477,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="10">
-+                  <ClassificationNodeChildList count="8">
-                     <ClassificationNode>
-                       <Disorder id="1645">
-                         <OrphaCode>190</OrphaCode>
-@@ -17502,18 +17490,6 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="3414">
--                        <OrphaCode>566</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=566</ExpertLink>
--                        <Name lang="en">Congenital microcoria</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="10378">
-                         <OrphaCode>35612</OrphaCode>
-@@ -17574,18 +17550,6 @@
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="12151">
--                        <OrphaCode>91491</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=91491</ExpertLink>
--                        <Name lang="en">Congenital ectropion uveae</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="12539">
-                         <OrphaCode>94058</OrphaCode>
-@@ -17803,7 +17767,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="15">
-+              <ClassificationNodeChildList count="14">
-                 <ClassificationNode>
-                   <Disorder id="6">
-                     <OrphaCode>585</OrphaCode>
-@@ -18021,126 +17985,78 @@
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
--                  <Disorder id="10520">
--                    <OrphaCode>68380</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=68380</ExpertLink>
--                    <Name lang="en">Mitochondrial disease</Name>
-+                  <Disorder id="11221">
-+                    <OrphaCode>79195</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79195</ExpertLink>
-+                    <Name lang="en">Sterol biosynthesis disorder</Name>
-                     <DisorderType id="36561">
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="2">
-+                  <ClassificationNodeChildList count="10">
-                     <ClassificationNode>
--                      <Disorder id="467">
--                        <OrphaCode>765</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=765</ExpertLink>
--                        <Name lang="en">Pyruvate dehydrogenase deficiency</Name>
-+                      <Disorder id="2136">
-+                        <OrphaCode>139</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139</ExpertLink>
-+                        <Name lang="en">CHILD syndrome</Name>
-                         <DisorderType id="21394">
-                           <Name lang="en">Disease</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="6">
--                        <ClassificationNode>
--                          <Disorder id="5520">
--                            <OrphaCode>2394</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2394</ExpertLink>
--                            <Name lang="en">Pyruvate dehydrogenase E3 deficiency</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="11269">
--                            <OrphaCode>79243</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79243</ExpertLink>
--                            <Name lang="en">Pyruvate dehydrogenase E1-alpha deficiency</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="11270">
--                            <OrphaCode>79244</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79244</ExpertLink>
--                            <Name lang="en">Pyruvate dehydrogenase E2 deficiency</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="11272">
--                            <OrphaCode>79246</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79246</ExpertLink>
--                            <Name lang="en">Pyruvate dehydrogenase phosphatase deficiency</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="19806">
--                            <OrphaCode>255138</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=255138</ExpertLink>
--                            <Name lang="en">Pyruvate dehydrogenase E1-beta deficiency</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="19807">
--                            <OrphaCode>255182</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=255182</ExpertLink>
--                            <Name lang="en">Pyruvate dehydrogenase E3-binding protein deficiency</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="3574">
-+                        <OrphaCode>818</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=818</ExpertLink>
-+                        <Name lang="en">Smith-Lemli-Opitz syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
--                      <Disorder id="19271">
--                        <OrphaCode>238517</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=238517</ExpertLink>
--                        <Name lang="en">Hypotonia-cystinuria type 1 syndrome</Name>
-+                      <Disorder id="10376">
-+                        <OrphaCode>35173</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35173</ExpertLink>
-+                        <Name lang="en">X-linked dominant chondrodysplasia punctata</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="10592">
-+                        <OrphaCode>46059</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=46059</ExpertLink>
-+                        <Name lang="en">Lathosterolosis</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="21338">
-+                        <OrphaCode>309025</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=309025</ExpertLink>
-+                        <Name lang="en">Mevalonate kinase deficiency</Name>
-                         <DisorderType id="21436">
-                           <Name lang="en">Clinical group</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="3">
--                        <ClassificationNode>
--                          <Disorder id="17524">
--                            <OrphaCode>163690</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163690</ExpertLink>
--                            <Name lang="en">Hypotonia-cystinuria syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-+                      <ClassificationNodeChildList count="2">
-                         <ClassificationNode>
--                          <Disorder id="17525">
--                            <OrphaCode>163693</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163693</ExpertLink>
--                            <Name lang="en">2p21 microdeletion syndrome</Name>
-+                          <Disorder id="403">
-+                            <OrphaCode>29</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=29</ExpertLink>
-+                            <Name lang="en">Mevalonic aciduria</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
-                             </DisorderType>
-@@ -18149,10 +18065,10 @@
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
--                          <Disorder id="19272">
--                            <OrphaCode>238523</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=238523</ExpertLink>
--                            <Name lang="en">Atypical hypotonia-cystinuria syndrome</Name>
-+                          <Disorder id="3276">
-+                            <OrphaCode>343</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=343</ExpertLink>
-+                            <Name lang="en">Hyperimmunoglobulinemia D with periodic fever</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
-                             </DisorderType>
-@@ -18162,18 +18078,6 @@
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="11221">
--                    <OrphaCode>79195</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79195</ExpertLink>
--                    <Name lang="en">Sterol biosynthesis disorder</Name>
--                    <DisorderType id="36561">
--                      <Name lang="en">Category</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="5">
-                     <ClassificationNode>
-                       <Disorder id="25388">
-                         <OrphaCode>488168</OrphaCode>
-@@ -22491,7 +22395,7 @@
-                           <Name lang="en">Clinical group</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="18">
-+                      <ClassificationNodeChildList count="19">
-                         <ClassificationNode>
-                           <Disorder id="12290">
-                             <OrphaCode>93359</OrphaCode>
-@@ -22708,6 +22612,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="29429">
-+                            <OrphaCode>589442</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589442</ExpertLink>
-+                            <Name lang="en">Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -26209,7 +26125,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="3">
-+                          <ClassificationNodeChildList count="4">
-                             <ClassificationNode>
-                               <Disorder id="16737">
-                                 <OrphaCode>137888</OrphaCode>
-@@ -26306,6 +26222,18 @@
-                                 </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="17110">
-+                                <OrphaCode>156202</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=156202</ExpertLink>
-+                                <Name lang="en">Otomandibular dysplasia associated with monogenic syndromes</Name>
-+                                <DisorderType id="36561">
-+                                  <Name lang="en">Category</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -27371,7 +27299,19 @@
-                                   <Name lang="en">Category</Name>
+                                   <ClassificationNodeChildList count="0">
+@@ -58421,8 +58493,8 @@
+                                     <OrphaCode>353281</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353281</ExpertLink>
+                                     <Name lang="en">Rubinstein-Taybi syndrome due to 16p13.3 microdeletion</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -58433,8 +58505,8 @@
+                                     <OrphaCode>353284</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353284</ExpertLink>
+                                     <Name lang="en">Rubinstein-Taybi syndrome due to EP300 haploinsufficiency</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -58842,7 +58914,7 @@
+                               <Disorder id="421">
+                                 <OrphaCode>1146</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1146</ExpertLink>
+-                                <Name lang="en">Digitotalar dysmorphism</Name>
++                                <Name lang="en">Distal arthrogryposis type 1</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
                                  </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="23">
-+                              <ClassificationNodeChildList count="24">
-+                                <ClassificationNode>
-+                                  <Disorder id="29437">
-+                                    <OrphaCode>589608</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589608</ExpertLink>
-+                                    <Name lang="en">Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                                 <ClassificationNode>
-                                   <Disorder id="17604">
-                                     <OrphaCode>166035</OrphaCode>
-@@ -30907,7 +30847,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="47">
-+              <ClassificationNodeChildList count="48">
-                 <ClassificationNode>
-                   <Disorder id="145">
-                     <OrphaCode>904</OrphaCode>
-@@ -31736,6 +31676,18 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="29429">
-+                    <OrphaCode>589442</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589442</ExpertLink>
-+                    <Name lang="en">Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome</Name>
-+                    <DisorderType id="21401">
-+                      <Name lang="en">Malformation syndrome</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-               </ClassificationNodeChildList>
-             </ClassificationNode>
-             <ClassificationNode>
-@@ -31959,7 +31911,211 @@
-                           <Name lang="en">Clinical group</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="0">
-+                      <ClassificationNodeChildList count="2">
-+                        <ClassificationNode>
-+                          <Disorder id="17593">
-+                            <OrphaCode>165985</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165985</ExpertLink>
-+                            <Name lang="en">Diazoxide-sensitive diffuse hyperinsulinism</Name>
-+                            <DisorderType id="21436">
-+                              <Name lang="en">Clinical group</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="9">
-+                            <ClassificationNode>
-+                              <Disorder id="10987">
-+                                <OrphaCode>71212</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=71212</ExpertLink>
-+                                <Name lang="en">Hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="11325">
-+                                <OrphaCode>79299</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79299</ExpertLink>
-+                                <Name lang="en">Hyperinsulinism due to glucokinase deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="17595">
-+                                <OrphaCode>165991</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165991</ExpertLink>
-+                                <Name lang="en">Exercise-induced hyperinsulinism</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="20056">
-+                                <OrphaCode>263455</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263455</ExpertLink>
-+                                <Name lang="en">Hyperinsulinism due to HNF4A deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="20383">
-+                                <OrphaCode>276556</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276556</ExpertLink>
-+                                <Name lang="en">Hyperinsulinism due to UCP2 deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="20384">
-+                                <OrphaCode>276575</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276575</ExpertLink>
-+                                <Name lang="en">Autosomal dominant hyperinsulinism due to SUR1 deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10403">
-+                                <OrphaCode>35878</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35878</ExpertLink>
-+                                <Name lang="en">Hyperinsulinism-hyperammonemia syndrome</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="20385">
-+                                <OrphaCode>276580</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276580</ExpertLink>
-+                                <Name lang="en">Autosomal dominant hyperinsulinism due to Kir6.2 deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="21787">
-+                                <OrphaCode>324575</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324575</ExpertLink>
-+                                <Name lang="en">Hyperinsulinism due to HNF1A deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="20386">
-+                            <OrphaCode>276585</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276585</ExpertLink>
-+                            <Name lang="en">Diazoxide-resistant hyperinsulinism</Name>
-+                            <DisorderType id="21436">
-+                              <Name lang="en">Clinical group</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="2">
-+                            <ClassificationNode>
-+                              <Disorder id="11324">
-+                                <OrphaCode>79298</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79298</ExpertLink>
-+                                <Name lang="en">Diazoxide-resistant focal hyperinsulinism</Name>
-+                                <DisorderType id="21436">
-+                                  <Name lang="en">Clinical group</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="2">
-+                                <ClassificationNode>
-+                                  <Disorder id="20387">
-+                                    <OrphaCode>276598</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276598</ExpertLink>
-+                                    <Name lang="en">Diazoxide-resistant focal hyperinsulinism due to SUR1 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="20388">
-+                                    <OrphaCode>276603</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276603</ExpertLink>
-+                                    <Name lang="en">Diazoxide-resistant focal hyperinsulinism due to Kir6.2 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="17594">
-+                                <OrphaCode>165988</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165988</ExpertLink>
-+                                <Name lang="en">Diazoxide-resistant diffuse hyperinsulinism</Name>
-+                                <DisorderType id="21436">
-+                                  <Name lang="en">Clinical group</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="2">
-+                                <ClassificationNode>
-+                                  <Disorder id="11541">
-+                                    <OrphaCode>79643</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79643</ExpertLink>
-+                                    <Name lang="en">Autosomal recessive hyperinsulinism due to SUR1 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="11542">
-+                                    <OrphaCode>79644</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79644</ExpertLink>
-+                                    <Name lang="en">Autosomal recessive hyperinsulinism due to Kir6.2 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -32369,7 +32525,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="29">
-+                  <ClassificationNodeChildList count="32">
-                     <ClassificationNode>
-                       <Disorder id="387">
-                         <OrphaCode>819</OrphaCode>
-@@ -32886,6 +33042,18 @@
+@@ -61146,6 +61218,18 @@
                        <ClassificationNodeChildList count="0">
                        </ClassificationNodeChildList>
                      </ClassificationNode>
 +                    <ClassificationNode>
-+                      <Disorder id="19756">
-+                        <OrphaCode>254516</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=254516</ExpertLink>
-+                        <Name lang="en">Temple syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="27324">
-                         <OrphaCode>521390</OrphaCode>
-@@ -32898,6 +33066,30 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="29447">
-+                        <OrphaCode>589905</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589905</ExpertLink>
-+                        <Name lang="en">PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="20900">
-+                        <OrphaCode>293987</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293987</ExpertLink>
-+                        <Name lang="en">Rapid-onset childhood obesity-hypothalamic dysfunction-hypoventilation-autonomic dysregulation syndrome</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-               </ClassificationNodeChildList>
-@@ -33701,7 +33893,7 @@
-                       <Name lang="en">Clinical group</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="8">
-+                  <ClassificationNodeChildList count="10">
-                     <ClassificationNode>
-                       <Disorder id="11434">
-                         <OrphaCode>79408</OrphaCode>
-@@ -33798,6 +33990,30 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="17234">
-+                        <OrphaCode>158676</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158676</ExpertLink>
-+                        <Name lang="en">Dominant dystrophic epidermolysis bullosa, nails only</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="17233">
-+                        <OrphaCode>158673</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158673</ExpertLink>
-+                        <Name lang="en">Acral dystrophic epidermolysis bullosa</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -33869,7 +34085,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="110">
-+                  <ClassificationNodeChildList count="111">
-                     <ClassificationNode>
-                       <Disorder id="3069">
-                         <OrphaCode>3200</OrphaCode>
-@@ -35430,6 +35646,18 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="29437">
-+                        <OrphaCode>589608</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589608</ExpertLink>
-+                        <Name lang="en">Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -37447,7 +37675,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="61">
-+              <ClassificationNodeChildList count="62">
-                 <ClassificationNode>
-                   <Disorder id="2481">
-                     <OrphaCode>2720</OrphaCode>
-@@ -38252,6 +38480,18 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="29437">
-+                    <OrphaCode>589608</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589608</ExpertLink>
-+                    <Name lang="en">Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies</Name>
-+                    <DisorderType id="21394">
-+                      <Name lang="en">Disease</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-               </ClassificationNodeChildList>
-             </ClassificationNode>
-             <ClassificationNode>
-@@ -38393,7 +38633,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="6">
-+                  <ClassificationNodeChildList count="7">
-                     <ClassificationNode>
-                       <Disorder id="17083">
-                         <OrphaCode>155835</OrphaCode>
-@@ -38667,7 +38907,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="21">
-+                      <ClassificationNodeChildList count="22">
-                         <ClassificationNode>
-                           <Disorder id="14158">
-                             <OrphaCode>99141</OrphaCode>
-@@ -38944,6 +39184,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="29446">
-+                            <OrphaCode>589856</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589856</ExpertLink>
-+                            <Name lang="en">Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -39258,6 +39510,126 @@
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="17090">
-+                        <OrphaCode>155896</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=155896</ExpertLink>
-+                        <Name lang="en">Otomandibular dysplasia</Name>
-+                        <DisorderType id="36561">
-+                          <Name lang="en">Category</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="4">
-+                        <ClassificationNode>
-+                          <Disorder id="16737">
-+                            <OrphaCode>137888</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137888</ExpertLink>
-+                            <Name lang="en">Auriculocondylar syndrome</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="17044">
-+                            <OrphaCode>141132</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=141132</ExpertLink>
-+                            <Name lang="en">Oculo-auriculo-vertebral spectrum</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="17091">
-+                            <OrphaCode>155899</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=155899</ExpertLink>
-+                            <Name lang="en">Mandibulofacial dysostosis</Name>
-+                            <DisorderType id="21436">
-+                              <Name lang="en">Clinical group</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="5">
-+                            <ClassificationNode>
-+                              <Disorder id="293">
-+                                <OrphaCode>861</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=861</ExpertLink>
-+                                <Name lang="en">Treacher-Collins syndrome</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="1269">
-+                                <OrphaCode>950</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=950</ExpertLink>
-+                                <Name lang="en">Acrodysostosis</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="20490">
-+                                <OrphaCode>280651</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280651</ExpertLink>
-+                                <Name lang="en">Acrodysostosis with multiple hormone resistance</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="22207">
-+                                <OrphaCode>357158</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357158</ExpertLink>
-+                                <Name lang="en">Mandibulofacial dysostosis-macroblepharon-macrostomia syndrome</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="23472">
-+                                <OrphaCode>443995</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443995</ExpertLink>
-+                                <Name lang="en">Mandibulofacial dysostosis with alopecia</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="17110">
-+                            <OrphaCode>156202</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=156202</ExpertLink>
-+                            <Name lang="en">Otomandibular dysplasia associated with monogenic syndromes</Name>
-+                            <DisorderType id="36561">
-+                              <Name lang="en">Category</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -39497,7 +39869,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="3">
-+                  <ClassificationNodeChildList count="4">
-                     <ClassificationNode>
-                       <Disorder id="16737">
-                         <OrphaCode>137888</OrphaCode>
-@@ -39594,6 +39966,18 @@
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="17110">
-+                        <OrphaCode>156202</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=156202</ExpertLink>
-+                        <Name lang="en">Otomandibular dysplasia associated with monogenic syndromes</Name>
-+                        <DisorderType id="36561">
-+                          <Name lang="en">Category</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -39605,7 +39989,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="5">
-+                  <ClassificationNodeChildList count="6">
-                     <ClassificationNode>
-                       <Disorder id="260">
-                         <OrphaCode>116</OrphaCode>
-@@ -39750,6 +40134,18 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="17047">
-+                        <OrphaCode>141148</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=141148</ExpertLink>
-+                        <Name lang="en">Hemifacial myohyperplasia</Name>
++                      <Disorder id="29565">
++                        <OrphaCode>592570</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592570</ExpertLink>
++                        <Name lang="en">TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome</Name>
 +                        <DisorderType id="21401">
 +                          <Name lang="en">Malformation syndrome</Name>
 +                        </DisorderType>
@@ -1456,269 +502,3 @@ index c114bff..138d200 100644
                    </ClassificationNodeChildList>
                  </ClassificationNode>
                  <ClassificationNode>
-@@ -40995,7 +41391,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="71">
-+                      <ClassificationNodeChildList count="72">
-                         <ClassificationNode>
-                           <Disorder id="280">
-                             <OrphaCode>564</OrphaCode>
-@@ -41848,6 +42244,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="1793">
-+                            <OrphaCode>1794</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1794</ExpertLink>
-+                            <Name lang="en">Oculomaxillofacial dysostosis</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -51954,6 +52362,18 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="29429">
-+                        <OrphaCode>589442</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589442</ExpertLink>
-+                        <Name lang="en">Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="28138">
-                         <OrphaCode>556955</OrphaCode>
-@@ -52026,18 +52446,6 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="29042">
--                        <OrphaCode>583602</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583602</ExpertLink>
--                        <Name lang="en">Neu-laxova syndrome due to phosphoserine aminotransferase deficiency</Name>
--                        <DisorderType id="21443">
--                          <Name lang="en">Etiological subtype</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="28932">
-                         <OrphaCode>580940</OrphaCode>
-@@ -53863,24 +54271,24 @@
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
--                      <Disorder id="29043">
--                        <OrphaCode>583607</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583607</ExpertLink>
--                        <Name lang="en">Neu-laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency</Name>
--                        <DisorderType id="21443">
--                          <Name lang="en">Etiological subtype</Name>
-+                      <Disorder id="29447">
-+                        <OrphaCode>589905</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589905</ExpertLink>
-+                        <Name lang="en">PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-                         </DisorderType>
-                       </Disorder>
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
--                      <Disorder id="29044">
--                        <OrphaCode>583612</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=583612</ExpertLink>
--                        <Name lang="en">Neu-laxova syndrome due to 3-phosphoserine phosphatase deficiency</Name>
--                        <DisorderType id="21443">
--                          <Name lang="en">Etiological subtype</Name>
-+                      <Disorder id="29428">
-+                        <OrphaCode>589435</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589435</ExpertLink>
-+                        <Name lang="en">Spondylometaphyseal dysplasia-corneal dystrophy syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-                         </DisorderType>
-                       </Disorder>
-                       <ClassificationNodeChildList count="0">
-@@ -54029,7 +54437,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="79">
-+                  <ClassificationNodeChildList count="80">
-                     <ClassificationNode>
-                       <Disorder id="2020">
-                         <OrphaCode>2109</OrphaCode>
-@@ -55206,6 +55614,18 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="29446">
-+                        <OrphaCode>589856</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589856</ExpertLink>
-+                        <Name lang="en">Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -57685,7 +58105,19 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="23">
-+                          <ClassificationNodeChildList count="24">
-+                            <ClassificationNode>
-+                              <Disorder id="29437">
-+                                <OrphaCode>589608</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589608</ExpertLink>
-+                                <Name lang="en">Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="17604">
-                                 <OrphaCode>166035</OrphaCode>
-@@ -66199,7 +66631,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="175">
-+              <ClassificationNodeChildList count="182">
-                 <ClassificationNode>
-                   <Disorder id="27595">
-                     <OrphaCode>529574</OrphaCode>
-@@ -67496,6 +67928,30 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="29446">
-+                    <OrphaCode>589856</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589856</ExpertLink>
-+                    <Name lang="en">Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome</Name>
-+                    <DisorderType id="21401">
-+                      <Name lang="en">Malformation syndrome</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="29429">
-+                    <OrphaCode>589442</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=589442</ExpertLink>
-+                    <Name lang="en">Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome</Name>
-+                    <DisorderType id="21401">
-+                      <Name lang="en">Malformation syndrome</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="25998">
-                     <OrphaCode>500144</OrphaCode>
-@@ -67892,6 +68348,18 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="10939">
-+                    <OrphaCode>69739</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=69739</ExpertLink>
-+                    <Name lang="en">Athabaskan brainstem dysgenesis syndrome</Name>
-+                    <DisorderType id="21394">
-+                      <Name lang="en">Disease</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="2881">
-                     <OrphaCode>3224</OrphaCode>
-@@ -68672,6 +69140,54 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="17774">
-+                    <OrphaCode>168569</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=168569</ExpertLink>
-+                    <Name lang="en">H syndrome</Name>
-+                    <DisorderType id="21401">
-+                      <Name lang="en">Malformation syndrome</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="21765">
-+                    <OrphaCode>324321</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324321</ExpertLink>
-+                    <Name lang="en">Sinoatrial node dysfunction and deafness</Name>
-+                    <DisorderType id="21394">
-+                      <Name lang="en">Disease</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="22292">
-+                    <OrphaCode>363396</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=363396</ExpertLink>
-+                    <Name lang="en">High myopia-sensorineural deafness syndrome</Name>
-+                    <DisorderType id="21394">
-+                      <Name lang="en">Disease</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="147">
-+                    <OrphaCode>280</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280</ExpertLink>
-+                    <Name lang="en">Wolf-Hirschhorn syndrome</Name>
-+                    <DisorderType id="21401">
-+                      <Name lang="en">Malformation syndrome</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-               </ClassificationNodeChildList>
-             </ClassificationNode>
-             <ClassificationNode>
