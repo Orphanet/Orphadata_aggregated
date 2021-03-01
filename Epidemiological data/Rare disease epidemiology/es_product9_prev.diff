@@ -1,0 +1,573 @@
+commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Feb 1 13:09:28 2021 +0100
+
+    FEB 2021
+
+diff --git a/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml
+old mode 100644
+new mode 100755
+index 6cf1e8d..288555a
+--- a/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-01-01 04:41:33" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-02-01 04:42:12" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6043">
++  <DisorderList count="6039">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=166024</ExpertLink>
+@@ -1903,7 +1903,7 @@
+     <Disorder id="17619">
+       <OrphaCode>166105</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=166105</ExpertLink>
+-      <Name lang="es">Encefalomiopatía mitocondrial infantil asociada al gen FASTKD2</Name>
++      <Name lang="es">Encefalomiopatía mitocondrial del lactante asociada al gen FASTKD2</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -3705,7 +3705,7 @@
+     <Disorder id="17634">
+       <OrphaCode>166305</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=166305</ExpertLink>
+-      <Name lang="es">Crisis infantiles benignas asociadas con gastroenteritis leve</Name>
++      <Name lang="es">Crisis benignas infantiles asociadas con gastroenteritis leve</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -27013,7 +27013,7 @@
+     <Disorder id="17792">
+       <OrphaCode>168782</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=168782</ExpertLink>
+-      <Name lang="es">Trastorno desintegrativo de la infancia</Name>
++      <Name lang="es">Trastorno desintegrativo infantil</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -42561,7 +42561,7 @@
+     <Disorder id="589">
+       <OrphaCode>3173</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3173</ExpertLink>
+-      <Name lang="es">Síndrome de espasmos infantiles-pulgar ancho</Name>
++      <Name lang="es">Síndrome de espasmos-pulgar ancho del lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -65005,7 +65005,7 @@
+     <Disorder id="776">
+       <OrphaCode>17</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=17</ExpertLink>
+-      <Name lang="es">Acidosis láctica infantil letal con aciduria metilmalónica</Name>
++      <Name lang="es">Acidosis láctica letal del lactante con aciduria metilmalónica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -67070,7 +67070,7 @@
+     <Disorder id="871">
+       <OrphaCode>1329</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1329</ExpertLink>
+-      <Name lang="es">Defecto de la comunicación auriculoventricular completo</Name>
++      <Name lang="es">Canal aurículoventricular completo</Name>
+       <DisorderType id="21415">
+         <Name lang="es">Anomalía morfológica</Name>
+       </DisorderType>
+@@ -86805,38 +86805,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="16891">
+-      <OrphaCode>139420</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=139420</ExpertLink>
+-      <Name lang="es">Mielitis transversa aguda secundaria</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="8137">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="es">Desconocido</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="16892">
+       <OrphaCode>139423</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=139423</ExpertLink>
+@@ -90734,7 +90702,7 @@
+     <Disorder id="1414">
+       <OrphaCode>1145</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1145</ExpertLink>
+-      <Name lang="es">Atrofia muscular espinal de inicio precoz ligada al cromosoma X</Name>
++      <Name lang="es">Atrofia muscular espinal de inicio en el lactante ligada al cromosoma X</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -91639,7 +91607,7 @@
+     <Disorder id="1443">
+       <OrphaCode>1186</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1186</ExpertLink>
+-      <Name lang="es">Ataxia espinocerebelosa de inicio en la lactancia</Name>
++      <Name lang="es">Ataxia espinocerebelosa de inicio en el lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -100771,7 +100739,7 @@
+     <Disorder id="17000">
+       <OrphaCode>140927</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=140927</ExpertLink>
+-      <Name lang="es">Convulsiones neonatales-infantiles benignas familiares</Name>
++      <Name lang="es">Convulsiones benignas del neonato-lactante familiares</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -110153,11 +110121,11 @@
+       <OrphaCode>158676</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158676</ExpertLink>
+       <Name lang="es">Epidermólisis ampollosa dominante con distrofia ungueal solo</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="8266">
+@@ -110202,11 +110170,11 @@
+       <OrphaCode>158673</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158673</ExpertLink>
+       <Name lang="es">Epidermólisis ampollosa distrófica acral</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="8263">
+@@ -121095,11 +121063,11 @@
+       <OrphaCode>251393</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=251393</ExpertLink>
+       <Name lang="es">Epidermólisis ampollosa juntural tipo no Herlitz localizada</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="9158">
+@@ -121812,7 +121780,7 @@
+     <Disorder id="19624">
+       <OrphaCode>251304</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=251304</ExpertLink>
+-      <Name lang="es">Paniculitis de inicio en la lactancia con uveitis y granulomatosis sistémica</Name>
++      <Name lang="es">Paniculitis de inicio en el lactante con uveitis y granulomatosis sistémica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -150494,7 +150462,7 @@
+     <Disorder id="20472">
+       <OrphaCode>280553</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=280553</ExpertLink>
+-      <Name lang="es">Miopatía miofibrilar hipertónica infantil letal</Name>
++      <Name lang="es">Miopatía miofibrilar hipertónica letal del lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -161649,7 +161617,7 @@
+     <Disorder id="3525">
+       <OrphaCode>3286</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3286</ExpertLink>
+-      <Name lang="es">Taquicardia ventricular polimórfica catecolaminérgica</Name>
++      <Name lang="es">Taquicardia ventricular catecolaminérgica polimórfica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -178111,7 +178079,7 @@
+     <Disorder id="18977">
+       <OrphaCode>225147</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=225147</ExpertLink>
+-      <Name lang="es">Necrosis estriatal bilateral infantil esporádica</Name>
++      <Name lang="es">Necrosis estriatal bilateral esporádica infantil</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -183852,7 +183820,7 @@
+     <Disorder id="19100">
+       <OrphaCode>228305</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=228305</ExpertLink>
+-      <Name lang="es">Deficiencia de carnitina palmitoiltransferasa II, forma infantil grave</Name>
++      <Name lang="es">Deficiencia de carnitina palmitoiltransferasa II, forma grave infantil</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -184647,7 +184615,7 @@
+     <Disorder id="3651">
+       <OrphaCode>306</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306</ExpertLink>
+-      <Name lang="es">Epilepsia infantil familiar benigna</Name>
++      <Name lang="es">Epilepsia benigna del lactante familiar</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -199667,7 +199635,7 @@
+     <Disorder id="22479">
+       <OrphaCode>370088</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=370088</ExpertLink>
+-      <Name lang="es">Síndrome de insuficiencia hepática aguda infantil-afectación multisistémica</Name>
++      <Name lang="es">Síndrome de insuficiencia hepática aguda-afectación multisistémica del lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -209201,7 +209169,7 @@
+     <Disorder id="20766">
+       <OrphaCode>289857</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=289857</ExpertLink>
+-      <Name lang="es">Encefalopatía neonatal por glicina</Name>
++      <Name lang="es">Encefalopatía por glicina neonatal</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -209233,7 +209201,7 @@
+     <Disorder id="20767">
+       <OrphaCode>289860</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=289860</ExpertLink>
+-      <Name lang="es">Encefalopatía infantil por glicina</Name>
++      <Name lang="es">Encefalopatía por glicina infantil</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -209880,7 +209848,7 @@
+     <Disorder id="20839">
+       <OrphaCode>293168</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=293168</ExpertLink>
+-      <Name lang="es">Parálisis espástica hereditaria ascendente de inicio en la lactancia</Name>
++      <Name lang="es">Parálisis espástica ascendente hereditaria de inicio en el lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -215123,7 +215091,7 @@
+     <Disorder id="21458">
+       <OrphaCode>313850</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=313850</ExpertLink>
+-      <Name lang="es">Degeneración cerebelosa-retiniana infantil</Name>
++      <Name lang="es">Degeneración cerebelosa-retiniana del lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -225576,7 +225544,7 @@
+     <Disorder id="23724">
+       <OrphaCode>457375</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=457375</ExpertLink>
+-      <Name lang="es">Trastorno neurológico infantil letal con cataratas y afectación cardíaca asociado al gen ITPA</Name>
++      <Name lang="es">Trastorno neurológico con cataratas y afectación cardíaca letal infantil asociado al gen ITPA</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -227829,7 +227797,7 @@
+     <Disorder id="24170">
+       <OrphaCode>466794</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=466794</ExpertLink>
+-      <Name lang="es">Síndrome de insuficiencia hepática infantil-ataxia cerebelosa-neuropatía periférica sensitivo-motora</Name>
++      <Name lang="es">Síndrome de insuficiencia hepática-ataxia cerebelosa-neuropatía periférica sensitivo-motora infantil</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -234299,7 +234267,7 @@
+     <Disorder id="22603">
+       <OrphaCode>391316</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=391316</ExpertLink>
+-      <Name lang="es">Epilepsia del lóbulo temporal mesial de inicio en la lactancia con regresión cognitiva grave</Name>
++      <Name lang="es">Epilepsia del lóbulo temporal mesial de inicio en el lactante con regresión cognitiva grave</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -240409,7 +240377,7 @@
+     <Disorder id="23330">
+       <OrphaCode>436166</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=436166</ExpertLink>
+-      <Name lang="es">Síndrome autoinflamatorio-fiebre periódica-enterocolitis infantil</Name>
++      <Name lang="es">Síndrome autoinflamatorio-fiebre periódica-enterocolitis del lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -252010,7 +251978,7 @@
+     <Disorder id="23209">
+       <OrphaCode>425120</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=425120</ExpertLink>
+-      <Name lang="es">Vasculopatía asociada al gen STING con inicio en la infancia</Name>
++      <Name lang="es">Vasculopatía con inicio en el lactante asociada al gen STING</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -262156,7 +262124,7 @@
+     <Disorder id="25994">
+       <OrphaCode>500062</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=500062</ExpertLink>
+-      <Name lang="es">Síndrome de fiebre periódica-paniculitis-dermatosis de inicio en la lactancia</Name>
++      <Name lang="es">Síndrome de fiebre periódica-paniculitis-dermatosis de inicio en el lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -266978,7 +266946,7 @@
+     <Disorder id="8597">
+       <OrphaCode>1330</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1330</ExpertLink>
+-      <Name lang="es">Defecto de la comunicación auriculoventricular parcial</Name>
++      <Name lang="es">Canal aurículoventricular parcial</Name>
+       <DisorderType id="21415">
+         <Name lang="es">Anomalía morfológica</Name>
+       </DisorderType>
+@@ -269905,7 +269873,7 @@
+     <Disorder id="9793">
+       <OrphaCode>31709</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=31709</ExpertLink>
+-      <Name lang="es">Convulsiones infantiles y coreoatetosis</Name>
++      <Name lang="es">Convulsiones del lactante y coreoatetosis</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -271207,7 +271175,7 @@
+     <Disorder id="25136">
+       <OrphaCode>477661</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=477661</ExpertLink>
+-      <Name lang="es">Enfermedad inflamatoria intestinal infantil asociada al gen IL21</Name>
++      <Name lang="es">Enfermedad inflamatoria intestinal del lactante asociada al gen IL21</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -271305,7 +271273,7 @@
+     <Disorder id="25138">
+       <OrphaCode>477673</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=477673</ExpertLink>
+-      <Name lang="es">Síndrome postnatal de microcefalia-hipotonía infantil-diplejía espástica-disartria-discapacidad intelectual</Name>
++      <Name lang="es">Síndrome de microcefalia postnatal-hipotonía infantil-diplejía espástica-disartria-discapacidad intelectual</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -274610,7 +274578,7 @@
+     <Disorder id="10958">
+       <OrphaCode>70587</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=70587</ExpertLink>
+-      <Name lang="es">Síndrome de  distrés respiratorio agudo infantil</Name>
++      <Name lang="es">Síndrome de dificultad respiratoria aguda del lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -282301,7 +282269,7 @@
+     <Disorder id="28448">
+       <OrphaCode>565788</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=565788</ExpertLink>
+-      <Name lang="es">Enfermedad inflamatoria intestinal infantil con afectación neurológica</Name>
++      <Name lang="es">Enfermedad inflamatoria intestinal del lactante con afectación neurológica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -305106,119 +305074,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="11906">
+-      <OrphaCode>89841</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89841</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica centrípeta recesiva</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="6950">
+-          <Source>Dr Giovanna ZAMBRUNO[EXPERT]_4026337[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="es">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="es">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>10.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="6951">
+-          <Source>ORPHANET_4026337[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+-    <Disorder id="11905">
+-      <OrphaCode>89840</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89840</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa juntural tipo no Herlitz</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="10622">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+-    <Disorder id="11904">
+-      <OrphaCode>89839</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89839</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple superficial</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="6949">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="es">Desconocido</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="11919">
+       <OrphaCode>90001</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=90001</ExpertLink>
+@@ -315554,11 +315409,11 @@
+       <OrphaCode>79402</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79402</ExpertLink>
+       <Name lang="es">Epidermólisis ampollosa juntural generalizada intermedia</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="6509">
+@@ -315960,11 +315815,11 @@
+       <OrphaCode>79410</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79410</ExpertLink>
+       <Name lang="es">Epidermólisis ampollosa distrófica pretibial</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="6526">
+@@ -330991,7 +330846,7 @@
+     <Disorder id="11644">
+       <OrphaCode>85179</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=85179</ExpertLink>
+-      <Name lang="es">Osteopetrosis con displasia neuroaxonal, forma infantil</Name>
++      <Name lang="es">Osteopetrosis del lactante con displasia neuroaxonal</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -354143,7 +353998,7 @@
+     <Disorder id="28746">
+       <OrphaCode>572428</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=572428</ExpertLink>
+-      <Name lang="es">Proteinosis alveolar pulmonar-hipogammaglobulinemia de inicio en la infancia</Name>
++      <Name lang="es">Proteinosis alveolar pulmonar-hipogammaglobulinemia de inicio en el lactante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>

@@ -1,0 +1,717 @@
+commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Feb 1 13:09:28 2021 +0100
+
+    FEB 2021
+
+diff --git a/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml
+old mode 100644
+new mode 100755
+index d93f71d..5df1519
+--- a/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-01-01 04:41:11" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-02-01 04:41:49" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6043">
++  <DisorderList count="6039">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
+@@ -74880,7 +74880,7 @@
+     <Disorder id="946">
+       <OrphaCode>3027</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3027</ExpertLink>
+-      <Name lang="de">Kaudale Regression-Sequenz</Name>
++      <Name lang="de">Kaudale Regressionssequenz</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -78284,7 +78284,7 @@
+     <Disorder id="1092">
+       <OrphaCode>1590</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1590</ExpertLink>
+-      <Name lang="de">Deletion 13q32</Name>
++      <Name lang="de">Monosomie 13q32, distal</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -82065,7 +82065,7 @@
+     <Disorder id="1226">
+       <OrphaCode>3176</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3176</ExpertLink>
+-      <Name lang="de">Spina bifida - Hypospadie</Name>
++      <Name lang="de">Spina bifida-Hypospadie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -86805,38 +86805,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="16891">
+-      <OrphaCode>139420</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=139420</ExpertLink>
+-      <Name lang="de">Myelitis, akute transverse, sekundäre</Name>
+-      <DisorderType id="21450">
+-        <Name lang="de">Klinischer Subtyp</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="de">Subtyp der Störung</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="8137">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="de">Punktprävalenz</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="de">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="de">Unbekannt</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="de">Weltweit</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="de">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="16892">
+       <OrphaCode>139423</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=139423</ExpertLink>
+@@ -90864,7 +90832,7 @@
+     <Disorder id="16715">
+       <OrphaCode>137776</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=137776</ExpertLink>
+-      <Name lang="de">Syndrom der letalen Kontrakturen Typ 2</Name>
++      <Name lang="de">Syndrom der kongenitalen letalen Kontrakturen Typ 2</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -91094,7 +91062,7 @@
+     <Disorder id="16716">
+       <OrphaCode>137783</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=137783</ExpertLink>
+-      <Name lang="de">Syndrom der letalen Kontrakturen Typ 3</Name>
++      <Name lang="de">Syndrom der kongenitalen letalen Kontrakturen Typ 3</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -93908,7 +93876,7 @@
+     <Disorder id="1637">
+       <OrphaCode>1433</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1433</ExpertLink>
+-      <Name lang="de">Choroidea-Atrophie - Alopezie</Name>
++      <Name lang="de">Aderhautatrophie-Alopezie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -94136,7 +94104,7 @@
+     <Disorder id="1660">
+       <OrphaCode>1486</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1486</ExpertLink>
+-      <Name lang="de">Syndrom der letalen Kontrakturen Typ 1</Name>
++      <Name lang="de">Syndrom der kongenitalen letalen Kontrakturen Typ 1</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -97078,7 +97046,7 @@
+     <Disorder id="1563">
+       <OrphaCode>1345</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1345</ExpertLink>
+-      <Name lang="de">Kardiomyopathie - Katarakt - Anomalien von Wirbelsäule und Becken</Name>
++      <Name lang="de">Kardiomyopathie-Katarakt-Hüftwirbelsäulenerkrankung-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -99911,7 +99879,7 @@
+     <Disorder id="1703">
+       <OrphaCode>1548</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1548</ExpertLink>
+-      <Name lang="de">Kryptorchismus - Arachnodaktylie - Intelligenzminderung</Name>
++      <Name lang="de">Kryptorchismus-Arachnodaktylie-Intelligenzminderung-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -110153,11 +110121,11 @@
+       <OrphaCode>158676</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=158676</ExpertLink>
+       <Name lang="de">Epidermolysis bullosa, dystrophe, dominante, nur Nägel</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="8266">
+@@ -110202,11 +110170,11 @@
+       <OrphaCode>158673</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=158673</ExpertLink>
+       <Name lang="de">Epidermolysis bullosa, dystrophe, akrale Form</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="8263">
+@@ -110382,7 +110350,7 @@
+     <Disorder id="1949">
+       <OrphaCode>2013</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2013</ExpertLink>
+-      <Name lang="de">Gaumenspalte - große Ohren - Kleinwuchs</Name>
++      <Name lang="de">Gaumenspalte-große Ohren-Kleinwuchs-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -110855,7 +110823,7 @@
+     <Disorder id="2200">
+       <OrphaCode>2348</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2348</ExpertLink>
+-      <Name lang="de">Lipodystrophie, familiäre partielle, Typ  Dunnigan</Name>
++      <Name lang="de">Lipodystrophie, familiäre partielle, Typ Dunnigan</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -112802,7 +112770,7 @@
+     <Disorder id="2239">
+       <OrphaCode>2412</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2412</ExpertLink>
+-      <Name lang="de">Hüftdislokation - Dysmorphien</Name>
++      <Name lang="de">Hüftdislokation-Dysmorphie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -114825,7 +114793,7 @@
+     <Disorder id="19513">
+       <OrphaCode>247234</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=247234</ExpertLink>
+-      <Name lang="de">Sporadische Ataxie mit Beginn im Erwachsenenalter unbekannter Ätiologie</Name>
++      <Name lang="de">Sporadische Ataxie unbekannter Ätiologie im Erwachsenenalter</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -116741,7 +116709,7 @@
+     <Disorder id="2052">
+       <OrphaCode>2153</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2153</ExpertLink>
+-      <Name lang="de">Hirschsprung-Krankheit-Nagelhypoplasie-Dysmorphien-Syndrom</Name>
++      <Name lang="de">Hirschsprung-Krankheit-Nagelhypoplasie-Dysmorphie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -117016,7 +116984,7 @@
+     <Disorder id="2058">
+       <OrphaCode>2163</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2163</ExpertLink>
+-      <Name lang="de">Holoprosenzephalie - Kraniosynostose</Name>
++      <Name lang="de">Holoprosenzephalie-Kraniosynostose-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -119622,7 +119590,7 @@
+     <Disorder id="2117">
+       <OrphaCode>2246</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2246</ExpertLink>
+-      <Name lang="de">Zerebelläre Hypoplasie  - tapetoretinale Degeneration</Name>
++      <Name lang="de">Zerebelläre Hypoplasie-tapetoretinale Degeneration-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -120380,7 +120348,7 @@
+     <Disorder id="19638">
+       <OrphaCode>251380</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251380</ExpertLink>
+-      <Name lang="de">Hereditäre Persistenz des fetalen Hämoglobins  - Sichelzellkrankheit</Name>
++      <Name lang="de">Hereditäre Persistenz des fetalen Hämoglobins mit Sichelzellkrankheit</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -120657,7 +120625,7 @@
+     <Disorder id="19635">
+       <OrphaCode>251365</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251365</ExpertLink>
+-      <Name lang="de">Sichelzellkrankheit  - Hämoglobin-C-Krankheit</Name>
++      <Name lang="de">Sichelzellkrankheit mit Hämoglobin-C-Krankheit</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -121095,11 +121063,11 @@
+       <OrphaCode>251393</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=251393</ExpertLink>
+       <Name lang="de">Epidermolysis bullosa, junktionale lokalisierte, non-Herlitz Typ</Name>
+-      <DisorderType id="21450">
+-        <Name lang="de">Klinischer Subtyp</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="de">Subtyp der Störung</Name>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="9158">
+@@ -122611,7 +122579,7 @@
+     <Disorder id="19807">
+       <OrphaCode>255182</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=255182</ExpertLink>
+-      <Name lang="de">Pyruvat-Dehydrogenase-Protein-X-Komponenten-Mangel</Name>
++      <Name lang="de">Pyruvat-Dehydrogenase-E3-bindendes Protein-Mangel</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -134358,7 +134326,7 @@
+     <Disorder id="20049">
+       <OrphaCode>263410</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=263410</ExpertLink>
+-      <Name lang="de">Infantile Spasmen - psychomotorische Retardierung - progressive Hirnatrophie-  Basalganglienerkrankung</Name>
++      <Name lang="de">Infantile Spasmen-psychomotorische Retardierung-progressive Hirnatrophie-Basalganglienerkrankung-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -137775,7 +137743,7 @@
+     <Disorder id="2596">
+       <OrphaCode>2863</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2863</ExpertLink>
+-      <Name lang="de">Kleinwuchs - Wormsche Knochen - Dextrokardie</Name>
++      <Name lang="de">Kleinwuchs-Wormsche Knochen-Dextrokardie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -139507,7 +139475,7 @@
+     <Disorder id="2565">
+       <OrphaCode>2826</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2826</ExpertLink>
+-      <Name lang="de">Spastische Paraplegie - vorzeitige Pubertät</Name>
++      <Name lang="de">Spastische Paraplegie-vorzeitige Pubertät-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -139588,7 +139556,7 @@
+     <Disorder id="20166">
+       <OrphaCode>268129</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=268129</ExpertLink>
+-      <Name lang="de">Spheroid-body-Myopathie</Name>
++      <Name lang="de">Sphäroidkörper-Myopathie</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -139620,7 +139588,7 @@
+     <Disorder id="2560">
+       <OrphaCode>2819</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2819</ExpertLink>
+-      <Name lang="de">Spastische Paraplegie - kutane Gesichtsläsionen</Name>
++      <Name lang="de">Spastische Paraplegie-kutane Gesichtsläsionen-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -139669,7 +139637,7 @@
+     <Disorder id="2561">
+       <OrphaCode>2820</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2820</ExpertLink>
+-      <Name lang="de">Spastische Paraplegie - Nephritis - Schwerhörigkeit</Name>
++      <Name lang="de">Spastische Paraplegie-Nephritis-Schwerhörigkeit-Syndrom</Name>
+       <DisorderType id="21422">
+         <Name lang="de">Klinisches Syndrom</Name>
+       </DisorderType>
+@@ -139718,7 +139686,7 @@
+     <Disorder id="2562">
+       <OrphaCode>2821</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2821</ExpertLink>
+-      <Name lang="de">Spastische Paraplegie - Neuropathie - Poikilodermie</Name>
++      <Name lang="de">Spastische Paraplegie-Neuropathie-Poikilodermie-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -139799,7 +139767,7 @@
+     <Disorder id="2572">
+       <OrphaCode>2835</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2835</ExpertLink>
+-      <Name lang="de">Pectus excavatum - Makrozephalie - Nageldysplasie</Name>
++      <Name lang="de">Pectus excavatum-Makrozephalie-Nageldysplasie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -140080,7 +140048,7 @@
+     <Disorder id="2569">
+       <OrphaCode>2832</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2832</ExpertLink>
+-      <Name lang="de">Tarsus, kurzer  - Fehlen der unteren Augenwimpern</Name>
++      <Name lang="de">kurzer Tarsus - Fehlen der unteren Augenwimpern</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -141860,7 +141828,7 @@
+     <Disorder id="2655">
+       <OrphaCode>2941</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2941</ExpertLink>
+-      <Name lang="de">Porenzephalie - zerebelläre Hypoplasie - Fehlbildungen</Name>
++      <Name lang="de">Porenzephalie-zerebelläre Hypoplasie-interne Fehlbildungen-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -171211,7 +171179,7 @@
+     <Disorder id="18804">
+       <OrphaCode>216981</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=216981</ExpertLink>
+-      <Name lang="de">Niemann-Pick-Krankheit Typ C,  juvenile neurologische Form</Name>
++      <Name lang="de">Niemann-Pick-Krankheit Typ C, juvenile neurologische Form</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -177966,7 +177934,7 @@
+     <Disorder id="18935">
+       <OrphaCode>221061</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=221061</ExpertLink>
+-      <Name lang="de">Zerebrale  kavernöse Fehlbildung, hereditäre</Name>
++      <Name lang="de">Zerebrale kavernöse Fehlbildung, hereditäre</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -183707,7 +183675,7 @@
+     <Disorder id="19096">
+       <OrphaCode>228290</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228290</ExpertLink>
+-      <Name lang="de">Papulose der Halsregion,  fibröse weiße</Name>
++      <Name lang="de">Papulose der Halsregion, fibröse weiße</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -187194,7 +187162,7 @@
+     <Disorder id="19146">
+       <OrphaCode>231013</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=231013</ExpertLink>
+-      <Name lang="de">Trigeminale Anaesthesie, kongenitale</Name>
++      <Name lang="de">Trigeminusanästhesie, kongenitale</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -187924,7 +187892,7 @@
+     <Disorder id="19214">
+       <OrphaCode>231736</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=231736</ExpertLink>
+-      <Name lang="de">Mikrokornea - Lenticonus posterior - persistierender primärer Vitreus  - Kolobom</Name>
++      <Name lang="de">Mikrokornea-Vorderer Lentikonus-persistierender primärer Vitreus-Kolobom-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -212298,7 +212266,7 @@
+     <Disorder id="20726">
+       <OrphaCode>289483</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=289483</ExpertLink>
+-      <Name lang="de">Inteligenzminderung - Alakrimie - Achalasie</Name>
++      <Name lang="de">Intelligenzminderung-Alakrimie-Achalasie-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -212824,7 +212792,7 @@
+     <Disorder id="20533">
+       <OrphaCode>281201</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=281201</ExpertLink>
+-      <Name lang="de">Keratosis linearis - Ichthyosis congenita - sklerosierendes Keratoderm</Name>
++      <Name lang="de">Keratosis linearis-Ichthyosis congenita-sklerosierendes Keratoderm-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -246493,7 +246461,7 @@
+     <Disorder id="23116">
+       <OrphaCode>420584</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=420584</ExpertLink>
+-      <Name lang="de">Post-axiale Polydaktylie-vordere Hypophysenanomalien-Gesichtsdysmorphien-Syndrom</Name>
++      <Name lang="de">Postaxiale Polydaktylie-vordere Hypophysenanomalien-Gesichtsdysmorphien-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -246689,7 +246657,7 @@
+     <Disorder id="23115">
+       <OrphaCode>420573</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=420573</ExpertLink>
+-      <Name lang="de">Immundefekt, kombinierter schwerer, T+B+, durch CTPS1-Genmutation</Name>
++      <Name lang="de">Immundefekt, kombinierter schwerer, durch CTPS1-Defizienz</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -246787,7 +246755,7 @@
+     <Disorder id="23158">
+       <OrphaCode>423461</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=423461</ExpertLink>
+-      <Name lang="de">Mukolipidose  Typ III alpha/beta</Name>
++      <Name lang="de">Mukolipidose Typ III alpha/beta</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -278820,7 +278788,7 @@
+     <Disorder id="10856">
+       <OrphaCode>64752</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=64752</ExpertLink>
+-      <Name lang="de">Neuropathie, autonome hereditäre sensorische, Typ  5</Name>
++      <Name lang="de">Neuropathie, autonome hereditäre sensorische, Typ 5</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -285447,7 +285415,7 @@
+     <Disorder id="11154">
+       <OrphaCode>79127</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79127</ExpertLink>
+-      <Name lang="de">Respiratorische Bronchiolitis  - interstitielle Lungenerkrankung</Name>
++      <Name lang="de">Respiratorische Bronchiolitis mit interstitieller Lungenerkrankung</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -285724,7 +285692,7 @@
+     <Disorder id="11111">
+       <OrphaCode>77299</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=77299</ExpertLink>
+-      <Name lang="de">Mikrophthalmie - Hirnatrophie</Name>
++      <Name lang="de">Mikrophthalmie-Hirnatrophie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -287831,7 +287799,7 @@
+     <Disorder id="11047">
+       <OrphaCode>73271</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=73271</ExpertLink>
+-      <Name lang="de">Hämorrhagische Diathese  durch Kollagen-Rezeptor-Mangel</Name>
++      <Name lang="de">Hämorrhagische Diathese durch Kollagen-Rezeptor-Mangel</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -288656,7 +288624,7 @@
+     <Disorder id="11069">
+       <OrphaCode>75249</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=75249</ExpertLink>
+-      <Name lang="de">Kardiomyopathie, restriktive,  familiäre isolierte</Name>
++      <Name lang="de">Kardiomyopathie, restriktive, familiäre isolierte</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -305106,119 +305074,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="11906">
+-      <OrphaCode>89841</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=89841</ExpertLink>
+-      <Name lang="de">Epidermolysis bullosa, dystrophe zentripetale</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="6950">
+-          <Source>Dr Giovanna ZAMBRUNO[EXPERT]_4026337[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="de">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="de">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>10.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="de">Weltweit</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="de">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="6951">
+-          <Source>ORPHANET_4026337[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="de">Punktprävalenz</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="de">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="de">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="de">Weltweit</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="de">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+-    <Disorder id="11905">
+-      <OrphaCode>89840</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=89840</ExpertLink>
+-      <Name lang="de">Epidermolysis bullosa, junktionale, non-Herlitz Typ</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="10622">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="de">Punktprävalenz</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="de">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="de">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="de">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="de">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+-    <Disorder id="11904">
+-      <OrphaCode>89839</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=89839</ExpertLink>
+-      <Name lang="de">Epidermolysis bullosa simplex superficialis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="6949">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="de">Punktprävalenz</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="de">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="de">Unbekannt</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="de">Weltweit</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="de">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="11919">
+       <OrphaCode>90001</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90001</ExpertLink>
+@@ -310041,7 +309896,7 @@
+     <Disorder id="12220">
+       <OrphaCode>93279</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93279</ExpertLink>
+-      <Name lang="de">Osteoarthritis, früh beginnende, mit milder spondyloepiphysäre Dysplasie durch COL2A1-Genmutation</Name>
++      <Name lang="de">Milde spondyloepiphysäre Dysplasie durch COL2A1-Genmutation mit früh beginnender Osteoarthritis</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -311786,7 +311641,7 @@
+     <Disorder id="12252">
+       <OrphaCode>93315</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93315</ExpertLink>
+-      <Name lang="de">Dysplasie, spondylometaphysäre,  Corner-fracture-Typ</Name>
++      <Name lang="de">Dysplasie, spondylometaphysäre, Corner-fracture-Typ</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -315554,11 +315409,11 @@
+       <OrphaCode>79402</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79402</ExpertLink>
+       <Name lang="de">Epidermolysis bullosa, junktionale, generalisierte intermediäre</Name>
+-      <DisorderType id="21450">
+-        <Name lang="de">Klinischer Subtyp</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="de">Subtyp der Störung</Name>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="6509">
+@@ -315910,7 +315765,7 @@
+     <Disorder id="11437">
+       <OrphaCode>79411</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79411</ExpertLink>
+-      <Name lang="de">Dermolyse,  bullöse transiente, des Neugeborenen</Name>
++      <Name lang="de">Dermolyse, bullöse transiente, des Neugeborenen</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -315960,11 +315815,11 @@
+       <OrphaCode>79410</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79410</ExpertLink>
+       <Name lang="de">Epidermolysis bullosa, dystrophe prätibiale</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="6526">
+@@ -327116,7 +326971,7 @@
+     <Disorder id="11528">
+       <OrphaCode>79502</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=79502</ExpertLink>
+-      <Name lang="de">Palmoplantarkeratose, punktierte, Typ II</Name>
++      <Name lang="de">Palmoplantarkeratose, punktierte, Typ 2</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -340963,7 +340818,7 @@
+     <Disorder id="14111">
+       <OrphaCode>99094</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99094</ExpertLink>
+-      <Name lang="de">Laubry-pezzi-Syndrom</Name>
++      <Name lang="de">Laubry-Pezzi-Syndrom</Name>
+       <DisorderType id="21415">
+         <Name lang="de">Morphologische Anomalie</Name>
+       </DisorderType>
+@@ -357131,7 +356986,7 @@
+     <Disorder id="14721">
+       <OrphaCode>101010</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=101010</ExpertLink>
+-      <Name lang="de">Spastische Paraplegie, autosomal-rezessive, Typ 30</Name>
++      <Name lang="de">Spastische Paraplegie, autosomale, Typ 30</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>

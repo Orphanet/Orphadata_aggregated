@@ -1,0 +1,502 @@
+commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Feb 1 13:09:28 2021 +0100
+
+    FEB 2021
+
+diff --git a/Epidemiological data/Rare diseases natural history/it_product9_ages.xml b/Epidemiological data/Rare diseases natural history/it_product9_ages.xml
+old mode 100644
+new mode 100755
+index 6317972..7d1ef5e
+--- a/Epidemiological data/Rare diseases natural history/it_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/it_product9_ages.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-01-01 04:40:50" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-02-01 04:41:29" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6584">
++  <DisorderList count="6580">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=166024</ExpertLink>
+@@ -13651,7 +13651,7 @@
+     <Disorder id="589">
+       <OrphaCode>3173</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3173</ExpertLink>
+-      <Name lang="it">Spasmi infantili - pollici larghi</Name>
++      <Name lang="it">Sindrome spasmi infantili - pollici larghi</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -21534,10 +21534,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23508">
+           <Name lang="it">Prenatale</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="it">Neonatal</Name>
+         </AverageAgeOfOnset>
+@@ -26595,32 +26601,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="16891">
+-      <OrphaCode>139420</OrphaCode>
+-      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=139420</ExpertLink>
+-      <Name lang="it">Mielite trasversa acuta secondaria</Name>
+-      <DisorderType id="21450">
+-        <Name lang="it">Sottotipo clinico</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="it">Sottotipo della malattia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="it">Qualsiasi età</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="it">Qualsiasi età</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="it">Non applicabile</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="16892">
+       <OrphaCode>139423</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=139423</ExpertLink>
+@@ -38346,7 +38326,7 @@
+     <Disorder id="2021">
+       <OrphaCode>2110</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2110</ExpertLink>
+-      <Name lang="it">Alluce varo - polisindattilia preassiale</Name>
++      <Name lang="it">Sindrome da alluce varo e polisindattilia preassiale</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -38827,7 +38807,7 @@
+     <Disorder id="17179">
+       <OrphaCode>158025</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=158025</ExpertLink>
+-      <Name lang="it">Istiocitosi progressiva ereditaria delle mucose</Name>
++      <Name lang="it">Istiocitosi mucinosa ereditaria progressiva</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -40478,11 +40458,11 @@
+       <OrphaCode>158676</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=158676</ExpertLink>
+       <Name lang="it">Epidermolisi bollosa distrofica esclusivamente ungueale</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
++      <DisorderType id="21450">
++        <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
++      <DisorderGroup id="36554">
++        <Name lang="it">Sottotipo della malattia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -40507,11 +40487,11 @@
+       <OrphaCode>158673</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=158673</ExpertLink>
+       <Name lang="it">Epidermolisi bollosa distrofica acrale</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
++      <DisorderType id="21450">
++        <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
++      <DisorderGroup id="36554">
++        <Name lang="it">Sottotipo della malattia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -43493,7 +43473,7 @@
+     <Disorder id="2300">
+       <OrphaCode>2487</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2487</ExpertLink>
+-      <Name lang="it">Anomalie degli arti inferiori - ipospadia</Name>
++      <Name lang="it">Sindrome da malformazioni degli arti inferiori e ipospadia</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -47224,7 +47204,7 @@
+     <Disorder id="19595">
+       <OrphaCode>250972</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=250972</ExpertLink>
+-      <Name lang="it">Polimicrogiria con ipoplasia dei nervi ottici</Name>
++      <Name lang="it">Polimicrogiria con ipoplasia del nervo ottico</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -47803,11 +47783,11 @@
+       <OrphaCode>251393</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=251393</ExpertLink>
+       <Name lang="it">Epidermolisi bollosa giunzionale localizzata, tipo non-Herlitz</Name>
+-      <DisorderType id="21450">
+-        <Name lang="it">Sottotipo clinico</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="it">Sottotipo della malattia</Name>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -56704,7 +56684,7 @@
+     <Disorder id="2778">
+       <OrphaCode>3104</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3104</ExpertLink>
+-      <Name lang="it">Sequenza di Pierre Robin - oligodattilia</Name>
++      <Name lang="it">Sindrome da sequenza di Pierre Robin e oligodattilia</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -57960,7 +57940,7 @@
+     <Disorder id="2583">
+       <OrphaCode>2848</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2848</ExpertLink>
+-      <Name lang="it">Sindrome camptodattilia-artropatia-ginocchio varo-pericardite</Name>
++      <Name lang="it">Sindrome camptodattilia-artropatia-coxa-vara-pericardite</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -69117,7 +69097,7 @@
+     <Disorder id="3087">
+       <OrphaCode>3074</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3074</ExpertLink>
+-      <Name lang="it">Ritardo mentale - bassa statura - ipertelorismo</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, bassa statura e ipertelorismo</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -69970,7 +69950,7 @@
+     <Disorder id="18656">
+       <OrphaCode>209370</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=209370</ExpertLink>
+-      <Name lang="it">Encefalopatia grave a esordio neonatale con microcefalia</Name>
++      <Name lang="it">Encefalopatia grave ad esordio neonatale con microcefalia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -82763,7 +82743,7 @@
+     <Disorder id="19345">
+       <OrphaCode>240760</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=240760</ExpertLink>
+-      <Name lang="it">Disturbo sindromico da rottura cromosomica simil-Nijmegen</Name>
++      <Name lang="it">Malattia simile alla sindrome da rotture cromosomiche di Nijmegen</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -88703,7 +88683,7 @@
+     <Disorder id="22452">
+       <OrphaCode>369950</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=369950</ExpertLink>
+-      <Name lang="it">Sindrome deficit cognitivo-convulsioni-macrocefalia-obesità</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva crisi epilettiche, macrocefalia e obesità</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -88908,7 +88888,7 @@
+     <Disorder id="22433">
+       <OrphaCode>369837</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=369837</ExpertLink>
+-      <Name lang="it">Sindrome deficit cognitivo-convulsioni-ipotonia-anomalie oftalmologiche e scheletriche</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, crisi epilettiche, ipotonia e anomalie oculari e scheletriche</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -97185,7 +97165,7 @@
+     <Disorder id="21449">
+       <OrphaCode>313772</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=313772</ExpertLink>
+-      <Name lang="it">Sindrome atassia spastica-neuropatia, a esordio precoce</Name>
++      <Name lang="it">Sindrome da atassia spastica, epilessia mioclonica e neuropatia ad esordio precoce</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -97408,7 +97388,7 @@
+     <Disorder id="21492">
+       <OrphaCode>314485</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=314485</ExpertLink>
+-      <Name lang="it">Neuropatia motoria ereditaria distale a esordio nel giovane adulto</Name>
++      <Name lang="it">Neuropatia motoria ereditaria distale ad esordio nella prima età adulta</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -100472,7 +100452,7 @@
+     <Disorder id="24056">
+       <OrphaCode>465508</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=465508</ExpertLink>
+-      <Name lang="it">Emocromatosi tipo 1, forma sintomatica</Name>
++      <Name lang="it">Forma sintomatica dell'emocromatosi tipo 1</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -100498,7 +100478,7 @@
+     <Disorder id="24010">
+       <OrphaCode>464282</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=464282</ExpertLink>
+-      <Name lang="it">Sindrome paraplegia spastica - ritardo psicomotorio - crisi epilettiche</Name>
++      <Name lang="it">Sindrome da paraplegia spastica, grave ritardo dello sviluppo ed epilessia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -104396,7 +104376,7 @@
+     <Disorder id="24171">
+       <OrphaCode>466801</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=466801</ExpertLink>
+-      <Name lang="it">Distrofia dei cingoli autosomica recessiva tipo 2W</Name>
++      <Name lang="it">Distrofia muscolare dei cingoli automica recessiva tipo 2W</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -104573,7 +104553,7 @@
+     <Disorder id="24163">
+       <OrphaCode>466729</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=466729</ExpertLink>
+-      <Name lang="it">Pervietà familiare del dotto arterisoso</Name>
++      <Name lang="it">Dotto arterioso pervio familiare</Name>
+       <DisorderType id="21415">
+         <Name lang="it">Anomalia morfologica</Name>
+       </DisorderType>
+@@ -104816,7 +104796,7 @@
+     <Disorder id="24203">
+       <OrphaCode>467176</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=467176</ExpertLink>
+-      <Name lang="it">Sindrome ipotonia grave-ritardo dello sviluppo psicomotorio - paralisi del nervo abducente - difetto del setto cardiaco autosomica recessiva</Name>
++      <Name lang="it">Sindrome da ipotonia grave, ritardo dello sviluppo psicomotorio, strabismo e difetto del setto cardiaco</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -108427,7 +108407,7 @@
+     <Disorder id="22711">
+       <OrphaCode>397951</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397951</ExpertLink>
+-      <Name lang="it">Sindrome microcefalia-corpo calloso sottile-deficit cognitivo</Name>
++      <Name lang="it">Sindrome da microcefalia, corpo calloso sottile e disabilità intellettiva</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -115353,7 +115333,7 @@
+     <Disorder id="23231">
+       <OrphaCode>431140</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=431140</ExpertLink>
+-      <Name lang="it">Sindrome legata all'X microftalmia colobomatosa-microcefalia-disabilità cognitiva-bassa statura</Name>
++      <Name lang="it">Sindrome legata all'X da microftalmia colobomatosa, microcefalia, disabilità intellettiva e bassa statura</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -115780,7 +115760,7 @@
+     <Disorder id="23235">
+       <OrphaCode>431166</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=431166</ExpertLink>
+-      <Name lang="it">Immunodeficienza primitiva da deficit di STAT2</Name>
++      <Name lang="it">Immunodeficienza primitiva con infezione virale post-vaccinazione anti morbillo-parotite-rosolia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -123815,7 +123795,7 @@
+     <Disorder id="25213">
+       <OrphaCode>480528</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=480528</ExpertLink>
+-      <Name lang="it">Sindrome letale idranencefalia-ernia diaframmatica</Name>
++      <Name lang="it">Sindrome letale da idranencefalia ed ernia diaframmatica</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -124005,7 +123985,7 @@
+     <Disorder id="25164">
+       <OrphaCode>477993</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=477993</ExpertLink>
+-      <Name lang="it">Sindrome anomalie del palato - denti iperdistanziati - dismorfismi facciali - ritardo dello sviluppo</Name>
++      <Name lang="it">Sindrome da anomalie del palato, denti iperdistanziati, dismorfismi facciali e ritardo dello sviluppo</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -125357,7 +125337,7 @@
+     <Disorder id="25086">
+       <OrphaCode>476096</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=476096</ExpertLink>
+-      <Name lang="it">Sindrome eritrocheratodermia - cardiomiopatia</Name>
++      <Name lang="it">Eritrocheratodermia con cardiomiopatia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -142799,90 +142779,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="11906">
+-      <OrphaCode>89841</OrphaCode>
+-      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=89841</ExpertLink>
+-      <Name lang="it">Epidermolisi bollosa distrofica recessiva centripeta</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="it">Infanzia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="it">Neonatal</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="it">Autosomica recessiva</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="11905">
+-      <OrphaCode>89840</OrphaCode>
+-      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=89840</ExpertLink>
+-      <Name lang="it">Epidermolisi bollosa giunzionale, tipo non-Herlitz</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="it">Infanzia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="it">Neonatal</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="2">
+-        <AverageAgeOfDeath id="23613">
+-          <Name lang="it">adolescenti</Name>
+-        </AverageAgeOfDeath>
+-        <AverageAgeOfDeath id="23606">
+-          <Name lang="it">tarda infanzia</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="it">Autosomica recessiva</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="11904">
+-      <OrphaCode>89839</OrphaCode>
+-      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=89839</ExpertLink>
+-      <Name lang="it">Epidermolisi bollosa semplice superficiale</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="it">Infanzia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="it">Neonatal</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="it">Autosomica dominante</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="11919">
+       <OrphaCode>90001</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90001</ExpertLink>
+@@ -149363,11 +149259,11 @@
+       <OrphaCode>79402</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=79402</ExpertLink>
+       <Name lang="it">Epidermolisi bollosa giunzionale generalizzata, tipo non-Herlitz</Name>
+-      <DisorderType id="21450">
+-        <Name lang="it">Sottotipo clinico</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="it">Sottotipo della malattia</Name>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -149557,11 +149453,11 @@
+       <OrphaCode>79410</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=79410</ExpertLink>
+       <Name lang="it">Epidermolisi bollosa distrofica pretibiale</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
++      <DisorderType id="21450">
++        <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
++      <DisorderGroup id="36554">
++        <Name lang="it">Sottotipo della malattia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -158505,7 +158401,7 @@
+     <Disorder id="12808">
+       <OrphaCode>96184</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=96184</ExpertLink>
+-      <Name lang="it">Disomia uniparentale materna del cromosoma 14</Name>
++      <Name lang="it">SIndrome di Temple da disomia uniparentale materna del cromosoma 14</Name>
+       <DisorderType id="21443">
+         <Name lang="it">Sottotipo eziologico</Name>
+       </DisorderType>
+@@ -171417,7 +171313,7 @@
+     <Disorder id="14650">
+       <OrphaCode>100078</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=100078</ExpertLink>
+-      <Name lang="it">Tumore endocrino ileale</Name>
++      <Name lang="it">Tumore neuroendocrino dell'ileo</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -171437,7 +171333,7 @@
+     <Disorder id="14649">
+       <OrphaCode>100077</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=100077</ExpertLink>
+-      <Name lang="it">Tumore endocrino del digiuno</Name>
++      <Name lang="it">Tumore neuroendocrino del digiuno</Name>
+       <DisorderType id="36561">
+         <Name lang="it">Category</Name>
+       </DisorderType>
