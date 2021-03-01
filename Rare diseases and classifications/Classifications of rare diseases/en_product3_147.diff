@@ -1,0 +1,298 @@
+commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Feb 1 13:09:28 2021 +0100
+
+    FEB 2021
+
+diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml
+old mode 100644
+new mode 100755
+index c5bc949..e0d43cd
+--- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
++++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-01-01 04:31:53" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-02-01 04:32:29" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -2994,7 +2994,7 @@
+                               <Disorder id="485">
+                                 <OrphaCode>1880</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1880</ExpertLink>
+-                                <Name lang="en">Ebstein malformation</Name>
++                                <Name lang="en">Ebstein malformation of the tricuspid valve</Name>
+                                 <DisorderType id="21415">
+                                   <Name lang="en">Morphological anomaly</Name>
+                                 </DisorderType>
+@@ -17072,7 +17072,7 @@
+                           <Disorder id="2180">
+                             <OrphaCode>2325</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2325</ExpertLink>
+-                            <Name lang="en">Epidermolysis bullosa simplex with deafness, alopecia, anodontia/hypodontia and nail dystrophy</Name>
++                            <Name lang="en">Epidermolysis bullosa simplex with anodontia/hypodontia</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -20096,7 +20096,7 @@
+                           <Disorder id="16705">
+                             <OrphaCode>137678</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137678</ExpertLink>
+-                            <Name lang="en">Czech dysplasia, metatarsal type</Name>
++                            <Name lang="en">Spondyloepiphyseal dysplasia with metatarsal shortening</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -33809,7 +33809,7 @@
+                       <Name lang="en">Clinical group</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="8">
++                  <ClassificationNodeChildList count="9">
+                     <ClassificationNode>
+                       <Disorder id="2233">
+                         <OrphaCode>2407</OrphaCode>
+@@ -33871,39 +33871,15 @@
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="11905">
+-                        <OrphaCode>89840</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89840</ExpertLink>
+-                        <Name lang="en">Junctional epidermolysis bullosa, non-Herlitz type</Name>
++                      <Disorder id="19640">
++                        <OrphaCode>251393</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251393</ExpertLink>
++                        <Name lang="en">Localized junctional epidermolysis bullosa, non-Herlitz type</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="2">
+-                        <ClassificationNode>
+-                          <Disorder id="11428">
+-                            <OrphaCode>79402</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79402</ExpertLink>
+-                            <Name lang="en">Junctional epidermolysis bullosa, generalized intermediate</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="19640">
+-                            <OrphaCode>251393</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251393</ExpertLink>
+-                            <Name lang="en">Localized junctional epidermolysis bullosa, non-Herlitz type</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
++                      <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -33930,6 +33906,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="11428">
++                        <OrphaCode>79402</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79402</ExpertLink>
++                        <Name lang="en">Junctional epidermolysis bullosa, generalized intermediate</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -33941,7 +33929,7 @@
+                       <Name lang="en">Clinical group</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="10">
++                  <ClassificationNodeChildList count="7">
+                     <ClassificationNode>
+                       <Disorder id="11434">
+                         <OrphaCode>79408</OrphaCode>
+@@ -33967,15 +33955,51 @@
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="11436">
+-                        <OrphaCode>79410</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79410</ExpertLink>
+-                        <Name lang="en">Pretibial dystrophic epidermolysis bullosa</Name>
++                      <Disorder id="29740">
++                        <OrphaCode>595356</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595356</ExpertLink>
++                        <Name lang="en">Localized dystrophic epidermolysis bullosa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="0">
++                      <ClassificationNodeChildList count="3">
++                        <ClassificationNode>
++                          <Disorder id="11436">
++                            <OrphaCode>79410</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79410</ExpertLink>
++                            <Name lang="en">Pretibial dystrophic epidermolysis bullosa</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="17233">
++                            <OrphaCode>158673</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158673</ExpertLink>
++                            <Name lang="en">Acral dystrophic epidermolysis bullosa</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="17234">
++                            <OrphaCode>158676</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158676</ExpertLink>
++                            <Name lang="en">Dominant dystrophic epidermolysis bullosa, nails only</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -33990,18 +34014,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="11906">
+-                        <OrphaCode>89841</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89841</ExpertLink>
+-                        <Name lang="en">Centripetalis recessive dystrophic epidermolysis bullosa</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="11907">
+                         <OrphaCode>89842</OrphaCode>
+@@ -34038,30 +34050,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="17234">
+-                        <OrphaCode>158676</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158676</ExpertLink>
+-                        <Name lang="en">Dominant dystrophic epidermolysis bullosa, nails only</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="17233">
+-                        <OrphaCode>158673</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158673</ExpertLink>
+-                        <Name lang="en">Acral dystrophic epidermolysis bullosa</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -35386,7 +35374,7 @@
+                       <Disorder id="17232">
+                         <OrphaCode>158668</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158668</ExpertLink>
+-                        <Name lang="en">Epidermolysis bullosa simplex due to plakophilin deficiency</Name>
++                        <Name lang="en">Ectodermal dysplasia-skin fragility syndrome</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -36840,7 +36828,7 @@
+                   <Disorder id="1007">
+                     <OrphaCode>528</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528</ExpertLink>
+-                    <Name lang="en">Berardinelli-Seip congenital lipodystrophy</Name>
++                    <Name lang="en">Congenital generalized lipodystrophy</Name>
+                     <DisorderType id="21394">
+                       <Name lang="en">Disease</Name>
+                     </DisorderType>
+@@ -38984,7 +38972,7 @@
+                           <Disorder id="1451">
+                             <OrphaCode>1200</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1200</ExpertLink>
+-                            <Name lang="en">Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome</Name>
++                            <Name lang="en">Burn-McKeown syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -48230,7 +48218,7 @@
+                                       <Disorder id="19879">
+                                         <OrphaCode>261476</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261476</ExpertLink>
+-                                        <Name lang="en">Xp21 microdeletion syndrome</Name>
++                                        <Name lang="en">Xp21 deletion syndrome</Name>
+                                         <DisorderType id="21394">
+                                           <Name lang="en">Disease</Name>
+                                         </DisorderType>
+@@ -53650,7 +53638,7 @@
+                       <Disorder id="24234">
+                         <OrphaCode>468678</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=468678</ExpertLink>
+-                        <Name lang="en">Intellectual disability-microcephaly-strabismus-behavioral abnormalities syndrome</Name>
++                        <Name lang="en">White-Sutton syndrome</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -57010,7 +56998,7 @@
+                       <Disorder id="1451">
+                         <OrphaCode>1200</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1200</ExpertLink>
+-                        <Name lang="en">Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome</Name>
++                        <Name lang="en">Burn-McKeown syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+@@ -67752,7 +67740,7 @@
+                   <Disorder id="1451">
+                     <OrphaCode>1200</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1200</ExpertLink>
+-                    <Name lang="en">Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome</Name>
++                    <Name lang="en">Burn-McKeown syndrome</Name>
+                     <DisorderType id="21401">
+                       <Name lang="en">Malformation syndrome</Name>
+                     </DisorderType>

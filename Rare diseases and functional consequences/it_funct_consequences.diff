@@ -1,0 +1,485 @@
+commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Feb 1 13:09:28 2021 +0100
+
+    FEB 2021
+
+diff --git a/Rare diseases and functional consequences/it_funct_consequences.xml b/Rare diseases and functional consequences/it_funct_consequences.xml
+old mode 100644
+new mode 100755
+index faf83e1..1d607b8
+--- a/Rare diseases and functional consequences/it_funct_consequences.xml	
++++ b/Rare diseases and functional consequences/it_funct_consequences.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-01-01 04:08:19" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-02-01 04:08:38" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderDisabilityRelevanceList count="910">
++  <DisorderDisabilityRelevanceList count="911">
+     <DisorderDisabilityRelevance id="5">
+       <Disorder id="230">
+         <OrphaCode>893</OrphaCode>
+@@ -154198,6 +154198,456 @@
+       </DisabilityCategory>
+       <ReasonForNotApplicable/>
+     </DisorderDisabilityRelevance>
++    <DisorderDisabilityRelevance id="2121">
++      <Disorder id="101">
++        <OrphaCode>1941</OrphaCode>
++        <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1941</ExpertLink>
++        <Name lang="it">Epilessia con assenze del giovane</Name>
++        <DisorderType id="21394">
++          <Name lang="it">Malattia</Name>
++        </DisorderType>
++        <DisorderGroup id="36547">
++          <Name lang="it">Malattia</Name>
++        </DisorderGroup>
++        <DisabilityDisorderAssociationList count="26">
++          <DisabilityDisorderAssociation id="169415">
++            <Disability id="16">
++              <Name lang="it">Focalizzare l'attenzione</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169416">
++            <Disability id="16">
++              <Name lang="it">Focalizzare l'attenzione</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27236">
++              <Name lang="it">Moderata</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169417">
++            <Disability id="34">
++              <Name lang="it">Participare a una conversazione</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169418">
++            <Disability id="61">
++              <Name lang="it">Prendersi cura della propria salute (dieta, farmaci, prevenzione, bisogni, assistenza, monitoraggio)</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169419">
++            <Disability id="68">
++              <Name lang="it">Gestire lo stress, le responsabilità, le crisi e garantire la propria sicurezza</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27236">
++              <Name lang="it">Moderata</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169420">
++            <Disability id="69">
++              <Name lang="it">Gestire le emozioni e l'umore</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169421">
++            <Disability id="77">
++              <Name lang="it">Guidare</Name>
++            </Disability>
++            <FrequenceDisability id="27201">
++              <Name lang="it">Molto frequente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27264">
++              <Name lang="it">Completa</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169422">
++            <Disability id="87">
++              <Name lang="it">Fare la spesa</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169423">
++            <Disability id="88">
++              <Name lang="it">Cucinare/preparare i pasti</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169424">
++            <Disability id="89">
++              <Name lang="it">Fare le faccende domestiche</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169425">
++            <Disability id="90">
++              <Name lang="it">Assistere gli altri</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169426">
++            <Disability id="92">
++              <Name lang="it">Istruzione prescolastica</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169427">
++            <Disability id="93">
++              <Name lang="it">Istruzione scolastica standard</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169428">
++            <Disability id="94">
++              <Name lang="it">Istruzione scolastica in un ambiente adattato/speciale</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169429">
++            <Disability id="95">
++              <Name lang="it">Formazione professionale (tirocinio/apprendistato) in un istituto ordinario</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169430">
++            <Disability id="96">
++              <Name lang="it">Formazione professionale (tirocinio/apprendistato) in un ambiente adattato/speciale</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169431">
++            <Disability id="97">
++              <Name lang="it">Istruzione superiore</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169432">
++            <Disability id="99">
++              <Name lang="it">Lavoro retribuito in un ambiente ordinario</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169433">
++            <Disability id="101">
++              <Name lang="it">Cercare un impiego</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="it">Frequente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27180">
++              <Name lang="it">Limitazione/restrizione permanente</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169434">
++            <Disability id="101">
++              <Name lang="it">Cercare un impiego</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169435">
++            <Disability id="102">
++              <Name lang="it">Eseguire i compiti richiesti</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169436">
++            <Disability id="108">
++              <Name lang="it">Eseguire la routine quotidiana</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169437">
++            <Disability id="113">
++              <Name lang="it">Praticare sport</Name>
++            </Disability>
++            <FrequenceDisability id="27215">
++              <Name lang="it">Occasionale</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="it">Limitazione/restrizione transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="it">Lieve</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169438">
++            <Disability id="122">
++              <Name lang="it">Intensità della luce</Name>
++            </Disability>
++            <FrequenceDisability/>
++            <TemporalityDisability/>
++            <SeverityDisability/>
++            <LossOfAbility>y</LossOfAbility>
++            <Type>Environmental factor</Type>
++            <Defined>n</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169439">
++            <Disability id="123">
++              <Name lang="it">Qualità della luce</Name>
++            </Disability>
++            <FrequenceDisability/>
++            <TemporalityDisability/>
++            <SeverityDisability/>
++            <LossOfAbility>y</LossOfAbility>
++            <Type>Environmental factor</Type>
++            <Defined>n</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169440">
++            <Disability id="125">
++              <Name lang="it">Cicli giorno/notte</Name>
++            </Disability>
++            <FrequenceDisability/>
++            <TemporalityDisability/>
++            <SeverityDisability/>
++            <LossOfAbility>y</LossOfAbility>
++            <Type>Environmental factor</Type>
++            <Defined>n</Defined>
++          </DisabilityDisorderAssociation>
++        </DisabilityDisorderAssociationList>
++      </Disorder>
++      <SourceOfValidation>Expert</SourceOfValidation>
++      <SpecificManagement>y</SpecificManagement>
++      <Online>y</Online>
++      <AnnotationDate>2021-01-14 00:00:00.0</AnnotationDate>
++      <StatusDisability id="27320">
++        <Name lang="it">Confermato</Name>
++      </StatusDisability>
++      <DisabilityCategory id="27278">
++        <Name lang="it">Limitazione di attività/restrizione alla partecipazione</Name>
++      </DisabilityCategory>
++      <ReasonForNotApplicable/>
++    </DisorderDisabilityRelevance>
+     <DisorderDisabilityRelevance id="2162">
+       <Disorder id="11713">
+         <OrphaCode>85436</OrphaCode>
