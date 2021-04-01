@@ -1,19 +1,19 @@
-commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+commit c92e9c5f9940abcb2c7950377e1c2245059cad90
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Mon Feb 1 13:09:28 2021 +0100
+Date:   Mon Mar 1 10:54:09 2021 +0100
 
-    FEB 2021
+    MARCH 2021
 
 diff --git a/Rare diseases and functional consequences/es_funct_consequences.xml b/Rare diseases and functional consequences/es_funct_consequences.xml
-old mode 100644
-new mode 100755
-index 9501256..aee69f9
+old mode 100755
+new mode 100644
+index aee69f9..396a211
 --- a/Rare diseases and functional consequences/es_funct_consequences.xml	
 +++ b/Rare diseases and functional consequences/es_funct_consequences.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-01-01 04:07:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-02-01 04:07:47" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-02-01 04:07:47" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-03-01 04:07:45" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,325 +21,1375 @@ index 9501256..aee69f9
        <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
      </Licence>
    </Availability>
--  <DisorderDisabilityRelevanceList count="910">
-+  <DisorderDisabilityRelevanceList count="911">
+-  <DisorderDisabilityRelevanceList count="911">
++  <DisorderDisabilityRelevanceList count="910">
      <DisorderDisabilityRelevance id="5">
        <Disorder id="230">
          <OrphaCode>893</OrphaCode>
-@@ -154198,6 +154198,456 @@
-       </DisabilityCategory>
-       <ReasonForNotApplicable/>
+@@ -221829,34 +221829,6 @@
+         <Name lang="es">Enfermedad que causa la muerte prematura</Name>
+       </ReasonForNotApplicable>
      </DisorderDisabilityRelevance>
-+    <DisorderDisabilityRelevance id="2121">
-+      <Disorder id="101">
-+        <OrphaCode>1941</OrphaCode>
-+        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1941</ExpertLink>
-+        <Name lang="es">Epilepsia de ausencia juvenil</Name>
-+        <DisorderType id="21394">
-+          <Name lang="es">Enfermedad</Name>
-+        </DisorderType>
-+        <DisorderGroup id="36547">
-+          <Name lang="es">Trastorno</Name>
-+        </DisorderGroup>
-+        <DisabilityDisorderAssociationList count="26">
-+          <DisabilityDisorderAssociation id="169415">
-+            <Disability id="16">
-+              <Name lang="es">Fijación de la atención</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169416">
-+            <Disability id="16">
-+              <Name lang="es">Fijación de la atención</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27236">
-+              <Name lang="es">Moderada</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169417">
-+            <Disability id="34">
-+              <Name lang="es">Participación en conversaciones</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169418">
-+            <Disability id="61">
-+              <Name lang="es">Cuidado de su propia salud (dieta, medicación, prevención, necesidades, ayuda o supervisión)</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169419">
-+            <Disability id="68">
-+              <Name lang="es">Manejo del estrés, las responsabilidades, las emergencias y garantizar su propia seguridad</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27236">
-+              <Name lang="es">Moderada</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169420">
-+            <Disability id="69">
-+              <Name lang="es">Manejo de las emociones y el estado de ánimo</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169421">
-+            <Disability id="77">
-+              <Name lang="es">Conducción</Name>
-+            </Disability>
-+            <FrequenceDisability id="27201">
-+              <Name lang="es">Muy frecuente</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27264">
-+              <Name lang="es">Completa</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169422">
-+            <Disability id="87">
-+              <Name lang="es">Hacer la compra</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169423">
-+            <Disability id="88">
-+              <Name lang="es">Cocinar/preparar la comida</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169424">
-+            <Disability id="89">
-+              <Name lang="es">Realización de tareas domésticas</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169425">
+-    <DisorderDisabilityRelevance id="3365">
+-      <Disorder id="17609">
+-        <OrphaCode>166068</OrphaCode>
+-        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=166068</ExpertLink>
+-        <Name lang="es">Hipoplasia pontocerebelosa tipo 5</Name>
+-        <DisorderType id="21401">
+-          <Name lang="es">Síndrome de malformación</Name>
+-        </DisorderType>
+-        <DisorderGroup id="36547">
+-          <Name lang="es">Trastorno</Name>
+-        </DisorderGroup>
+-        <DisabilityDisorderAssociationList count="0">
+-        </DisabilityDisorderAssociationList>
+-      </Disorder>
+-      <SourceOfValidation>Orphanet</SourceOfValidation>
+-      <SpecificManagement>n</SpecificManagement>
+-      <Online>y</Online>
+-      <AnnotationDate>2013-07-17 00:00:00.0</AnnotationDate>
+-      <StatusDisability id="27320">
+-        <Name lang="es">Validado</Name>
+-      </StatusDisability>
+-      <DisabilityCategory id="27285">
+-        <Name lang="es">No aplicable</Name>
+-      </DisabilityCategory>
+-      <ReasonForNotApplicable id="27299">
+-        <Name lang="es">Enfermedad que causa la muerte prematura</Name>
+-      </ReasonForNotApplicable>
+-    </DisorderDisabilityRelevance>
+     <DisorderDisabilityRelevance id="3366">
+       <Disorder id="17610">
+         <OrphaCode>166073</OrphaCode>
+@@ -379229,7 +379201,7 @@
+       <Disorder id="19269">
+         <OrphaCode>238505</OrphaCode>
+         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238505</ExpertLink>
+-        <Name lang="es">Enfermedad linfoproliferativa autosómica recesiva</Name>
++        <Name lang="es">Inmunodeficiencia combinada por deficiencia de CD70</Name>
+         <DisorderType id="21394">
+           <Name lang="es">Enfermedad</Name>
+         </DisorderType>
+@@ -391378,313 +391350,7 @@
+           <Name lang="es">Trastorno</Name>
+         </DisorderGroup>
+         <DisabilityDisorderAssociationList count="100">
+-          <DisabilityDisorderAssociation id="162157">
+-            <Disability id="101">
+-              <Name lang="es">Búsqueda de empleo</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162158">
+-            <Disability id="102">
+-              <Name lang="es">Desempeño de tareas profesionales</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162159">
+-            <Disability id="102">
+-              <Name lang="es">Desempeño de tareas profesionales</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162160">
+-            <Disability id="102">
+-              <Name lang="es">Desempeño de tareas profesionales</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162161">
+-            <Disability id="104">
+-              <Name lang="es">Desempeño de procedimientos administrativos</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162162">
+-            <Disability id="104">
+-              <Name lang="es">Desempeño de procedimientos administrativos</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162163">
+-            <Disability id="104">
+-              <Name lang="es">Desempeño de procedimientos administrativos</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162164">
+-            <Disability id="108">
+-              <Name lang="es">Desempeño de tareas cotidianas</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162165">
+-            <Disability id="108">
+-              <Name lang="es">Desempeño de tareas cotidianas</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162166">
+-            <Disability id="108">
+-              <Name lang="es">Desempeño de tareas cotidianas</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162167">
+-            <Disability id="110">
+-              <Name lang="es">Participación en la vida comunitaria</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27222">
+-              <Name lang="es">Baja</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162168">
+-            <Disability id="110">
+-              <Name lang="es">Participación en la vida comunitaria</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162169">
+-            <Disability id="110">
+-              <Name lang="es">Participación en la vida comunitaria</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162170">
+-            <Disability id="111">
+-              <Name lang="es">Participación en juegos</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27222">
+-              <Name lang="es">Baja</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162171">
+-            <Disability id="111">
+-              <Name lang="es">Participación en juegos</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162172">
+-            <Disability id="111">
+-              <Name lang="es">Participación en juegos</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162173">
+-            <Disability id="112">
+-              <Name lang="es">Socialización</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27222">
+-              <Name lang="es">Baja</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162174">
+-            <Disability id="112">
+-              <Name lang="es">Socialización</Name>
+-            </Disability>
+-            <FrequenceDisability id="27208">
+-              <Name lang="es">Frecuente</Name>
+-            </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
+-            </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
+-            </SeverityDisability>
+-            <LossOfAbility>n</LossOfAbility>
+-            <Type>Disability</Type>
+-            <Defined>y</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162089">
++          <DisabilityDisorderAssociation id="169479">
+             <Disability id="4">
+               <Name lang="es">Vista</Name>
+             </Disability>
+@@ -391701,7 +391367,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162090">
++          <DisabilityDisorderAssociation id="169480">
+             <Disability id="4">
+               <Name lang="es">Vista</Name>
+             </Disability>
+@@ -391718,7 +391384,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162091">
++          <DisabilityDisorderAssociation id="169481">
+             <Disability id="4">
+               <Name lang="es">Vista</Name>
+             </Disability>
+@@ -391735,7 +391401,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162092">
++          <DisabilityDisorderAssociation id="169482">
+             <Disability id="22">
+               <Name lang="es">Orientación espacial</Name>
+             </Disability>
+@@ -391752,7 +391418,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162093">
++          <DisabilityDisorderAssociation id="169483">
+             <Disability id="22">
+               <Name lang="es">Orientación espacial</Name>
+             </Disability>
+@@ -391769,7 +391435,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162094">
++          <DisabilityDisorderAssociation id="169484">
+             <Disability id="22">
+               <Name lang="es">Orientación espacial</Name>
+             </Disability>
+@@ -391786,7 +391452,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162095">
++          <DisabilityDisorderAssociation id="169485">
+             <Disability id="26">
+               <Name lang="es">Recepción de mensajes en el lenguaje de signos</Name>
+             </Disability>
+@@ -391803,7 +391469,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162096">
++          <DisabilityDisorderAssociation id="169486">
+             <Disability id="26">
+               <Name lang="es">Recepción de mensajes en el lenguaje de signos</Name>
+             </Disability>
+@@ -391820,7 +391486,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162097">
++          <DisabilityDisorderAssociation id="169487">
+             <Disability id="26">
+               <Name lang="es">Recepción de mensajes en el lenguaje de signos</Name>
+             </Disability>
+@@ -391837,7 +391503,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162098">
++          <DisabilityDisorderAssociation id="169488">
+             <Disability id="27">
+               <Name lang="es">Recepción de mensajes no verbales</Name>
+             </Disability>
+@@ -391854,7 +391520,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162099">
++          <DisabilityDisorderAssociation id="169489">
+             <Disability id="27">
+               <Name lang="es">Recepción de mensajes no verbales</Name>
+             </Disability>
+@@ -391871,7 +391537,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162100">
++          <DisabilityDisorderAssociation id="169490">
+             <Disability id="27">
+               <Name lang="es">Recepción de mensajes no verbales</Name>
+             </Disability>
+@@ -391888,7 +391554,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162101">
++          <DisabilityDisorderAssociation id="169491">
+             <Disability id="31">
+               <Name lang="es">En el lenguaje de signos</Name>
+             </Disability>
+@@ -391905,7 +391571,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162102">
++          <DisabilityDisorderAssociation id="169492">
+             <Disability id="31">
+               <Name lang="es">En el lenguaje de signos</Name>
+             </Disability>
+@@ -391922,7 +391588,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162103">
++          <DisabilityDisorderAssociation id="169493">
+             <Disability id="31">
+               <Name lang="es">En el lenguaje de signos</Name>
+             </Disability>
+@@ -391939,7 +391605,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162104">
++          <DisabilityDisorderAssociation id="169494">
+             <Disability id="32">
+               <Name lang="es">En lenguaje no verbal</Name>
+             </Disability>
+@@ -391956,7 +391622,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162105">
++          <DisabilityDisorderAssociation id="169495">
+             <Disability id="32">
+               <Name lang="es">En lenguaje no verbal</Name>
+             </Disability>
+@@ -391973,7 +391639,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162106">
++          <DisabilityDisorderAssociation id="169496">
+             <Disability id="32">
+               <Name lang="es">En lenguaje no verbal</Name>
+             </Disability>
+@@ -391990,7 +391656,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162107">
++          <DisabilityDisorderAssociation id="169497">
+             <Disability id="34">
+               <Name lang="es">Participación en conversaciones</Name>
+             </Disability>
+@@ -392007,7 +391673,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162108">
++          <DisabilityDisorderAssociation id="169498">
+             <Disability id="34">
+               <Name lang="es">Participación en conversaciones</Name>
+             </Disability>
+@@ -392024,7 +391690,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162109">
++          <DisabilityDisorderAssociation id="169499">
+             <Disability id="34">
+               <Name lang="es">Participación en conversaciones</Name>
+             </Disability>
+@@ -392041,7 +391707,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162110">
++          <DisabilityDisorderAssociation id="169500">
+             <Disability id="74">
+               <Name lang="es">Desplazamiento fuera de casa</Name>
+             </Disability>
+@@ -392058,7 +391724,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162111">
++          <DisabilityDisorderAssociation id="169501">
+             <Disability id="74">
+               <Name lang="es">Desplazamiento fuera de casa</Name>
+             </Disability>
+@@ -392075,7 +391741,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162112">
++          <DisabilityDisorderAssociation id="169502">
+             <Disability id="74">
+               <Name lang="es">Desplazamiento fuera de casa</Name>
+             </Disability>
+@@ -392092,7 +391758,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162113">
++          <DisabilityDisorderAssociation id="169503">
+             <Disability id="76">
+               <Name lang="es">Utilización de medios de transporte como pasajero</Name>
+             </Disability>
+@@ -392109,7 +391775,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162114">
++          <DisabilityDisorderAssociation id="169504">
+             <Disability id="76">
+               <Name lang="es">Utilización de medios de transporte como pasajero</Name>
+             </Disability>
+@@ -392126,7 +391792,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162115">
++          <DisabilityDisorderAssociation id="169505">
+             <Disability id="76">
+               <Name lang="es">Utilización de medios de transporte como pasajero</Name>
+             </Disability>
+@@ -392143,7 +391809,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162116">
++          <DisabilityDisorderAssociation id="169506">
+             <Disability id="77">
+               <Name lang="es">Conducción</Name>
+             </Disability>
+@@ -392160,7 +391826,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162117">
++          <DisabilityDisorderAssociation id="169507">
+             <Disability id="77">
+               <Name lang="es">Conducción</Name>
+             </Disability>
+@@ -392177,7 +391843,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162118">
++          <DisabilityDisorderAssociation id="169508">
+             <Disability id="77">
+               <Name lang="es">Conducción</Name>
+             </Disability>
+@@ -392194,7 +391860,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162119">
++          <DisabilityDisorderAssociation id="169509">
+             <Disability id="79">
+               <Name lang="es">Interacción con otras personas</Name>
+             </Disability>
+@@ -392211,7 +391877,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162120">
++          <DisabilityDisorderAssociation id="169510">
+             <Disability id="79">
+               <Name lang="es">Interacción con otras personas</Name>
+             </Disability>
+@@ -392228,7 +391894,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162121">
++          <DisabilityDisorderAssociation id="169511">
+             <Disability id="79">
+               <Name lang="es">Interacción con otras personas</Name>
+             </Disability>
+@@ -392245,7 +391911,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162122">
++          <DisabilityDisorderAssociation id="169512">
+             <Disability id="80">
+               <Name lang="es">Capacidad para hacer y mantener amistades</Name>
+             </Disability>
+@@ -392262,7 +391928,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162123">
++          <DisabilityDisorderAssociation id="169513">
+             <Disability id="80">
+               <Name lang="es">Capacidad para hacer y mantener amistades</Name>
+             </Disability>
+@@ -392279,7 +391945,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162124">
++          <DisabilityDisorderAssociation id="169514">
+             <Disability id="80">
+               <Name lang="es">Capacidad para hacer y mantener amistades</Name>
+             </Disability>
+@@ -392296,7 +391962,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162125">
++          <DisabilityDisorderAssociation id="169515">
+             <Disability id="82">
+               <Name lang="es">Tratar con extraños</Name>
+             </Disability>
+@@ -392313,7 +391979,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162126">
++          <DisabilityDisorderAssociation id="169516">
+             <Disability id="82">
+               <Name lang="es">Tratar con extraños</Name>
+             </Disability>
+@@ -392330,7 +391996,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162127">
++          <DisabilityDisorderAssociation id="169517">
+             <Disability id="82">
+               <Name lang="es">Tratar con extraños</Name>
+             </Disability>
+@@ -392347,7 +392013,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162128">
++          <DisabilityDisorderAssociation id="169518">
+             <Disability id="83">
+               <Name lang="es">Implicación y mantenimiento de relaciones íntimas</Name>
+             </Disability>
+@@ -392364,7 +392030,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162129">
++          <DisabilityDisorderAssociation id="169519">
+             <Disability id="83">
+               <Name lang="es">Implicación y mantenimiento de relaciones íntimas</Name>
+             </Disability>
+@@ -392381,7 +392047,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162130">
++          <DisabilityDisorderAssociation id="169520">
+             <Disability id="83">
+               <Name lang="es">Implicación y mantenimiento de relaciones íntimas</Name>
+             </Disability>
+@@ -392398,7 +392064,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162131">
++          <DisabilityDisorderAssociation id="169521">
+             <Disability id="87">
+               <Name lang="es">Hacer la compra</Name>
+             </Disability>
+@@ -392415,7 +392081,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162132">
++          <DisabilityDisorderAssociation id="169522">
+             <Disability id="87">
+               <Name lang="es">Hacer la compra</Name>
+             </Disability>
+@@ -392432,7 +392098,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162133">
++          <DisabilityDisorderAssociation id="169523">
+             <Disability id="87">
+               <Name lang="es">Hacer la compra</Name>
+             </Disability>
+@@ -392449,7 +392115,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162134">
++          <DisabilityDisorderAssociation id="169524">
+             <Disability id="89">
+               <Name lang="es">Realización de tareas domésticas</Name>
+             </Disability>
+@@ -392466,7 +392132,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162135">
++          <DisabilityDisorderAssociation id="169525">
+             <Disability id="89">
+               <Name lang="es">Realización de tareas domésticas</Name>
+             </Disability>
+@@ -392483,7 +392149,7 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162136">
++          <DisabilityDisorderAssociation id="169526">
+             <Disability id="89">
+               <Name lang="es">Realización de tareas domésticas</Name>
+             </Disability>
+@@ -392500,9 +392166,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162175">
+-            <Disability id="112">
+-              <Name lang="es">Socialización</Name>
++          <DisabilityDisorderAssociation id="169527">
 +            <Disability id="90">
 +              <Name lang="es">Cuidado y ayuda a terceros</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392513,64 +392179,64 @@
+             <SeverityDisability id="27236">
+               <Name lang="es">Moderada</Name>
+             </SeverityDisability>
+-            <LossOfAbility>y</LossOfAbility>
++            <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162176">
+-            <Disability id="113">
+-              <Name lang="es">Practica de deporte</Name>
++          <DisabilityDisorderAssociation id="169528">
++            <Disability id="90">
++              <Name lang="es">Cuidado y ayuda a terceros</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
 +            <TemporalityDisability id="27194">
 +              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169426">
+             </TemporalityDisability>
+-            <SeverityDisability id="27222">
+-              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162177">
+-            <Disability id="113">
+-              <Name lang="es">Practica de deporte</Name>
++          <DisabilityDisorderAssociation id="169529">
++            <Disability id="90">
++              <Name lang="es">Cuidado y ayuda a terceros</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162178">
+-            <Disability id="113">
+-              <Name lang="es">Practica de deporte</Name>
++          <DisabilityDisorderAssociation id="169530">
 +            <Disability id="92">
 +              <Name lang="es">Asistencia a un centro de educación preescolar</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27180">
++              <Name lang="es">Limitación/restricción permanente</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162179">
+-            <Disability id="114">
+-              <Name lang="es">Participación en actividades artísticas y culturales</Name>
++          <DisabilityDisorderAssociation id="169531">
++            <Disability id="92">
++              <Name lang="es">Asistencia a un centro de educación preescolar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392578,50 +392244,50 @@
+             <TemporalityDisability id="27187">
+               <Name lang="es">Retraso en la adquisición</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27222">
+-              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162180">
+-            <Disability id="114">
+-              <Name lang="es">Participación en actividades artísticas y culturales</Name>
++          <DisabilityDisorderAssociation id="169532">
++            <Disability id="92">
++              <Name lang="es">Asistencia a un centro de educación preescolar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27180">
+-              <Name lang="es">Limitación/restricción permanente</Name>
 +            <TemporalityDisability id="27194">
 +              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169427">
+             </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162181">
+-            <Disability id="114">
+-              <Name lang="es">Participación en actividades artísticas y culturales</Name>
++          <DisabilityDisorderAssociation id="169533">
 +            <Disability id="93">
 +              <Name lang="es">Asistencia a un centro escolar estándar</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169428">
-+            <Disability id="94">
-+              <Name lang="es">Asistencia a una escuela adaptada/especializada</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169429">
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27180">
++              <Name lang="es">Limitación/restricción permanente</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162182">
+-            <Disability id="115">
+-              <Name lang="es">Viajes</Name>
++          <DisabilityDisorderAssociation id="169534">
++            <Disability id="93">
++              <Name lang="es">Asistencia a un centro escolar estándar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392629,16 +392295,16 @@
+             <TemporalityDisability id="27187">
+               <Name lang="es">Retraso en la adquisición</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27222">
+-              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162183">
+-            <Disability id="115">
+-              <Name lang="es">Viajes</Name>
++          <DisabilityDisorderAssociation id="169535">
++            <Disability id="93">
++              <Name lang="es">Asistencia a un centro escolar estándar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392646,16 +392312,16 @@
+             <TemporalityDisability id="27194">
+               <Name lang="es">Limitación/restricción transitoria</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162184">
+-            <Disability id="115">
+-              <Name lang="es">Viajes</Name>
++          <DisabilityDisorderAssociation id="169536">
 +            <Disability id="95">
 +              <Name lang="es">Aprendizaje de una profesión en un entorno estándar</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392663,60 +392329,50 @@
+             <TemporalityDisability id="27180">
+               <Name lang="es">Limitación/restricción permanente</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+-            <LossOfAbility>y</LossOfAbility>
++            <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162185">
+-            <Disability id="122">
+-              <Name lang="es">Intensidad luminosa</Name>
+-            </Disability>
+-            <FrequenceDisability/>
+-            <TemporalityDisability/>
+-            <SeverityDisability/>
+-            <LossOfAbility>y</LossOfAbility>
+-            <Type>Environmental factor</Type>
+-            <Defined>n</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162186">
+-            <Disability id="123">
+-              <Name lang="es">Calidad luminosa</Name>
+-            </Disability>
+-            <FrequenceDisability/>
+-            <TemporalityDisability/>
+-            <SeverityDisability/>
+-            <LossOfAbility>y</LossOfAbility>
+-            <Type>Environmental factor</Type>
+-            <Defined>n</Defined>
+-          </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162187">
+-            <Disability id="128">
+-              <Name lang="es">Intensidad sonora</Name>
++          <DisabilityDisorderAssociation id="169537">
++            <Disability id="95">
++              <Name lang="es">Aprendizaje de una profesión en un entorno estándar</Name>
+             </Disability>
+-            <FrequenceDisability/>
+-            <TemporalityDisability/>
+-            <SeverityDisability/>
+-            <LossOfAbility>y</LossOfAbility>
+-            <Type>Environmental factor</Type>
+-            <Defined>n</Defined>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
 +            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
 +            </SeverityDisability>
 +            <LossOfAbility>n</LossOfAbility>
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169430">
-+            <Disability id="96">
-+              <Name lang="es">Aprendizaje de una profesión en un entorno adaptado o especializado</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162188">
+-            <Disability id="129">
+-              <Name lang="es">Calidad sonora</Name>
++          <DisabilityDisorderAssociation id="169538">
++            <Disability id="95">
++              <Name lang="es">Aprendizaje de una profesión en un entorno estándar</Name>
+             </Disability>
+-            <FrequenceDisability/>
+-            <TemporalityDisability/>
+-            <SeverityDisability/>
+-            <LossOfAbility>y</LossOfAbility>
+-            <Type>Environmental factor</Type>
+-            <Defined>n</Defined>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
 +            <TemporalityDisability id="27194">
 +              <Name lang="es">Limitación/restricción transitoria</Name>
 +            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
 +            </SeverityDisability>
 +            <LossOfAbility>n</LossOfAbility>
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169431">
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162137">
+-            <Disability id="90">
+-              <Name lang="es">Cuidado y ayuda a terceros</Name>
++          <DisabilityDisorderAssociation id="169539">
 +            <Disability id="97">
 +              <Name lang="es">Acceso a estudios superiores</Name>
-+            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
-+            </FrequenceDisability>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392724,50 +392380,50 @@
+             <TemporalityDisability id="27180">
+               <Name lang="es">Limitación/restricción permanente</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162138">
+-            <Disability id="90">
+-              <Name lang="es">Cuidado y ayuda a terceros</Name>
++          <DisabilityDisorderAssociation id="169540">
++            <Disability id="97">
++              <Name lang="es">Acceso a estudios superiores</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27194">
+-              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27236">
+-              <Name lang="es">Moderada</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162139">
+-            <Disability id="90">
+-              <Name lang="es">Cuidado y ayuda a terceros</Name>
++          <DisabilityDisorderAssociation id="169541">
++            <Disability id="97">
++              <Name lang="es">Acceso a estudios superiores</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+             </FrequenceDisability>
+-            <TemporalityDisability id="27187">
+-              <Name lang="es">Retraso en la adquisición</Name>
 +            <TemporalityDisability id="27194">
 +              <Name lang="es">Limitación/restricción transitoria</Name>
-+            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
-+            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
-+            <Type>Disability</Type>
-+            <Defined>y</Defined>
-+          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169432">
+             </TemporalityDisability>
+-            <SeverityDisability id="27250">
+-              <Name lang="es">Grave</Name>
++            <SeverityDisability id="27271">
++              <Name lang="es">Sin especifar</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162140">
+-            <Disability id="92">
+-              <Name lang="es">Asistencia a un centro de educación preescolar</Name>
++          <DisabilityDisorderAssociation id="169542">
 +            <Disability id="99">
 +              <Name lang="es">Acceso a un trabajo remunerado en un entorno estándar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392782,9 +392438,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162141">
+-            <Disability id="92">
+-              <Name lang="es">Asistencia a un centro de educación preescolar</Name>
++          <DisabilityDisorderAssociation id="169543">
++            <Disability id="99">
++              <Name lang="es">Acceso a un trabajo remunerado en un entorno estándar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392799,9 +392455,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162142">
+-            <Disability id="92">
+-              <Name lang="es">Asistencia a un centro de educación preescolar</Name>
++          <DisabilityDisorderAssociation id="169544">
++            <Disability id="99">
++              <Name lang="es">Acceso a un trabajo remunerado en un entorno estándar</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392816,9 +392472,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162143">
+-            <Disability id="93">
+-              <Name lang="es">Asistencia a un centro escolar estándar</Name>
++          <DisabilityDisorderAssociation id="169545">
++            <Disability id="101">
++              <Name lang="es">Búsqueda de empleo</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392833,9 +392489,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162144">
+-            <Disability id="93">
+-              <Name lang="es">Asistencia a un centro escolar estándar</Name>
++          <DisabilityDisorderAssociation id="169546">
++            <Disability id="101">
++              <Name lang="es">Búsqueda de empleo</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392850,9 +392506,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162145">
+-            <Disability id="93">
+-              <Name lang="es">Asistencia a un centro escolar estándar</Name>
++          <DisabilityDisorderAssociation id="169547">
++            <Disability id="101">
++              <Name lang="es">Búsqueda de empleo</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392867,9 +392523,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162146">
+-            <Disability id="95">
+-              <Name lang="es">Aprendizaje de una profesión en un entorno estándar</Name>
++          <DisabilityDisorderAssociation id="169548">
++            <Disability id="102">
++              <Name lang="es">Desempeño de tareas profesionales</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392884,9 +392540,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162147">
+-            <Disability id="95">
+-              <Name lang="es">Aprendizaje de una profesión en un entorno estándar</Name>
++          <DisabilityDisorderAssociation id="169549">
++            <Disability id="102">
++              <Name lang="es">Desempeño de tareas profesionales</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392901,9 +392557,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162148">
+-            <Disability id="95">
+-              <Name lang="es">Aprendizaje de una profesión en un entorno estándar</Name>
++          <DisabilityDisorderAssociation id="169550">
++            <Disability id="102">
++              <Name lang="es">Desempeño de tareas profesionales</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392918,9 +392574,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162149">
+-            <Disability id="97">
+-              <Name lang="es">Acceso a estudios superiores</Name>
++          <DisabilityDisorderAssociation id="169551">
++            <Disability id="104">
++              <Name lang="es">Desempeño de procedimientos administrativos</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392935,9 +392591,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162150">
+-            <Disability id="97">
+-              <Name lang="es">Acceso a estudios superiores</Name>
++          <DisabilityDisorderAssociation id="169552">
++            <Disability id="104">
++              <Name lang="es">Desempeño de procedimientos administrativos</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392952,9 +392608,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162151">
+-            <Disability id="97">
+-              <Name lang="es">Acceso a estudios superiores</Name>
++          <DisabilityDisorderAssociation id="169553">
++            <Disability id="104">
++              <Name lang="es">Desempeño de procedimientos administrativos</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392969,9 +392625,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162152">
+-            <Disability id="99">
+-              <Name lang="es">Acceso a un trabajo remunerado en un entorno estándar</Name>
++          <DisabilityDisorderAssociation id="169554">
++            <Disability id="108">
++              <Name lang="es">Desempeño de tareas cotidianas</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -392986,9 +392642,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162153">
+-            <Disability id="99">
+-              <Name lang="es">Acceso a un trabajo remunerado en un entorno estándar</Name>
++          <DisabilityDisorderAssociation id="169555">
++            <Disability id="108">
++              <Name lang="es">Desempeño de tareas cotidianas</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -393003,9 +392659,9 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162154">
+-            <Disability id="99">
+-              <Name lang="es">Acceso a un trabajo remunerado en un entorno estándar</Name>
++          <DisabilityDisorderAssociation id="169556">
++            <Disability id="108">
++              <Name lang="es">Desempeño de tareas cotidianas</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -393020,9 +392676,26 @@
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162155">
+-            <Disability id="101">
+-              <Name lang="es">Búsqueda de empleo</Name>
++          <DisabilityDisorderAssociation id="169557">
++            <Disability id="110">
++              <Name lang="es">Participación en la vida comunitaria</Name>
 +            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
 +            </TemporalityDisability>
 +            <SeverityDisability id="27222">
 +              <Name lang="es">Baja</Name>
@@ -348,9 +1398,67 @@ index 9501256..aee69f9
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169433">
-+            <Disability id="101">
-+              <Name lang="es">Búsqueda de empleo</Name>
++          <DisabilityDisorderAssociation id="169558">
++            <Disability id="110">
++              <Name lang="es">Participación en la vida comunitaria</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -393030,16 +392703,33 @@
+             <TemporalityDisability id="27180">
+               <Name lang="es">Limitación/restricción permanente</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
+-          <DisabilityDisorderAssociation id="162156">
+-            <Disability id="101">
+-              <Name lang="es">Búsqueda de empleo</Name>
++          <DisabilityDisorderAssociation id="169559">
++            <Disability id="110">
++              <Name lang="es">Participación en la vida comunitaria</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="es">Limitación/restricción transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169560">
++            <Disability id="111">
++              <Name lang="es">Participación en juegos</Name>
+             </Disability>
+             <FrequenceDisability id="27208">
+               <Name lang="es">Frecuente</Name>
+@@ -393047,16 +392737,298 @@
+             <TemporalityDisability id="27187">
+               <Name lang="es">Retraso en la adquisición</Name>
+             </TemporalityDisability>
+-            <SeverityDisability id="27271">
+-              <Name lang="es">Sin especifar</Name>
++            <SeverityDisability id="27222">
++              <Name lang="es">Baja</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169561">
++            <Disability id="111">
++              <Name lang="es">Participación en juegos</Name>
 +            </Disability>
 +            <FrequenceDisability id="27208">
 +              <Name lang="es">Frecuente</Name>
@@ -358,22 +1466,39 @@ index 9501256..aee69f9
 +            <TemporalityDisability id="27180">
 +              <Name lang="es">Limitación/restricción permanente</Name>
 +            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
 +            </SeverityDisability>
 +            <LossOfAbility>n</LossOfAbility>
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169434">
-+            <Disability id="101">
-+              <Name lang="es">Búsqueda de empleo</Name>
++          <DisabilityDisorderAssociation id="169562">
++            <Disability id="111">
++              <Name lang="es">Participación en juegos</Name>
 +            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
 +            <TemporalityDisability id="27194">
 +              <Name lang="es">Limitación/restricción transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169563">
++            <Disability id="112">
++              <Name lang="es">Socialización</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
 +            </TemporalityDisability>
 +            <SeverityDisability id="27222">
 +              <Name lang="es">Baja</Name>
@@ -382,49 +1507,49 @@ index 9501256..aee69f9
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169435">
-+            <Disability id="102">
-+              <Name lang="es">Desempeño de tareas profesionales</Name>
++          <DisabilityDisorderAssociation id="169564">
++            <Disability id="112">
++              <Name lang="es">Socialización</Name>
 +            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
 +            <TemporalityDisability id="27194">
 +              <Name lang="es">Limitación/restricción transitoria</Name>
 +            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
 +            </SeverityDisability>
 +            <LossOfAbility>n</LossOfAbility>
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169436">
-+            <Disability id="108">
-+              <Name lang="es">Desempeño de tareas cotidianas</Name>
++          <DisabilityDisorderAssociation id="169565">
++            <Disability id="112">
++              <Name lang="es">Socialización</Name>
 +            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27180">
++              <Name lang="es">Limitación/restricción permanente</Name>
 +            </TemporalityDisability>
-+            <SeverityDisability id="27222">
-+              <Name lang="es">Baja</Name>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
 +            </SeverityDisability>
-+            <LossOfAbility>n</LossOfAbility>
++            <LossOfAbility>y</LossOfAbility>
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169437">
++          <DisabilityDisorderAssociation id="169566">
 +            <Disability id="113">
 +              <Name lang="es">Practica de deporte</Name>
 +            </Disability>
-+            <FrequenceDisability id="27215">
-+              <Name lang="es">Ocasional</Name>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
 +            </FrequenceDisability>
-+            <TemporalityDisability id="27194">
-+              <Name lang="es">Limitación/restricción transitoria</Name>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
 +            </TemporalityDisability>
 +            <SeverityDisability id="27222">
 +              <Name lang="es">Baja</Name>
@@ -433,7 +1558,143 @@ index 9501256..aee69f9
 +            <Type>Disability</Type>
 +            <Defined>y</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169438">
++          <DisabilityDisorderAssociation id="169567">
++            <Disability id="113">
++              <Name lang="es">Practica de deporte</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27180">
++              <Name lang="es">Limitación/restricción permanente</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169568">
++            <Disability id="113">
++              <Name lang="es">Practica de deporte</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="es">Limitación/restricción transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169569">
++            <Disability id="114">
++              <Name lang="es">Participación en actividades artísticas y culturales</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="es">Baja</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169570">
++            <Disability id="114">
++              <Name lang="es">Participación en actividades artísticas y culturales</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27180">
++              <Name lang="es">Limitación/restricción permanente</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169571">
++            <Disability id="114">
++              <Name lang="es">Participación en actividades artísticas y culturales</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="es">Limitación/restricción transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169572">
++            <Disability id="115">
++              <Name lang="es">Viajes</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27187">
++              <Name lang="es">Retraso en la adquisición</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27222">
++              <Name lang="es">Baja</Name>
++            </SeverityDisability>
++            <LossOfAbility>n</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169573">
++            <Disability id="115">
++              <Name lang="es">Viajes</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27194">
++              <Name lang="es">Limitación/restricción transitoria</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27250">
++              <Name lang="es">Grave</Name>
+             </SeverityDisability>
+             <LossOfAbility>n</LossOfAbility>
+             <Type>Disability</Type>
+             <Defined>y</Defined>
+           </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169574">
++            <Disability id="115">
++              <Name lang="es">Viajes</Name>
++            </Disability>
++            <FrequenceDisability id="27208">
++              <Name lang="es">Frecuente</Name>
++            </FrequenceDisability>
++            <TemporalityDisability id="27180">
++              <Name lang="es">Limitación/restricción permanente</Name>
++            </TemporalityDisability>
++            <SeverityDisability id="27236">
++              <Name lang="es">Moderada</Name>
++            </SeverityDisability>
++            <LossOfAbility>y</LossOfAbility>
++            <Type>Disability</Type>
++            <Defined>y</Defined>
++          </DisabilityDisorderAssociation>
++          <DisabilityDisorderAssociation id="169575">
 +            <Disability id="122">
 +              <Name lang="es">Intensidad luminosa</Name>
 +            </Disability>
@@ -444,7 +1705,7 @@ index 9501256..aee69f9
 +            <Type>Environmental factor</Type>
 +            <Defined>n</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169439">
++          <DisabilityDisorderAssociation id="169576">
 +            <Disability id="123">
 +              <Name lang="es">Calidad luminosa</Name>
 +            </Disability>
@@ -455,9 +1716,9 @@ index 9501256..aee69f9
 +            <Type>Environmental factor</Type>
 +            <Defined>n</Defined>
 +          </DisabilityDisorderAssociation>
-+          <DisabilityDisorderAssociation id="169440">
-+            <Disability id="125">
-+              <Name lang="es">Ciclos día/noche</Name>
++          <DisabilityDisorderAssociation id="169577">
++            <Disability id="128">
++              <Name lang="es">Intensidad sonora</Name>
 +            </Disability>
 +            <FrequenceDisability/>
 +            <TemporalityDisability/>
@@ -466,92 +1727,21 @@ index 9501256..aee69f9
 +            <Type>Environmental factor</Type>
 +            <Defined>n</Defined>
 +          </DisabilityDisorderAssociation>
-+        </DisabilityDisorderAssociationList>
-+      </Disorder>
-+      <SourceOfValidation>Expert</SourceOfValidation>
-+      <SpecificManagement>y</SpecificManagement>
-+      <Online>y</Online>
-+      <AnnotationDate>2021-01-14 00:00:00.0</AnnotationDate>
-+      <StatusDisability id="27320">
-+        <Name lang="es">Validado</Name>
-+      </StatusDisability>
-+      <DisabilityCategory id="27278">
-+        <Name lang="es">Actividad limitada/participación restringida</Name>
-+      </DisabilityCategory>
-+      <ReasonForNotApplicable/>
-+    </DisorderDisabilityRelevance>
-     <DisorderDisabilityRelevance id="2162">
-       <Disorder id="11713">
-         <OrphaCode>85436</OrphaCode>
-@@ -164020,7 +164470,7 @@
-       <Disorder id="19790">
-         <OrphaCode>254857</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=254857</ExpertLink>
--        <Name lang="es">Miopatía mitocondrial letal infantil</Name>
-+        <Name lang="es">Miopatía mitocondrial letal del lactante</Name>
-         <DisorderType id="21394">
-           <Name lang="es">Enfermedad</Name>
-         </DisorderType>
-@@ -356413,7 +356863,7 @@
-       <Disorder id="20766">
-         <OrphaCode>289857</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=289857</ExpertLink>
--        <Name lang="es">Encefalopatía neonatal por glicina</Name>
-+        <Name lang="es">Encefalopatía por glicina neonatal</Name>
-         <DisorderType id="21450">
-           <Name lang="es">Subtipo clínico</Name>
-         </DisorderType>
-@@ -413149,7 +413599,7 @@
-       <Disorder id="20767">
-         <OrphaCode>289860</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=289860</ExpertLink>
--        <Name lang="es">Encefalopatía infantil por glicina</Name>
-+        <Name lang="es">Encefalopatía por glicina infantil</Name>
-         <DisorderType id="21450">
-           <Name lang="es">Subtipo clínico</Name>
-         </DisorderType>
-@@ -445450,7 +445900,7 @@
-       <Disorder id="3525">
-         <OrphaCode>3286</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3286</ExpertLink>
--        <Name lang="es">Taquicardia ventricular polimórfica catecolaminérgica</Name>
-+        <Name lang="es">Taquicardia ventricular catecolaminérgica polimórfica</Name>
-         <DisorderType id="21394">
-           <Name lang="es">Enfermedad</Name>
-         </DisorderType>
-@@ -445594,7 +446044,7 @@
-       <Disorder id="20472">
-         <OrphaCode>280553</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=280553</ExpertLink>
--        <Name lang="es">Miopatía miofibrilar hipertónica infantil letal</Name>
-+        <Name lang="es">Miopatía miofibrilar hipertónica letal del lactante</Name>
-         <DisorderType id="21394">
-           <Name lang="es">Enfermedad</Name>
-         </DisorderType>
-@@ -445622,7 +446072,7 @@
-       <Disorder id="776">
-         <OrphaCode>17</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=17</ExpertLink>
--        <Name lang="es">Acidosis láctica infantil letal con aciduria metilmalónica</Name>
-+        <Name lang="es">Acidosis láctica letal del lactante con aciduria metilmalónica</Name>
-         <DisorderType id="21394">
-           <Name lang="es">Enfermedad</Name>
-         </DisorderType>
-@@ -445678,7 +446128,7 @@
-       <Disorder id="3379">
-         <OrphaCode>1561</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1561</ExpertLink>
--        <Name lang="es">Deficiencia infantil fatal de citocromo C oxidasa</Name>
-+        <Name lang="es">Deficiencia de citocromo C oxidasa fatal del lactante</Name>
-         <DisorderType id="21394">
-           <Name lang="es">Enfermedad</Name>
-         </DisorderType>
-@@ -536259,7 +536709,7 @@
-       <Disorder id="3651">
-         <OrphaCode>306</OrphaCode>
-         <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306</ExpertLink>
--        <Name lang="es">Epilepsia infantil familiar benigna</Name>
-+        <Name lang="es">Epilepsia benigna del lactante familiar</Name>
-         <DisorderType id="21394">
-           <Name lang="es">Enfermedad</Name>
-         </DisorderType>
++          <DisabilityDisorderAssociation id="169578">
++            <Disability id="129">
++              <Name lang="es">Calidad sonora</Name>
++            </Disability>
++            <FrequenceDisability/>
++            <TemporalityDisability/>
++            <SeverityDisability/>
++            <LossOfAbility>y</LossOfAbility>
++            <Type>Environmental factor</Type>
++            <Defined>n</Defined>
++          </DisabilityDisorderAssociation>
+         </DisabilityDisorderAssociationList>
+       </Disorder>
+-      <SourceOfValidation>Dr Nienke Boonstra[Expert]_Wilma Boelman[Expert]</SourceOfValidation>
++      <SourceOfValidation>Dr Nienke Boonstra[Expert]_Dr Wilma Boelman[Expert]</SourceOfValidation>
+       <SpecificManagement>n</SpecificManagement>
+       <Online>y</Online>
+       <AnnotationDate>2020-08-03 00:00:00.0</AnnotationDate>
