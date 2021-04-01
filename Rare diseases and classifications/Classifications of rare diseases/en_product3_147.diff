@@ -1,94 +1,128 @@
-commit b116a922e5dbc6d1e710e6df2ff6dd8b181e3236
+commit c92e9c5f9940abcb2c7950377e1c2245059cad90
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Mon Feb 1 13:09:28 2021 +0100
+Date:   Mon Mar 1 10:54:09 2021 +0100
 
-    FEB 2021
+    MARCH 2021
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml
-old mode 100644
-new mode 100755
-index c5bc949..e0d43cd
+old mode 100755
+new mode 100644
+index e0d43cd..8f168d2
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-01-01 04:31:53" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-02-01 04:32:29" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-02-01 04:32:29" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-03-01 04:32:35" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -2994,7 +2994,7 @@
-                               <Disorder id="485">
-                                 <OrphaCode>1880</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1880</ExpertLink>
--                                <Name lang="en">Ebstein malformation</Name>
-+                                <Name lang="en">Ebstein malformation of the tricuspid valve</Name>
-                                 <DisorderType id="21415">
-                                   <Name lang="en">Morphological anomaly</Name>
-                                 </DisorderType>
-@@ -17072,7 +17072,7 @@
-                           <Disorder id="2180">
-                             <OrphaCode>2325</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2325</ExpertLink>
--                            <Name lang="en">Epidermolysis bullosa simplex with deafness, alopecia, anodontia/hypodontia and nail dystrophy</Name>
-+                            <Name lang="en">Epidermolysis bullosa simplex with anodontia/hypodontia</Name>
+@@ -6608,36 +6608,12 @@
+                           <Disorder id="3423">
+                             <OrphaCode>2745</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2745</ExpertLink>
+-                            <Name lang="en">Opitz G/BBB syndrome</Name>
++                            <Name lang="en">Opitz GBBB syndrome</Name>
                              <DisorderType id="21401">
                                <Name lang="en">Malformation syndrome</Name>
                              </DisorderType>
-@@ -20096,7 +20096,7 @@
-                           <Disorder id="16705">
-                             <OrphaCode>137678</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137678</ExpertLink>
--                            <Name lang="en">Czech dysplasia, metatarsal type</Name>
-+                            <Name lang="en">Spondyloepiphyseal dysplasia with metatarsal shortening</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="2">
+-                            <ClassificationNode>
+-                              <Disorder id="21237">
+-                                <OrphaCode>306588</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306588</ExpertLink>
+-                                <Name lang="en">Autosomal dominant Opitz G/BBB syndrome</Name>
+-                                <DisorderType id="21443">
+-                                  <Name lang="en">Etiological subtype</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="21238">
+-                                <OrphaCode>306597</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306597</ExpertLink>
+-                                <Name lang="en">X-linked Opitz G/BBB syndrome</Name>
+-                                <DisorderType id="21443">
+-                                  <Name lang="en">Etiological subtype</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
++                          <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+@@ -9169,7 +9145,7 @@
+                               <Name lang="en">Clinical group</Name>
                              </DisorderType>
-@@ -33809,7 +33809,7 @@
-                       <Name lang="en">Clinical group</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="8">
-+                  <ClassificationNodeChildList count="9">
-                     <ClassificationNode>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="10">
++                          <ClassificationNodeChildList count="9">
+                             <ClassificationNode>
+                               <Disorder id="2334">
+                                 <OrphaCode>2524</OrphaCode>
+@@ -9218,18 +9194,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17609">
+-                                <OrphaCode>166068</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166068</ExpertLink>
+-                                <Name lang="en">Pontocerebellar hypoplasia type 5</Name>
+-                                <DisorderType id="21401">
+-                                  <Name lang="en">Malformation syndrome</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="17610">
+                                 <OrphaCode>166073</OrphaCode>
+@@ -13054,7 +13018,7 @@
                        <Disorder id="2233">
                          <OrphaCode>2407</OrphaCode>
-@@ -33871,39 +33871,15 @@
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
--                      <Disorder id="11905">
--                        <OrphaCode>89840</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89840</ExpertLink>
--                        <Name lang="en">Junctional epidermolysis bullosa, non-Herlitz type</Name>
-+                      <Disorder id="19640">
-+                        <OrphaCode>251393</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251393</ExpertLink>
-+                        <Name lang="en">Localized junctional epidermolysis bullosa, non-Herlitz type</Name>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2407</ExpertLink>
+-                        <Name lang="en">LOC syndrome</Name>
++                        <Name lang="en">Laryngo-onycho-cutaneous syndrome</Name>
                          <DisorderType id="21394">
                            <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -13090,36 +13054,12 @@
+                       <Disorder id="3423">
+                         <OrphaCode>2745</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2745</ExpertLink>
+-                        <Name lang="en">Opitz G/BBB syndrome</Name>
++                        <Name lang="en">Opitz GBBB syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
                          </DisorderType>
                        </Disorder>
 -                      <ClassificationNodeChildList count="2">
 -                        <ClassificationNode>
--                          <Disorder id="11428">
--                            <OrphaCode>79402</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79402</ExpertLink>
--                            <Name lang="en">Junctional epidermolysis bullosa, generalized intermediate</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
+-                          <Disorder id="21237">
+-                            <OrphaCode>306588</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306588</ExpertLink>
+-                            <Name lang="en">Autosomal dominant Opitz G/BBB syndrome</Name>
+-                            <DisorderType id="21443">
+-                              <Name lang="en">Etiological subtype</Name>
 -                            </DisorderType>
 -                          </Disorder>
 -                          <ClassificationNodeChildList count="0">
 -                          </ClassificationNodeChildList>
 -                        </ClassificationNode>
 -                        <ClassificationNode>
--                          <Disorder id="19640">
--                            <OrphaCode>251393</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251393</ExpertLink>
--                            <Name lang="en">Localized junctional epidermolysis bullosa, non-Herlitz type</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
+-                          <Disorder id="21238">
+-                            <OrphaCode>306597</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306597</ExpertLink>
+-                            <Name lang="en">X-linked Opitz G/BBB syndrome</Name>
+-                            <DisorderType id="21443">
+-                              <Name lang="en">Etiological subtype</Name>
 -                            </DisorderType>
 -                          </Disorder>
 -                          <ClassificationNodeChildList count="0">
@@ -98,201 +132,351 @@ index c5bc949..e0d43cd
                        </ClassificationNodeChildList>
                      </ClassificationNode>
                      <ClassificationNode>
-@@ -33930,6 +33906,18 @@
-                       <ClassificationNodeChildList count="0">
+@@ -13603,10 +13543,10 @@
+                   </Disorder>
+                   <ClassificationNodeChildList count="5">
+                     <ClassificationNode>
+-                      <Disorder id="243">
+-                        <OrphaCode>201</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=201</ExpertLink>
+-                        <Name lang="en">Cowden syndrome</Name>
++                      <Disorder id="10867">
++                        <OrphaCode>65285</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=65285</ExpertLink>
++                        <Name lang="en">Lhermitte-Duclos disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -13615,12 +13555,12 @@
                        </ClassificationNodeChildList>
                      </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="11428">
-+                        <OrphaCode>79402</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79402</ExpertLink>
-+                        <Name lang="en">Junctional epidermolysis bullosa, generalized intermediate</Name>
+                     <ClassificationNode>
+-                      <Disorder id="565">
+-                        <OrphaCode>744</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=744</ExpertLink>
+-                        <Name lang="en">Proteus syndrome</Name>
+-                        <DisorderType id="21401">
+-                          <Name lang="en">Malformation syndrome</Name>
++                      <Disorder id="243">
++                        <OrphaCode>201</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=201</ExpertLink>
++                        <Name lang="en">Cowden syndrome</Name>
 +                        <DisorderType id="21394">
 +                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -33941,7 +33929,7 @@
-                       <Name lang="en">Clinical group</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="10">
-+                  <ClassificationNodeChildList count="7">
-                     <ClassificationNode>
-                       <Disorder id="11434">
-                         <OrphaCode>79408</OrphaCode>
-@@ -33967,15 +33955,51 @@
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
--                      <Disorder id="11436">
--                        <OrphaCode>79410</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79410</ExpertLink>
--                        <Name lang="en">Pretibial dystrophic epidermolysis bullosa</Name>
-+                      <Disorder id="29740">
-+                        <OrphaCode>595356</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595356</ExpertLink>
-+                        <Name lang="en">Localized dystrophic epidermolysis bullosa</Name>
-                         <DisorderType id="21394">
-                           <Name lang="en">Disease</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="0">
-+                      <ClassificationNodeChildList count="3">
-+                        <ClassificationNode>
-+                          <Disorder id="11436">
-+                            <OrphaCode>79410</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79410</ExpertLink>
-+                            <Name lang="en">Pretibial dystrophic epidermolysis bullosa</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="17233">
-+                            <OrphaCode>158673</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158673</ExpertLink>
-+                            <Name lang="en">Acral dystrophic epidermolysis bullosa</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="17234">
-+                            <OrphaCode>158676</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158676</ExpertLink>
-+                            <Name lang="en">Dominant dystrophic epidermolysis bullosa, nails only</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -33990,18 +34014,6 @@
                        <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="11906">
--                        <OrphaCode>89841</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89841</ExpertLink>
--                        <Name lang="en">Centripetalis recessive dystrophic epidermolysis bullosa</Name>
--                        <DisorderType id="21394">
--                          <Name lang="en">Disease</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
+@@ -15486,36 +15426,12 @@
+                               <Disorder id="3423">
+                                 <OrphaCode>2745</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2745</ExpertLink>
+-                                <Name lang="en">Opitz G/BBB syndrome</Name>
++                                <Name lang="en">Opitz GBBB syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="2">
+-                                <ClassificationNode>
+-                                  <Disorder id="21237">
+-                                    <OrphaCode>306588</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306588</ExpertLink>
+-                                    <Name lang="en">Autosomal dominant Opitz G/BBB syndrome</Name>
+-                                    <DisorderType id="21443">
+-                                      <Name lang="en">Etiological subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="21238">
+-                                    <OrphaCode>306597</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306597</ExpertLink>
+-                                    <Name lang="en">X-linked Opitz G/BBB syndrome</Name>
+-                                    <DisorderType id="21443">
+-                                      <Name lang="en">Etiological subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
++                              <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+@@ -25950,7 +25866,7 @@
+                               <Disorder id="1686">
+                                 <OrphaCode>1519</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1519</ExpertLink>
+-                                <Name lang="en">Hypertelorism, Teebi type</Name>
++                                <Name lang="en">SPECC1L-related hypertelorism syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -33814,7 +33730,7 @@
+                       <Disorder id="2233">
+                         <OrphaCode>2407</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2407</ExpertLink>
+-                        <Name lang="en">LOC syndrome</Name>
++                        <Name lang="en">Laryngo-onycho-cutaneous syndrome</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33826,7 +33742,7 @@
+                       <Disorder id="11429">
+                         <OrphaCode>79403</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79403</ExpertLink>
+-                        <Name lang="en">Junctional epidermolysis bullosa-pyloric atresia syndrome</Name>
++                        <Name lang="en">Junctional epidermolysis bullosa with pyloric atresia</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33838,7 +33754,7 @@
+                       <Disorder id="11430">
+                         <OrphaCode>79404</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79404</ExpertLink>
+-                        <Name lang="en">Junctional epidermolysis bullosa, generalized severe</Name>
++                        <Name lang="en">Severe generalized junctional epidermolysis bullosa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33874,7 +33790,7 @@
+                       <Disorder id="19640">
+                         <OrphaCode>251393</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251393</ExpertLink>
+-                        <Name lang="en">Localized junctional epidermolysis bullosa, non-Herlitz type</Name>
++                        <Name lang="en">Localized junctional epidermolysis bullosa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33898,7 +33814,7 @@
+                       <Disorder id="21219">
+                         <OrphaCode>306504</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306504</ExpertLink>
+-                        <Name lang="en">Junctional epidermolysis bullosa with respiratory and renal involvement</Name>
++                        <Name lang="en">Interstitial lung disease-nephrotic syndrome-epidermolysis bullosa syndrome</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33910,7 +33826,7 @@
+                       <Disorder id="11428">
+                         <OrphaCode>79402</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79402</ExpertLink>
+-                        <Name lang="en">Junctional epidermolysis bullosa, generalized intermediate</Name>
++                        <Name lang="en">Intermediate generalized junctional epidermolysis bullosa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33934,7 +33850,7 @@
+                       <Disorder id="11434">
+                         <OrphaCode>79408</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79408</ExpertLink>
+-                        <Name lang="en">Severe generalized recessive dystrophic epidermolysis bullosa</Name>
++                        <Name lang="en">Autosomal recessive generalized dystrophic epidermolysis bullosa, severe form</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33946,7 +33862,7 @@
+                       <Disorder id="11435">
+                         <OrphaCode>79409</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79409</ExpertLink>
+-                        <Name lang="en">Recessive dystrophic epidermolysis bullosa inversa</Name>
++                        <Name lang="en">Dystrophic epidermolysis bullosa inversa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -33968,7 +33884,7 @@
+                           <Disorder id="11436">
+                             <OrphaCode>79410</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79410</ExpertLink>
+-                            <Name lang="en">Pretibial dystrophic epidermolysis bullosa</Name>
++                            <Name lang="en">Localized dystrophic epidermolysis bullosa, pretibial form</Name>
+                             <DisorderType id="21450">
+                               <Name lang="en">Clinical subtype</Name>
+                             </DisorderType>
+@@ -33980,7 +33896,7 @@
+                           <Disorder id="17233">
+                             <OrphaCode>158673</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158673</ExpertLink>
+-                            <Name lang="en">Acral dystrophic epidermolysis bullosa</Name>
++                            <Name lang="en">Localized dystrophic epidermolysis bullosa, acral form</Name>
+                             <DisorderType id="21450">
+                               <Name lang="en">Clinical subtype</Name>
+                             </DisorderType>
+@@ -33992,7 +33908,7 @@
+                           <Disorder id="17234">
+                             <OrphaCode>158676</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158676</ExpertLink>
+-                            <Name lang="en">Dominant dystrophic epidermolysis bullosa, nails only</Name>
++                            <Name lang="en">Localized dystrophic epidermolysis bullosa, nails only</Name>
+                             <DisorderType id="21450">
+                               <Name lang="en">Clinical subtype</Name>
+                             </DisorderType>
+@@ -34006,7 +33922,7 @@
+                       <Disorder id="11437">
+                         <OrphaCode>79411</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79411</ExpertLink>
+-                        <Name lang="en">Transient bullous dermolysis of the newborn</Name>
++                        <Name lang="en">Self-improving dystrophic epidermolysis bullosa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -34018,7 +33934,7 @@
                        <Disorder id="11907">
                          <OrphaCode>89842</OrphaCode>
-@@ -34038,30 +34050,6 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="17234">
--                        <OrphaCode>158676</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158676</ExpertLink>
--                        <Name lang="en">Dominant dystrophic epidermolysis bullosa, nails only</Name>
--                        <DisorderType id="21394">
--                          <Name lang="en">Disease</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="17233">
--                        <OrphaCode>158673</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158673</ExpertLink>
--                        <Name lang="en">Acral dystrophic epidermolysis bullosa</Name>
--                        <DisorderType id="21394">
--                          <Name lang="en">Disease</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-                 <ClassificationNode>
-@@ -35386,7 +35374,7 @@
-                       <Disorder id="17232">
-                         <OrphaCode>158668</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=158668</ExpertLink>
--                        <Name lang="en">Epidermolysis bullosa simplex due to plakophilin deficiency</Name>
-+                        <Name lang="en">Ectodermal dysplasia-skin fragility syndrome</Name>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89842</ExpertLink>
+-                        <Name lang="en">Recessive dystrophic epidermolysis bullosa, generalized intermediate</Name>
++                        <Name lang="en">Autosomal recessive generalized dystrophic epidermolysis bullosa, intermediate form</Name>
                          <DisorderType id="21394">
                            <Name lang="en">Disease</Name>
                          </DisorderType>
-@@ -36840,7 +36828,7 @@
-                   <Disorder id="1007">
-                     <OrphaCode>528</OrphaCode>
-                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=528</ExpertLink>
--                    <Name lang="en">Berardinelli-Seip congenital lipodystrophy</Name>
-+                    <Name lang="en">Congenital generalized lipodystrophy</Name>
-                     <DisorderType id="21394">
-                       <Name lang="en">Disease</Name>
-                     </DisorderType>
-@@ -38984,7 +38972,7 @@
-                           <Disorder id="1451">
-                             <OrphaCode>1200</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1200</ExpertLink>
--                            <Name lang="en">Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome</Name>
-+                            <Name lang="en">Burn-McKeown syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -48230,7 +48218,7 @@
-                                       <Disorder id="19879">
-                                         <OrphaCode>261476</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261476</ExpertLink>
--                                        <Name lang="en">Xp21 microdeletion syndrome</Name>
-+                                        <Name lang="en">Xp21 deletion syndrome</Name>
-                                         <DisorderType id="21394">
-                                           <Name lang="en">Disease</Name>
+@@ -34042,7 +33958,7 @@
+                       <Disorder id="19201">
+                         <OrphaCode>231568</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=231568</ExpertLink>
+-                        <Name lang="en">Generalized dominant dystrophic epidermolysis bullosa</Name>
++                        <Name lang="en">Autosomal dominant generalized dystrophic epidermolysis bullosa</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -47501,8 +47417,8 @@
+                                     <OrphaCode>268261</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=268261</ExpertLink>
+                                     <Name lang="en">DYRK1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
++                                    <DisorderType id="21443">
++                                      <Name lang="en">Etiological subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -47655,8 +47571,8 @@
+                                         <OrphaCode>313884</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=313884</ExpertLink>
+                                         <Name lang="en">12p12.1 microdeletion syndrome</Name>
+-                                        <DisorderType id="21401">
+-                                          <Name lang="en">Malformation syndrome</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
                                          </DisorderType>
-@@ -53650,7 +53638,7 @@
-                       <Disorder id="24234">
-                         <OrphaCode>468678</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=468678</ExpertLink>
--                        <Name lang="en">Intellectual disability-microcephaly-strabismus-behavioral abnormalities syndrome</Name>
-+                        <Name lang="en">White-Sutton syndrome</Name>
-                         <DisorderType id="21394">
-                           <Name lang="en">Disease</Name>
-                         </DisorderType>
-@@ -57010,7 +56998,7 @@
-                       <Disorder id="1451">
-                         <OrphaCode>1200</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1200</ExpertLink>
--                        <Name lang="en">Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome</Name>
-+                        <Name lang="en">Burn-McKeown syndrome</Name>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -52318,36 +52234,12 @@
+                       <Disorder id="3423">
+                         <OrphaCode>2745</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2745</ExpertLink>
+-                        <Name lang="en">Opitz G/BBB syndrome</Name>
++                        <Name lang="en">Opitz GBBB syndrome</Name>
                          <DisorderType id="21401">
                            <Name lang="en">Malformation syndrome</Name>
                          </DisorderType>
-@@ -67752,7 +67740,7 @@
-                   <Disorder id="1451">
-                     <OrphaCode>1200</OrphaCode>
-                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1200</ExpertLink>
--                    <Name lang="en">Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome</Name>
-+                    <Name lang="en">Burn-McKeown syndrome</Name>
-                     <DisorderType id="21401">
-                       <Name lang="en">Malformation syndrome</Name>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="2">
+-                        <ClassificationNode>
+-                          <Disorder id="21237">
+-                            <OrphaCode>306588</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306588</ExpertLink>
+-                            <Name lang="en">Autosomal dominant Opitz G/BBB syndrome</Name>
+-                            <DisorderType id="21443">
+-                              <Name lang="en">Etiological subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="21238">
+-                            <OrphaCode>306597</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306597</ExpertLink>
+-                            <Name lang="en">X-linked Opitz G/BBB syndrome</Name>
+-                            <DisorderType id="21443">
+-                              <Name lang="en">Etiological subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
++                      <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -52845,8 +52737,8 @@
+                             <OrphaCode>268261</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=268261</ExpertLink>
+                             <Name lang="en">DYRK1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -52857,8 +52749,8 @@
+                             <OrphaCode>464311</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=464311</ExpertLink>
+                             <Name lang="en">Intellectual disability syndrome due to a DYRK1A point mutation</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                            <DisorderType id="21443">
++                              <Name lang="en">Etiological subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -57238,7 +57130,7 @@
+                       <Disorder id="1686">
+                         <OrphaCode>1519</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1519</ExpertLink>
+-                        <Name lang="en">Hypertelorism, Teebi type</Name>
++                        <Name lang="en">SPECC1L-related hypertelorism syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+@@ -66478,36 +66370,12 @@
+                       <Disorder id="3423">
+                         <OrphaCode>2745</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2745</ExpertLink>
+-                        <Name lang="en">Opitz G/BBB syndrome</Name>
++                        <Name lang="en">Opitz GBBB syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="2">
+-                        <ClassificationNode>
+-                          <Disorder id="21237">
+-                            <OrphaCode>306588</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306588</ExpertLink>
+-                            <Name lang="en">Autosomal dominant Opitz G/BBB syndrome</Name>
+-                            <DisorderType id="21443">
+-                              <Name lang="en">Etiological subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="21238">
+-                            <OrphaCode>306597</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306597</ExpertLink>
+-                            <Name lang="en">X-linked Opitz G/BBB syndrome</Name>
+-                            <DisorderType id="21443">
+-                              <Name lang="en">Etiological subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
++                      <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -66900,7 +66768,7 @@
+                   <Disorder id="21112">
+                     <OrphaCode>300333</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=300333</ExpertLink>
+-                    <Name lang="en">Nephrotic syndrome-deafness-pretibial epidermolysis bullosa syndrome</Name>
++                    <Name lang="en">Nephrotic syndrome-epidermolysis bullosa-sensorineural deafness syndrome</Name>
+                     <DisorderType id="21394">
+                       <Name lang="en">Disease</Name>
                      </DisorderType>
