@@ -1,404 +1,419 @@
-commit bf321f9bd09e8ca26476600ab0f29df16ef01085
+commit 3d5c9a9207e09e0708e502abbd0aaed3e628b8b8
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Thu Apr 1 11:20:48 2021 +0200
+Date:   Mon May 10 21:53:34 2021 +0200
 
-    APRIL 2021
+    MAY 2021
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_156.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_156.xml
-index 69442f0..82ba8cf 100644
+old mode 100644
+new mode 100755
+index 82ba8cf..d184caf
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_156.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_156.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-03-01 04:32:55" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-04-01 04:33:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-04-01 04:33:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-05-01 04:34:09" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -18567,7 +18567,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="19">
-+                      <ClassificationNodeChildList count="18">
-                         <ClassificationNode>
-                           <Disorder id="8729">
-                             <OrphaCode>602</OrphaCode>
-@@ -18676,18 +18676,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="20904">
--                            <OrphaCode>294049</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294049</ExpertLink>
--                            <Name lang="en">Reunion Island Larsen-like syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="21386">
-                             <OrphaCode>309568</OrphaCode>
-@@ -44607,7 +44595,55 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="14">
-+                      <ClassificationNodeChildList count="15">
-+                        <ClassificationNode>
-+                          <Disorder id="10865">
-+                            <OrphaCode>65283</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=65283</ExpertLink>
-+                            <Name lang="en">Timothy syndrome</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="3">
-+                            <ClassificationNode>
-+                              <Disorder id="29722">
-+                                <OrphaCode>595098</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595098</ExpertLink>
-+                                <Name lang="en">Timothy syndrome type 1</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="29723">
-+                                <OrphaCode>595105</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595105</ExpertLink>
-+                                <Name lang="en">Timothy syndrome type 2</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="29724">
-+                                <OrphaCode>595109</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595109</ExpertLink>
-+                                <Name lang="en">Atypical Timothy syndrome</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="120">
-                             <OrphaCode>908</OrphaCode>
-@@ -76232,7 +76268,7 @@
-                           <Disorder id="3183">
-                             <OrphaCode>3051</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3051</ExpertLink>
--                            <Name lang="en">Intellectual disability-sparse hair-brachydactyly syndrome</Name>
-+                            <Name lang="en">Nicolaides-Baraitser syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -77245,7 +77281,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="142">
-+                          <ClassificationNodeChildList count="140">
-                             <ClassificationNode>
-                               <Disorder id="1805">
-                                 <OrphaCode>1812</OrphaCode>
-@@ -77822,18 +77858,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="2746">
--                                <OrphaCode>3056</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3056</ExpertLink>
--                                <Name lang="en">X-linked intellectual disability, Brooks type</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="2752">
-                                 <OrphaCode>3063</OrphaCode>
-@@ -78314,6 +78338,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="900">
-+                                <OrphaCode>847</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-+                                <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="25306">
-                                 <OrphaCode>485350</OrphaCode>
-@@ -78614,18 +78650,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="11698">
--                                <OrphaCode>85328</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=85328</ExpertLink>
--                                <Name lang="en">X-linked intellectual disability, Turner type</Name>
--                                <DisorderType id="21401">
--                                  <Name lang="en">Malformation syndrome</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="11699">
-                                 <OrphaCode>85329</OrphaCode>
-@@ -79202,114 +79226,6 @@
-                                 </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="20048">
--                                <OrphaCode>263355</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263355</ExpertLink>
--                                <Name lang="en">ATR-X-related syndrome</Name>
--                                <DisorderType id="21436">
--                                  <Name lang="en">Clinical group</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="2">
+@@ -4311,8 +4311,8 @@
+                                         <OrphaCode>98791</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98791</ExpertLink>
+                                         <Name lang="en">Alpha-thalassemia-intellectual disability syndrome linked to chromosome 16</Name>
+-                                        <DisorderType id="21394">
+-                                          <Name lang="en">Disease</Name>
++                                        <DisorderType id="21401">
++                                          <Name lang="en">Malformation syndrome</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+@@ -4996,9 +4996,9 @@
+                                   <Disorder id="19853">
+                                     <OrphaCode>261144</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261144</ExpertLink>
+-                                    <Name lang="en">14q12 microdeletion syndrome</Name>
+-                                    <DisorderType id="21401">
+-                                      <Name lang="en">Malformation syndrome</Name>
++                                    <Name lang="en">FOXG1 syndrome due to 14q12 microdeletion</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -7355,19 +7355,7 @@
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="3">
 -                                <ClassificationNode>
--                                  <Disorder id="900">
--                                    <OrphaCode>847</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
--                                    <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
--                                    <DisorderType id="21394">
--                                      <Name lang="en">Disease</Name>
+-                                  <Disorder id="14205">
+-                                    <OrphaCode>99361</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99361</ExpertLink>
+-                                    <Name lang="en">Familial medullary thyroid carcinoma</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
 -                                    </DisorderType>
 -                                  </Disorder>
 -                                  <ClassificationNodeChildList count="0">
 -                                  </ClassificationNodeChildList>
 -                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="11034">
--                                    <OrphaCode>73220</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73220</ExpertLink>
--                                    <Name lang="en">X-linked intellectual disability-hypotonic face syndrome</Name>
--                                    <DisorderType id="21436">
--                                      <Name lang="en">Clinical group</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="6">
--                                    <ClassificationNode>
--                                      <Disorder id="12528">
--                                        <OrphaCode>93970</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93970</ExpertLink>
--                                        <Name lang="en">Holmes-Gang syndrome</Name>
--                                        <DisorderType id="21401">
--                                          <Name lang="en">Malformation syndrome</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                    <ClassificationNode>
--                                      <Disorder id="12529">
--                                        <OrphaCode>93971</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93971</ExpertLink>
--                                        <Name lang="en">Chudley-Lowry-Hoar syndrome</Name>
--                                        <DisorderType id="21401">
--                                          <Name lang="en">Malformation syndrome</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                    <ClassificationNode>
--                                      <Disorder id="12530">
--                                        <OrphaCode>93972</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93972</ExpertLink>
--                                        <Name lang="en">Juberg-Marsidi syndrome</Name>
--                                        <DisorderType id="21401">
--                                          <Name lang="en">Malformation syndrome</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                    <ClassificationNode>
--                                      <Disorder id="12531">
--                                        <OrphaCode>93973</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93973</ExpertLink>
--                                        <Name lang="en">Carpenter-Waziri syndrome</Name>
--                                        <DisorderType id="21401">
--                                          <Name lang="en">Malformation syndrome</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                    <ClassificationNode>
--                                      <Disorder id="12532">
--                                        <OrphaCode>93974</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93974</ExpertLink>
--                                        <Name lang="en">Smith-Fineman-Myers syndrome</Name>
--                                        <DisorderType id="21401">
--                                          <Name lang="en">Malformation syndrome</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                    <ClassificationNode>
--                                      <Disorder id="12533">
--                                        <OrphaCode>93975</OrphaCode>
--                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93975</ExpertLink>
--                                        <Name lang="en">Renier-Gabreels-Jasper syndrome</Name>
--                                        <DisorderType id="21401">
--                                          <Name lang="en">Malformation syndrome</Name>
--                                        </DisorderType>
--                                      </Disorder>
--                                      <ClassificationNodeChildList count="0">
--                                      </ClassificationNodeChildList>
--                                    </ClassificationNode>
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="20318">
-                                 <OrphaCode>275543</OrphaCode>
-@@ -81212,7 +81128,7 @@
-                           <Disorder id="22081">
-                             <OrphaCode>352577</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352577</ExpertLink>
--                            <Name lang="en">Severe feeding difficulties-failure to thrive-microcephaly due to ASXL3 deficiency syndrome</Name>
-+                            <Name lang="en">Bainbridge-Ropers syndrome</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
-                             </DisorderType>
-@@ -81632,7 +81548,7 @@
-                           <Disorder id="22920">
-                             <OrphaCode>404443</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404443</ExpertLink>
--                            <Name lang="en">Tall stature-intellectual disability-facial dysmorphism syndrome</Name>
-+                            <Name lang="en">Tatton-Brown-Rahman syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -89117,7 +89033,7 @@
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="28">
-+                  <ClassificationNodeChildList count="29">
-                     <ClassificationNode>
-                       <Disorder id="658">
-                         <OrphaCode>768</OrphaCode>
-@@ -89127,7 +89043,7 @@
-                           <Name lang="en">Clinical group</Name>
++                              <ClassificationNodeChildList count="2">
+                                 <ClassificationNode>
+                                   <Disorder id="19538">
+                                     <OrphaCode>247698</OrphaCode>
+@@ -11907,7 +11895,7 @@
+                           <Name lang="en">Category</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="4">
-+                      <ClassificationNodeChildList count="3">
+-                      <ClassificationNodeChildList count="110">
++                      <ClassificationNodeChildList count="111">
                          <ClassificationNode>
-                           <Disorder id="10865">
-                             <OrphaCode>65283</OrphaCode>
-@@ -89137,7 +89053,43 @@
-                               <Name lang="en">Malformation syndrome</Name>
+                           <Disorder id="3069">
+                             <OrphaCode>3200</OrphaCode>
+@@ -13165,7 +13153,7 @@
+                               <Name lang="en">Disease</Name>
                              </DisorderType>
                            </Disorder>
--                          <ClassificationNodeChildList count="0">
+-                          <ClassificationNodeChildList count="4">
 +                          <ClassificationNodeChildList count="3">
-+                            <ClassificationNode>
-+                              <Disorder id="29722">
-+                                <OrphaCode>595098</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595098</ExpertLink>
-+                                <Name lang="en">Timothy syndrome type 1</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="29723">
-+                                <OrphaCode>595105</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595105</ExpertLink>
-+                                <Name lang="en">Timothy syndrome type 2</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="29724">
-+                                <OrphaCode>595109</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=595109</ExpertLink>
-+                                <Name lang="en">Atypical Timothy syndrome</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="180">
+                                 <OrphaCode>181</OrphaCode>
+@@ -13202,18 +13190,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="13830">
+-                                <OrphaCode>98813</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
+-                                <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
                            </ClassificationNodeChildList>
                          </ClassificationNode>
                          <ClassificationNode>
-@@ -89164,18 +89116,6 @@
+@@ -13468,6 +13444,18 @@
                            <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="10442">
--                            <OrphaCode>37553</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=37553</ExpertLink>
--                            <Name lang="en">Andersen-Tawil syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="13830">
++                            <OrphaCode>98813</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
++                            <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
                        </ClassificationNodeChildList>
                      </ClassificationNode>
                      <ClassificationNode>
-@@ -89466,6 +89406,18 @@
+@@ -15044,7 +15032,7 @@
+                           <Disorder id="26573">
+                             <OrphaCode>508512</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=508512</ExpertLink>
+-                            <Name lang="en">Congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome</Name>
++                            <Name lang="en">Intrauterine growth restriction-congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -31364,7 +31352,7 @@
+                           <Disorder id="23427">
+                             <OrphaCode>442835</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=442835</ExpertLink>
+-                            <Name lang="en">Undetermined early-onset epileptic encephalopathy</Name>
++                            <Name lang="en">Non-specific early-onset epileptic encephalopathy</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -31400,7 +31388,7 @@
+                           <Disorder id="894">
+                             <OrphaCode>3451</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3451</ExpertLink>
+-                            <Name lang="en">West syndrome</Name>
++                            <Name lang="en">Infantile spasms syndrome</Name>
+                             <DisorderType id="21422">
+                               <Name lang="en">Clinical syndrome</Name>
+                             </DisorderType>
+@@ -31508,7 +31496,7 @@
+                           <Disorder id="23427">
+                             <OrphaCode>442835</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=442835</ExpertLink>
+-                            <Name lang="en">Undetermined early-onset epileptic encephalopathy</Name>
++                            <Name lang="en">Non-specific early-onset epileptic encephalopathy</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -31676,7 +31664,7 @@
+                           <Disorder id="23427">
+                             <OrphaCode>442835</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=442835</ExpertLink>
+-                            <Name lang="en">Undetermined early-onset epileptic encephalopathy</Name>
++                            <Name lang="en">Non-specific early-onset epileptic encephalopathy</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -31796,7 +31784,7 @@
+                           <Disorder id="23427">
+                             <OrphaCode>442835</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=442835</ExpertLink>
+-                            <Name lang="en">Undetermined early-onset epileptic encephalopathy</Name>
++                            <Name lang="en">Non-specific early-onset epileptic encephalopathy</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -44835,7 +44823,31 @@
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="0">
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="29875">
++                            <OrphaCode>598164</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=598164</ExpertLink>
++                            <Name lang="en">FOXG1 syndrome due to intragenic alteration</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="19853">
++                            <OrphaCode>261144</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261144</ExpertLink>
++                            <Name lang="en">FOXG1 syndrome due to 14q12 microdeletion</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -59956,7 +59968,7 @@
+                                   <Disorder id="24223">
+                                     <OrphaCode>468631</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=468631</ExpertLink>
+-                                    <Name lang="en">Microcephalic primordial dwarfism due to RTTN deficiency</Name>
++                                    <Name lang="en">Microcephalic cortical malformations-short stature due to RTTN deficiency</Name>
+                                     <DisorderType id="21401">
+                                       <Name lang="en">Malformation syndrome</Name>
+                                     </DisorderType>
+@@ -64386,7 +64398,7 @@
+                               <Disorder id="23427">
+                                 <OrphaCode>442835</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=442835</ExpertLink>
+-                                <Name lang="en">Undetermined early-onset epileptic encephalopathy</Name>
++                                <Name lang="en">Non-specific early-onset epileptic encephalopathy</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -64410,7 +64422,7 @@
+                               <Disorder id="894">
+                                 <OrphaCode>3451</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3451</ExpertLink>
+-                                <Name lang="en">West syndrome</Name>
++                                <Name lang="en">Infantile spasms syndrome</Name>
+                                 <DisorderType id="21422">
+                                   <Name lang="en">Clinical syndrome</Name>
+                                 </DisorderType>
+@@ -64626,7 +64638,7 @@
+                               <Disorder id="23427">
+                                 <OrphaCode>442835</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=442835</ExpertLink>
+-                                <Name lang="en">Undetermined early-onset epileptic encephalopathy</Name>
++                                <Name lang="en">Non-specific early-onset epileptic encephalopathy</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -64686,7 +64698,7 @@
+                               <Disorder id="891">
+                                 <OrphaCode>1942</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1942</ExpertLink>
+-                                <Name lang="en">Myoclonic-astastic epilepsy</Name>
++                                <Name lang="en">Myoclonic-astatic epilepsy</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -66534,7 +66546,7 @@
+                               <Disorder id="894">
+                                 <OrphaCode>3451</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3451</ExpertLink>
+-                                <Name lang="en">West syndrome</Name>
++                                <Name lang="en">Infantile spasms syndrome</Name>
+                                 <DisorderType id="21422">
+                                   <Name lang="en">Clinical syndrome</Name>
+                                 </DisorderType>
+@@ -67045,7 +67057,31 @@
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="0">
++                          <ClassificationNodeChildList count="2">
++                            <ClassificationNode>
++                              <Disorder id="29875">
++                                <OrphaCode>598164</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=598164</ExpertLink>
++                                <Name lang="en">FOXG1 syndrome due to intragenic alteration</Name>
++                                <DisorderType id="21450">
++                                  <Name lang="en">Clinical subtype</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="19853">
++                                <OrphaCode>261144</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261144</ExpertLink>
++                                <Name lang="en">FOXG1 syndrome due to 14q12 microdeletion</Name>
++                                <DisorderType id="21450">
++                                  <Name lang="en">Clinical subtype</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+@@ -70991,7 +71027,31 @@
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="0">
++                              <ClassificationNodeChildList count="2">
++                                <ClassificationNode>
++                                  <Disorder id="29875">
++                                    <OrphaCode>598164</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=598164</ExpertLink>
++                                    <Name lang="en">FOXG1 syndrome due to intragenic alteration</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="19853">
++                                    <OrphaCode>261144</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261144</ExpertLink>
++                                    <Name lang="en">FOXG1 syndrome due to 14q12 microdeletion</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+@@ -73940,7 +74000,7 @@
+                           <Disorder id="894">
+                             <OrphaCode>3451</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3451</ExpertLink>
+-                            <Name lang="en">West syndrome</Name>
++                            <Name lang="en">Infantile spasms syndrome</Name>
+                             <DisorderType id="21422">
+                               <Name lang="en">Clinical syndrome</Name>
+                             </DisorderType>
+@@ -77526,7 +77586,7 @@
+                               <Disorder id="972">
+                                 <OrphaCode>776</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=776</ExpertLink>
+-                                <Name lang="en">X-linked intellectual disability with marfanoid habitus</Name>
++                                <Name lang="en">Lujan-Fryns syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -79617,8 +79677,8 @@
+                             <OrphaCode>98791</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98791</ExpertLink>
+                             <Name lang="en">Alpha-thalassemia-intellectual disability syndrome linked to chromosome 16</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
++                            <DisorderType id="21401">
++                              <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -81006,7 +81066,7 @@
+                               <Disorder id="24223">
+                                 <OrphaCode>468631</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=468631</ExpertLink>
+-                                <Name lang="en">Microcephalic primordial dwarfism due to RTTN deficiency</Name>
++                                <Name lang="en">Microcephalic cortical malformations-short stature due to RTTN deficiency</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -81673,7 +81733,31 @@
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="0">
++                          <ClassificationNodeChildList count="2">
++                            <ClassificationNode>
++                              <Disorder id="29875">
++                                <OrphaCode>598164</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=598164</ExpertLink>
++                                <Name lang="en">FOXG1 syndrome due to intragenic alteration</Name>
++                                <DisorderType id="21450">
++                                  <Name lang="en">Clinical subtype</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="19853">
++                                <OrphaCode>261144</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261144</ExpertLink>
++                                <Name lang="en">FOXG1 syndrome due to 14q12 microdeletion</Name>
++                                <DisorderType id="21450">
++                                  <Name lang="en">Clinical subtype</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+@@ -94661,7 +94745,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="34">
++                  <ClassificationNodeChildList count="35">
+                     <ClassificationNode>
+                       <Disorder id="28092">
+                         <OrphaCode>544628</OrphaCode>
+@@ -95538,6 +95622,18 @@
                        <ClassificationNodeChildList count="0">
                        </ClassificationNodeChildList>
                      </ClassificationNode>
 +                    <ClassificationNode>
-+                      <Disorder id="10442">
-+                        <OrphaCode>37553</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=37553</ExpertLink>
-+                        <Name lang="en">Andersen-Tawil syndrome</Name>
++                      <Disorder id="11036">
++                        <OrphaCode>73224</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73224</ExpertLink>
++                        <Name lang="en">Tubular renal disease-cardiomyopathy syndrome</Name>
 +                        <DisorderType id="21394">
 +                          <Name lang="en">Disease</Name>
 +                        </DisorderType>
@@ -407,322 +422,149 @@ index 69442f0..82ba8cf 100644
 +                      </ClassificationNodeChildList>
 +                    </ClassificationNode>
                      <ClassificationNode>
-                       <Disorder id="25224">
-                         <OrphaCode>480864</OrphaCode>
-@@ -114163,7 +114115,7 @@
-                   <Name lang="en">Category</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="8">
-+              <ClassificationNodeChildList count="7">
-                 <ClassificationNode>
-                   <Disorder id="838">
-                     <OrphaCode>2312</OrphaCode>
-@@ -115880,18 +115832,6 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="25668">
--                    <OrphaCode>494348</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=494348</ExpertLink>
--                    <Name lang="en">Early-onset familial noncirrhotic portal hypertension</Name>
--                    <DisorderType id="21394">
--                      <Name lang="en">Disease</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
-               </ClassificationNodeChildList>
-             </ClassificationNode>
-             <ClassificationNode>
-@@ -116667,7 +116607,7 @@
-                           <Name lang="en">Category</Name>
+                       <Disorder id="1328">
+                         <OrphaCode>64</OrphaCode>
+@@ -104759,7 +104855,7 @@
+                                   <Name lang="en">Category</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="8">
++                              <ClassificationNodeChildList count="9">
+                                 <ClassificationNode>
+                                   <Disorder id="11735">
+                                     <OrphaCode>86815</OrphaCode>
+@@ -104817,7 +104913,7 @@
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+                                   </Disorder>
+-                                  <ClassificationNodeChildList count="4">
++                                  <ClassificationNodeChildList count="3">
+                                     <ClassificationNode>
+                                       <Disorder id="180">
+                                         <OrphaCode>181</OrphaCode>
+@@ -104854,18 +104950,6 @@
+                                       <ClassificationNodeChildList count="0">
+                                       </ClassificationNodeChildList>
+                                     </ClassificationNode>
+-                                    <ClassificationNode>
+-                                      <Disorder id="13830">
+-                                        <OrphaCode>98813</OrphaCode>
+-                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
+-                                        <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
+-                                        <DisorderType id="21450">
+-                                          <Name lang="en">Clinical subtype</Name>
+-                                        </DisorderType>
+-                                      </Disorder>
+-                                      <ClassificationNodeChildList count="0">
+-                                      </ClassificationNodeChildList>
+-                                    </ClassificationNode>
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
+                                 <ClassificationNode>
+@@ -104904,6 +104988,18 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="13830">
++                                    <OrphaCode>98813</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
++                                    <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+@@ -113525,7 +113621,19 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="5">
++                  <ClassificationNodeChildList count="6">
++                    <ClassificationNode>
++                      <Disorder id="14205">
++                        <OrphaCode>99361</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99361</ExpertLink>
++                        <Name lang="en">Familial medullary thyroid carcinoma</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="906">
+                         <OrphaCode>653</OrphaCode>
+@@ -113535,19 +113643,7 @@
+                           <Name lang="en">Disease</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="35">
-+                      <ClassificationNodeChildList count="34">
-                         <ClassificationNode>
-                           <Disorder id="44">
-                             <OrphaCode>881</OrphaCode>
-@@ -117028,18 +116968,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
+-                      <ClassificationNodeChildList count="3">
 -                        <ClassificationNode>
--                          <Disorder id="12530">
--                            <OrphaCode>93972</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93972</ExpertLink>
--                            <Name lang="en">Juberg-Marsidi syndrome</Name>
--                            <DisorderType id="21401">
--                              <Name lang="en">Malformation syndrome</Name>
+-                          <Disorder id="14205">
+-                            <OrphaCode>99361</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99361</ExpertLink>
+-                            <Name lang="en">Familial medullary thyroid carcinoma</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
 -                            </DisorderType>
 -                          </Disorder>
 -                          <ClassificationNodeChildList count="0">
 -                          </ClassificationNodeChildList>
 -                        </ClassificationNode>
++                      <ClassificationNodeChildList count="2">
                          <ClassificationNode>
-                           <Disorder id="12562">
-                             <OrphaCode>94095</OrphaCode>
-@@ -117361,7 +117289,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="5">
-+                          <ClassificationNodeChildList count="6">
-                             <ClassificationNode>
-                               <Disorder id="8672">
-                                 <OrphaCode>786</OrphaCode>
-@@ -117446,6 +117374,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -117727,8 +117667,8 @@
-                                 <OrphaCode>847</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-                                 <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-                                 </DisorderType>
-                               </Disorder>
-                               <ClassificationNodeChildList count="0">
-@@ -118087,7 +118027,7 @@
-                                           <Name lang="en">Category</Name>
-                                         </DisorderType>
-                                       </Disorder>
--                                      <ClassificationNodeChildList count="5">
-+                                      <ClassificationNodeChildList count="6">
-                                         <ClassificationNode>
-                                           <Disorder id="12094">
-                                             <OrphaCode>90790</OrphaCode>
-@@ -118172,6 +118112,18 @@
-                                           <ClassificationNodeChildList count="0">
-                                           </ClassificationNodeChildList>
-                                         </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="10819">
-+                                            <OrphaCode>63269</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                            <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-                                       </ClassificationNodeChildList>
-                                     </ClassificationNode>
-                                     <ClassificationNode>
-@@ -120351,7 +120303,7 @@
-                           <Name lang="en">Clinical group</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="6">
-+                      <ClassificationNodeChildList count="7">
-                         <ClassificationNode>
-                           <Disorder id="12094">
-                             <OrphaCode>90790</OrphaCode>
-@@ -120472,6 +120424,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="10819">
-+                            <OrphaCode>63269</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                            <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -121300,7 +121264,7 @@
-                                   <Disorder id="12657">
-                                     <OrphaCode>95702</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                                    <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                                    <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                                     <DisorderType id="21394">
-                                       <Name lang="en">Disease</Name>
-                                     </DisorderType>
-@@ -122014,7 +121978,7 @@
-                       <Disorder id="12657">
-                         <OrphaCode>95702</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                        <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                        <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                         <DisorderType id="21394">
-                           <Name lang="en">Disease</Name>
-                         </DisorderType>
-@@ -123566,7 +123530,7 @@
-                                       <Disorder id="12657">
-                                         <OrphaCode>95702</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                                        <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                                        <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                                         <DisorderType id="21394">
-                                           <Name lang="en">Disease</Name>
-                                         </DisorderType>
-@@ -125173,7 +125137,7 @@
-                               <Name lang="en">Clinical group</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="6">
-+                          <ClassificationNodeChildList count="7">
-                             <ClassificationNode>
-                               <Disorder id="12094">
-                                 <OrphaCode>90790</OrphaCode>
-@@ -125294,6 +125258,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -125334,7 +125310,7 @@
-                               <Disorder id="12657">
-                                 <OrphaCode>95702</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                                <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                                <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                                 <DisorderType id="21394">
+                           <Disorder id="19538">
+                             <OrphaCode>247698</OrphaCode>
+@@ -125807,19 +125903,7 @@
                                    <Name lang="en">Disease</Name>
                                  </DisorderType>
-@@ -125401,7 +125377,7 @@
-                               <Name lang="en">Clinical group</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="6">
-+                          <ClassificationNodeChildList count="7">
-                             <ClassificationNode>
-                               <Disorder id="12094">
-                                 <OrphaCode>90790</OrphaCode>
-@@ -125522,6 +125498,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -126337,7 +126325,7 @@
+                               </Disorder>
+-                              <ClassificationNodeChildList count="3">
+-                                <ClassificationNode>
+-                                  <Disorder id="14205">
+-                                    <OrphaCode>99361</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99361</ExpertLink>
+-                                    <Name lang="en">Familial medullary thyroid carcinoma</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
++                              <ClassificationNodeChildList count="2">
+                                 <ClassificationNode>
+                                   <Disorder id="19538">
+                                     <OrphaCode>247698</OrphaCode>
+@@ -127484,7 +127568,7 @@
+                           <Disorder id="20323">
+                             <OrphaCode>275745</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=275745</ExpertLink>
+-                            <Name lang="en">Alpha-thalassemia and related diseases</Name>
++                            <Name lang="en">Alpha-thalassemia and related disorders</Name>
+                             <DisorderType id="36561">
                                <Name lang="en">Category</Name>
                              </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="5">
-+                          <ClassificationNodeChildList count="6">
-                             <ClassificationNode>
-                               <Disorder id="8672">
-                                 <OrphaCode>786</OrphaCode>
-@@ -126422,6 +126410,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -126703,8 +126703,8 @@
-                                 <OrphaCode>847</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-                                 <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
+@@ -127530,7 +127614,7 @@
+                               <Disorder id="19226">
+                                 <OrphaCode>232288</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=232288</ExpertLink>
+-                                <Name lang="en">Alpha-thalassemia-related diseases</Name>
++                                <Name lang="en">Syndrome with alpha-thalassemia as a major feature</Name>
+                                 <DisorderType id="36561">
+                                   <Name lang="en">Category</Name>
                                  </DisorderType>
-                               </Disorder>
-                               <ClassificationNodeChildList count="0">
-@@ -127063,7 +127063,7 @@
-                                           <Name lang="en">Category</Name>
-                                         </DisorderType>
-                                       </Disorder>
--                                      <ClassificationNodeChildList count="5">
-+                                      <ClassificationNodeChildList count="6">
-                                         <ClassificationNode>
-                                           <Disorder id="12094">
-                                             <OrphaCode>90790</OrphaCode>
-@@ -127148,6 +127148,18 @@
-                                           <ClassificationNodeChildList count="0">
-                                           </ClassificationNodeChildList>
-                                         </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="10819">
-+                                            <OrphaCode>63269</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                            <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-                                       </ClassificationNodeChildList>
-                                     </ClassificationNode>
-                                     <ClassificationNode>
-@@ -127529,8 +127541,8 @@
-                                     <OrphaCode>847</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-                                     <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
+@@ -127553,8 +127637,8 @@
+                                     <OrphaCode>98791</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98791</ExpertLink>
+                                     <Name lang="en">Alpha-thalassemia-intellectual disability syndrome linked to chromosome 16</Name>
 -                                    <DisorderType id="21394">
 -                                      <Name lang="en">Disease</Name>
 +                                    <DisorderType id="21401">
@@ -730,516 +572,63 @@ index 69442f0..82ba8cf 100644
                                      </DisorderType>
                                    </Disorder>
                                    <ClassificationNodeChildList count="0">
-@@ -136275,7 +136287,7 @@
-                           <Name lang="en">Clinical group</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="19">
-+                      <ClassificationNodeChildList count="18">
-                         <ClassificationNode>
-                           <Disorder id="12290">
-                             <OrphaCode>93359</OrphaCode>
-@@ -136444,18 +136456,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="20904">
--                            <OrphaCode>294049</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294049</ExpertLink>
--                            <Name lang="en">Reunion Island Larsen-like syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="23364">
-                             <OrphaCode>438117</OrphaCode>
-@@ -139803,7 +139803,7 @@
+@@ -127758,7 +127842,7 @@
+                               <Disorder id="19632">
+                                 <OrphaCode>251355</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251355</ExpertLink>
+-                                <Name lang="en">Sickle cell disease associated with an other hemoglobin anomaly</Name>
++                                <Name lang="en">Sickle cell disease associated with another hemoglobin anomaly</Name>
+                                 <DisorderType id="36561">
+                                   <Name lang="en">Category</Name>
+                                 </DisorderType>
+@@ -149139,7 +149223,7 @@
                            <Name lang="en">Category</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="15">
-+                      <ClassificationNodeChildList count="14">
+-                      <ClassificationNodeChildList count="110">
++                      <ClassificationNodeChildList count="111">
                          <ClassificationNode>
-                           <Disorder id="1042">
-                             <OrphaCode>2311</OrphaCode>
-@@ -139912,18 +139912,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="20904">
--                            <OrphaCode>294049</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294049</ExpertLink>
--                            <Name lang="en">Reunion Island Larsen-like syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="21512">
-                             <OrphaCode>314667</OrphaCode>
-@@ -140699,7 +140687,31 @@
-                                   <Name lang="en">Malformation syndrome</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="0">
-+                              <ClassificationNodeChildList count="2">
-+                                <ClassificationNode>
-+                                  <Disorder id="10819">
-+                                    <OrphaCode>63269</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                    <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29762">
-+                                    <OrphaCode>596008</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=596008</ExpertLink>
-+                                    <Name lang="en">Antley-Bixler syndrome without genital anomaly or disorder of steroidogenesis</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-                             <ClassificationNode>
-@@ -147853,7 +147865,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="15">
-+                          <ClassificationNodeChildList count="14">
-                             <ClassificationNode>
-                               <Disorder id="1042">
-                                 <OrphaCode>2311</OrphaCode>
-@@ -147962,18 +147974,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="20904">
--                                <OrphaCode>294049</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294049</ExpertLink>
--                                <Name lang="en">Reunion Island Larsen-like syndrome</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="21512">
-                                 <OrphaCode>314667</OrphaCode>
-@@ -155672,7 +155672,7 @@
-                           <Disorder id="22920">
-                             <OrphaCode>404443</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404443</ExpertLink>
--                            <Name lang="en">Tall stature-intellectual disability-facial dysmorphism syndrome</Name>
-+                            <Name lang="en">Tatton-Brown-Rahman syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -156700,114 +156700,6 @@
-                             </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="20048">
--                            <OrphaCode>263355</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263355</ExpertLink>
--                            <Name lang="en">ATR-X-related syndrome</Name>
--                            <DisorderType id="21436">
--                              <Name lang="en">Clinical group</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="2">
--                            <ClassificationNode>
--                              <Disorder id="900">
--                                <OrphaCode>847</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
--                                <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="11034">
--                                <OrphaCode>73220</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73220</ExpertLink>
--                                <Name lang="en">X-linked intellectual disability-hypotonic face syndrome</Name>
--                                <DisorderType id="21436">
--                                  <Name lang="en">Clinical group</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="6">
--                                <ClassificationNode>
--                                  <Disorder id="12528">
--                                    <OrphaCode>93970</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93970</ExpertLink>
--                                    <Name lang="en">Holmes-Gang syndrome</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="12529">
--                                    <OrphaCode>93971</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93971</ExpertLink>
--                                    <Name lang="en">Chudley-Lowry-Hoar syndrome</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="12530">
--                                    <OrphaCode>93972</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93972</ExpertLink>
--                                    <Name lang="en">Juberg-Marsidi syndrome</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="12531">
--                                    <OrphaCode>93973</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93973</ExpertLink>
--                                    <Name lang="en">Carpenter-Waziri syndrome</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="12532">
--                                    <OrphaCode>93974</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93974</ExpertLink>
--                                    <Name lang="en">Smith-Fineman-Myers syndrome</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="12533">
--                                    <OrphaCode>93975</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93975</ExpertLink>
--                                    <Name lang="en">Renier-Gabreels-Jasper syndrome</Name>
--                                    <DisorderType id="21401">
--                                      <Name lang="en">Malformation syndrome</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="20486">
-                             <OrphaCode>280633</OrphaCode>
-@@ -157316,7 +157208,7 @@
-                           <Disorder id="22081">
-                             <OrphaCode>352577</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352577</ExpertLink>
--                            <Name lang="en">Severe feeding difficulties-failure to thrive-microcephaly due to ASXL3 deficiency syndrome</Name>
-+                            <Name lang="en">Bainbridge-Ropers syndrome</Name>
-                             <DisorderType id="21394">
+                           <Disorder id="3069">
+                             <OrphaCode>3200</OrphaCode>
+@@ -150397,7 +150481,7 @@
                                <Name lang="en">Disease</Name>
                              </DisorderType>
-@@ -159020,7 +158912,7 @@
-                           <Disorder id="3183">
-                             <OrphaCode>3051</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3051</ExpertLink>
--                            <Name lang="en">Intellectual disability-sparse hair-brachydactyly syndrome</Name>
-+                            <Name lang="en">Nicolaides-Baraitser syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -159652,6 +159544,18 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="900">
-+                            <OrphaCode>847</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-+                            <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="19874">
-                             <OrphaCode>261323</OrphaCode>
-@@ -162157,7 +162061,31 @@
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
                            </Disorder>
--                          <ClassificationNodeChildList count="0">
-+                          <ClassificationNodeChildList count="2">
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="29762">
-+                                <OrphaCode>596008</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=596008</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome without genital anomaly or disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -170879,7 +170807,31 @@
-                                   <Name lang="en">Malformation syndrome</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="0">
-+                              <ClassificationNodeChildList count="2">
-+                                <ClassificationNode>
-+                                  <Disorder id="10819">
-+                                    <OrphaCode>63269</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                    <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="29762">
-+                                    <OrphaCode>596008</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=596008</ExpertLink>
-+                                    <Name lang="en">Antley-Bixler syndrome without genital anomaly or disorder of steroidogenesis</Name>
-+                                    <DisorderType id="21450">
-+                                      <Name lang="en">Clinical subtype</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
+-                          <ClassificationNodeChildList count="4">
++                          <ClassificationNodeChildList count="3">
                              <ClassificationNode>
-@@ -179288,7 +179240,7 @@
-                           <Disorder id="22920">
-                             <OrphaCode>404443</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404443</ExpertLink>
--                            <Name lang="en">Tall stature-intellectual disability-facial dysmorphism syndrome</Name>
-+                            <Name lang="en">Tatton-Brown-Rahman syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -185065,7 +185017,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="5">
-+                          <ClassificationNodeChildList count="6">
-                             <ClassificationNode>
-                               <Disorder id="8672">
-                                 <OrphaCode>786</OrphaCode>
-@@ -185150,6 +185102,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -185431,8 +185395,8 @@
-                                 <OrphaCode>847</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-                                 <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-                                 </DisorderType>
-                               </Disorder>
-                               <ClassificationNodeChildList count="0">
-@@ -185791,7 +185755,7 @@
-                                           <Name lang="en">Category</Name>
-                                         </DisorderType>
-                                       </Disorder>
--                                      <ClassificationNodeChildList count="5">
-+                                      <ClassificationNodeChildList count="6">
-                                         <ClassificationNode>
-                                           <Disorder id="12094">
-                                             <OrphaCode>90790</OrphaCode>
-@@ -185876,6 +185840,18 @@
-                                           <ClassificationNodeChildList count="0">
-                                           </ClassificationNodeChildList>
-                                         </ClassificationNode>
-+                                        <ClassificationNode>
-+                                          <Disorder id="10819">
-+                                            <OrphaCode>63269</OrphaCode>
-+                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                            <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                            <DisorderType id="21450">
-+                                              <Name lang="en">Clinical subtype</Name>
-+                                            </DisorderType>
-+                                          </Disorder>
-+                                          <ClassificationNodeChildList count="0">
-+                                          </ClassificationNodeChildList>
-+                                        </ClassificationNode>
-                                       </ClassificationNodeChildList>
-                                     </ClassificationNode>
-                                     <ClassificationNode>
-@@ -189673,7 +189649,7 @@
-                               <Name lang="en">Clinical group</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="19">
-+                          <ClassificationNodeChildList count="18">
-                             <ClassificationNode>
-                               <Disorder id="12290">
-                                 <OrphaCode>93359</OrphaCode>
-@@ -189842,18 +189818,6 @@
+                               <Disorder id="180">
+                                 <OrphaCode>181</OrphaCode>
+@@ -150434,18 +150518,6 @@
                                <ClassificationNodeChildList count="0">
                                </ClassificationNodeChildList>
                              </ClassificationNode>
 -                            <ClassificationNode>
--                              <Disorder id="20904">
--                                <OrphaCode>294049</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=294049</ExpertLink>
--                                <Name lang="en">Reunion Island Larsen-like syndrome</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
+-                              <Disorder id="13830">
+-                                <OrphaCode>98813</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
+-                                <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
 -                                </DisorderType>
 -                              </Disorder>
 -                              <ClassificationNodeChildList count="0">
 -                              </ClassificationNodeChildList>
 -                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="23364">
-                                 <OrphaCode>438117</OrphaCode>
-@@ -192657,7 +192621,31 @@
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-                                   </Disorder>
--                                  <ClassificationNodeChildList count="0">
-+                                  <ClassificationNodeChildList count="2">
-+                                    <ClassificationNode>
-+                                      <Disorder id="10819">
-+                                        <OrphaCode>63269</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                        <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="29762">
-+                                        <OrphaCode>596008</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=596008</ExpertLink>
-+                                        <Name lang="en">Antley-Bixler syndrome without genital anomaly or disorder of steroidogenesis</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
-                                 <ClassificationNode>
-@@ -198990,7 +198978,7 @@
-                               <Disorder id="12657">
-                                 <OrphaCode>95702</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                                <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                                <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                                 <DisorderType id="21394">
-                                   <Name lang="en">Disease</Name>
-                                 </DisorderType>
-@@ -199155,7 +199143,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="5">
-+                      <ClassificationNodeChildList count="6">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
                          <ClassificationNode>
-                           <Disorder id="8672">
-                             <OrphaCode>786</OrphaCode>
-@@ -199240,6 +199228,18 @@
+@@ -150700,6 +150772,18 @@
                            <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
 +                        <ClassificationNode>
-+                          <Disorder id="10819">
-+                            <OrphaCode>63269</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                            <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
++                          <Disorder id="13830">
++                            <OrphaCode>98813</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
++                            <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
 +                            </DisorderType>
 +                          </Disorder>
 +                          <ClassificationNodeChildList count="0">
@@ -1248,60 +637,50 @@ index 69442f0..82ba8cf 100644
                        </ClassificationNodeChildList>
                      </ClassificationNode>
                      <ClassificationNode>
-@@ -199417,7 +199417,7 @@
-                               <Name lang="en">Category</Name>
+@@ -154228,7 +154312,7 @@
+                                   <Disorder id="24223">
+                                     <OrphaCode>468631</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=468631</ExpertLink>
+-                                    <Name lang="en">Microcephalic primordial dwarfism due to RTTN deficiency</Name>
++                                    <Name lang="en">Microcephalic cortical malformations-short stature due to RTTN deficiency</Name>
+                                     <DisorderType id="21401">
+                                       <Name lang="en">Malformation syndrome</Name>
+                                     </DisorderType>
+@@ -157098,7 +157182,7 @@
+                               <Disorder id="24223">
+                                 <OrphaCode>468631</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=468631</ExpertLink>
+-                                <Name lang="en">Microcephalic primordial dwarfism due to RTTN deficiency</Name>
++                                <Name lang="en">Microcephalic cortical malformations-short stature due to RTTN deficiency</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -159860,7 +159944,7 @@
+                           <Disorder id="972">
+                             <OrphaCode>776</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=776</ExpertLink>
+-                            <Name lang="en">X-linked intellectual disability with marfanoid habitus</Name>
++                            <Name lang="en">Lujan-Fryns syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
                              </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="5">
-+                          <ClassificationNodeChildList count="6">
-                             <ClassificationNode>
-                               <Disorder id="12094">
-                                 <OrphaCode>90790</OrphaCode>
-@@ -199502,6 +199502,18 @@
+@@ -202987,8 +203071,8 @@
+                                 <OrphaCode>98813</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98813</ExpertLink>
+                                 <Name lang="en">Hypohidrotic ectodermal dysplasia with immunodeficiency</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
+                                 </DisorderType>
+                               </Disorder>
                                <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="10819">
-+                                <OrphaCode>63269</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63269</ExpertLink>
-+                                <Name lang="en">Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis</Name>
-+                                <DisorderType id="21450">
-+                                  <Name lang="en">Clinical subtype</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -199689,8 +199701,8 @@
-                             <OrphaCode>847</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=847</ExpertLink>
-                             <Name lang="en">Alpha-thalassemia-X-linked intellectual disability syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-                           </Disorder>
-                           <ClassificationNodeChildList count="0">
-@@ -205720,7 +205732,7 @@
-                                   <Disorder id="12657">
-                                     <OrphaCode>95702</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                                    <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                                    <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                                     <DisorderType id="21394">
-                                       <Name lang="en">Disease</Name>
-                                     </DisorderType>
-@@ -206620,7 +206632,7 @@
-                                   <Disorder id="12657">
-                                     <OrphaCode>95702</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95702</ExpertLink>
--                                    <Name lang="en">X-linked adrenal hypoplasia congenita due to a NR0B1 point mutation</Name>
-+                                    <Name lang="en">X-linked adrenal hypoplasia congenita</Name>
-                                     <DisorderType id="21394">
-                                       <Name lang="en">Disease</Name>
-                                     </DisorderType>
+@@ -204192,7 +204276,7 @@
+                   <Disorder id="20632">
+                     <OrphaCode>284993</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=284993</ExpertLink>
+-                    <Name lang="en">Marfan and Marfan-related disorders</Name>
++                    <Name lang="en">Marfan syndrome and Marfan-related disorders</Name>
+                     <DisorderType id="36561">
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
