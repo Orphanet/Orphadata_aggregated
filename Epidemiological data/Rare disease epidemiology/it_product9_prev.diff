@@ -1,62 +1,602 @@
-commit 3d5c9a9207e09e0708e502abbd0aaed3e628b8b8
+commit 3ebab16f9c1ea026b2455fead790a4163a9f32d1
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Mon May 10 21:53:34 2021 +0200
+Date:   Tue Jun 1 11:23:35 2021 +0200
 
-    MAY 2021
+    JUNE 2021
 
 diff --git a/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml
-old mode 100644
-new mode 100755
-index 2ca23d7..34e262a
+old mode 100755
+new mode 100644
+index 34e262a..409f5e6
 --- a/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml	
 +++ b/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-04-01 04:43:23" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-05-01 04:44:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-05-01 04:44:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-06-01 04:47:01" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -129664,11 +129664,11 @@
-       <OrphaCode>261144</OrphaCode>
-       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=261144</ExpertLink>
-       <Name lang="it">Sindrome da microdelezione 14q12</Name>
--      <DisorderType id="21401">
--        <Name lang="it">Sindrome malformativa</Name>
-+      <DisorderType id="21450">
-+        <Name lang="it">Sottotipo clinico</Name>
-       </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="it">Malattia</Name>
-+      <DisorderGroup id="36554">
-+        <Name lang="it">Sottotipo della malattia</Name>
-       </DisorderGroup>
-       <PrevalenceList count="2">
-         <Prevalence id="9229">
-@@ -342519,11 +342519,11 @@
-       <OrphaCode>98813</OrphaCode>
-       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98813</ExpertLink>
-       <Name lang="it">Displasia ectodermica ipoidrotica con immunodeficienza</Name>
--      <DisorderType id="21450">
--        <Name lang="it">Sottotipo clinico</Name>
-+      <DisorderType id="21394">
-+        <Name lang="it">Malattia</Name>
-       </DisorderType>
--      <DisorderGroup id="36554">
--        <Name lang="it">Sottotipo della malattia</Name>
-+      <DisorderGroup id="36547">
-+        <Name lang="it">Malattia</Name>
-       </DisorderGroup>
-       <PrevalenceList count="2">
-         <Prevalence id="7562">
-@@ -351965,8 +351965,8 @@
-       <OrphaCode>98791</OrphaCode>
-       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98791</ExpertLink>
-       <Name lang="it">Sindrome alfa talassemia-disabilità cognitiva, legata al cromosoma 16</Name>
--      <DisorderType id="21394">
--        <Name lang="it">Malattia</Name>
-+      <DisorderType id="21401">
-+        <Name lang="it">Sindrome malformativa</Name>
-       </DisorderType>
-       <DisorderGroup id="36547">
+@@ -1854,7 +1854,7 @@
+     <Disorder id="17619">
+       <OrphaCode>166105</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=166105</ExpertLink>
+-      <Name lang="it">Encefalomiopatia mitocondriale infantile legata a FASTKD2</Name>
++      <Name lang="it">Encefalopatia mitocondriale infantile correlata a FASTKD2</Name>
+       <DisorderType id="21394">
          <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -84227,7 +84227,7 @@
+     <Disorder id="1368">
+       <OrphaCode>1074</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1074</ExpertLink>
+-      <Name lang="it">Anchiloblefaron filiforme - imperforazione anale</Name>
++      <Name lang="it">Sindrome anchiloblefaron filiforme congenito e ano imperforato</Name>
+       <DisorderType id="21450">
+         <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+@@ -89277,7 +89277,7 @@
+     <Disorder id="16698">
+       <OrphaCode>137639</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=137639</ExpertLink>
+-      <Name lang="it">Sindrome leucoencefalopatia-atassia-ipodontia-ipomielinizzazione</Name>
++      <Name lang="it">Sindrome da leucodistrofia ipomielinizzante, atassia, ipodontia e ipomielinizzazione</Name>
+       <DisorderType id="21450">
+         <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+@@ -102658,7 +102658,7 @@
+     <Disorder id="1913">
+       <OrphaCode>1969</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1969</ExpertLink>
+-      <Name lang="it">Sindrome FACES</Name>
++      <Name lang="it">Sindrome da dismorfismi facciali, anoressia, cachessia, anomalie oculari e cutanee</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -106818,7 +106818,7 @@
+     <Disorder id="2026">
+       <OrphaCode>2117</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2117</ExpertLink>
+-      <Name lang="it">Sindrome di Hartsfield-Bixler-Demyer</Name>
++      <Name lang="it">Sindrome di Hartsfield</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -116660,7 +116660,7 @@
+     <Disorder id="2052">
+       <OrphaCode>2153</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2153</ExpertLink>
+-      <Name lang="it">Sindrome da malattia di Hirschsprung con ipoplasia delle unghie e dismorfismi</Name>
++      <Name lang="it">Malattia di Hirschsprung - ipoplasia ungueale - dismorfismi</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -121356,7 +121356,7 @@
+     <Disorder id="19619">
+       <OrphaCode>251279</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=251279</ExpertLink>
+-      <Name lang="it">Microftalmia - retinite pigmentosa - foveoschisi - drusen della papilla ottica</Name>
++      <Name lang="it">Associazione  microftalmia, retinite pigmentosa, schisi della fovea e drusen del disco ottico</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -131243,7 +131243,7 @@
+     <Disorder id="19879">
+       <OrphaCode>261476</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=261476</ExpertLink>
+-      <Name lang="it">Monosomia Xp21</Name>
++      <Name lang="it">Sindrome da microdelezione Xp21</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -133193,7 +133193,7 @@
+     <Disorder id="20067">
+       <OrphaCode>263524</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=263524</ExpertLink>
+-      <Name lang="it">Encefalopatia acuta necrotizzante dell'infanzia</Name>
++      <Name lang="it">Encefalopatia necrotizzante acuta dell'infanzia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -139669,7 +139669,7 @@
+     <Disorder id="2572">
+       <OrphaCode>2835</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2835</ExpertLink>
+-      <Name lang="it">Sindrome da pectus excavatum con macrocefalia e displasia ungueale</Name>
++      <Name lang="it">Pectus excavatum -macrocefalia -displasia ungueale</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -149043,7 +149043,7 @@
+     <Disorder id="2852">
+       <OrphaCode>1856</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1856</ExpertLink>
+-      <Name lang="it">Sindrome da displasia spondiloperiferica con ulna corta</Name>
++      <Name lang="it">Displasia spondiloperiferica-ulna corta</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -182783,7 +182783,7 @@
+     <Disorder id="19132">
+       <OrphaCode>228426</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=228426</ExpertLink>
+-      <Name lang="it">Malattia autoimmune multisistemica sindromica da deficit di Itch</Name>
++      <Name lang="it">Malattia multisistemica  autoimmunitaria sindromica da deficit di Itch</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -187128,7 +187128,7 @@
+     <Disorder id="19142">
+       <OrphaCode>230839</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=230839</ExpertLink>
+-      <Name lang="it">Sindrome di Ehlers-Danlos, tipo simil-classico</Name>
++      <Name lang="it">Sindrome di Ehlers-Danlos da deficit di tenascina-X</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -189735,7 +189735,7 @@
+     <Disorder id="22001">
+       <OrphaCode>331226</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=331226</ExpertLink>
+-      <Name lang="it">Suscettibilità da infezione dovuta al deficit di TYK2</Name>
++      <Name lang="it">Suscettibilità alle infezioni da deficit di TYK2</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -191648,7 +191648,7 @@
+     <Disorder id="21910">
+       <OrphaCode>329224</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=329224</ExpertLink>
+-      <Name lang="it">Deficit cognitivo - dismorfismo craniofacciale - criptorchidismo</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, dismorfismi craniofacciali e criptorchidismo</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -193449,7 +193449,7 @@
+     <Disorder id="21789">
+       <OrphaCode>324585</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324585</ExpertLink>
+-      <Name lang="it">Malattia di Charcot-Marie-Tooth intermedia autosomica dominante con dolore neuropatico</Name>
++      <Name lang="it">Malattia di Charcot-Marie-Tooth autosomica dominante intermedia con dolore neuropatico</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -193890,7 +193890,7 @@
+     <Disorder id="21776">
+       <OrphaCode>324416</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=324416</ExpertLink>
+-      <Name lang="it">Ipertrofia muscolare - epatomegalia - polidramnios</Name>
++      <Name lang="it">Sindrome ipertrofia muscolare, epatomegalia, polidramnios</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -194510,7 +194510,7 @@
+     <Disorder id="21713">
+       <OrphaCode>320360</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=320360</ExpertLink>
+-      <Name lang="it">Paraplegia spastica a trasmissione materna</Name>
++      <Name lang="it">Paraplegia spastica mitocondriale correlata a MT-ATP6</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -199537,7 +199537,7 @@
+     <Disorder id="22479">
+       <OrphaCode>370088</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=370088</ExpertLink>
+-      <Name lang="it">Sindrome insufficienza epatica acuta infantile-coinvolgimento multisistemico</Name>
++      <Name lang="it">Sindrome da insufficienza epatica acuta infantile ed interessamento multisistemico</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -200304,7 +200304,7 @@
+     <Disorder id="22455">
+       <OrphaCode>369970</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=369970</ExpertLink>
+-      <Name lang="it">Sindrome microcornea-atrofia corioretinica miopica-telecanto</Name>
++      <Name lang="it">Sindrome da microcornea, atrofia corioretinica miopica e telecanto</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -200500,7 +200500,7 @@
+     <Disorder id="22461">
+       <OrphaCode>370002</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=370002</ExpertLink>
+-      <Name lang="it">Cheratoderma palmoplantare focale con cheratosi a livello delle articolazioni</Name>
++      <Name lang="it">Cheratoderma palmoplantare focale con cheratosi articolare</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -200532,7 +200532,7 @@
+     <Disorder id="22460">
+       <OrphaCode>369999</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=369999</ExpertLink>
+-      <Name lang="it">Cheratoderma palmoplantare diffuso con fessure dolorose</Name>
++      <Name lang="it">Cheratoderma palmoplantare diffuso con fissurazioni dolorose</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -200760,7 +200760,7 @@
+     <Disorder id="22437">
+       <OrphaCode>369852</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=369852</ExpertLink>
+-      <Name lang="it">Sindrome infezioni ricorrenti-mielofibrosi-nefromegalia</Name>
++      <Name lang="it">Sindrome neutropenia congenita, mielofibrosi, nefromegalia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -202937,7 +202937,7 @@
+     <Disorder id="22297">
+       <OrphaCode>363412</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=363412</ExpertLink>
+-      <Name lang="it">Ipomielinizzazione con coinvolgimento del tronco encefalico e del midollo spinale e spasticità delle gambe</Name>
++      <Name lang="it">Ipomielinizzazione con interessamento del tronco encefalico e del midollo spinale associata a spasticità delle gambe</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -203263,7 +203263,7 @@
+     <Disorder id="22328">
+       <OrphaCode>363618</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=363618</ExpertLink>
+-      <Name lang="it">Sindrome progeroide cardiocutanea LMNA-correlata</Name>
++      <Name lang="it">Sindrome progeroide cardiocutanea correlata a LMNA</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -207816,7 +207816,7 @@
+     <Disorder id="20901">
+       <OrphaCode>294016</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=294016</ExpertLink>
+-      <Name lang="it">Sindrome microcefalia-malformazione capillare</Name>
++      <Name lang="it">Sindrome microcefalia e malformazioni capillari</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -208012,7 +208012,7 @@
+     <Disorder id="20897">
+       <OrphaCode>293967</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=293967</ExpertLink>
+-      <Name lang="it">Sindrome ipogonadismo ipogonadotropo-microcefalia grave-perdita dell'udito neurosensoriale-dismorfismi</Name>
++      <Name lang="it">Sindrome da ipogonadismo ipogonadotropo, microcefalia grave, sordità neurosensoriale e dismorfismi</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -208110,7 +208110,7 @@
+     <Disorder id="20895">
+       <OrphaCode>293958</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=293958</ExpertLink>
+-      <Name lang="it">Sindrome ipertelorismo-seno preauricolare-ostruzione del condotto lacrimale-sordità</Name>
++      <Name lang="it">Sindrome ipertelorismo, seno e fossette preuricolari, sordità</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -208681,7 +208681,7 @@
+     <Disorder id="20869">
+       <OrphaCode>293725</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=293725</ExpertLink>
+-      <Name lang="it">Sindrome blefarofimosi-deficit cognitivo, tipo Verloes</Name>
++      <Name lang="it">Sindrome da blefarofimosi e disabilità intellettiva tipo Verloes</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -209750,7 +209750,7 @@
+     <Disorder id="20838">
+       <OrphaCode>293165</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=293165</ExpertLink>
+-      <Name lang="it">Sindrome fragilità cutanea-capelli lanosi- cheratoderma palmoplantare</Name>
++      <Name lang="it">Sindrome da fragilità cutanea, capelli lanosi e cheratoderma palmoplantare</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -212119,7 +212119,7 @@
+     <Disorder id="20726">
+       <OrphaCode>289483</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=289483</ExpertLink>
+-      <Name lang="it">Sindrome da disabilità intellettiva-alacrimia-acalasia</Name>
++      <Name lang="it">Disabilità intellettiva - alacrimia - acalasia</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -213591,7 +213591,7 @@
+     <Disorder id="20578">
+       <OrphaCode>284149</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=284149</ExpertLink>
+-      <Name lang="it">Craniosinostosi e anomalie dentali</Name>
++      <Name lang="it">Sindrome da craniosinostosi e anomalie dei denti</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -214895,7 +214895,7 @@
+     <Disorder id="21459">
+       <OrphaCode>313855</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=313855</ExpertLink>
+-      <Name lang="it">Displasia con incurvamento delle ossa FGFR2-correlata</Name>
++      <Name lang="it">Displasia con incurvamento delle ossa correlata a FGFR2</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -215449,7 +215449,7 @@
+     <Disorder id="21497">
+       <OrphaCode>314575</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=314575</ExpertLink>
+-      <Name lang="it">Sindrome deficit cognitivo-ipotonia-brachicefalia-stenosi pilorica-criptorchidismo</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, ipotonia, brachicefalia, stenosi pilorica, criptorchidismo</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -215694,7 +215694,7 @@
+     <Disorder id="21495">
+       <OrphaCode>314566</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=314566</ExpertLink>
+-      <Name lang="it">Aprassia progressiva primitiva del linguaggio</Name>
++      <Name lang="it">Aprassia verbale primitiva progressiva</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -215986,7 +215986,7 @@
+     <Disorder id="21486">
+       <OrphaCode>314432</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=314432</ExpertLink>
+-      <Name lang="it">Sindrome ernia di Spigelio-criptorchidismo</Name>
++      <Name lang="it">Sindrome da ernia di Spigelio e criptorchidismo</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -218637,7 +218637,7 @@
+     <Disorder id="21121">
+       <OrphaCode>300501</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=300501</ExpertLink>
+-      <Name lang="it">Sindrome neurofibromi sistemici e orbitali dolorosi-habitus marfanoide</Name>
++      <Name lang="it">Sindrome da neurofibromi dolorosi orbitali sistemici e habitus marfanoide</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -220201,7 +220201,7 @@
+     <Disorder id="21109">
+       <OrphaCode>300313</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=300313</ExpertLink>
+-      <Name lang="it">Sindrome cataratta congenita-perdita dell'udito-grave ritardo dello sviluppo</Name>
++      <Name lang="it">Sindrome cataratta congenita, sordità e grave ritardo dello sviluppo</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -230431,7 +230431,7 @@
+     <Disorder id="22859">
+       <OrphaCode>401959</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=401959</ExpertLink>
+-      <Name lang="it">Sindrome agenesia parziale del corpo calloso-ipoplasia del verme cerebellare con cisti della fossa posteriore</Name>
++      <Name lang="it">Sindrome da agenesia parziale del corpo calloso ed ipoplasia del verme cerebellare con cisti della fossa posteriore</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -231296,7 +231296,7 @@
+     <Disorder id="22922">
+       <OrphaCode>404451</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=404451</ExpertLink>
+-      <Name lang="it">Sindrome ritardo dello sviluppo-anomalia del sistema nervoso-sindattilia, da mutazioni di FBLN1</Name>
++      <Name lang="it">Sindrome da ritardo dello sviluppo, anomalie del sistema nervoso centrale, sindattilia correlata a FBLN1</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -232766,7 +232766,7 @@
+     <Disorder id="22538">
+       <OrphaCode>371364</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=371364</ExpertLink>
+-      <Name lang="it">Sindrome da ipotonia-deficit del linguaggio-ritardo cognitivo grave</Name>
++      <Name lang="it">Ipotonia-deficit del linguaggio-ritardo cognitivo grave</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -233370,7 +233370,7 @@
+     <Disorder id="22608">
+       <OrphaCode>391343</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=391343</ExpertLink>
+-      <Name lang="it">Malattia neurodegenerativa post-virale fatale</Name>
++      <Name lang="it">Malattia neurodegenerativa letale post-virale</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -233419,7 +233419,7 @@
+     <Disorder id="22609">
+       <OrphaCode>391348</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=391348</ExpertLink>
+-      <Name lang="it">Sindrome ritardo della crescita e dello sviluppo-ipotonia-difetto visivo-acidosi lattica</Name>
++      <Name lang="it">Sindrome da ritardo della crescita e dello sviluppo, ipotonia, compromissione della vista, acidosi lattica</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -233517,7 +233517,7 @@
+     <Disorder id="22611">
+       <OrphaCode>391366</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=391366</ExpertLink>
+-      <Name lang="it">Sindrome ritardo della crescita-lieve ritardo dello sviluppo-epatite cronica</Name>
++      <Name lang="it">Sindrome da ritardo della crescita, lieve ritardo dello sviluppo, epatite cronica</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -235229,7 +235229,7 @@
+     <Disorder id="22715">
+       <OrphaCode>397973</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397973</ExpertLink>
+-      <Name lang="it">Sindrome deficit cognitivo-obesità-prognatismo-anomalie oculari e cutanee</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, obesità, prognatismo ed anomalie oculari e cutanee</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -235621,7 +235621,7 @@
+     <Disorder id="22707">
+       <OrphaCode>397933</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397933</ExpertLink>
+-      <Name lang="it">Sindrome deficit cognitivo grave-microcefalia postnatale progressiva-movimenti stereotipati delle mani lungo la linea mediana</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva grave, microcefalia postnatale progressiva, movimenti stereotipati delle mani lungo la linea mediana</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -235670,7 +235670,7 @@
+     <Disorder id="22705">
+       <OrphaCode>397927</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397927</ExpertLink>
+-      <Name lang="it">Sindrome agenesia sacrale-difetto dell'ossificazione dei corpi vertebrali-pervietà del canale della notocorda</Name>
++      <Name lang="it">Sindrome da agenesia sacrale, anomalie dell'ossificazione dei corpi vertebrali, persistenza del canale notocordale</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -235817,7 +235817,7 @@
+     <Disorder id="22700">
+       <OrphaCode>397755</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397755</ExpertLink>
+-      <Name lang="it">Paralisi periodica con pseudo-sindrome compartimentale transitoria</Name>
++      <Name lang="it">Paralisi periodica con sindrome transitoria simil-compartimentale</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -236290,7 +236290,7 @@
+     <Disorder id="22690">
+       <OrphaCode>397623</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=397623</ExpertLink>
+-      <Name lang="it">Sindrome bassa statura-atresia del canale uditivo-ipoplasia mandibolare-anomalie scheletriche</Name>
++      <Name lang="it">Sindrome da bassa statura, atresia del canale uditivo, ipoplasia mandibolare ed anomalie scheletriche</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -237377,7 +237377,7 @@
+     <Disorder id="22746">
+       <OrphaCode>399081</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=399081</ExpertLink>
+-      <Name lang="it">Miopatia distale ad esordio precoce correlata a KLHL9</Name>
++      <Name lang="it">Miopatia distale correlata a KLHL9 ad esordio precoce</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -239120,7 +239120,7 @@
+     <Disorder id="22725">
+       <OrphaCode>398097</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=398097</ExpertLink>
+-      <Name lang="it">Sindrome da antifosfolipidi neonatale</Name>
++      <Name lang="it">Sindrome neonatale da antifosfolipidi</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -244316,7 +244316,7 @@
+     <Disorder id="23042">
+       <OrphaCode>412069</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=412069</ExpertLink>
+-      <Name lang="it">Sindrome deficit cognitivo-apnea ostruttiva del sonno-lievi dismorfismi da mutazioni del gene AHDC1</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, apnea ostruttiva del sonno e dismorfismi sfumati correlata a AHDC1</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -266290,7 +266290,7 @@
+     <Disorder id="8593">
+       <OrphaCode>615</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=615</ExpertLink>
+-      <Name lang="it">Mixoma atriale</Name>
++      <Name lang="it">Mixoma atriale familiare</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -267914,7 +267914,7 @@
+       <DisorderGroup id="36540">
+         <Name lang="it">Gruppo di malattie</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="12">
++      <PrevalenceList count="11">
+         <Prevalence id="5195">
+           <Source>20566927[PMID]</Source>
+           <PrevalenceType id="23669">
+@@ -267942,10 +267942,10 @@
+           <PrevalenceQualification id="23711">
+             <Name lang="it">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="it">1-9 / 100 000</Name>
++          <PrevalenceClass id="23739">
++            <Name lang="it">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.1</ValMoy>
++          <ValMoy>0.572</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+@@ -268105,27 +268105,8 @@
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5205">
+-          <Source>ISBN:951563203[OTHER]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.12</ValMoy>
+-          <PrevalenceGeographic id="25279">
+-            <Name lang="it">South Africa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+         <Prevalence id="5206">
+-          <Source>ISBN:801860245[OTHER]</Source>
++          <Source>PMID: 27463098</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+@@ -268135,7 +268116,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="it">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.24</ValMoy>
++          <ValMoy>0.14</ValMoy>
+           <PrevalenceGeographic id="25482">
+             <Name lang="it">United States</Name>
+           </PrevalenceGeographic>
+@@ -307983,7 +307964,7 @@
+     <Disorder id="11786">
+       <OrphaCode>86913</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=86913</ExpertLink>
+-      <Name lang="it">Epilessia mioclonica in encefalopatie non progressive</Name>
++      <Name lang="it">Epilessia mioclonica nelle encefalopatie non progressive</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -330407,7 +330388,7 @@
+     <Disorder id="11616">
+       <OrphaCode>84093</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=84093</ExpertLink>
+-      <Name lang="it">Neuropatia ereditaria termosensibile</Name>
++      <Name lang="it">Neuropatia termosensibile ereditaria</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -335961,7 +335942,7 @@
+     <Disorder id="12799">
+       <OrphaCode>96175</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=96175</ExpertLink>
+-      <Name lang="it">Cromosoma 11 ad anello</Name>
++      <Name lang="it">Sindrome del cromosoma 11 ad anello</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -336010,7 +335991,7 @@
+     <Disorder id="12797">
+       <OrphaCode>96173</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=96173</ExpertLink>
+-      <Name lang="it">Cromosoma 9 ad anello</Name>
++      <Name lang="it">Sindrome del cromosoma 9 ad anello</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -342859,7 +342840,7 @@
+     <Disorder id="13848">
+       <OrphaCode>98831</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98831</ExpertLink>
+-      <Name lang="it">Leucemia mieloide acuta con anomalie in 11q23</Name>
++      <Name lang="it">Leucemia mieloide acuta con anomalie di 11q23</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
