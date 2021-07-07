@@ -1,110 +1,292 @@
-commit 3d5c9a9207e09e0708e502abbd0aaed3e628b8b8
+commit 3ebab16f9c1ea026b2455fead790a4163a9f32d1
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Mon May 10 21:53:34 2021 +0200
+Date:   Tue Jun 1 11:23:35 2021 +0200
 
-    MAY 2021
+    JUNE 2021
 
 diff --git a/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml b/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml
-old mode 100644
-new mode 100755
-index ea53a6a..a95ca54
+old mode 100755
+new mode 100644
+index a95ca54..37a91c8
 --- a/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml	
 +++ b/Epidemiological data/Rare diseases natural history/pt_product9_ages.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-04-01 04:42:30" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-05-01 04:43:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-05-01 04:43:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-06-01 04:46:01" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -53238,11 +53238,11 @@
-       <OrphaCode>261144</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=261144</ExpertLink>
-       <Name lang="pt">Monossomia 14q12</Name>
--      <DisorderType id="21401">
--        <Name lang="pt">Síndrome malformativo</Name>
-+      <DisorderType id="21450">
-+        <Name lang="pt">Subtipo clínico</Name>
-       </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="pt">Patologia</Name>
-+      <DisorderGroup id="36554">
-+        <Name lang="pt">Subtipo de patologia</Name>
-       </DisorderGroup>
-       <AverageAgeOfOnsetList count="2">
-         <AverageAgeOfOnset id="23522">
-@@ -62734,11 +62734,11 @@
-       <OrphaCode>280315</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=280315</ExpertLink>
-       <Name lang="pt">Pancreatite autoimune tipo 2</Name>
--      <DisorderType id="21450">
--        <Name lang="pt">Subtipo clínico</Name>
-+      <DisorderType id="21394">
-+        <Name lang="pt">Doença</Name>
-       </DisorderType>
--      <DisorderGroup id="36554">
--        <Name lang="pt">Subtipo de patologia</Name>
-+      <DisorderGroup id="36547">
-+        <Name lang="pt">Patologia</Name>
-       </DisorderGroup>
-       <AverageAgeOfOnsetList count="1">
-         <AverageAgeOfOnset id="23543">
-@@ -163546,11 +163546,11 @@
-       <OrphaCode>99361</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=99361</ExpertLink>
-       <Name lang="pt">Carcinoma medular da tiroide, familiar</Name>
--      <DisorderType id="21450">
--        <Name lang="pt">Subtipo clínico</Name>
-+      <DisorderType id="21394">
-+        <Name lang="pt">Doença</Name>
-       </DisorderType>
--      <DisorderGroup id="36554">
--        <Name lang="pt">Subtipo de patologia</Name>
-+      <DisorderGroup id="36547">
-+        <Name lang="pt">Patologia</Name>
-       </DisorderGroup>
-       <AverageAgeOfOnsetList count="0">
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6566">
++  <DisorderList count="6568">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=166024</ExpertLink>
+@@ -3716,12 +3716,12 @@
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23424">
++          <Name lang="pt">Multigénico/Multifactorial</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="pt">Não aplicável</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23480">
+-          <Name lang="pt">Desconhecido</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="17490">
+@@ -14854,13 +14854,16 @@
        </AverageAgeOfOnsetList>
-@@ -164164,11 +164164,11 @@
-       <OrphaCode>98813</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98813</ExpertLink>
-       <Name lang="pt">Displasia ectodérmica hipohidrótica com imunodeficiência</Name>
--      <DisorderType id="21450">
--        <Name lang="pt">Subtipo clínico</Name>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="3">
+         <TypeOfInheritance id="23410">
+           <Name lang="pt">Autossómica dominante</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="pt">Autossómica recessiva</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23431">
++          <Name lang="pt">Ligado ao X recessivo</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="17999">
+@@ -67435,13 +67438,16 @@
+           <Name lang="pt">esperança de vida normal</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="3">
++      <TypeOfInheritanceList count="4">
+         <TypeOfInheritance id="23410">
+           <Name lang="pt">Autossómica dominante</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="pt">Autossómica recessiva</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23424">
++          <Name lang="pt">Multigénico/Multifactorial</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23431">
+           <Name lang="pt">Ligado ao X recessivo</Name>
+         </TypeOfInheritance>
+@@ -68629,13 +68635,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="pt">Autossómica dominante</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pt">Autossómica recessiva</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="18604">
+@@ -74621,9 +74624,12 @@
+           <Name lang="pt">esperança de vida normal</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pt">Não aplicável</Name>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23424">
++          <Name lang="pt">Multigénico/Multifactorial</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23480">
++          <Name lang="pt">Desconhecido</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -77963,7 +77969,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="pt">Autossómica dominante</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23424">
+           <Name lang="pt">Multigénico/Multifactorial</Name>
+         </TypeOfInheritance>
+@@ -79975,6 +79984,26 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="3625">
++      <OrphaCode>2197</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=2197</ExpertLink>
++      <Name lang="pt">Hipercalciúria idiopática</Name>
 +      <DisorderType id="21394">
 +        <Name lang="pt">Doença</Name>
-       </DisorderType>
--      <DisorderGroup id="36554">
--        <Name lang="pt">Subtipo de patologia</Name>
++      </DisorderType>
 +      <DisorderGroup id="36547">
 +        <Name lang="pt">Patologia</Name>
-       </DisorderGroup>
-       <AverageAgeOfOnsetList count="2">
-         <AverageAgeOfOnset id="23522">
-@@ -167343,8 +167343,8 @@
-       <OrphaCode>98791</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=98791</ExpertLink>
-       <Name lang="pt">Síndrome de alfa talassemia - défice intelectual ligado ao cromossoma 16</Name>
--      <DisorderType id="21394">
--        <Name lang="pt">Doença</Name>
-+      <DisorderType id="21401">
-+        <Name lang="pt">Síndrome malformativo</Name>
-       </DisorderType>
-       <DisorderGroup id="36547">
-         <Name lang="pt">Patologia</Name>
-@@ -168831,11 +168831,11 @@
-       <OrphaCode>103919</OrphaCode>
-       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=103919</ExpertLink>
-       <Name lang="pt">Pancreatite autoimune</Name>
--      <DisorderType id="21394">
--        <Name lang="pt">Doença</Name>
-+      <DisorderType id="21436">
-+        <Name lang="pt">Grupo de fenótipos</Name>
-       </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="pt">Patologia</Name>
-+      <DisorderGroup id="36540">
-+        <Name lang="pt">Grupo de patologias</Name>
-       </DisorderGroup>
-       <AverageAgeOfOnsetList count="0">
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pt">Autossómica dominante</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="19175">
+       <OrphaCode>231237</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=231237</ExpertLink>
+@@ -82463,6 +82492,38 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="19292">
++      <OrphaCode>238666</OrphaCode>
++      <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=238666</ExpertLink>
++      <Name lang="pt">Hipogonadismo hipogonadotrópico congénito isolado</Name>
++      <DisorderType id="21394">
++        <Name lang="pt">Doença</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pt">Patologia</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="5">
++        <TypeOfInheritance id="23410">
++          <Name lang="pt">Autossómica dominante</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23417">
++          <Name lang="pt">Autossómica recessiva</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23459">
++          <Name lang="pt">Oligogénica</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23480">
++          <Name lang="pt">Desconhecido</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23431">
++          <Name lang="pt">Ligado ao X recessivo</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="19291">
+       <OrphaCode>238654</OrphaCode>
+       <ExpertLink lang="pt">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pt&amp;Expert=238654</ExpertLink>
+@@ -86815,13 +86876,10 @@
        </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="pt">Autossómica dominante</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23431">
+-          <Name lang="pt">Ligado ao X recessivo</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="21581">
+@@ -91393,7 +91451,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="pt">Autossómica dominante</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="pt">Não aplicável</Name>
+         </TypeOfInheritance>
+@@ -93730,13 +93791,16 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="3">
+         <TypeOfInheritance id="23410">
+           <Name lang="pt">Autossómica dominante</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="pt">Autossómica recessiva</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23431">
++          <Name lang="pt">Ligado ao X recessivo</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="5544">
+@@ -118684,7 +118748,10 @@
+           <Name lang="pt">Não há dados disponíveis</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pt">Autossómica dominante</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="26001">
+@@ -122161,8 +122228,8 @@
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pt">Não aplicável</Name>
++        <TypeOfInheritance id="23480">
++          <Name lang="pt">Desconhecido</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -124390,7 +124457,10 @@
+           <Name lang="pt">Não há dados disponíveis</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="pt">Autossómica recessiva</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="25413">
+@@ -135947,8 +136017,8 @@
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pt">Multigénico/Multifactorial</Name>
++        <TypeOfInheritance id="23417">
++          <Name lang="pt">Autossómica recessiva</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="pt">Não aplicável</Name>
+@@ -152465,10 +152535,7 @@
+           <Name lang="pt">Infantil</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23438">
+-          <Name lang="pt">Modo de hereditariedade mitocondrial</Name>
+-        </TypeOfInheritance>
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23431">
+           <Name lang="pt">Ligado ao X recessivo</Name>
+         </TypeOfInheritance>
