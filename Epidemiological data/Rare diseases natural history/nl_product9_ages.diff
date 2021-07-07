@@ -1,19 +1,19 @@
-commit 3ebab16f9c1ea026b2455fead790a4163a9f32d1
-Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Jun 1 11:23:35 2021 +0200
+commit 76201feb251c2058792f9cf480d515ad9cf39106
+Author: David Lagorce <david.lagorce@inserm.fr>
+Date:   Wed Jul 7 12:35:15 2021 +0200
 
-    JUNE 2021
+    JULY 2021
 
 diff --git a/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml b/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml
-old mode 100755
-new mode 100644
-index 07418d4..5801c8f
+old mode 100644
+new mode 100755
+index 5801c8f..a372859
 --- a/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml	
 +++ b/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-05-01 04:43:24" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-06-01 04:45:55" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-06-01 04:45:55" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-07-01 04:47:17" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,12 +21,329 @@ index 07418d4..5801c8f
        <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
      </Licence>
    </Availability>
--  <DisorderList count="6566">
-+  <DisorderList count="6568">
+-  <DisorderList count="6568">
++  <DisorderList count="6575">
      <Disorder id="17601">
        <OrphaCode>166024</OrphaCode>
        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=166024</ExpertLink>
-@@ -3716,12 +3716,12 @@
+@@ -3683,12 +3683,9 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="nl">Niet toepasbaar</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23480">
+-          <Name lang="nl">Unknown</Name>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -4562,8 +4559,8 @@
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="nl">Kindertijd</Name>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="nl">Kindsheid</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+@@ -5131,7 +5128,7 @@
+     <Disorder id="194">
+       <OrphaCode>60</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=60</ExpertLink>
+-      <Name lang="nl">Alfa-1-antitrypsinedeficiëntie</Name>
++      <Name lang="nl">Deficiëntie van alfa-1-antitrypsine</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -7160,13 +7157,22 @@
+           <Name lang="nl">Elke leeftijd</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="5">
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23424">
+           <Name lang="nl">Multigeen/multifactorieel</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="nl">Niet toepasbaar</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23459">
++          <Name lang="nl">Oligogeen</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23445">
++          <Name lang="nl">X-gebonden dominant</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="302">
+@@ -8959,7 +8965,10 @@
+           <Name lang="nl">No data available</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="394">
+@@ -9405,7 +9414,7 @@
+     <Disorder id="447">
+       <OrphaCode>200</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=200</ExpertLink>
+-      <Name lang="nl">Geïsoleerde agenesie van het corpus callosum</Name>
++      <Name lang="nl">Geïsoleerde agenesie van corpus callosum</Name>
+       <DisorderType id="21415">
+         <Name lang="nl">Morfologische anomalie</Name>
+       </DisorderType>
+@@ -12959,7 +12968,7 @@
+     <Disorder id="538">
+       <OrphaCode>2444</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2444</ExpertLink>
+-      <Name lang="nl">Congenitale pulmonale luchtwegmalformatie</Name>
++      <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -13690,23 +13699,14 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="4">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="nl">Puber</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="nl">Kindertijd</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="nl">Kindsheid</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23515">
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="nl">Elke leeftijd</Name>
++        <AverageAgeOfDeath id="23655">
++          <Name lang="nl">No data available</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+@@ -15156,9 +15156,24 @@
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="nl">Elke leeftijd</Name>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="nl">Vroege kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="nl">Infantiel</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="nl">Late kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23641">
++          <Name lang="nl">Normale levensverwachting</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23585">
++          <Name lang="nl">Doodgeboorte</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+@@ -15395,8 +15410,8 @@
+         <TypeOfInheritance id="23417">
+           <Name lang="nl">Autosomaal recessief</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23445">
+-          <Name lang="nl">X-gebonden dominant</Name>
++        <TypeOfInheritance id="23431">
++          <Name lang="nl">X-gebonden recessief</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -15609,7 +15624,7 @@
+     <Disorder id="658">
+       <OrphaCode>768</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=768</ExpertLink>
+-      <Name lang="nl">Familiaal lange QT-syndroom</Name>
++      <Name lang="nl">Familiaal lang-QT-syndroom</Name>
+       <DisorderType id="21436">
+         <Name lang="nl">Group of phenomes</Name>
+       </DisorderType>
+@@ -17124,12 +17139,12 @@
+         <TypeOfInheritance id="23417">
+           <Name lang="nl">Autosomaal recessief</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23424">
+-          <Name lang="nl">Multigeen/multifactorieel</Name>
+-        </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="nl">Niet toepasbaar</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23480">
++          <Name lang="nl">Unknown</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="17939">
+@@ -18188,7 +18203,7 @@
+     <Disorder id="815">
+       <OrphaCode>549</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=549</ExpertLink>
+-      <Name lang="nl">Legionellose</Name>
++      <Name lang="nl">Veteranenziekte</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -19694,7 +19709,7 @@
+     <Disorder id="894">
+       <OrphaCode>3451</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3451</ExpertLink>
+-      <Name lang="nl">Syndroom van West</Name>
++      <Name lang="nl">Syndroom van infantiele spasmen</Name>
+       <DisorderType id="21422">
+         <Name lang="nl">Klinisch syndroom</Name>
+       </DisorderType>
+@@ -21400,7 +21415,10 @@
+           <Name lang="nl">Normale levensverwachting</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="nl">Autosomaal recessief</Name>
+         </TypeOfInheritance>
+@@ -22391,7 +22409,7 @@
+     <Disorder id="972">
+       <OrphaCode>776</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=776</ExpertLink>
+-      <Name lang="nl">X-gebonden intellectuele achterstand met marfanoïde habitus</Name>
++      <Name lang="nl">Syndroom van Lujan-Fryns</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -23120,7 +23138,7 @@
+     <Disorder id="1058">
+       <OrphaCode>557</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=557</ExpertLink>
+-      <Name lang="nl">Geïsoleerde anorectale malformatie</Name>
++      <Name lang="nl">Niet-syndromale anorectale malformatie</Name>
+       <DisorderType id="21436">
+         <Name lang="nl">Group of phenomes</Name>
+       </DisorderType>
+@@ -23471,20 +23489,26 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="nl">Volwassenheid</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23529">
+           <Name lang="nl">Kindertijd</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="nl">Kindsheid</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+         <AverageAgeOfDeath id="23655">
+           <Name lang="nl">No data available</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="nl">Niet toepasbaar</Name>
+-        </TypeOfInheritance>
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23480">
+           <Name lang="nl">Unknown</Name>
+         </TypeOfInheritance>
+@@ -24495,7 +24519,7 @@
+     <Disorder id="1276">
+       <OrphaCode>955</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=955</ExpertLink>
+-      <Name lang="nl">Acro-osteolyse, dominant type</Name>
++      <Name lang="nl">Syndroom van Hajdu-Cheney</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -24755,7 +24779,7 @@
+     <Disorder id="1190">
+       <OrphaCode>1762</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1762</ExpertLink>
+-      <Name lang="nl">Trisomie Xq28</Name>
++      <Name lang="nl">Proximale Xq28-duplicatiesyndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -25867,7 +25891,10 @@
+           <Name lang="nl">Infantiel</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="nl">Autosomaal recessief</Name>
+         </TypeOfInheritance>
+@@ -28055,13 +28082,10 @@
+           <Name lang="nl">No data available</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="nl">Autosomaal dominant</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23487">
+-          <Name lang="nl">No data available</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="16698">
+@@ -29899,8 +29923,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="nl">Autosomaal recessief</Name>
++        <TypeOfInheritance id="23480">
++          <Name lang="nl">Unknown</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -33673,12 +33697,12 @@
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
        <TypeOfInheritanceList count="2">
@@ -41,258 +358,230 @@ index 07418d4..5801c8f
 -        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="17490">
-@@ -4303,7 +4303,7 @@
-     <Disorder id="164">
-       <OrphaCode>2182</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2182</ExpertLink>
--      <Name lang="nl">Hydrocefalus met stenose van het aquaduct van Sylvius</Name>
-+      <Name lang="nl">Hydrocefalus met stenose van aquaduct van Sylvius</Name>
+     <Disorder id="16907">
+@@ -39504,8 +39528,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="nl">Niet toepasbaar</Name>
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -40197,7 +40221,7 @@
+     <Disorder id="1962">
+       <OrphaCode>2036</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2036</ExpertLink>
+-      <Name lang="nl">Schedelhuid-oor-tepelsyndroom</Name>
++      <Name lang="nl">Scalp - oor - tepel-syndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -43982,8 +44006,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23480">
+-          <Name lang="nl">Unknown</Name>
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -53240,7 +53264,7 @@
+     <Disorder id="19853">
+       <OrphaCode>261144</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=261144</ExpertLink>
+-      <Name lang="nl">14q12 microdeletiesyndroom</Name>
++      <Name lang="nl">FOXG1-syndroom door 14q12-microdeletie</Name>
        <DisorderType id="21450">
          <Name lang="nl">Klinisch subtype</Name>
        </DisorderType>
-@@ -14854,13 +14854,16 @@
+@@ -59658,7 +59682,7 @@
+     <Disorder id="2648">
+       <OrphaCode>2934</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2934</ExpertLink>
+-      <Name lang="nl">Polysyndactylie - hartmisvorming</Name>
++      <Name lang="nl">Polysyndactylie - hartmalformatie-syndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -62025,8 +62049,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23480">
+-          <Name lang="nl">Unknown</Name>
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -63603,7 +63627,7 @@
+     <Disorder id="2823">
+       <OrphaCode>647</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=647</ExpertLink>
+-      <Name lang="nl">Nijmegen breuksyndroom</Name>
++      <Name lang="nl">Nijmegen-breuksyndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -63618,7 +63642,22 @@
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="nl">Volwassene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="nl">Vroege kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="nl">Late kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="nl">Jonge volwassenheid</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -63791,7 +63830,7 @@
+     <Disorder id="20416">
+       <OrphaCode>279922</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=279922</ExpertLink>
+-      <Name lang="nl">Infectieuze anterieure uveitis</Name>
++      <Name lang="nl">Infectieuze anterieure uveïtis</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -65246,7 +65285,7 @@
+     <Disorder id="20415">
+       <OrphaCode>279919</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=279919</ExpertLink>
+-      <Name lang="nl">Infectieuze posterieure uveitis</Name>
++      <Name lang="nl">Infectieuze posterieure uveïtis</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -66711,7 +66750,7 @@
+     <Disorder id="3297">
+       <OrphaCode>6</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=6</ExpertLink>
+-      <Name lang="nl">3-methylcrotonyl-CoA-carboxylasedeficiëntie</Name>
++      <Name lang="nl">Deficiëntie van 3-methylcrotonyl-CoA-carboxylase</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -68095,7 +68134,7 @@
+     <Disorder id="3150">
+       <OrphaCode>2427</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2427</ExpertLink>
+-      <Name lang="nl">Macrocefalie - kleine gestalte - paraplegie</Name>
++      <Name lang="nl">Macrocefalie - kleine gestalte - paraplegie-syndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -68618,7 +68657,7 @@
+     <Disorder id="3183">
+       <OrphaCode>3051</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3051</ExpertLink>
+-      <Name lang="nl">Intellectuele achterstand - dun haar - brachydactylie</Name>
++      <Name lang="nl">Syndroom van Nicolaides-Baraitser</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -71993,7 +72032,10 @@
        </AverageAgeOfOnsetList>
        <AverageAgeOfDeathList count="0">
        </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="2">
-+      <TypeOfInheritanceList count="3">
-         <TypeOfInheritance id="23410">
-           <Name lang="nl">Autosomaal dominant</Name>
-         </TypeOfInheritance>
-         <TypeOfInheritance id="23417">
-           <Name lang="nl">Autosomaal recessief</Name>
-         </TypeOfInheritance>
-+        <TypeOfInheritance id="23431">
-+          <Name lang="nl">X-gebonden recessief</Name>
-+        </TypeOfInheritance>
-       </TypeOfInheritanceList>
-     </Disorder>
-     <Disorder id="17999">
-@@ -28833,7 +28836,7 @@
-     <Disorder id="16705">
-       <OrphaCode>137678</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=137678</ExpertLink>
--      <Name lang="nl">Tsjechische dysplasie, metatarsaal type</Name>
-+      <Name lang="nl">Spondylo-epifysaire dysplasie met abnormaal korte metatarsalen</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -31094,7 +31097,7 @@
-     <Disorder id="1614">
-       <OrphaCode>1416</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1416</ExpertLink>
--      <Name lang="nl">Familiale calciumpyrofosfaatafzetting</Name>
-+      <Name lang="nl">Familiale depositie van calciumpyrofosfaat</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -35366,7 +35369,7 @@
-     <Disorder id="1668">
-       <OrphaCode>1497</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1497</ExpertLink>
--      <Name lang="nl">X-gebonden gecompliceerde dysgenesie van het corpus callosum</Name>
-+      <Name lang="nl">X-gebonden gecompliceerde dysgenesie van corpus callosum</Name>
-       <DisorderType id="21450">
-         <Name lang="nl">Klinisch subtype</Name>
-       </DisorderType>
-@@ -40301,7 +40304,7 @@
-     <Disorder id="17237">
-       <OrphaCode>158687</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=158687</ExpertLink>
--      <Name lang="nl">Letale acantholytische epidermolysis bullosa</Name>
-+      <Name lang="nl">Letale acantholytische erosieve aandoening</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -40414,7 +40417,7 @@
-     <Disorder id="17235">
-       <OrphaCode>158681</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=158681</ExpertLink>
--      <Name lang="nl">Epidermolysis bullosa simplex met circinaat migrerend erytheem</Name>
-+      <Name lang="nl">Epidermolysis bullosa simplex met circinair migrerend erytheem</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -40440,7 +40443,7 @@
-     <Disorder id="17234">
-       <OrphaCode>158676</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=158676</ExpertLink>
--      <Name lang="nl">Dominante dystrofische epidermolysis bullosa, enkel nagels</Name>
-+      <Name lang="nl">Gelokaliseerde dystrofische epidermolysis bullosa van uitsluitend nagels</Name>
-       <DisorderType id="21450">
-         <Name lang="nl">Klinisch subtype</Name>
-       </DisorderType>
-@@ -40469,7 +40472,7 @@
-     <Disorder id="17233">
-       <OrphaCode>158673</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=158673</ExpertLink>
--      <Name lang="nl">Acrale dystrofische epidermolysis bullosa</Name>
-+      <Name lang="nl">Gelokaliseerde dystrofische epidermolysis bullosa, acrale vorm</Name>
-       <DisorderType id="21450">
-         <Name lang="nl">Klinisch subtype</Name>
-       </DisorderType>
-@@ -40498,7 +40501,7 @@
-     <Disorder id="17232">
-       <OrphaCode>158668</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=158668</ExpertLink>
--      <Name lang="nl">Epidermolysis bullosa simplex als gevolg van plakophilinedeficiëntie</Name>
-+      <Name lang="nl">Ectodermale dysplasie - fragiliteit van huid-syndroom</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -43606,7 +43609,7 @@
-     <Disorder id="2296">
-       <OrphaCode>2483</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2483</ExpertLink>
--      <Name lang="nl">Melkersson-Rosenthalsyndroom</Name>
-+      <Name lang="nl">Syndroom van Melkersson-Rosenthal</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -46819,7 +46822,7 @@
-     <Disorder id="2119">
-       <OrphaCode>2249</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2249</ExpertLink>
--      <Name lang="nl">Ulna-hypoplasie - intellectuele achterstand</Name>
-+      <Name lang="nl">Hypoplasie van ulna - intellectuele achterstand-syndroom</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -47765,7 +47768,7 @@
-     <Disorder id="19640">
-       <OrphaCode>251393</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=251393</ExpertLink>
--      <Name lang="nl">Gelokaliseerde junctionele epidermolysis bullosa, niet-Herlitz-type</Name>
-+      <Name lang="nl">Gelokaliseerde junctionele epidermolysis bullosa</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -51243,7 +51246,7 @@
-     <Disorder id="2533">
-       <OrphaCode>1306</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1306</ExpertLink>
--      <Name lang="nl">Buschke-Ollendorffsyndroom</Name>
-+      <Name lang="nl">Syndroom van Buschke-Ollendorff</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -54010,7 +54013,7 @@
-     <Disorder id="19879">
-       <OrphaCode>261476</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=261476</ExpertLink>
--      <Name lang="nl">Xp21 microdeletiesyndroom</Name>
-+      <Name lang="nl">Xp21 deletiesyndroom</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -59421,7 +59424,7 @@
-     <Disorder id="2670">
-       <OrphaCode>740</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=740</ExpertLink>
--      <Name lang="nl">Hutchinson-Gilford progeriasyndroom</Name>
-+      <Name lang="nl">Progeriasyndroom van Hutchinson-Gilford</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -62247,7 +62250,7 @@
-     <Disorder id="3057">
-       <OrphaCode>3243</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3243</ExpertLink>
--      <Name lang="nl">Sweetsyndroom</Name>
-+      <Name lang="nl">Syndroom van Sweet</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -67435,13 +67438,16 @@
-           <Name lang="nl">Normale levensverwachting</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="3">
-+      <TypeOfInheritanceList count="4">
-         <TypeOfInheritance id="23410">
-           <Name lang="nl">Autosomaal dominant</Name>
-         </TypeOfInheritance>
-         <TypeOfInheritance id="23417">
-           <Name lang="nl">Autosomaal recessief</Name>
-         </TypeOfInheritance>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
 +        <TypeOfInheritance id="23424">
 +          <Name lang="nl">Multigeen/multifactorieel</Name>
 +        </TypeOfInheritance>
-         <TypeOfInheritance id="23431">
-           <Name lang="nl">X-gebonden recessief</Name>
+         <TypeOfInheritance id="23494">
+           <Name lang="nl">Niet toepasbaar</Name>
          </TypeOfInheritance>
-@@ -68629,13 +68635,10 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="2">
-+      <TypeOfInheritanceList count="1">
-         <TypeOfInheritance id="23410">
-           <Name lang="nl">Autosomaal dominant</Name>
+@@ -72788,7 +72830,7 @@
+     <Disorder id="18807">
+       <OrphaCode>217008</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=217008</ExpertLink>
+-      <Name lang="nl">Bockenheimersyndroom</Name>
++      <Name lang="nl">Syndroom van Bockenheimer</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -74602,19 +74644,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="5">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="nl">Puber</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="nl">Volwassenheid</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="nl">Kindertijd</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23550">
+-          <Name lang="nl">Op leeftijd</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23522">
+           <Name lang="nl">Kindsheid</Name>
+         </AverageAgeOfOnset>
+@@ -76436,32 +76466,6 @@
          </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="18950">
+-      <OrphaCode>221150</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=221150</ExpertLink>
+-      <Name lang="nl">Pitt-Hopkins-achtig syndroom</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="nl">Kindsheid</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="nl">Neonataal</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
 -        <TypeOfInheritance id="23417">
 -          <Name lang="nl">Autosomaal recessief</Name>
 -        </TypeOfInheritance>
-       </TypeOfInheritanceList>
-     </Disorder>
-     <Disorder id="18604">
-@@ -69988,7 +69991,7 @@
-     <Disorder id="3525">
-       <OrphaCode>3286</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3286</ExpertLink>
--      <Name lang="nl">Catecholaminerge polymorfe ventrikeltachycardie</Name>
-+      <Name lang="nl">Catecholaminerge polymorfe ventriculaire tachycardie</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -73468,7 +73471,7 @@
-     <Disorder id="3423">
-       <OrphaCode>2745</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2745</ExpertLink>
--      <Name lang="nl">Opitz G/BBB-syndroom</Name>
-+      <Name lang="nl">Opitz GBBB-syndroom</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -74621,9 +74624,12 @@
-           <Name lang="nl">Normale levensverwachting</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="1">
--        <TypeOfInheritance id="23494">
--          <Name lang="nl">Niet toepasbaar</Name>
-+      <TypeOfInheritanceList count="2">
-+        <TypeOfInheritance id="23424">
-+          <Name lang="nl">Multigeen/multifactorieel</Name>
-+        </TypeOfInheritance>
-+        <TypeOfInheritance id="23480">
-+          <Name lang="nl">Unknown</Name>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="19062">
+       <OrphaCode>228003</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228003</ExpertLink>
+@@ -79944,6 +79948,26 @@
          </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-@@ -77963,7 +77969,10 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="1">
-+      <TypeOfInheritanceList count="2">
-+        <TypeOfInheritance id="23410">
-+          <Name lang="nl">Autosomaal dominant</Name>
-+        </TypeOfInheritance>
-         <TypeOfInheritance id="23424">
-           <Name lang="nl">Multigeen/multifactorieel</Name>
-         </TypeOfInheritance>
-@@ -79975,6 +79984,26 @@
-         </TypeOfInheritance>
-       </TypeOfInheritanceList>
-     </Disorder>
-+    <Disorder id="3625">
-+      <OrphaCode>2197</OrphaCode>
-+      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2197</ExpertLink>
-+      <Name lang="nl">Idiopathische hypercalciurie</Name>
-+      <DisorderType id="21394">
-+        <Name lang="nl">Ziekte</Name>
++    <Disorder id="3626">
++      <OrphaCode>1309</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1309</ExpertLink>
++      <Name lang="nl">Medullaire sponsnier</Name>
++      <DisorderType id="21415">
++        <Name lang="nl">Morfologische anomalie</Name>
 +      </DisorderType>
 +      <DisorderGroup id="36547">
 +        <Name lang="nl">Aandoening</Name>
@@ -307,67 +596,79 @@ index 07418d4..5801c8f
 +        </TypeOfInheritance>
 +      </TypeOfInheritanceList>
 +    </Disorder>
-     <Disorder id="19175">
-       <OrphaCode>231237</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=231237</ExpertLink>
-@@ -81179,7 +81208,7 @@
-     <Disorder id="19201">
-       <OrphaCode>231568</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=231568</ExpertLink>
--      <Name lang="nl">Gegeneraliseerde dominante dystrofische epidermolysis bullosa</Name>
-+      <Name lang="nl">Autosomaal dominante gegeneraliseerde dystrofische epidermolysis bullosa</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+     <Disorder id="19177">
+       <OrphaCode>231249</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=231249</ExpertLink>
+@@ -82424,11 +82448,11 @@
+       <OrphaCode>238593</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238593</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde mesenteritis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
        </DisorderType>
-@@ -82463,6 +82492,38 @@
-         </TypeOfInheritance>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23543">
+@@ -83537,6 +83561,52 @@
+       <TypeOfInheritanceList count="0">
        </TypeOfInheritanceList>
      </Disorder>
-+    <Disorder id="19292">
-+      <OrphaCode>238666</OrphaCode>
-+      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238666</ExpertLink>
-+      <Name lang="nl">Geïsoleerd congenitaal hypogonadotroop hypogonadisme</Name>
-+      <DisorderType id="21394">
-+        <Name lang="nl">Ziekte</Name>
++    <Disorder id="21947">
++      <OrphaCode>329918</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=329918</ExpertLink>
++      <Name lang="nl">Niet-immunoglobuline-gemedieerde membranoproliferatieve glomerulonefritis</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
 +      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23557">
++          <Name lang="nl">Elke leeftijd</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23424">
++          <Name lang="nl">Multigeen/multifactorieel</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="21946">
++      <OrphaCode>329903</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=329903</ExpertLink>
++      <Name lang="nl">Immunoglobuline-gemedieerde membranoproliferatieve glomerulonefritis</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
 +      </DisorderGroup>
 +      <AverageAgeOfOnsetList count="0">
 +      </AverageAgeOfOnsetList>
 +      <AverageAgeOfDeathList count="0">
 +      </AverageAgeOfDeathList>
-+      <TypeOfInheritanceList count="5">
-+        <TypeOfInheritance id="23410">
-+          <Name lang="nl">Autosomaal dominant</Name>
-+        </TypeOfInheritance>
-+        <TypeOfInheritance id="23417">
-+          <Name lang="nl">Autosomaal recessief</Name>
-+        </TypeOfInheritance>
-+        <TypeOfInheritance id="23459">
-+          <Name lang="nl">Oligogeen</Name>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23424">
++          <Name lang="nl">Multigeen/multifactorieel</Name>
 +        </TypeOfInheritance>
 +        <TypeOfInheritance id="23480">
 +          <Name lang="nl">Unknown</Name>
 +        </TypeOfInheritance>
-+        <TypeOfInheritance id="23431">
-+          <Name lang="nl">X-gebonden recessief</Name>
-+        </TypeOfInheritance>
 +      </TypeOfInheritanceList>
 +    </Disorder>
-     <Disorder id="19291">
-       <OrphaCode>238654</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238654</ExpertLink>
-@@ -86156,7 +86217,7 @@
-     <Disorder id="21690">
-       <OrphaCode>319671</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=319671</ExpertLink>
--      <Name lang="nl">Microcefale primordiale dwerggroei, Alazami-type</Name>
-+      <Name lang="nl">Syndroom van Alazami</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -86815,13 +86876,10 @@
+     <Disorder id="21924">
+       <OrphaCode>329308</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=329308</ExpertLink>
+@@ -90518,13 +90588,10 @@
        </AverageAgeOfOnsetList>
        <AverageAgeOfDeathList count="0">
        </AverageAgeOfDeathList>
@@ -375,125 +676,418 @@ index 07418d4..5801c8f
 +      <TypeOfInheritanceList count="1">
          <TypeOfInheritance id="23410">
            <Name lang="nl">Autosomaal dominant</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="nl">Niet toepasbaar</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="22312">
+@@ -91434,7 +91501,7 @@
+     <Disorder id="22081">
+       <OrphaCode>352577</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=352577</ExpertLink>
+-      <Name lang="nl">Ernstige voedingsproblemen - groeifalen - microcefalie door ASXL3-deficiëntie-syndroom</Name>
++      <Name lang="nl">Syndroom van Bainbridge-Ropers</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -92077,13 +92144,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+           <Name lang="nl">Autosomaal recessief</Name>
          </TypeOfInheritance>
 -        <TypeOfInheritance id="23431">
 -          <Name lang="nl">X-gebonden recessief</Name>
 -        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="21581">
-@@ -90443,7 +90501,7 @@
-     <Disorder id="22327">
-       <OrphaCode>363611</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=363611</ExpertLink>
--      <Name lang="nl">Intellectuele achterstand - voedingsproblemen - ontwikkelingsachterstand - microcefalie-syndroom</Name>
-+      <Name lang="nl">CTCF-gerelateerde neurologische ontwikkelingsstoonis</Name>
+     <Disorder id="22129">
+@@ -92675,7 +92739,7 @@
+     <Disorder id="20892">
+       <OrphaCode>293939</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=293939</ExpertLink>
+-      <Name lang="nl">Distale Xq28 microduplicatiesyndroom</Name>
++      <Name lang="nl">Distale Xq28-microduplicatiesyndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -95961,7 +96025,7 @@
+     <Disorder id="20508">
+       <OrphaCode>280840</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280840</ExpertLink>
+-      <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 2</Name>
++      <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 2</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -95987,7 +96051,7 @@
+     <Disorder id="20509">
+       <OrphaCode>280847</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280847</ExpertLink>
+-      <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 3</Name>
++      <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 3</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -96013,7 +96077,7 @@
+     <Disorder id="20510">
+       <OrphaCode>280854</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280854</ExpertLink>
+-      <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 4</Name>
++      <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 4</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -96039,7 +96103,7 @@
+     <Disorder id="20506">
+       <OrphaCode>280827</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280827</ExpertLink>
+-      <Name lang="nl">Congenitale pulmonale luchtwegmalformatie type 0</Name>
++      <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 0</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -96065,7 +96129,7 @@
+     <Disorder id="20507">
+       <OrphaCode>280832</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=280832</ExpertLink>
+-      <Name lang="nl">Congenitale pulmonale luchtwegmalformatie, type 1</Name>
++      <Name lang="nl">Congenitale malformatie van pulmonale luchtwegen type 1</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -96850,7 +96914,7 @@
+     <Disorder id="21462">
+       <OrphaCode>313906</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=313906</ExpertLink>
+-      <Name lang="nl">Congenitale pancreatische cyste</Name>
++      <Name lang="nl">Congenitale cyste van pancreas</Name>
+       <DisorderType id="21415">
+         <Name lang="nl">Morfologische anomalie</Name>
+       </DisorderType>
+@@ -100485,7 +100549,7 @@
+     <Disorder id="24015">
+       <OrphaCode>464306</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=464306</ExpertLink>
+-      <Name lang="nl">DYRK1A-gerelateerde intellectuele achterstand-syndroom</Name>
++      <Name lang="nl">Intellectuele achterstand-syndroom gerelateerd aan DYRK1A</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -101390,7 +101454,7 @@
+     <Disorder id="23649">
+       <OrphaCode>453533</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=453533</ExpertLink>
+-      <Name lang="nl">Polyendocrien-polyneuropathiesyndroom</Name>
++      <Name lang="nl">Polyendocrinopathie - polyneuropathie-syndroom</Name>
        <DisorderType id="21394">
          <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -91393,7 +91451,10 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="1">
-+      <TypeOfInheritanceList count="2">
-+        <TypeOfInheritance id="23410">
-+          <Name lang="nl">Autosomaal dominant</Name>
-+        </TypeOfInheritance>
-         <TypeOfInheritance id="23494">
-           <Name lang="nl">Niet toepasbaar</Name>
-         </TypeOfInheritance>
-@@ -93730,13 +93791,16 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
+@@ -101703,7 +101767,7 @@
+     <Disorder id="23635">
+       <OrphaCode>450322</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=450322</ExpertLink>
+-      <Name lang="nl">Polyklonaal hyperviscositeitssyndroom</Name>
++      <Name lang="nl">Polyklonale hyperviscositeitssyndroom</Name>
+       <DisorderType id="21422">
+         <Name lang="nl">Klinisch syndroom</Name>
+       </DisorderType>
+@@ -101768,11 +101832,11 @@
+       <OrphaCode>449563</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449563</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde oftalmische ziekte</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101829,11 +101893,11 @@
+       <OrphaCode>449400</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449400</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde aortitis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101858,11 +101922,11 @@
+       <OrphaCode>449395</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449395</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde nierziekte</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101887,11 +101951,11 @@
+       <OrphaCode>449432</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449432</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde submandibulaire klierziekte</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101916,11 +101980,11 @@
+       <OrphaCode>449427</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=449427</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde pachymeningitis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -104687,7 +104751,7 @@
+     <Disorder id="24223">
+       <OrphaCode>468631</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=468631</ExpertLink>
+-      <Name lang="nl">Microcefale primordiale dwerggroei door RTTN-deficiëntie</Name>
++      <Name lang="nl">Microcefale corticale malformaties - kleine gestalte door RTTN-deficiëntie</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -104904,13 +104968,10 @@
+           <Name lang="nl">Normale levensverwachting</Name>
+         </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
 -      <TypeOfInheritanceList count="2">
-+      <TypeOfInheritanceList count="3">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="nl">Autosomaal dominant</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="nl">Niet toepasbaar</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="24235">
+@@ -106303,7 +106364,7 @@
+     <Disorder id="22920">
+       <OrphaCode>404443</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=404443</ExpertLink>
+-      <Name lang="nl">Grote gestalte - intellectuele beperking - faciale dysmorfie-syndroom</Name>
++      <Name lang="nl">Syndroom van Tatton-Brown-Rahman</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -109184,7 +109245,7 @@
+     <Disorder id="22744">
+       <OrphaCode>398987</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=398987</ExpertLink>
+-      <Name lang="nl">Maligne teratoom van het ovarium</Name>
++      <Name lang="nl">Maligne teratoom van ovarium</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -111933,7 +111994,7 @@
+     <Disorder id="23427">
+       <OrphaCode>442835</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=442835</ExpertLink>
+-      <Name lang="nl">Onbepaalde epileptische encefalopathie met vroege aanvang</Name>
++      <Name lang="nl">Aspecifieke epileptische encefalopathie met vroege aanvang</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -113634,11 +113695,11 @@
+       <OrphaCode>447764</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=447764</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde scleroserende cholangitis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+@@ -116233,7 +116294,7 @@
+     <Disorder id="8743">
+       <OrphaCode>230</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=230</ExpertLink>
+-      <Name lang="nl">Dopamine bèta-hydroxylasedeficiëntie</Name>
++      <Name lang="nl">Deficiëntie van dopamine-bèta-hydroxylase</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -117578,7 +117639,7 @@
+     <Disorder id="26573">
+       <OrphaCode>508512</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=508512</ExpertLink>
+-      <Name lang="nl">Congenitale multipele café-au-lait vlekken - verhoogde uitwisseling van zusterchromatiden-syndroom</Name>
++      <Name lang="nl">Intra-uteriene groeirestrictie - congenitale multipele café-au-lait vlekken - verhoogde uitwisseling van zusterchromatiden-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -117757,7 +117818,7 @@
+     <Disorder id="26390">
+       <OrphaCode>505652</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=505652</ExpertLink>
+-      <Name lang="nl">CDKL5-gerelateerde epileptische encefalopathie</Name>
++      <Name lang="nl">CDKL5-deficiëntiestoornis</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -118077,7 +118138,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="25841">
+@@ -118454,7 +118518,7 @@
+     <Disorder id="25677">
+       <OrphaCode>494448</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=494448</ExpertLink>
+-      <Name lang="nl">Plaveiselcelcarcinoom van de vulva</Name>
++      <Name lang="nl">Plaveiselcelcarcinoom van vulva</Name>
+       <DisorderType id="21457">
+         <Name lang="nl">Histopathologisch subtype</Name>
+       </DisorderType>
+@@ -119060,7 +119124,7 @@
+     <Disorder id="25998">
+       <OrphaCode>500144</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=500144</ExpertLink>
+-      <Name lang="nl">Progressieve encefalopathie - gehoorverlies - hypoplasie van de pons - hersenatrofie-syndroom met vroege aanvang</Name>
++      <Name lang="nl">Progressieve encefalopathie - gehoorverlies - hypoplasie van pons - hersenatrofie-syndroom met vroege aanvang</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -122600,16 +122664,13 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="3">
++      <TypeOfInheritanceList count="2">
          <TypeOfInheritance id="23410">
            <Name lang="nl">Autosomaal dominant</Name>
          </TypeOfInheritance>
          <TypeOfInheritance id="23417">
            <Name lang="nl">Autosomaal recessief</Name>
          </TypeOfInheritance>
-+        <TypeOfInheritance id="23431">
-+          <Name lang="nl">X-gebonden recessief</Name>
-+        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="nl">Niet toepasbaar</Name>
+-        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="5544">
-@@ -99580,7 +99644,7 @@
-     <Disorder id="21219">
-       <OrphaCode>306504</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=306504</ExpertLink>
--      <Name lang="nl">Junctionele epidermolysis bullosa met respiratoire en renale betrokkenheid</Name>
-+      <Name lang="nl">Interstitiële longziekte - nefrotisch syndroom - epidermolysis bullosa-syndroom</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+     <Disorder id="8622">
+@@ -123055,8 +123116,8 @@
+       <OrphaCode>485350</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=485350</ExpertLink>
+       <Name lang="nl">CLCN4-gerelateerde X-gebonden intellectuele achterstand-syndroom</Name>
+-      <DisorderType id="21401">
+-        <Name lang="nl">Malformatiesyndroom</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -100201,7 +100265,7 @@
-     <Disorder id="21112">
-       <OrphaCode>300333</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=300333</ExpertLink>
--      <Name lang="nl">Nefrotisch syndroom - doofheid - pretibiale epidermolysis bullosa-syndroom</Name>
-+      <Name lang="nl">Nefrotisch syndroom - epidermolysis bullosa - sensorineurale doofheid-syndroom</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+@@ -128056,11 +128117,11 @@
+       <OrphaCode>64744</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=64744</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde aandoening van schildklier</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
        </DisorderType>
-@@ -100253,7 +100317,7 @@
-     <Disorder id="24042">
-       <OrphaCode>464738</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=464738</ExpertLink>
--      <Name lang="nl">Congenitaal cataract - microcefalie - nevus flammeus simplex - ernstige intellectuele achterstand-syndroom</Name>
-+      <Name lang="nl">Syndroom van Basel-Vanagaite-Smirin-Yosef</Name>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+@@ -129058,11 +129119,11 @@
+       <OrphaCode>63999</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=63999</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde mediastinitis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+@@ -132238,7 +132299,7 @@
+     <Disorder id="11108">
+       <OrphaCode>77296</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=77296</ExpertLink>
+-      <Name lang="nl">Morgagni-Stewart-Morelsyndroom</Name>
++      <Name lang="nl">Syndroom van Morgagni-Stewart-Morel</Name>
        <DisorderType id="21401">
          <Name lang="nl">Malformatiesyndroom</Name>
        </DisorderType>
-@@ -104823,7 +104887,7 @@
-     <Disorder id="24234">
-       <OrphaCode>468678</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=468678</ExpertLink>
--      <Name lang="nl">Intellectuele achterstand - microcefalie - strabisme - gedragsstoornissen-syndroom</Name>
-+      <Name lang="nl">Syndroom van White-Sutton</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+@@ -132539,11 +132600,11 @@
+       <OrphaCode>79078</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79078</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde dacryoadenitis en sialoadenitis</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
        </DisorderType>
-@@ -106750,7 +106814,7 @@
-     <Disorder id="23023">
-       <OrphaCode>411629</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=411629</ExpertLink>
--      <Name lang="nl">Nefropathische infantiele cystinose</Name>
-+      <Name lang="nl">Infantiele nefropathische cystinose</Name>
-       <DisorderType id="21450">
-         <Name lang="nl">Klinisch subtype</Name>
-       </DisorderType>
-@@ -107452,7 +107516,7 @@
-     <Disorder id="22634">
-       <OrphaCode>391641</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391641</ExpertLink>
--      <Name lang="nl">Feingoldsyndroom type 1</Name>
-+      <Name lang="nl">Syndroom van Feingold type 1</Name>
-       <DisorderType id="21450">
-         <Name lang="nl">Klinisch subtype</Name>
-       </DisorderType>
-@@ -110509,7 +110573,7 @@
-     <Disorder id="23367">
-       <OrphaCode>438178</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=438178</ExpertLink>
--      <Name lang="nl">Acyl-CoA-reductase 1-deficiëntie</Name>
-+      <Name lang="nl">Deficiëntie van vetzuur-acyl-CoA-reductase 1</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -117543,7 +117607,7 @@
-     <Disorder id="26575">
-       <OrphaCode>508529</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=508529</ExpertLink>
--      <Name lang="nl">Gegeneraliseerde basale epidermolysis bullosa simplex met huidatrofie, littekenvorming en haarverlies</Name>
-+      <Name lang="nl">Intermediaire epidermolysis bullosa simplex met cardiomyopathie</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -118684,7 +118748,10 @@
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23557">
+@@ -135290,7 +135351,10 @@
            <Name lang="nl">No data available</Name>
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
@@ -504,65 +1098,386 @@ index 07418d4..5801c8f
 +        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="26001">
-@@ -118719,7 +118786,7 @@
-     <Disorder id="26002">
-       <OrphaCode>500163</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=500163</ExpertLink>
--      <Name lang="nl">SIN3A-gerelateerde intellectuele achterstand-syndroom</Name>
-+      <Name lang="nl">Syndroom van Witteveen-Kolk</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
+     <Disorder id="10464">
+@@ -137788,8 +137852,8 @@
+       <OrphaCode>537072</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=537072</ExpertLink>
+       <Name lang="nl">PLG-gerelateerd erfelijk angio-oedeem met normale C1Inh</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
        </DisorderType>
-@@ -120360,7 +120427,7 @@
-     <Disorder id="8662">
-       <OrphaCode>901</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=901</ExpertLink>
--      <Name lang="nl">Wellssyndroom</Name>
-+      <Name lang="nl">Syndroom van Wells</Name>
+       <DisorderGroup id="36554">
+         <Name lang="nl">Subtype van aandoening</Name>
+@@ -137897,29 +137961,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="27912">
+-      <OrphaCode>537891</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=537891</ExpertLink>
+-      <Name lang="nl">ANGPT1-gerelateerd erfelijk angio-oedeem met normale C1Inh</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="nl">Volwassenheid</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23655">
+-          <Name lang="nl">No data available</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="10697">
+       <OrphaCode>52429</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=52429</ExpertLink>
+@@ -139187,11 +139228,11 @@
+       <OrphaCode>49041</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=49041</ExpertLink>
+       <Name lang="nl">IgG4-gerelateerde retroperitoneale fibrose</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23543">
+@@ -139776,7 +139817,7 @@
+     <Disorder id="10670">
+       <OrphaCode>51083</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=51083</ExpertLink>
+-      <Name lang="nl">Familiaal korte QT-syndroom</Name>
++      <Name lang="nl">Familiaal kort-QT-syndroom</Name>
        <DisorderType id="21394">
          <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -121025,7 +121092,7 @@
-     <Disorder id="8693">
-       <OrphaCode>483</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=483</ExpertLink>
--      <Name lang="nl">Congenitale hoogmoleculaire kininogeendeficiëntie</Name>
-+      <Name lang="nl">Congenitale deficiëntie van hoogmoleculair kininogeen</Name>
+@@ -140242,7 +140283,7 @@
+     <Disorder id="28036">
+       <OrphaCode>542301</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=542301</ExpertLink>
+-      <Name lang="nl">Ernstige gecombineerde immuundeficiëntie door CARMIL2-deficiëntie</Name>
++      <Name lang="nl">Gecombineerde immuundeficiëntie door CARMIL2-deficiëntie</Name>
        <DisorderType id="21394">
          <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -122161,8 +122228,8 @@
+@@ -140552,7 +140593,7 @@
+     <Disorder id="28055">
+       <OrphaCode>542643</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=542643</ExpertLink>
+-      <Name lang="nl">Livedoïd vasculopathie</Name>
++      <Name lang="nl">Livedoïde vasculopathie</Name>
+       <DisorderType id="21422">
+         <Name lang="nl">Klinisch syndroom</Name>
+       </DisorderType>
+@@ -140913,10 +140954,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="nl">Kindertijd</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23522">
+           <Name lang="nl">Kindsheid</Name>
+         </AverageAgeOfOnset>
+@@ -140926,7 +140964,10 @@
+           <Name lang="nl">No data available</Name>
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="1">
--        <TypeOfInheritance id="23494">
--          <Name lang="nl">Niet toepasbaar</Name>
-+        <TypeOfInheritance id="23480">
-+          <Name lang="nl">Unknown</Name>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="10599">
+@@ -144977,7 +145018,7 @@
+     <Disorder id="27494">
+       <OrphaCode>528105</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=528105</ExpertLink>
+-      <Name lang="nl">Hypohidrose - storing van de elektrolytenbalans - disfunctie van traanklieren - ichthyosis- xerostomie-syndroom</Name>
++      <Name lang="nl">Hypohidrose - verstoorde elektrolytenbalans - disfunctie van traanklieren - ichthyosis- xerostomie-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -145574,10 +145615,16 @@
+           <Name lang="nl">Vroege kindertijd</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="3">
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="nl">Niet toepasbaar</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23431">
++          <Name lang="nl">X-gebonden recessief</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="12166">
+@@ -146093,7 +146140,7 @@
+     <Disorder id="12260">
+       <OrphaCode>93323</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93323</ExpertLink>
+-      <Name lang="nl">Fibulaire hemimelie</Name>
++      <Name lang="nl">Hemimelie van fibula</Name>
+       <DisorderType id="21415">
+         <Name lang="nl">Morfologische anomalie</Name>
+       </DisorderType>
+@@ -150530,7 +150577,7 @@
+     <Disorder id="11268">
+       <OrphaCode>79242</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79242</ExpertLink>
+-      <Name lang="nl">Holocarboxylase-synthetasedeficiëntie</Name>
++      <Name lang="nl">Deficiëntie van holocarboxylase-synthetase</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -159013,12 +159060,9 @@
+           <Name lang="nl">Normale levensverwachting</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="3">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="nl">Autosomaal dominant</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23417">
+-          <Name lang="nl">Autosomaal recessief</Name>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23424">
++          <Name lang="nl">Multigeen/multifactorieel</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23431">
+           <Name lang="nl">X-gebonden recessief</Name>
+@@ -159348,7 +159392,7 @@
+     <Disorder id="12593">
+       <OrphaCode>95434</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95434</ExpertLink>
+-      <Name lang="nl">Autosomaal recessieve cerebellaire ataxie - saccadische intrusie-syndroom</Name>
++      <Name lang="nl">Autosomaal recessieve cerebellaire ataxie - bewegingsstoornis-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -162132,6 +162176,29 @@
          </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-@@ -122629,7 +122696,7 @@
-     <Disorder id="8620">
-       <OrphaCode>2908</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2908</ExpertLink>
--      <Name lang="nl">Syndroom van Kindler</Name>
-+      <Name lang="nl">Epidermolysis bullosa van Kindler</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
++    <Disorder id="29740">
++      <OrphaCode>595356</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=595356</ExpertLink>
++      <Name lang="nl">Gelokaliseerde dystrofische epidermolysis bullosa</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12527">
+       <OrphaCode>93969</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93969</ExpertLink>
+@@ -163916,6 +163983,26 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29447">
++      <OrphaCode>589905</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589905</ExpertLink>
++      <Name lang="nl">PHIP-gerelateerd gedragsproblemen - intellectuele achterstand - obesitas - dysmorfe kenmerken-syndroom</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14283">
+       <OrphaCode>99710</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99710</ExpertLink>
+@@ -163963,11 +164050,11 @@
+       <OrphaCode>99748</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99748</ExpertLink>
+       <Name lang="nl">Pontiac-koorts</Name>
+-      <DisorderType id="21450">
+-        <Name lang="nl">Klinisch subtype</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -123094,7 +123161,7 @@
-     <Disorder id="25224">
-       <OrphaCode>480864</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=480864</ExpertLink>
--      <Name lang="nl">Recurrente metabole encefalomyopathische crises - rhabdomyolyse - hartritmestoornis - intellectuele achterstand-syndroom</Name>
-+      <Name lang="nl">Recidiverende metabole encefalomyopathische crises - rhabdomyolyse - hartritmestoornis - intellectuele achterstand-syndroom</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -124390,7 +124457,10 @@
-           <Name lang="nl">No data available</Name>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23557">
+@@ -164972,6 +165059,26 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29438">
++      <OrphaCode>589618</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589618</ExpertLink>
++      <Name lang="nl">Dystonie 28</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13887">
+       <OrphaCode>98870</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98870</ExpertLink>
+@@ -165021,6 +165128,66 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29432">
++      <OrphaCode>589527</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589527</ExpertLink>
++      <Name lang="nl">Spinocerebellaire ataxie type 45</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29428">
++      <OrphaCode>589435</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589435</ExpertLink>
++      <Name lang="nl">Spondylometafysaire dysplasie - corneadystrofie-syndroom</Name>
++      <DisorderType id="21401">
++        <Name lang="nl">Malformatiesyndroom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="nl">Autosomaal recessief</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29431">
++      <OrphaCode>589522</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=589522</ExpertLink>
++      <Name lang="nl">Spinocerebellaire ataxie type 46</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="nl">Autosomaal dominant</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13872">
+       <OrphaCode>98855</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98855</ExpertLink>
+@@ -165992,8 +166159,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23431">
+-          <Name lang="nl">X-gebonden recessief</Name>
++        <TypeOfInheritance id="23445">
++          <Name lang="nl">X-gebonden dominant</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -167942,9 +168109,18 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="nl">Antenataal</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="2">
++        <AverageAgeOfDeath id="23578">
++          <Name lang="nl">Embyrofoetaal</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23585">
++          <Name lang="nl">Doodgeboorte</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -168580,7 +168756,10 @@
+           <Name lang="nl">Doodgeboorte</Name>
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
 -      <TypeOfInheritanceList count="0">
@@ -572,234 +1487,56 @@ index 07418d4..5801c8f
 +        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="25413">
-@@ -130821,7 +130891,7 @@
-     <Disorder id="11178">
-       <OrphaCode>79152</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79152</ExpertLink>
--      <Name lang="nl">Verspreide oppervlakkige actinische porokeratose</Name>
-+      <Name lang="nl">Gedissemineerde oppervlakkige actinische porokeratose</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+     <Disorder id="28765">
+@@ -170790,8 +170969,8 @@
+       <OrphaCode>100054</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=100054</ExpertLink>
+       <Name lang="nl">F12-gerelateerd erfelijk angio-oedeem met normale C1Inh</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
        </DisorderType>
-@@ -133041,7 +133111,7 @@
-     <Disorder id="11082">
-       <OrphaCode>75392</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=75392</ExpertLink>
--      <Name lang="nl">Periodontaal syndroom van Ehlers-Danlos</Name>
-+      <Name lang="nl">Parodontaal syndroom van Ehlers-Danlos</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+       <DisorderGroup id="36554">
+         <Name lang="nl">Subtype van aandoening</Name>
+@@ -171677,11 +171856,11 @@
+       <OrphaCode>99989</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99989</ExpertLink>
+       <Name lang="nl">Intermediair DEND-syndroom</Name>
+-      <DisorderType id="21450">
+-        <Name lang="nl">Klinisch subtype</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -135393,7 +135463,7 @@
-     <Disorder id="10397">
-       <OrphaCode>35708</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=35708</ExpertLink>
--      <Name lang="nl">Aromatisch L-aminozuur-decarboxylasedeficiëntie</Name>
-+      <Name lang="nl">Deficiëntie van aromatisch L-aminozuur-decarboxylase</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -171709,11 +171888,11 @@
+       <OrphaCode>99981</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99981</ExpertLink>
+       <Name lang="nl">Apneu door prematuriteit</Name>
+-      <DisorderType id="21450">
+-        <Name lang="nl">Klinisch subtype</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
        </DisorderType>
-@@ -135947,8 +136017,8 @@
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="2">
--        <TypeOfInheritance id="23424">
--          <Name lang="nl">Multigeen/multifactorieel</Name>
-+        <TypeOfInheritance id="23417">
-+          <Name lang="nl">Autosomaal recessief</Name>
-         </TypeOfInheritance>
-         <TypeOfInheritance id="23494">
-           <Name lang="nl">Niet toepasbaar</Name>
-@@ -139364,7 +139434,7 @@
-     <Disorder id="10630">
-       <OrphaCode>48652</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=48652</ExpertLink>
--      <Name lang="nl">Monosomie 22q13</Name>
-+      <Name lang="nl">Monosomie 22q13.3</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -141411,7 +141481,7 @@
-     <Disorder id="28081">
-       <OrphaCode>544472</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=544472</ExpertLink>
--      <Name lang="nl">Atypisch hemolytisch-uremisch syndroom met afwijking in een gen van het complementsysteem</Name>
-+      <Name lang="nl">Atypisch hemolytisch-uremisch syndroom met afwijking van gen van complementsysteem</Name>
-       <DisorderType id="21443">
-         <Name lang="nl">Etiologisch subtype</Name>
-       </DisorderType>
-@@ -142589,7 +142659,7 @@
-     <Disorder id="11907">
-       <OrphaCode>89842</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=89842</ExpertLink>
--      <Name lang="nl">Recessieve dystrofische epidermolysis bullosa, gegeneraliseerd intermediair</Name>
-+      <Name lang="nl">Autosomaal recessieve gegeneraliseerde dystrofische epidermolysis bullosa, intermediaire vorm</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -143685,7 +143755,7 @@
-     <Disorder id="11812">
-       <OrphaCode>88632</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88632</ExpertLink>
--      <Name lang="nl">Dysgenesie van het voorste oogsegment</Name>
-+      <Name lang="nl">Ontwikkelingsanomalie van voorste oogsegment</Name>
-       <DisorderType id="36561">
-         <Name lang="nl">Category</Name>
-       </DisorderType>
-@@ -143902,7 +143972,7 @@
-     <Disorder id="11805">
-       <OrphaCode>88618</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88618</ExpertLink>
--      <Name lang="nl">Psychomotorische retardatie als gevolg van S-adenosylhomocysteïnehydrolasedeficiëntie</Name>
-+      <Name lang="nl">Deficiëntie van S-adenosylhomocysteïnehydrolase</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -144691,7 +144761,7 @@
-     <Disorder id="11903">
-       <OrphaCode>89838</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=89838</ExpertLink>
--      <Name lang="nl">Epidermolysis bullosa simplex, autosomaal recessieve K14</Name>
-+      <Name lang="nl">Autosomaal recessieve gegeneraliseerde epidermolysis bullosa simplex</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -144881,7 +144951,7 @@
-     <Disorder id="12199">
-       <OrphaCode>93256</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93256</ExpertLink>
--      <Name lang="nl">Fragiele X-geassocieerde tremor/ataxiesyndroom</Name>
-+      <Name lang="nl">Fragiele X-geassocieerd tremor/ataxie-syndroom</Name>
-       <DisorderType id="21401">
-         <Name lang="nl">Malformatiesyndroom</Name>
-       </DisorderType>
-@@ -145957,7 +146027,7 @@
-     <Disorder id="12257">
-       <OrphaCode>93320</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93320</ExpertLink>
--      <Name lang="nl">Ulnaire hemimelie</Name>
-+      <Name lang="nl">Hemimelie van ulna</Name>
-       <DisorderType id="21415">
-         <Name lang="nl">Morfologische anomalie</Name>
-       </DisorderType>
-@@ -148810,7 +148880,7 @@
-     <Disorder id="11422">
-       <OrphaCode>79396</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79396</ExpertLink>
--      <Name lang="nl">Epidermolysis bullosa simplex, gegeneraliseerd ernstig</Name>
-+      <Name lang="nl">Autosomaal dominante gegeneraliseerde epidermolysis bullosa simplex, ernstige vorm</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -148975,7 +149045,7 @@
-     <Disorder id="11425">
-       <OrphaCode>79399</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79399</ExpertLink>
--      <Name lang="nl">Epidermolysis bullosa simplex, gegeneraliseerd intermediair</Name>
-+      <Name lang="nl">Autosomaal dominante gegeneraliseerde epidermolysis bullosa simplex, intermediaire vorm</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149007,7 +149077,7 @@
-     <Disorder id="11427">
-       <OrphaCode>79401</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79401</ExpertLink>
--      <Name lang="nl">Epidermolysis bullosa simplex, Ogna-type</Name>
-+      <Name lang="nl">PLEC-gerelateerde intermediaire epidermolysis bullosa simplex zonder extracutane betrokkenheid</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149062,7 +149132,7 @@
-     <Disorder id="11429">
-       <OrphaCode>79403</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79403</ExpertLink>
--      <Name lang="nl">Junctionele epidermolysis bullosa - pylorusatresie</Name>
-+      <Name lang="nl">Junctionele epidermolysis bullosa met pylorusatresie</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149091,7 +149161,7 @@
-     <Disorder id="11428">
-       <OrphaCode>79402</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79402</ExpertLink>
--      <Name lang="nl">Junctionele epidermolysis bullosa, gegeneraliseerd intermediair</Name>
-+      <Name lang="nl">Intermediaire gegeneraliseerde junctionele epidermolysis bullosa</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149146,7 +149216,7 @@
-     <Disorder id="11430">
-       <OrphaCode>79404</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79404</ExpertLink>
--      <Name lang="nl">Junctionele epidermolysis bullosa, gegeneraliseerd ernstig</Name>
-+      <Name lang="nl">Ernstige gegeneraliseerde junctionele epidermolysis bullosa</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149230,7 +149300,7 @@
-     <Disorder id="11434">
-       <OrphaCode>79408</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79408</ExpertLink>
--      <Name lang="nl">Ernstige gegeneraliseerde recessieve dystrofische epidermolysis bullosa</Name>
-+      <Name lang="nl">Autosomaal recessieve gegeneraliseerde dystrofische epidermolysis bullosa, ernstige vorm</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149256,7 +149326,7 @@
-     <Disorder id="11437">
-       <OrphaCode>79411</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79411</ExpertLink>
--      <Name lang="nl">Voorbijgaande bulleuze dermolyse van de neonaat</Name>
-+      <Name lang="nl">Spontaan genezende dystrofische epidermolysis bullosa</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -149285,7 +149355,7 @@
-     <Disorder id="11436">
-       <OrphaCode>79410</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=79410</ExpertLink>
--      <Name lang="nl">Pretibiale dystrofische epidermolysis bullosa</Name>
-+      <Name lang="nl">Gelokaliseerde dystrofische epidermolysis bullosa, pretibiale vorm</Name>
-       <DisorderType id="21450">
-         <Name lang="nl">Klinisch subtype</Name>
-       </DisorderType>
-@@ -152465,10 +152535,7 @@
-           <Name lang="nl">Infantiel</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="2">
--        <TypeOfInheritance id="23438">
--          <Name lang="nl">Mitochondriale overerving</Name>
--        </TypeOfInheritance>
-+      <TypeOfInheritanceList count="1">
-         <TypeOfInheritance id="23431">
-           <Name lang="nl">X-gebonden recessief</Name>
-         </TypeOfInheritance>
-@@ -158961,7 +159028,7 @@
-     <Disorder id="12657">
-       <OrphaCode>95702</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=95702</ExpertLink>
--      <Name lang="nl">Cytomegalische congenitale adrenale hypoplasie</Name>
-+      <Name lang="nl">X-gebonden congenitale bijnierhypoplasie</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -168348,7 +168415,7 @@
-     <Disorder id="13451">
-       <OrphaCode>98434</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98434</ExpertLink>
--      <Name lang="nl">Erfelijke gecombineerde deficiëntie van vitamine K-afhankelijke stollingsfactoren</Name>
-+      <Name lang="nl">Hereditaire gecombineerde deficiëntie van vitamine K-afhankelijke stollingsfactoren</Name>
-       <DisorderType id="21394">
-         <Name lang="nl">Ziekte</Name>
-       </DisorderType>
-@@ -168698,7 +168765,7 @@
-     <Disorder id="28676">
-       <OrphaCode>570470</OrphaCode>
-       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=570470</ExpertLink>
--      <Name lang="nl">Ricin poisoning</Name>
-+      <Name lang="nl">Intoxicatie door ricine</Name>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -173059,7 +173238,7 @@
+     <Disorder id="14458">
+       <OrphaCode>99885</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99885</ExpertLink>
+-      <Name lang="nl">Permanente neonatale diabetes mellitus</Name>
++      <Name lang="nl">Geïsoleerde permanente neonatale diabetes mellitus</Name>
        <DisorderType id="21394">
          <Name lang="nl">Ziekte</Name>
        </DisorderType>

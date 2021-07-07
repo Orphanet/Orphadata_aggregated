@@ -1,32 +1,1175 @@
-commit 3ebab16f9c1ea026b2455fead790a4163a9f32d1
-Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Jun 1 11:23:35 2021 +0200
+commit 76201feb251c2058792f9cf480d515ad9cf39106
+Author: David Lagorce <david.lagorce@inserm.fr>
+Date:   Wed Jul 7 12:35:15 2021 +0200
 
-    JUNE 2021
+    JULY 2021
 
 diff --git a/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml
-old mode 100755
-new mode 100644
-index c220f94..7430b8c
+old mode 100644
+new mode 100755
+index 7430b8c..50e2257
 --- a/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml	
 +++ b/Epidemiological data/Rare disease epidemiology/es_product9_prev.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-05-01 04:44:05" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-06-01 04:46:35" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-06-01 04:46:35" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-07-01 04:47:57" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -267914,7 +267914,7 @@
+@@ -17493,9 +17493,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="1">
+         <Prevalence id="8297">
+-          <Source>20345937[PMID]_[EXPERT]</Source>
++          <Source>PMID: 22911482</Source>
+           <PrevalenceType id="23676">
+             <Name lang="es">Incidencia anual</Name>
+           </PrevalenceType>
+@@ -17513,25 +17513,6 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="8298">
+-          <Source>20345937[PMID]_22911482[PMID]_ [EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="190">
+@@ -17691,7 +17672,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="1">
++      <PrevalenceList count="2">
+         <Prevalence id="8288">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+@@ -17711,6 +17692,21 @@
+             <Name lang="es">Not yet validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="16425">
++          <Source/>
++          <PrevalenceType id="23697">
++            <Name lang="es">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="es">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>28.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus/>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="176">
+@@ -31526,7 +31522,7 @@
+     <Disorder id="421">
+       <OrphaCode>1146</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1146</ExpertLink>
+-      <Name lang="es">Dismorfia digitotalar</Name>
++      <Name lang="es">Artrogriposis distal tipo 1</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -34582,7 +34578,7 @@
+     <Disorder id="485">
+       <OrphaCode>1880</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1880</ExpertLink>
+-      <Name lang="es">Malformación de Ebstein</Name>
++      <Name lang="es">Malformación de Ebstein de la válvula tricúspide</Name>
+       <DisorderType id="21415">
+         <Name lang="es">Anomalía morfológica</Name>
+       </DisorderType>
+@@ -46148,9 +46144,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="7">
++      <PrevalenceList count="8">
+         <Prevalence id="1689">
+-          <Source>European Medicines Agency 2015[INST]</Source>
++          <Source>PMID: 31769437, 25944380, 24715559</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -46160,16 +46156,16 @@
+           <PrevalenceClass id="23732">
+             <Name lang="es">1-5 / 10 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>10.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
++          <ValMoy>8.06</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="1690">
+-          <Source>2785882[PMID]</Source>
++          <Source>PMID: 2785882</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -46179,7 +46175,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="es">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>6.7</ValMoy>
++          <ValMoy>6.4</ValMoy>
+           <PrevalenceGeographic id="24369">
+             <Name lang="es">France</Name>
+           </PrevalenceGeographic>
+@@ -46187,27 +46183,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="1691">
+-          <Source>12389865[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>6.7</ValMoy>
+-          <PrevalenceGeographic id="24362">
+-            <Name lang="es">Finland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+         <Prevalence id="1692">
+-          <Source>22407836[PMID]</Source>
++          <Source>PMID: 3746832</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -46217,7 +46194,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.74</ValMoy>
++          <ValMoy>0.4</ValMoy>
+           <PrevalenceGeographic id="23816">
+             <Name lang="es">Latinoamérica</Name>
+           </PrevalenceGeographic>
+@@ -46226,7 +46203,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="1693">
+-          <Source>22375084[PMID]</Source>
++          <Source>PMID: 22375084</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -46245,7 +46222,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="1694">
+-          <Source>22461456[PMID]</Source>
++          <Source>PMID: 22461456, 24715559</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -46255,7 +46232,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="es">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>7.9</ValMoy>
++          <ValMoy>6.95</ValMoy>
+           <PrevalenceGeographic id="25482">
+             <Name lang="es">United States</Name>
+           </PrevalenceGeographic>
+@@ -46264,7 +46241,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="11269">
+-          <Source>25944380[PMID]</Source>
++          <Source>PMID: 25944380</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -46282,6 +46259,40 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="16436">
++          <Source>PMID: 22913777</Source>
++          <PrevalenceType id="23697">
++            <Name lang="es">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="es">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>1314.0</ValMoy>
++          <PrevalenceGeographic id="24166">
++            <Name lang="es">China</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16435">
++          <Source>PMID: 26627451</Source>
++          <PrevalenceType id="23697">
++            <Name lang="es">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="es">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>72.0</ValMoy>
++          <PrevalenceGeographic id="25356">
++            <Name lang="es">Taiwan, Province of China</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="17999">
+@@ -47189,275 +47200,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="27">
++      <PrevalenceList count="4">
+         <Prevalence id="1622">
+-          <Source>25066220[PMID]_EUROCAT European surveillance of congenital anomalies 1980-2009[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>10.9</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1624">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1626">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>5.8</ValMoy>
+-          <PrevalenceGeographic id="24005">
+-            <Name lang="es">Belgium</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1627">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2008[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>13.1</ValMoy>
+-          <PrevalenceGeographic id="24236">
+-            <Name lang="es">Croatia</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1628">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>19.8</ValMoy>
+-          <PrevalenceGeographic id="24264">
+-            <Name lang="es">Denmark</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1629">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>13.6</ValMoy>
+-          <PrevalenceGeographic id="24369">
+-            <Name lang="es">France</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1630">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>11.6</ValMoy>
+-          <PrevalenceGeographic id="24418">
+-            <Name lang="es">Germany</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1631">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>5.5</ValMoy>
+-          <PrevalenceGeographic id="24544">
+-            <Name lang="es">Hungary</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1632">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>18.1</ValMoy>
+-          <PrevalenceGeographic id="24586">
+-            <Name lang="es">Ireland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1633">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>23.3</ValMoy>
+-          <PrevalenceGeographic id="24607">
+-            <Name lang="es">Italy</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1635">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>11.4</ValMoy>
+-          <PrevalenceGeographic id="24936">
+-            <Name lang="es">Netherlands</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1637">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.0</ValMoy>
+-          <PrevalenceGeographic id="25083">
+-            <Name lang="es">Poland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1638">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>9.5</ValMoy>
+-          <PrevalenceGeographic id="25090">
+-            <Name lang="es">Portugal</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1639">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>6.9</ValMoy>
+-          <PrevalenceGeographic id="25293">
+-            <Name lang="es">Spain</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1640">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
++          <Source>PMID: 25066220 &amp; Eurocat</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -47467,35 +47212,16 @@
+           <PrevalenceClass id="23732">
+             <Name lang="es">1-5 / 10 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>12.3</ValMoy>
+-          <PrevalenceGeographic id="25342">
+-            <Name lang="es">Switzerland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1642">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>16.2</ValMoy>
+-          <PrevalenceGeographic id="25461">
+-            <Name lang="es">Ukraine</Name>
++          <ValMoy>13.2</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="es">Europa</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="1643">
+-          <Source>6240474[PMID]_19777544[PMID]</Source>
++          <Source>PMID: 27702942</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -47505,35 +47231,16 @@
+           <PrevalenceClass id="23732">
+             <Name lang="es">1-5 / 10 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>24.3</ValMoy>
++          <ValMoy>21.0</ValMoy>
+           <PrevalenceGeographic id="25482">
+             <Name lang="es">United States</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1644">
+-          <Source>15868585[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>18.7</ValMoy>
+-          <PrevalenceGeographic id="24621">
+-            <Name lang="es">Japan</Name>
+-          </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="1645">
+-          <Source>4049274[PMID]</Source>
++        <Prevalence id="16447">
++          <Source>PMID: 27118113</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -47543,111 +47250,16 @@
+           <PrevalenceClass id="23732">
+             <Name lang="es">1-5 / 10 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>22.6</ValMoy>
+-          <PrevalenceGeographic id="23949">
+-            <Name lang="es">Australia</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1646">
+-          <Source>9165461[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>32.6</ValMoy>
+-          <PrevalenceGeographic id="25013">
+-            <Name lang="es">Oman</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1623">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1625">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>9.8</ValMoy>
+-          <PrevalenceGeographic id="23956">
+-            <Name lang="es">Austria</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1634">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>24.1</ValMoy>
+-          <PrevalenceGeographic id="24803">
+-            <Name lang="es">Malta</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1636">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>11.2</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="es">Norway</Name>
++          <ValMoy>0.22</ValMoy>
++          <PrevalenceGeographic id="25356">
++            <Name lang="es">Taiwan, Province of China</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="1641">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
++        <Prevalence id="16448">
++          <Source>PMID: 31644668; 27702942</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -47657,47 +47269,9 @@
+           <PrevalenceClass id="23732">
+             <Name lang="es">1-5 / 10 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>15.5</ValMoy>
+-          <PrevalenceGeographic id="25475">
+-            <Name lang="es">United Kingdom</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1647">
+-          <Source>15921246[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>33.0</ValMoy>
+-          <PrevalenceGeographic id="23851">
+-            <Name lang="es">Población específic</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="12566">
+-          <Source>27307146[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.91</ValMoy>
+-          <PrevalenceGeographic id="25335">
+-            <Name lang="es">Sweden</Name>
++          <ValMoy>10.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+@@ -47798,304 +47372,38 @@
        <DisorderGroup id="36540">
          <Name lang="es">Grupo de trastornos</Name>
        </DisorderGroup>
--      <PrevalenceList count="12">
-+      <PrevalenceList count="11">
-         <Prevalence id="5195">
-           <Source>20566927[PMID]</Source>
+-      <PrevalenceList count="20">
++      <PrevalenceList count="4">
+         <Prevalence id="1580">
+-          <Source>20507631[PMID]_[EXPERT]</Source>
++          <Source>PMID: 20566927, 25201089, 33095945</Source>
            <PrevalenceType id="23669">
-@@ -267942,10 +267942,10 @@
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.8</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1581">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>2.2</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1582">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1583">
+-          <Source>20507631[PMID]_[EXPERT]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.9</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="es">United States</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1584">
+-          <Source>20507631[PMID]_[EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="es">United States</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1585">
+-          <Source>6203284[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.51</ValMoy>
+-          <PrevalenceGeographic id="24362">
+-            <Name lang="es">Finland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1586">
+-          <Source>6203284[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="24362">
+-            <Name lang="es">Finland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1587">
+-          <Source>1419751[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>2.8</ValMoy>
+-          <PrevalenceGeographic id="24586">
+-            <Name lang="es">Ireland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1588">
+-          <Source>1419751[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="24586">
+-            <Name lang="es">Ireland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1589">
+-          <Source>ISBN:801812658[OTHER]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>2.43</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="es">Norway</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1590">
+-          <Source>ISBN:801812658[OTHER]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="es">Norway</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1591">
+-          <Source>2601109[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.4</ValMoy>
+-          <PrevalenceGeographic id="24621">
+-            <Name lang="es">Japan</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1592">
+-          <Source>2601109[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="24621">
+-            <Name lang="es">Japan</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1593">
+-          <Source>ISBN:951563203[OTHER]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.08</ValMoy>
+-          <PrevalenceGeographic id="25279">
+-            <Name lang="es">South Africa</Name>
++          <ValMoy>0.656</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="1594">
+-          <Source>ISBN:951563203[OTHER]</Source>
++        <Prevalence id="16444">
++          <Source>PMID: 20566927</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="25279">
+-            <Name lang="es">South Africa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1595">
+-          <Source>20566927[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.56</ValMoy>
++          <ValMoy>0.58</ValMoy>
+           <PrevalenceGeographic id="23949">
+             <Name lang="es">Australia</Name>
+           </PrevalenceGeographic>
+@@ -48103,8 +47411,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="1596">
+-          <Source>20566927[PMID]</Source>
++        <Prevalence id="16445">
++          <Source>PMID: 33095945</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -48114,66 +47422,28 @@
+           <PrevalenceClass id="23746">
+             <Name lang="es">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.05</ValMoy>
+-          <PrevalenceGeographic id="23949">
+-            <Name lang="es">Australia</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1597">
+-          <Source>20566927[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.29</ValMoy>
+-          <PrevalenceGeographic id="24957">
+-            <Name lang="es">New Zealand</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1598">
+-          <Source>20566927[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="24957">
+-            <Name lang="es">New Zealand</Name>
++          <ValMoy>1.19</ValMoy>
++          <PrevalenceGeographic id="24936">
++            <Name lang="es">Netherlands</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="1599">
+-          <Source>9155958[PMID]_[EXPERT]</Source>
++        <Prevalence id="16446">
++          <Source>PMID: 25201089</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
            <PrevalenceQualification id="23711">
              <Name lang="es">Value and class</Name>
            </PrevalenceQualification>
@@ -35,17 +1178,1464 @@ index c220f94..7430b8c
 +          <PrevalenceClass id="23739">
 +            <Name lang="es">1-9 / 1 000 000</Name>
            </PrevalenceClass>
--          <ValMoy>1.1</ValMoy>
-+          <ValMoy>0.572</ValMoy>
-           <PrevalenceGeographic id="23795">
-             <Name lang="es">Europa</Name>
+-          <ValMoy>2.86</ValMoy>
+-          <PrevalenceGeographic id="25475">
+-            <Name lang="es">United Kingdom</Name>
++          <ValMoy>0.197</ValMoy>
++          <PrevalenceGeographic id="25118">
++            <Name lang="es">Romania</Name>
            </PrevalenceGeographic>
-@@ -268105,27 +268105,8 @@
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+@@ -53025,85 +52295,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="11">
+-        <Prevalence id="2060">
+-          <Source>20301491[PMID]_22889154[PMID]_ [EXPERT]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>5.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2061">
+-          <Source>8272182[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.5</ValMoy>
+-          <PrevalenceGeographic id="24369">
+-            <Name lang="es">France</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2062">
+-          <Source>9286459[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.8</ValMoy>
+-          <PrevalenceGeographic id="24418">
+-            <Name lang="es">Germany</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2063">
+-          <Source>23419472[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.6</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="es">Norway</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2064">
+-          <Source>23419472[PMID]</Source>
++      <PrevalenceList count="2">
++        <Prevalence id="16438">
++          <Source>PMID: 23419472</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -53121,120 +52315,25 @@
              <Name lang="es">Validated</Name>
            </PrevalenceValidationStatus>
          </Prevalence>
--        <Prevalence id="5205">
--          <Source>ISBN:951563203[OTHER]</Source>
+-        <Prevalence id="2065">
+-          <Source>10933453[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.8</ValMoy>
+-          <PrevalenceGeographic id="24607">
+-            <Name lang="es">Italy</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2066">
+-          <Source>9556302[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.6</ValMoy>
+-          <PrevalenceGeographic id="23802">
+-            <Name lang="es">Oceanía</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2067">
+-          <Source>12436195[PMID]_ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.35</ValMoy>
+-          <PrevalenceGeographic id="24621">
+-            <Name lang="es">Japan</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2068">
+-          <Source>19269120[PMID]</Source>
++        <Prevalence id="16439">
++          <Source>PMID: 31074578</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.4</ValMoy>
+-          <PrevalenceGeographic id="24068">
+-            <Name lang="es">Brazil</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2069">
+-          <Source>[EXPERT]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
++          <PrevalenceClass id="23732">
++            <Name lang="es">1-5 / 10 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>5.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
++          <ValMoy>2.0639</ValMoy>
++          <PrevalenceGeographic id="25482">
++            <Name lang="es">United States</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2070">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="766">
+@@ -62072,7 +61171,7 @@
+     <Disorder id="815">
+       <OrphaCode>549</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=549</ExpertLink>
+-      <Name lang="es">Legionelosis</Name>
++      <Name lang="es">Enfermedad de los legionarios</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -65936,7 +65035,7 @@
+     <Disorder id="894">
+       <OrphaCode>3451</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3451</ExpertLink>
+-      <Name lang="es">Síndrome de West</Name>
++      <Name lang="es">Síndrome de espasmos infantiles</Name>
+       <DisorderType id="21422">
+         <Name lang="es">Síndrome clínico</Name>
+       </DisorderType>
+@@ -67079,9 +66178,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="23">
++      <PrevalenceList count="19">
+         <Prevalence id="2360">
+-          <Source>18681890[PMID]</Source>
++          <Source>PMID: 28595941</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67099,27 +66198,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2361">
+-          <Source>18681890[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>7.6</ValMoy>
+-          <PrevalenceGeographic id="25335">
+-            <Name lang="es">Sweden</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+         <Prevalence id="2362">
+-          <Source>18681890[PMID]</Source>
++          <Source>PMID: 18681890</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67157,7 +66237,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="2364">
+-          <Source>18681890[PMID]</Source>
++          <Source>PMID: 18681890</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67194,46 +66274,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2366">
+-          <Source>16435194[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.38</ValMoy>
+-          <PrevalenceGeographic id="24418">
+-            <Name lang="es">Germany</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2367">
+-          <Source>9439667[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.31</ValMoy>
+-          <PrevalenceGeographic id="24586">
+-            <Name lang="es">Ireland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+         <Prevalence id="2368">
+-          <Source>20490927[PMID]</Source>
++          <Source>PMID: 20490927</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67251,27 +66293,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2369">
+-          <Source>10617747[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.39</ValMoy>
+-          <PrevalenceGeographic id="24124">
+-            <Name lang="es">Canada</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+         <Prevalence id="2370">
+-          <Source>20209839[PMID]</Source>
++          <Source>PMID: 20209839</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67290,7 +66313,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="2371">
+-          <Source>19396827[PMID]</Source>
++          <Source>PMID: 19396827</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67309,22 +66332,22 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="2372">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
++          <Source>PMID: 28595941</Source>
++          <PrevalenceType id="23683">
++            <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
++          <PrevalenceClass id="23739">
++            <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
++          <ValMoy>0.45</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="es">Europa</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="11720">
+@@ -67347,7 +66370,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="11721">
+-          <Source>25472774[PMID]</Source>
++          <Source>PMID: 25472774</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67366,7 +66389,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13922">
+-          <Source>28595941[PMID]</Source>
++          <Source>PMID: 28595941</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67385,7 +66408,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13923">
+-          <Source>28595941[PMID]</Source>
++          <Source>PMID: 28595941</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67404,7 +66427,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13924">
+-          <Source>20622343[PMID]</Source>
++          <Source>PMID: 20622343</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67423,7 +66446,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13925">
+-          <Source>25364648[PMID]</Source>
++          <Source>PMID: 25364648</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67441,8 +66464,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="13926">
+-          <Source>9918480[PMID]</Source>
++        <Prevalence id="13927">
++          <Source>PMID: 34051828</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67452,26 +66475,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.59</ValMoy>
+-          <PrevalenceGeographic id="23949">
+-            <Name lang="es">Australia</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="13927">
+-          <Source>DOI: https://doi.org/10.1016/j.ymgme.2016.11.285[OTHER]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="es">Prevalencia al nacer</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.09</ValMoy>
++          <ValMoy>0.14</ValMoy>
+           <PrevalenceGeographic id="25482">
+             <Name lang="es">United States</Name>
+           </PrevalenceGeographic>
+@@ -67480,7 +66484,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13928">
+-          <Source>DOI: https://doi.org/10.1016/j.ymgme.2014.12.082[OTHER]</Source>
++          <Source>PMID: 31926052</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67499,7 +66503,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13929">
+-          <Source>14685153[PMID]</Source>
++          <Source>PMID: 14685153</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -67517,6 +66521,25 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="16437">
++          <Source>PMID: 28595941</Source>
++          <PrevalenceType id="23683">
++            <Name lang="es">Prevalencia al nacer</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="es">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.07</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="873">
+@@ -76849,7 +75872,7 @@
+     <Disorder id="1007">
+       <OrphaCode>528</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528</ExpertLink>
+-      <Name lang="es">Lipodistrofia congénita de Berardinelli-Seip</Name>
++      <Name lang="es">Lipodistrofia congénita generalizada</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -77849,7 +76872,7 @@
+     <Disorder id="972">
+       <OrphaCode>776</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=776</ExpertLink>
+-      <Name lang="es">Discapacidad intelectual ligada al cromosoma X con hábito marfanoide</Name>
++      <Name lang="es">Síndrome de Lujan-Fryns</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -80322,7 +79345,7 @@
+     <Disorder id="1058">
+       <OrphaCode>557</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=557</ExpertLink>
+-      <Name lang="es">Malformación anorrectal aislada</Name>
++      <Name lang="es">Malformación anorrectal no sindrómica</Name>
+       <DisorderType id="21436">
+         <Name lang="es">Grupo de fenomas</Name>
+       </DisorderType>
+@@ -83398,7 +82421,7 @@
+     <Disorder id="1276">
+       <OrphaCode>955</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=955</ExpertLink>
+-      <Name lang="es">Acroosteolisis tipo dominante</Name>
++      <Name lang="es">Síndrome de Hajdu-Cheney</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -83675,7 +82698,7 @@
+     <Disorder id="1190">
+       <OrphaCode>1762</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1762</ExpertLink>
+-      <Name lang="es">Trisomía Xq28</Name>
++      <Name lang="es">Síndrome de duplicación Xq28 proximal</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -90523,7 +89546,7 @@
+     <Disorder id="16705">
+       <OrphaCode>137678</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=137678</ExpertLink>
+-      <Name lang="es">Displasia checa tipo metatarsal</Name>
++      <Name lang="es">Displasia espondiloepifisaria con acortamiento metatarsiano</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -92369,7 +91392,7 @@
+     <Disorder id="1451">
+       <OrphaCode>1200</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1200</ExpertLink>
+-      <Name lang="es">Síndrome de atresia coanal-pérdida auditiva-defectos cardíacos-dismorfia craneofacial</Name>
++      <Name lang="es">Síndrome de Burn-McKeown</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -98644,9 +97667,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="1">
+         <Prevalence id="3219">
+-          <Source>9326330[PMID]</Source>
++          <Source>PMID: 9326330</Source>
+           <PrevalenceType id="23683">
+             <Name lang="es">Prevalencia al nacer</Name>
+           </PrevalenceType>
+@@ -98664,25 +97687,6 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="3220">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="es">Desconocido</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="16907">
+@@ -102000,7 +101004,7 @@
+     <Disorder id="1686">
+       <OrphaCode>1519</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1519</ExpertLink>
+-      <Name lang="es">Hipertelorismo tipo Teebi</Name>
++      <Name lang="es">Síndrome de hipertelorismo asociado al gen SPECC1L</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -109858,7 +108862,7 @@
+     <Disorder id="17237">
+       <OrphaCode>158687</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158687</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa acantolítica letal</Name>
++      <Name lang="es">Trastorno erosivo acantolítico letal</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -110071,7 +109075,7 @@
+     <Disorder id="17234">
+       <OrphaCode>158676</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158676</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa dominante con distrofia ungueal solo</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada, sólo ungueal</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -110120,7 +109124,7 @@
+     <Disorder id="17233">
+       <OrphaCode>158673</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158673</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica acral</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada, forma acral</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -110169,7 +109173,7 @@
+     <Disorder id="17232">
+       <OrphaCode>158668</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158668</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple por deficiencia de placofilina</Name>
++      <Name lang="es">Síndrome de displasia ectodérmica-fragilidad cutánea</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -112672,7 +111676,7 @@
+     <Disorder id="2233">
+       <OrphaCode>2407</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2407</ExpertLink>
+-      <Name lang="es">Síndrome LOC</Name>
++      <Name lang="es">Síndrome laringo-ónico-cutáneo</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -117048,7 +116052,7 @@
+     <Disorder id="2061">
+       <OrphaCode>2166</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2166</ExpertLink>
+-      <Name lang="es">Holoprosencephaly-postaxial polydactyly syndrome</Name>
++      <Name lang="es">Síndrome de holoprosencefalia-polidactilia postaxial</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -121013,7 +120017,7 @@
+     <Disorder id="19640">
+       <OrphaCode>251393</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=251393</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa juntural tipo no Herlitz localizada</Name>
++      <Name lang="es">Epidermólisis ampollosa juntural localizada</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -125421,7 +124425,7 @@
+     <Disorder id="19728">
+       <OrphaCode>252175</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=252175</ExpertLink>
+-      <Name lang="es">OBSOLETO: Schwannoma vestibular</Name>
++      <Name lang="es">Schwannoma vestibular</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -129663,7 +128667,7 @@
+     <Disorder id="19853">
+       <OrphaCode>261144</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=261144</ExpertLink>
+-      <Name lang="es">Síndrome de microdeleción 14q12</Name>
++      <Name lang="es">Síndrome FOXG1 por microdeleción 14q12</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -131243,7 +130247,7 @@
+     <Disorder id="19879">
+       <OrphaCode>261476</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=261476</ExpertLink>
+-      <Name lang="es">Síndrome de microdeleción Xp21</Name>
++      <Name lang="es">Síndrome de deleción Xp21</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -132460,7 +131464,7 @@
+     <Disorder id="2739">
+       <OrphaCode>3047</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3047</ExpertLink>
+-      <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual tipo SBBYS</Name>
++      <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual, tipo SBBYS</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -132962,6 +131966,38 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="2726">
++      <OrphaCode>3033</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3033</ExpertLink>
++      <Name lang="es">Disgenesia tubular renal</Name>
++      <DisorderType id="21401">
++        <Name lang="es">Síndrome de malformación</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <PrevalenceList count="1">
++        <Prevalence id="16443">
++          <Source>PMID: 16790508; 19344005; 33163725</Source>
++          <PrevalenceType id="23683">
++            <Name lang="es">Prevalencia al nacer</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="es">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="es">Desconocido</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="20071">
+       <OrphaCode>263553</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=263553</ExpertLink>
+@@ -135357,7 +134393,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="12669">
+-          <Source>2133981[PMID]</Source>
++          <Source>PMID: 24053747</Source>
+           <PrevalenceType id="23697">
+             <Name lang="es">Cases/families</Name>
+           </PrevalenceType>
+@@ -135365,7 +134401,7 @@
+             <Name lang="es">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>2.0</ValMoy>
++          <ValMoy>19.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+@@ -135374,7 +134410,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="12670">
+-          <Source>ORPHANET_2133981[PMID]</Source>
++          <Source>PMID: 24053747</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -150567,7 +149603,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="8">
+         <Prevalence id="4063">
+           <Source>20301355[PMID]</Source>
+           <PrevalenceType id="23683">
+@@ -150602,8 +149638,122 @@
+           <PrevalenceGeographic id="23844">
+             <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16426">
++          <Source>PMID: 33488600</Source>
++          <PrevalenceType id="23669">
++            <Name lang="es">Prevalencia puntual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="es">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.7</ValMoy>
++          <PrevalenceGeographic id="25125">
++            <Name lang="es">Russian Federation</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16427">
++          <Source>PMID: 33488600</Source>
++          <PrevalenceType id="23669">
++            <Name lang="es">Prevalencia puntual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="es">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.1</ValMoy>
++          <PrevalenceGeographic id="25083">
++            <Name lang="es">Poland</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16428">
++          <Source>PMID: 33488600</Source>
++          <PrevalenceType id="23669">
++            <Name lang="es">Prevalencia puntual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="es">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.1</ValMoy>
++          <PrevalenceGeographic id="24257">
++            <Name lang="es">Czech Republic</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16429">
++          <Source>PMID: 33488600</Source>
++          <PrevalenceType id="23669">
++            <Name lang="es">Prevalencia puntual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="es">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.6</ValMoy>
++          <PrevalenceGeographic id="25251">
++            <Name lang="es">Slovakia</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16430">
++          <Source>PMID: 33488600</Source>
++          <PrevalenceType id="23669">
++            <Name lang="es">Prevalencia puntual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="es">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.3</ValMoy>
++          <PrevalenceGeographic id="23998">
++            <Name lang="es">Belarus</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16431">
++          <Source>PMID: 33488600</Source>
++          <PrevalenceType id="23669">
++            <Name lang="es">Prevalencia puntual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="es">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>1.3</ValMoy>
++          <PrevalenceGeographic id="25461">
++            <Name lang="es">Ukraine</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -155649,7 +154799,7 @@
+     <Disorder id="3298">
+       <OrphaCode>832</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=832</ExpertLink>
+-      <Name lang="es">Deficiencia de succinil-CoA: 3 cetoácido CoA transferasa</Name>
++      <Name lang="es">Deficiencia de succinil-CoA:3-cetoácido-CoA transferasa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -159250,7 +158400,7 @@
+     <Disorder id="3183">
+       <OrphaCode>3051</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3051</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual-cabello escaso-braquidactilia</Name>
++      <Name lang="es">Síndrome de Nicolaides-Baraitser</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -161519,7 +160669,7 @@
+     <Disorder id="3525">
+       <OrphaCode>3286</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3286</ExpertLink>
+-      <Name lang="es">Taquicardia ventricular catecolaminérgica polimórfica</Name>
++      <Name lang="es">Taquicardia ventricular polimórfica catecolaminérgica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -174951,7 +174101,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
++      <PrevalenceList count="2">
+         <Prevalence id="4575">
+           <Source>24008954[PMID]</Source>
+           <PrevalenceType id="23676">
+@@ -174990,25 +174140,6 @@
+             <Name lang="es">Not yet validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="11225">
+-          <Source>22790125[PMID]_[EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>38.0</ValMoy>
+-          <PrevalenceGeographic id="24621">
+-            <Name lang="es">Japan</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="3443">
+@@ -178306,55 +177437,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="18950">
+-      <OrphaCode>221150</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=221150</ExpertLink>
+-      <Name lang="es">Síndrome similar a Pitt-Hopkins</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="8841">
+-          <Source>22670138[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="es">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="es">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>105.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="8842">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="19062">
+       <OrphaCode>228003</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=228003</ExpertLink>
+@@ -187583,7 +186665,7 @@
+     <Disorder id="19201">
+       <OrphaCode>231568</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=231568</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica dominante generalizada</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica generalizada autosómica dominante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -189318,11 +188400,11 @@
+       <OrphaCode>238593</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238593</ExpertLink>
+       <Name lang="es">Mesenteritis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="9014">
+@@ -191035,7 +190117,7 @@
+       <DisorderGroup id="36554">
+         <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="1">
+         <Prevalence id="12221">
+           <Source>27056062[PMID]</Source>
+           <PrevalenceType id="23676">
+@@ -191055,24 +190137,35 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="12931">
+-          <Source>European Medicines Agency 2018[INST]</Source>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="21946">
++      <OrphaCode>329903</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=329903</ExpertLink>
++      <Name lang="es">Glomerulonefritis membranoproliferativa mediada por inmunoglobulinas</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
++      </DisorderGroup>
++      <PrevalenceList count="1">
++        <Prevalence id="16424">
++          <Source/>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="es">Desconocido</Name>
+           </PrevalenceClass>
+-          <ValMoy>12.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
++          <PrevalenceValidationStatus/>
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+@@ -196321,7 +195414,7 @@
+     <Disorder id="21690">
+       <OrphaCode>319671</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=319671</ExpertLink>
+-      <Name lang="es">Enanismo primordial microcefálico tipo Alazami</Name>
++      <Name lang="es">Síndrome de Alazami</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -196999,7 +196092,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="13183">
+-          <Source>27777327[PMID]</Source>
++          <Source>ftp://ftp.sanger.ac.uk/pub/resources/theses/wj1/</Source>
+           <PrevalenceType id="23697">
+             <Name lang="es">Cases/families</Name>
+           </PrevalenceType>
+@@ -197007,7 +196100,7 @@
+             <Name lang="es">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>18.0</ValMoy>
++          <ValMoy>84.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+@@ -199716,7 +198809,7 @@
+     <Disorder id="22512">
+       <OrphaCode>370997</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=370997</ExpertLink>
+-      <Name lang="es">Muscle-eye-brain disease with bilateral multicystic leucodystrophy</Name>
++      <Name lang="es">Enfermedad de músculo-ojo-cerebro con leucodistrofia multiquística bilateral</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -201020,7 +200113,7 @@
+     <Disorder id="22443">
+       <OrphaCode>369891</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=369891</ExpertLink>
+-      <Name lang="es">Síndrome de retraso del desarrollo-dismorfia facial por deficiencia de MED13L</Name>
++      <Name lang="es">Síndrome de retraso del desarrollo-dismorfia facial, por defecto en el gen MED13L</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -203734,7 +202827,7 @@
+     <Disorder id="22327">
+       <OrphaCode>363611</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=363611</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual-dificultades en la alimentación-retraso del desarrollo-microcefalia</Name>
++      <Name lang="es">Trastorno del neurodesarrollo asociado al gen CTCF</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -206088,7 +205181,7 @@
+     <Disorder id="22081">
+       <OrphaCode>352577</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=352577</ExpertLink>
+-      <Name lang="es">Síndrome de dificultades graves en la alimentación-fallo de medro-microcefalia por deficiencia de ASXL3</Name>
++      <Name lang="es">Síndrome de Bainbridge-Ropers</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -219811,7 +218904,7 @@
+     <Disorder id="21218">
+       <OrphaCode>306498</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306498</ExpertLink>
+-      <Name lang="es">Síndrome tumoral hamartomatoso asociado al gen PTEN</Name>
++      <Name lang="es">Síndrome de tumor hamartoma asociado al gen PTEN</Name>
+       <DisorderType id="21436">
+         <Name lang="es">Grupo de fenomas</Name>
+       </DisorderType>
+@@ -219843,7 +218936,7 @@
+     <Disorder id="21219">
+       <OrphaCode>306504</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306504</ExpertLink>
+-      <Name lang="es">Epidermolisis ampollosa juntural con afectación respiratoria y renal</Name>
++      <Name lang="es">Síndrome de enfermedad pulmonar intersticial-síndrome nefrótico-epidermolisis ampollosa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -221198,7 +220291,7 @@
+     <Disorder id="21112">
+       <OrphaCode>300333</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=300333</ExpertLink>
+-      <Name lang="es">Síndrome nefrótico-sordera-epidermólisis ampollosa pretibial</Name>
++      <Name lang="es">Síndrome nefrótico-sordera neurosensorial-epidermólisis ampollosa pretibial</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -221296,7 +220389,7 @@
+     <Disorder id="24042">
+       <OrphaCode>464738</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=464738</ExpertLink>
+-      <Name lang="es">Síndrome de catarata congénita-microcefalia-nevo flamígero simple-discapacidad intelectual grave</Name>
++      <Name lang="es">Síndrome de Basel-Vanagaite-Smirin-Yosef</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -223455,11 +222548,11 @@
+       <OrphaCode>449563</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449563</ExpertLink>
+       <Name lang="es">Enfermedad oftalmológica asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="12162">
+@@ -223519,11 +222612,11 @@
+       <OrphaCode>449400</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449400</ExpertLink>
+       <Name lang="es">Aortitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="12165">
+@@ -223551,11 +222644,11 @@
+       <OrphaCode>449395</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449395</ExpertLink>
+       <Name lang="es">Enfermedad renal relacionada con IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="12166">
+@@ -223583,11 +222676,11 @@
+       <OrphaCode>449432</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449432</ExpertLink>
+       <Name lang="es">Enfermedad de la glándula submandibular asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="12163">
+@@ -223615,11 +222708,11 @@
+       <OrphaCode>449427</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449427</ExpertLink>
+       <Name lang="es">Paquimeningitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="12164">
+@@ -228140,7 +227233,7 @@
+     <Disorder id="24223">
+       <OrphaCode>468631</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=468631</ExpertLink>
+-      <Name lang="es">Talla baja primordial microcefálica por deficiencia de RTTN</Name>
++      <Name lang="es">Talla baja primordial microcefálica-malformaciones cerebrales por deficiencia de RTTN</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -228483,7 +227576,7 @@
+     <Disorder id="24234">
+       <OrphaCode>468678</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=468678</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual-microcefalia-estrabismo-alteraciones de la conducta</Name>
++      <Name lang="es">Síndrome de White-Sutton</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -231394,7 +230487,7 @@
+     <Disorder id="22920">
+       <OrphaCode>404443</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=404443</ExpertLink>
+-      <Name lang="es">Síndrome de talla alta-discapacidad intelectual-dismorfia facial</Name>
++      <Name lang="es">Síndrome de Tatton-Brown-Rahman</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -237426,7 +236519,7 @@
+     <Disorder id="22749">
+       <OrphaCode>399103</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=399103</ExpertLink>
+-      <Name lang="es">Distal nebulin myopathy</Name>
++      <Name lang="es">Miopatía nebulínica distal</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -240590,7 +239683,7 @@
+     <Disorder id="23367">
+       <OrphaCode>438178</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=438178</ExpertLink>
+-      <Name lang="es">Deficiencia de acil-CoA reductasa 1 grasa</Name>
++      <Name lang="es">Deficiencia de la Acil-CoA reductasa 1 de ácidos grasos</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -241909,7 +241002,7 @@
+     <Disorder id="23427">
+       <OrphaCode>442835</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=442835</ExpertLink>
+-      <Name lang="es">Encefalopatía epiléptica de inicio temprano indeterminada</Name>
++      <Name lang="es">Encefalopatía epiléptica inespecífica de inicio temprano</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -258956,7 +258049,7 @@
+     <Disorder id="26573">
+       <OrphaCode>508512</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=508512</ExpertLink>
+-      <Name lang="es">Síndrome congénito de múltiples máculas café con leche-elevada tasa de intercambio entre cromátidas hermanas</Name>
++      <Name lang="es">Síndrome de restricción del crecimiento intrauterino-múltiples máculas café con leche congénitas-elevada tasa de intercambio entre cromátidas hermanas</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -259005,7 +258098,7 @@
+     <Disorder id="26575">
+       <OrphaCode>508529</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=508529</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple generalizada basal con atrofia de la piel, cicatrización y pérdida de cabello</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada basal con miocardiopatía</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -261308,7 +260401,7 @@
+     <Disorder id="26002">
+       <OrphaCode>500163</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=500163</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual asociado al gen SIN3A</Name>
++      <Name lang="es">Síndrome de Witteveen-Kolk</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -267914,9 +267007,9 @@
+       <DisorderGroup id="36540">
+         <Name lang="es">Grupo de trastornos</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="11">
++      <PrevalenceList count="8">
+         <Prevalence id="5195">
+-          <Source>20566927[PMID]</Source>
++          <Source>PMID: 20566927</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -267926,12 +267019,12 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.7</ValMoy>
++          <ValMoy>0.572</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="5196">
+@@ -267949,12 +267042,12 @@
+           <PrevalenceGeographic id="23795">
+             <Name lang="es">Europa</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="5197">
+-          <Source>23809583[PMID]</Source>
++          <Source>PMID: 23809583</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -267972,46 +267065,8 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5198">
+-          <Source>1419751[PMID]</Source>
 -          <PrevalenceType id="23669">
 -            <Name lang="es">Prevalencia puntual</Name>
 -          </PrevalenceType>
@@ -55,35 +2645,817 @@ index c220f94..7430b8c
 -          <PrevalenceClass id="23739">
 -            <Name lang="es">1-9 / 1 000 000</Name>
 -          </PrevalenceClass>
--          <ValMoy>0.12</ValMoy>
--          <PrevalenceGeographic id="25279">
--            <Name lang="es">South Africa</Name>
+-          <ValMoy>0.3</ValMoy>
+-          <PrevalenceGeographic id="24586">
+-            <Name lang="es">Ireland</Name>
 -          </PrevalenceGeographic>
 -          <PrevalenceValidationStatus id="25958">
 -            <Name lang="es">Validated</Name>
 -          </PrevalenceValidationStatus>
 -        </Prevalence>
-         <Prevalence id="5206">
--          <Source>ISBN:801860245[OTHER]</Source>
+-        <Prevalence id="5199">
+-          <Source>ISBN:801812658[OTHER]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.93</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="es">Norway</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="5200">
+-          <Source>6203284[PMID]</Source>
++        <Prevalence id="5204">
++          <Source>20566927[PMID]</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -268021,35 +267076,16 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.88</ValMoy>
+-          <PrevalenceGeographic id="24362">
+-            <Name lang="es">Finland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="5201">
+-          <Source>2359725[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.9</ValMoy>
+-          <PrevalenceGeographic id="24236">
+-            <Name lang="es">Croatia</Name>
++          <ValMoy>0.39</ValMoy>
++          <PrevalenceGeographic id="23949">
++            <Name lang="es">Australia</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5202">
+-          <Source>2601109[PMID]</Source>
++        <Prevalence id="5206">
 +          <Source>PMID: 27463098</Source>
            <PrevalenceType id="23669">
              <Name lang="es">Prevalencia puntual</Name>
            </PrevalenceType>
-@@ -268135,7 +268116,7 @@
+@@ -268059,16 +267095,16 @@
            <PrevalenceClass id="23739">
              <Name lang="es">1-9 / 1 000 000</Name>
            </PrevalenceClass>
--          <ValMoy>0.24</ValMoy>
+-          <ValMoy>0.35</ValMoy>
+-          <PrevalenceGeographic id="24621">
+-            <Name lang="es">Japan</Name>
 +          <ValMoy>0.14</ValMoy>
++          <PrevalenceGeographic id="25482">
++            <Name lang="es">United States</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5203">
+-          <Source>20566927[PMID]</Source>
++        <Prevalence id="16421">
++          <Source>PMID: 25201089</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -268078,16 +267114,16 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.1</ValMoy>
+-          <PrevalenceGeographic id="24957">
+-            <Name lang="es">New Zealand</Name>
++          <ValMoy>0.28</ValMoy>
++          <PrevalenceGeographic id="25118">
++            <Name lang="es">Romania</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5204">
+-          <Source>20566927[PMID]</Source>
++        <Prevalence id="16422">
++          <Source>PMID: 33095945</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -268097,28 +267133,28 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.39</ValMoy>
+-          <PrevalenceGeographic id="23949">
+-            <Name lang="es">Australia</Name>
++          <ValMoy>0.83</ValMoy>
++          <PrevalenceGeographic id="24936">
++            <Name lang="es">Netherlands</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5206">
+-          <Source>PMID: 27463098</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
++        <Prevalence id="16423">
++          <Source>PMID: 33095945</Source>
++          <PrevalenceType id="23676">
++            <Name lang="es">Incidencia anual</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="es">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.14</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="es">United States</Name>
++          <ValMoy>1.41</ValMoy>
++          <PrevalenceGeographic id="24936">
++            <Name lang="es">Netherlands</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+@@ -268383,7 +267419,7 @@
+     <Disorder id="8620">
+       <OrphaCode>2908</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2908</ExpertLink>
+-      <Name lang="es">Síndrome de Kindler</Name>
++      <Name lang="es">Epidermolisis ampollosa de Kindler</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -269088,8 +268124,8 @@
+       <OrphaCode>485350</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=485350</ExpertLink>
+       <Name lang="es">Síndrome de discapacidad intelectual ligada al cromosoma X asociado al gen CLCN4</Name>
+-      <DisorderType id="21401">
+-        <Name lang="es">Síndrome de malformación</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+@@ -273800,11 +272836,11 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="6059">
+-          <Source>European Medicines Agency 2013[INST]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
++      <PrevalenceList count="3">
++        <Prevalence id="16440">
++          <Source>PMID: 28356407</Source>
++          <PrevalenceType id="23676">
++            <Name lang="es">Incidencia anual</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+@@ -273812,7 +272848,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="es">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>3.0</ValMoy>
++          <ValMoy>4.2</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="es">Europa</Name>
+           </PrevalenceGeographic>
+@@ -273820,18 +272856,18 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="6060">
+-          <Source>21793646[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
++        <Prevalence id="16441">
++          <Source>PMID: 28356407</Source>
++          <PrevalenceType id="23676">
++            <Name lang="es">Incidencia anual</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="es">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="es">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>55.0</ValMoy>
++          <ValMoy>5.1</ValMoy>
            <PrevalenceGeographic id="25482">
              <Name lang="es">United States</Name>
            </PrevalenceGeographic>
-@@ -332128,7 +332109,7 @@
-     <Disorder id="12885">
-       <OrphaCode>97292</OrphaCode>
-       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=97292</ExpertLink>
--      <Name lang="es">Choque cardiogénico</Name>
-+      <Name lang="es">Cardiogenic shock</Name>
-       <DisorderType id="21429">
-         <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+@@ -273839,6 +272875,25 @@
+             <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="16442">
++          <Source>PMID: 28356407</Source>
++          <PrevalenceType id="23676">
++            <Name lang="es">Incidencia anual</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="es">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="es">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>1.9</ValMoy>
++          <PrevalenceGeographic id="24621">
++            <Name lang="es">Japan</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="10963">
+@@ -278282,11 +277337,11 @@
+       <OrphaCode>64744</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=64744</ExpertLink>
+       <Name lang="es">Enfermedad tiroidea asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="5895">
+@@ -285900,11 +284955,11 @@
+       <OrphaCode>79078</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79078</ExpertLink>
+       <Name lang="es">Dacrioadenitis y sialoadenitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="6230">
+@@ -293513,28 +292568,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="5479">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="1">
+         <Prevalence id="15427">
+-          <Source>30376835[PMID]</Source>
++          <Source>PMID: 30376835</Source>
+           <PrevalenceType id="23669">
+             <Name lang="es">Prevalencia puntual</Name>
+           </PrevalenceType>
+@@ -295765,8 +294801,8 @@
+       <OrphaCode>537072</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=537072</ExpertLink>
+       <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen PLG</Name>
+-      <DisorderType id="21443">
+-        <Name lang="es">Subtipo etiológico</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+       <DisorderGroup id="36554">
+         <Name lang="es">Subtipo de trastorno</Name>
+@@ -296246,55 +295282,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="27912">
+-      <OrphaCode>537891</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=537891</ExpertLink>
+-      <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen ANGPT1</Name>
+-      <DisorderType id="21443">
+-        <Name lang="es">Subtipo etiológico</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="14688">
+-          <Source>28601681[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="14689">
+-          <Source>ORPHANET_28601681[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="es">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="es">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>4.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="27913">
+       <OrphaCode>538096</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=538096</ExpertLink>
+@@ -297625,47 +296612,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="4">
+-        <Prevalence id="5789">
+-          <Source>15978100[PMID]_15127914[PMID]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="es">Incidencia anual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.3</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="es">United States</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="5790">
+-          <Source>European Medicines Agency 2009[INST]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="es">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>25.5</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="10877">
+-          <Source>15127914[PMID]</Source>
++      <PrevalenceList count="1">
++        <Prevalence id="16433">
++          <Source>PMID: 18637802, 23729372, 31730475,</Source>
+           <PrevalenceType id="23676">
+             <Name lang="es">Incidencia anual</Name>
+           </PrevalenceType>
+@@ -297675,28 +296624,9 @@
+           <PrevalenceClass id="23739">
+             <Name lang="es">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.12</ValMoy>
+-          <PrevalenceGeographic id="25475">
+-            <Name lang="es">United Kingdom</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="10878">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="es">Incidencia anual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="es">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
++          <ValMoy>0.35</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="es">Validated</Name>
+@@ -298242,11 +297172,11 @@
+       <OrphaCode>49041</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=49041</ExpertLink>
+       <Name lang="es">Fibrosis retroperitoneal asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="3">
+         <Prevalence id="5688">
+@@ -304766,7 +303696,7 @@
+     <Disorder id="11907">
+       <OrphaCode>89842</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89842</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica recesiva generalizada intermedia</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica generalizada intermedia autosómica recesiva</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -307523,7 +306453,7 @@
+     <Disorder id="11805">
+       <OrphaCode>88618</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=88618</ExpertLink>
+-      <Name lang="es">Retraso psicomotor por deficiencia de S-adenosil homocisteina hidrolasa</Name>
++      <Name lang="es">Deficiencia de S-adenosilhomocisteina hidrolasa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -308729,7 +307659,7 @@
+     <Disorder id="11903">
+       <OrphaCode>89838</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89838</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple autosómica recesiva K14</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada autosómica recesiva</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -308942,7 +307872,7 @@
+     <Disorder id="11856">
+       <OrphaCode>88924</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=88924</ExpertLink>
+-      <Name lang="es">Enfermedad del riñón poliquístico autosómica dominante tipo 1 y con esclerosis tuberosa</Name>
++      <Name lang="es">Enfermedad del riñón poliquístico autosómica dominante tipo 1 con esclerosis tuberosa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -314771,7 +313701,7 @@
+     <Disorder id="11422">
+       <OrphaCode>79396</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79396</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple generalizada grave</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada grave autosómica dominante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -314967,7 +313897,7 @@
+     <Disorder id="11425">
+       <OrphaCode>79399</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79399</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple generalizada intermedia</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada intermedia autosómica dominante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -314999,7 +313929,7 @@
+     <Disorder id="11427">
+       <OrphaCode>79401</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79401</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple tipo Ogna</Name>
++      <Name lang="es">Epidermólisis ampollosa simple intermedia sin afectación extracutánea asociada al gen PLEC</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -315080,7 +314010,7 @@
+     <Disorder id="11429">
+       <OrphaCode>79403</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79403</ExpertLink>
+-      <Name lang="es">Síndrome de epidermólisis ampollosa juntural-atresia pilórica</Name>
++      <Name lang="es">Epidermólisis ampollosa juntural con atresia pilórica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -315416,7 +314346,7 @@
+     <Disorder id="11434">
+       <OrphaCode>79408</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79408</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica recesiva generalizada grave</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica generalizada grave autosómica recesiva</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -315486,7 +314416,7 @@
+     <Disorder id="11437">
+       <OrphaCode>79411</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79411</ExpertLink>
+-      <Name lang="es">Dermólisis ampollosa transitoria del recién nacido</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica autocurativa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -315535,7 +314465,7 @@
+     <Disorder id="11436">
+       <OrphaCode>79410</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79410</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica pretibial</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada, forma pretibial</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -329679,7 +328609,7 @@
+     <Disorder id="11600">
+       <OrphaCode>83629</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=83629</ExpertLink>
+-      <Name lang="es">Leukoencephalopathy-spondyloepimetaphyseal dysplasia syndrome</Name>
++      <Name lang="es">Síndrome de leucoencefalopatía-displasia espondilometafisaria</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -334161,7 +333091,7 @@
+     <Disorder id="12657">
+       <OrphaCode>95702</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
+-      <Name lang="es">Hipoplasia suprarrenal congénita citomegálica</Name>
++      <Name lang="es">Hipoplasia suprarrenal congénita ligada al cromosoma X</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -334732,7 +333662,7 @@
+     <Disorder id="12593">
+       <OrphaCode>95434</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95434</ExpertLink>
+-      <Name lang="es">Síndrome de ataxia cerebelosa-intrusiones sacádicas autosómico recesivo</Name>
++      <Name lang="es">Síndrome de ataxia cerebelosa-trastorno del movimiento autosómico recesivo</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -336671,26 +335601,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="7360">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="es">Incidencia anual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="es">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="es">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>3.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="es">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="1">
+         <Prevalence id="7361">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+@@ -336706,8 +335617,8 @@
+           <PrevalenceGeographic id="23844">
+             <Name lang="es">Mundial</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="es">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="es">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -339000,7 +337911,7 @@
+     <Disorder id="12511">
+       <OrphaCode>93953</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93953</ExpertLink>
+-      <Name lang="es">Familial thyroglossal duct cyst</Name>
++      <Name lang="es">Quiste del conducto tirogloso familiar</Name>
+       <DisorderType id="21415">
+         <Name lang="es">Anomalía morfológica</Name>
+       </DisorderType>
+@@ -340242,55 +339153,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="14086">
+-      <OrphaCode>99069</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99069</ExpertLink>
+-      <Name lang="es">Corazón univentricular con una sola válvula ventricular</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="7776">
+-          <Source>15531940[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="es">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="es">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="7777">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="es">Prevalencia puntual</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="es">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="es">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="es">Mundial</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="es">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="14080">
+       <OrphaCode>99063</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99063</ExpertLink>
+@@ -341094,11 +339956,11 @@
+       <OrphaCode>99748</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99748</ExpertLink>
+       <Name lang="es">Fiebre de Pontiac</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="7799">
+@@ -352811,6 +351673,19 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="28931">
++      <OrphaCode>580933</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=580933</ExpertLink>
++      <Name lang="es">Defectos del desarrollo cerebral y cardíaco letales</Name>
++      <DisorderType id="21401">
++        <Name lang="es">Síndrome de malformación</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <PrevalenceList count="0">
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="13772">
+       <OrphaCode>98755</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98755</ExpertLink>
+@@ -353442,7 +352317,7 @@
+     <Disorder id="13451">
+       <OrphaCode>98434</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98434</ExpertLink>
+-      <Name lang="es">Deficiencia combinada hereditaria de factores de la coagulación vitamina K dependientes</Name>
++      <Name lang="es">Deficiencia combinada de factores de la coagulación dependientes de la vitamina K, forma hereditaria</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -358554,8 +357429,8 @@
+       <OrphaCode>100054</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100054</ExpertLink>
+       <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen F12</Name>
+-      <DisorderType id="21443">
+-        <Name lang="es">Subtipo etiológico</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+       <DisorderGroup id="36554">
+         <Name lang="es">Subtipo de trastorno</Name>
+@@ -359691,11 +358566,11 @@
+       <OrphaCode>99989</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99989</ExpertLink>
+       <Name lang="es">Síndrome intermedio DEND</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="10785">
+@@ -359723,11 +358598,11 @@
+       <OrphaCode>99981</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99981</ExpertLink>
+       <Name lang="es">Apnea de la prematuridad</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="7907">
+@@ -362664,7 +361539,7 @@
+     <Disorder id="14458">
+       <OrphaCode>99885</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99885</ExpertLink>
+-      <Name lang="es">Diabetes mellitus neonatal permanente</Name>
++      <Name lang="es">Diabetes mellitus neonatal permanente aislada</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
        </DisorderType>

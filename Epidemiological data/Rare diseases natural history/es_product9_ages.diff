@@ -1,19 +1,19 @@
-commit 3ebab16f9c1ea026b2455fead790a4163a9f32d1
-Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Jun 1 11:23:35 2021 +0200
+commit 76201feb251c2058792f9cf480d515ad9cf39106
+Author: David Lagorce <david.lagorce@inserm.fr>
+Date:   Wed Jul 7 12:35:15 2021 +0200
 
-    JUNE 2021
+    JULY 2021
 
 diff --git a/Epidemiological data/Rare diseases natural history/es_product9_ages.xml b/Epidemiological data/Rare diseases natural history/es_product9_ages.xml
-old mode 100755
-new mode 100644
-index 9e30abe..3f8e492
+old mode 100644
+new mode 100755
+index 3f8e492..7e5188b
 --- a/Epidemiological data/Rare diseases natural history/es_product9_ages.xml	
 +++ b/Epidemiological data/Rare diseases natural history/es_product9_ages.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-05-01 04:43:04" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2021-06-01 04:45:34" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2021-06-01 04:45:34" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-07-01 04:46:57" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -21,12 +21,336 @@ index 9e30abe..3f8e492
        <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
      </Licence>
    </Availability>
--  <DisorderList count="6566">
-+  <DisorderList count="6568">
+-  <DisorderList count="6568">
++  <DisorderList count="6575">
      <Disorder id="17601">
        <OrphaCode>166024</OrphaCode>
        <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=166024</ExpertLink>
-@@ -3716,12 +3716,12 @@
+@@ -3683,12 +3683,9 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="es">No aplicable</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23480">
+-          <Name lang="es">Desconocido</Name>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -4562,7 +4559,7 @@
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
++        <AverageAgeOfOnset id="23522">
+           <Name lang="es">Infancia</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+@@ -7160,13 +7157,22 @@
+           <Name lang="es">Cualquier edad</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="5">
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23424">
+           <Name lang="es">Multigénico / multifactorial</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="es">No aplicable</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23459">
++          <Name lang="es">Oligogénico</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23445">
++          <Name lang="es">Dominante ligado al X</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="302">
+@@ -8959,7 +8965,10 @@
+           <Name lang="es">No se dispone de datos</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="394">
+@@ -10265,7 +10274,7 @@
+     <Disorder id="421">
+       <OrphaCode>1146</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1146</ExpertLink>
+-      <Name lang="es">Dismorfia digitotalar</Name>
++      <Name lang="es">Artrogriposis distal tipo 1</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -11439,7 +11448,7 @@
+     <Disorder id="485">
+       <OrphaCode>1880</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1880</ExpertLink>
+-      <Name lang="es">Malformación de Ebstein</Name>
++      <Name lang="es">Malformación de Ebstein de la válvula tricúspide</Name>
+       <DisorderType id="21415">
+         <Name lang="es">Anomalía morfológica</Name>
+       </DisorderType>
+@@ -13690,23 +13699,14 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="4">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="es">Adolescencia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="es">Infancia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="es">Infancia</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23515">
+           <Name lang="es">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="es">Cualquier edad</Name>
++        <AverageAgeOfDeath id="23655">
++          <Name lang="es">No se dispone de datos</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+@@ -15156,9 +15156,24 @@
+           <Name lang="es">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="es">Cualquier edad</Name>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="es">Adolescencia</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="es">Infancia temprana</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="es">Infantil</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="es">Infancia tardía</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23641">
++          <Name lang="es">Expectativa de vida normal</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23585">
++          <Name lang="es">Muerte fetal</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+@@ -15395,8 +15410,8 @@
+         <TypeOfInheritance id="23417">
+           <Name lang="es">Autosómico recesivo</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23445">
+-          <Name lang="es">Dominante ligado al X</Name>
++        <TypeOfInheritance id="23431">
++          <Name lang="es">Recesivo ligado al X</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -17124,12 +17139,12 @@
+         <TypeOfInheritance id="23417">
+           <Name lang="es">Autosómico recesivo</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23424">
+-          <Name lang="es">Multigénico / multifactorial</Name>
+-        </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="es">No aplicable</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23480">
++          <Name lang="es">Desconocido</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="17939">
+@@ -18188,7 +18203,7 @@
+     <Disorder id="815">
+       <OrphaCode>549</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=549</ExpertLink>
+-      <Name lang="es">Legionelosis</Name>
++      <Name lang="es">Enfermedad de los legionarios</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -19694,7 +19709,7 @@
+     <Disorder id="894">
+       <OrphaCode>3451</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3451</ExpertLink>
+-      <Name lang="es">Síndrome de West</Name>
++      <Name lang="es">Síndrome de espasmos infantiles</Name>
+       <DisorderType id="21422">
+         <Name lang="es">Síndrome clínico</Name>
+       </DisorderType>
+@@ -21400,7 +21415,10 @@
+           <Name lang="es">Expectativa de vida normal</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="es">Autosómico recesivo</Name>
+         </TypeOfInheritance>
+@@ -22023,7 +22041,7 @@
+     <Disorder id="1007">
+       <OrphaCode>528</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=528</ExpertLink>
+-      <Name lang="es">Lipodistrofia congénita de Berardinelli-Seip</Name>
++      <Name lang="es">Lipodistrofia congénita generalizada</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -22391,7 +22409,7 @@
+     <Disorder id="972">
+       <OrphaCode>776</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=776</ExpertLink>
+-      <Name lang="es">Discapacidad intelectual ligada al cromosoma X con hábito marfanoide</Name>
++      <Name lang="es">Síndrome de Lujan-Fryns</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -23120,7 +23138,7 @@
+     <Disorder id="1058">
+       <OrphaCode>557</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=557</ExpertLink>
+-      <Name lang="es">Malformación anorrectal aislada</Name>
++      <Name lang="es">Malformación anorrectal no sindrómica</Name>
+       <DisorderType id="21436">
+         <Name lang="es">Grupo de fenomas</Name>
+       </DisorderType>
+@@ -23471,20 +23489,26 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="es">Adolescencia</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="es">La edad adulta</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23529">
+           <Name lang="es">Infancia</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="es">Infancia</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+         <AverageAgeOfDeath id="23655">
+           <Name lang="es">No se dispone de datos</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="es">No aplicable</Name>
+-        </TypeOfInheritance>
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23480">
+           <Name lang="es">Desconocido</Name>
+         </TypeOfInheritance>
+@@ -24495,7 +24519,7 @@
+     <Disorder id="1276">
+       <OrphaCode>955</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=955</ExpertLink>
+-      <Name lang="es">Acroosteolisis tipo dominante</Name>
++      <Name lang="es">Síndrome de Hajdu-Cheney</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -24755,7 +24779,7 @@
+     <Disorder id="1190">
+       <OrphaCode>1762</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1762</ExpertLink>
+-      <Name lang="es">Trisomía Xq28</Name>
++      <Name lang="es">Síndrome de duplicación Xq28 proximal</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -25867,7 +25891,10 @@
+           <Name lang="es">Infantil</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="es">Autosómico recesivo</Name>
+         </TypeOfInheritance>
+@@ -28055,13 +28082,10 @@
+           <Name lang="es">No se dispone de datos</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="es">Autosómico dominate</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23487">
+-          <Name lang="es">No se dispone de datos</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="16698">
+@@ -28836,7 +28860,7 @@
+     <Disorder id="16705">
+       <OrphaCode>137678</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=137678</ExpertLink>
+-      <Name lang="es">Displasia checa tipo metatarsal</Name>
++      <Name lang="es">Displasia espondiloepifisaria con acortamiento metatarsiano</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -29777,7 +29801,7 @@
+     <Disorder id="1451">
+       <OrphaCode>1200</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1200</ExpertLink>
+-      <Name lang="es">Síndrome de atresia coanal-pérdida auditiva-defectos cardíacos-dismorfia craneofacial</Name>
++      <Name lang="es">Síndrome de Burn-McKeown</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -29899,8 +29923,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="es">Autosómico recesivo</Name>
++        <TypeOfInheritance id="23480">
++          <Name lang="es">Desconocido</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -33673,12 +33697,12 @@
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
        <TypeOfInheritanceList count="2">
@@ -41,96 +365,275 @@ index 9e30abe..3f8e492
 -        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="17490">
-@@ -14854,13 +14854,16 @@
+     <Disorder id="16907">
+@@ -35661,7 +35685,7 @@
+     <Disorder id="1686">
+       <OrphaCode>1519</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1519</ExpertLink>
+-      <Name lang="es">Hipertelorismo tipo Teebi</Name>
++      <Name lang="es">Síndrome de hipertelorismo asociado al gen SPECC1L</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -39504,8 +39528,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="es">No aplicable</Name>
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -40304,7 +40328,7 @@
+     <Disorder id="17237">
+       <OrphaCode>158687</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158687</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa acantolítica letal</Name>
++      <Name lang="es">Trastorno erosivo acantolítico letal</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -40443,7 +40467,7 @@
+     <Disorder id="17234">
+       <OrphaCode>158676</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158676</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa dominante con distrofia ungueal solo</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada, sólo ungueal</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -40472,7 +40496,7 @@
+     <Disorder id="17233">
+       <OrphaCode>158673</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158673</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica acral</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada, forma acral</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -40501,7 +40525,7 @@
+     <Disorder id="17232">
+       <OrphaCode>158668</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=158668</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple por deficiencia de placofilina</Name>
++      <Name lang="es">Síndrome de displasia ectodérmica-fragilidad cutánea</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -42118,7 +42142,7 @@
+     <Disorder id="2180">
+       <OrphaCode>2325</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2325</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple con sordera, alopecia, anodoncia/hipodoncia y distrofia ungueal</Name>
++      <Name lang="es">Epidermólisis ampollosa simple con anodoncia/hipodoncia</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -42320,7 +42344,7 @@
+     <Disorder id="2233">
+       <OrphaCode>2407</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2407</ExpertLink>
+-      <Name lang="es">Síndrome LOC</Name>
++      <Name lang="es">Síndrome laringo-ónico-cutáneo</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -43982,8 +44006,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23480">
+-          <Name lang="es">Desconocido</Name>
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -44931,7 +44955,7 @@
+     <Disorder id="2061">
+       <OrphaCode>2166</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2166</ExpertLink>
+-      <Name lang="es">Holoprosencephaly-postaxial polydactyly syndrome</Name>
++      <Name lang="es">Síndrome de holoprosencefalia-polidactilia postaxial</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -47768,7 +47792,7 @@
+     <Disorder id="19640">
+       <OrphaCode>251393</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=251393</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa juntural tipo no Herlitz localizada</Name>
++      <Name lang="es">Epidermólisis ampollosa juntural localizada</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -53240,7 +53264,7 @@
+     <Disorder id="19853">
+       <OrphaCode>261144</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=261144</ExpertLink>
+-      <Name lang="es">Síndrome de microdeleción 14q12</Name>
++      <Name lang="es">Síndrome FOXG1 por microdeleción 14q12</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -54013,7 +54037,7 @@
+     <Disorder id="19879">
+       <OrphaCode>261476</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=261476</ExpertLink>
+-      <Name lang="es">Síndrome de microdeleción Xp21</Name>
++      <Name lang="es">Síndrome de deleción Xp21</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -54711,7 +54735,7 @@
+     <Disorder id="2739">
+       <OrphaCode>3047</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3047</ExpertLink>
+-      <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual tipo SBBYS</Name>
++      <Name lang="es">Síndrome de blefarofimosis-discapacidad intelectual, tipo SBBYS</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -62025,8 +62049,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23480">
+-          <Name lang="es">Desconocido</Name>
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -63618,7 +63642,22 @@
+           <Name lang="es">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="es">Adolescencia</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="es">Adultos</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="es">Infancia temprana</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="es">Infancia tardía</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="es">Edad adulta</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -66679,7 +66718,7 @@
+     <Disorder id="3298">
+       <OrphaCode>832</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=832</ExpertLink>
+-      <Name lang="es">Deficiencia de succinil-CoA: 3 cetoácido CoA transferasa</Name>
++      <Name lang="es">Deficiencia de succinil-CoA:3-cetoácido-CoA transferasa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -68618,7 +68657,7 @@
+     <Disorder id="3183">
+       <OrphaCode>3051</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3051</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual-cabello escaso-braquidactilia</Name>
++      <Name lang="es">Síndrome de Nicolaides-Baraitser</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -69991,7 +70030,7 @@
+     <Disorder id="3525">
+       <OrphaCode>3286</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=3286</ExpertLink>
+-      <Name lang="es">Taquicardia ventricular catecolaminérgica polimórfica</Name>
++      <Name lang="es">Taquicardia ventricular polimórfica catecolaminérgica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -71993,7 +72032,10 @@
        </AverageAgeOfOnsetList>
        <AverageAgeOfDeathList count="0">
        </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="2">
-+      <TypeOfInheritanceList count="3">
-         <TypeOfInheritance id="23410">
-           <Name lang="es">Autosómico dominate</Name>
-         </TypeOfInheritance>
-         <TypeOfInheritance id="23417">
-           <Name lang="es">Autosómico recesivo</Name>
-         </TypeOfInheritance>
-+        <TypeOfInheritance id="23431">
-+          <Name lang="es">Recesivo ligado al X</Name>
-+        </TypeOfInheritance>
-       </TypeOfInheritanceList>
-     </Disorder>
-     <Disorder id="17999">
-@@ -67435,13 +67438,16 @@
-           <Name lang="es">Expectativa de vida normal</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="3">
-+      <TypeOfInheritanceList count="4">
-         <TypeOfInheritance id="23410">
-           <Name lang="es">Autosómico dominate</Name>
-         </TypeOfInheritance>
-         <TypeOfInheritance id="23417">
-           <Name lang="es">Autosómico recesivo</Name>
-         </TypeOfInheritance>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
 +        <TypeOfInheritance id="23424">
 +          <Name lang="es">Multigénico / multifactorial</Name>
 +        </TypeOfInheritance>
-         <TypeOfInheritance id="23431">
-           <Name lang="es">Recesivo ligado al X</Name>
+         <TypeOfInheritance id="23494">
+           <Name lang="es">No aplicable</Name>
          </TypeOfInheritance>
-@@ -68629,13 +68635,10 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="2">
-+      <TypeOfInheritanceList count="1">
-         <TypeOfInheritance id="23410">
-           <Name lang="es">Autosómico dominate</Name>
+@@ -74602,19 +74644,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="5">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="es">Adolescencia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="es">La edad adulta</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="es">Infancia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23550">
+-          <Name lang="es">Senectud</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23522">
+           <Name lang="es">Infancia</Name>
+         </AverageAgeOfOnset>
+@@ -76436,32 +76466,6 @@
          </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="18950">
+-      <OrphaCode>221150</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=221150</ExpertLink>
+-      <Name lang="es">Síndrome similar a Pitt-Hopkins</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="es">Infancia</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="es">Neonatal</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
 -        <TypeOfInheritance id="23417">
 -          <Name lang="es">Autosómico recesivo</Name>
 -        </TypeOfInheritance>
-       </TypeOfInheritanceList>
-     </Disorder>
-     <Disorder id="18604">
-@@ -74621,9 +74624,12 @@
-           <Name lang="es">Expectativa de vida normal</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="1">
--        <TypeOfInheritance id="23494">
--          <Name lang="es">No aplicable</Name>
-+      <TypeOfInheritanceList count="2">
-+        <TypeOfInheritance id="23424">
-+          <Name lang="es">Multigénico / multifactorial</Name>
-+        </TypeOfInheritance>
-+        <TypeOfInheritance id="23480">
-+          <Name lang="es">Desconocido</Name>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="19062">
+       <OrphaCode>228003</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=228003</ExpertLink>
+@@ -79944,6 +79948,26 @@
          </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-@@ -77963,7 +77969,10 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="1">
-+      <TypeOfInheritanceList count="2">
-+        <TypeOfInheritance id="23410">
-+          <Name lang="es">Autosómico dominate</Name>
-+        </TypeOfInheritance>
-         <TypeOfInheritance id="23424">
-           <Name lang="es">Multigénico / multifactorial</Name>
-         </TypeOfInheritance>
-@@ -79975,6 +79984,26 @@
-         </TypeOfInheritance>
-       </TypeOfInheritanceList>
-     </Disorder>
-+    <Disorder id="3625">
-+      <OrphaCode>2197</OrphaCode>
-+      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2197</ExpertLink>
-+      <Name lang="es">Hipercalciuria idiopática</Name>
-+      <DisorderType id="21394">
-+        <Name lang="es">Enfermedad</Name>
++    <Disorder id="3626">
++      <OrphaCode>1309</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=1309</ExpertLink>
++      <Name lang="es">Riñón esponjoso medular</Name>
++      <DisorderType id="21415">
++        <Name lang="es">Anomalía morfológica</Name>
 +      </DisorderType>
 +      <DisorderGroup id="36547">
 +        <Name lang="es">Trastorno</Name>
@@ -145,49 +648,124 @@ index 9e30abe..3f8e492
 +        </TypeOfInheritance>
 +      </TypeOfInheritanceList>
 +    </Disorder>
-     <Disorder id="19175">
-       <OrphaCode>231237</OrphaCode>
-       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=231237</ExpertLink>
-@@ -82463,6 +82492,38 @@
-         </TypeOfInheritance>
+     <Disorder id="19177">
+       <OrphaCode>231249</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=231249</ExpertLink>
+@@ -81208,7 +81232,7 @@
+     <Disorder id="19201">
+       <OrphaCode>231568</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=231568</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica dominante generalizada</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica generalizada autosómica dominante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -82424,11 +82448,11 @@
+       <OrphaCode>238593</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238593</ExpertLink>
+       <Name lang="es">Mesenteritis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23543">
+@@ -83537,6 +83561,52 @@
+       <TypeOfInheritanceList count="0">
        </TypeOfInheritanceList>
      </Disorder>
-+    <Disorder id="19292">
-+      <OrphaCode>238666</OrphaCode>
-+      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238666</ExpertLink>
-+      <Name lang="es">Hipogonadismo hipogonadotrópico congénito aislado</Name>
-+      <DisorderType id="21394">
-+        <Name lang="es">Enfermedad</Name>
++    <Disorder id="21947">
++      <OrphaCode>329918</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=329918</ExpertLink>
++      <Name lang="es">Glomerulonefritis membranoproliferativa no mediada por inmunoglobulinas</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
 +      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23557">
++          <Name lang="es">Cualquier edad</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23424">
++          <Name lang="es">Multigénico / multifactorial</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="21946">
++      <OrphaCode>329903</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=329903</ExpertLink>
++      <Name lang="es">Glomerulonefritis membranoproliferativa mediada por inmunoglobulinas</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
 +      </DisorderGroup>
 +      <AverageAgeOfOnsetList count="0">
 +      </AverageAgeOfOnsetList>
 +      <AverageAgeOfDeathList count="0">
 +      </AverageAgeOfDeathList>
-+      <TypeOfInheritanceList count="5">
-+        <TypeOfInheritance id="23410">
-+          <Name lang="es">Autosómico dominate</Name>
-+        </TypeOfInheritance>
-+        <TypeOfInheritance id="23417">
-+          <Name lang="es">Autosómico recesivo</Name>
-+        </TypeOfInheritance>
-+        <TypeOfInheritance id="23459">
-+          <Name lang="es">Oligogénico</Name>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23424">
++          <Name lang="es">Multigénico / multifactorial</Name>
 +        </TypeOfInheritance>
 +        <TypeOfInheritance id="23480">
 +          <Name lang="es">Desconocido</Name>
 +        </TypeOfInheritance>
-+        <TypeOfInheritance id="23431">
-+          <Name lang="es">Recesivo ligado al X</Name>
-+        </TypeOfInheritance>
 +      </TypeOfInheritanceList>
 +    </Disorder>
-     <Disorder id="19291">
-       <OrphaCode>238654</OrphaCode>
-       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=238654</ExpertLink>
-@@ -86815,13 +86876,10 @@
+     <Disorder id="21924">
+       <OrphaCode>329308</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=329308</ExpertLink>
+@@ -86217,7 +86287,7 @@
+     <Disorder id="21690">
+       <OrphaCode>319671</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=319671</ExpertLink>
+-      <Name lang="es">Enanismo primordial microcefálico tipo Alazami</Name>
++      <Name lang="es">Síndrome de Alazami</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -88334,7 +88404,7 @@
+     <Disorder id="22512">
+       <OrphaCode>370997</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=370997</ExpertLink>
+-      <Name lang="es">Muscle-eye-brain disease with bilateral multicystic leucodystrophy</Name>
++      <Name lang="es">Enfermedad de músculo-ojo-cerebro con leucodistrofia multiquística bilateral</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -89117,7 +89187,7 @@
+     <Disorder id="22443">
+       <OrphaCode>369891</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=369891</ExpertLink>
+-      <Name lang="es">Síndrome de retraso del desarrollo-dismorfia facial por deficiencia de MED13L</Name>
++      <Name lang="es">Síndrome de retraso del desarrollo-dismorfia facial, por defecto en el gen MED13L</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -90501,7 +90571,7 @@
+     <Disorder id="22327">
+       <OrphaCode>363611</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=363611</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual-dificultades en la alimentación-retraso del desarrollo-microcefalia</Name>
++      <Name lang="es">Trastorno del neurodesarrollo asociado al gen CTCF</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -90518,13 +90588,10 @@
        </AverageAgeOfOnsetList>
        <AverageAgeOfDeathList count="0">
        </AverageAgeOfDeathList>
@@ -195,44 +773,373 @@ index 9e30abe..3f8e492
 +      <TypeOfInheritanceList count="1">
          <TypeOfInheritance id="23410">
            <Name lang="es">Autosómico dominate</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="es">No aplicable</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="22312">
+@@ -91434,7 +91501,7 @@
+     <Disorder id="22081">
+       <OrphaCode>352577</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=352577</ExpertLink>
+-      <Name lang="es">Síndrome de dificultades graves en la alimentación-fallo de medro-microcefalia por deficiencia de ASXL3</Name>
++      <Name lang="es">Síndrome de Bainbridge-Ropers</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -92077,13 +92144,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+           <Name lang="es">Autosómico recesivo</Name>
          </TypeOfInheritance>
 -        <TypeOfInheritance id="23431">
 -          <Name lang="es">Recesivo ligado al X</Name>
 -        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="21581">
-@@ -91393,7 +91451,10 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="1">
-+      <TypeOfInheritanceList count="2">
-+        <TypeOfInheritance id="23410">
-+          <Name lang="es">Autosómico dominate</Name>
-+        </TypeOfInheritance>
-         <TypeOfInheritance id="23494">
-           <Name lang="es">No aplicable</Name>
-         </TypeOfInheritance>
-@@ -93730,13 +93791,16 @@
-       </AverageAgeOfOnsetList>
-       <AverageAgeOfDeathList count="0">
+     <Disorder id="22129">
+@@ -99618,7 +99682,7 @@
+     <Disorder id="21218">
+       <OrphaCode>306498</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306498</ExpertLink>
+-      <Name lang="es">Síndrome tumoral hamartomatoso asociado al gen PTEN</Name>
++      <Name lang="es">Síndrome de tumor hamartoma asociado al gen PTEN</Name>
+       <DisorderType id="21436">
+         <Name lang="es">Grupo de fenomas</Name>
+       </DisorderType>
+@@ -99644,7 +99708,7 @@
+     <Disorder id="21219">
+       <OrphaCode>306504</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=306504</ExpertLink>
+-      <Name lang="es">Epidermolisis ampollosa juntural con afectación respiratoria y renal</Name>
++      <Name lang="es">Síndrome de enfermedad pulmonar intersticial-síndrome nefrótico-epidermolisis ampollosa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -100265,7 +100329,7 @@
+     <Disorder id="21112">
+       <OrphaCode>300333</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=300333</ExpertLink>
+-      <Name lang="es">Síndrome nefrótico-sordera-epidermólisis ampollosa pretibial</Name>
++      <Name lang="es">Síndrome nefrótico-sordera neurosensorial-epidermólisis ampollosa pretibial</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -100317,7 +100381,7 @@
+     <Disorder id="24042">
+       <OrphaCode>464738</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=464738</ExpertLink>
+-      <Name lang="es">Síndrome de catarata congénita-microcefalia-nevo flamígero simple-discapacidad intelectual grave</Name>
++      <Name lang="es">Síndrome de Basel-Vanagaite-Smirin-Yosef</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -101768,11 +101832,11 @@
+       <OrphaCode>449563</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449563</ExpertLink>
+       <Name lang="es">Enfermedad oftalmológica asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101829,11 +101893,11 @@
+       <OrphaCode>449400</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449400</ExpertLink>
+       <Name lang="es">Aortitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101858,11 +101922,11 @@
+       <OrphaCode>449395</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449395</ExpertLink>
+       <Name lang="es">Enfermedad renal relacionada con IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101887,11 +101951,11 @@
+       <OrphaCode>449432</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449432</ExpertLink>
+       <Name lang="es">Enfermedad de la glándula submandibular asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -101916,11 +101980,11 @@
+       <OrphaCode>449427</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=449427</ExpertLink>
+       <Name lang="es">Paquimeningitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+@@ -104687,7 +104751,7 @@
+     <Disorder id="24223">
+       <OrphaCode>468631</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=468631</ExpertLink>
+-      <Name lang="es">Talla baja primordial microcefálica por deficiencia de RTTN</Name>
++      <Name lang="es">Talla baja primordial microcefálica-malformaciones cerebrales por deficiencia de RTTN</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -104887,7 +104951,7 @@
+     <Disorder id="24234">
+       <OrphaCode>468678</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=468678</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual-microcefalia-estrabismo-alteraciones de la conducta</Name>
++      <Name lang="es">Síndrome de White-Sutton</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -104904,13 +104968,10 @@
+           <Name lang="es">Expectativa de vida normal</Name>
+         </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
 -      <TypeOfInheritanceList count="2">
-+      <TypeOfInheritanceList count="3">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="es">Autosómico dominate</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="es">No aplicable</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="24235">
+@@ -106303,7 +106364,7 @@
+     <Disorder id="22920">
+       <OrphaCode>404443</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=404443</ExpertLink>
+-      <Name lang="es">Síndrome de talla alta-discapacidad intelectual-dismorfia facial</Name>
++      <Name lang="es">Síndrome de Tatton-Brown-Rahman</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -109259,7 +109320,7 @@
+     <Disorder id="22749">
+       <OrphaCode>399103</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=399103</ExpertLink>
+-      <Name lang="es">Distal nebulin myopathy</Name>
++      <Name lang="es">Miopatía nebulínica distal</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -110573,7 +110634,7 @@
+     <Disorder id="23367">
+       <OrphaCode>438178</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=438178</ExpertLink>
+-      <Name lang="es">Deficiencia de acil-CoA reductasa 1 grasa</Name>
++      <Name lang="es">Deficiencia de la Acil-CoA reductasa 1 de ácidos grasos</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -111933,7 +111994,7 @@
+     <Disorder id="23427">
+       <OrphaCode>442835</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=442835</ExpertLink>
+-      <Name lang="es">Encefalopatía epiléptica de inicio temprano indeterminada</Name>
++      <Name lang="es">Encefalopatía epiléptica inespecífica de inicio temprano</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -112171,7 +112232,7 @@
+     <Disorder id="23455">
+       <OrphaCode>443291</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=443291</ExpertLink>
+-      <Name lang="es">HIV associated cancers</Name>
++      <Name lang="es">Cáncer asociado a VIH</Name>
+       <DisorderType id="21429">
+         <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+       </DisorderType>
+@@ -113634,11 +113695,11 @@
+       <OrphaCode>447764</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=447764</ExpertLink>
+       <Name lang="es">Colangitis esclerosante asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+@@ -117578,7 +117639,7 @@
+     <Disorder id="26573">
+       <OrphaCode>508512</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=508512</ExpertLink>
+-      <Name lang="es">Síndrome congénito de múltiples máculas café con leche-elevada tasa de intercambio entre cromátidas hermanas</Name>
++      <Name lang="es">Síndrome de restricción del crecimiento intrauterino-múltiples máculas café con leche congénitas-elevada tasa de intercambio entre cromátidas hermanas</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -117607,7 +117668,7 @@
+     <Disorder id="26575">
+       <OrphaCode>508529</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=508529</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple generalizada basal con atrofia de la piel, cicatrización y pérdida de cabello</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada basal con miocardiopatía</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -118077,7 +118138,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="25841">
+@@ -118786,7 +118850,7 @@
+     <Disorder id="26002">
+       <OrphaCode>500163</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=500163</ExpertLink>
+-      <Name lang="es">Síndrome de discapacidad intelectual asociado al gen SIN3A</Name>
++      <Name lang="es">Síndrome de Witteveen-Kolk</Name>
+       <DisorderType id="21401">
+         <Name lang="es">Síndrome de malformación</Name>
+       </DisorderType>
+@@ -122600,16 +122664,13 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="3">
++      <TypeOfInheritanceList count="2">
          <TypeOfInheritance id="23410">
            <Name lang="es">Autosómico dominate</Name>
          </TypeOfInheritance>
          <TypeOfInheritance id="23417">
            <Name lang="es">Autosómico recesivo</Name>
          </TypeOfInheritance>
-+        <TypeOfInheritance id="23431">
-+          <Name lang="es">Recesivo ligado al X</Name>
-+        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="es">No aplicable</Name>
+-        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="5544">
-@@ -118684,7 +118748,10 @@
+     <Disorder id="8622">
+@@ -122696,7 +122757,7 @@
+     <Disorder id="8620">
+       <OrphaCode>2908</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=2908</ExpertLink>
+-      <Name lang="es">Síndrome de Kindler</Name>
++      <Name lang="es">Epidermolisis ampollosa de Kindler</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -123055,8 +123116,8 @@
+       <OrphaCode>485350</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=485350</ExpertLink>
+       <Name lang="es">Síndrome de discapacidad intelectual ligada al cromosoma X asociado al gen CLCN4</Name>
+-      <DisorderType id="21401">
+-        <Name lang="es">Síndrome de malformación</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+@@ -128056,11 +128117,11 @@
+       <OrphaCode>64744</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=64744</ExpertLink>
+       <Name lang="es">Enfermedad tiroidea asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+@@ -129058,11 +129119,11 @@
+       <OrphaCode>63999</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=63999</ExpertLink>
+       <Name lang="es">Mediastinitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+@@ -132539,11 +132600,11 @@
+       <OrphaCode>79078</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79078</ExpertLink>
+       <Name lang="es">Dacrioadenitis y sialoadenitis asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23557">
+@@ -135290,7 +135351,10 @@
            <Name lang="es">No se dispone de datos</Name>
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
@@ -243,20 +1150,458 @@ index 9e30abe..3f8e492
 +        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="26001">
-@@ -122161,8 +122228,8 @@
+     <Disorder id="10464">
+@@ -137788,8 +137852,8 @@
+       <OrphaCode>537072</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=537072</ExpertLink>
+       <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen PLG</Name>
+-      <DisorderType id="21443">
+-        <Name lang="es">Subtipo etiológico</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+       <DisorderGroup id="36554">
+         <Name lang="es">Subtipo de trastorno</Name>
+@@ -137897,29 +137961,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="27912">
+-      <OrphaCode>537891</OrphaCode>
+-      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=537891</ExpertLink>
+-      <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen ANGPT1</Name>
+-      <DisorderType id="21443">
+-        <Name lang="es">Subtipo etiológico</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="es">La edad adulta</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23655">
+-          <Name lang="es">No se dispone de datos</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="10697">
+       <OrphaCode>52429</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=52429</ExpertLink>
+@@ -139187,11 +139228,11 @@
+       <OrphaCode>49041</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=49041</ExpertLink>
+       <Name lang="es">Fibrosis retroperitoneal asociada a IgG4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="es">Enfermedad</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="es">Trastorno</Name>
++      <DisorderGroup id="36554">
++        <Name lang="es">Subtipo de trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23543">
+@@ -140913,10 +140954,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="es">Infancia</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23522">
+           <Name lang="es">Infancia</Name>
+         </AverageAgeOfOnset>
+@@ -140926,7 +140964,10 @@
+           <Name lang="es">No se dispone de datos</Name>
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="1">
--        <TypeOfInheritance id="23494">
--          <Name lang="es">No aplicable</Name>
-+        <TypeOfInheritance id="23480">
-+          <Name lang="es">Desconocido</Name>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="10599">
+@@ -142659,7 +142700,7 @@
+     <Disorder id="11907">
+       <OrphaCode>89842</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89842</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica recesiva generalizada intermedia</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica generalizada intermedia autosómica recesiva</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -143972,7 +144013,7 @@
+     <Disorder id="11805">
+       <OrphaCode>88618</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=88618</ExpertLink>
+-      <Name lang="es">Retraso psicomotor por deficiencia de S-adenosil homocisteina hidrolasa</Name>
++      <Name lang="es">Deficiencia de S-adenosilhomocisteina hidrolasa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -144761,7 +144802,7 @@
+     <Disorder id="11903">
+       <OrphaCode>89838</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=89838</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple autosómica recesiva K14</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada autosómica recesiva</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -144862,7 +144903,7 @@
+     <Disorder id="11856">
+       <OrphaCode>88924</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=88924</ExpertLink>
+-      <Name lang="es">Enfermedad del riñón poliquístico autosómica dominante tipo 1 y con esclerosis tuberosa</Name>
++      <Name lang="es">Enfermedad del riñón poliquístico autosómica dominante tipo 1 con esclerosis tuberosa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -145574,10 +145615,16 @@
+           <Name lang="es">Infancia temprana</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="3">
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23494">
+           <Name lang="es">No aplicable</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23431">
++          <Name lang="es">Recesivo ligado al X</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="12166">
+@@ -148880,7 +148927,7 @@
+     <Disorder id="11422">
+       <OrphaCode>79396</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79396</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple generalizada grave</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada grave autosómica dominante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -149045,7 +149092,7 @@
+     <Disorder id="11425">
+       <OrphaCode>79399</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79399</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple generalizada intermedia</Name>
++      <Name lang="es">Epidermólisis ampollosa simple generalizada intermedia autosómica dominante</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -149077,7 +149124,7 @@
+     <Disorder id="11427">
+       <OrphaCode>79401</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79401</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa simple tipo Ogna</Name>
++      <Name lang="es">Epidermólisis ampollosa simple intermedia sin afectación extracutánea asociada al gen PLEC</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -149132,7 +149179,7 @@
+     <Disorder id="11429">
+       <OrphaCode>79403</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79403</ExpertLink>
+-      <Name lang="es">Síndrome de epidermólisis ampollosa juntural-atresia pilórica</Name>
++      <Name lang="es">Epidermólisis ampollosa juntural con atresia pilórica</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -149300,7 +149347,7 @@
+     <Disorder id="11434">
+       <OrphaCode>79408</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79408</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica recesiva generalizada grave</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica generalizada grave autosómica recesiva</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -149326,7 +149373,7 @@
+     <Disorder id="11437">
+       <OrphaCode>79411</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79411</ExpertLink>
+-      <Name lang="es">Dermólisis ampollosa transitoria del recién nacido</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica autocurativa</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -149355,7 +149402,7 @@
+     <Disorder id="11436">
+       <OrphaCode>79410</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=79410</ExpertLink>
+-      <Name lang="es">Epidermólisis ampollosa distrófica pretibial</Name>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada, forma pretibial</Name>
+       <DisorderType id="21450">
+         <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+@@ -156340,7 +156387,7 @@
+     <Disorder id="11600">
+       <OrphaCode>83629</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=83629</ExpertLink>
+-      <Name lang="es">Leukoencephalopathy-spondyloepimetaphyseal dysplasia syndrome</Name>
++      <Name lang="es">Síndrome de leucoencefalopatía-displasia espondilometafisaria</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -159013,12 +159060,9 @@
+           <Name lang="es">Expectativa de vida normal</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="3">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="es">Autosómico dominate</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23417">
+-          <Name lang="es">Autosómico recesivo</Name>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23424">
++          <Name lang="es">Multigénico / multifactorial</Name>
+         </TypeOfInheritance>
+         <TypeOfInheritance id="23431">
+           <Name lang="es">Recesivo ligado al X</Name>
+@@ -159028,7 +159072,7 @@
+     <Disorder id="12657">
+       <OrphaCode>95702</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95702</ExpertLink>
+-      <Name lang="es">Hipoplasia suprarrenal congénita citomegálica</Name>
++      <Name lang="es">Hipoplasia suprarrenal congénita ligada al cromosoma X</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -159348,7 +159392,7 @@
+     <Disorder id="12593">
+       <OrphaCode>95434</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=95434</ExpertLink>
+-      <Name lang="es">Síndrome de ataxia cerebelosa-intrusiones sacádicas autosómico recesivo</Name>
++      <Name lang="es">Síndrome de ataxia cerebelosa-trastorno del movimiento autosómico recesivo</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -162132,6 +162176,29 @@
          </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-@@ -124390,7 +124457,10 @@
-           <Name lang="es">No se dispone de datos</Name>
++    <Disorder id="29740">
++      <OrphaCode>595356</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=595356</ExpertLink>
++      <Name lang="es">Epidermólisis ampollosa distrófica localizada</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12527">
+       <OrphaCode>93969</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=93969</ExpertLink>
+@@ -163916,6 +163983,26 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29447">
++      <OrphaCode>589905</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589905</ExpertLink>
++      <Name lang="es">Síndrome de trastornos de conducta-discapacidad intelectual-obesidad-rasgos dismórficos asociado al gen PHIP</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14283">
+       <OrphaCode>99710</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99710</ExpertLink>
+@@ -163963,11 +164050,11 @@
+       <OrphaCode>99748</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99748</ExpertLink>
+       <Name lang="es">Fiebre de Pontiac</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23557">
+@@ -164972,6 +165059,26 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29438">
++      <OrphaCode>589618</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589618</ExpertLink>
++      <Name lang="es">Distonía 28</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13887">
+       <OrphaCode>98870</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98870</ExpertLink>
+@@ -165021,6 +165128,66 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29432">
++      <OrphaCode>589527</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589527</ExpertLink>
++      <Name lang="es">Ataxia espinocerebelosa tipo 45</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29428">
++      <OrphaCode>589435</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589435</ExpertLink>
++      <Name lang="es">Síndrome de displasia espondilometafisaria-distrofia corneal</Name>
++      <DisorderType id="21401">
++        <Name lang="es">Síndrome de malformación</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23417">
++          <Name lang="es">Autosómico recesivo</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29431">
++      <OrphaCode>589522</OrphaCode>
++      <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=589522</ExpertLink>
++      <Name lang="es">Ataxia espinocerebelosa tipo 46</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="es">Autosómico dominate</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13872">
+       <OrphaCode>98855</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98855</ExpertLink>
+@@ -165992,8 +166159,8 @@
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23431">
+-          <Name lang="es">Recesivo ligado al X</Name>
++        <TypeOfInheritance id="23445">
++          <Name lang="es">Dominante ligado al X</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -167942,9 +168109,18 @@
+       <DisorderGroup id="36547">
+         <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="es">Prenatal</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="2">
++        <AverageAgeOfDeath id="23578">
++          <Name lang="es">Embriofetal</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23585">
++          <Name lang="es">Muerte fetal</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -168415,7 +168591,7 @@
+     <Disorder id="13451">
+       <OrphaCode>98434</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=98434</ExpertLink>
+-      <Name lang="es">Deficiencia combinada hereditaria de factores de la coagulación vitamina K dependientes</Name>
++      <Name lang="es">Deficiencia combinada de factores de la coagulación dependientes de la vitamina K, forma hereditaria</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+@@ -168580,7 +168756,10 @@
+           <Name lang="es">Muerte fetal</Name>
          </AverageAgeOfDeath>
        </AverageAgeOfDeathList>
 -      <TypeOfInheritanceList count="0">
@@ -266,36 +1611,56 @@ index 9e30abe..3f8e492
 +        </TypeOfInheritance>
        </TypeOfInheritanceList>
      </Disorder>
-     <Disorder id="25413">
-@@ -135947,8 +136017,8 @@
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="2">
--        <TypeOfInheritance id="23424">
--          <Name lang="es">Multigénico / multifactorial</Name>
-+        <TypeOfInheritance id="23417">
-+          <Name lang="es">Autosómico recesivo</Name>
-         </TypeOfInheritance>
-         <TypeOfInheritance id="23494">
-           <Name lang="es">No aplicable</Name>
-@@ -152465,10 +152535,7 @@
-           <Name lang="es">Infantil</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
--      <TypeOfInheritanceList count="2">
--        <TypeOfInheritance id="23438">
--          <Name lang="es">Herencia mitocondrial</Name>
--        </TypeOfInheritance>
-+      <TypeOfInheritanceList count="1">
-         <TypeOfInheritance id="23431">
-           <Name lang="es">Recesivo ligado al X</Name>
-         </TypeOfInheritance>
-@@ -157560,7 +157627,7 @@
-     <Disorder id="12885">
-       <OrphaCode>97292</OrphaCode>
-       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=97292</ExpertLink>
--      <Name lang="es">Choque cardiogénico</Name>
-+      <Name lang="es">Cardiogenic shock</Name>
-       <DisorderType id="21429">
-         <Name lang="es">Situación clínica particular en una enfermedad o síndrome</Name>
+     <Disorder id="28765">
+@@ -170790,8 +170969,8 @@
+       <OrphaCode>100054</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=100054</ExpertLink>
+       <Name lang="es">Angioedema hereditario con C1Inh normal asociado al gen F12</Name>
+-      <DisorderType id="21443">
+-        <Name lang="es">Subtipo etiológico</Name>
++      <DisorderType id="21450">
++        <Name lang="es">Subtipo clínico</Name>
+       </DisorderType>
+       <DisorderGroup id="36554">
+         <Name lang="es">Subtipo de trastorno</Name>
+@@ -171677,11 +171856,11 @@
+       <OrphaCode>99989</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99989</ExpertLink>
+       <Name lang="es">Síndrome intermedio DEND</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -171709,11 +171888,11 @@
+       <OrphaCode>99981</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99981</ExpertLink>
+       <Name lang="es">Apnea de la prematuridad</Name>
+-      <DisorderType id="21450">
+-        <Name lang="es">Subtipo clínico</Name>
++      <DisorderType id="21394">
++        <Name lang="es">Enfermedad</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="es">Subtipo de trastorno</Name>
++      <DisorderGroup id="36547">
++        <Name lang="es">Trastorno</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -173059,7 +173238,7 @@
+     <Disorder id="14458">
+       <OrphaCode>99885</OrphaCode>
+       <ExpertLink lang="es">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=es&amp;Expert=99885</ExpertLink>
+-      <Name lang="es">Diabetes mellitus neonatal permanente</Name>
++      <Name lang="es">Diabetes mellitus neonatal permanente aislada</Name>
+       <DisorderType id="21394">
+         <Name lang="es">Enfermedad</Name>
        </DisorderType>
