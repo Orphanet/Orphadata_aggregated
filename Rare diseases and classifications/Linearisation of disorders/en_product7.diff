@@ -1,0 +1,350 @@
+commit df4bbec30a36ad0ab0af6d3588a36df3686578ff
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Oct 3 10:11:04 2021 +0200
+
+    OCT 2021
+
+diff --git a/Rare diseases and classifications/Linearisation of disorders/en_product7.xml b/Rare diseases and classifications/Linearisation of disorders/en_product7.xml
+old mode 100755
+new mode 100644
+index 35af333..762fa32
+--- a/Rare diseases and classifications/Linearisation of disorders/en_product7.xml	
++++ b/Rare diseases and classifications/Linearisation of disorders/en_product7.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-09-01 04:48:38" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-10-01 04:49:04" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="7188">
++  <DisorderList count="7197">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166024</ExpertLink>
+@@ -3360,7 +3360,7 @@
+     <Disorder id="209">
+       <OrphaCode>628</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=628</ExpertLink>
+-      <Name lang="en">Diastrophic dwarfism</Name>
++      <Name lang="en">Diastrophic dysplasia</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12333">
+@@ -61344,23 +61344,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="22112">
+-      <OrphaCode>352740</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352740</ExpertLink>
+-      <Name lang="en">Ocular albinism with congenital sensorineural deafness</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="12984">
+-            <OrphaCode>97966</OrphaCode>
+-            <Name lang="en">Rare ophthalmic disorder</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="22112" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="22142">
+       <OrphaCode>353356</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353356</ExpertLink>
+@@ -69116,7 +69099,7 @@
+     <Disorder id="23616">
+       <OrphaCode>449291</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449291</ExpertLink>
+-      <Name lang="en">Symptomatic form of fragile X syndrome in female carrier</Name>
++      <Name lang="en">Symptomatic form of fragile X syndrome in female carriers</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12845">
+@@ -99118,23 +99101,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="27623">
+-      <OrphaCode>529828</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=529828</ExpertLink>
+-      <Name lang="en">Analysis of the toxicity of enzalutamide</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="15031">
+-            <OrphaCode>108999</OrphaCode>
+-            <Name lang="en">Rare disorder due to toxic effects</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="27623" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="27620">
+       <OrphaCode>529808</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=529808</ExpertLink>
+@@ -105990,7 +105956,17 @@
+       <OrphaCode>603515</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=603515</ExpertLink>
+       <Name lang="en">Isolated female hypospadias</Name>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="30615" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="30614">
+@@ -106061,11 +106037,35 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="30684">
++      <OrphaCode>610573</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=610573</ExpertLink>
++      <Name lang="en">CLCN6-related childhood onset progressive neurodegeneration-peripheral neuropathy-syndrome</Name>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="30683">
++      <OrphaCode>610569</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=610569</ExpertLink>
++      <Name lang="en">KIAA1109-related early lethal-congenital brain mlaformations-arthrogryposis-syndrome</Name>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="30663">
+       <OrphaCode>604680</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=604680</ExpertLink>
+       <Name lang="en">Symptomatic form of X-linked centronuclear myopathy in female carriers</Name>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="30663" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="30475">
+@@ -106102,6 +106102,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="30477">
++      <OrphaCode>600691</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=600691</ExpertLink>
++      <Name lang="en">Combined deficiency of factor VII and factor X</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="30477" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="30478">
+       <OrphaCode>600731</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=600731</ExpertLink>
+@@ -107700,6 +107717,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="30241">
++      <OrphaCode>600194</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=600194</ExpertLink>
++      <Name lang="en">Factor V Atlanta bleeding disorder</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="30241" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="12942">
+       <OrphaCode>97678</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97678</ExpertLink>
+@@ -110335,6 +110369,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="29927">
++      <OrphaCode>599480</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599480</ExpertLink>
++      <Name lang="en">Acquired hemophilia A</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29927" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="29928">
++      <OrphaCode>599485</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599485</ExpertLink>
++      <Name lang="en">Acquired hemophilia B</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29928" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="12328">
+       <OrphaCode>93406</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93406</ExpertLink>
+@@ -110352,6 +110420,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="29929">
++      <OrphaCode>599490</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599490</ExpertLink>
++      <Name lang="en">Acquired factor V deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29929" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="12331">
+       <OrphaCode>93409</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93409</ExpertLink>
+@@ -110373,7 +110458,85 @@
+       <OrphaCode>599495</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599495</ExpertLink>
+       <Name lang="en">Acquired factor VII deficiency</Name>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29930" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="29931">
++      <OrphaCode>599501</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599501</ExpertLink>
++      <Name lang="en">Acquired factor X deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29931" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="29932">
++      <OrphaCode>599507</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599507</ExpertLink>
++      <Name lang="en">Acquired factor XI deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29932" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="29933">
++      <OrphaCode>599513</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599513</ExpertLink>
++      <Name lang="en">Acquired factor XIII deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29933" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="29935">
++      <OrphaCode>599579</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=599579</ExpertLink>
++      <Name lang="en">Factor V Amsterdam bleeding disorder</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13010">
++            <OrphaCode>97992</OrphaCode>
++            <Name lang="en">Rare hematologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="29935" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="12291">

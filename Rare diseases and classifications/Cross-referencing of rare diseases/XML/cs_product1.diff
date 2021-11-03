@@ -1,0 +1,2668 @@
+commit df4bbec30a36ad0ab0af6d3588a36df3686578ff
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Oct 3 10:11:04 2021 +0200
+
+    OCT 2021
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/cs_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/cs_product1.xml
+old mode 100755
+new mode 100644
+index e0b7450..d65f586
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/cs_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/cs_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2021-09-01 04:35:34" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-10-01 04:35:49" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10572">
++  <DisorderList count="10583">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=166024</ExpertLink>
+@@ -3312,7 +3312,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Dentinogenesis imperfekta, Shieldsův typ 3</Synonym>
++        <Synonym lang="cs">Dentinogenesis imperfecta, Shieldsův typ 3</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -5880,7 +5880,7 @@
+     <Disorder id="51">
+       <OrphaCode>848</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=848</ExpertLink>
+-      <Name lang="cs">beta-talasemie</Name>
++      <Name lang="cs">Beta-talasemie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -6009,7 +6009,7 @@
+     <Disorder id="50">
+       <OrphaCode>846</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=846</ExpertLink>
+-      <Name lang="cs">alfa-talasemie</Name>
++      <Name lang="cs">Alfa-talasemie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -6821,7 +6821,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="5">
+-        <Synonym lang="cs">Facioscapulohumerální dystrofie</Synonym>
++        <Synonym lang="cs">Facioskapulohumerální dystrofie</Synonym>
+         <Synonym lang="cs">FSH dystrofie</Synonym>
+         <Synonym lang="cs">Facioskapulohumerální svalová dystrofie</Synonym>
+         <Synonym lang="cs">Facioskapulohumerální myopatie</Synonym>
+@@ -11191,7 +11191,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Trisomy 21</Synonym>
++        <Synonym lang="cs">Trizomie 21</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -14326,7 +14326,7 @@
+     <Disorder id="17490">
+       <OrphaCode>162516</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=162516</ExpertLink>
+-      <Name lang="cs">Vrozená izolovaná stenóza apertura piriformis</Name>
++      <Name lang="cs">Vrozená izolovaná stenóza apertura pyriformis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -14459,7 +14459,7 @@
+     <Disorder id="149">
+       <OrphaCode>96</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=96</ExpertLink>
+-      <Name lang="cs">Ataxie s deficitem vitamínu E</Name>
++      <Name lang="cs">Ataxie s deficitem vitaminu E</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -14469,9 +14469,9 @@
+       <SynonymList count="5">
+         <Synonym lang="cs">AVED</Synonym>
+         <Synonym lang="cs">Ataxie s izolovaným deficitem vitaminu E</Synonym>
+-        <Synonym lang="cs">Familiární izolovaný deficit vitamínu E</Synonym>
++        <Synonym lang="cs">Familiární izolovaný deficit vitaminu E</Synonym>
+         <Synonym lang="cs">Friedreich-like ataxie</Synonym>
+-        <Synonym lang="cs">Izolovaný deficit vitamínu E</Synonym>
++        <Synonym lang="cs">Izolovaný deficit vitaminu E</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -15481,7 +15481,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12224">
+             <OrphaCode>93284</OrphaCode>
+-            <Name lang="cs">Spondyloepifyzární dysplasia, pozdní typ</Name>
++            <Name lang="cs">Spondyloepifyzární dysplázie, pozdní typ</Name>
+           </TargetDisorder>
+           <RootDisorder id="17519" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -16441,7 +16441,7 @@
+         <Synonym lang="cs">X-vázaná stenóza mokovodu</Synonym>
+         <Synonym lang="cs">X-vázaný hydrocefalus</Synonym>
+         <Synonym lang="cs">X-vázaný hydrocefalus se stenózou Sylviova mokovodu</Synonym>
+-        <Synonym lang="cs">Bickerův-Adamsův syndrom</Synonym>
++        <Synonym lang="cs">Bickersův-Adamsův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -19593,7 +19593,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="220" cycle="true"/>
++          <RootDisorder id="22112">
++            <OrphaCode>352740</OrphaCode>
++            <Name lang="cs">Okulární albinismus s vrozenou senzorineurální hluchotou</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="cs">Přesunuto do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -20683,7 +20693,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Branchio-oto-renální syndrom</Synonym>
++        <Synonym lang="cs">Branchiootorenální syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -21998,7 +22008,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Chédiakova-Higashiho nemoc</Synonym>
+-        <Synonym lang="cs">Chédiakův-Steinbrinckův-Higashiho syndrom</Synonym>
++        <Synonym lang="cs">Chédiakův-Steinbrinkův-Higashiho syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -29596,7 +29606,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">Atriodigitální dysplázie, slovinský typ</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující nemoc převodní poruchy, dilatační kardiomyopatii a brachydaktylii</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující poruchu převodního systému srdce, dilatační kardiomyopatii a brachydaktylii</Synonym>
+         <Synonym lang="cs">Syndrom Holtové-Oramův</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -34239,7 +34249,7 @@
+     <Disorder id="405">
+       <OrphaCode>36</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=36</ExpertLink>
+-      <Name lang="cs">Akrokalosální syndrom</Name>
++      <Name lang="cs">Akrokalózní syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -35110,7 +35120,7 @@
+     <Disorder id="17787">
+       <OrphaCode>168621</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=168621</ExpertLink>
+-      <Name lang="cs">Dysplázie hlavy femuru, Meyerův typ</Name>
++      <Name lang="cs">Dysplázie hlavice femuru, Meyerův typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -35150,7 +35160,7 @@
+     <Disorder id="443">
+       <OrphaCode>1452</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1452</ExpertLink>
+-      <Name lang="cs">Kleido-kraniální dysplázie</Name>
++      <Name lang="cs">Kleidokraniální dysplázie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -41106,7 +41116,7 @@
+     <Disorder id="455">
+       <OrphaCode>1564</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1564</ExpertLink>
+-      <Name lang="cs">Dandyho-Walkerova s faciálními hemangiomy</Name>
++      <Name lang="cs">Dandyho-Walkerova malformace s faciálními hemangiomy</Name>
+       <DisorderFlagList count="3">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -41301,7 +41311,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Charlevoixova choroba</Synonym>
++        <Synonym lang="cs">Charlevoixská choroba</Synonym>
+         <Synonym lang="cs">Andermannův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -44912,7 +44922,7 @@
+     <Disorder id="566">
+       <OrphaCode>2970</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2970</ExpertLink>
+-      <Name lang="cs">Syndrom svraštělého bříška</Name>
++      <Name lang="cs">Syndrom svraštělého břicha</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -46532,7 +46542,7 @@
+       </DisorderFlagList>
+       <SynonymList count="7">
+         <Synonym lang="cs">CORS</Synonym>
+-        <Synonym lang="cs">Cerebelo-okulo-renální syndrom</Synonym>
++        <Synonym lang="cs">Cerebelookulorenální syndrom</Synonym>
+         <Synonym lang="cs">JS typ B</Synonym>
+         <Synonym lang="cs">JS-OR</Synonym>
+         <Synonym lang="cs">Arimův syndrom</Synonym>
+@@ -54494,7 +54504,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom zahrnující kamptodaktýlii, makrosomii a faciální dysmorfismus</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující kamptodaktylii, makrosomii a faciální dysmorfismus</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -61854,7 +61864,7 @@
+         <Synonym lang="cs">Difuzní familiární skleróza mozku</Synonym>
+         <Synonym lang="cs">PMD</Synonym>
+         <Synonym lang="cs">Pelizaeusova-Merzbacherova skleróza mozku</Synonym>
+-        <Synonym lang="cs">Sudanofilní leukodystrodie, Pelizaesův-Merzbacherův typ</Synonym>
++        <Synonym lang="cs">Sudanofilní leukodystrodie, Pelizaeusův-Merzbacherův typ</Synonym>
+         <Synonym lang="cs">Syndrom Pelizaeusův-Merzbacherův</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -63647,7 +63657,7 @@
+     <Disorder id="17960">
+       <OrphaCode>172979</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=172979</ExpertLink>
+-      <Name lang="cs">NEAKTUÁLNÍ: NEAKTUÁLNÍ: Vrozená centronukleární myopatie</Name>
++      <Name lang="cs">NEAKTUÁLNÍ: Vrozená centronukleární myopatie</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -64899,7 +64909,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="6">
+-        <Synonym lang="cs">46,XY DSD způsobená rezistence k LH nebo deficitu LHB</Synonym>
++        <Synonym lang="cs">46,XY DSD způsobená rezistencí k LH nebo deficitu LHB</Synonym>
+         <Synonym lang="cs">46,XY DSD způsobená rezistencí k luteinizačnímu hormonu nebo deficitu beta podjednotky luteinizačního hormonu</Synonym>
+         <Synonym lang="cs">46,XY porucha pohlavního vývoje způsobená rezistencí k LH nebo deficitu LHB</Synonym>
+         <Synonym lang="cs">46,XY porucha pohlavního vývoje způsobená rezistencí k luteinizačnímu hormonu nebo deficitu beta podjednotky luteinizačního hormonu</Synonym>
+@@ -69750,7 +69760,7 @@
+     <Disorder id="17938">
+       <OrphaCode>171839</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=171839</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující kraniosynostózu, hydrocefalus, Arnoldovu-Chiariho malformaci typ I, a radioulnární synostózu</Name>
++      <Name lang="cs">Syndrom zahrnující kraniosynostózu, hydrocefalus, Arnoldovu-Chiariho malformaci typu I, a radioulnární synostózu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -72810,7 +72820,7 @@
+     <Disorder id="18403">
+       <OrphaCode>199332</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=199332</ExpertLink>
+-      <Name lang="cs">Syndrom endokrino-cerebro-osteodysplázie</Name>
++      <Name lang="cs">Syndrom endokrinocerebroosteodysplázie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -78300,7 +78310,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">EIEE</Synonym>
+-        <Synonym lang="cs">Časná infantilni epileptická encefalopatie s periodickými výboji s následujícím útlumem na EEG</Synonym>
++        <Synonym lang="cs">Časná infantilní epileptická encefalopatie s periodickými výboji s následujícím útlumem na EEG</Synonym>
+         <Synonym lang="cs">Ohtaharův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+@@ -78900,10 +78910,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="4">
++      <SynonymList count="3">
+         <Synonym lang="cs">Infantilní spasmy</Synonym>
+         <Synonym lang="cs">Syndrom zahrnující mentální retardaci a hypsarytmii na EEG</Synonym>
+-        <Synonym lang="cs">Bleskové krece</Synonym>
+         <Synonym lang="cs">Bleskové křeče</Synonym>
+       </SynonymList>
+       <DisorderType id="21422">
+@@ -83369,8 +83378,8 @@
+       <SynonymList count="4">
+         <Synonym lang="cs">Aseptická nekróza hlavice kosti stehenní</Synonym>
+         <Synonym lang="cs">Perthesova nemoc</Synonym>
+-        <Synonym lang="cs">Osteochondritida epifýzy hlavičky femuru</Synonym>
+-        <Synonym lang="cs">Osteochondróza epifýzy hlavičky femuru</Synonym>
++        <Synonym lang="cs">Osteochondritida epifýzy hlavice femuru</Synonym>
++        <Synonym lang="cs">Osteochondróza epifýzy hlavice femuru</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -85553,7 +85562,7 @@
+     <Disorder id="931">
+       <OrphaCode>627</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=627</ExpertLink>
+-      <Name lang="cs">Nanceův-Horanův syndrom</Name>
++      <Name lang="cs">Nanceův-Horanové syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -87239,7 +87248,7 @@
+     <Disorder id="912">
+       <OrphaCode>373</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=373</ExpertLink>
+-      <Name lang="cs">Simpsonův-Golabiho-Behmelův syndrom</Name>
++      <Name lang="cs">Simpsonův-Golabiho-Behmelové syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -87253,7 +87262,7 @@
+         <Synonym lang="cs">SGBS1</Synonym>
+         <Synonym lang="cs">Syndrom Simpsonova dysmorfismu</Synonym>
+         <Synonym lang="cs">Golabiho-Rosenův syndrom</Synonym>
+-        <Synonym lang="cs">Simpsonův-Golabiho-Behmelův syndrom, typ 1</Synonym>
++        <Synonym lang="cs">Simpsonův-Golabiho-Behmelové syndrom, typ 1</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -89557,7 +89566,7 @@
+     <Disorder id="1010">
+       <OrphaCode>86</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=86</ExpertLink>
+-      <Name lang="cs">Familiární aneurysma břišní aorty</Name>
++      <Name lang="cs">Familiární aneuryzma břišní aorty</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -99676,14 +99685,16 @@
+     <Disorder id="1247">
+       <OrphaCode>920</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=920</ExpertLink>
+-      <Name lang="cs">Syndrom ablepharon-makrostomie</Name>
++      <Name lang="cs">Syndrom zahrnující ablefarii a makrostomii</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="cs">Syndrom zahrnující ablefaron a makrostomii</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující ablepharon a makrostomii</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -99847,9 +99858,10 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="3">
+         <Synonym lang="cs">Kraniocerebelokardiální dysplázie</Synonym>
+         <Synonym lang="cs">Ritscherův-Schinzelův syndrom</Synonym>
++        <Synonym lang="cs">*Ritscher-Schinzelův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -101448,7 +101460,7 @@
+     <Disorder id="1279">
+       <OrphaCode>958</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=958</ExpertLink>
+-      <Name lang="cs">Akro-renální-mandibulární syndrom</Name>
++      <Name lang="cs">Akrorenomandibulární syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -102538,7 +102550,7 @@
+           <TargetDisorder id="1190" cycle="true"/>
+           <RootDisorder id="11671">
+             <OrphaCode>85281</OrphaCode>
+-            <Name lang="cs">X-vázaná mentální retardace, Lubsův typ</Name>
++            <Name lang="cs">NEAKTUÁLNÍ: X-vázaná mentální retardace, Lubsův typ</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="cs">Odkazuje na</Name>
+@@ -103072,7 +103084,7 @@
+       </DisorderFlagList>
+       <SynonymList count="4">
+         <Synonym lang="cs">Syndrom podobný Chédiakovu-Higashiho</Synonym>
+-        <Synonym lang="cs">Griscelliho-Pruniérovo syndrom</Synonym>
++        <Synonym lang="cs">Griscelliho-Pruniérasův syndrom</Synonym>
+         <Synonym lang="cs">Syndrom zahrnující parciální albinismus a imunodeficienci</Synonym>
+         <Synonym lang="cs">GD</Synonym>
+       </SynonymList>
+@@ -103789,7 +103801,7 @@
+     <Disorder id="1366">
+       <OrphaCode>1072</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1072</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující ankyloblefaron filiforme a rozštěp patra</Name>
++      <Name lang="cs">Syndrom zahrnující ankyloblefaron filiforme adnatum a rozštěp patra</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -104409,9 +104421,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -104486,7 +104498,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="20633">
+             <OrphaCode>285014</OrphaCode>
+-            <Name lang="cs">Vzácná onemocnění s aneurysmatem hrudní aorty a aortální disekcí</Name>
++            <Name lang="cs">Vzácná onemocnění s aneuryzmatem hrudní aorty a aortální disekcí</Name>
+           </TargetDisorder>
+           <RootDisorder id="1355" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -104500,7 +104512,7 @@
+     <Disorder id="1352">
+       <OrphaCode>1053</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1053</ExpertLink>
+-      <Name lang="cs">Aneurysma Galénovy žíly</Name>
++      <Name lang="cs">Aneuryzma Galénovy žíly</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -104641,7 +104653,7 @@
+     <Disorder id="1353">
+       <OrphaCode>1055</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1055</ExpertLink>
+-      <Name lang="cs">Fatální aneurysma levé komory srdeční</Name>
++      <Name lang="cs">Fatální aneuryzma levé komory srdeční</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -104960,7 +104972,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Regresivní metafyzární dysplázie</Synonym>
+-        <Synonym lang="cs">Meroteauxův-Verloesův-Stanescuův syndrom</Synonym>
++        <Synonym lang="cs">Maroteauxův-Verloesův-Stanescův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -108038,7 +108050,7 @@
+     <Disorder id="1291">
+       <OrphaCode>971</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=971</ExpertLink>
+-      <Name lang="cs">Akrorenální syndromy</Name>
++      <Name lang="cs">Akrorenální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -111446,7 +111458,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Pashayanův syndrom</Synonym>
+-        <Synonym lang="cs">Pashayanův-Prozanského syndrom</Synonym>
++        <Synonym lang="cs">Pashayanův-Pruzanského syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -111643,7 +111655,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">BFLS</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující mentální postižení, epilepsii a endokrinní poruchy</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující mentální retardaci, epilepsii a endokrinní poruchy</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -111718,7 +111730,7 @@
+     <Disorder id="1503">
+       <OrphaCode>1264</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1264</ExpertLink>
+-      <Name lang="cs">Tricho-retino-dento-digitální syndrom</Name>
++      <Name lang="cs">Trichoretinodentodigitální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -112051,7 +112063,7 @@
+     <Disorder id="1499">
+       <OrphaCode>1261</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1261</ExpertLink>
+-      <Name lang="cs">Bonnemanův-Meineckeho-Reichův syndrom</Name>
++      <Name lang="cs">Bonnemannův-Meineckeho-Reichův syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -112301,7 +112313,7 @@
+     <Disorder id="1476">
+       <OrphaCode>1231</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1231</ExpertLink>
+-      <Name lang="cs">Berberův-Sayův syndrom</Name>
++      <Name lang="cs">Barberův-Sayův syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -113603,7 +113615,7 @@
+     <Disorder id="1533">
+       <OrphaCode>1299</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1299</ExpertLink>
+-      <Name lang="cs">Branchio-skeleto-genitální syndrom</Name>
++      <Name lang="cs">Branchioskeletogenitální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -114241,7 +114253,7 @@
+     <Disorder id="1530">
+       <OrphaCode>1297</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1297</ExpertLink>
+-      <Name lang="cs">Branchio-okulo-faciální syndrom</Name>
++      <Name lang="cs">Branchiookulofaciální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -116846,7 +116858,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom zahrnující akro-renální defekty, ektodermální dysplázii a diabetes</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující akrorenální defekty, ektodermální dysplázii a diabetes</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -121720,7 +121732,7 @@
+         <Synonym lang="cs">COACH syndrom</Synonym>
+         <Synonym lang="cs">Gentileho syndrom</Synonym>
+         <Synonym lang="cs">JS-H</Synonym>
+-        <Synonym lang="cs">Hypoplázie mozečkového vermis, oligofrenie, vrozená ataxie, kolobom a jaterní fibróza</Synonym>
++        <Synonym lang="cs">Hypoplázie mozečkové vermis, oligofrenie, vrozená ataxie, kolobom a jaterní fibróza</Synonym>
+         <Synonym lang="cs">Joubertův syndrom s postižením jater</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -121816,7 +121828,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Vrozená retinální teleangiektázie</Synonym>
+-        <Synonym lang="cs">Leberovo miliární aneurysma</Synonym>
++        <Synonym lang="cs">Leberovo miliární aneuryzma</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -122121,7 +122133,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Syndrom zahrnující hydrops, ektopickou kalcifikaci a chátrání</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující hydrops, ektopickou kalcifikaci a skeletální dysplázii (kosti mající vzhled prožrání od molů)</Synonym>
+         <Synonym lang="cs">Skeletální dysplázie, Greenbergové typ</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -124528,7 +124540,7 @@
+     <Disorder id="1612">
+       <OrphaCode>1412</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1412</ExpertLink>
+-      <Name lang="cs">Syndrom tarzální-karpální koalice</Name>
++      <Name lang="cs">Syndrom tarzální a karpální koalice</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -125792,7 +125804,7 @@
+     <Disorder id="17051">
+       <OrphaCode>141163</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141163</ExpertLink>
+-      <Name lang="cs">Glossopalatinní ankylóza</Name>
++      <Name lang="cs">Glosopalatální ankylóza</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -128118,7 +128130,7 @@
+       </DisorderFlagList>
+       <SynonymList count="6">
+         <Synonym lang="cs">Hyperfalangie a klinodaktylie ukazováku s Pierre Robinovým syndromem</Synonym>
+-        <Synonym lang="cs">Mikrognacie-digitální syndrom</Synonym>
++        <Synonym lang="cs">Mikrognatie-digitální syndrom</Synonym>
+         <Synonym lang="cs">Syndrom zahrnující Pierre Robinovu sekvenci, hyperfalangii a klinodaktylii</Synonym>
+         <Synonym lang="cs">Anomálie ukazováku a Pierre Robinův syndrom</Synonym>
+         <Synonym lang="cs">Palatodigitální syndrom, Catelův-Manzkeho typ</Synonym>
+@@ -128627,7 +128639,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1533">
+             <OrphaCode>1299</OrphaCode>
+-            <Name lang="cs">Branchio-skeleto-genitální syndrom</Name>
++            <Name lang="cs">Branchioskeletogenitální syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="17143" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -130402,7 +130414,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Dolní palpebrální kolobom</Synonym>
+-        <Synonym lang="cs">coloboma palpebrae inferior</Synonym>
++        <Synonym lang="cs">Coloboma palpebrae inferior</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -130526,7 +130538,7 @@
+     <Disorder id="1537">
+       <OrphaCode>1307</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1307</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující defekty distálních částí končetin a mikrognacii</Name>
++      <Name lang="cs">Syndrom zahrnující defekty distálních částí končetin a mikrognatii</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -130724,7 +130736,7 @@
+     <Disorder id="1539">
+       <OrphaCode>1313</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1313</ExpertLink>
+-      <Name lang="cs">Syndrom infantilní choroidocerebrální calcifikace</Name>
++      <Name lang="cs">Syndrom infantilní choroidocerebrální kalcifikace</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -131308,7 +131320,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">Atriodigitální dysplázie, typ 3</Synonym>
+-        <Synonym lang="cs">Cardiomelický syndrom, typ 3</Synonym>
++        <Synonym lang="cs">Kardiomelický syndrom, typ 3</Synonym>
+         <Synonym lang="cs">Syndrom ruka-srdce, španělský typ</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -132222,7 +132234,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">Cantrellova deformita</Synonym>
+-        <Synonym lang="cs">Torako-abdominální syndrom</Synonym>
++        <Synonym lang="cs">Torakoabdominální syndrom</Synonym>
+         <Synonym lang="cs">Cantrellův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -136097,7 +136109,7 @@
+     <Disorder id="1749">
+       <OrphaCode>1660</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1660</ExpertLink>
+-      <Name lang="cs">Dermo-odonto dysplázie</Name>
++      <Name lang="cs">Dermoodonto dysplázie</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -139461,7 +139473,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Cysta čtvrté branchiální štěrbiny</Synonym>
+-        <Synonym lang="cs">Fistula čtvrté branchiální štěrbiny</Synonym>
++        <Synonym lang="cs">Píštěl čtvrté branchiální štěrbiny</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -139501,7 +139513,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Cysta třetí branchiální štěrbiny</Synonym>
+-        <Synonym lang="cs">Fistula třetí branchiální štěrbiny</Synonym>
++        <Synonym lang="cs">Píštěl třetí branchiální štěrbiny</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -139541,7 +139553,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Cysta druhé branchiální štěrbiny</Synonym>
+-        <Synonym lang="cs">Fistula druhé branchiální štěrbiny</Synonym>
++        <Synonym lang="cs">Píštěl druhé branchiální štěrbiny</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -139677,7 +139689,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Cysta první branchiální štěrbiny</Synonym>
+-        <Synonym lang="cs">Fistula první branchiální štěrbiny</Synonym>
++        <Synonym lang="cs">Píštěl první branchiální štěrbiny</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -140756,7 +140768,7 @@
+     <Disorder id="1676">
+       <OrphaCode>1509</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1509</ExpertLink>
+-      <Name lang="cs">Coxopodopatelární syndrom</Name>
++      <Name lang="cs">Koxopodopatelární syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -141251,7 +141263,7 @@
+     <Disorder id="1675">
+       <OrphaCode>1508</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1508</ExpertLink>
+-      <Name lang="cs">Coxoaurikulární syndrom</Name>
++      <Name lang="cs">Koxoaurikulární syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -144229,7 +144241,7 @@
+     <Disorder id="1880">
+       <OrphaCode>1917</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1917</ExpertLink>
+-      <Name lang="cs">Fetální methylrtuťový syndrom</Name>
++      <Name lang="cs">Fetální metylrtuťový syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -145105,7 +145117,7 @@
+     <Disorder id="1870">
+       <OrphaCode>1908</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1908</ExpertLink>
+-      <Name lang="cs">Aminopterinová/methotrexátová embryofetopatie</Name>
++      <Name lang="cs">Aminopterinová/metotrexátová embryofetopatie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -148609,7 +148621,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Syndrom zahrnující diafyzární dysplázii a anémii</Synonym>
+-        <Synonym lang="cs">Ghosalův syndom</Synonym>
++        <Synonym lang="cs">Ghosalův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -153400,7 +153412,7 @@
+     <Disorder id="1991">
+       <OrphaCode>2075</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2075</ExpertLink>
+-      <Name lang="cs">Genito-palato-kardiální syndrom</Name>
++      <Name lang="cs">Genitopalatokardiální syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -155312,7 +155324,7 @@
+     <Disorder id="1982">
+       <OrphaCode>2063</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2063</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující splenogonadální fúzi, končetinové defekty a mikrognacii</Name>
++      <Name lang="cs">Syndrom zahrnující splenogonadální fúzi, končetinové defekty a mikrognatii</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -155384,7 +155396,7 @@
+     <Disorder id="1983">
+       <OrphaCode>2064</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2064</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující zadní fúzi lubosakrálních obratlů a blefaroptózu</Name>
++      <Name lang="cs">Syndrom zahrnující zadní fúzi lumbosakrálních obratlů a blefaroptózu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -156164,7 +156176,7 @@
+       </DisorderFlagList>
+       <SynonymList count="4">
+         <Synonym lang="cs">FFU komplex</Synonym>
+-        <Synonym lang="cs">Disostóza femur-fibula-ulna</Synonym>
++        <Synonym lang="cs">Dysostóza femur-fibula-ulna</Synonym>
+         <Synonym lang="cs">Syndrom femur-fibula-ulna</Synonym>
+         <Synonym lang="cs">Fokální femorální deficit</Synonym>
+       </SynonymList>
+@@ -158112,7 +158124,7 @@
+     <Disorder id="1945">
+       <OrphaCode>2008</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2008</ExpertLink>
+-      <Name lang="cs">Akro-kardio-faciální syndrom</Name>
++      <Name lang="cs">Akrokardiofaciální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -158647,7 +158659,7 @@
+     <Disorder id="1934">
+       <OrphaCode>1997</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1997</ExpertLink>
+-      <Name lang="cs">Blefaro-cheilo-odontický syndrom</Name>
++      <Name lang="cs">Blefarocheiloodontický syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -158882,7 +158894,7 @@
+     <Disorder id="1928">
+       <OrphaCode>1988</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1988</ExpertLink>
+-      <Name lang="cs">Femoro-faciální syndrom</Name>
++      <Name lang="cs">Femorofaciální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -159259,7 +159271,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">BRSS</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující hypertelorismus, rozštěp patra a hypospadii</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující hypotelorismus, rozštěp patra a hypospadii</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -162000,7 +162012,7 @@
+     <Disorder id="2178">
+       <OrphaCode>2323</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2323</ExpertLink>
+-      <Name lang="cs">Sanjadův-Sakatiho syndrom</Name>
++      <Name lang="cs">Sanjadův-Sakatiové syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -162290,9 +162302,9 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="3">
+-        <Synonym lang="cs">Cintrulinémie s pozdním nástupem, typ 1</Synonym>
++        <Synonym lang="cs">Citrulinémie s pozdním nástupem, typ 1</Synonym>
+         <Synonym lang="cs">Citrulinémie s pozdním nástupem, typ I</Synonym>
+-        <Synonym lang="cs">Cintrulinémie s nástupem v dospělosti, typ 1</Synonym>
++        <Synonym lang="cs">Citrulinémie s nástupem v dospělosti, typ 1</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -167130,7 +167142,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Plicní anthrax</Synonym>
++        <Synonym lang="cs">Plicní antrax</Synonym>
+         <Synonym lang="cs">Respirační antrax</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -168464,7 +168476,7 @@
+     <Disorder id="2284">
+       <OrphaCode>2471</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2471</ExpertLink>
+-      <Name lang="cs">McDonoughův syndrom</Name>
++      <Name lang="cs">McDonoughových syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -170921,7 +170933,7 @@
+     <Disorder id="2051">
+       <OrphaCode>2152</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2152</ExpertLink>
+-      <Name lang="cs">Mowatův-Wilsonův syndrom</Name>
++      <Name lang="cs">Mowatův-Wilsonové syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -186315,8 +186327,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Syndrom zahrnující mikrooftalmii a aplázii optického nervu</Synonym>
+-        <Synonym lang="cs">Behrens-Baumannův-Vogelův syndrome</Synonym>
++        <Synonym lang="cs">NEAKTUÁLNÍ: Syndrom zahrnující mikrooftalmii a aplázii optického nervu</Synonym>
++        <Synonym lang="cs">NEAKTUÁLNÍ: Behrens-Baumannův-Vogelův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -187139,7 +187151,7 @@
+     <Disorder id="2489">
+       <OrphaCode>2728</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2728</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující blefarofimózu a mentální retardaci, Ohdoův typ</Name>
++      <Name lang="cs">Syndrom zahrnující blefarofimózu a mentální retardaci, Ohdův typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -187147,10 +187159,10 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="4">
+-        <Synonym lang="cs">BMRS, Ohdoův typ</Synonym>
+-        <Synonym lang="cs">Syndrom blefarofimózy, Ohdoův typ</Synonym>
+-        <Synonym lang="cs">Ohdoův syndrom</Synonym>
+-        <Synonym lang="cs">Ohdoův-Madokoroův-Sonodaův syndrom</Synonym>
++        <Synonym lang="cs">BMRS, Ohdův typ</Synonym>
++        <Synonym lang="cs">Syndrom blefarofimózy, Ohdův typ</Synonym>
++        <Synonym lang="cs">Ohdův syndrom</Synonym>
++        <Synonym lang="cs">Ohdův-Madokorův-Sonodaův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -187881,7 +187893,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">ARSA</Synonym>
+-        <Synonym lang="cs">Vrozná sideroblastická anémie</Synonym>
++        <Synonym lang="cs">Vrozená sideroblastická anémie</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -191816,7 +191828,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Pemfigoifní LP</Synonym>
++        <Synonym lang="cs">Pemfigoidní LP</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -192641,7 +192653,7 @@
+     <Disorder id="2535">
+       <OrphaCode>2787</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2787</ExpertLink>
+-      <Name lang="cs">Syndrom zarhnující osteoporózu, makrocefalii, slepotu a kloubní hyperlaxitu</Name>
++      <Name lang="cs">Syndrom zahrnující osteoporózu, makrocefalii, slepotu a kloubní hyperlaxitu</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -195732,7 +195744,7 @@
+     <Disorder id="2309">
+       <OrphaCode>2497</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2497</ExpertLink>
+-      <Name lang="cs">Mezomelická dysplázie horní končetiny</Name>
++      <Name lang="cs">Mezomelická dysplázie horních končetin</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -198645,7 +198657,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">Parciální delece chromozomu 4p</Synonym>
+-        <Synonym lang="cs">Parciální monozomie chromozou 4p</Synonym>
++        <Synonym lang="cs">Parciální monozomie chromozomu 4p</Synonym>
+         <Synonym lang="cs">Parciální monozomie krátkého raménka chromozomu 4</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+@@ -200804,7 +200816,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Syndrom zahrnující makrocefalii, obezitu, mentální disabilitu a okulární abnormality</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující makrocefalii, obezitu, mentální retardaci a okulární abnormality</Synonym>
+         <Synonym lang="cs">Syndrom zahrnující makrosomii, obezitu, makrocefalii a okulární abnormality</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -206032,7 +206044,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="4">
+-        <Synonym lang="cs">MOPD typ I a III</Synonym>
++        <Synonym lang="cs">MOPD typ I a II</Synonym>
+         <Synonym lang="cs">Primordiální mikrocefalické trpaslictví, typ Crachamiové</Synonym>
+         <Synonym lang="cs">Mikrocefalické osteodysplastické primordiální trpaslictví, Taybiho-Lindnerův typ</Synonym>
+         <Synonym lang="cs">Taybiho-Linderův syndrom</Synonym>
+@@ -208230,7 +208242,7 @@
+     <Disorder id="20072">
+       <OrphaCode>263558</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=263558</ExpertLink>
+-      <Name lang="cs">Generalizovaný syndrom loupajíci se kůže, typ C</Name>
++      <Name lang="cs">Generalizovaný syndrom loupající se kůže, typ C</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -213931,7 +213943,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Trichothiodystrofie, typ B</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující křehké vlasy a mentální deficit</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující křehké vlasy a mentální retardaci</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -214149,7 +214161,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1676">
+             <OrphaCode>1509</OrphaCode>
+-            <Name lang="cs">Coxopodopatelární syndrom</Name>
++            <Name lang="cs">Koxopodopatelární syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="2786" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -217556,7 +217568,7 @@
+     <Disorder id="2612">
+       <OrphaCode>2884</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2884</ExpertLink>
+-      <Name lang="cs">Pieboldismus</Name>
++      <Name lang="cs">Piebaldismus</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -220188,10 +220200,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="2">
+         <Synonym lang="cs">Syndrom zahrnující kraniosynostózu, vrozenou srdeční vadu a mentální retardaci</Synonym>
+         <Synonym lang="cs">Pfeifferův-Singerův-Zschiescheův syndrom</Synonym>
+-        <Synonym lang="cs">Sagitální kraniostenóza s vrozenou srdeční vadou, mentálním deficitem a ankylózou dolní čelisti</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -222017,7 +222028,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom zahrnující poikilodermii, alopecii, retrognacii a rozštěp patra</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující poikilodermii, alopecii, retrognatii a rozštěp patra</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -223583,7 +223594,7 @@
+     <Disorder id="2674">
+       <OrphaCode>2964</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2964</ExpertLink>
+-      <Name lang="cs">Autozomálně dominantní prognacie</Name>
++      <Name lang="cs">Autozomálně dominantní prognatie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -228396,7 +228407,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Sekundárni PAH</Synonym>
++        <Synonym lang="cs">Sekundární PAH</Synonym>
+         <Synonym lang="cs">PAH asociovaná s dalším onemocněním</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+@@ -232231,7 +232242,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">CRASH syndrom</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující hypoplázii corpus callosum, retardaci, addukované palce na rukou, spasticitu a hydrocefalus</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující hypoplázii corpus callosum, mentální retardaci, addukované palce na rukou, spasticitu a hydrocefalus</Synonym>
+         <Synonym lang="cs">L1CAM syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -232688,7 +232699,7 @@
+     <Disorder id="2971">
+       <OrphaCode>3352</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3352</ExpertLink>
+-      <Name lang="cs">Tricho-dento-oseální syndrom</Name>
++      <Name lang="cs">Trichodentooseální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -233775,7 +233786,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom zahrnující kleidokraniální dysplázii, mikrognacii a absenci palců na rukou</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující kleidokraniální dysplázii, mikrognatii a absenci palců na rukou</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -235177,7 +235188,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Toriello syndrom</Synonym>
++        <Synonym lang="cs">Toriellové syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -237661,7 +237672,7 @@
+     <Disorder id="20243">
+       <OrphaCode>269203</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=269203</ExpertLink>
+-      <Name lang="cs">Izolovaná ageneze mozečkového vermis</Name>
++      <Name lang="cs">Izolovaná ageneze mozečkové vermis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -237842,7 +237853,7 @@
+       <SynonymList count="4">
+         <Synonym lang="cs">MCOPS8</Synonym>
+         <Synonym lang="cs">Syndromická mikroftalmie, typ 8</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující mikrocefalii, mikroftalmii, ektrodaktylii dolních končetin a prognacii</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující mikrocefalii, mikroftalmii, ektrodaktylii dolních končetin a prognatii</Synonym>
+         <Synonym lang="cs">Viljoenův-Smartův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -238083,7 +238094,7 @@
+     <Disorder id="20245">
+       <OrphaCode>269209</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=269209</ExpertLink>
+-      <Name lang="cs">Izolovaná parciální ageneze mozečkového vermis</Name>
++      <Name lang="cs">Izolovaná parciální ageneze mozečkové vermis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -238122,7 +238133,7 @@
+     <Disorder id="20244">
+       <OrphaCode>269206</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=269206</ExpertLink>
+-      <Name lang="cs">Izolovaná totální ageneze mozečkového vermis</Name>
++      <Name lang="cs">Izolovaná totální ageneze mozečkové vermis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -238669,7 +238680,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Korneo-dermato-oseální syndrom</Synonym>
++        <Synonym lang="cs">Korneodermatooseální syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -243840,7 +243851,7 @@
+     <Disorder id="2914">
+       <OrphaCode>3262</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3262</ExpertLink>
+-      <Name lang="cs">Snygnathia s mnohočetnými anomáliemi</Name>
++      <Name lang="cs">Syngnathia s mnohočetnými anomáliemi</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -246758,7 +246769,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">XPB</Synonym>
+-        <Synonym lang="cs">Xeroderma pigmentosum,komplementační skupina B</Synonym>
++        <Synonym lang="cs">Xeroderma pigmentosum, komplementační skupina B</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -259707,7 +259718,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1945">
+             <OrphaCode>2008</OrphaCode>
+-            <Name lang="cs">Akro-kardio-faciální syndrom</Name>
++            <Name lang="cs">Akrokardiofaciální syndrom</Name>
+           </TargetDisorder>
+           <RootDisorder id="3192" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -261909,7 +261920,7 @@
+     <Disorder id="3080">
+       <OrphaCode>1277</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1277</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující brachydaktylii, mezomélii, mentální retardaci a srdeční vady</Name>
++      <Name lang="cs">Syndrom zahrnující brachydaktylii, mezomelii, mentální retardaci a srdeční vady</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -262789,15 +262800,16 @@
+     <Disorder id="18682">
+       <OrphaCode>210110</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210110</ExpertLink>
+-      <Name lang="cs">Přechodná osteoporóza</Name>
++      <Name lang="cs">Osteopetróza, středně závažný typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
+-        <Synonym lang="cs">Autozomálně recesivní přechodná osteoporóza</Synonym>
++      <SynonymList count="2">
++        <Synonym lang="cs">Autozomálně recesivní přechodná osteopetróza</Synonym>
++        <Synonym lang="cs">Autozomálně recesivní osteopetróza, typ 6</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -264573,7 +264585,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom zahrnující idiopatickou retinální vaskulitidu, aneurysma, neuroretinitidu</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující idiopatickou retinální vaskulitidu, aneuryzma a neuroretinitidu</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -265711,7 +265723,7 @@
+     <Disorder id="18691">
+       <OrphaCode>210163</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210163</ExpertLink>
+-      <Name lang="cs">Vrozená letální myopatie, typ Comtonové-Northové</Name>
++      <Name lang="cs">Vrozená letální myopatie, typ Comptonové-Northové</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -265863,7 +265875,7 @@
+     <Disorder id="18689">
+       <OrphaCode>210144</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210144</ExpertLink>
+-      <Name lang="cs">Letální polymalformativní syndrom, Boisselův typ</Name>
++      <Name lang="cs">Letální polymalformativní syndrom, Boisselové typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -268507,7 +268519,7 @@
+     <Disorder id="3549">
+       <OrphaCode>655</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=655</ExpertLink>
+-      <Name lang="cs">Juvenilní nefronoftýza</Name>
++      <Name lang="cs">Juvenilní nefronoftíza</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -278066,7 +278078,7 @@
+     <Disorder id="18811">
+       <OrphaCode>217026</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=217026</ExpertLink>
+-      <Name lang="cs">Microcefalický facio-kardio-skeletální syndrom, Hadziselimovičův typ</Name>
++      <Name lang="cs">Mikrocefalický faciokardioskeletální syndrom, Hadziselimovičův typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -278074,7 +278086,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Microcefalie s faciokardioskeletálním syndromem</Synonym>
++        <Synonym lang="cs">Mikrocefalie s faciokardioskeletálním syndromem</Synonym>
+         <Synonym lang="cs">Hadziselimovičův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -278336,7 +278348,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Dvojitý nos s nebo bez anorektálních a renálních anomálií</Synonym>
++        <Synonym lang="cs">Rozštěp nosu s nebo bez anorektálních a renálních anomálií</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -282405,7 +282417,7 @@
+     <Disorder id="3426">
+       <OrphaCode>1054</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1054</ExpertLink>
+-      <Name lang="cs">Aneurysma Valsalvova sinu</Name>
++      <Name lang="cs">Aneuryzma Valsalvova sinu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -283590,7 +283602,7 @@
+     <Disorder id="3441">
+       <OrphaCode>2038</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2038</ExpertLink>
+-      <Name lang="cs">Vrozená pulmonální arteriovenózní fistule</Name>
++      <Name lang="cs">Vrozená pulmonální arteriovenózní píštěl</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -283598,7 +283610,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Plicní arteriovenózní aneurysma</Synonym>
++        <Synonym lang="cs">Plicní arteriovenózní aneuryzma</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -290678,7 +290690,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">ASSA</Synonym>
+-        <Synonym lang="cs">Aminopterinu podobný syndrom bez aminopterinu</Synonym>
++        <Synonym lang="cs">Syndrom podobný aminopterinovému syndromu, bez expozice aminopterinu</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -292713,7 +292725,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="11">
++      <ExternalReferenceList count="12">
+         <ExternalReference id="145480">
+           <Source>GARD</Source>
+           <Reference>4894</Reference>
+@@ -292747,6 +292759,19 @@
+             <Name lang="cs">Ověřeno</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
++        <ExternalReference id="200334">
++          <Source>ICD-10</Source>
++          <Reference>C91.8</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="cs">BTNT (mapování širšího termínu na užší)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21583">
++            <Name lang="cs">Specifický kód (Termín má svůj vlastní kód v MKN-10)</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
+         <ExternalReference id="112356">
+           <Source>MedDRA</Source>
+           <Reference>10006595</Reference>
+@@ -292780,11 +292805,11 @@
+             <Name lang="cs">Ověřeno</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="112364">
++        <ExternalReference id="200335">
+           <Source>ICD-10</Source>
+           <Reference>C83.7</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="cs">E (přesné mapování (termíny a pojmy jsou rovnocenné))</Name>
++          <DisorderMappingRelation id="21541">
++            <Name lang="cs">BTNT (mapování širšího termínu na užší)</Name>
+           </DisorderMappingRelation>
+           <DisorderMappingICDRelation id="21583">
+             <Name lang="cs">Specifický kód (Termín má svůj vlastní kód v MKN-10)</Name>
+@@ -293621,7 +293646,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19029" cycle="true"/>
++          <RootDisorder id="19034">
++            <OrphaCode>226310</OrphaCode>
++            <Name lang="cs">Periferní hypotyreóza</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="cs">Odkazuje na</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -294719,9 +294754,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -294734,7 +294769,17 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19029">
++            <OrphaCode>226292</OrphaCode>
++            <Name lang="cs">Permanentní vrozená hypotyreóza</Name>
++          </TargetDisorder>
++          <RootDisorder id="19034" cycle="true"/>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="cs">Odkazuje na</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -298631,7 +298676,7 @@
+     <Disorder id="19099">
+       <OrphaCode>228302</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=228302</ExpertLink>
+-      <Name lang="cs">Deficit karnitin palmitoyl transferázy II, myopatická forma</Name>
++      <Name lang="cs">Deficit karnitinpalmitoyltransferázy II, myopatická forma</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -298645,8 +298690,8 @@
+         <Synonym lang="cs">Deficit karnitinpalmitoyltransferázy 2, myopatická forma</Synonym>
+         <Synonym lang="cs">CPT2, forma se začátkem v dospělosti/ adultní forma</Synonym>
+         <Synonym lang="cs">CPTII, forma se začátkem v dospělosti</Synonym>
+-        <Synonym lang="cs">Deficit karnitinpalmitoyltransferázy II, forma s začátkem v dospělosti</Synonym>
+-        <Synonym lang="cs">Deficit karnitinpalmitoyltransferázy, typ 2, forma s začátkem v dospělosti</Synonym>
++        <Synonym lang="cs">Deficit karnitinpalmitoyltransferázy II, forma se začátkem v dospělosti</Synonym>
++        <Synonym lang="cs">Deficit karnitinpalmitoyltransferázy, typ 2, forma se začátkem v dospělosti</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -298765,7 +298810,7 @@
+     <Disorder id="19101">
+       <OrphaCode>228308</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=228308</ExpertLink>
+-      <Name lang="cs">Deficit karnitinpalmytoyltransferázy II, neonatální forma</Name>
++      <Name lang="cs">Deficit karnitinpalmitoyltransferázy II, neonatální forma</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -298777,9 +298822,9 @@
+         <Synonym lang="cs">CPT2, neonatální forma</Synonym>
+         <Synonym lang="cs">CPTII, letální systémová forma</Synonym>
+         <Synonym lang="cs">CPTII, neonatální forma</Synonym>
+-        <Synonym lang="cs">Deficit karnitin palmitoyl transferázy II, letální systémová forma</Synonym>
++        <Synonym lang="cs">Deficit karnitin palmitoyltransferázy II, letální systémová forma</Synonym>
+         <Synonym lang="cs">Deficit karnitinpalmitoyltransferázy 2, letální systémová forma</Synonym>
+-        <Synonym lang="cs">Deficit karnitin palmitoyl transferázy 2, neonatální forma</Synonym>
++        <Synonym lang="cs">Deficit karnitin palmitoyltransferázy 2, neonatální forma</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -303917,7 +303962,7 @@
+     <Disorder id="19166">
+       <OrphaCode>231160</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=231160</ExpertLink>
+-      <Name lang="cs">Familiární cerebrální sakulární aneurysma</Name>
++      <Name lang="cs">Familiární cerebrální sakulární aneuryzma</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -303925,8 +303970,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Familiární bobulovité aneurysma</Synonym>
+-        <Synonym lang="cs">Familiární intrakraniální sakulární aneurysma</Synonym>
++        <Synonym lang="cs">Familiární bobulovité aneuryzma</Synonym>
++        <Synonym lang="cs">Familiární intrakraniální sakulární aneuryzma</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -307100,7 +307145,7 @@
+     <Disorder id="19214">
+       <OrphaCode>231736</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=231736</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující microkorneu, posteriorní megalolentikonus, perzistentní fetální vaskulaturu a kolobom</Name>
++      <Name lang="cs">Syndrom zahrnující mikrokorneu, posteriorní megalolentikonus, perzistentní fetální vaskulaturu a kolobom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -307248,7 +307293,7 @@
+     <Disorder id="4045">
+       <OrphaCode>1901</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1901</ExpertLink>
+-      <Name lang="cs">Ehlersův-Danlosův syndrom,typ dermatosparaxis</Name>
++      <Name lang="cs">Ehlersův-Danlosův syndrom, typ dermatosparaxis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -309823,7 +309868,7 @@
+         <Synonym lang="cs">Mezenterický lipogranulom</Synonym>
+         <Synonym lang="cs">Mezenterická panikulitida</Synonym>
+         <Synonym lang="cs">Sklerotizující mezenteritis</Synonym>
+-        <Synonym lang="cs">panniculitis peritonealis</Synonym>
++        <Synonym lang="cs">Panniculitis peritonealis</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -313103,7 +313148,7 @@
+     <Disorder id="21927">
+       <OrphaCode>329324</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=329324</ExpertLink>
+-      <Name lang="cs">inverzní Klippelův-Trénaunayův syndrom</Name>
++      <Name lang="cs">Inverzní Klippelův-Trénaunayův syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -314445,7 +314490,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Geneticka podmíněná 46,XY DSD</Synonym>
++        <Synonym lang="cs">Geneticky podmíněná 46,XY DSD</Synonym>
+       </SynonymList>
+       <DisorderType id="36561">
+         <Name lang="cs">Kategorie</Name>
+@@ -314831,7 +314876,7 @@
+     <Disorder id="21841">
+       <OrphaCode>325448</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=325448</ExpertLink>
+-      <Name lang="cs">Hypoplasie Leydigových buněk způsobená LHB deficitem</Name>
++      <Name lang="cs">Hypoplázie Leydigových buněk způsobená LHB deficitem</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -314839,8 +314884,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="7">
+-        <Synonym lang="cs">46,XY porucha pohlavního vývoje zpusobená deficitem podjednotky beta luteinizacního hormonu</Synonym>
+-        <Synonym lang="cs">Hypoplázie Leydigových bunek zpusobená deficitem podjednotky beta luteinizacního hormonu</Synonym>
++        <Synonym lang="cs">46,XY porucha pohlavního vývoje způsobená deficitem podjednotky beta luteinizačního hormonu</Synonym>
++        <Synonym lang="cs">Hypoplázie Leydigových bunek způsobená deficitem podjednotky beta luteinizačního hormonu</Synonym>
+         <Synonym lang="cs">46,XY DSD způsobená LHB deficitem</Synonym>
+         <Synonym lang="cs">46,XY DSD způsobená deficitem luteinizačního hormonu podjednotky beta</Synonym>
+         <Synonym lang="cs">46,XY porucha pohlavního vývoje způsobená LHB deficitem</Synonym>
+@@ -326204,7 +326249,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Nevus epidermicus verrucosus s angiodysplázii a aneurysmaty</Synonym>
++        <Synonym lang="cs">Nevus epidermicus verrucosus s angiodysplázii a aneuryzmaty</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -336556,7 +336601,15 @@
+       <OrphaCode>352740</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=352740</ExpertLink>
+       <Name lang="cs">Okulární albinismus s vrozenou senzorineurální hluchotou</Name>
+-      <DisorderFlagList count="1">
++      <DisorderFlagList count="3">
++        <DisorderFlag id="495">
++          <Value>8192</Value>
++          <Label>Inactive</Label>
++        </DisorderFlag>
++        <DisorderFlag id="459">
++          <Value>256</Value>
++          <Label>Deprecated entity</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+@@ -336573,7 +336626,17 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="220">
++            <OrphaCode>895</OrphaCode>
++            <Name lang="cs">Waardenburgův syndrom, typ 2</Name>
++          </TargetDisorder>
++          <RootDisorder id="22112" cycle="true"/>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="cs">Přesunuto do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -336630,8 +336693,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Aneurysmální telangiektázie</Synonym>
+-        <Synonym lang="cs">Viditelné a exudativní idiopatické juxtafoveolární teleangiektazie sítnice</Synonym>
++        <Synonym lang="cs">Aneuryzmální telangiektázie</Synonym>
++        <Synonym lang="cs">Viditelné a exudativní idiopatické juxtafoveolární teleangiektázie sítnice</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -341686,17 +341749,18 @@
+     <Disorder id="20955">
+       <OrphaCode>295012</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=295012</ExpertLink>
+-      <Name lang="cs">Jednostranná syndaktylie 2-5 prstu</Name>
++      <Name lang="cs">Jednostranná syndaktylie 2.-5. prstu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="4">
+         <Synonym lang="cs">Spojená ruka</Synonym>
+         <Synonym lang="cs">Syndaktylie, typ mitten</Synonym>
+         <Synonym lang="cs">Syndaktylie, typ 6</Synonym>
++        <Synonym lang="cs">Syndaktylie, typ palcové rukavice</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -348306,7 +348370,7 @@
+     <Disorder id="20633">
+       <OrphaCode>285014</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=285014</ExpertLink>
+-      <Name lang="cs">Vzácná onemocnění s aneurysmatem hrudní aorty a aortální disekcí</Name>
++      <Name lang="cs">Vzácná onemocnění s aneuryzmatem hrudní aorty a aortální disekcí</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -348524,7 +348588,7 @@
+     <Disorder id="20631">
+       <OrphaCode>284984</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=284984</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující aneurysma a osteoartritidu</Name>
++      <Name lang="cs">Syndrom zahrnující aneuryzma a osteoartritidu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -364015,7 +364079,7 @@
+     <Disorder id="21134">
+       <OrphaCode>300576</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=300576</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující oligodontii a predispozici k nádorům</Name>
++      <Name lang="cs">Syndrom zahrnující oligodoncii a predispozici k nádorům</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -372346,7 +372410,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">mikrodeleční syndrom Xq28</Synonym>
++        <Synonym lang="cs">Mikrodeleční syndrom Xq28</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -374853,7 +374917,7 @@
+       <SynonymList count="3">
+         <Synonym lang="cs">CMT2V</Synonym>
+         <Synonym lang="cs">Autozomálně dominantní Charcotova-Marieova-Toothova nemoc, typ 2, způsobená mutacemi NAGLU</Synonym>
+-        <Synonym lang="cs">Hereditární bolestivá axonální polyneuropatie s nástupem v dopělosti</Synonym>
++        <Synonym lang="cs">Hereditární bolestivá axonální polyneuropatie s nástupem v dospělosti</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -385508,7 +385572,7 @@
+     <Disorder id="23012">
+       <OrphaCode>411493</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411493</ExpertLink>
+-      <Name lang="cs">Pontocerebellární hypoplázie, typ 10</Name>
++      <Name lang="cs">Pontocerebelární hypoplázie, typ 10</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -388526,7 +388590,7 @@
+       <SynonymList count="8">
+         <Synonym lang="cs">2-methyl-3-hydroxymáselná acidurie, klasický typ</Synonym>
+         <Synonym lang="cs">2-methyl-3-hydroxymáselná acidurie, infantilní typ</Synonym>
+-        <Synonym lang="cs">Deficit 2-methyl-3-hydroxybutyryl-CoA deyhdrogenázy, klasický typ</Synonym>
++        <Synonym lang="cs">Deficit 2-methyl-3-hydroxybutyryl-CoA dehydrogenázy, klasický typ</Synonym>
+         <Synonym lang="cs">Deficit 2-methyl-3-hydroxybutyryl-CoA deyhdrogenázy, infantilní typ</Synonym>
+         <Synonym lang="cs">HSD10 deficit, klasický typ</Synonym>
+         <Synonym lang="cs">HSD10 deficit, infantilní typ</Synonym>
+@@ -388836,11 +388900,11 @@
+       <SynonymList count="1">
+         <Synonym lang="cs">Východotexaská krvácivá porucha</Synonym>
+       </SynonymList>
+-      <DisorderType id="21394">
+-        <Name lang="cs">Onemocnění</Name>
++      <DisorderType id="21443">
++        <Name lang="cs">Etiologický podtyp</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="cs">Onemocnění</Name>
++      <DisorderGroup id="36554">
++        <Name lang="cs">Podtyp onemocnění</Name>
+       </DisorderGroup>
+       <ExternalReferenceList count="3">
+         <ExternalReference id="86186">
+@@ -410265,7 +410329,7 @@
+         <Synonym lang="cs">Tyrosinémie, typ II</Synonym>
+         <Synonym lang="cs">Richnerův-Hanhartův syndrom</Synonym>
+         <Synonym lang="cs">Tyrosinémie způsobená deficitem TAT</Synonym>
+-        <Synonym lang="cs">Tyrosinemie způsobená deficitem tyrosin aminotransferázy</Synonym>
++        <Synonym lang="cs">Tyrosinémie způsobená deficitem tyrosin aminotransferázy</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -417017,7 +417081,7 @@
+     <Disorder id="25849">
+       <OrphaCode>496790</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=496790</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující atrofii optiků, periferní neuropatii a vávojové opoždění</Name>
++      <Name lang="cs">Syndrom zahrnující atrofii optiků, periferní neuropatii a vývojové opoždění</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -417155,7 +417219,7 @@
+     <Disorder id="25672">
+       <OrphaCode>494424</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=494424</ExpertLink>
+-      <Name lang="cs">Extrakraniální aneurysma krkavice</Name>
++      <Name lang="cs">Extrakraniální aneuryzma krkavice</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -417544,7 +417608,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="3">
++      <ExternalReferenceList count="5">
+         <ExternalReference id="154906">
+           <Source>OMIM</Source>
+           <Reference>275355</Reference>
+@@ -417556,7 +417620,7 @@
+             <Name lang="cs">Ověřeno</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="194014">
++        <ExternalReference id="200331">
+           <Source>ICD-10</Source>
+           <Reference>C12</Reference>
+           <DisorderMappingRelation id="21541">
+@@ -417565,11 +417629,11 @@
+           <DisorderMappingICDRelation id="21604">
+             <Name lang="cs">Přiřazeno</Name>
+           </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21618">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="194015">
++        <ExternalReference id="200332">
+           <Source>ICD-10</Source>
+           <Reference>C13.8</Reference>
+           <DisorderMappingRelation id="21541">
+@@ -417578,8 +417642,34 @@
+           <DisorderMappingICDRelation id="21604">
+             <Name lang="cs">Přiřazeno</Name>
+           </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21618">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="200333">
++          <Source>ICD-10</Source>
++          <Reference>C13.0</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="cs">BTNT (mapování širšího termínu na užší)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21604">
++            <Name lang="cs">Přiřazeno</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="200330">
++          <Source>ICD-10</Source>
++          <Reference>C13.2</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="cs">BTNT (mapování širšího termínu na užší)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21604">
++            <Name lang="cs">Přiřazeno</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+@@ -420649,7 +420739,7 @@
+     <Disorder id="26040">
+       <OrphaCode>500533</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=500533</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující polyhydramnion, megalencefalii a symtomatickou epilepsii</Name>
++      <Name lang="cs">Syndrom zahrnující polyhydramnion, megalencefalii a symptomatickou epilepsii</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -431916,7 +432006,7 @@
+     <Disorder id="25310">
+       <OrphaCode>485418</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=485418</ExpertLink>
+-      <Name lang="cs">EMILIN-1-vázaná poruchapojiva</Name>
++      <Name lang="cs">EMILIN-1-vázaná porucha pojiva</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -433449,7 +433539,7 @@
+     <Disorder id="25244">
+       <OrphaCode>481771</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=481771</ExpertLink>
+-      <Name lang="cs">Geneticky podmíněná aplopecie</Name>
++      <Name lang="cs">Geneticky podmíněná alopecie</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -434582,7 +434672,7 @@
+     <Disorder id="25162">
+       <OrphaCode>477857</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=477857</ExpertLink>
+-      <Name lang="cs">Autozomově recesivní náchylnost k mykobateriózám s medelovskou dědičností z důvodu kompletního RORC deficitu</Name>
++      <Name lang="cs">Autozomálně recesivní náchylnost k mykobateriózám s mendelovskou dědičností z důvodu kompletního RORC deficitu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -434913,7 +435003,7 @@
+     <Disorder id="25136">
+       <OrphaCode>477661</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=477661</ExpertLink>
+-      <Name lang="cs">IL21-vázaná zánětrliá nemoc střev s nástupem v kojeneckém věku</Name>
++      <Name lang="cs">IL21-vázaná zánětlivá nemoc střev s nástupem v kojeneckém věku</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -435561,7 +435651,7 @@
+     <Disorder id="25093">
+       <OrphaCode>476126</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=476126</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující mikrognacii, rekurentní infekce, poruchy chování a lehkou mentální retardaci</Name>
++      <Name lang="cs">Syndrom zahrnující mikrognatii, rekurentní infekce, poruchy chování a lehkou mentální retardaci</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -441621,7 +441711,7 @@
+     <Disorder id="10916">
+       <OrphaCode>69082</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=69082</ExpertLink>
+-      <Name lang="cs">Odonto-tricho-ungvo-digito-palmární syndrom</Name>
++      <Name lang="cs">Odontotrichoungvodigitopalmární syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="460">
+           <Value>512</Value>
+@@ -441634,7 +441724,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">OTUDP syndrom</Synonym>
+-        <Synonym lang="cs">Odonto-tricho-ungvo-digito-palmární syndrom, Mendozův-Valienteové typ</Synonym>
++        <Synonym lang="cs">Odontotrichoungvodigitopalmární syndrom, Mendozův-Valienteové typ</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -443734,7 +443824,7 @@
+     <Disorder id="10887">
+       <OrphaCode>66629</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=66629</ExpertLink>
+-      <Name lang="cs">Shprintzenův Goldbergové syndrom</Name>
++      <Name lang="cs">Shprintzenův-Goldbergové syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -443744,7 +443834,7 @@
+       <SynonymList count="3">
+         <Synonym lang="cs">GOSHS</Synonym>
+         <Synonym lang="cs">Syndrom zahrnující megakolon a mikrocefalii</Synonym>
+-        <Synonym lang="cs">Goldbergův-Shprintzenův megakolonový syndrom</Synonym>
++        <Synonym lang="cs">Goldbergové-Shprintzenův megakolonový syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -443944,7 +444034,7 @@
+     <Disorder id="10884">
+       <OrphaCode>66625</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=66625</ExpertLink>
+-      <Name lang="cs">Cerebro-okulo-nasální syndrom</Name>
++      <Name lang="cs">Cerebrookulonazální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -444187,7 +444277,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">ACPS4</Synonym>
+-        <Synonym lang="cs">Akrocefalopolysyndaktýlie, typ 4</Synonym>
++        <Synonym lang="cs">Akrocefalopolysyndaktylie, typ 4</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -445324,7 +445414,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Distální artrogrypóza, typu 8</Synonym>
++        <Synonym lang="cs">Distální artrogrypóza, typ 8</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -447801,7 +447891,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom zahrnující hereditární endoteliopatii, retinopatii, nefropatii a mrtvici</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující hereditární endoteliopatii, retinopatii, nefropatii a mozkovou příhodu</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -449851,7 +449941,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Syndrom aortálního aneurysmatu způsobeného anomáliemi receptorů pro TGF-beta</Synonym>
++        <Synonym lang="cs">Syndrom aortálního aneuryzmatu způsobeného anomáliemi receptorů pro TGF-beta</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -456322,7 +456412,7 @@
+     <Disorder id="11168">
+       <OrphaCode>79142</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=79142</ExpertLink>
+-      <Name lang="cs">NON RARE IN EUROPE:Familiární Dupuytrenova kontraktura</Name>
++      <Name lang="cs">NON RARE IN EUROPE: Familiární Dupuytrenova kontraktura</Name>
+       <DisorderFlagList count="3">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -464195,7 +464285,7 @@
+       </DisorderFlagList>
+       <SynonymList count="4">
+         <Synonym lang="cs">Akutní intoxikace ovocem akee</Synonym>
+-        <Synonym lang="cs">Akutni intoxikace Blighia sapida</Synonym>
++        <Synonym lang="cs">Akutní intoxikace Blighia sapida</Synonym>
+         <Synonym lang="cs">Jamajská nemoc zvracení</Synonym>
+         <Synonym lang="cs">Jamajský syndrom zvracení</Synonym>
+       </SynonymList>
+@@ -464281,9 +464371,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -464378,7 +464468,7 @@
+     <Disorder id="11049">
+       <OrphaCode>73273</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=73273</ExpertLink>
+-      <Name lang="cs">Opožděný růst způsobený rezistencí na růstový faktor I podobný insulinu</Name>
++      <Name lang="cs">Opožděný růst způsobený rezistencí na růstový faktor I podobný inzulinu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -466245,7 +466335,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">HANAC syndrom</Synonym>
+-        <Synonym lang="cs">Syndrom zahrnující hereditární angiopatii, nefropatii, aneurysmata a svalové křeče</Synonym>
++        <Synonym lang="cs">Syndrom zahrnující hereditární angiopatii, nefropatii, aneuryzmata a svalové křeče</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -466610,7 +466700,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="cs">Fetální acitretinový/etretinátový syndrom</Synonym>
+-        <Synonym lang="cs">Retioidní embryopatie</Synonym>
++        <Synonym lang="cs">Retinoidní embryopatie</Synonym>
+         <Synonym lang="cs">Embryopatie způsobená kyselinou retinovou</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -467637,8 +467727,8 @@
+         <Synonym lang="cs">Kardiodysrytmická draslík-sensitivní periodická paralýza</Synonym>
+         <Synonym lang="cs">LQT7</Synonym>
+         <Synonym lang="cs">Syndrom dlouhého QT 7</Synonym>
+-        <Synonym lang="cs">Andersonův syndrom</Synonym>
+-        <Synonym lang="cs">Andersonův-Tawilův syndrom</Synonym>
++        <Synonym lang="cs">Andersenův syndrom</Synonym>
++        <Synonym lang="cs">Andersenův-Tawilův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -469063,8 +469153,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="cs">Ektatický kolobom</Synonym>
++        <Synonym lang="cs">Syndrom svlačcového květu</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+@@ -478778,7 +478869,7 @@
+       </DisorderFlagList>
+       <SynonymList count="2">
+         <Synonym lang="cs">Syndrom zesíleného S-čípku</Synonym>
+-        <Synonym lang="cs">Retinoschóza s časnou nyktalopií</Synonym>
++        <Synonym lang="cs">Retinoschíza s časnou nyktalopií</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -484451,7 +484542,7 @@
+           <TargetDisorder id="10577" cycle="true"/>
+           <RootDisorder id="455">
+             <OrphaCode>1564</OrphaCode>
+-            <Name lang="cs">Dandyho-Walkerova s faciálními hemangiomy</Name>
++            <Name lang="cs">Dandyho-Walkerova malformace s faciálními hemangiomy</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21471">
+             <Name lang="cs">Přesunuto do</Name>
+@@ -489039,7 +489130,7 @@
+     <Disorder id="11956">
+       <OrphaCode>90065</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=90065</ExpertLink>
+-      <Name lang="cs">Získané subarachnoideální krvácení z aneurysmatu</Name>
++      <Name lang="cs">Získané subarachnoideální krvácení z aneuryzmatu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -496857,7 +496948,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Hereditární motorická a senzorická neuropatie s hluchotou,mentální retardací a absencí velkých senzorických myelinizovaných vláken</Synonym>
++        <Synonym lang="cs">Hereditární motorická a senzorická neuropatie s hluchotou, mentální retardací a absencí velkých senzorických myelinizovaných vláken</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -498862,7 +498953,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12138">
+             <OrphaCode>91387</OrphaCode>
+-            <Name lang="cs">Familiární aneurysma hrudní aorty s disekcí aorty</Name>
++            <Name lang="cs">Familiární aneuryzma hrudní aorty s disekcí aorty</Name>
+           </TargetDisorder>
+           <RootDisorder id="11815" cycle="true"/>
+           <DisorderDisorderAssociationType id="21471">
+@@ -504474,7 +504565,7 @@
+           <TargetDisorder id="27491" cycle="true"/>
+           <RootDisorder id="12533">
+             <OrphaCode>93975</OrphaCode>
+-            <Name lang="cs">Renierův-Gabreelsův-Jasperův syndrom</Name>
++            <Name lang="cs">NEAKTUÁLNÍ: Renierův-Gabreelsův-Jasperův syndrom</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="cs">Odkazuje na</Name>
+@@ -506800,7 +506891,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="566">
+             <OrphaCode>2970</OrphaCode>
+-            <Name lang="cs">Syndrom svraštělého bříška</Name>
++            <Name lang="cs">Syndrom svraštělého břicha</Name>
+           </TargetDisorder>
+           <RootDisorder id="12181" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -507121,7 +507212,7 @@
+       <SynonymList count="4">
+         <Synonym lang="cs">Vrozená absence tibie</Synonym>
+         <Synonym lang="cs">Vrozená aplázie a dysplázie tibie s intaktní fibulou</Synonym>
+-        <Synonym lang="cs">Vozený longitudinální deficit tibie</Synonym>
++        <Synonym lang="cs">Vrozený longitudinální deficit tibie</Synonym>
+         <Synonym lang="cs">Tibiální longitudinální meromelie</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+@@ -508897,7 +508988,7 @@
+     <Disorder id="12224">
+       <OrphaCode>93284</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93284</ExpertLink>
+-      <Name lang="cs">Spondyloepifyzární dysplasia, pozdní typ</Name>
++      <Name lang="cs">Spondyloepifyzární dysplázie, pozdní typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -514795,7 +514886,7 @@
+     <Disorder id="12138">
+       <OrphaCode>91387</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=91387</ExpertLink>
+-      <Name lang="cs">Familiární aneurysma hrudní aorty s disekcí aorty</Name>
++      <Name lang="cs">Familiární aneuryzma hrudní aorty s disekcí aorty</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -514984,7 +515075,7 @@
+           <TargetDisorder id="12138" cycle="true"/>
+           <RootDisorder id="12608">
+             <OrphaCode>95484</OrphaCode>
+-            <Name lang="cs">NEAKTUÁLNÍ: Aneurysma nebo dilatace vzestupné aorty</Name>
++            <Name lang="cs">NEAKTUÁLNÍ: Aneuryzma nebo dilatace vzestupné aorty</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="cs">Odkazuje na</Name>
+@@ -518396,7 +518487,7 @@
+     <Disorder id="12123">
+       <OrphaCode>91349</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=91349</ExpertLink>
+-      <Name lang="cs">Hormonálně neaktivníadenom hypofýzy</Name>
++      <Name lang="cs">Hormonálně neaktivní adenom hypofýzy</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -532009,7 +532100,7 @@
+     <Disorder id="11671">
+       <OrphaCode>85281</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=85281</ExpertLink>
+-      <Name lang="cs">X-vázaná mentální retardace, Lubsův typ</Name>
++      <Name lang="cs">NEAKTUÁLNÍ: X-vázaná mentální retardace, Lubsův typ</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -539286,8 +539377,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Vrozená generalizovaná hypertrichóza, Macias-Floresův typ</Synonym>
+-        <Synonym lang="cs">Macias-Floresův-Garcia Cruzův-Riverův syndrom</Synonym>
++        <Synonym lang="cs">Vrozená generalizovaná hypertrichóza, Macias Floresův typ</Synonym>
++        <Synonym lang="cs">Macias Floresův-Garcia Cruzův-Riverův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+@@ -544534,7 +544625,7 @@
+     <Disorder id="11647">
+       <OrphaCode>85186</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=85186</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující endostální sklerózu a hypoplázii mozečku</Name>
++      <Name lang="cs">Syndrom zahrnující endosteální sklerózu a hypoplázii mozečku</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -545733,8 +545824,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21394">
+-        <Name lang="cs">Onemocnění</Name>
++      <DisorderType id="21415">
++        <Name lang="cs">Morfologická anomálie</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+@@ -547287,6 +547378,42 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30684">
++      <OrphaCode>610573</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=610573</ExpertLink>
++      <Name lang="en">CLCN6-related childhood onset progressive neurodegeneration-peripheral neuropathy-syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="1">
++        <ExternalReference id="200356">
++          <Source>OMIM</Source>
++          <Reference>619173</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="cs">E (přesné mapování (termíny a pojmy jsou rovnocenné))</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13086">
+       <OrphaCode>98068</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=98068</ExpertLink>
+@@ -547450,6 +547577,43 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30683">
++      <OrphaCode>610569</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=610569</ExpertLink>
++      <Name lang="en">KIAA1109-related early lethal-congenital brain mlaformations-arthrogryposis-syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">ALKURAYA-KUCINSKAS SYNDROME</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="1">
++        <ExternalReference id="200353">
++          <Source>OMIM</Source>
++          <Reference>617822</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="cs">E (přesné mapování (termíny a pojmy jsou rovnocenné))</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="cs">Ověřeno</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13082">
+       <OrphaCode>98064</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=98064</ExpertLink>
+@@ -549038,6 +549202,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30477">
++      <OrphaCode>600691</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=600691</ExpertLink>
++      <Name lang="en">Combined deficiency of factor VII and factor X</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="30478">
+       <OrphaCode>600731</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=600731</ExpertLink>
+@@ -550365,7 +550554,7 @@
+           <TargetDisorder id="12867" cycle="true"/>
+           <RootDisorder id="17960">
+             <OrphaCode>172979</OrphaCode>
+-            <Name lang="cs">NEAKTUÁLNÍ: NEAKTUÁLNÍ: Vrozená centronukleární myopatie</Name>
++            <Name lang="cs">NEAKTUÁLNÍ: Vrozená centronukleární myopatie</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="cs">Odkazuje na</Name>
+@@ -552096,7 +552285,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Kraniální durální arteriovenózní fistula</Synonym>
++        <Synonym lang="cs">Kraniální durální arteriovenózní píštěl</Synonym>
+         <Synonym lang="cs">Kraniální durální arteriovenózní malformace</Synonym>
+       </SynonymList>
+       <DisorderType id="21415">
+@@ -552136,8 +552325,8 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Aseptická nekróza hlavičky humeru</Synonym>
+-        <Synonym lang="cs">Osteochondróza hlavičky humeru</Synonym>
++        <Synonym lang="cs">Aseptická nekróza hlavice humeru</Synonym>
++        <Synonym lang="cs">Osteochondróza hlavice humeru</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -552176,7 +552365,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Aseptická nekróza apexu patelly</Synonym>
++        <Synonym lang="cs">Aseptická nekróza apexu pately</Synonym>
+         <Synonym lang="cs">Osteochondróza čéšky</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -556295,6 +556484,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30241">
++      <OrphaCode>600194</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=600194</ExpertLink>
++      <Name lang="en">Factor V Atlanta bleeding disorder</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21443">
++        <Name lang="cs">Etiologický podtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="cs">Podtyp onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13028">
+       <OrphaCode>98010</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=98010</ExpertLink>
+@@ -559464,7 +559678,7 @@
+     <Disorder id="12615">
+       <OrphaCode>95491</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=95491</ExpertLink>
+-      <Name lang="cs">Vrozené aneurysma koronární tepny</Name>
++      <Name lang="cs">Vrozené aneuryzma koronární tepny</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -559530,7 +559744,7 @@
+     <Disorder id="12608">
+       <OrphaCode>95484</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=95484</ExpertLink>
+-      <Name lang="cs">NEAKTUÁLNÍ: Aneurysma nebo dilatace vzestupné aorty</Name>
++      <Name lang="cs">NEAKTUÁLNÍ: Aneuryzma nebo dilatace vzestupné aorty</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -559555,7 +559769,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12138">
+             <OrphaCode>91387</OrphaCode>
+-            <Name lang="cs">Familiární aneurysma hrudní aorty s disekcí aorty</Name>
++            <Name lang="cs">Familiární aneuryzma hrudní aorty s disekcí aorty</Name>
+           </TargetDisorder>
+           <RootDisorder id="12608" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -562595,7 +562809,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="2">
+-        <Synonym lang="cs">Cerebro-okulo-faciální-lymfatický syndrom</Synonym>
++        <Synonym lang="cs">Cerebrookulofaciální-lymfatický syndrom</Synonym>
+         <Synonym lang="cs">Frynsův-Aftimosův syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+@@ -564797,7 +565011,7 @@
+     <Disorder id="12719">
+       <OrphaCode>96095</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=96095</ExpertLink>
+-      <Name lang="cs">Mikroduplikační syndrom 3p26</Name>
++      <Name lang="cs">Mikroduplikační syndrom 3q26</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -567620,8 +567834,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="1">
++      <SynonymList count="2">
+         <Synonym lang="cs">CDP</Synonym>
++        <Synonym lang="cs">Conradiho nemoc</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+         <Name lang="cs">Klinická skupina</Name>
+@@ -569509,6 +569724,58 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29927">
++      <OrphaCode>599480</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599480</ExpertLink>
++      <Name lang="en">Acquired hemophilia A</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">AHA</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29928">
++      <OrphaCode>599485</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599485</ExpertLink>
++      <Name lang="en">Acquired hemophilia B</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">AHB</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12328">
+       <OrphaCode>93406</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93406</ExpertLink>
+@@ -569606,10 +569873,35 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29929">
++      <OrphaCode>599490</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599490</ExpertLink>
++      <Name lang="en">Acquired factor V deficiency</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12331">
+       <OrphaCode>93409</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93409</ExpertLink>
+-      <Name lang="cs">Brachydaktylie a syndaktylie, Zhaoův typ</Name>
++      <Name lang="cs">Brachydaktylie a syndaktylie, Zhaové typ</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -569680,6 +569972,32 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29931">
++      <OrphaCode>599501</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599501</ExpertLink>
++      <Name lang="en">Acquired factor X deficiency</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">aFX</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12333">
+       <OrphaCode>93419</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93419</ExpertLink>
+@@ -569709,6 +570027,58 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29932">
++      <OrphaCode>599507</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599507</ExpertLink>
++      <Name lang="en">Acquired factor XI deficiency</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">aFXI</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29933">
++      <OrphaCode>599513</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599513</ExpertLink>
++      <Name lang="en">Acquired factor XIII deficiency</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">aFXIII</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12335">
+       <OrphaCode>93421</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93421</ExpertLink>
+@@ -569759,6 +570129,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29935">
++      <OrphaCode>599579</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=599579</ExpertLink>
++      <Name lang="en">Factor V Amsterdam bleeding disorder</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21443">
++        <Name lang="cs">Etiologický podtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="cs">Podtyp onemocnění</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12336">
+       <OrphaCode>93422</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93422</ExpertLink>
+@@ -570302,7 +570697,7 @@
+     <Disorder id="12351">
+       <OrphaCode>93440</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93440</ExpertLink>
+-      <Name lang="cs">Dysplázie štíhlých kostí</Name>
++      <Name lang="cs">Dysplázie spojená se ztenčením kostí</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -571556,7 +571951,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Brachydaktylie, typ Smorgasbord</Synonym>
++        <Synonym lang="cs">Brachydaktylie, typ smorgasbord</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+@@ -572739,7 +573134,7 @@
+     <Disorder id="12533">
+       <OrphaCode>93975</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93975</ExpertLink>
+-      <Name lang="cs">Renierův-Gabreelsův-Jasperův syndrom</Name>
++      <Name lang="cs">NEAKTUÁLNÍ: Renierův-Gabreelsův-Jasperův syndrom</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -573152,7 +573547,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="cs">Opitz-Kaveggia syndrome</Synonym>
++        <Synonym lang="cs">Opitz-Kaveggiové syndrom</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+@@ -574183,7 +574578,7 @@
+     <Disorder id="12506">
+       <OrphaCode>93946</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93946</ExpertLink>
+-      <Name lang="cs">Hamelův cerebro-palato-kardiální syndrom</Name>
++      <Name lang="cs">Hamelův cerebropalatokardiální syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -577329,7 +577724,7 @@
+     <Disorder id="12437">
+       <OrphaCode>93604</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93604</ExpertLink>
+-      <Name lang="cs">Prenatální forma Bartterova syndrom</Name>
++      <Name lang="cs">Prenatální forma Bartterova syndromu</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -577439,7 +577834,7 @@
+     <Disorder id="14109">
+       <OrphaCode>99092</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99092</ExpertLink>
+-      <Name lang="cs">Aneurysma mezikomorového septa</Name>
++      <Name lang="cs">Aneuryzma mezikomorového septa</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -584587,7 +584982,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="3">
+-        <Synonym lang="cs">Anhidrotická ektodermální dyplázie spojená s imunodeficiencí</Synonym>
++        <Synonym lang="cs">Anhidrotická ektodermální dysplázie spojená s imunodeficiencí</Synonym>
+         <Synonym lang="cs">EDA-ID</Synonym>
+         <Synonym lang="cs">HED-ID</Synonym>
+       </SynonymList>
+@@ -587155,7 +587550,7 @@
+     <Disorder id="29438">
+       <OrphaCode>589618</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=589618</ExpertLink>
+-      <Name lang="en">Dystonia 28</Name>
++      <Name lang="cs">*Dystonie 28</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -613229,7 +613624,7 @@
+     <Disorder id="13531">
+       <OrphaCode>98514</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=98514</ExpertLink>
+-      <Name lang="cs">Malformace cerebelárního vermis</Name>
++      <Name lang="cs">Malformace cerebelární vermis</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>

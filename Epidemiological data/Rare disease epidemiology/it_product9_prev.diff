@@ -1,0 +1,1232 @@
+commit df4bbec30a36ad0ab0af6d3588a36df3686578ff
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Oct 3 10:11:04 2021 +0200
+
+    OCT 2021
+
+diff --git a/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml
+old mode 100755
+new mode 100644
+index 93d6d5f..e99211c
+--- a/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/it_product9_prev.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-09-01 04:50:34" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-10-01 04:51:11" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6030">
++  <DisorderList count="6034">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=166024</ExpertLink>
+@@ -13947,7 +13947,7 @@
+     <Disorder id="131">
+       <OrphaCode>580</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=580</ExpertLink>
+-      <Name lang="it">Mucopolisaccaridosi, tipo 2</Name>
++      <Name lang="it">Mucopolisaccaridosi tipo 2</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -24360,28 +24360,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="4">
+-        <Prevalence id="882">
+-          <Source>17028542[PMID]_[EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.2</ValMoy>
+-          <PrevalenceGeographic id="24369">
+-            <Name lang="it">France</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="2">
+         <Prevalence id="883">
+-          <Source>20301321[PMID]</Source>
++          <Source>PMID: 20301321</Source>
+           <PrevalenceType id="23683">
+             <Name lang="it">Prevalenza alla nascita</Name>
+           </PrevalenceType>
+@@ -24400,7 +24381,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="884">
+-          <Source>20301321[PMID]</Source>
++          <Source>PMID: 20301321</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+@@ -24410,7 +24391,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="it">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>4.0</ValMoy>
++          <ValMoy>2.0</ValMoy>
+           <PrevalenceGeographic id="24362">
+             <Name lang="it">Finland</Name>
+           </PrevalenceGeographic>
+@@ -24418,25 +24399,6 @@
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="885">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="it">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="297">
+@@ -24519,28 +24481,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="5">
+-        <Prevalence id="889">
+-          <Source>[EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="it">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.9</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="3">
+         <Prevalence id="890">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2005-2012[REG]</Source>
++          <Source>PMID: 18074387</Source>
+           <PrevalenceType id="23683">
+             <Name lang="it">Prevalenza alla nascita</Name>
+           </PrevalenceType>
+@@ -24550,7 +24493,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="it">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.3</ValMoy>
++          <ValMoy>1.24</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+@@ -24559,7 +24502,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="891">
+-          <Source>22925539[PMID]</Source>
++          <Source>PMID: 22925539</Source>
+           <PrevalenceType id="23683">
+             <Name lang="it">Prevalenza alla nascita</Name>
+           </PrevalenceType>
+@@ -24596,25 +24539,6 @@
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="893">
+-          <Source>9608092[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="it">Prevalenza alla nascita</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.97</ValMoy>
+-          <PrevalenceGeographic id="25293">
+-            <Name lang="it">Spain</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="301">
+@@ -49061,8 +48985,8 @@
+       <PrevalenceList count="1">
+         <Prevalence id="16495">
+           <Source>ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="it">Prevalenza alla nascita</Name>
++          <PrevalenceType id="23669">
++            <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+@@ -49074,8 +48998,8 @@
+           <PrevalenceGeographic id="23844">
+             <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -54961,23 +54885,23 @@
+         <Name lang="it">Sottotipo della malattia</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+-        <Prevalence id="8483">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
++        <Prevalence id="16528">
++          <Source>PMID: 24616761</Source>
++          <PrevalenceType id="23683">
++            <Name lang="it">Prevalenza alla nascita</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="it">Class only</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="it">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="it">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <ValMoy>1.51</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="it">United Kingdom</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -55587,22 +55511,22 @@
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="8484">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
++          <Source>PMID: 24616761</Source>
++          <PrevalenceType id="23683">
++            <Name lang="it">Prevalenza alla nascita</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="it">Class only</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="it">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23739">
++            <Name lang="it">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <ValMoy>0.6</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="it">United Kingdom</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -73605,46 +73529,8 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
+-        <Prevalence id="2529">
+-          <Source>[EXPERT]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="it">Prevalenza alla nascita</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.33</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2530">
+-          <Source>8482284[PMID]_ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="it">Prevalenza alla nascita</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="it">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>19.0</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="it">Norway</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2531">
++      <PrevalenceList count="1">
++        <Prevalence id="16539">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+@@ -73652,15 +73538,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="it">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -74445,9 +74331,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="1">
+         <Prevalence id="2504">
+-          <Source>23610123[PMID]</Source>
++          <Source>PMID: 23610123 &amp; ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+@@ -74461,27 +74347,8 @@
+           <PrevalenceGeographic id="23844">
+             <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2505">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="it">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="it">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -76719,7 +76586,7 @@
+     <Disorder id="965">
+       <OrphaCode>871</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=871</ExpertLink>
+-      <Name lang="it">Difetto familiare progressivo della conduzione cardiaca</Name>
++      <Name lang="it">Difetto progressivo familiare della conduzione cardiaca</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -77362,28 +77229,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="5">
+-        <Prevalence id="2609">
+-          <Source>Central Brain Tumor registry of the United States 2005[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="it">Prevalenza alla nascita</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="it">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="it">United States</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2610">
+-          <Source>Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]</Source>
++      <PrevalenceList count="3">
++        <Prevalence id="16530">
++          <Source>PMID: 25249493</Source>
+           <PrevalenceType id="23676">
+             <Name lang="it">Incidenza annuale</Name>
+           </PrevalenceType>
+@@ -77393,26 +77241,26 @@
+           <PrevalenceClass id="23746">
+             <Name lang="it">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>8.14</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="it">United States</Name>
++          <ValMoy>4.15</ValMoy>
++          <PrevalenceGeographic id="24418">
++            <Name lang="it">Germany</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2611">
+-          <Source>RARECARE surveillance of rare cancers in Europe[REG]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="it">Incidenza annuale</Name>
++        <Prevalence id="16538">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
++          <PrevalenceQualification id="23704">
++            <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.15</ValMoy>
++          <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+@@ -77420,10 +77268,10 @@
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2612">
+-          <Source>RARECARE surveillance of rare cancers in Europe[REG]</Source>
+-          <PrevalenceType id="23690">
+-            <Name lang="it">Prevalenza nel corso della vita</Name>
++        <Prevalence id="2610">
++          <Source>Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="it">Value and class</Name>
+@@ -77431,33 +77279,14 @@
+           <PrevalenceClass id="23746">
+             <Name lang="it">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.75</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <ValMoy>8.14</ValMoy>
++          <PrevalenceGeographic id="25482">
++            <Name lang="it">United States</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2613">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="it">Prevalenza puntuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="it">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="it">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="1031">
+@@ -89899,7 +89728,7 @@
+     <Disorder id="1470">
+       <OrphaCode>1226</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1226</ExpertLink>
+-      <Name lang="it">Sindrome di Bamforth</Name>
++      <Name lang="it">Sindrome di Bamforth-Lazarus</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -109972,7 +109801,7 @@
+     <Disorder id="2199">
+       <OrphaCode>2347</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2347</ExpertLink>
+-      <Name lang="it">Displasia Kniest-simile, forma letale</Name>
++      <Name lang="it">Displasia letale simile alla sindrome di Knieste</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -160230,6 +160059,38 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="18690">
++      <OrphaCode>210159</OrphaCode>
++      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=210159</ExpertLink>
++      <Name lang="it">Carcinoma epatocellulare dell'adulto</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
++      </DisorderGroup>
++      <PrevalenceList count="1">
++        <Prevalence id="16523">
++          <Source>PMID: 22033323</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="it">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.22</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="it">Europa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="3523">
+       <OrphaCode>3283</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3283</ExpertLink>
+@@ -176717,7 +176578,7 @@
+     <Disorder id="18948">
+       <OrphaCode>221142</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=221142</ExpertLink>
+-      <Name lang="it">Atrofia maculare Confetti-simile</Name>
++      <Name lang="it">Atrofia maculare simil-coriandoli</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -186219,7 +186080,7 @@
+     <Disorder id="4041">
+       <OrphaCode>285</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=285</ExpertLink>
+-      <Name lang="it">Sindrome di Ehlers-Danlos, tipo ipermobile</Name>
++      <Name lang="it">Sindrome di Ehlers-Danlos tipo ipermobile</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -186528,7 +186389,7 @@
+     <Disorder id="4048">
+       <OrphaCode>839</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=839</ExpertLink>
+-      <Name lang="it">Sindrome nefrosica congenita, tipo finlandese</Name>
++      <Name lang="it">Sindrome nefrosica congenita tipo finlandese</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -209196,19 +209057,19 @@
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="5002">
+-          <Source>[EXPERT]_European Medicines Agency[INST]</Source>
++          <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
++          <PrevalenceQualification id="23704">
++            <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="it">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+-          <ValMoy>11.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="it">Validated</Name>
+@@ -211537,7 +211398,7 @@
+     <Disorder id="20495">
+       <OrphaCode>280671</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=280671</ExpertLink>
+-      <Name lang="it">Distrofia muscolare congenita da difetto della biosintesi della fosfatidilcolina</Name>
++      <Name lang="it">Distrofia muscolare megaconiale congenita</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -223539,7 +223400,7 @@
+     <Disorder id="23719">
+       <OrphaCode>457279</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=457279</ExpertLink>
+-      <Name lang="it">Sindrome disabilità intellettiva - macrocefalia - ipotonia - anomalie del comportamento</Name>
++      <Name lang="it">Sindrome da disabilità intellettiva, macrocefalia, ipotonia e anomalie del comportamento</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -232606,11 +232467,11 @@
+       <OrphaCode>391320</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=391320</ExpertLink>
+       <Name lang="it">Disturbo emorragico del Texas dell'Est</Name>
+-      <DisorderType id="21394">
+-        <Name lang="it">Malattia</Name>
++      <DisorderType id="21443">
++        <Name lang="it">Sottotipo eziologico</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="it">Malattia</Name>
++      <DisorderGroup id="36554">
++        <Name lang="it">Sottotipo della malattia</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="10512">
+@@ -240744,8 +240605,46 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="5081">
++      <PrevalenceList count="5">
++        <Prevalence id="16532">
++          <Source>PMID: 21039677</Source>
++          <PrevalenceType id="23669">
++            <Name lang="it">Prevalenza puntuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="it">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.7</ValMoy>
++          <PrevalenceGeographic id="25335">
++            <Name lang="it">Sweden</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16533">
++          <Source>PMID: 21039677</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="it">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.7</ValMoy>
++          <PrevalenceGeographic id="25335">
++            <Name lang="it">Sweden</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16534">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+@@ -240753,15 +240652,51 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="it">Europa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16535">
++          <Source>PMID: 28180235</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>2.75</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="it">Italy</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16536">
++          <Source>PMID: 21039677 ; 28180235</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
+           <PrevalenceClass id="23746">
+             <Name lang="it">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
++          <ValMoy>1.72</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -253991,7 +253926,7 @@
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+-        <Prevalence id="5325">
++        <Prevalence id="16531">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+@@ -253999,15 +253934,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="it">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -254023,37 +253958,39 @@
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+-        <Prevalence id="5326">
+-          <Source>28233358[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="it">Cases/families</Name>
++        <Prevalence id="16527">
++          <Source>PMID: 24616761</Source>
++          <PrevalenceType id="23683">
++            <Name lang="it">Prevalenza alla nascita</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="it">Case</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>107.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="it">Mondiale</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="it">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.12</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="it">United Kingdom</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5327">
+-          <Source>ORPHANET_28233358[PMID]</Source>
++        <Prevalence id="16537">
++          <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="it">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="it">Mondiale</Name>
++          <PrevalenceGeographic id="23795">
++            <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="it">Validated</Name>
+@@ -263331,7 +263268,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="5280">
+-          <Source>European Medicines Agency 2015[INST]</Source>
++          <Source>PMID: 32001536</Source>
+           <PrevalenceType id="23669">
+             <Name lang="it">Prevalenza puntuale</Name>
+           </PrevalenceType>
+@@ -263341,7 +263278,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="it">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.2</ValMoy>
++          <ValMoy>0.16</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+@@ -272751,7 +272688,26 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
++      <PrevalenceList count="4">
++        <Prevalence id="16526">
++          <Source>EXPERT</Source>
++          <PrevalenceType id="23669">
++            <Name lang="it">Prevalenza puntuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="it">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+         <Prevalence id="16440">
+           <Source>PMID: 28356407</Source>
+           <PrevalenceType id="23676">
+@@ -276603,7 +276559,7 @@
+             <Name lang="it">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>20.0</ValMoy>
++          <ValMoy>49.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+@@ -277594,7 +277550,7 @@
+     <Disorder id="10858">
+       <OrphaCode>64754</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=64754</ExpertLink>
+-      <Name lang="it">Sindrome del neo comedonico</Name>
++      <Name lang="it">Sindrome del nevo comedonico</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -308998,15 +308954,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="it">Europa</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -322807,26 +322763,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="6829">
+-          <Source>23148499[PMID]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="it">Incidenza annuale</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="it">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="it">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.1</ValMoy>
+-          <PrevalenceGeographic id="25335">
+-            <Name lang="it">Sweden</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="it">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="1">
+         <Prevalence id="10620">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+@@ -322835,15 +322772,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="it">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="it">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="it">Sconosciuto</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="it">Europa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="it">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -339577,6 +339514,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29566">
++      <OrphaCode>592574</OrphaCode>
++      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=592574</ExpertLink>
++      <Name lang="it">Sindrome di Menke-Hennekam</Name>
++      <DisorderType id="21401">
++        <Name lang="it">Sindrome malformativa</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16524">
++          <Source>PMID: 27311832; 29460469; 30892814</Source>
++          <PrevalenceType id="23697">
++            <Name lang="it">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="it">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>27.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16525">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="it">Prevalenza puntuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="it">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="it">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="14245">
+       <OrphaCode>99672</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99672</ExpertLink>
+@@ -342349,6 +342335,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29432">
++      <OrphaCode>589527</OrphaCode>
++      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=589527</ExpertLink>
++      <Name lang="it">Atassia spinocerebellare tipo 45</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16540">
++          <Source>PMID: 29053796 ; 29847346</Source>
++          <PrevalenceType id="23697">
++            <Name lang="it">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="it">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>7.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16541">
++          <Source>PMID: 29053796 ; 29847346</Source>
++          <PrevalenceType id="23669">
++            <Name lang="it">Prevalenza puntuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="it">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="it">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="29431">
+       <OrphaCode>589522</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=589522</ExpertLink>
+@@ -342370,8 +342405,8 @@
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+           <ValMoy>1.0</ValMoy>
+-          <PrevalenceGeographic id="24936">
+-            <Name lang="it">Netherlands</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="it">Validated</Name>
+@@ -349303,7 +349338,7 @@
+     <Disorder id="14067">
+       <OrphaCode>99050</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99050</ExpertLink>
+-      <Name lang="it">Arteria polmonare che nasce dall'aorta</Name>
++      <Name lang="it">Anomala origine dell'arteria polmonare destra o sinistra dall'aorta</Name>
+       <DisorderType id="21415">
+         <Name lang="it">Anomalia morfologica</Name>
+       </DisorderType>
+@@ -350513,6 +350548,76 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29051">
++      <OrphaCode>583861</OrphaCode>
++      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=583861</ExpertLink>
++      <Name lang="it">Trombosi isolata della vena mesenterica</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
++      </DisorderGroup>
++      <PrevalenceList count="3">
++        <Prevalence id="16542">
++          <Source>PMID: 18720461; 25917534</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="it">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>1.6</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="it">Europa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16543">
++          <Source>PMID: 25917534</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="it">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.5</ValMoy>
++          <PrevalenceGeographic id="24362">
++            <Name lang="it">Finland</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16544">
++          <Source>PMID: 18720461</Source>
++          <PrevalenceType id="23676">
++            <Name lang="it">Incidenza annuale</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="it">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="it">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.7</ValMoy>
++          <PrevalenceGeographic id="25335">
++            <Name lang="it">Sweden</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="13732">
+       <OrphaCode>98715</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=98715</ExpertLink>
+@@ -351828,7 +351933,24 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="1">
++      <PrevalenceList count="2">
++        <Prevalence id="16434">
++          <Source>PMID: 29555651</Source>
++          <PrevalenceType id="23697">
++            <Name lang="it">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="it">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>4.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="it">Mondiale</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="it">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+         <Prevalence id="16487">
+           <Source>PMID: 29555651</Source>
+           <PrevalenceType id="23669">

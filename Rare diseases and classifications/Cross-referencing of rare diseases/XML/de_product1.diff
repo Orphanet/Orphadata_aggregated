@@ -1,0 +1,2721 @@
+commit df4bbec30a36ad0ab0af6d3588a36df3686578ff
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Oct 3 10:11:04 2021 +0200
+
+    OCT 2021
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml
+old mode 100755
+new mode 100644
+index 2aceb34..5c33212
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/de_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-09-01 04:35:10" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-10-01 04:35:24" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10572">
++  <DisorderList count="10583">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
+@@ -1246,14 +1246,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="17610">
+@@ -4638,7 +4631,7 @@
+     <Disorder id="17635">
+       <OrphaCode>166308</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166308</ExpertLink>
+-      <Name lang="de">Fokalepilepsie, beninge infantile, mit Midline-Spikes und Waves im Schlaf</Name>
++      <Name lang="de">Fokalepilepsie, benigne infantile, mit Midline-Spikes und Waves im Schlaf</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -5231,7 +5224,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Krampfanfälle, beninge infantile partielle</Synonym>
++        <Synonym lang="de">Krampfanfälle, benigne infantile partielle</Synonym>
+       </SynonymList>
+       <DisorderType id="21436">
+         <Name lang="de">Phenom-Gruppe</Name>
+@@ -5473,14 +5466,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="17642">
+@@ -10689,14 +10675,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="97">
+@@ -21200,7 +21179,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="220" cycle="true"/>
++          <RootDisorder id="22112">
++            <OrphaCode>352740</OrphaCode>
++            <Name lang="de">Okulärer Albinismus mit kongenitaler sensorineuraler Schwerhörigkeit</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="de">Verschoben nach</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+         <SummaryInformation id="22164" lang="de">
+@@ -31412,7 +31401,7 @@
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="de">Inklusionszyste, multilokuläre peritoneale</Synonym>
+-        <Synonym lang="de">Mesotheliom, beninges mulitzystisches peritoneales</Synonym>
++        <Synonym lang="de">Mesotheliom, benignes mulitzystisches peritoneales</Synonym>
+         <Synonym lang="de">Mesotheliom, multizystisches</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+@@ -38539,14 +38528,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="446">
+@@ -43243,14 +43225,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="17682">
+@@ -44093,14 +44068,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="457">
+@@ -47945,14 +47913,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18155">
+@@ -48948,14 +48909,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="560">
+@@ -66760,14 +66714,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="658">
+@@ -67044,14 +66991,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="659">
+@@ -69261,14 +69201,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="738">
+@@ -69733,14 +69666,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="741">
+@@ -94199,14 +94125,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="906">
+@@ -98321,14 +98240,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18202">
+@@ -99042,14 +98954,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18199">
+@@ -101096,14 +101001,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="965">
+@@ -112250,9 +112148,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -151746,14 +151644,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="1676">
+@@ -152416,14 +152307,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="1674">
+@@ -163237,14 +163121,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2000">
+@@ -164337,14 +164214,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2014">
+@@ -164485,14 +164355,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2015">
+@@ -175559,14 +175422,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2233">
+@@ -176105,14 +175961,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2227">
+@@ -176402,14 +176251,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19574">
+@@ -176434,14 +176276,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19573">
+@@ -183038,14 +182873,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2071">
+@@ -183442,14 +183270,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19674">
+@@ -184078,14 +183899,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19648">
+@@ -184110,14 +183924,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2050">
+@@ -184567,14 +184374,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19652">
+@@ -196854,7 +196654,7 @@
+       </DisorderFlagList>
+       <SynonymList count="5">
+         <Synonym lang="de">Atmungsketten-Störung, infantile reversible Form</Synonym>
+-        <Synonym lang="de">COX-Mangel, beninger</Synonym>
++        <Synonym lang="de">COX-Mangel, benigner</Synonym>
+         <Synonym lang="de">Cytochrom-c-Oxidase-Mangel des Kindes, reversibel</Synonym>
+         <Synonym lang="de">Myopathie, mitochondriale, mit reversiblem COX-Mangel</Synonym>
+         <Synonym lang="de">Myopathie, mitochondriale, mit reversiblem Komplex IV-Mangel</Synonym>
+@@ -208823,14 +208623,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2558">
+@@ -209046,14 +208839,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19769">
+@@ -210027,7 +209813,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Hyperferritinämie, beninge</Synonym>
++        <Synonym lang="de">Hyperferritinämie, benigne</Synonym>
+       </SynonymList>
+       <DisorderType id="21408">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -234897,7 +234683,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Mikropthalmie mit Intelligenzminderung</Synonym>
++        <Synonym lang="de">Mikrophthalmie mit Intelligenzminderung</Synonym>
+       </SynonymList>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+@@ -236283,14 +236069,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20192">
+@@ -238115,14 +237894,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20188">
+@@ -242951,14 +242723,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20113">
+@@ -244811,14 +244576,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2634">
+@@ -244908,14 +244666,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2635">
+@@ -245032,14 +244783,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20109">
+@@ -245601,14 +245345,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20333">
+@@ -245647,14 +245384,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20334">
+@@ -245706,14 +245436,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2991">
+@@ -245876,14 +245599,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2985">
+@@ -246173,14 +245889,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2986">
+@@ -246299,14 +246008,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2981">
+@@ -247996,14 +247698,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20346">
+@@ -248818,14 +248513,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2993">
+@@ -276585,14 +276273,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18541">
+@@ -280547,14 +280228,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3187">
+@@ -284977,7 +284651,7 @@
+     <Disorder id="18678">
+       <OrphaCode>209973</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=209973</ExpertLink>
+-      <Name lang="de">Alternierende Hemiplegie des Kindesalters, beninge nächtliche</Name>
++      <Name lang="de">Benigne nächtliche alternierende Hemiplegie im Kindesalter</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -291927,14 +291601,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3572">
+@@ -293038,14 +292705,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3577">
+@@ -301260,14 +300920,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3399">
+@@ -306142,14 +305795,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3441">
+@@ -315939,7 +315585,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="11">
++      <ExternalReferenceList count="12">
+         <ExternalReference id="145480">
+           <Source>GARD</Source>
+           <Reference>4894</Reference>
+@@ -315973,6 +315619,19 @@
+             <Name lang="de">Validiert</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
++        <ExternalReference id="200334">
++          <Source>ICD-10</Source>
++          <Reference>C91.8</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="de">BTNT (der im ORPHA-Code verwendete Broader Term wird Zuordnung auf einen Narrower Term abgebildet)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21583">
++            <Name lang="de">Spezifischer Code (Der ORPHA-Code hat seinen eigenen Code im ICD10)</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
+         <ExternalReference id="112356">
+           <Source>MedDRA</Source>
+           <Reference>10006595</Reference>
+@@ -316006,11 +315665,11 @@
+             <Name lang="de">Validiert</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="112364">
++        <ExternalReference id="200335">
+           <Source>ICD-10</Source>
+           <Reference>C83.7</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="de">Genaues Mapping (der Begriff und das Konzept ist äquivalent)</Name>
++          <DisorderMappingRelation id="21541">
++            <Name lang="de">BTNT (der im ORPHA-Code verwendete Broader Term wird Zuordnung auf einen Narrower Term abgebildet)</Name>
+           </DisorderMappingRelation>
+           <DisorderMappingICDRelation id="21583">
+             <Name lang="de">Spezifischer Code (Der ORPHA-Code hat seinen eigenen Code im ICD10)</Name>
+@@ -316889,7 +316548,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19029" cycle="true"/>
++          <RootDisorder id="19034">
++            <OrphaCode>226310</OrphaCode>
++            <Name lang="de">Hypothyreose, periphere</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="de">Verwiesen auf</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+         <SummaryInformation id="67228" lang="de">
+@@ -318059,9 +317728,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -318074,9 +317743,26 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19029">
++            <OrphaCode>226292</OrphaCode>
++            <Name lang="de">Hypothyreose, kongenitale permanente</Name>
++          </TargetDisorder>
++          <RootDisorder id="19034" cycle="true"/>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="de">Verwiesen auf</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Diese Entität wurde aus der Orphanet-Nomenklatur der seltenen Krankheiten gestrichen.&lt;br/&gt;&lt;br/&gt;Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.&lt;br/&gt;&lt;br/&gt;Ziehen Sie in Betracht, stattdessen nachfolgenden Begriff zu verwenden:  Hypothyreose, kongenitale permanente</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3739">
+@@ -332827,14 +332513,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19297">
+@@ -332872,14 +332551,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="19298">
+@@ -335752,14 +335424,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21992">
+@@ -336630,14 +336295,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21957">
+@@ -337755,14 +337413,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21947">
+@@ -347481,14 +347132,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21650">
+@@ -347845,14 +347489,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21659">
+@@ -350010,7 +349647,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Diese Krankheit wird beschrieben unter  AL-Amyloidose</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21516">
+@@ -350116,7 +349760,14 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Diese Krankheit wird beschrieben unter  AL-Amyloidose</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21513">
+@@ -359872,14 +359523,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22312">
+@@ -363787,7 +363431,15 @@
+       <OrphaCode>352740</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=352740</ExpertLink>
+       <Name lang="de">Okulärer Albinismus mit kongenitaler sensorineuraler Schwerhörigkeit</Name>
+-      <DisorderFlagList count="1">
++      <DisorderFlagList count="3">
++        <DisorderFlag id="495">
++          <Value>8192</Value>
++          <Label>Inactive</Label>
++        </DisorderFlag>
++        <DisorderFlag id="459">
++          <Value>256</Value>
++          <Label>Deprecated entity</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+@@ -363804,9 +363456,26 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="220">
++            <OrphaCode>895</OrphaCode>
++            <Name lang="de">Waardenburg-Syndrom Typ 2</Name>
++          </TargetDisorder>
++          <RootDisorder id="22112" cycle="true"/>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="de">Verschoben nach</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="de">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="de">Diese Entität wurde aus der Orphanet-Nomenklatur der seltenen Krankheiten gestrichen und verschoben nach  Waardenburg-Syndrom Typ 2</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22142">
+@@ -376829,14 +376498,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20629">
+@@ -379347,14 +379009,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20526">
+@@ -394559,14 +394214,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21147">
+@@ -395200,14 +394848,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21142">
+@@ -395336,14 +394977,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21184">
+@@ -396631,14 +396265,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21243">
+@@ -402172,14 +401799,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24019">
+@@ -402740,14 +402360,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24028">
+@@ -406263,14 +405876,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23763">
+@@ -410098,14 +409704,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24154">
+@@ -410177,14 +409776,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24151">
+@@ -415163,14 +414755,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22945">
+@@ -416628,14 +416213,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23018">
+@@ -420652,11 +420230,11 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
++      <DisorderType id="21443">
++        <Name lang="de">Ätiologischer Subtyp</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
+       </DisorderGroup>
+       <ExternalReferenceList count="3">
+         <ExternalReference id="86186">
+@@ -421102,14 +420680,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22715">
+@@ -425342,14 +424913,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22741">
+@@ -425425,14 +424989,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22743">
+@@ -430479,14 +430036,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23422">
+@@ -439005,14 +438555,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23164">
+@@ -440324,14 +439867,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23191">
+@@ -440673,14 +440209,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23178">
+@@ -441048,14 +440577,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23169">
+@@ -441266,14 +440788,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23172">
+@@ -441390,20 +440905,13 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23231">
+       <OrphaCode>431140</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=431140</ExpertLink>
+-      <Name lang="de">X-chromosomale kolobomatöse Mikropthalmie-Mikrozephalie-Intelligenzminderung-Kleinwuchs-Syndrom</Name>
++      <Name lang="de">X-chromosomale kolobomatöse Mikrophthalmie-Mikrozephalie-Intelligenzminderung-Kleinwuchs-Syndrom</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -441471,14 +440979,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23208">
+@@ -451284,7 +450785,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="3">
++      <ExternalReferenceList count="5">
+         <ExternalReference id="154906">
+           <Source>OMIM</Source>
+           <Reference>275355</Reference>
+@@ -451296,7 +450797,7 @@
+             <Name lang="de">Validiert</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="194014">
++        <ExternalReference id="200331">
+           <Source>ICD-10</Source>
+           <Reference>C12</Reference>
+           <DisorderMappingRelation id="21541">
+@@ -451305,11 +450806,11 @@
+           <DisorderMappingICDRelation id="21604">
+             <Name lang="de">Zugewiesen (Der ICD10-Code wird von Orphanet zugewiesen)</Name>
+           </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21618">
+-            <Name lang="de">Noch nicht validiert</Name>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="194015">
++        <ExternalReference id="200332">
+           <Source>ICD-10</Source>
+           <Reference>C13.8</Reference>
+           <DisorderMappingRelation id="21541">
+@@ -451318,8 +450819,34 @@
+           <DisorderMappingICDRelation id="21604">
+             <Name lang="de">Zugewiesen (Der ICD10-Code wird von Orphanet zugewiesen)</Name>
+           </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21618">
+-            <Name lang="de">Noch nicht validiert</Name>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="200333">
++          <Source>ICD-10</Source>
++          <Reference>C13.0</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="de">BTNT (der im ORPHA-Code verwendete Broader Term wird Zuordnung auf einen Narrower Term abgebildet)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21604">
++            <Name lang="de">Zugewiesen (Der ICD10-Code wird von Orphanet zugewiesen)</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="200330">
++          <Source>ICD-10</Source>
++          <Reference>C13.2</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="de">BTNT (der im ORPHA-Code verwendete Broader Term wird Zuordnung auf einen Narrower Term abgebildet)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21604">
++            <Name lang="de">Zugewiesen (Der ICD10-Code wird von Orphanet zugewiesen)</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+@@ -466464,14 +465991,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25312">
+@@ -470356,14 +469876,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25148">
+@@ -470388,14 +469901,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25150">
+@@ -470471,14 +469977,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25091">
+@@ -470529,14 +470028,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25089">
+@@ -470613,14 +470105,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25093">
+@@ -481583,14 +481068,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10851">
+@@ -483718,14 +483196,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Diese Krankheit ist in Europa nicht selten. Sie gehört nicht zur Orphanet-Nomenklatur der seltenen Krankheiten.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10818">
+@@ -484369,14 +483840,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10827">
+@@ -484487,14 +483951,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10825">
+@@ -493258,14 +492715,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11189">
+@@ -501542,9 +500992,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -504860,14 +504310,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="27660">
+@@ -505905,14 +505348,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10475">
+@@ -518085,14 +517521,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10745">
+@@ -524837,14 +524266,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="10607">
+@@ -527702,14 +527124,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="28123">
+@@ -528592,14 +528007,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="27249">
+@@ -537254,14 +536662,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11981">
+@@ -541894,7 +541295,7 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="de">Beninge myoklonische Epilepsie des Kindesalters</Synonym>
++        <Synonym lang="de">Benigne myoklonische Epilepsie des Kindesalters</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+@@ -559827,14 +559228,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12103">
+@@ -561160,14 +560554,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11422">
+@@ -580749,14 +580136,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11752">
+@@ -589501,8 +588881,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
++      <DisorderType id="21415">
++        <Name lang="de">Morphologische Anomalie</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+@@ -591204,6 +590584,42 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30684">
++      <OrphaCode>610573</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=610573</ExpertLink>
++      <Name lang="de">CLCN6-related childhood onset progressive neurodegeneration-peripheral neuropathy-syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="1">
++        <ExternalReference id="200356">
++          <Source>OMIM</Source>
++          <Reference>619173</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="de">Genaues Mapping (der Begriff und das Konzept ist äquivalent)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13086">
+       <OrphaCode>98068</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98068</ExpertLink>
+@@ -591393,6 +590809,42 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30683">
++      <OrphaCode>610569</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=610569</ExpertLink>
++      <Name lang="de">KIAA1109-related early lethal-congenital brain mlaformations-arthrogryposis-syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="1">
++        <ExternalReference id="200353">
++          <Source>OMIM</Source>
++          <Reference>617822</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="de">Genaues Mapping (der Begriff und das Konzept ist äquivalent)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="de">Validiert</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13082">
+       <OrphaCode>98064</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98064</ExpertLink>
+@@ -593218,6 +592670,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30477">
++      <OrphaCode>600691</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=600691</ExpertLink>
++      <Name lang="de">Faktor VII und Faktor X, kombinierter Mangel</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="30478">
+       <OrphaCode>600731</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=600731</ExpertLink>
+@@ -594946,14 +594423,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12869">
+@@ -599390,7 +598860,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="de">Krankheitsdefinition</Name>
+               </TextSectionType>
+-              <Contents>Das Cushing-Syndrom (CD) ist die häufigste Form des endogenen Cushing-Syndroms (CS; siehe diesen Begriff). Ursache ist ein hypophysäres kortikotrophes Adenom, das chronisch vermehrt ACTH sezerniert.</Contents>
++              <Contents>Die Cushing-Krankheit (CD) ist die häufigste Form des endogenen Cushing-Syndroms (CS; siehe diesen Begriff). Ursache ist ein hypophysäres kortikotrophes Adenom, das chronisch vermehrt ACTH sezerniert.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -601048,6 +600518,31 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30241">
++      <OrphaCode>600194</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=600194</ExpertLink>
++      <Name lang="de">Gerinnungsstörung, Faktor V-Atlanta</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21443">
++        <Name lang="de">Ätiologischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13028">
+       <OrphaCode>98010</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=98010</ExpertLink>
+@@ -603280,14 +602775,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12665">
+@@ -603325,14 +602813,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12647">
+@@ -606165,14 +605646,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12580">
+@@ -615784,6 +615258,56 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29927">
++      <OrphaCode>599480</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599480</ExpertLink>
++      <Name lang="de">Hämophilie A, erworbene</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29928">
++      <OrphaCode>599485</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599485</ExpertLink>
++      <Name lang="de">Hämophilie B, erworbene</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12328">
+       <OrphaCode>93406</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93406</ExpertLink>
+@@ -615890,6 +615414,31 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29929">
++      <OrphaCode>599490</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599490</ExpertLink>
++      <Name lang="de">Faktor V-Mangel, erworbener</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12331">
+       <OrphaCode>93409</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93409</ExpertLink>
+@@ -615974,6 +615523,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29931">
++      <OrphaCode>599501</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599501</ExpertLink>
++      <Name lang="de">Faktor X-Mangel, erworbener</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12333">
+       <OrphaCode>93419</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93419</ExpertLink>
+@@ -616010,6 +615584,56 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29932">
++      <OrphaCode>599507</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599507</ExpertLink>
++      <Name lang="de">Faktor XI-Mangel, erworbener</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29933">
++      <OrphaCode>599513</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599513</ExpertLink>
++      <Name lang="de">Faktor XIII-Mangel, erworbener</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12335">
+       <OrphaCode>93421</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93421</ExpertLink>
+@@ -616074,6 +615698,31 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29935">
++      <OrphaCode>599579</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599579</ExpertLink>
++      <Name lang="de">Gerinnungsstörung, Faktor V-Amsterdam</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21443">
++        <Name lang="de">Ätiologischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12336">
+       <OrphaCode>93422</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93422</ExpertLink>
+@@ -648832,14 +648481,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13694">
+@@ -649322,14 +648964,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13686">
+@@ -649718,14 +649353,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13675">
+@@ -651730,14 +651358,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="29044">
+@@ -661821,14 +661442,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13503">
+@@ -662064,14 +661678,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13445">
+@@ -668488,14 +668095,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14950">
+@@ -668533,14 +668133,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14957">
+@@ -677065,14 +676658,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14663">
+@@ -677107,14 +676693,7 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14662">
+@@ -678895,14 +678474,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="de">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="de">Dieser Terminus bezieht sich auf eine Krankheitsgruppe. Bitte nutzen Sie das Menu Klassifikation, um mehr über die Krankheiten zu erfahren, die sich unter diesem Sammelbegriff zusammenfassen lassen.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14649">

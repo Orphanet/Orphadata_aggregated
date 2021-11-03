@@ -1,0 +1,1898 @@
+commit df4bbec30a36ad0ab0af6d3588a36df3686578ff
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Oct 3 10:11:04 2021 +0200
+
+    OCT 2021
+
+diff --git a/Epidemiological data/Rare disease epidemiology/cs_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/cs_product9_prev.xml
+old mode 100755
+new mode 100644
+index fad75de..7528e05
+--- a/Epidemiological data/Rare disease epidemiology/cs_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/cs_product9_prev.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2021-09-01 04:49:54" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-10-01 04:50:31" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6030">
++  <DisorderList count="6034">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=166024</ExpertLink>
+@@ -5069,7 +5069,7 @@
+     <Disorder id="51">
+       <OrphaCode>848</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=848</ExpertLink>
+-      <Name lang="cs">beta-talasemie</Name>
++      <Name lang="cs">Beta-talasemie</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -5158,7 +5158,7 @@
+     <Disorder id="50">
+       <OrphaCode>846</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=846</ExpertLink>
+-      <Name lang="cs">alfa-talasemie</Name>
++      <Name lang="cs">Alfa-talasemie</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -15920,7 +15920,7 @@
+     <Disorder id="149">
+       <OrphaCode>96</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=96</ExpertLink>
+-      <Name lang="cs">Ataxie s deficitem vitamínu E</Name>
++      <Name lang="cs">Ataxie s deficitem vitaminu E</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -24360,28 +24360,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="4">
+-        <Prevalence id="882">
+-          <Source>17028542[PMID]_[EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.2</ValMoy>
+-          <PrevalenceGeographic id="24369">
+-            <Name lang="cs">Francie</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="cs">Ověřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="2">
+         <Prevalence id="883">
+-          <Source>20301321[PMID]</Source>
++          <Source>PMID: 20301321</Source>
+           <PrevalenceType id="23683">
+             <Name lang="cs">Prevalence při narození</Name>
+           </PrevalenceType>
+@@ -24400,7 +24381,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="884">
+-          <Source>20301321[PMID]</Source>
++          <Source>PMID: 20301321</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+@@ -24410,7 +24391,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="cs">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>4.0</ValMoy>
++          <ValMoy>2.0</ValMoy>
+           <PrevalenceGeographic id="24362">
+             <Name lang="cs">Finsko</Name>
+           </PrevalenceGeographic>
+@@ -24418,25 +24399,6 @@
+             <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="885">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="cs">Pouze třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="297">
+@@ -24519,28 +24481,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="5">
+-        <Prevalence id="889">
+-          <Source>[EXPERT]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="cs">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.9</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="cs">Ověřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="3">
+         <Prevalence id="890">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2005-2012[REG]</Source>
++          <Source>PMID: 18074387</Source>
+           <PrevalenceType id="23683">
+             <Name lang="cs">Prevalence při narození</Name>
+           </PrevalenceType>
+@@ -24550,7 +24493,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="cs">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.3</ValMoy>
++          <ValMoy>1.24</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="cs">Evropa</Name>
+           </PrevalenceGeographic>
+@@ -24559,7 +24502,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="891">
+-          <Source>22925539[PMID]</Source>
++          <Source>PMID: 22925539</Source>
+           <PrevalenceType id="23683">
+             <Name lang="cs">Prevalence při narození</Name>
+           </PrevalenceType>
+@@ -24596,25 +24539,6 @@
+             <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="893">
+-          <Source>9608092[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="cs">Prevalence při narození</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.97</ValMoy>
+-          <PrevalenceGeographic id="25293">
+-            <Name lang="cs">Španělsko</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="cs">Ověřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="301">
+@@ -29156,7 +29080,7 @@
+     <Disorder id="405">
+       <OrphaCode>36</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=36</ExpertLink>
+-      <Name lang="cs">Akrokalosální syndrom</Name>
++      <Name lang="cs">Akrokalózní syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -29787,7 +29711,7 @@
+     <Disorder id="17787">
+       <OrphaCode>168621</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=168621</ExpertLink>
+-      <Name lang="cs">Dysplázie hlavy femuru, Meyerův typ</Name>
++      <Name lang="cs">Dysplázie hlavice femuru, Meyerův typ</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -29819,7 +29743,7 @@
+     <Disorder id="443">
+       <OrphaCode>1452</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1452</ExpertLink>
+-      <Name lang="cs">Kleido-kraniální dysplázie</Name>
++      <Name lang="cs">Kleidokraniální dysplázie</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -37097,7 +37021,7 @@
+     <Disorder id="566">
+       <OrphaCode>2970</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2970</ExpertLink>
+-      <Name lang="cs">Syndrom svraštělého bříška</Name>
++      <Name lang="cs">Syndrom svraštělého břicha</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -49061,8 +48985,8 @@
+       <PrevalenceList count="1">
+         <Prevalence id="16495">
+           <Source>ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="cs">Prevalence při narození</Name>
++          <PrevalenceType id="23669">
++            <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+@@ -49074,8 +48998,8 @@
+           <PrevalenceGeographic id="23844">
+             <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -54961,23 +54885,23 @@
+         <Name lang="cs">Podtyp onemocnění</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+-        <Prevalence id="8483">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
++        <Prevalence id="16528">
++          <Source>PMID: 24616761</Source>
++          <PrevalenceType id="23683">
++            <Name lang="cs">Prevalence při narození</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="cs">Pouze třída</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="cs">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="cs">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <ValMoy>1.51</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="cs">Spojené království</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -55587,22 +55511,22 @@
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="8484">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
++          <Source>PMID: 24616761</Source>
++          <PrevalenceType id="23683">
++            <Name lang="cs">Prevalence při narození</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="cs">Pouze třída</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="cs">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23739">
++            <Name lang="cs">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <ValMoy>0.6</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="cs">Spojené království</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -56824,7 +56748,7 @@
+     <Disorder id="17938">
+       <OrphaCode>171839</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=171839</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující kraniosynostózu, hydrocefalus, Arnoldovu-Chiariho malformaci typ I, a radioulnární synostózu</Name>
++      <Name lang="cs">Syndrom zahrnující kraniosynostózu, hydrocefalus, Arnoldovu-Chiariho malformaci typu I, a radioulnární synostózu</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -60418,7 +60342,7 @@
+     <Disorder id="18403">
+       <OrphaCode>199332</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=199332</ExpertLink>
+-      <Name lang="cs">Syndrom endokrino-cerebro-osteodysplázie</Name>
++      <Name lang="cs">Syndrom endokrinocerebroosteodysplázie</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -73605,46 +73529,8 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
+-        <Prevalence id="2529">
+-          <Source>[EXPERT]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="cs">Prevalence při narození</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.33</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="cs">Ověřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2530">
+-          <Source>8482284[PMID]_ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="cs">Prevalence při narození</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="cs">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>19.0</ValMoy>
+-          <PrevalenceGeographic id="25006">
+-            <Name lang="cs">Norsko</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2531">
++      <PrevalenceList count="1">
++        <Prevalence id="16539">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+@@ -73652,15 +73538,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="cs">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -73770,7 +73656,7 @@
+     <Disorder id="931">
+       <OrphaCode>627</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=627</ExpertLink>
+-      <Name lang="cs">Nanceův-Horanův syndrom</Name>
++      <Name lang="cs">Nanceův-Horanové syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -74389,7 +74275,7 @@
+     <Disorder id="912">
+       <OrphaCode>373</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=373</ExpertLink>
+-      <Name lang="cs">Simpsonův-Golabiho-Behmelův syndrom</Name>
++      <Name lang="cs">Simpsonův-Golabiho-Behmelové syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -74445,9 +74331,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="1">
+         <Prevalence id="2504">
+-          <Source>23610123[PMID]</Source>
++          <Source>PMID: 23610123 &amp; ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+@@ -74461,27 +74347,8 @@
+           <PrevalenceGeographic id="23844">
+             <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2505">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="cs">Pouze třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="cs">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -77362,28 +77229,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="5">
+-        <Prevalence id="2609">
+-          <Source>Central Brain Tumor registry of the United States 2005[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="cs">Prevalence při narození</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="cs">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="cs">Spojené státy</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="cs">Ověřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2610">
+-          <Source>Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]</Source>
++      <PrevalenceList count="3">
++        <Prevalence id="16530">
++          <Source>PMID: 25249493</Source>
+           <PrevalenceType id="23676">
+             <Name lang="cs">Každoroční výskyt</Name>
+           </PrevalenceType>
+@@ -77393,26 +77241,26 @@
+           <PrevalenceClass id="23746">
+             <Name lang="cs">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>8.14</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="cs">Spojené státy</Name>
++          <ValMoy>4.15</ValMoy>
++          <PrevalenceGeographic id="24418">
++            <Name lang="cs">Německo</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2611">
+-          <Source>RARECARE surveillance of rare cancers in Europe[REG]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="cs">Každoroční výskyt</Name>
++        <Prevalence id="16538">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
++          <PrevalenceQualification id="23704">
++            <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.15</ValMoy>
++          <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="cs">Evropa</Name>
+           </PrevalenceGeographic>
+@@ -77420,10 +77268,10 @@
+             <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2612">
+-          <Source>RARECARE surveillance of rare cancers in Europe[REG]</Source>
+-          <PrevalenceType id="23690">
+-            <Name lang="cs">Celoživotní prevalence</Name>
++        <Prevalence id="2610">
++          <Source>Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="cs">Hodnota a třída</Name>
+@@ -77431,33 +77279,14 @@
+           <PrevalenceClass id="23746">
+             <Name lang="cs">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.75</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <ValMoy>8.14</ValMoy>
++          <PrevalenceGeographic id="25482">
++            <Name lang="cs">Spojené státy</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2613">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="cs">Bod prevalence</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="cs">Pouze třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="cs">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="1031">
+@@ -80924,7 +80753,7 @@
+     <Disorder id="1247">
+       <OrphaCode>920</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=920</ExpertLink>
+-      <Name lang="cs">Syndrom ablepharon-makrostomie</Name>
++      <Name lang="cs">Syndrom zahrnující ablefarii a makrostomii</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -81914,7 +81743,7 @@
+     <Disorder id="1279">
+       <OrphaCode>958</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=958</ExpertLink>
+-      <Name lang="cs">Akro-renální-mandibulární syndrom</Name>
++      <Name lang="cs">Akrorenomandibulární syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -82879,7 +82708,7 @@
+     <Disorder id="1366">
+       <OrphaCode>1072</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1072</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující ankyloblefaron filiforme a rozštěp patra</Name>
++      <Name lang="cs">Syndrom zahrnující ankyloblefaron filiforme adnatum a rozštěp patra</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -83188,7 +83017,7 @@
+     <Disorder id="1352">
+       <OrphaCode>1053</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1053</ExpertLink>
+-      <Name lang="cs">Aneurysma Galénovy žíly</Name>
++      <Name lang="cs">Aneuryzma Galénovy žíly</Name>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+       </DisorderType>
+@@ -84657,7 +84486,7 @@
+     <Disorder id="1291">
+       <OrphaCode>971</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=971</ExpertLink>
+-      <Name lang="cs">Akrorenální syndromy</Name>
++      <Name lang="cs">Akrorenální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -86457,7 +86286,7 @@
+     <Disorder id="1503">
+       <OrphaCode>1264</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1264</ExpertLink>
+-      <Name lang="cs">Tricho-retino-dento-digitální syndrom</Name>
++      <Name lang="cs">Trichoretinodentodigitální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -86653,7 +86482,7 @@
+     <Disorder id="1499">
+       <OrphaCode>1261</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1261</ExpertLink>
+-      <Name lang="cs">Bonnemanův-Meineckeho-Reichův syndrom</Name>
++      <Name lang="cs">Bonnemannův-Meineckeho-Reichův syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -86770,7 +86599,7 @@
+     <Disorder id="1476">
+       <OrphaCode>1231</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1231</ExpertLink>
+-      <Name lang="cs">Berberův-Sayův syndrom</Name>
++      <Name lang="cs">Barberův-Sayův syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -87471,7 +87300,7 @@
+     <Disorder id="1533">
+       <OrphaCode>1299</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1299</ExpertLink>
+-      <Name lang="cs">Branchio-skeleto-genitální syndrom</Name>
++      <Name lang="cs">Branchioskeletogenitální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -87814,7 +87643,7 @@
+     <Disorder id="1530">
+       <OrphaCode>1297</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1297</ExpertLink>
+-      <Name lang="cs">Branchio-okulo-faciální syndrom</Name>
++      <Name lang="cs">Branchiookulofaciální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -93097,7 +92926,7 @@
+     <Disorder id="1612">
+       <OrphaCode>1412</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1412</ExpertLink>
+-      <Name lang="cs">Syndrom tarzální-karpální koalice</Name>
++      <Name lang="cs">Syndrom tarzální a karpální koalice</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -93485,7 +93314,7 @@
+     <Disorder id="17051">
+       <OrphaCode>141163</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=141163</ExpertLink>
+-      <Name lang="cs">Glossopalatinní ankylóza</Name>
++      <Name lang="cs">Glosopalatální ankylóza</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -95289,7 +95118,7 @@
+     <Disorder id="1537">
+       <OrphaCode>1307</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1307</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující defekty distálních částí končetin a mikrognacii</Name>
++      <Name lang="cs">Syndrom zahrnující defekty distálních částí končetin a mikrognatii</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -95338,7 +95167,7 @@
+     <Disorder id="1539">
+       <OrphaCode>1313</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1313</ExpertLink>
+-      <Name lang="cs">Syndrom infantilní choroidocerebrální calcifikace</Name>
++      <Name lang="cs">Syndrom infantilní choroidocerebrální kalcifikace</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -97826,7 +97655,7 @@
+     <Disorder id="1749">
+       <OrphaCode>1660</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1660</ExpertLink>
+-      <Name lang="cs">Dermo-odonto dysplázie</Name>
++      <Name lang="cs">Dermoodonto dysplázie</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -100273,7 +100102,7 @@
+     <Disorder id="1676">
+       <OrphaCode>1509</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1509</ExpertLink>
+-      <Name lang="cs">Coxopodopatelární syndrom</Name>
++      <Name lang="cs">Koxopodopatelární syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -100420,7 +100249,7 @@
+     <Disorder id="1675">
+       <OrphaCode>1508</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1508</ExpertLink>
+-      <Name lang="cs">Coxoaurikulární syndrom</Name>
++      <Name lang="cs">Koxoaurikulární syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -102090,7 +101919,7 @@
+     <Disorder id="1880">
+       <OrphaCode>1917</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1917</ExpertLink>
+-      <Name lang="cs">Fetální methylrtuťový syndrom</Name>
++      <Name lang="cs">Fetální metylrtuťový syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -102544,7 +102373,7 @@
+     <Disorder id="1870">
+       <OrphaCode>1908</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1908</ExpertLink>
+-      <Name lang="cs">Aminopterinová/methotrexátová embryofetopatie</Name>
++      <Name lang="cs">Aminopterinová/metotrexátová embryofetopatie</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -106542,7 +106371,7 @@
+     <Disorder id="1991">
+       <OrphaCode>2075</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2075</ExpertLink>
+-      <Name lang="cs">Genito-palato-kardiální syndrom</Name>
++      <Name lang="cs">Genitopalatokardiální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -107439,7 +107268,7 @@
+     <Disorder id="1982">
+       <OrphaCode>2063</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2063</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující splenogonadální fúzi, končetinové defekty a mikrognacii</Name>
++      <Name lang="cs">Syndrom zahrnující splenogonadální fúzi, končetinové defekty a mikrognatii</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -107488,7 +107317,7 @@
+     <Disorder id="1983">
+       <OrphaCode>2064</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2064</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující zadní fúzi lubosakrálních obratlů a blefaroptózu</Name>
++      <Name lang="cs">Syndrom zahrnující zadní fúzi lumbosakrálních obratlů a blefaroptózu</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -108998,7 +108827,7 @@
+     <Disorder id="1945">
+       <OrphaCode>2008</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2008</ExpertLink>
+-      <Name lang="cs">Akro-kardio-faciální syndrom</Name>
++      <Name lang="cs">Akrokardiofaciální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -109145,7 +108974,7 @@
+     <Disorder id="1934">
+       <OrphaCode>1997</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1997</ExpertLink>
+-      <Name lang="cs">Blefaro-cheilo-odontický syndrom</Name>
++      <Name lang="cs">Blefarocheiloodontický syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -109292,7 +109121,7 @@
+     <Disorder id="1928">
+       <OrphaCode>1988</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1988</ExpertLink>
+-      <Name lang="cs">Femoro-faciální syndrom</Name>
++      <Name lang="cs">Femorofaciální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -110754,7 +110583,7 @@
+     <Disorder id="2178">
+       <OrphaCode>2323</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2323</ExpertLink>
+-      <Name lang="cs">Sanjadův-Sakatiho syndrom</Name>
++      <Name lang="cs">Sanjadův-Sakatiové syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -113803,7 +113632,7 @@
+     <Disorder id="2284">
+       <OrphaCode>2471</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2471</ExpertLink>
+-      <Name lang="cs">McDonoughův syndrom</Name>
++      <Name lang="cs">McDonoughových syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -115157,7 +114986,7 @@
+     <Disorder id="2051">
+       <OrphaCode>2152</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2152</ExpertLink>
+-      <Name lang="cs">Mowatův-Wilsonův syndrom</Name>
++      <Name lang="cs">Mowatův-Wilsonové syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -122088,7 +121917,7 @@
+     <Disorder id="2489">
+       <OrphaCode>2728</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2728</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující blefarofimózu a mentální retardaci, Ohdoův typ</Name>
++      <Name lang="cs">Syndrom zahrnující blefarofimózu a mentální retardaci, Ohdův typ</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -124921,7 +124750,7 @@
+     <Disorder id="2535">
+       <OrphaCode>2787</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2787</ExpertLink>
+-      <Name lang="cs">Syndrom zarhnující osteoporózu, makrocefalii, slepotu a kloubní hyperlaxitu</Name>
++      <Name lang="cs">Syndrom zahrnující osteoporózu, makrocefalii, slepotu a kloubní hyperlaxitu</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -126393,7 +126222,7 @@
+     <Disorder id="2309">
+       <OrphaCode>2497</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2497</ExpertLink>
+-      <Name lang="cs">Mezomelická dysplázie horní končetiny</Name>
++      <Name lang="cs">Mezomelická dysplázie horních končetin</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -131285,7 +131114,7 @@
+     <Disorder id="20072">
+       <OrphaCode>263558</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=263558</ExpertLink>
+-      <Name lang="cs">Generalizovaný syndrom loupajíci se kůže, typ C</Name>
++      <Name lang="cs">Generalizovaný syndrom loupající se kůže, typ C</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -135381,7 +135210,7 @@
+     <Disorder id="2612">
+       <OrphaCode>2884</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2884</ExpertLink>
+-      <Name lang="cs">Pieboldismus</Name>
++      <Name lang="cs">Piebaldismus</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -145072,7 +144901,7 @@
+     <Disorder id="2971">
+       <OrphaCode>3352</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3352</ExpertLink>
+-      <Name lang="cs">Tricho-dento-oseální syndrom</Name>
++      <Name lang="cs">Trichodentooseální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -147382,7 +147211,7 @@
+     <Disorder id="20243">
+       <OrphaCode>269203</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=269203</ExpertLink>
+-      <Name lang="cs">Izolovaná ageneze mozečkového vermis</Name>
++      <Name lang="cs">Izolovaná ageneze mozečkové vermis</Name>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+       </DisorderType>
+@@ -147542,7 +147371,7 @@
+     <Disorder id="20245">
+       <OrphaCode>269209</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=269209</ExpertLink>
+-      <Name lang="cs">Izolovaná parciální ageneze mozečkového vermis</Name>
++      <Name lang="cs">Izolovaná parciální ageneze mozečkové vermis</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -147574,7 +147403,7 @@
+     <Disorder id="20244">
+       <OrphaCode>269206</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=269206</ExpertLink>
+-      <Name lang="cs">Izolovaná totální ageneze mozečkového vermis</Name>
++      <Name lang="cs">Izolovaná totální ageneze mozečkové vermis</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -150718,7 +150547,7 @@
+     <Disorder id="2914">
+       <OrphaCode>3262</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3262</ExpertLink>
+-      <Name lang="cs">Snygnathia s mnohočetnými anomáliemi</Name>
++      <Name lang="cs">Syngnathia s mnohočetnými anomáliemi</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -158405,7 +158234,7 @@
+     <Disorder id="3080">
+       <OrphaCode>1277</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1277</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující brachydaktylii, mezomélii, mentální retardaci a srdeční vady</Name>
++      <Name lang="cs">Syndrom zahrnující brachydaktylii, mezomelii, mentální retardaci a srdeční vady</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -158601,7 +158430,7 @@
+     <Disorder id="18682">
+       <OrphaCode>210110</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210110</ExpertLink>
+-      <Name lang="cs">Přechodná osteoporóza</Name>
++      <Name lang="cs">Osteopetróza, středně závažný typ</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -160230,6 +160059,38 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="18690">
++      <OrphaCode>210159</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210159</ExpertLink>
++      <Name lang="cs">Hepatocelulární karcinom dospělých</Name>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <PrevalenceList count="1">
++        <Prevalence id="16523">
++          <Source>PMID: 22033323</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="cs">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.22</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="cs">Evropa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="3523">
+       <OrphaCode>3283</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=3283</ExpertLink>
+@@ -160265,7 +160126,7 @@
+     <Disorder id="18691">
+       <OrphaCode>210163</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210163</ExpertLink>
+-      <Name lang="cs">Vrozená letální myopatie, typ Comtonové-Northové</Name>
++      <Name lang="cs">Vrozená letální myopatie, typ Comptonové-Northové</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -160412,7 +160273,7 @@
+     <Disorder id="18689">
+       <OrphaCode>210144</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=210144</ExpertLink>
+-      <Name lang="cs">Letální polymalformativní syndrom, Boisselův typ</Name>
++      <Name lang="cs">Letální polymalformativní syndrom, Boisselové typ</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -161719,7 +161580,7 @@
+     <Disorder id="3549">
+       <OrphaCode>655</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=655</ExpertLink>
+-      <Name lang="cs">Juvenilní nefronoftýza</Name>
++      <Name lang="cs">Juvenilní nefronoftíza</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -169834,7 +169695,7 @@
+     <Disorder id="18811">
+       <OrphaCode>217026</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=217026</ExpertLink>
+-      <Name lang="cs">Microcefalický facio-kardio-skeletální syndrom, Hadziselimovičův typ</Name>
++      <Name lang="cs">Mikrocefalický faciokardioskeletální syndrom, Hadziselimovičův typ</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -172995,7 +172856,7 @@
+     <Disorder id="3426">
+       <OrphaCode>1054</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1054</ExpertLink>
+-      <Name lang="cs">Aneurysma Valsalvova sinu</Name>
++      <Name lang="cs">Aneuryzma Valsalvova sinu</Name>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+       </DisorderType>
+@@ -173469,7 +173330,7 @@
+     <Disorder id="3441">
+       <OrphaCode>2038</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2038</ExpertLink>
+-      <Name lang="cs">Vrozená pulmonální arteriovenózní fistule</Name>
++      <Name lang="cs">Vrozená pulmonální arteriovenózní píštěl</Name>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+       </DisorderType>
+@@ -182098,7 +181959,7 @@
+     <Disorder id="19099">
+       <OrphaCode>228302</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=228302</ExpertLink>
+-      <Name lang="cs">Deficit karnitin palmitoyl transferázy II, myopatická forma</Name>
++      <Name lang="cs">Deficit karnitinpalmitoyltransferázy II, myopatická forma</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -182196,7 +182057,7 @@
+     <Disorder id="19101">
+       <OrphaCode>228308</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=228308</ExpertLink>
+-      <Name lang="cs">Deficit karnitinpalmytoyltransferázy II, neonatální forma</Name>
++      <Name lang="cs">Deficit karnitinpalmitoyltransferázy II, neonatální forma</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -186251,7 +186112,7 @@
+     <Disorder id="19214">
+       <OrphaCode>231736</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=231736</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující microkorneu, posteriorní megalolentikonus, perzistentní fetální vaskulaturu a kolobom</Name>
++      <Name lang="cs">Syndrom zahrnující mikrokorneu, posteriorní megalolentikonus, perzistentní fetální vaskulaturu a kolobom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -186398,7 +186259,7 @@
+     <Disorder id="4045">
+       <OrphaCode>1901</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1901</ExpertLink>
+-      <Name lang="cs">Ehlersův-Danlosův syndrom,typ dermatosparaxis</Name>
++      <Name lang="cs">Ehlersův-Danlosův syndrom, typ dermatosparaxis</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -189660,7 +189521,7 @@
+     <Disorder id="21927">
+       <OrphaCode>329324</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=329324</ExpertLink>
+-      <Name lang="cs">inverzní Klippelův-Trénaunayův syndrom</Name>
++      <Name lang="cs">Inverzní Klippelův-Trénaunayův syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -209196,19 +209057,19 @@
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="5002">
+-          <Source>[EXPERT]_European Medicines Agency[INST]</Source>
++          <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
++          <PrevalenceQualification id="23704">
++            <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="cs">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+-          <ValMoy>11.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="cs">Ověřeno</Name>
+@@ -209596,7 +209457,7 @@
+     <Disorder id="20631">
+       <OrphaCode>284984</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=284984</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující aneurysma a osteoartritidu</Name>
++      <Name lang="cs">Syndrom zahrnující aneuryzma a osteoartritidu</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -216958,7 +216819,7 @@
+     <Disorder id="21134">
+       <OrphaCode>300576</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=300576</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující oligodontii a predispozici k nádorům</Name>
++      <Name lang="cs">Syndrom zahrnující oligodoncii a predispozici k nádorům</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -230595,7 +230456,7 @@
+     <Disorder id="23012">
+       <OrphaCode>411493</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=411493</ExpertLink>
+-      <Name lang="cs">Pontocerebellární hypoplázie, typ 10</Name>
++      <Name lang="cs">Pontocerebelární hypoplázie, typ 10</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -232606,11 +232467,11 @@
+       <OrphaCode>391320</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=391320</ExpertLink>
+       <Name lang="cs">East Texas krvácivá porucha</Name>
+-      <DisorderType id="21394">
+-        <Name lang="cs">Onemocnění</Name>
++      <DisorderType id="21443">
++        <Name lang="cs">Etiologický podtyp</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="cs">Onemocnění</Name>
++      <DisorderGroup id="36554">
++        <Name lang="cs">Podtyp onemocnění</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="10512">
+@@ -240744,8 +240605,46 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="5081">
++      <PrevalenceList count="5">
++        <Prevalence id="16532">
++          <Source>PMID: 21039677</Source>
++          <PrevalenceType id="23669">
++            <Name lang="cs">Bod prevalence</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="cs">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.7</ValMoy>
++          <PrevalenceGeographic id="25335">
++            <Name lang="cs">Švédsko</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16533">
++          <Source>PMID: 21039677</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="cs">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.7</ValMoy>
++          <PrevalenceGeographic id="25335">
++            <Name lang="cs">Švédsko</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16534">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+@@ -240753,15 +240652,51 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="cs">Evropa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16535">
++          <Source>PMID: 28180235</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>2.75</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="cs">Itálie</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16536">
++          <Source>PMID: 21039677 ; 28180235</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
+           <PrevalenceClass id="23746">
+             <Name lang="cs">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
++          <ValMoy>1.72</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="cs">Evropa</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -253991,7 +253926,7 @@
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+-        <Prevalence id="5325">
++        <Prevalence id="16531">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+@@ -253999,15 +253934,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="cs">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -254023,37 +253958,39 @@
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+-        <Prevalence id="5326">
+-          <Source>28233358[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="cs">Případy / rodiny</Name>
++        <Prevalence id="16527">
++          <Source>PMID: 24616761</Source>
++          <PrevalenceType id="23683">
++            <Name lang="cs">Prevalence při narození</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="cs">Případ</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>107.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="cs">Celosvětově</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="cs">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.12</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="cs">Spojené království</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="5327">
+-          <Source>ORPHANET_28233358[PMID]</Source>
++        <Prevalence id="16537">
++          <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="cs">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="cs">Celosvětově</Name>
++          <PrevalenceGeographic id="23795">
++            <Name lang="cs">Evropa</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="cs">Ověřeno</Name>
+@@ -258542,7 +258479,7 @@
+     <Disorder id="25849">
+       <OrphaCode>496790</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=496790</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující atrofii optiků, periferní neuropatii a vávojové opoždění</Name>
++      <Name lang="cs">Syndrom zahrnující atrofii optiků, periferní neuropatii a vývojové opoždění</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -258689,7 +258626,7 @@
+     <Disorder id="25672">
+       <OrphaCode>494424</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=494424</ExpertLink>
+-      <Name lang="cs">Extrakraniální aneurysma krkavice</Name>
++      <Name lang="cs">Extrakraniální aneuryzma krkavice</Name>
+       <DisorderType id="21415">
+         <Name lang="cs">Morfologická anomálie</Name>
+       </DisorderType>
+@@ -260920,7 +260857,7 @@
+     <Disorder id="26040">
+       <OrphaCode>500533</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=500533</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující polyhydramnion, megalencefalii a symtomatickou epilepsii</Name>
++      <Name lang="cs">Syndrom zahrnující polyhydramnion, megalencefalii a symptomatickou epilepsii</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -263331,7 +263268,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="5280">
+-          <Source>European Medicines Agency 2015[INST]</Source>
++          <Source>PMID: 32001536</Source>
+           <PrevalenceType id="23669">
+             <Name lang="cs">Bod prevalence</Name>
+           </PrevalenceType>
+@@ -263341,7 +263278,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="cs">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.2</ValMoy>
++          <ValMoy>0.16</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="cs">Evropa</Name>
+           </PrevalenceGeographic>
+@@ -267340,7 +267277,7 @@
+     <Disorder id="25310">
+       <OrphaCode>485418</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=485418</ExpertLink>
+-      <Name lang="cs">EMILIN-1-vázaná poruchapojiva</Name>
++      <Name lang="cs">EMILIN-1-vázaná porucha pojiva</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -269034,7 +268971,7 @@
+     <Disorder id="25162">
+       <OrphaCode>477857</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=477857</ExpertLink>
+-      <Name lang="cs">Autozomově recesivní náchylnost k mykobateriózám s medelovskou dědičností z důvodu kompletního RORC deficitu</Name>
++      <Name lang="cs">Autozomálně recesivní náchylnost k mykobateriózám s mendelovskou dědičností z důvodu kompletního RORC deficitu</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -269328,7 +269265,7 @@
+     <Disorder id="25136">
+       <OrphaCode>477661</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=477661</ExpertLink>
+-      <Name lang="cs">IL21-vázaná zánětrliá nemoc střev s nástupem v kojeneckém věku</Name>
++      <Name lang="cs">IL21-vázaná zánětlivá nemoc střev s nástupem v kojeneckém věku</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -269703,7 +269640,7 @@
+     <Disorder id="25093">
+       <OrphaCode>476126</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=476126</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující mikrognacii, rekurentní infekce, poruchy chování a lehkou mentální retardaci</Name>
++      <Name lang="cs">Syndrom zahrnující mikrognatii, rekurentní infekce, poruchy chování a lehkou mentální retardaci</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -272751,7 +272688,26 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
++      <PrevalenceList count="4">
++        <Prevalence id="16526">
++          <Source>EXPERT</Source>
++          <PrevalenceType id="23669">
++            <Name lang="cs">Bod prevalence</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="cs">Pouze třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+         <Prevalence id="16440">
+           <Source>PMID: 28356407</Source>
+           <PrevalenceType id="23676">
+@@ -275080,7 +275036,7 @@
+     <Disorder id="10916">
+       <OrphaCode>69082</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=69082</ExpertLink>
+-      <Name lang="cs">Odonto-tricho-ungvo-digito-palmární syndrom</Name>
++      <Name lang="cs">Odontotrichoungvodigitopalmární syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -276226,7 +276182,7 @@
+     <Disorder id="10887">
+       <OrphaCode>66629</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=66629</ExpertLink>
+-      <Name lang="cs">Shprintzenův Goldbergové syndrom</Name>
++      <Name lang="cs">Shprintzenův-Goldbergové syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -276356,7 +276312,7 @@
+     <Disorder id="10884">
+       <OrphaCode>66625</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=66625</ExpertLink>
+-      <Name lang="cs">Cerebro-okulo-nasální syndrom</Name>
++      <Name lang="cs">Cerebrookulonazální syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -276603,7 +276559,7 @@
+             <Name lang="cs">Případ</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>20.0</ValMoy>
++          <ValMoy>49.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+@@ -287147,7 +287103,7 @@
+     <Disorder id="11049">
+       <OrphaCode>73273</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=73273</ExpertLink>
+-      <Name lang="cs">Opožděný růst způsobený rezistencí na růstový faktor I podobný insulinu</Name>
++      <Name lang="cs">Opožděný růst způsobený rezistencí na růstový faktor I podobný inzulinu</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -302071,7 +302027,7 @@
+     <Disorder id="11956">
+       <OrphaCode>90065</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=90065</ExpertLink>
+-      <Name lang="cs">Získané subarachnoideální krvácení z aneurysmatu</Name>
++      <Name lang="cs">Získané subarachnoideální krvácení z aneuryzmatu</Name>
+       <DisorderType id="21429">
+         <Name lang="cs">Mimořádná klinická situace u onemocnění nebo syndromu</Name>
+       </DisorderType>
+@@ -308998,15 +308954,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23795">
+             <Name lang="cs">Evropa</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -309728,7 +309684,7 @@
+     <Disorder id="12224">
+       <OrphaCode>93284</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93284</ExpertLink>
+-      <Name lang="cs">Spondyloepifyzární dysplasia, pozdní typ</Name>
++      <Name lang="cs">Spondyloepifyzární dysplázie, pozdní typ</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -311467,7 +311423,7 @@
+     <Disorder id="12138">
+       <OrphaCode>91387</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=91387</ExpertLink>
+-      <Name lang="cs">Familiární aneurysma hrudní aorty s disekcí aorty</Name>
++      <Name lang="cs">Familiární aneuryzma hrudní aorty s disekcí aorty</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -313030,7 +312986,7 @@
+     <Disorder id="12123">
+       <OrphaCode>91349</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=91349</ExpertLink>
+-      <Name lang="cs">Hormonálně neaktivníadenom hypofýzy</Name>
++      <Name lang="cs">Hormonálně neaktivní adenom hypofýzy</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -322807,26 +322763,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="6829">
+-          <Source>23148499[PMID]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="cs">Každoroční výskyt</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="cs">Hodnota a třída</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="cs">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.1</ValMoy>
+-          <PrevalenceGeographic id="25335">
+-            <Name lang="cs">Švédsko</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="cs">Ověřeno</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="1">
+         <Prevalence id="10620">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+@@ -322835,15 +322772,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="cs">Pouze třída</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="cs">1-5 / 10 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="cs">neznámý</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="cs">Evropa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="cs">Dosud neoveřeno</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -329220,7 +329157,7 @@
+     <Disorder id="11647">
+       <OrphaCode>85186</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=85186</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující endostální sklerózu a hypoplázii mozečku</Name>
++      <Name lang="cs">Syndrom zahrnující endosteální sklerózu a hypoplázii mozečku</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -335279,7 +335216,7 @@
+     <Disorder id="12719">
+       <OrphaCode>96095</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=96095</ExpertLink>
+-      <Name lang="cs">Mikroduplikační syndrom 3p26</Name>
++      <Name lang="cs">Mikroduplikační syndrom 3q26</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -336315,7 +336252,7 @@
+     <Disorder id="12331">
+       <OrphaCode>93409</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93409</ExpertLink>
+-      <Name lang="cs">Brachydaktylie a syndaktylie, Zhaoův typ</Name>
++      <Name lang="cs">Brachydaktylie a syndaktylie, Zhaové typ</Name>
+       <DisorderType id="21401">
+         <Name lang="cs">Malformační syndrom</Name>
+       </DisorderType>
+@@ -337909,7 +337846,7 @@
+     <Disorder id="12506">
+       <OrphaCode>93946</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93946</ExpertLink>
+-      <Name lang="cs">Hamelův cerebro-palato-kardiální syndrom</Name>
++      <Name lang="cs">Hamelův cerebropalatokardiální syndrom</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -338960,7 +338897,7 @@
+     <Disorder id="12437">
+       <OrphaCode>93604</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=93604</ExpertLink>
+-      <Name lang="cs">Prenatální forma Bartterova syndrom</Name>
++      <Name lang="cs">Prenatální forma Bartterova syndromu</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -339577,6 +339514,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29566">
++      <OrphaCode>592574</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=592574</ExpertLink>
++      <Name lang="en">Menke-Hennekam syndrome</Name>
++      <DisorderType id="21401">
++        <Name lang="cs">Malformační syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16524">
++          <Source>PMID: 27311832; 29460469; 30892814</Source>
++          <PrevalenceType id="23697">
++            <Name lang="cs">Případy / rodiny</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="cs">Případ</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>27.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16525">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="cs">Bod prevalence</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="cs">Pouze třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="cs">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="14245">
+       <OrphaCode>99672</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=99672</ExpertLink>
+@@ -342349,6 +342335,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29432">
++      <OrphaCode>589527</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=589527</ExpertLink>
++      <Name lang="en">Spinocerebellar ataxia type 45</Name>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16540">
++          <Source>PMID: 29053796 ; 29847346</Source>
++          <PrevalenceType id="23697">
++            <Name lang="cs">Případy / rodiny</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="cs">Případ</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>7.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16541">
++          <Source>PMID: 29053796 ; 29847346</Source>
++          <PrevalenceType id="23669">
++            <Name lang="cs">Bod prevalence</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="cs">Pouze třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="cs">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="29431">
+       <OrphaCode>589522</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=589522</ExpertLink>
+@@ -342370,8 +342405,8 @@
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+           <ValMoy>1.0</ValMoy>
+-          <PrevalenceGeographic id="24936">
+-            <Name lang="cs">Nizozemsko</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="cs">Ověřeno</Name>
+@@ -350513,6 +350548,76 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29051">
++      <OrphaCode>583861</OrphaCode>
++      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=583861</ExpertLink>
++      <Name lang="en">Isolated mesenteric vein thrombosis</Name>
++      <DisorderType id="21394">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="cs">Onemocnění</Name>
++      </DisorderGroup>
++      <PrevalenceList count="3">
++        <Prevalence id="16542">
++          <Source>PMID: 18720461; 25917534</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="cs">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>1.6</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="cs">Evropa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16543">
++          <Source>PMID: 25917534</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="cs">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.5</ValMoy>
++          <PrevalenceGeographic id="24362">
++            <Name lang="cs">Finsko</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16544">
++          <Source>PMID: 18720461</Source>
++          <PrevalenceType id="23676">
++            <Name lang="cs">Každoroční výskyt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="cs">Hodnota a třída</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="cs">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.7</ValMoy>
++          <PrevalenceGeographic id="25335">
++            <Name lang="cs">Švédsko</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="13732">
+       <OrphaCode>98715</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=98715</ExpertLink>
+@@ -351828,7 +351933,24 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="1">
++      <PrevalenceList count="2">
++        <Prevalence id="16434">
++          <Source>PMID: 29555651</Source>
++          <PrevalenceType id="23697">
++            <Name lang="cs">Případy / rodiny</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="cs">Případ</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>4.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="cs">Celosvětově</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="cs">Ověřeno</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+         <Prevalence id="16487">
+           <Source>PMID: 29555651</Source>
+           <PrevalenceType id="23669">

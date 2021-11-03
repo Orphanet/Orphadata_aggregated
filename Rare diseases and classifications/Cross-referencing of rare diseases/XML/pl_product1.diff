@@ -1,0 +1,952 @@
+commit df4bbec30a36ad0ab0af6d3588a36df3686578ff
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Oct 3 10:11:04 2021 +0200
+
+    OCT 2021
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml
+old mode 100755
+new mode 100644
+index 99e8816..74c341b
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2021-09-01 04:35:34" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2021-10-01 04:35:49" version="1.3.7 / 4.1.7 [2020-12-03] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10572">
++  <DisorderList count="10583">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166024</ExpertLink>
+@@ -19635,7 +19635,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="220" cycle="true"/>
++          <RootDisorder id="22112">
++            <OrphaCode>352740</OrphaCode>
++            <Name lang="pl">Albinizm oczny z głuchotą zmysłowo-nerwową</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="pl">Przeniesione do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -104551,9 +104561,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -211710,7 +211720,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101269" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123601" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Zespół MRCS jest rzadkim, genetycznie uwarunkowaną dystrofią siatkówki, która charakteryzuje się obustronnie małą rogówką, dystrofią pręcików i czopków, zaćmą i garbiakiem tylnym, przy braku innych ogólnoustrojowych objawów. Zazwyczaj występuje  ślepota nocna, której mogą towarzyszyć oczopląs, zez, astygmatyzm oraz  jaskra z zamkniętym kątem przesączania. Postępujące pogorszenie ostrości wzroku wskutek zaćmy (z drobnoziarnistym zmętnieniem soczewki) prowadzi do pogorszenia widzenia: od braku postrzegania światła do wartości 20/400.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20047">
+@@ -217974,7 +217994,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101223" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123580" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Lipoma okolicy lędźwiowo-krzyżowej jest rzadką wadą, związaną z nieprawidłowym zamykaniem cewy nerwowej, w której nisko położony stożek rdzenia uwięziony jest przez tłuszczakowatą masę znajdującą się w okolicy lędźwiowo-krzyżowej (zawierającą tkankę tłuszczową, włókna nerwowe, pasma oponowe i sznury włókniste), która obejmuje nić końcową (rdzenia) i zróżnicowaną liczbę grzbietowych i brzusznych włókien korzeni nerwowych, co zwykle prowadzi do zaburzeń czuciowo-ruchowych oraz do dysfunkcji jelit i/lub pęcherza moczowego. Często występują znamiona skórne, brak lub osłabienie odruchów ścięgnistych oraz wady stóp (np. stopa koślawa i wydrążona).</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="2612">
+@@ -262747,7 +262777,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101268" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123600" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Niepełnosprawność intelektualna - niski wzrost - hiperteloryzm to rzadki, genetycznie uwarunkowany zespół niepełnosprawności intelektualnej, który charakteryzuje się niskim wzrostem, niepełnosprawnością intelektualną w stopniu łagodnym do umiarkowanego, dysmorfią twarzowo-czaszkową (wydatne, szerokie „kwadratowe” czoło, hiperteloryzm, zapadnięty grzbiet nosa, szeroki czubek nosa i zadarte nozdrza) oraz obniżeniem napięcia o wczesnym początku, zwykle obserwowanym przed końcem okresu niemowlęcego. Od 1991 roku nie ma dalszych opisów w literaturze.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="3072">
+@@ -293222,7 +293262,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="11">
++      <ExternalReferenceList count="12">
+         <ExternalReference id="145480">
+           <Source>GARD</Source>
+           <Reference>4894</Reference>
+@@ -293256,6 +293296,19 @@
+             <Name lang="pl">Zwalidowany</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
++        <ExternalReference id="200334">
++          <Source>ICD-10</Source>
++          <Reference>C91.8</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="pl">BTNT (pojęcie o szerszym znaczeniu pasuje do pojęcia o węższym znaczeniu)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21583">
++            <Name lang="pl">Określony kod (Ten termin ma swój własny kod w ICD10)</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
+         <ExternalReference id="112356">
+           <Source>MedDRA</Source>
+           <Reference>10006595</Reference>
+@@ -293289,11 +293342,11 @@
+             <Name lang="pl">Zwalidowany</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="112364">
++        <ExternalReference id="200335">
+           <Source>ICD-10</Source>
+           <Reference>C83.7</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
++          <DisorderMappingRelation id="21541">
++            <Name lang="pl">BTNT (pojęcie o szerszym znaczeniu pasuje do pojęcia o węższym znaczeniu)</Name>
+           </DisorderMappingRelation>
+           <DisorderMappingICDRelation id="21583">
+             <Name lang="pl">Określony kod (Ten termin ma swój własny kod w ICD10)</Name>
+@@ -294138,7 +294191,17 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19029" cycle="true"/>
++          <RootDisorder id="19034">
++            <OrphaCode>226310</OrphaCode>
++            <Name lang="pl">Obwodowa niedoczynność tarczycy</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="pl">Odnoszący się do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -295246,9 +295309,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -295261,7 +295324,17 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19029">
++            <OrphaCode>226292</OrphaCode>
++            <Name lang="pl">Całkowita wrodzona niedoczynność tarczycy</Name>
++          </TargetDisorder>
++          <RootDisorder id="19034" cycle="true"/>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="pl">Odnoszący się do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -328459,7 +328532,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101093" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123553" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Zespół niepełnosprawność intelektualna-napady padaczkowe-wielkogłowie-otyłość to rzadka syndromiczna otyłość, spowodowana złożoną rearanżacją chromosomów. W obrazie klinicznym obserwowano opóźnienie rozwoju i niepełnosprawność intelektualną, otyłość pojawiającą się w dzieciństwie, drgawki, słabą koordynację i chód na szerokiej podstawie, wielkogłowie i łagodne cechy dysmorfii (w tym wąskie szpary powiekowe, niedorozwój kości jarzmowych i cienka górna warga), wyprysk, nieprawidłowości narządu wzroku. Chorzy charakteryzują się prospołeczną osobowością.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22455">
+@@ -333297,7 +333380,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101092" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123552" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Nawracający stan padaczkowy o nowym początku jest ostrą encefalopatią ze stanem padaczkowym, w którym pośredniczy stan zapalny. Charakteryzuje  się ostrym, opornym na leczenie stanem padaczkowym, typowo z drgawkami toniczno-klonicznymi, które poprzedzają objawy prodromalne: splątanie, gorączka, zmęczenie, ból głowy, objawy zakażenia przewodu pokarmowego lub górnych dróg oddechowych, zmiany zachowania lub halucynacje. Podczas ostrego epizodu często stwierdza się nieprawidłowości w MRI mózgu i nieprawidłowe wyniki analizy płynu mózgowo-rdzeniowego, w tym pleocytozę i/lub podwyższony poziom białka. Powikłania zazwyczaj obejmują oporną na leczenie padaczkę, upośledzenie funkcji poznawczych i zaburzenia psychiczne.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="22324">
+@@ -337217,7 +337310,15 @@
+       <OrphaCode>352740</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=352740</ExpertLink>
+       <Name lang="pl">Albinizm oczny z głuchotą zmysłowo-nerwową</Name>
+-      <DisorderFlagList count="1">
++      <DisorderFlagList count="3">
++        <DisorderFlag id="495">
++          <Value>8192</Value>
++          <Label>Inactive</Label>
++        </DisorderFlag>
++        <DisorderFlag id="459">
++          <Value>256</Value>
++          <Label>Deprecated entity</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+@@ -337234,7 +337335,17 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="220">
++            <OrphaCode>895</OrphaCode>
++            <Name lang="pl">Zespół Waardenburga  typu 2</Name>
++          </TargetDisorder>
++          <RootDisorder id="22112" cycle="true"/>
++          <DisorderDisorderAssociationType id="21471">
++            <Name lang="pl">Przeniesione do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -372054,7 +372165,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101260" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123593" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Objawowa postać hemochromatozy typu 1 to rzadka, dziedziczna hemochromatoza, która charakteryzuje się niewłaściwą regulacją wchłaniania żelaza w jelitach, co prowadzi do nadmiernego magazynowania żelaza w różnych narządach i manifestuje się szerokim spektrum objawów, w tym bólami brzucha, osłabieniem, sennością, utratą masy ciała, podwyższonym stężeniem aminotransferaz w surowicy, nadmierną pigmentacją skóry i/lub artropatią stawów śródręczno-paliczkowych. Często towarzyszą inne objawy takie jak: powiększenie wątroby, marskość wątroby, zwłóknienie wątroby, rak wątrobowokomórkowy, kardiomiopatia restrykcyjna i/lub cukrzyca.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24010">
+@@ -372092,7 +372213,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101209" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123572" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Zespół paraplegii spastycznej, ciężkiego opóźnienia w rozwoju i padaczki jest rzadką, genetycznie uwarunkowaną, złożoną paraplegią spastyczną, która  charakteryzuje się opóźnieniem rozwoju psychoruchowego z ciężką niepełnosprawnością intelektualną oraz opóźnieniem rozwoju mowy o początku w okresie niemowlęcym, napadami drgawkowymi (głównie mioklonicznymi), obniżeniem napięcia mięśniowego, często od urodzenia, oraz powoli postępującą spastycznością kończyn dolnych, która prowadzi do poważnych zaburzeń chodu. Często obserwuje się  nieprawidłowości narządu wzroku oraz nietrzymanie moczu i kału. Może wystąpić  dyspraksja werbalna, niedorozwój narządów płciowych, wielkogłowie i niedosłuch czuciowo-nerwowy, a także ruchy dystoniczne i ataksja z zajęciem kończyn górnych.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24011">
+@@ -379638,7 +379769,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101208" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123571" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Dysplazja okolicy nad czubkiem nosa to rzadka, wrodzona, izolowana wada rozwojowa nosa i jamy nosowej, która charakteryzuje się obecnością bulwiastego przerostu tkanek miękkich zlokalizowanego w środkowo-dystalnej jednej trzeciej grzbietu nosa, której towarzyszy  deformacja oraz przemieszczenie na bok i ku tyłowi skrzydełek nosa oraz zanikowe bliznopodobne zmiany skórne na czubku nosa. Nie powoduje zaburzeń oddychania.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24152">
+@@ -380554,7 +380695,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101234" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123590" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Autosomalna recesywna paraplegia spastyczna typu 77 to rzadka, izolowana lub złożona dziedziczna paraplegia spastyczna, która charakteryzuje się początkiem w okresie niemowlęcym lub wczesnym dzieciństwie, powoli postępującą spastycznością kończyn dolnych, opóźnieniem kroków milowych w rozwoju ruchowym, zaburzeniami chodu, wygórowanymi  odruchami ścięgnistymi oraz różnymi objawami ze strony mięśni, w tym osłabieniem, obniżonym napięciem, drżeniem zamiarowym i zanikiem. Mogą również wystąpić nieprawidłowości narządu wzroku (np. zez, opadanie powiek) i inne zaburzenia neurologiczne, takie jak dyzartria, drgawki i dodatni objaw Babińskiego.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="24161">
+@@ -389621,11 +389772,11 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
++      <DisorderType id="21443">
++        <Name lang="pl">Podtyp etiologiczny</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
+       </DisorderGroup>
+       <ExternalReferenceList count="3">
+         <ExternalReference id="86186">
+@@ -418376,7 +418527,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="3">
++      <ExternalReferenceList count="5">
+         <ExternalReference id="154906">
+           <Source>OMIM</Source>
+           <Reference>275355</Reference>
+@@ -418388,7 +418539,7 @@
+             <Name lang="pl">Zwalidowany</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="194014">
++        <ExternalReference id="200331">
+           <Source>ICD-10</Source>
+           <Reference>C12</Reference>
+           <DisorderMappingRelation id="21541">
+@@ -418397,11 +418548,11 @@
+           <DisorderMappingICDRelation id="21604">
+             <Name lang="pl">Przypisane</Name>
+           </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21618">
+-            <Name lang="pl">Jeszcze niezwalidowane</Name>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="194015">
++        <ExternalReference id="200332">
+           <Source>ICD-10</Source>
+           <Reference>C13.8</Reference>
+           <DisorderMappingRelation id="21541">
+@@ -418410,8 +418561,34 @@
+           <DisorderMappingICDRelation id="21604">
+             <Name lang="pl">Przypisane</Name>
+           </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21618">
+-            <Name lang="pl">Jeszcze niezwalidowane</Name>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="200333">
++          <Source>ICD-10</Source>
++          <Reference>C13.0</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="pl">BTNT (pojęcie o szerszym znaczeniu pasuje do pojęcia o węższym znaczeniu)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21604">
++            <Name lang="pl">Przypisane</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++        <ExternalReference id="200330">
++          <Source>ICD-10</Source>
++          <Reference>C13.2</Reference>
++          <DisorderMappingRelation id="21541">
++            <Name lang="pl">BTNT (pojęcie o szerszym znaczeniu pasuje do pojęcia o węższym znaczeniu)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation id="21604">
++            <Name lang="pl">Przypisane</Name>
++          </DisorderMappingICDRelation>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+@@ -434827,7 +435004,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101215" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123577" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Śmiertelny zespół wodogłowia i przepukliny przepony jest rzadkim, genetycznie uwarunkowanym zespołem licznych wad wrodzonych, który charakteryzuje się wodogłowiem i przepukliną przeponową oraz wielkogłowiem, szeroko otwartym przednim ciemiączkiem, łódkowatym brzuchem i obniżonym napięciem. Ponadto mogą wystąpić wrodzone wady serca, wielowodzie i nadciśnienie płucne.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25212">
+@@ -436803,7 +436990,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101207" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123570" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Miopatia dystalna typu Tateyamiego jest rzadką, genetycznie uwarunkowaną, powoli postępującą miopatią dystalną, która charakteryzuje się zanikiem i osłabieniem mięśni, dotyczącym głównie małych mięśni dłoni i stóp (w szczególności obserwuje się zanik mięśni kłębu i kłębika), zwiększonym stężeniem kinazy kreatynowej w surowicy krwi oraz znacznie zmniejszoną ekspresją kaweoliny-3 w bioptatach mięśni. U niektórych pacjentów obserwuje się przerost łydek, stopę wydrążoną i objawy nadpobudliwości mięśni.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25408">
+@@ -437013,7 +437210,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101261" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123594" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Dysplazja włóknista kości jest rzadką, genetycznie uwarunkowaną, pierwotną dysplazją kości, która charakteryzuje się obecnością łagodnego, włóknisto-kostnego, osteolitycznego guza, typowo zlokalizowanego w kości piszczelowej (czasami w kości strzałkowej lub w obu tych kościach) i zwykle obejmującego przednią część kory trzonu z rozprzestrzenianiem się na przylegającą  korę. Czasami może przebiegać bezobjawowo lub może przyjmować postać palpacyjnie wyczuwalnej masy z towarzyszącym bólem, tkliwością i/lub łukowatym wybrzuszeniem piszczeli.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25393">
+@@ -465171,9 +465378,9 @@
+           <Value>8192</Value>
+           <Label>Inactive</Label>
+         </DisorderFlag>
+-        <DisorderFlag id="461">
+-          <Value>1024</Value>
+-          <Label>Obsolete with resources</Label>
++        <DisorderFlag id="455">
++          <Value>16</Value>
++          <Label>Obsolete entity</Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+@@ -546714,8 +546921,8 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+@@ -548271,6 +548478,42 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30684">
++      <OrphaCode>610573</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=610573</ExpertLink>
++      <Name lang="en">CLCN6-related childhood onset progressive neurodegeneration-peripheral neuropathy-syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="1">
++        <ExternalReference id="200356">
++          <Source>OMIM</Source>
++          <Reference>619173</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13086">
+       <OrphaCode>98068</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98068</ExpertLink>
+@@ -548435,6 +548678,43 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30683">
++      <OrphaCode>610569</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=610569</ExpertLink>
++      <Name lang="en">KIAA1109-related early lethal-congenital brain mlaformations-arthrogryposis-syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">ALKURAYA-KUCINSKAS SYNDROME</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="1">
++        <ExternalReference id="200353">
++          <Source>OMIM</Source>
++          <Reference>617822</Reference>
++          <DisorderMappingRelation id="21527">
++            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
++          </DisorderMappingRelation>
++          <DisorderMappingICDRelation/>
++          <DisorderMappingValidationStatus id="21611">
++            <Name lang="pl">Zwalidowany</Name>
++          </DisorderMappingValidationStatus>
++        </ExternalReference>
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13082">
+       <OrphaCode>98064</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98064</ExpertLink>
+@@ -550023,6 +550303,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30477">
++      <OrphaCode>600691</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600691</ExpertLink>
++      <Name lang="pl">Złożony niedobór czynnika VII i X</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="30478">
+       <OrphaCode>600731</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600731</ExpertLink>
+@@ -557282,6 +557587,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="30241">
++      <OrphaCode>600194</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600194</ExpertLink>
++      <Name lang="pl">Skaza krwotoczna czynnik V Atlanta</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21443">
++        <Name lang="pl">Podtyp etiologiczny</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="13028">
+       <OrphaCode>98010</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98010</ExpertLink>
+@@ -570533,6 +570863,58 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29927">
++      <OrphaCode>599480</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599480</ExpertLink>
++      <Name lang="pl">Nabyta hemofilia A</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="pl">AHA</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29928">
++      <OrphaCode>599485</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599485</ExpertLink>
++      <Name lang="pl">Nabyta hemofilia B</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="pl">AHB</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12328">
+       <OrphaCode>93406</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93406</ExpertLink>
+@@ -570630,6 +571012,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29929">
++      <OrphaCode>599490</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599490</ExpertLink>
++      <Name lang="pl">Nabyty niedobór czynnika V</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12331">
+       <OrphaCode>93409</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93409</ExpertLink>
+@@ -570704,6 +571111,32 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29931">
++      <OrphaCode>599501</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599501</ExpertLink>
++      <Name lang="pl">Nabyty niedobór czynnika X</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">aFX</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12333">
+       <OrphaCode>93419</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93419</ExpertLink>
+@@ -570733,6 +571166,58 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29932">
++      <OrphaCode>599507</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599507</ExpertLink>
++      <Name lang="pl">Nabyty niedobór czynnika XI</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">aFXI</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="29933">
++      <OrphaCode>599513</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599513</ExpertLink>
++      <Name lang="pl">Nabyty niedobór czynnika XIII</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">aFXIII</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12335">
+       <OrphaCode>93421</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93421</ExpertLink>
+@@ -570783,6 +571268,31 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="29935">
++      <OrphaCode>599579</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599579</ExpertLink>
++      <Name lang="pl">Skaza krwotoczna czynnik V Amsterdam</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21443">
++        <Name lang="pl">Podtyp etiologiczny</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="12336">
+       <OrphaCode>93422</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93422</ExpertLink>
+@@ -578744,7 +579254,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101085" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123546" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Malpozycja ujścia wieńcowego to rzadka wrodzona wada rozwojowa tętnic wieńcowych, która charakteryzuje się przemieszczeniem jednej z tętnic wieńcowych tak, że jej ujście znajduje się bliżej opuszki aorty lub obszaru spoidła (płatków zastawki aortalnej). Uważa się, że wada ta nie daje objawów, jednak może stwarzać trudności techniczne podczas operacji opuszki aorty.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14100">
+@@ -591796,7 +592316,17 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101082" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123543" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Desminopatia jest rzadką, genetycznie uwarunkowaną chorobą mięśni szkieletowych, która charakteryzuje się zróżnicowanym obrazem klinicznym/zmianami patologicznymi w mięśniach, wiekiem wystąpienia i szybkością progresji objawów choroby, zaś na poziomie komórkowym - obecnością w bioptatach mięśni nieprawidłowych złogów desminy i innych białek cytoszkieletu oraz materiału ziarnisto-nitkowatego. U pacjentów występuje osłabienie mięśni szkieletowych, które rozpoczyna  się w dystalnych mięśniach kończyn dolnych, a następnie obejmuje mięśnie proksymalne, czasami także tułów, zginacze szyi i mięśnie twarzy; często rozwija się kardiomiopatia, która manifestuje się zaburzeniami przewodnictwa, zaburzeniami rytmu serca, w tym tachyarytmią, oraz przewlekłą niewydolnością serca. Osłabienie mięśni ostatecznie prowadzi do niepełnosprawności ruchowej i utraty zdolności samodzielnego chodzenia. Upośledzenie funkcji układu oddechowego, które początkowo objawia się nocną hipowentylacją z hipoksją, a następnie postępuje aż do niewydolności oddechowej w dzień, jest jedną z głównych przyczyn pogorszenia sprawności i może prowadzić do zgonu.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="13949">
+@@ -627856,7 +628386,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="101084" lang="pl">
++          <TextSectionList count="1">
++            <TextSection id="123544" lang="pl">
++              <TextSectionType id="16907">
++                <Name lang="pl">Definicja choroby</Name>
++              </TextSectionType>
++              <Contents>*Guz neuroendokrynny jelita grubego jest rzadkim nowotworem nabłonkowym jelita grubego, który rozwija się z komórek enterochromafinowych, najczęściej w jelicie ślepym lub okrężnicy wstępującej. Guz zwykle rośnie powoli i można go wykryć przypadkowo u pacjenta, który nie zgłasza objawów. W późniejszych stadiach choroby niekiedy stwierdza się obecność palpacyjnie wyczuwalnej masy w jamie brzusznej, mogą wystąpić  bóle brzucha, , zmiana rytmu wypróżnień, objawy niedrożności jelit, krwawienie z przewodu pokarmowego, jadłowstręt (anoreksja), utrata masy ciała lub rzadko zespół rakowiaka (zaczerwienienie twarzy, biegunka, tachykardia, spadek ciśnienia lub nadciśnienie, nieprawidłowości dotyczące  serca).</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="14653">
