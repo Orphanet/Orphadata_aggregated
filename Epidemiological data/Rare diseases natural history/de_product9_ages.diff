@@ -1,0 +1,561 @@
+commit 713764cbe665f619367fa836fae8e630672b2e3e
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Wed Dec 1 06:28:16 2021 +0100
+
+    DECEMBER 2021
+
+diff --git a/Epidemiological data/Rare diseases natural history/de_product9_ages.xml b/Epidemiological data/Rare diseases natural history/de_product9_ages.xml
+index cda8295..75c979a 100644
+--- a/Epidemiological data/Rare diseases natural history/de_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/de_product9_ages.xml	
+@@ -1,13 +1,6 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-11-01 04:50:57" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <Availability> 
+-    <Licence>
+-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+-    </Licence>
+-  </Availability>
+-  <DisorderList count="6633">
++<JDBOR date="2021-12-01 04:55:21" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <DisorderList count="6641">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
+@@ -3958,7 +3951,7 @@
+     <Disorder id="17515">
+       <OrphaCode>163654</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=163654</ExpertLink>
+-      <Name lang="de">Dysplasie, spondyloepiphysäre, Typ Cantu</Name>
++      <Name lang="de">Spondyloepiphysäre Dysplasie-Brachydaktylie-Sprachstörung-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -7138,7 +7131,7 @@
+     <Disorder id="294">
+       <OrphaCode>308</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=308</ExpertLink>
+-      <Name lang="de">Unverricht-Lundborg-Krankheit</Name>
++      <Name lang="de">Epilepsie, myoklonische progressive, Typ 1</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -12687,11 +12680,11 @@
+       <OrphaCode>2346</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2346</ExpertLink>
+       <Name lang="de">Angio-osteo-hypertrophisches Syndrom</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
++      <DisorderType id="21436">
++        <Name lang="de">Phenom-Gruppe</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
++      <DisorderGroup id="36540">
++        <Name lang="de">Gruppe von Störungen</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="3">
+         <AverageAgeOfOnset id="23536">
+@@ -14896,7 +14889,7 @@
+     <Disorder id="17996">
+       <OrphaCode>177926</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=177926</ExpertLink>
+-      <Name lang="de">Symptomatische Form der Hämophilie A in weiblichen Anlageträgerinnen</Name>
++      <Name lang="de">Symptomatische Form der Hämophilie A bei weiblichen Anlageträgerinnen</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -14939,7 +14932,7 @@
+     <Disorder id="17997">
+       <OrphaCode>177929</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=177929</ExpertLink>
+-      <Name lang="de">Symptomatische Form der Hämophilie B in weiblichen Anlageträgerinnen</Name>
++      <Name lang="de">Symptomatische Form der Hämophilie B bei weiblichen Anlageträgerinnen</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -20778,7 +20771,7 @@
+     <Disorder id="18309">
+       <OrphaCode>183678</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=183678</ExpertLink>
+-      <Name lang="de">Hermansky-Pudlak-Syndrom mit Neutropenie</Name>
++      <Name lang="de">Hermansky-Pudlak-Syndrom durch AP-3-Defizienz</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -21023,10 +21016,13 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+           <Name lang="de">Erwachsenenalter</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+         <AverageAgeOfDeath id="23634">
+@@ -32785,7 +32781,7 @@
+     <Disorder id="1546">
+       <OrphaCode>1323</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1323</ExpertLink>
+-      <Name lang="de">Kamptodaktylie - Gelenkkontrakturen - Faziale Skelettdefekte</Name>
++      <Name lang="de">Kamptodaktylie-Gelenkkontrakturen-faziale Skelettdefekte-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -36634,7 +36630,7 @@
+     <Disorder id="1899">
+       <OrphaCode>1952</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1952</ExpertLink>
+-      <Name lang="de">Pacman-Dysplasie</Name>
++      <Name lang="de">Epiphysäre Tüpfelung-osteoklastische Hyperplasie-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -65280,7 +65276,7 @@
+     <Disorder id="20393">
+       <OrphaCode>276630</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=276630</ExpertLink>
+-      <Name lang="de">Symptomale Form des Coffin-Lowry-Syndroms in weiblichen Anlageträgerinnen</Name>
++      <Name lang="de">Symptomale Form des Coffin-Lowry-Syndroms bei weiblichen Anlageträgerinnen</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -80048,7 +80044,7 @@
+     <Disorder id="19196">
+       <OrphaCode>231512</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=231512</ExpertLink>
+-      <Name lang="de">Hermansky-Pudlak-Syndrom ohne pulmonale Fibrose</Name>
++      <Name lang="de">Hermansky-Pudlak-Syndrom durch BLOC-2-Defizienz</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -80135,7 +80131,7 @@
+     <Disorder id="19195">
+       <OrphaCode>231500</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=231500</ExpertLink>
+-      <Name lang="de">Hermansky-Pudlak-Syndrom mit pulmonaler Fibrose</Name>
++      <Name lang="de">Hermansky-Pudlak-Syndrom durch BLOC-3-Defizienz</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -83678,7 +83674,7 @@
+     <Disorder id="21955">
+       <OrphaCode>330001</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=330001</ExpertLink>
+-      <Name lang="de">ATTR-Amyloidose, wild-Typ</Name>
++      <Name lang="de">Wildtyp-ATTR-Amyloidose</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -88245,7 +88241,7 @@
+     <Disorder id="21511">
+       <OrphaCode>314662</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=314662</ExpertLink>
+-      <Name lang="de">Segmental-progressives Großwuchssyndrom mit fibroadipöser Hyperplasie</Name>
++      <Name lang="de">Segmental-progressives Großwuchs-Syndrom mit fibroadipöser Hyperplasie</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -98233,7 +98229,7 @@
+     <Disorder id="21494">
+       <OrphaCode>314555</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=314555</ExpertLink>
+-      <Name lang="de">Kraniofaziale Dysplasie-Osteopenie-Syndrom</Name>
++      <Name lang="de">Gesichtsdysmorphie-schwere Myopie-Osteopenie-Intelligenzminderung-Zahnanomalien-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -102646,7 +102642,7 @@
+     <Disorder id="23616">
+       <OrphaCode>449291</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=449291</ExpertLink>
+-      <Name lang="de">Symptomatische Forn des Fra(X)-Syndroms in weiblichen Anlageträgerinnen</Name>
++      <Name lang="de">Symptomatische Form des Fra(X)-Syndroms bei weiblichen Anlageträgerinnen</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -102736,7 +102732,7 @@
+     <Disorder id="23623">
+       <OrphaCode>449432</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=449432</ExpertLink>
+-      <Name lang="de">IgG4-assoziierte Krankheit der Glandula submandibularis</Name>
++      <Name lang="de">IgG4-assoziierte chronisch-sklerosierende Sialadenitis</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -114831,7 +114827,7 @@
+     <Disorder id="23101">
+       <OrphaCode>420179</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=420179</ExpertLink>
+-      <Name lang="de">Malan-Großwuchssyndrom</Name>
++      <Name lang="de">Malan-Großwuchs-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -124968,7 +124964,7 @@
+     <Disorder id="25161">
+       <OrphaCode>477831</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=477831</ExpertLink>
+-      <Name lang="de">Skelettaler Großwuchs-kraniofaziale Dysmorphien-hyperelastische Haut-Läsionen der weissen Substanz-Syndrom</Name>
++      <Name lang="de">Kosaki-Großwuchs-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -128439,7 +128435,7 @@
+     <Disorder id="10885">
+       <OrphaCode>66627</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=66627</ExpertLink>
+-      <Name lang="de">Synovialitis, pigmentierte villonoduläre</Name>
++      <Name lang="de">Tenosynovialer Riesenzelltumor</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -138365,7 +138361,7 @@
+     <Disorder id="10360">
+       <OrphaCode>35062</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=35062</ExpertLink>
+-      <Name lang="de">Zytomegalievirus-Infektion, disseminierte idiopathische</Name>
++      <Name lang="de">Schwere disseminierte Zytomegalievirus-Infektion bei immunkompetenten Patienten</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -144302,11 +144298,11 @@
+       <OrphaCode>90308</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90308</ExpertLink>
+       <Name lang="de">Klippel-Trénaunay-Syndrom</Name>
+-      <DisorderType id="21450">
+-        <Name lang="de">Klinischer Subtyp</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="de">Subtyp der Störung</Name>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -144331,11 +144327,11 @@
+       <OrphaCode>90307</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=90307</ExpertLink>
+       <Name lang="de">Parkes-Weber-Syndrom</Name>
+-      <DisorderType id="21450">
+-        <Name lang="de">Klinischer Subtyp</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="de">Subtyp der Störung</Name>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -147121,7 +147117,7 @@
+     <Disorder id="12168">
+       <OrphaCode>93111</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93111</ExpertLink>
+-      <Name lang="de">Nierenzysten und Diabetes-Syndrom</Name>
++      <Name lang="de">HNF1B-assoziierte autosomal-dominante tubulointerstitielle Nierenerkrankung</Name>
+       <DisorderType id="21450">
+         <Name lang="de">Klinischer Subtyp</Name>
+       </DisorderType>
+@@ -158536,7 +158532,7 @@
+     <Disorder id="30684">
+       <OrphaCode>610573</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=610573</ExpertLink>
+-      <Name lang="de">CLCN6-related childhood onset progressive neurodegeneration-peripheral neuropathy-syndrome</Name>
++      <Name lang="de">Im Kindesalter beginnende progressive Neurodegeneration mit periphere Neuropathie, CLCN6-assoziiert</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -158556,7 +158552,7 @@
+     <Disorder id="30683">
+       <OrphaCode>610569</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=610569</ExpertLink>
+-      <Name lang="de">KIAA1109-related early lethal-congenital brain mlaformations-arthrogryposis-syndrome</Name>
++      <Name lang="de">KIAA1109-assoziierte früh-letale kongenitale Hirnfehlbildungen-Arthrogrypose-Syndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -160254,7 +160250,7 @@
+     <Disorder id="12856">
+       <OrphaCode>97229</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=97229</ExpertLink>
+-      <Name lang="de">Brown-Vialetto-van Laere-Syndrom</Name>
++      <Name lang="de">Riboflavin-Transporter-Defizienz</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -163189,6 +163185,29 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29924">
++      <OrphaCode>599373</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=599373</ExpertLink>
++      <Name lang="de">STXBP1-abhängige Enzephalopathie</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="de">Neugeborenenzeit</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="de">Keine Daten verfügbar</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12325">
+       <OrphaCode>93403</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93403</ExpertLink>
+@@ -165734,6 +165753,61 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29564">
++      <OrphaCode>592564</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=592564</ExpertLink>
++      <Name lang="de">GNAO1-assoziierte Entwicklungsverzögerung-Krampfanfälle-Bewegungsstörungsspektrum</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="de">Kleinkindalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="de">Neugeborenenzeit</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="de">Keine Daten verfügbar</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29565">
++      <OrphaCode>592570</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=592570</ExpertLink>
++      <Name lang="de">TRAF7-assoziierte Herzfehler-digitale Anomalien-Gesichtsdysmorphie-Motorik- und Sprachverzögerung-Syndrom</Name>
++      <DisorderType id="21401">
++        <Name lang="de">Fehlbildungs-Syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="de">Vorgeburtlich</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="de">Neugeborenenzeit</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="de">Keine Daten verfügbar</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14291">
+       <OrphaCode>99718</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99718</ExpertLink>
+@@ -165836,6 +165910,172 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29441">
++      <OrphaCode>589821</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589821</ExpertLink>
++      <Name lang="de">Myotone Dystrophie Steinert, kongenitale Form</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="de">Vorgeburtlich</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="de">Neugeborenenzeit</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="de">Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="de">frühe Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="de">Infantil</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="de">späte Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="de">junges Erwachsenenalter</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29443">
++      <OrphaCode>589827</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589827</ExpertLink>
++      <Name lang="de">Myotone Dystrophie Steinert, juvenile Form</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="de">Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="de">frühe Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="de">späte Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="de">junges Erwachsenenalter</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29442">
++      <OrphaCode>589824</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589824</ExpertLink>
++      <Name lang="de">Myotone Dystrophie Steinert mit Beginn im Kindesalter</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="de">Kleinkindalter</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="de">Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="de">frühe Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="de">späte Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="de">junges Erwachsenenalter</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29445">
++      <OrphaCode>589833</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589833</ExpertLink>
++      <Name lang="de">Myotone Dystrophie Steinert mit spätem Beginn</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23550">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23634">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29444">
++      <OrphaCode>589830</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589830</ExpertLink>
++      <Name lang="de">Myotone Dystrophie Steinert mit Beginn im Erwachsenenalter</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="de">Erwachsenenalter</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="de">Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="de">junges Erwachsenenalter</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="29447">
+       <OrphaCode>589905</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=589905</ExpertLink>

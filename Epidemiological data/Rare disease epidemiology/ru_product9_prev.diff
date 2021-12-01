@@ -1,0 +1,1330 @@
+commit 713764cbe665f619367fa836fae8e630672b2e3e
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Wed Dec 1 06:28:16 2021 +0100
+
+    DECEMBER 2021
+
+diff --git a/Epidemiological data/Rare disease epidemiology/ru_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/ru_product9_prev.xml
+index 1df3aee..0846d2d 100644
+--- a/Epidemiological data/Rare disease epidemiology/ru_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/ru_product9_prev.xml	
+@@ -1,13 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2021-11-01 04:52:16" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <Availability> 
+-    <Licence>
+-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+-    </Licence>
+-  </Availability>
+-  <DisorderList count="6044">
++<JDBOR date="2021-12-01 04:56:53" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <DisorderList count="6052">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=166024</ExpertLink>
+@@ -2886,7 +2879,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="11716">
+-          <Source>DOI: https://doi.org/10.1016/j.ymgme.2014.12.082[OTHER]</Source>
++          <Source>PMID: 31926052</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -2896,7 +2889,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="ru">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.31</ValMoy>
++          <ValMoy>0.28</ValMoy>
+           <PrevalenceGeographic id="24068">
+             <Name lang="ru">Бразилия</Name>
+           </PrevalenceGeographic>
+@@ -4068,7 +4061,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="8">
++      <PrevalenceList count="9">
+         <Prevalence id="136">
+           <Source>European Medicines Agency 2012[INST]</Source>
+           <PrevalenceType id="23669">
+@@ -4107,6 +4100,25 @@
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="16640">
++          <Source>PMID: 31926052</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="ru">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.02</ValMoy>
++          <PrevalenceGeographic id="24068">
++            <Name lang="ru">Бразилия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+         <Prevalence id="11717">
+           <Source>25060283[PMID]</Source>
+           <PrevalenceType id="23683">
+@@ -14374,7 +14386,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13915">
+-          <Source>DOI: https://doi.org/10.1016/j.ymgme.2014.12.082[OTHER]</Source>
++          <Source>PMID: 31926052</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -14384,7 +14396,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="ru">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.38</ValMoy>
++          <ValMoy>0.37</ValMoy>
+           <PrevalenceGeographic id="24068">
+             <Name lang="ru">Бразилия</Name>
+           </PrevalenceGeographic>
+@@ -14862,7 +14874,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13910">
+-          <Source>DOI: https://doi.org/10.1016/j.ymgme.2014.12.082[OTHER]</Source>
++          <Source>PMID: 31926052</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -14913,7 +14925,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="11">
+         <Prevalence id="520">
+-          <Source>17276780[PMID]</Source>
++          <Source>PMID: 31449670</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -14923,7 +14935,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>2.2</ValMoy>
++          <ValMoy>2.25</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+@@ -14951,7 +14963,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="522">
+-          <Source>DOI:10.1016/S0168-8278(85)80013-1[OTHER]_17276780[PMID]</Source>
++          <Source>PMID: 31449670</Source>
+           <PrevalenceType id="23669">
+             <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+@@ -14961,7 +14973,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>3.3</ValMoy>
++          <ValMoy>2.02</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+@@ -16167,7 +16179,7 @@
+     <Disorder id="17515">
+       <OrphaCode>163654</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=163654</ExpertLink>
+-      <Name lang="ru">Спондилоэпифизарная дисплазия, тип Канту</Name>
++      <Name lang="ru">Синдром спондилоэпифизарной дисплазии-брахидактилии-нарушения речи</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -20001,7 +20013,7 @@
+     <Disorder id="209">
+       <OrphaCode>628</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=628</ExpertLink>
+-      <Name lang="ru">Диастрофическая карликовость</Name>
++      <Name lang="ru">Диастрофическая дисплазия</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -24296,7 +24308,7 @@
+     <Disorder id="294">
+       <OrphaCode>308</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=308</ExpertLink>
+-      <Name lang="ru">Болезнь Унферрихта-Лундборга</Name>
++      <Name lang="ru">Прогрессирующая миоклонус эпилепсия тип 1</Name>
+       <DisorderType id="21401">
+         <Name lang="ru">Синдром врожденных пороков развития</Name>
+       </DisorderType>
+@@ -38594,11 +38606,11 @@
+       <OrphaCode>2346</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=2346</ExpertLink>
+       <Name lang="ru">Ангиоостеогипертрофический синдром</Name>
+-      <DisorderType id="21394">
+-        <Name lang="ru">Заболевание</Name>
++      <DisorderType id="21436">
++        <Name lang="ru">Клиническая группа</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="ru">Заболевание</Name>
++      <DisorderGroup id="36540">
++        <Name lang="ru">Группа заболеваний</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="1286">
+@@ -46160,7 +46172,26 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="25">
++      <PrevalenceList count="26">
++        <Prevalence id="16639">
++          <Source>PMID: 31926052</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="ru">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.21</ValMoy>
++          <PrevalenceGeographic id="24068">
++            <Name lang="ru">Бразилия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+         <Prevalence id="1671">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23683">
+@@ -46883,7 +46914,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="8">
++      <PrevalenceList count="6">
+         <Prevalence id="1689">
+           <Source>PMID: 31769437, 25944380, 24715559</Source>
+           <PrevalenceType id="23669">
+@@ -46998,40 +47029,6 @@
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="16436">
+-          <Source>PMID: 22913777</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="ru">Случаи/семьи</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="ru">Случай</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>1314.0</ValMoy>
+-          <PrevalenceGeographic id="24166">
+-            <Name lang="ru">Китай</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="ru">Подтверждено</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="16435">
+-          <Source>PMID: 26627451</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="ru">Случаи/семьи</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="ru">Случай</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>72.0</ValMoy>
+-          <PrevalenceGeographic id="25356">
+-            <Name lang="ru">Тайвань</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="ru">Подтверждено</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="17999">
+@@ -66758,7 +66755,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="ru">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.11</ValMoy>
++          <ValMoy>0.14</ValMoy>
+           <PrevalenceGeographic id="24068">
+             <Name lang="ru">Бразилия</Name>
+           </PrevalenceGeographic>
+@@ -71890,7 +71887,7 @@
+     <Disorder id="18309">
+       <OrphaCode>183678</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=183678</ExpertLink>
+-      <Name lang="ru">Синдром Германски-Пудлака с нейтропенией</Name>
++      <Name lang="ru">Синдром Германского-Пудлака, обусловленный недостаточностью AP-3</Name>
+       <DisorderType id="21450">
+         <Name lang="ru">Клинический подтип</Name>
+       </DisorderType>
+@@ -73335,7 +73332,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="2262">
+-          <Source>15054950[PMID]_10817953[PMID]_[EXPERT]</Source>
++          <Source>PMID: 27037234  ; 34220661; ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+@@ -73345,7 +73342,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>6.0</ValMoy>
++          <ValMoy>5.26</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+@@ -75630,27 +75627,27 @@
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+       <PrevalenceList count="3">
+-        <Prevalence id="11997">
+-          <Source>20301500[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="ru">Распространенность при рождении</Name>
++        <Prevalence id="16626">
++          <Source>PMID: 31969461</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="ru">Значение и класс</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="ru">1-9 / 100 000</Name>
++          <PrevalenceClass id="23739">
++            <Name lang="ru">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.125</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="ru">Весь мир</Name>
++          <ValMoy>0.47</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="ru">Италия</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="12014">
+-          <Source>Kroes_Fransen van de Putte_Ravesloot 2007[AUTHOR]</Source>
++        <Prevalence id="11997">
++          <Source>20301500[PMID]</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -75660,9 +75657,9 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.0</ValMoy>
+-          <PrevalenceGeographic id="24936">
+-            <Name lang="ru">Нидерланды</Name>
++          <ValMoy>1.125</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+@@ -75676,15 +75673,15 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="ru">Только класс</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="ru">1-9 / 100 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="ru">Еще не подтверждено</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -77919,9 +77916,9 @@
+       <DisorderGroup id="36540">
+         <Name lang="ru">Группа заболеваний</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="5">
+-        <Prevalence id="2605">
+-          <Source>14518075[PMID]</Source>
++      <PrevalenceList count="6">
++        <Prevalence id="16623">
++          <Source>PMID: 26431509</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -77931,16 +77928,16 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="24936">
+-            <Name lang="ru">Нидерланды</Name>
++          <ValMoy>2.24</ValMoy>
++          <PrevalenceGeographic id="24257">
++            <Name lang="ru">Чехия</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2606">
+-          <Source>9130925[PMID]_14518075[PMID]</Source>
++        <Prevalence id="16624">
++          <Source>PMID: 31742894</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -77950,54 +77947,73 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="25482">
+-            <Name lang="ru">США</Name>
++          <ValMoy>5.25</ValMoy>
++          <PrevalenceGeographic id="24621">
++            <Name lang="ru">Япония</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2607">
+-          <Source>21967988[PMID]</Source>
++        <Prevalence id="16625">
++          <Source>PMID :32027664</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="ru">Значение и класс</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="ru">1-5 / 10 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>40.0</ValMoy>
+-          <PrevalenceGeographic id="25209">
+-            <Name lang="ru">Саудовская Аравия</Name>
++          <ValMoy>3.52</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="ru">Великобритания</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="2608">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="ru">Точечное распространение</Name>
++        <Prevalence id="2605">
++          <Source>14518075[PMID]</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="ru">Только класс</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="ru">Европа</Name>
++          <ValMoy>2.0</ValMoy>
++          <PrevalenceGeographic id="24936">
++            <Name lang="ru">Нидерланды</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="ru">Еще не подтверждено</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="2607">
++          <Source>21967988[PMID]</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23732">
++            <Name lang="ru">1-5 / 10 000</Name>
++          </PrevalenceClass>
++          <ValMoy>40.0</ValMoy>
++          <PrevalenceGeographic id="25209">
++            <Name lang="ru">Саудовская Аравия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="10928">
+-          <Source>[EXPERT]_ORPHANET</Source>
++          <Source>ORPHANET</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -78007,7 +78023,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>2.0</ValMoy>
++          <ValMoy>3.67</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+@@ -81092,6 +81108,38 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="1228">
++      <OrphaCode>3306</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=3306</ExpertLink>
++      <Name lang="ru">Синдром инвертированной дупликации хромосомы 15</Name>
++      <DisorderType id="21401">
++        <Name lang="ru">Синдром врожденных пороков развития</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <PrevalenceList count="1">
++        <Prevalence id="16620">
++          <Source>PMID: 11579431</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="ru">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>3.33</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="1231">
+       <OrphaCode>3375</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=3375</ExpertLink>
+@@ -102325,7 +102373,7 @@
+     <Disorder id="1899">
+       <OrphaCode>1952</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=1952</ExpertLink>
+-      <Name lang="ru">Дисплазия Пакман</Name>
++      <Name lang="ru">Синдром эпифизарной зернистости-гиперплазии остеокластов</Name>
+       <DisorderType id="21401">
+         <Name lang="ru">Синдром врожденных пороков развития</Name>
+       </DisorderType>
+@@ -173465,7 +173513,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="8794">
+-          <Source>23625533[PMID]_25665837[PMID]</Source>
++          <Source>PMID: 33365252 ; 33485800</Source>
+           <PrevalenceType id="23697">
+             <Name lang="ru">Случаи/семьи</Name>
+           </PrevalenceType>
+@@ -173473,7 +173521,7 @@
+             <Name lang="ru">Случай</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>19.0</ValMoy>
++          <ValMoy>32.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+@@ -173482,7 +173530,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="8795">
+-          <Source>ORPHANET_23625533[PMID]_25665837[PMID]</Source>
++          <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+@@ -183959,7 +184007,7 @@
+     <Disorder id="19198">
+       <OrphaCode>231531</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=231531</ExpertLink>
+-      <Name lang="ru">Синдром Германски-Пудлака тип 7</Name>
++      <Name lang="ru">Синдром Германского-Пудлака, обусловленный недостаточностью BLOC-1</Name>
+       <DisorderType id="21450">
+         <Name lang="ru">Клинический подтип</Name>
+       </DisorderType>
+@@ -184008,7 +184056,7 @@
+     <Disorder id="19196">
+       <OrphaCode>231512</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=231512</ExpertLink>
+-      <Name lang="ru">Синдром Германски-Пудлака без фиброза легких</Name>
++      <Name lang="ru">Синдром Германского-Пудлака, обусловленный недостаточностью BLOC-2</Name>
+       <DisorderType id="21450">
+         <Name lang="ru">Клинический подтип</Name>
+       </DisorderType>
+@@ -184180,7 +184228,7 @@
+     <Disorder id="19195">
+       <OrphaCode>231500</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=231500</ExpertLink>
+-      <Name lang="ru">Синдром Германски-Пудлака с фиброзом легких</Name>
++      <Name lang="ru">Синдром Германского-Пудлака, обусловленный недостаточностью BLOC-3</Name>
+       <DisorderType id="21450">
+         <Name lang="ru">Клинический подтип</Name>
+       </DisorderType>
+@@ -214723,7 +214771,7 @@
+     <Disorder id="21494">
+       <OrphaCode>314555</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=314555</ExpertLink>
+-      <Name lang="ru">Синдром краниофациальной дисплазии-остеопении</Name>
++      <Name lang="ru">Синдром лицевого дисморфизма-тяжелой близорукости-остеопении-интеллектуальной недостаточности-зубных аномалий</Name>
+       <DisorderType id="21401">
+         <Name lang="ru">Синдром врожденных пороков развития</Name>
+       </DisorderType>
+@@ -222562,7 +222610,7 @@
+     <Disorder id="23623">
+       <OrphaCode>449432</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=449432</ExpertLink>
+-      <Name lang="ru">IgG4-связанная ассоциированная поднижнечелюстных желез</Name>
++      <Name lang="ru">IgG4-ассоциированное заболевание поднижнечелюстных желез</Name>
+       <DisorderType id="21450">
+         <Name lang="ru">Клинический подтип</Name>
+       </DisorderType>
+@@ -269769,7 +269817,7 @@
+     <Disorder id="25161">
+       <OrphaCode>477831</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=477831</ExpertLink>
+-      <Name lang="ru">Синдром чрезмерного роста скелета-черепно-лицевого дисморфизма-гиперэластичной кожи-поражений белого вещества</Name>
++      <Name lang="ru">Синдром избыточного роста Козаки</Name>
+       <DisorderType id="21401">
+         <Name lang="ru">Синдром врожденных пороков развития</Name>
+       </DisorderType>
+@@ -276980,7 +277028,7 @@
+     <Disorder id="10885">
+       <OrphaCode>66627</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=66627</ExpertLink>
+-      <Name lang="ru">Пигментный виллонодулярный синовит</Name>
++      <Name lang="ru">Теносиновиальная гигантоклеточная опухоль</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -282029,7 +282077,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13938">
+-          <Source>DOI: https://doi.org/10.1016/j.ymgme.2014.12.082[OTHER]_28595941[PMID]</Source>
++          <Source>PMID: 31926052</Source>
+           <PrevalenceType id="23683">
+             <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+@@ -282039,7 +282087,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.04</ValMoy>
++          <ValMoy>1.25</ValMoy>
+           <PrevalenceGeographic id="24068">
+             <Name lang="ru">Бразилия</Name>
+           </PrevalenceGeographic>
+@@ -282350,7 +282398,7 @@
+     <Disorder id="11260">
+       <OrphaCode>79234</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=79234</ExpertLink>
+-      <Name lang="ru">Синдром Криглера-Найяра, тип 1</Name>
++      <Name lang="ru">Синдром Криглера-Найяра тип 1</Name>
+       <DisorderType id="21450">
+         <Name lang="ru">Клинический подтип</Name>
+       </DisorderType>
+@@ -294452,7 +294500,7 @@
+     <Disorder id="10360">
+       <OrphaCode>35062</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=35062</ExpertLink>
+-      <Name lang="ru">Идиопатическая диссеминированная цитомегаловирусная инфекция</Name>
++      <Name lang="ru">Тяжелая диссеминированная цитомегаловирусная инфекция у иммунокомпетентных пациентов</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -303999,29 +304047,29 @@
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+       <PrevalenceList count="3">
+-        <Prevalence id="12928">
+-          <Source>European Medicines Agency 2014[INST]</Source>
++        <Prevalence id="16645">
++          <Source>PMID: 26543054</Source>
+           <PrevalenceType id="23669">
+             <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="ru">Значение и класс</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="ru">1-9 / 1 000 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.21</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="ru">Европа</Name>
++          <ValMoy>1.89</ValMoy>
++          <PrevalenceGeographic id="25006">
++            <Name lang="ru">Норвегия</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="12929">
+-          <Source>19095780[PMID]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="ru">Распространенность при рождении</Name>
++        <Prevalence id="16646">
++          <Source>PMID: 31730177</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="ru">Значение и класс</Name>
+@@ -304029,16 +304077,16 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>1.95</ValMoy>
+-          <PrevalenceGeographic id="24264">
+-            <Name lang="ru">Дания</Name>
++          <ValMoy>1.54</ValMoy>
++          <PrevalenceGeographic id="25475">
++            <Name lang="ru">Великобритания</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="13994">
+-          <Source>19095780[PMID]</Source>
++        <Prevalence id="12928">
++          <Source>PMID: 26543054 ; 31730177</Source>
+           <PrevalenceType id="23669">
+             <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+@@ -304048,9 +304096,9 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>2.4</ValMoy>
+-          <PrevalenceGeographic id="24264">
+-            <Name lang="ru">Дания</Name>
++          <ValMoy>1.66</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="ru">Европа</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+@@ -305044,11 +305092,11 @@
+       <OrphaCode>90308</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=90308</ExpertLink>
+       <Name lang="ru">Синдром Клиппель-Тренонай</Name>
+-      <DisorderType id="21450">
+-        <Name lang="ru">Клинический подтип</Name>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="ru">Подтип заболевания</Name>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="7026">
+@@ -313184,38 +313232,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="12110">
+-      <OrphaCode>91133</OrphaCode>
+-      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=91133</ExpertLink>
+-      <Name lang="ru">Синдром остеопении-миопии-тугоухости-умственной отсталости-лицевого дисморфизма</Name>
+-      <DisorderType id="21401">
+-        <Name lang="ru">Синдром врожденных пороков развития</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="ru">Заболевание</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="7086">
+-          <Source>ORPHANET_17230486[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="ru">Точечное распространение</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="ru">Только класс</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="ru">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="ru">Весь мир</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="ru">Подтверждено</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="12096">
+       <OrphaCode>90793</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=90793</ExpertLink>
+@@ -321631,7 +321647,7 @@
+     <Disorder id="11669">
+       <OrphaCode>85279</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=85279</ExpertLink>
+-      <Name lang="ru">Синдромальная Х-сцепленная умственная отсталость вследствие мутации в гене JARID1C</Name>
++      <Name lang="ru">Синдромальная Х-сцепленная умственная отсталость вследствие мутации в гене KDM5C</Name>
+       <DisorderType id="21401">
+         <Name lang="ru">Синдром врожденных пороков развития</Name>
+       </DisorderType>
+@@ -336768,6 +336784,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29924">
++      <OrphaCode>599373</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=599373</ExpertLink>
++      <Name lang="en">STXBP1-related encephalopathy</Name>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16637">
++          <Source>PMID: 32643187</Source>
++          <PrevalenceType id="23697">
++            <Name lang="ru">Случаи/семьи</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="ru">Случай</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>282.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16638">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="12325">
+       <OrphaCode>93403</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=93403</ExpertLink>
+@@ -340425,6 +340490,104 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29564">
++      <OrphaCode>592564</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=592564</ExpertLink>
++      <Name lang="en">GNAO1-related developmental delay-seizures-movement disorder spectrum</Name>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16643">
++          <Source>PMID: 26060304 ; 29758257 ; 30682224 ; 34122306</Source>
++          <PrevalenceType id="23697">
++            <Name lang="ru">Случаи/семьи</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="ru">Случай</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>75.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16644">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="ru">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29565">
++      <OrphaCode>592570</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=592570</ExpertLink>
++      <Name lang="en">TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome</Name>
++      <DisorderType id="21401">
++        <Name lang="ru">Синдром врожденных пороков развития</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16641">
++          <Source>PMID: 29961569 ;  32376980 ;  32459067 ;  34088006</Source>
++          <PrevalenceType id="23697">
++            <Name lang="ru">Случаи/семьи</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="ru">Случай</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>55.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16642">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="ru">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="14245">
+       <OrphaCode>99672</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=99672</ExpertLink>
+@@ -340589,6 +340752,297 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29441">
++      <OrphaCode>589821</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589821</ExpertLink>
++      <Name lang="en">Congenital-onset Steinert myotonic dystrophy</Name>
++      <DisorderType id="21450">
++        <Name lang="ru">Клинический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <PrevalenceList count="4">
++        <Prevalence id="16621">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16622">
++          <Source>PMID: 23415617</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="ru">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>2.1</ValMoy>
++          <PrevalenceGeographic id="24124">
++            <Name lang="ru">Канада</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16627">
++          <Source>PMID: 26882032</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="ru">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.94</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="ru">Италия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16628">
++          <Source>PMID: 33472919</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23732">
++            <Name lang="ru">1-5 / 10 000</Name>
++          </PrevalenceClass>
++          <ValMoy>47.6</ValMoy>
++          <PrevalenceGeographic id="25482">
++            <Name lang="ru">США</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29443">
++      <OrphaCode>589827</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589827</ExpertLink>
++      <Name lang="en">Juvenile-onset Steinert myotonic dystrophy</Name>
++      <DisorderType id="21450">
++        <Name lang="ru">Клинический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16631">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16632">
++          <Source>PMID: 26882032</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="ru">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>1.64</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="ru">Италия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29442">
++      <OrphaCode>589824</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589824</ExpertLink>
++      <Name lang="en">Childhood-onset Steinert myotonic dystrophy</Name>
++      <DisorderType id="21450">
++        <Name lang="ru">Клинический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16629">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16630">
++          <Source>PMID: 26882032</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>1.29</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="ru">Италия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29445">
++      <OrphaCode>589833</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589833</ExpertLink>
++      <Name lang="en">Late-onset Steinert myotonic dystrophy</Name>
++      <DisorderType id="21450">
++        <Name lang="ru">Клинический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16635">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16636">
++          <Source>PMID: 26882032</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="ru">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>8.14</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="ru">Италия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29444">
++      <OrphaCode>589830</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589830</ExpertLink>
++      <Name lang="en">Adult-onset Steinert myotonic dystrophy</Name>
++      <DisorderType id="21450">
++        <Name lang="ru">Клинический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16633">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="ru">Только класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="ru">неизвестно</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16634">
++          <Source>PMID: 26882032</Source>
++          <PrevalenceType id="23669">
++            <Name lang="ru">Точечное распространение</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="ru">Значение и класс</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23732">
++            <Name lang="ru">1-5 / 10 000</Name>
++          </PrevalenceClass>
++          <ValMoy>12.54</ValMoy>
++          <PrevalenceGeographic id="24607">
++            <Name lang="ru">Италия</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="ru">Подтверждено</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="29447">
+       <OrphaCode>589905</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589905</ExpertLink>
+@@ -348072,10 +348526,10 @@
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+       <PrevalenceList count="15">
+-        <Prevalence id="7708">
+-          <Source>European Medicines Agency 2018[INST]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="ru">Точечное распространение</Name>
++        <Prevalence id="16647">
++          <Source>PMID: 32503598</Source>
++          <PrevalenceType id="23683">
++            <Name lang="ru">Распространенность при рождении</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="ru">Значение и класс</Name>
+@@ -348083,9 +348537,9 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>5.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="ru">Европа</Name>
++          <ValMoy>9.9</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="ru">Подтверждено</Name>
+@@ -348244,7 +348698,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="11209">
+-          <Source>24780148[PMID]</Source>
++          <Source>PMID: 32503598</Source>
+           <PrevalenceType id="23669">
+             <Name lang="ru">Точечное распространение</Name>
+           </PrevalenceType>
+@@ -348254,7 +348708,7 @@
+           <PrevalenceClass id="23746">
+             <Name lang="ru">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>4.78</ValMoy>
++          <ValMoy>2.8</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="ru">Весь мир</Name>
+           </PrevalenceGeographic>
