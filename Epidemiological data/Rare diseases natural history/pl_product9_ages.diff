@@ -1,0 +1,285 @@
+commit 57fdf392dcec7eacab11e5cf66bf35fafd0ff752
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Jan 2 10:18:09 2022 +0100
+
+    JAN 2021
+
+diff --git a/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml b/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml
+index 59ea5b2..7f7d8a2 100644
+--- a/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml	
+@@ -1,6 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2021-12-01 04:55:31" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <DisorderList count="6641">
++<JDBOR date="2022-01-01 04:52:33" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <Availability> 
++    <Licence>
++      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
++      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
++      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
++    </Licence>
++  </Availability>
++  <DisorderList count="6643">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166024</ExpertLink>
+@@ -494,7 +501,10 @@
+           <Name lang="pl">W każdym wieku</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="pl">brak dostępnych danych</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23410">
+@@ -708,7 +718,10 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="pl">brak dostępnych danych</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -1620,9 +1633,12 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="pl">normalna oczekiwana długość życia</Name>
++      <AverageAgeOfDeathList count="2">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="pl">dorosły</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="pl">osoba starsza</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+@@ -15115,15 +15131,9 @@
+       <DisorderGroup id="36540">
+         <Name lang="pl">Grupa kliniczna</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="pl">normalna oczekiwana długość życia</Name>
+-        </AverageAgeOfDeath>
++      <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -19909,7 +19919,10 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="pl">brak dostępnych danych</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="3">
+         <TypeOfInheritance id="23410">
+@@ -26830,6 +26843,41 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="16890">
++      <OrphaCode>139417</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=139417</ExpertLink>
++      <Name lang="pl">Ostre poprzeczne zapalenie rdzenia</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="pl">normalna oczekiwana długość życia</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="1339">
+       <OrphaCode>1031</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1031</ExpertLink>
+@@ -52499,7 +52547,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+@@ -128294,8 +128345,8 @@
+       <OrphaCode>66633</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=66633</ExpertLink>
+       <Name lang="pl">Czuciowo-nerwowa utrata słuchu - przedwczesne siwienie - drżenie samoistne</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+@@ -148498,7 +148549,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+@@ -148506,7 +148560,16 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23599">
++          <Name lang="pl">wczesne dzieciństwo</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="pl">niemowlę</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23641">
++          <Name lang="pl">normalna oczekiwana długość życia</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -149835,17 +149898,47 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="6">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23508">
+           <Name lang="pl">Prenatalny</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="pl">w dowolnym wieku</Name>
++      <AverageAgeOfDeathList count="7">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="pl">nastolatek</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="pl">dorosły</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="pl">wczesne dzieciństwo</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="pl">osoba starsza</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="pl">niemowlę</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="pl">późne dzieciństwo</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="pl">młody dorosły</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+@@ -165381,6 +165474,41 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29579">
++      <OrphaCode>592873</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=592873</ExpertLink>
++      <Name lang="pl">Ostre poprzeczne zapalenie rdzenia z przeciwciałami przeciw glikoproteinie oligodendrocytów mieliny</Name>
++      <DisorderType id="21450">
++        <Name lang="pl">Podtyp kliniczny</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="pl">normalna oczekiwana długość życia</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14158">
+       <OrphaCode>99141</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99141</ExpertLink>

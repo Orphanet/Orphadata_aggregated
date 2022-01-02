@@ -1,0 +1,510 @@
+commit 57fdf392dcec7eacab11e5cf66bf35fafd0ff752
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Jan 2 10:18:09 2022 +0100
+
+    JAN 2021
+
+diff --git a/Epidemiological data/Rare diseases natural history/it_product9_ages.xml b/Epidemiological data/Rare diseases natural history/it_product9_ages.xml
+index 1be04df..568a6b2 100644
+--- a/Epidemiological data/Rare diseases natural history/it_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/it_product9_ages.xml	
+@@ -1,6 +1,13 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-12-01 04:56:04" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <DisorderList count="6641">
++<JDBOR date="2022-01-01 04:53:00" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <Availability> 
++    <Licence>
++      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
++      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
++      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
++    </Licence>
++  </Availability>
++  <DisorderList count="6643">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=166024</ExpertLink>
+@@ -494,7 +501,10 @@
+           <Name lang="it">Qualsiasi età</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="it">Nessun dato disponibile</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23410">
+@@ -708,7 +718,10 @@
+           <Name lang="it">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="it">Nessun dato disponibile</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -1620,9 +1633,12 @@
+           <Name lang="it">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="it">aspettativa di vita normale</Name>
++      <AverageAgeOfDeathList count="2">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="it">Adulti</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="it">Anziani</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+@@ -10388,7 +10404,7 @@
+     <Disorder id="420">
+       <OrphaCode>1143</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1143</ExpertLink>
+-      <Name lang="it">Artrogriposi congenita multipla, tipo neurogeno</Name>
++      <Name lang="it">Artrogriposi congenita multipla tipo neurogeno</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -15115,15 +15131,9 @@
+       <DisorderGroup id="36540">
+         <Name lang="it">Gruppo di malattie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="it">Qualsiasi età</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="it">aspettativa di vita normale</Name>
+-        </AverageAgeOfDeath>
++      <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -19909,7 +19919,10 @@
+           <Name lang="it">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="it">Nessun dato disponibile</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="3">
+         <TypeOfInheritance id="23410">
+@@ -21360,7 +21373,7 @@
+     <Disorder id="935">
+       <OrphaCode>642</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=642</ExpertLink>
+-      <Name lang="it">Neuropatia autonomica e sensoriale, tipo 4</Name>
++      <Name lang="it">Neuropatia sensoriale e autonoma ereditaria tipo 4</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -26830,6 +26843,41 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="16890">
++      <OrphaCode>139417</OrphaCode>
++      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=139417</ExpertLink>
++      <Name lang="it">Mielite trasversa acuta</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="it">Malattia</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="it">Adolescenti</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="it">Età adulta</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="it">Anziani</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="it">aspettativa di vita normale</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="1339">
+       <OrphaCode>1031</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1031</ExpertLink>
+@@ -28160,7 +28208,7 @@
+     <Disorder id="1534">
+       <OrphaCode>1300</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1300</ExpertLink>
+-      <Name lang="it">Sindrome dello pterigio popliteo, autosomica dominante</Name>
++      <Name lang="it">Sindrome dello pterigio popliteo autosomica dominante</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -41295,7 +41343,7 @@
+     <Disorder id="19545">
+       <OrphaCode>247775</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=247775</ExpertLink>
+-      <Name lang="it">Sindrome di Mayer-Rokitansky-Küster-Hauser, tipo 1</Name>
++      <Name lang="it">Sindrome di Mayer-Rokitansky-Küster-Hauser tipo 1</Name>
+       <DisorderType id="21450">
+         <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+@@ -52499,7 +52547,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="it">Prenatale</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="it">Infanzia</Name>
+         </AverageAgeOfOnset>
+@@ -53516,7 +53567,7 @@
+     <Disorder id="2373">
+       <OrphaCode>2573</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=2573</ExpertLink>
+-      <Name lang="it">Malattia di Moyamoya</Name>
++      <Name lang="it">Malattia di moyamoya</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -61351,7 +61402,7 @@
+     <Disorder id="20350">
+       <OrphaCode>276152</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=276152</ExpertLink>
+-      <Name lang="it">Neoplasia endrocina multipla, tipo 4</Name>
++      <Name lang="it">Neoplasia endrocina multipla tipo 4</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -63635,7 +63686,7 @@
+     <Disorder id="2869">
+       <OrphaCode>3214</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=3214</ExpertLink>
+-      <Name lang="it">Sordità - cecità - ipopigmentazione</Name>
++      <Name lang="it">Sindrome da sordità, cecità e ipopigmentazione tipo yemenita</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -69183,7 +69234,7 @@
+     <Disorder id="3181">
+       <OrphaCode>1134</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=1134</ExpertLink>
+-      <Name lang="it">Arinia</Name>
++      <Name lang="it">Arinia isolata</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -81527,7 +81578,7 @@
+     <Disorder id="19144">
+       <OrphaCode>230851</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=230851</ExpertLink>
+-      <Name lang="it">Sindrome di Ehlers-Danlos, tipo cardiaco-valvolare</Name>
++      <Name lang="it">Sindrome di Ehlers-Danlos, tipo cardio-valvolare</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -95704,7 +95755,7 @@
+     <Disorder id="20731">
+       <OrphaCode>289504</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=289504</ExpertLink>
+-      <Name lang="it">Acidemia metilmalonica e malonica combinata</Name>
++      <Name lang="it">Acidemia combinata malonica e metilmalonica</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -96686,7 +96737,7 @@
+     <Disorder id="20497">
+       <OrphaCode>280679</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=280679</ExpertLink>
+-      <Name lang="it">Sindrome angiopatia di Moyamoya-bassa statura-dismorfismi facciali-ipogonadismo ipergonadotropo</Name>
++      <Name lang="it">Sindrome da angiopatia di moyamoya-bassa statura-dismorfismi facciali-ipogonadismo ipergonadotropo</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -99251,7 +99302,7 @@
+     <Disorder id="21321">
+       <OrphaCode>308552</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=308552</ExpertLink>
+-      <Name lang="it">Malattia da deposito di glicogeno da deficit di maltasi acida, a esordio infantile</Name>
++      <Name lang="it">Malattia da deposito di glicogeno da deficit di maltasi acida ad esordio infantile</Name>
+       <DisorderType id="21450">
+         <Name lang="it">Sottotipo clinico</Name>
+       </DisorderType>
+@@ -106686,7 +106737,7 @@
+     <Disorder id="22856">
+       <OrphaCode>401945</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=401945</ExpertLink>
+-      <Name lang="it">Malattia di Moyamoya con acalasia ad esordio precoce</Name>
++      <Name lang="it">Malattia di moyamoya con acalasia ad esordio precoce</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -107274,7 +107325,7 @@
+     <Disorder id="22939">
+       <OrphaCode>404560</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=404560</ExpertLink>
+-      <Name lang="it">Sindrome familiare da mole-melanomi atipici multipli</Name>
++      <Name lang="it">Sindrome da melanoma familiare con nevi multipli atipici</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -111884,7 +111935,7 @@
+     <Disorder id="23381">
+       <OrphaCode>439218</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=439218</ExpertLink>
+-      <Name lang="it">Encefalopatia epilettica KCNQ2-correlata</Name>
++      <Name lang="it">Encefalopatia epilettica correlata a KCNQ2</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -113522,7 +113573,7 @@
+     <Disorder id="23470">
+       <OrphaCode>443950</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=443950</ExpertLink>
+-      <Name lang="it">Malattia di Charcot-Marie-Tooth, tipo 2T</Name>
++      <Name lang="it">Malattia di Charcot-Marie-Tooth tipo 2T, correlata a DNAJB2</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -128294,8 +128345,8 @@
+       <OrphaCode>66633</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=66633</ExpertLink>
+       <Name lang="it">Sordità neurosensoriale - incanutimento precoce - tremore essenziale</Name>
+-      <DisorderType id="21401">
+-        <Name lang="it">Sindrome malformativa</Name>
++      <DisorderType id="21394">
++        <Name lang="it">Malattia</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+@@ -141010,7 +141061,7 @@
+     <Disorder id="10674">
+       <OrphaCode>51577</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=51577</ExpertLink>
+-      <Name lang="it">Lissencefalia con aspetto ciottolato</Name>
++      <Name lang="it">Lissencefalia con aspetto acciottolato</Name>
+       <DisorderType id="21436">
+         <Name lang="it">Gruppo di fenomi</Name>
+       </DisorderType>
+@@ -141199,7 +141250,7 @@
+     <Disorder id="10677">
+       <OrphaCode>51890</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=51890</ExpertLink>
+-      <Name lang="it">Sindrome di Komae</Name>
++      <Name lang="it">Sindrome da intrappolamento del nervo cutaneo anteriore</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -148023,7 +148074,7 @@
+     <Disorder id="12241">
+       <OrphaCode>93304</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=93304</ExpertLink>
+-      <Name lang="it">Brachiolmia, tipo 3</Name>
++      <Name lang="it">Brachiolmia autosomica dominante</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -148498,7 +148549,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="it">Infanzia</Name>
+         </AverageAgeOfOnset>
+@@ -148506,7 +148560,16 @@
+           <Name lang="it">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23599">
++          <Name lang="it">prima infanzia</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="it">infantile</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23641">
++          <Name lang="it">aspettativa di vita normale</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -148947,7 +149010,7 @@
+     <Disorder id="12060">
+       <OrphaCode>90652</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90652</ExpertLink>
+-      <Name lang="it">Sindrome oto-palato-digitale, tipo 2</Name>
++      <Name lang="it">Sindrome oto-palato-digitale tipo 2</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -149051,7 +149114,7 @@
+     <Disorder id="12059">
+       <OrphaCode>90650</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=90650</ExpertLink>
+-      <Name lang="it">Sindrome oto-palato-digitale, tipo 1</Name>
++      <Name lang="it">Sindrome oto-palato-digitale tipo 1</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -149835,17 +149898,47 @@
+       <DisorderGroup id="36547">
+         <Name lang="it">Malattia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="6">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="it">Adolescenti</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="it">Età adulta</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23508">
+           <Name lang="it">Prenatale</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="it">Neonatal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="it">Qualsiasi età</Name>
++      <AverageAgeOfDeathList count="7">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="it">adolescenti</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="it">Adulti</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="it">prima infanzia</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="it">Anziani</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="it">infantile</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="it">tarda infanzia</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="it">Giovane età adulta</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+@@ -156345,7 +156438,7 @@
+     <Disorder id="11527">
+       <OrphaCode>79501</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=79501</ExpertLink>
+-      <Name lang="it">Cheratoderma palmoplantare puntato, tipo 1</Name>
++      <Name lang="it">Cheratoderma palmoplantare puntato tipo 1</Name>
+       <DisorderType id="21394">
+         <Name lang="it">Malattia</Name>
+       </DisorderType>
+@@ -165381,6 +165474,41 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29579">
++      <OrphaCode>592873</OrphaCode>
++      <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=592873</ExpertLink>
++      <Name lang="it">Mielite trasversa acuta con anticorpi anti-MOG</Name>
++      <DisorderType id="21450">
++        <Name lang="it">Sottotipo clinico</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="it">Sottotipo della malattia</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="it">Adolescenti</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="it">Età adulta</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="it">Anziani</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="it">Infanzia</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="it">aspettativa di vita normale</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14158">
+       <OrphaCode>99141</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=99141</ExpertLink>
+@@ -174176,7 +174304,7 @@
+     <Disorder id="14589">
+       <OrphaCode>100016</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=100016</ExpertLink>
+-      <Name lang="it">Lissencefalia con ipoplasia cerebellare, tipo F</Name>
++      <Name lang="it">Lissencefalia con ipoplasia cerebellare tipo F</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -174245,7 +174373,7 @@
+     <Disorder id="14587">
+       <OrphaCode>100014</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=100014</ExpertLink>
+-      <Name lang="it">Lissencefalia con ipoplasia cerebellare, tipo D</Name>
++      <Name lang="it">Lissencefalia con ipoplasia cerebellare tipo D</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>
+@@ -174268,7 +174396,7 @@
+     <Disorder id="14586">
+       <OrphaCode>100013</OrphaCode>
+       <ExpertLink lang="it">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=it&amp;Expert=100013</ExpertLink>
+-      <Name lang="it">Lissencefalia con ipoplasia cerebellare, tipo C</Name>
++      <Name lang="it">Lissencefalia con ipoplasia cerebellare tipo C</Name>
+       <DisorderType id="21401">
+         <Name lang="it">Sindrome malformativa</Name>
+       </DisorderType>

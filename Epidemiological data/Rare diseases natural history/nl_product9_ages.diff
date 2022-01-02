@@ -1,0 +1,312 @@
+commit 57fdf392dcec7eacab11e5cf66bf35fafd0ff752
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Jan 2 10:18:09 2022 +0100
+
+    JAN 2021
+
+diff --git a/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml b/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml
+index d01dd7e..b1af2f6 100644
+--- a/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/nl_product9_ages.xml	
+@@ -1,6 +1,13 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-12-01 04:56:14" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <DisorderList count="6641">
++<JDBOR date="2022-01-01 04:53:09" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <Availability> 
++    <Licence>
++      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
++      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
++      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
++    </Licence>
++  </Availability>
++  <DisorderList count="6643">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=166024</ExpertLink>
+@@ -494,7 +501,10 @@
+           <Name lang="nl">Elke leeftijd</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="nl">No data available</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23410">
+@@ -708,7 +718,10 @@
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="nl">No data available</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -1620,9 +1633,12 @@
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="nl">Normale levensverwachting</Name>
++      <AverageAgeOfDeathList count="2">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="nl">Volwassene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="nl">Op leeftijd</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+@@ -15115,15 +15131,9 @@
+       <DisorderGroup id="36540">
+         <Name lang="nl">Groep van aandoeningen</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="nl">Elke leeftijd</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="nl">Normale levensverwachting</Name>
+-        </AverageAgeOfDeath>
++      <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -19909,7 +19919,10 @@
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="nl">No data available</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="3">
+         <TypeOfInheritance id="23410">
+@@ -26830,6 +26843,41 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="16890">
++      <OrphaCode>139417</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=139417</ExpertLink>
++      <Name lang="nl">Acute transversale myelitis</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="nl">Volwassenheid</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="nl">Kindertijd</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="nl">Op leeftijd</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="nl">Kindsheid</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="nl">Normale levensverwachting</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="1339">
+       <OrphaCode>1031</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1031</ExpertLink>
+@@ -45164,7 +45212,7 @@
+     <Disorder id="2057">
+       <OrphaCode>2158</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2158</ExpertLink>
+-      <Name lang="nl">Histidinurie - nierbuisdefect</Name>
++      <Name lang="nl">Histidinurie - defect van niertubulus-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -52499,7 +52547,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="nl">Antenataal</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="nl">Kindsheid</Name>
+         </AverageAgeOfOnset>
+@@ -83674,7 +83725,7 @@
+     <Disorder id="21955">
+       <OrphaCode>330001</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=330001</ExpertLink>
+-      <Name lang="nl">Wildtype ATTR-amyloïdose</Name>
++      <Name lang="nl">Wild-type ATTR-amyloïdose</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -128294,8 +128345,8 @@
+       <OrphaCode>66633</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=66633</ExpertLink>
+       <Name lang="nl">Sensorineuraal gehoorverlies - vroege vergrijzing - essentiële tremor-syndroom</Name>
+-      <DisorderType id="21401">
+-        <Name lang="nl">Malformatiesyndroom</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+@@ -148498,7 +148549,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="nl">Kindertijd</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="nl">Kindsheid</Name>
+         </AverageAgeOfOnset>
+@@ -148506,7 +148560,16 @@
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23599">
++          <Name lang="nl">Vroege kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="nl">Infantiel</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23641">
++          <Name lang="nl">Normale levensverwachting</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -149835,17 +149898,47 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="6">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="nl">Volwassenheid</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23508">
+           <Name lang="nl">Antenataal</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="nl">Kindertijd</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="nl">Kindsheid</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="nl">Neonataal</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="nl">Elke leeftijd</Name>
++      <AverageAgeOfDeathList count="7">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="nl">Volwassene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="nl">Vroege kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="nl">Op leeftijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="nl">Infantiel</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="nl">Late kindertijd</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="nl">Jonge volwassenheid</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+@@ -155924,7 +156017,7 @@
+     <Disorder id="11760">
+       <OrphaCode>86861</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=86861</ExpertLink>
+-      <Name lang="nl">Ziekte met niet-amyloïde afzetting van monoklonaal immunoglobuline</Name>
++      <Name lang="nl">Ziekte van niet-amyloïde depositie van monoklonaal immunoglobuline</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -165381,6 +165474,41 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29579">
++      <OrphaCode>592873</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=592873</ExpertLink>
++      <Name lang="nl">Acute transversale myelitis met anti-MOG antilichamen</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="nl">Puber</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="nl">Volwassenheid</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="nl">Kindertijd</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="nl">Op leeftijd</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="nl">Kindsheid</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="nl">Normale levensverwachting</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14158">
+       <OrphaCode>99141</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99141</ExpertLink>

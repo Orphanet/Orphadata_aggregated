@@ -1,0 +1,339 @@
+commit 57fdf392dcec7eacab11e5cf66bf35fafd0ff752
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Sun Jan 2 10:18:09 2022 +0100
+
+    JAN 2021
+
+diff --git a/Epidemiological data/Rare diseases natural history/de_product9_ages.xml b/Epidemiological data/Rare diseases natural history/de_product9_ages.xml
+index 75c979a..036675e 100644
+--- a/Epidemiological data/Rare diseases natural history/de_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/de_product9_ages.xml	
+@@ -1,6 +1,13 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2021-12-01 04:55:21" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <DisorderList count="6641">
++<JDBOR date="2022-01-01 04:52:24" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <Availability> 
++    <Licence>
++      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
++      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
++      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
++    </Licence>
++  </Availability>
++  <DisorderList count="6643">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
+@@ -494,7 +501,10 @@
+           <Name lang="de">Alle Altersgruppen</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="de">Keine Daten verfügbar</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23410">
+@@ -708,7 +718,10 @@
+           <Name lang="de">Neugeborenenzeit</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="de">Keine Daten verfügbar</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -1620,9 +1633,12 @@
+           <Name lang="de">Neugeborenenzeit</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="de">Normale Lebenserwartung</Name>
++      <AverageAgeOfDeathList count="2">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="de">Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="de">Ältere Erwachsene</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+@@ -7997,7 +8013,7 @@
+     <Disorder id="332">
+       <OrphaCode>1636</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1636</ExpertLink>
+-      <Name lang="de">Deletion 7q3</Name>
++      <Name lang="de">Distal Monosomie 7q36</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -15115,15 +15131,9 @@
+       <DisorderGroup id="36540">
+         <Name lang="de">Gruppe von Störungen</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="de">Alle Altersgruppen</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="de">Normale Lebenserwartung</Name>
+-        </AverageAgeOfDeath>
++      <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -19909,7 +19919,10 @@
+           <Name lang="de">Neugeborenenzeit</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="de">Keine Daten verfügbar</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="3">
+         <TypeOfInheritance id="23410">
+@@ -22485,7 +22498,7 @@
+     <Disorder id="988">
+       <OrphaCode>1473</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1473</ExpertLink>
+-      <Name lang="de">Uvea-Kolobom mit Lippen-Gaumenspalte und Intelligenzminderung</Name>
++      <Name lang="de">Uvea-Kolobom mit Lippen-Kiefer-Gaumenspalte und Intelligenzminderung</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -22731,7 +22744,7 @@
+     <Disorder id="1096">
+       <OrphaCode>1597</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1597</ExpertLink>
+-      <Name lang="de">Deletion 17q23 q24</Name>
++      <Name lang="de">Monosomie 17q, distale</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -26830,6 +26843,41 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="16890">
++      <OrphaCode>139417</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=139417</ExpertLink>
++      <Name lang="de">Myelitis, akute transverse</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="de">Erwachsenenalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="de">Kleinkindalter</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="de">Normale Lebenserwartung</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="1339">
+       <OrphaCode>1031</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1031</ExpertLink>
+@@ -33847,7 +33895,7 @@
+     <Disorder id="1732">
+       <OrphaCode>1574</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1574</ExpertLink>
+-      <Name lang="de">Netzhautdegeneration - Nanophthalmus - Glaukom</Name>
++      <Name lang="de">Netzhautdegeneration-Nanophthalmus-Glaukom-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -52499,7 +52547,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="de">Vorgeburtlich</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="de">Kleinkindalter</Name>
+         </AverageAgeOfOnset>
+@@ -69336,7 +69387,7 @@
+     <Disorder id="3096">
+       <OrphaCode>1415</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1415</ExpertLink>
+-      <Name lang="de">Cholestase- Pigment-Retinopathie-Gaumenspalte-Syndrom</Name>
++      <Name lang="de">Hardikar-Syndrom</Name>
+       <DisorderType id="21401">
+         <Name lang="de">Fehlbildungs-Syndrom</Name>
+       </DisorderType>
+@@ -120580,7 +120631,7 @@
+     <Disorder id="8568">
+       <OrphaCode>345</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=345</ExpertLink>
+-      <Name lang="de">Dissizierende Zellulitis der Kopfhaut</Name>
++      <Name lang="de">Dissezierende Zellulitis der Kopfhaut</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -128294,8 +128345,8 @@
+       <OrphaCode>66633</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=66633</ExpertLink>
+       <Name lang="de">Sensorineurale Schwerhörigkeit - frühes Ergrauen - essentieller Tremor</Name>
+-      <DisorderType id="21401">
+-        <Name lang="de">Fehlbildungs-Syndrom</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+@@ -148498,7 +148549,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="de">Kleinkindalter</Name>
+         </AverageAgeOfOnset>
+@@ -148506,7 +148560,16 @@
+           <Name lang="de">Neugeborenenzeit</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23599">
++          <Name lang="de">frühe Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="de">Infantil</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23641">
++          <Name lang="de">Normale Lebenserwartung</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -149835,17 +149898,47 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="6">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="de">Erwachsenenalter</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23508">
+           <Name lang="de">Vorgeburtlich</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="de">Kleinkindalter</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="de">Neugeborenenzeit</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="de">Alle Alter</Name>
++      <AverageAgeOfDeathList count="7">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="de">Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="de">frühe Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="de">Infantil</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="de">späte Kindheit</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="de">junges Erwachsenenalter</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+@@ -165381,6 +165474,41 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29579">
++      <OrphaCode>592873</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=592873</ExpertLink>
++      <Name lang="de">Akute transverse Myelitis mit anti-MOG-Antikörper</Name>
++      <DisorderType id="21450">
++        <Name lang="de">Klinischer Subtyp</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="de">Subtyp der Störung</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="de">Jugendalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="de">Erwachsenenalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="de">Kindesalter</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="de">Ältere Erwachsene</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="de">Kleinkindalter</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23641">
++          <Name lang="de">Normale Lebenserwartung</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14158">
+       <OrphaCode>99141</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99141</ExpertLink>
