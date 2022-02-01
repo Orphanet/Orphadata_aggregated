@@ -1,0 +1,795 @@
+commit f65bd9395f4ed3e473ab300a88d98e05768a8ad2
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Feb 1 09:55:47 2022 +0100
+
+    FEB 2022
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/ru_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/ru_product1.xml
+index 5c7a50d..e4a2840 100644
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/ru_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/ru_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2022-01-01 04:35:57" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-02-01 04:37:21" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10603">
++  <DisorderList count="10617">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=166024</ExpertLink>
+@@ -10113,7 +10113,7 @@
+     <Disorder id="109">
+       <OrphaCode>558</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=558</ExpertLink>
+-      <Name lang="en">Marfan syndrome</Name>
++      <Name lang="ru">Синдром Марфана</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -57604,8 +57604,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="en">Bleeding disorder in hemophilia A carriers without Factor VIII deficiency</Synonym>
++      <SynonymList count="1">
+         <Synonym lang="en">Symptomatic form of hemophilia A in female carriers</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+@@ -57796,8 +57795,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="en">Bleeding disorder in hemophilia B carriers without Factor IX deficiency</Synonym>
++      <SynonymList count="1">
+         <Synonym lang="en">Symptomatic form of hemophilia B in female carriers</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+@@ -73047,11 +73045,19 @@
+       <OrphaCode>1549</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=1549</ExpertLink>
+       <Name lang="ru">Криптоспоридиоз</Name>
+-      <DisorderFlagList count="1">
++      <DisorderFlagList count="3">
++        <DisorderFlag id="495">
++          <Value>8192</Value>
++          <Label>Inactive</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
++        <DisorderFlag id="456">
++          <Value>32</Value>
++          <Label>Non-rare disease in Europe</Label>
++        </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+@@ -73061,18 +73067,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="5">
+-        <ExternalReference id="107110">
+-          <Source>MedDRA</Source>
+-          <Reference>10011502</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="1">
+         <ExternalReference id="107113">
+           <Source>ICD-10</Source>
+           <Reference>A07.2</Reference>
+@@ -73086,39 +73081,6 @@
+             <Name lang="ru">Подтверждено</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="145137">
+-          <Source>GARD</Source>
+-          <Reference>6219</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="107109">
+-          <Source>UMLS</Source>
+-          <Reference>C0010418</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="107108">
+-          <Source>MeSH</Source>
+-          <Reference>D003457</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+@@ -95953,7 +95915,7 @@
+     <Disorder id="1043">
+       <OrphaCode>240</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=240</ExpertLink>
+-      <Name lang="en">Léri-Weill dyschondrosteosis</Name>
++      <Name lang="ru">Дисхондростеоз Лери-Вейля</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -236269,7 +236231,7 @@
+     <Disorder id="20224">
+       <OrphaCode>268926</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=268926</ExpertLink>
+-      <Name lang="en">Midline cerebral malformation</Name>
++      <Name lang="ru">Порок развития по средней церебральной линии </Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -262671,7 +262633,7 @@
+     <Disorder id="3079">
+       <OrphaCode>489</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=489</ExpertLink>
+-      <Name lang="en">NON RARE IN EUROPE: Thyroglossal duct cyst</Name>
++      <Name lang="ru">ЗАБОЛЕВАНИЕ, НЕ ОТНОСЯЩЕЕСЯ К РЕДКИМ В ЕВРОПЕ:  Киста щитовидно-язычного протока</Name>
+       <DisorderFlagList count="3">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -281315,7 +281277,7 @@
+     <Disorder id="3439">
+       <OrphaCode>1864</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=1864</ExpertLink>
+-      <Name lang="en">OBSOLETE: Congenital valvular dysplasia</Name>
++      <Name lang="ru">НЕ АКТУАЛЬНОЕ: Врожденная дисплазия клапанов</Name>
+       <DisorderFlagList count="2">
+         <DisorderFlag id="495">
+           <Value>8192</Value>
+@@ -289543,7 +289505,7 @@
+     <Disorder id="3381">
+       <OrphaCode>851</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=851</ExpertLink>
+-      <Name lang="en">Paris-Trousseau thrombocytopenia</Name>
++      <Name lang="ru">Тромбоцитопениия парижской клиники Труссо</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -305684,7 +305646,7 @@
+     <Disorder id="19142">
+       <OrphaCode>230839</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=230839</ExpertLink>
+-      <Name lang="en">Classical-like Ehlers-Danlos syndrome type 1</Name>
++      <Name lang="ru">Подобный классическому синдром Элерса-Данло тип 1</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -315649,7 +315611,7 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="2">
++      <DisorderDisorderAssociationList count="3">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="21817" cycle="true"/>
+           <RootDisorder id="3393">
+@@ -315660,6 +315622,16 @@
+             <Name lang="ru">Упоминается</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="21817" cycle="true"/>
++          <RootDisorder id="10773">
++            <OrphaCode>57194</OrphaCode>
++            <Name lang="ru">НЕ АКТУАЛЬНОЕ: Асептический остит</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="ru">Упоминается</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="21817" cycle="true"/>
+           <RootDisorder id="12460">
+@@ -347807,19 +347779,11 @@
+       <OrphaCode>80</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=80</ExpertLink>
+       <Name lang="ru">ЗАБОЛЕВАНИЕ, НЕ ОТНОСЯЩЕЕСЯ К РЕДКИМ В ЕВРОПЕ: Антифосфолипидный синдром</Name>
+-      <DisorderFlagList count="3">
+-        <DisorderFlag id="495">
+-          <Value>8192</Value>
+-          <Label>Inactive</Label>
+-        </DisorderFlag>
++      <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+-        <DisorderFlag id="456">
+-          <Value>32</Value>
+-          <Label>Non-rare disease in Europe</Label>
+-        </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="3">
+         <Synonym lang="ru">АФС</Synonym>
+@@ -355993,7 +355957,7 @@
+     <Disorder id="21459">
+       <OrphaCode>313855</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=313855</ExpertLink>
+-      <Name lang="en">FGFR2-related bent bone dysplasia</Name>
++      <Name lang="ru">FGFR2-ассоциированная дисплазия c искривлением костей  </Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -356206,7 +356170,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="en">Optic nerve edema-splenomegaly syndrome</Synonym>
++        <Synonym lang="en">ROSAH syndrome</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+@@ -369982,7 +369948,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1043">
+             <OrphaCode>240</OrphaCode>
+-            <Name lang="ru">None</Name>
++            <Name lang="ru">Дисхондростеоз Лери-Вейля</Name>
+           </TargetDisorder>
+           <RootDisorder id="21057" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -370021,7 +369987,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1043">
+             <OrphaCode>240</OrphaCode>
+-            <Name lang="ru">None</Name>
++            <Name lang="ru">Дисхондростеоз Лери-Вейля</Name>
+           </TargetDisorder>
+           <RootDisorder id="21056" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -384800,7 +384766,7 @@
+     <Disorder id="22934">
+       <OrphaCode>404514</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=404514</ExpertLink>
+-      <Name lang="en">Acquired cystic disease-associated renal cell carcinoma</Name>
++      <Name lang="ru">Приобретенная кистозная болезнь,  ассоциированная с почечно-клеточным раком</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -450370,7 +450336,17 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="21817">
++            <OrphaCode>324964</OrphaCode>
++            <Name lang="ru">Хронический небактериальный остеомиелит/Хронический рецидивирующий мультифокальный остеомиелит</Name>
++          </TargetDisorder>
++          <RootDisorder id="10773" cycle="true"/>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="ru">Упоминается</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -464316,75 +464292,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="6">
+-        <ExternalReference id="114930">
+-          <Source>ICD-10</Source>
+-          <Reference>K20</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="ru">УШ (Более узкое понятие Орфанет сопоставимо с более широком понятием МКБ-10)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation id="21604">
+-            <Name lang="ru">Присвоенный (Код МКБ-10 присвоен Orphanet по принципу близости понятий)</Name>
+-          </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="14890">
+-          <Source>OMIM</Source>
+-          <Reference>610247</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="45508">
+-          <Source>OMIM</Source>
+-          <Reference>613412</Reference>
+-          <DisorderMappingRelation id="21541">
+-            <Name lang="ru">ШУ (Более широкое понятие Орфанет сопоставимо с более узким понятием МКБ-10)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114926">
+-          <Source>MeSH</Source>
+-          <Reference>D057765</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114927">
+-          <Source>UMLS</Source>
+-          <Reference>C0341106</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114928">
+-          <Source>MedDRA</Source>
+-          <Reference>10064212</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="ru">E (точное соответствие(термины и понятия эквивалентны))</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="ru">Подтверждено</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+@@ -469520,7 +469428,7 @@
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="1043">
+             <OrphaCode>240</OrphaCode>
+-            <Name lang="ru">None</Name>
++            <Name lang="ru">Дисхондростеоз Лери-Вейля</Name>
+           </TargetDisorder>
+           <RootDisorder id="10384" cycle="true"/>
+           <DisorderDisorderAssociationType id="27341">
+@@ -488598,7 +488506,7 @@
+           <TargetDisorder id="28119" cycle="true"/>
+           <RootDisorder id="3439">
+             <OrphaCode>1864</OrphaCode>
+-            <Name lang="ru">None</Name>
++            <Name lang="ru">НЕ АКТУАЛЬНОЕ: Врожденная дисплазия клапанов</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="27341">
+             <Name lang="ru">Упоминается</Name>
+@@ -502064,7 +501972,7 @@
+     <Disorder id="11781">
+       <OrphaCode>86904</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=86904</ExpertLink>
+-      <Name lang="en">Methotrexate-associated lymphoproliferative disorders</Name>
++      <Name lang="ru">Связанные с метотрексатом лимфопролиферативные нарушения</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -639876,10 +639784,291 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="31348">
++      <OrphaCode>617449</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617449</ExpertLink>
++      <Name lang="en">Congenital aphakia-iris hypoplasia-microphthalmia-microcornea syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31346">
++      <OrphaCode>617408</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617408</ExpertLink>
++      <Name lang="en">Classic eosinophilic pustular folliculitis</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="2">
++        <Synonym lang="en">Classic EPF</Synonym>
++        <Synonym lang="en">Ofuji disease</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31347">
++      <OrphaCode>617440</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617440</ExpertLink>
++      <Name lang="en">Painful legs and moving toes syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">PLMT syndrome</Synonym>
++      </SynonymList>
++      <DisorderType id="21422">
++        <Name lang="ru">Клинический синдром</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31341">
++      <OrphaCode>617307</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617307</ExpertLink>
++      <Name lang="en">Rare disorder related to monochorionic twin pregnancy</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="ru">Категория</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="ru">Группа заболеваний</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31340">
++      <OrphaCode>617304</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617304</ExpertLink>
++      <Name lang="en">Amniotic fluid embolism</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31343">
++      <OrphaCode>617313</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617313</ExpertLink>
++      <Name lang="en">Rare disorder due to inadequate sharing of the placenta</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="ru">Категория</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="ru">Группа заболеваний</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31342">
++      <OrphaCode>617310</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617310</ExpertLink>
++      <Name lang="en">Rare disorder due to unbalanced inter-twin blood transfusion</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="ru">Категория</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="ru">Группа заболеваний</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31337">
++      <OrphaCode>617294</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617294</ExpertLink>
++      <Name lang="en">Twin anemia-polycythemia sequence</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">TAPS</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="31336">
+       <OrphaCode>616874</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=616874</ExpertLink>
+-      <Name lang="en">Rare disorder without a determined diagnosis after full investigation</Name>
++      <Name lang="ru">Редкое заболевание, не имеющее установленный диагноз несмотря на полное обследование</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="ru">Полностью исследованное редкое заболевание без установленного диагноза</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31339">
++      <OrphaCode>617301</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617301</ExpertLink>
++      <Name lang="en">Selective intrauterine growth restriction</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31338">
++      <OrphaCode>617297</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617297</ExpertLink>
++      <Name lang="en">Twin-reversed arterial perfusion sequence</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">TRAP</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31370">
++      <OrphaCode>617910</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617910</ExpertLink>
++      <Name lang="en">Conjunctival malignant melanoma</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -639887,13 +640076,89 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="en">Fully investigated rare disorder without a determined diagnosis</Synonym>
++        <Synonym lang="en">Conjunctival melanoma</Synonym>
+       </SynonymList>
+-      <DisorderType id="21464">
+-        <Name lang="ru">Нет типа</Name>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+-      <DisorderGroup id="38983">
+-        <Name lang="ru">Нет типа</Name>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31371">
++      <OrphaCode>617916</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617916</ExpertLink>
++      <Name lang="en">Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31372">
++      <OrphaCode>617919</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617919</ExpertLink>
++      <Name lang="en">F12-associated cold auto-inflammatory syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31373">
++      <OrphaCode>617930</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617930</ExpertLink>
++      <Name lang="en">Hemophilia B Leyden</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">Factor IX deficiency, Leyden type</Synonym>
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="ru">Клинический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>

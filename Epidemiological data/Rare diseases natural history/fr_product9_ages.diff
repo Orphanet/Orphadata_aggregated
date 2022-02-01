@@ -1,123 +1,327 @@
-commit 57fdf392dcec7eacab11e5cf66bf35fafd0ff752
+commit f65bd9395f4ed3e473ab300a88d98e05768a8ad2
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Sun Jan 2 10:18:09 2022 +0100
+Date:   Tue Feb 1 09:55:47 2022 +0100
 
-    JAN 2021
+    FEB 2022
 
 diff --git a/Epidemiological data/Rare diseases natural history/fr_product9_ages.xml b/Epidemiological data/Rare diseases natural history/fr_product9_ages.xml
-index e8d4a4b..6a33713 100644
+index 6a33713..dad5f7b 100644
 --- a/Epidemiological data/Rare diseases natural history/fr_product9_ages.xml	
 +++ b/Epidemiological data/Rare diseases natural history/fr_product9_ages.xml	
-@@ -1,6 +1,13 @@
+@@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2021-12-01 04:55:53" version="1.3.14 / 4.1.7 [2021-06-23] (orientdb version)" copyright="Orphanet (c) 2021" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
--  <DisorderList count="6641">
-+<JDBOR date="2022-01-01 04:52:51" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+  <Availability> 
-+    <Licence>
-+      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-+      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
-+      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-+    </Licence>
-+  </Availability>
-+  <DisorderList count="6643">
+-<JDBOR date="2022-01-01 04:52:51" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-02-01 04:54:36" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6643">
++  <DisorderList count="6653">
      <Disorder id="17601">
        <OrphaCode>166024</OrphaCode>
        <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=166024</ExpertLink>
-@@ -494,7 +501,10 @@
-           <Name lang="fr">Tout âge</Name>
-         </AverageAgeOfOnset>
-       </AverageAgeOfOnsetList>
--      <AverageAgeOfDeathList count="0">
-+      <AverageAgeOfDeathList count="1">
-+        <AverageAgeOfDeath id="23655">
-+          <Name lang="fr">Non documenté</Name>
-+        </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="2">
-         <TypeOfInheritance id="23410">
-@@ -708,7 +718,10 @@
-           <Name lang="fr">Néonatal</Name>
-         </AverageAgeOfOnset>
-       </AverageAgeOfOnsetList>
--      <AverageAgeOfDeathList count="0">
-+      <AverageAgeOfDeathList count="1">
-+        <AverageAgeOfDeath id="23655">
-+          <Name lang="fr">Non documenté</Name>
-+        </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="1">
-         <TypeOfInheritance id="23417">
-@@ -1620,9 +1633,12 @@
-           <Name lang="fr">Néonatal</Name>
-         </AverageAgeOfOnset>
-       </AverageAgeOfOnsetList>
--      <AverageAgeOfDeathList count="1">
--        <AverageAgeOfDeath id="23641">
--          <Name lang="fr">Espérance de vie normale</Name>
-+      <AverageAgeOfDeathList count="2">
-+        <AverageAgeOfDeath id="23627">
-+          <Name lang="fr">Adulte</Name>
-+        </AverageAgeOfDeath>
-+        <AverageAgeOfDeath id="23634">
-+          <Name lang="fr">Troisième age</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="2">
-@@ -15115,15 +15131,9 @@
+@@ -14905,7 +14905,7 @@
+     <Disorder id="17996">
+       <OrphaCode>177926</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=177926</ExpertLink>
+-      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie A sans déficience en FVIII</Name>
++      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie A</Name>
+       <DisorderType id="21450">
+         <Name lang="fr">Sous-type clinique</Name>
+       </DisorderType>
+@@ -14948,7 +14948,7 @@
+     <Disorder id="17997">
+       <OrphaCode>177929</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=177929</ExpertLink>
+-      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie B sans déficience en FIX</Name>
++      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie B</Name>
+       <DisorderType id="21450">
+         <Name lang="fr">Sous-type clinique</Name>
+       </DisorderType>
+@@ -15273,10 +15273,16 @@
        <DisorderGroup id="36540">
          <Name lang="fr">Groupe de pathologies</Name>
        </DisorderGroup>
 -      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="fr">Prénatal</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="fr">Petite enfance</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="fr">Néonatal</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+@@ -18343,32 +18349,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="813">
+-      <OrphaCode>1549</OrphaCode>
+-      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1549</ExpertLink>
+-      <Name lang="fr">Cryptosporidiose</Name>
+-      <DisorderType id="21394">
+-        <Name lang="fr">Maladie</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="fr">Pathologie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
 -        <AverageAgeOfOnset id="23557">
 -          <Name lang="fr">Tout âge</Name>
 -        </AverageAgeOfOnset>
-+      <AverageAgeOfOnsetList count="0">
-       </AverageAgeOfOnsetList>
+-      </AverageAgeOfOnsetList>
 -      <AverageAgeOfDeathList count="1">
 -        <AverageAgeOfDeath id="23641">
 -          <Name lang="fr">Espérance de vie normale</Name>
 -        </AverageAgeOfDeath>
-+      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="fr">Non applicable</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="18415">
+       <OrphaCode>199642</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=199642</ExpertLink>
+@@ -32687,7 +32667,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
        </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="1">
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="fr">Autosomique dominante</Name>
++        </TypeOfInheritance>
          <TypeOfInheritance id="23417">
-@@ -19909,7 +19919,10 @@
-           <Name lang="fr">Néonatal</Name>
+           <Name lang="fr">Autosomique récessive</Name>
+         </TypeOfInheritance>
+@@ -71268,9 +71251,24 @@
+       <DisorderGroup id="36547">
+         <Name lang="fr">Pathologie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="fr">Tout âge</Name>
++      <AverageAgeOfOnsetList count="6">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23508">
++          <Name lang="fr">Prénatal</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="fr">Petite enfance</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="fr">Néonatal</Name>
          </AverageAgeOfOnset>
        </AverageAgeOfOnsetList>
--      <AverageAgeOfDeathList count="0">
-+      <AverageAgeOfDeathList count="1">
-+        <AverageAgeOfDeath id="23655">
-+          <Name lang="fr">Non documenté</Name>
-+        </AverageAgeOfDeath>
+       <AverageAgeOfDeathList count="0">
+@@ -80722,7 +80720,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="fr">Pathologie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
        </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="3">
-         <TypeOfInheritance id="23410">
-@@ -20693,7 +20706,7 @@
-     <Disorder id="838">
-       <OrphaCode>2312</OrphaCode>
-       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=2312</ExpertLink>
--      <Name lang="fr">Ictère néonatale transitoire</Name>
-+      <Name lang="fr">Ictère néonatal transitoire</Name>
+@@ -97901,7 +97908,7 @@
+     <Disorder id="21452">
+       <OrphaCode>313800</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=313800</ExpertLink>
+-      <Name lang="fr">Syndrome d'oedème du nerf optique-splénomégalie</Name>
++      <Name lang="fr">Syndrome dystrophie rétinienne-oedème du nerf optique-splénomégalie-anhidrose-migraine</Name>
        <DisorderType id="21394">
          <Name lang="fr">Maladie</Name>
        </DisorderType>
-@@ -26830,6 +26843,41 @@
+@@ -134809,35 +134816,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="11041">
+-      <OrphaCode>73247</OrphaCode>
+-      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=73247</ExpertLink>
+-      <Name lang="fr">Oesophagite à éosinophiles</Name>
+-      <DisorderType id="21394">
+-        <Name lang="fr">Maladie</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="fr">Pathologie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="fr">Tout âge</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="fr">Espérance de vie normale</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="fr">Multigénique/multifactorielle</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="fr">Non applicable</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="28655">
+       <OrphaCode>569821</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=569821</ExpertLink>
+@@ -156658,10 +156636,19 @@
+       <DisorderGroup id="36554">
+         <Name lang="fr">Sous-type d'une pathologie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23529">
+           <Name lang="fr">Enfance</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="fr">Petite enfance</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+         <AverageAgeOfDeath id="23641">
+@@ -156710,15 +156697,15 @@
+       <DisorderGroup id="36554">
+         <Name lang="fr">Sous-type d'une pathologie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23522">
+           <Name lang="fr">Petite enfance</Name>
+         </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="fr">Néonatal</Name>
+-        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -160239,7 +160226,16 @@
+           <Name lang="fr">Enfance</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23494">
+@@ -167304,6 +167300,50 @@
        <TypeOfInheritanceList count="0">
        </TypeOfInheritanceList>
      </Disorder>
-+    <Disorder id="16890">
-+      <OrphaCode>139417</OrphaCode>
-+      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=139417</ExpertLink>
-+      <Name lang="fr">Myélite transverse aiguë</Name>
-+      <DisorderType id="21394">
-+        <Name lang="fr">Maladie</Name>
++    <Disorder id="29436">
++      <OrphaCode>589595</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589595</ExpertLink>
++      <Name lang="fr">Leucémie aiguë de phénotype mixte associé à t(v;11q23.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
 +      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="fr">Pathologie</Name>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
 +      </DisorderGroup>
-+      <AverageAgeOfOnsetList count="5">
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="fr">Petite enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="fr">petite enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="fr">enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13885">
+       <OrphaCode>98868</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98868</ExpertLink>
+@@ -167417,6 +167457,53 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29433">
++      <OrphaCode>589534</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589534</ExpertLink>
++      <Name lang="fr">Leucémie aiguë de phénotype mixte associé à t(9;22)(q34.1;q11.2)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
 +        <AverageAgeOfOnset id="23536">
 +          <Name lang="fr">Adolescence</Name>
 +        </AverageAgeOfOnset>
@@ -130,103 +334,8 @@ index e8d4a4b..6a33713 100644
 +        <AverageAgeOfOnset id="23550">
 +          <Name lang="fr">Troisième age</Name>
 +        </AverageAgeOfOnset>
-+        <AverageAgeOfOnset id="23522">
-+          <Name lang="fr">Petite enfance</Name>
-+        </AverageAgeOfOnset>
 +      </AverageAgeOfOnsetList>
-+      <AverageAgeOfDeathList count="1">
-+        <AverageAgeOfDeath id="23641">
-+          <Name lang="fr">Espérance de vie normale</Name>
-+        </AverageAgeOfDeath>
-+      </AverageAgeOfDeathList>
-+      <TypeOfInheritanceList count="0">
-+      </TypeOfInheritanceList>
-+    </Disorder>
-     <Disorder id="1339">
-       <OrphaCode>1031</OrphaCode>
-       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1031</ExpertLink>
-@@ -52499,7 +52547,10 @@
-       <DisorderGroup id="36547">
-         <Name lang="fr">Pathologie</Name>
-       </DisorderGroup>
--      <AverageAgeOfOnsetList count="2">
-+      <AverageAgeOfOnsetList count="3">
-+        <AverageAgeOfOnset id="23508">
-+          <Name lang="fr">Prénatal</Name>
-+        </AverageAgeOfOnset>
-         <AverageAgeOfOnset id="23522">
-           <Name lang="fr">Petite enfance</Name>
-         </AverageAgeOfOnset>
-@@ -128294,8 +128345,8 @@
-       <OrphaCode>66633</OrphaCode>
-       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=66633</ExpertLink>
-       <Name lang="fr">Syndrome de surdité neurosensorielle-grisonnement précoce-tremblement essentiel</Name>
--      <DisorderType id="21401">
--        <Name lang="fr">Syndrome  malformatif</Name>
-+      <DisorderType id="21394">
-+        <Name lang="fr">Maladie</Name>
-       </DisorderType>
-       <DisorderGroup id="36547">
-         <Name lang="fr">Pathologie</Name>
-@@ -148498,7 +148549,10 @@
-       <DisorderGroup id="36547">
-         <Name lang="fr">Pathologie</Name>
-       </DisorderGroup>
--      <AverageAgeOfOnsetList count="2">
-+      <AverageAgeOfOnsetList count="3">
-+        <AverageAgeOfOnset id="23529">
-+          <Name lang="fr">Enfance</Name>
-+        </AverageAgeOfOnset>
-         <AverageAgeOfOnset id="23522">
-           <Name lang="fr">Petite enfance</Name>
-         </AverageAgeOfOnset>
-@@ -148506,7 +148560,16 @@
-           <Name lang="fr">Néonatal</Name>
-         </AverageAgeOfOnset>
-       </AverageAgeOfOnsetList>
--      <AverageAgeOfDeathList count="0">
-+      <AverageAgeOfDeathList count="3">
-+        <AverageAgeOfDeath id="23599">
-+          <Name lang="fr">petite enfance</Name>
-+        </AverageAgeOfDeath>
-+        <AverageAgeOfDeath id="23592">
-+          <Name lang="fr">infantile</Name>
-+        </AverageAgeOfDeath>
-+        <AverageAgeOfDeath id="23641">
-+          <Name lang="fr">Espérance de vie normale</Name>
-+        </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="1">
-         <TypeOfInheritance id="23417">
-@@ -149835,17 +149898,47 @@
-       <DisorderGroup id="36547">
-         <Name lang="fr">Pathologie</Name>
-       </DisorderGroup>
--      <AverageAgeOfOnsetList count="2">
-+      <AverageAgeOfOnsetList count="6">
-+        <AverageAgeOfOnset id="23536">
-+          <Name lang="fr">Adolescence</Name>
-+        </AverageAgeOfOnset>
-+        <AverageAgeOfOnset id="23543">
-+          <Name lang="fr">Adulte</Name>
-+        </AverageAgeOfOnset>
-         <AverageAgeOfOnset id="23508">
-           <Name lang="fr">Prénatal</Name>
-         </AverageAgeOfOnset>
-+        <AverageAgeOfOnset id="23529">
-+          <Name lang="fr">Enfance</Name>
-+        </AverageAgeOfOnset>
-+        <AverageAgeOfOnset id="23522">
-+          <Name lang="fr">Petite enfance</Name>
-+        </AverageAgeOfOnset>
-         <AverageAgeOfOnset id="23515">
-           <Name lang="fr">Néonatal</Name>
-         </AverageAgeOfOnset>
-       </AverageAgeOfOnsetList>
--      <AverageAgeOfDeathList count="1">
--        <AverageAgeOfDeath id="23648">
--          <Name lang="fr">Tout âge</Name>
-+      <AverageAgeOfDeathList count="7">
++      <AverageAgeOfDeathList count="6">
 +        <AverageAgeOfDeath id="23613">
 +          <Name lang="fr">adolescent</Name>
 +        </AverageAgeOfDeath>
@@ -239,27 +348,80 @@ index e8d4a4b..6a33713 100644
 +        <AverageAgeOfDeath id="23634">
 +          <Name lang="fr">Troisième age</Name>
 +        </AverageAgeOfDeath>
-+        <AverageAgeOfDeath id="23592">
-+          <Name lang="fr">infantile</Name>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="fr">enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13880">
+       <OrphaCode>98863</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=98863</ExpertLink>
+@@ -167492,6 +167579,50 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29434">
++      <OrphaCode>589542</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589542</ExpertLink>
++      <Name lang="fr">Tumeur myéloïde/lymphoïde associée à un réarrangement de JAK2</Name>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="fr">Troisième age</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="fr">Troisième age</Name>
 +        </AverageAgeOfDeath>
 +        <AverageAgeOfDeath id="23606">
 +          <Name lang="fr">enfance</Name>
 +        </AverageAgeOfDeath>
 +        <AverageAgeOfDeath id="23620">
 +          <Name lang="fr">adulte jeune</Name>
-         </AverageAgeOfDeath>
-       </AverageAgeOfDeathList>
-       <TypeOfInheritanceList count="1">
-@@ -165381,6 +165474,41 @@
-         </TypeOfInheritance>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="29429">
+       <OrphaCode>589442</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=589442</ExpertLink>
+@@ -169541,6 +169672,255 @@
+       <TypeOfInheritanceList count="0">
        </TypeOfInheritanceList>
      </Disorder>
-+    <Disorder id="29579">
-+      <OrphaCode>592873</OrphaCode>
-+      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=592873</ExpertLink>
-+      <Name lang="fr">Myélite transverse aiguë avec anticorps anti-MOG</Name>
-+      <DisorderType id="21450">
-+        <Name lang="fr">Sous-type clinique</Name>
++    <Disorder id="29205">
++      <OrphaCode>585877</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585877</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B avec anomalie génétique récurrente</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
 +      </DisorderType>
 +      <DisorderGroup id="36554">
 +        <Name lang="fr">Sous-type d'une pathologie</Name>
@@ -281,14 +443,319 @@ index e8d4a4b..6a33713 100644
 +          <Name lang="fr">Petite enfance</Name>
 +        </AverageAgeOfOnset>
 +      </AverageAgeOfOnsetList>
-+      <AverageAgeOfDeathList count="1">
-+        <AverageAgeOfDeath id="23641">
-+          <Name lang="fr">Espérance de vie normale</Name>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="fr">petite enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="fr">Troisième age</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="fr">enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
 +        </AverageAgeOfDeath>
 +      </AverageAgeOfDeathList>
 +      <TypeOfInheritanceList count="0">
 +      </TypeOfInheritanceList>
 +    </Disorder>
-     <Disorder id="14158">
-       <OrphaCode>99141</OrphaCode>
-       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99141</ExpertLink>
++    <Disorder id="29211">
++      <OrphaCode>585909</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585909</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(9;22)(q34.1;q11.2)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="fr">Troisième age</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="fr">Petite enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="7">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="fr">petite enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="fr">Troisième age</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="fr">infantile</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="fr">enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29214">
++      <OrphaCode>585936</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585936</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B avec hyperdiploïdie</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="fr">Non documenté</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29215">
++      <OrphaCode>585942</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585942</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B avec hypodiploïdie</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="fr">petite enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="fr">enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29212">
++      <OrphaCode>585918</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585918</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(v;11q23.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="fr">Petite enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="fr">adolescent</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="fr">petite enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="fr">infantile</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="fr">enfance</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="fr">adulte jeune</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29213">
++      <OrphaCode>585929</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585929</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(12;21)(p13.2;q22.1)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="fr">Non documenté</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14044">
+       <OrphaCode>99027</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=99027</ExpertLink>
+@@ -169564,6 +169944,64 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29217">
++      <OrphaCode>585956</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585956</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(1;19)(q23;p13.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="fr">Non documenté</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29216">
++      <OrphaCode>585948</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=585948</ExpertLink>
++      <Name lang="fr">Leucémie/lymphome lymphoblastique B associé à t(5;14)(q31.1;q32.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="fr">Sous-type étiologique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="fr">Adolescence</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="fr">Adulte</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="fr">Enfance</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="fr">Non documenté</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="29226">
+       <OrphaCode>586130</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=586130</ExpertLink>
+@@ -176926,5 +177364,25 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="31372">
++      <OrphaCode>617919</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617919</ExpertLink>
++      <Name lang="fr">Syndrome auto-inflammatoire au froid associé au F12</Name>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="fr">Autosomique dominante</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+   </DisorderList>
+ </JDBOR>

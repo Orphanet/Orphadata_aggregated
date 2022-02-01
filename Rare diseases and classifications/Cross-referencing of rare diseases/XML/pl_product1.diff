@@ -1,0 +1,669 @@
+commit f65bd9395f4ed3e473ab300a88d98e05768a8ad2
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Feb 1 09:55:47 2022 +0100
+
+    FEB 2022
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml
+index 7402d55..f7f09dc 100644
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/pl_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2022-01-01 04:35:57" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-02-01 04:37:21" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10603">
++  <DisorderList count="10617">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166024</ExpertLink>
+@@ -58119,8 +58119,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="en">Bleeding disorder in hemophilia A carriers without Factor VIII deficiency</Synonym>
++      <SynonymList count="1">
+         <Synonym lang="en">Symptomatic form of hemophilia A in female carriers</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+@@ -58311,8 +58310,7 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
+-        <Synonym lang="en">Bleeding disorder in hemophilia B carriers without Factor IX deficiency</Synonym>
++      <SynonymList count="1">
+         <Synonym lang="en">Symptomatic form of hemophilia B in female carriers</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+@@ -73629,11 +73627,19 @@
+       <OrphaCode>1549</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1549</ExpertLink>
+       <Name lang="pl">Kryptosporydioza</Name>
+-      <DisorderFlagList count="1">
++      <DisorderFlagList count="3">
++        <DisorderFlag id="495">
++          <Value>8192</Value>
++          <Label>Inactive</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
++        <DisorderFlag id="456">
++          <Value>32</Value>
++          <Label>Non-rare disease in Europe</Label>
++        </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+@@ -73643,18 +73649,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="5">
+-        <ExternalReference id="107110">
+-          <Source>MedDRA</Source>
+-          <Reference>10011502</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="1">
+         <ExternalReference id="107113">
+           <Source>ICD-10</Source>
+           <Reference>A07.2</Reference>
+@@ -73668,39 +73663,6 @@
+             <Name lang="pl">Zwalidowany</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="145137">
+-          <Source>GARD</Source>
+-          <Reference>6219</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="107109">
+-          <Source>UMLS</Source>
+-          <Reference>C0010418</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="107108">
+-          <Source>MeSH</Source>
+-          <Reference>D003457</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+@@ -318839,7 +318801,7 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="2">
++      <DisorderDisorderAssociationList count="3">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="21817" cycle="true"/>
+           <RootDisorder id="3393">
+@@ -318850,6 +318812,16 @@
+             <Name lang="pl">Odnoszący się do</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="21817" cycle="true"/>
++          <RootDisorder id="10773">
++            <OrphaCode>57194</OrphaCode>
++            <Name lang="pl">NIEAKTUALNE: Aseptyczne zapalenie kosci</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="pl">Odnoszący się do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="21817" cycle="true"/>
+           <RootDisorder id="12460">
+@@ -352013,19 +351985,11 @@
+       <OrphaCode>80</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=80</ExpertLink>
+       <Name lang="pl">CHOROBY NIE WYSTĘPUJĄCE RZADKO W EUROPIE: Zespół antyfosfolipidowy</Name>
+-      <DisorderFlagList count="3">
+-        <DisorderFlag id="495">
+-          <Value>8192</Value>
+-          <Label>Inactive</Label>
+-        </DisorderFlag>
++      <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+-        <DisorderFlag id="456">
+-          <Value>32</Value>
+-          <Label>Non-rare disease in Europe</Label>
+-        </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+         <Synonym lang="pl">Zespół Hughesa</Synonym>
+@@ -360582,7 +360546,9 @@
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="2">
++        <Synonym lang="en">Optic nerve edema-splenomegaly syndrome</Synonym>
++        <Synonym lang="en">ROSAH syndrome</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+@@ -456520,7 +456486,17 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="21817">
++            <OrphaCode>324964</OrphaCode>
++            <Name lang="pl">Przewlekłe nawracające wielookniskowe zapalenie kości i szpiku kostnego</Name>
++          </TargetDisorder>
++          <RootDisorder id="10773" cycle="true"/>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="pl">Odnoszący się do</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+@@ -470484,75 +470460,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="6">
+-        <ExternalReference id="114930">
+-          <Source>ICD-10</Source>
+-          <Reference>K20</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="pl">NTBT (pojęcie o węższym znaczeniu pasuje do pojęcia o szerszym znaczeniu)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation id="21604">
+-            <Name lang="pl">Przypisane</Name>
+-          </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="14890">
+-          <Source>OMIM</Source>
+-          <Reference>610247</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="45508">
+-          <Source>OMIM</Source>
+-          <Reference>613412</Reference>
+-          <DisorderMappingRelation id="21541">
+-            <Name lang="pl">BTNT (pojęcie o szerszym znaczeniu pasuje do pojęcia o węższym znaczeniu)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114926">
+-          <Source>MeSH</Source>
+-          <Reference>D057765</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114927">
+-          <Source>UMLS</Source>
+-          <Reference>C0341106</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114928">
+-          <Source>MedDRA</Source>
+-          <Reference>10064212</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="pl">E (dokładne mapowanie (terminy i pojęcia są równoważne)</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="pl">Zwalidowany</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+@@ -647170,10 +647078,367 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="31348">
++      <OrphaCode>617449</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617449</ExpertLink>
++      <Name lang="en">Congenital aphakia-iris hypoplasia-microphthalmia-microcornea syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31346">
++      <OrphaCode>617408</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617408</ExpertLink>
++      <Name lang="en">Classic eosinophilic pustular folliculitis</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="2">
++        <Synonym lang="en">Classic EPF</Synonym>
++        <Synonym lang="en">Ofuji disease</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31347">
++      <OrphaCode>617440</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617440</ExpertLink>
++      <Name lang="en">Painful legs and moving toes syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">PLMT syndrome</Synonym>
++      </SynonymList>
++      <DisorderType id="21422">
++        <Name lang="pl">Zespół kliniczny</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31341">
++      <OrphaCode>617307</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617307</ExpertLink>
++      <Name lang="en">Rare disorder related to monochorionic twin pregnancy</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="pl">Kategoria</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31340">
++      <OrphaCode>617304</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617304</ExpertLink>
++      <Name lang="en">Amniotic fluid embolism</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31343">
++      <OrphaCode>617313</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617313</ExpertLink>
++      <Name lang="en">Rare disorder due to inadequate sharing of the placenta</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="pl">Kategoria</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31342">
++      <OrphaCode>617310</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617310</ExpertLink>
++      <Name lang="en">Rare disorder due to unbalanced inter-twin blood transfusion</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="pl">Kategoria</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31337">
++      <OrphaCode>617294</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617294</ExpertLink>
++      <Name lang="en">Twin anemia-polycythemia sequence</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">TAPS</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="31336">
+       <OrphaCode>616874</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=616874</ExpertLink>
+-      <Name lang="en">Rare disorder without a determined diagnosis after full investigation</Name>
++      <Name lang="pl">Rzadkie zaburzenie bez ustalonej diagnozy po pełnym badaniu</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="pl">W pełni zbadane rzadkie zaburzenie bez ustalonej diagnozy</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31339">
++      <OrphaCode>617301</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617301</ExpertLink>
++      <Name lang="en">Selective intrauterine growth restriction</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31338">
++      <OrphaCode>617297</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617297</ExpertLink>
++      <Name lang="en">Twin-reversed arterial perfusion sequence</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">TRAP</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31370">
++      <OrphaCode>617910</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617910</ExpertLink>
++      <Name lang="en">Conjunctival malignant melanoma</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="en">Conjunctival melanoma</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31371">
++      <OrphaCode>617916</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617916</ExpertLink>
++      <Name lang="en">Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31372">
++      <OrphaCode>617919</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617919</ExpertLink>
++      <Name lang="en">F12-associated cold auto-inflammatory syndrome</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31373">
++      <OrphaCode>617930</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617930</ExpertLink>
++      <Name lang="en">Hemophilia B Leyden</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -647181,13 +647446,13 @@
+         </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="1">
+-        <Synonym lang="en">Fully investigated rare disorder without a determined diagnosis</Synonym>
++        <Synonym lang="en">Factor IX deficiency, Leyden type</Synonym>
+       </SynonymList>
+-      <DisorderType id="21464">
+-        <Name lang="pl">Brak typu</Name>
++      <DisorderType id="21450">
++        <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+-      <DisorderGroup id="38983">
+-        <Name lang="en">No type</Name>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>

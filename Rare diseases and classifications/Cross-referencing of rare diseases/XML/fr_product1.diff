@@ -1,0 +1,1039 @@
+commit f65bd9395f4ed3e473ab300a88d98e05768a8ad2
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Feb 1 09:55:47 2022 +0100
+
+    FEB 2022
+
+diff --git a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml
+index 92c365e..0719942 100644
+--- a/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml	
++++ b/Rare diseases and classifications/Cross-referencing of rare diseases/XML/fr_product1.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-01-01 04:37:35" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-02-01 04:39:00" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="10603">
++  <DisorderList count="10617">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=166024</ExpertLink>
+@@ -17854,7 +17854,7 @@
+     <Disorder id="17510">
+       <OrphaCode>163637</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=163637</ExpertLink>
+-      <Name lang="fr">Condition rare associée à la grossesse et la perinatalité</Name>
++      <Name lang="fr">Maladie rare lié à la grossesse et la perinatalité</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -17873,14 +17873,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="fr">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="fr">Ce terme ne caractérise pas une maladie mais un groupe de maladies. Pour connaître les maladies incluses dans ce groupe, veuillez consulter les classifications.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="167">
+@@ -29899,7 +29892,7 @@
+               <TextSectionType id="16907">
+                 <Name lang="fr">Définition</Name>
+               </TextSectionType>
+-              <Contents>Le syndrome de Cornelia de Lange est un syndrome malformatif d'expression variable caractérisé par une dysmorphie faciale très reconnaissable accompagnée d'un déficit intellectuel de sévérité variable, d'un important retard de croissance à début anténatal (deuxième trimestre), d'anomalies des extrémités (oligodactylie, voire amputation plus sévère, brachymétacarpie du premier métacarpien constante) et parfois de malformations associées (cardiaques, rénales...).</Contents>
++              <Contents>Syndrome malformatif rare caractérisé par une dysmorphie faciale, une hypertrichose, une déficience intellectuelle légère à profonde, un retard de croissance intra-utérin (RCIU) et/ou postnatal, des difficultés alimentaires, des anomalies des mains et des pieds (allant d'anomalies réductionnelles sévères, d'oligodactylies, à une brachymétacarpie du premier rayon). Diverses malformations d'organes peuvent être présentes.</Contents>
+             </TextSection>
+           </TextSectionList>
+         </SummaryInformation>
+@@ -63062,16 +63055,15 @@
+     <Disorder id="17996">
+       <OrphaCode>177926</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=177926</ExpertLink>
+-      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie A sans déficience en FVIII</Name>
++      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie A</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="1">
+         <Synonym lang="fr">Forme symptomatique d'hémophilie A de la femme porteuse</Synonym>
+-        <Synonym lang="fr">Maladie hémorragique des porteurs d'hémophilie A sans déficience en Facteur VIII</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="fr">Sous-type clinique</Name>
+@@ -63274,16 +63266,15 @@
+     <Disorder id="17997">
+       <OrphaCode>177929</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=177929</ExpertLink>
+-      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie B sans déficience en FIX</Name>
++      <Name lang="fr">Maladie hémorragique des porteurs d'hémophilie B</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="2">
++      <SynonymList count="1">
+         <Synonym lang="fr">Forme symptomatique d'hémophilie B de la femme porteuse</Synonym>
+-        <Synonym lang="fr">Maladie hémorragique des porteurs d'hémophilie B sans déficience en Facteur IX</Synonym>
+       </SynonymList>
+       <DisorderType id="21450">
+         <Name lang="fr">Sous-type clinique</Name>
+@@ -79851,12 +79842,20 @@
+     <Disorder id="813">
+       <OrphaCode>1549</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=1549</ExpertLink>
+-      <Name lang="fr">Cryptosporidiose</Name>
+-      <DisorderFlagList count="1">
++      <Name lang="fr">NON RARE EN EUROPE : Cryptosporidiose</Name>
++      <DisorderFlagList count="3">
++        <DisorderFlag id="495">
++          <Value>8192</Value>
++          <Label>Inactive</Label>
++        </DisorderFlag>
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
++        <DisorderFlag id="456">
++          <Value>32</Value>
++          <Label>Non-rare disease in Europe</Label>
++        </DisorderFlag>
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+@@ -79866,18 +79865,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="fr">Pathologie</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="5">
+-        <ExternalReference id="107110">
+-          <Source>MedDRA</Source>
+-          <Reference>10011502</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="1">
+         <ExternalReference id="107113">
+           <Source>ICD-10</Source>
+           <Reference>A07.2</Reference>
+@@ -79891,53 +79879,10 @@
+             <Name lang="fr">Validé</Name>
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+-        <ExternalReference id="145137">
+-          <Source>GARD</Source>
+-          <Reference>6219</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="107109">
+-          <Source>UMLS</Source>
+-          <Reference>C0010418</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="107108">
+-          <Source>MeSH</Source>
+-          <Reference>D003457</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="3264" lang="fr">
+-          <TextSectionList count="1">
+-            <TextSection id="121231" lang="fr">
+-              <TextSectionType id="16907">
+-                <Name lang="fr">Définition</Name>
+-              </TextSectionType>
+-              <Contents>La cryptosporidiose est une protozoose due à une coccidie de petite taille, &lt;i&gt;Cryptosporidium spp&lt;/i&gt;, qui se développe dans les cellules épithéliales de l'intestin de l'homme et d'une grande variété d'animaux.</Contents>
+-            </TextSection>
+-          </TextSectionList>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="18412">
+@@ -347488,7 +347433,7 @@
+           </DisorderMappingValidationStatus>
+         </ExternalReference>
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="2">
++      <DisorderDisorderAssociationList count="3">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="21817" cycle="true"/>
+           <RootDisorder id="3393">
+@@ -347499,6 +347444,16 @@
+             <Name lang="fr">Se réfère à</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="21817" cycle="true"/>
++          <RootDisorder id="10773">
++            <OrphaCode>57194</OrphaCode>
++            <Name lang="fr">OBSOLETE : Ostéites aseptiques</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="fr">Se réfère à</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="21817" cycle="true"/>
+           <RootDisorder id="12460">
+@@ -356088,14 +356043,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="fr">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="fr">Cette maladie est décrite ici  Syndrome hyperéosinophilique</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21543">
+@@ -356137,14 +356085,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="fr">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="fr">Cette maladie est décrite ici  Syndrome hyperéosinophilique</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21542">
+@@ -381429,7 +381370,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131171" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171363" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Sarcome rare des tissus mous caractérisé par une lésion de haut grade survenant presque exclusivement chez les adultes, composée de cellules polygonales, sphériques et fusiformes non caractérisées avec des signes de différenciation des muscles squelettiques. Généralement on observe chez les patients une tumeur douloureuse à croissance rapide, localisée dans les tissus mous profonds des membres, mais aussi dans d'autres régions anatomiques. Le pronostic est généralement réservé.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="5546">
+@@ -383065,25 +383016,19 @@
+     <Disorder id="5517">
+       <OrphaCode>80</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=80</ExpertLink>
+-      <Name lang="fr">NON RARE EN EUROPE : Syndrome des antiphospholipides</Name>
+-      <DisorderFlagList count="3">
+-        <DisorderFlag id="495">
+-          <Value>8192</Value>
+-          <Label>Inactive</Label>
+-        </DisorderFlag>
++      <Name lang="fr">Syndrome des antiphospholipides</Name>
++      <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+-        <DisorderFlag id="456">
+-          <Value>32</Value>
+-          <Label>Non-rare disease in Europe</Label>
+-        </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="3">
++      <SynonymList count="5">
+         <Synonym lang="fr">SAPL</Synonym>
++        <Synonym lang="fr">SAPL classique</Synonym>
+         <Synonym lang="fr">Syndrome de Hughes</Synonym>
+         <Synonym lang="fr">Syndrome des anticorps antiphospholipides</Synonym>
++        <Synonym lang="fr">Syndrome des antiphospholipides classique</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -383095,14 +383040,7 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="-1" lang="fr">
+-          <TextSectionList count="0">
+-          </TextSectionList>
+-          <TextAuto>
+-            <Info lang="fr">Cette maladie n'est pas rare en Europe. Elle n'appartient pas à la nomenclature Orphanet des maladies rares.</Info>
+-          </TextAuto>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20670">
+@@ -383681,7 +383619,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Cette maladie est décrite ici  Glycogénose par déficit en lactate déshydrogénase</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="20633">
+@@ -392212,14 +392157,15 @@
+     <Disorder id="21452">
+       <OrphaCode>313800</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=313800</ExpertLink>
+-      <Name lang="fr">Syndrome d'oedème du nerf optique-splénomégalie</Name>
++      <Name lang="fr">Syndrome dystrophie rétinienne-oedème du nerf optique-splénomégalie-anhidrose-migraine</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+           <Label></Label>
+         </DisorderFlag>
+       </DisorderFlagList>
+-      <SynonymList count="0">
++      <SynonymList count="1">
++        <Synonym lang="fr">syndrome ROSAH</Synonym>
+       </SynonymList>
+       <DisorderType id="21394">
+         <Name lang="fr">Maladie</Name>
+@@ -399080,7 +399026,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131168" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171360" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Sous-type de leucodystrophie métachromatique caractérisé par une régression psychomotrice rapidement progressive se manifestant avant l'âge de 30 mois après une période de développement normale. Les manifestations observées au cours de la maladie sont des troubles de l'alimentation et de la déglutition dus à des paralysies pseudobulbaires, des crises convulsives, des douleurs spasmodiques, une faiblesse musculaire, une ataxie, une paralysie, une démence et une aphasie, des troubles de la vue et de l'audition, aboutissant rapidement à une perte complète des capacités motrices et cognitives, et à une décérébration. Le décès survient au cours de la première décennie de vie.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21363">
+@@ -408478,7 +408434,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131172" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171364" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Tumeur hypophysaire rare caractérisée par la présence d'un adénome hypophysaire qui s'est métastasée dans le système nerveux central ou dans des sites distants. La grande majorité des carcinomes hypophysaires secrètent des hormones, le plus souvent l'ACTH ou la prolactine. Les signes cliniques les plus courants sont le diabète insipide, le dysfonctionnement du nerf optique, le dysfonctionnement de l'hypophyse antérieure, la paralysie des nerfs crâniens III, IV ou VI et les céphalées, bien que les patients puissent également être asymptomatiques. Les tumeurs sont agressives et le pronostic réservé.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="21119">
+@@ -434682,7 +434648,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131173" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171365" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Maladie neurologique génétique rare caractérisée par l'apparition néonatale d'une rigidité et des épilepsies résistantes aux traitements et des épisodes de secousses apparaissant &lt;i&gt;in utero&lt;/i&gt;. Les nourrissons atteints présentent une microcéphalie, une absence de réponse aux stimuli visuels, des difficultés à s'alimenter et des troubles du développement. Les fréquentes apnées et bradycardies spontanées aboutissent généralement à un arrêt cardio-pulmonaire et au décès dans la petite enfance. Dans certains cas décrits, on peut cependant observer une évolution clinique moins sévère et une survie dans l'enfance.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23319">
+@@ -436568,7 +436544,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131170" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171362" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Maladie neurologique rare caractérisée par une hypotonie néonatale, un retard de développement global, des difficultés à s'alimenter et souvent des crises d'épilepsie ou des épisodes ressemblant à des crises d'épilepsie. Les autres signes cliniques et symptômes fréquemment observés sont la dysmorphie faciale, un faciès myopathique, des atteintes respiratoires et des anomalies visuelles, telles que le strabisme ou l'ésotropie. L'IRM peut mettre en évidence un retard de myélinisation et d'autres anomalies de la substance blanche.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="23368">
+@@ -463765,7 +463751,17 @@
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131203" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171377" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Myiase cutanée rare caractérisée par l'infestation de l'homme par les larves de la mouche du cheval ou du bétail. Après pénétration de la peau, les larves de la mouche du cheval creusent des galeries dans les couches profondes de l'épiderme, où elles peuvent migrer pendant plusieurs mois, provoquant des lésions serpigineuses, érythémateuses avec un prurit sévère. Les larves de la mouche du bétail pénètrent plus profondément dans le tissu sous-cutané, provoquant des lésions érythémateuses plus douloureuses, qui disparaissent généralement après plusieurs heures ou jours, lorsque les larves se déplacent pour infester une autre zone.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="8546">
+@@ -465075,7 +465071,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131205" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171378" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Malformation othorinolaryngologique rare caractérisée par une hypoplasie ou une agénésie du nerf cochléaire, entraînant une perte partielle ou totale de l'audition, dont la sévérité varie selon le nombre de fibres nerveuses encore fonctionnelles. La maladie peut être unilatérale ou bilatérale, se manifester sous la forme d'une malformation isolée ou d'un syndrome complexe, et peut être associée à une hypoplasie du canal auditif interne ou du nerf cochléaire.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="26073">
+@@ -478998,7 +479004,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131202" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171376" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Neuropathie sensitive et autonomique héréditaire autosomique récessive caractérisée par une insensibilité congénitale à la douleur aiguë ou inflammatoire, associée à une incapacité à identifier la sensation de chaleur ou de froid intense, entraînant de nombreuses lésions et blessures indolores causées par la mutilation. Les signes cliniques sont l'absence de réflexes cornéens entraînant une cicatrice cornéenne, une diminution de la transpiration et du larmoiement, et des infections cutanées récurrentes. Les modalités sensorielles telles que le toucher, la vibration et la proprioception propagés via les grosses fibres nerveuses sont normales.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="25134">
+@@ -496125,14 +496141,24 @@
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+-      <DisorderDisorderAssociationList count="0">
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="21817">
++            <OrphaCode>324964</OrphaCode>
++            <Name lang="fr">Ostéomyélite chronique non-bactérienne/Ostéomyélite multifocale chronique récurrente</Name>
++          </TargetDisorder>
++          <RootDisorder id="10773" cycle="true"/>
++          <DisorderDisorderAssociationType id="27341">
++            <Name lang="fr">Se réfère à</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+       <SummaryInformationList count="1">
+         <SummaryInformation id="-1" lang="fr">
+           <TextSectionList count="0">
+           </TextSectionList>
+           <TextAuto>
+-            <Info lang="fr">Cette entité est obsolète et n'appartient plus à la nomenclature Orphanet des maladies rares.</Info>
++            <Info lang="fr">Cette entité est obsolète et n'appartient plus à la nomenclature Orphanet des maladies rares.&lt;br/&gt;&lt;br/&gt;A la place, vous pouvez utiliser  Ostéomyélite chronique non-bactérienne/Ostéomyélite multifocale chronique récurrente</Info>
+           </TextAuto>
+         </SummaryInformation>
+       </SummaryInformationList>
+@@ -511256,7 +511282,17 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="131169" lang="fr">
++          <TextSectionList count="1">
++            <TextSection id="171361" lang="fr">
++              <TextSectionType id="16907">
++                <Name lang="fr">Définition</Name>
++              </TextSectionType>
++              <Contents>Mycose rare causée par des champignons opportunistes ubiquistes de l'ordre des Mucorales, caractérisée par un infarctus et une nécrose des tissus dus à l'invasion du système vasculaire par les hyphes. Le spectre des signes cliniques dépend de la voie de transmission et inclue des formes rhinocérébrales, pulmonaires, cutanées, gastro-intestinales, rénales et disséminées. La maladie est généralement rapidement progressive et associée à une létalité élevée.</Contents>
++            </TextSection>
++          </TextSectionList>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="11045">
+@@ -511560,7 +511596,7 @@
+     <Disorder id="11041">
+       <OrphaCode>73247</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=73247</ExpertLink>
+-      <Name lang="fr">Oesophagite à éosinophiles</Name>
++      <Name lang="fr">NON RARE EN EUROPE : Oesophagite à éosinophiles</Name>
+       <DisorderFlagList count="1">
+         <DisorderFlag id="475">
+           <Value>1</Value>
+@@ -511577,89 +511613,11 @@
+       <DisorderGroup id="36547">
+         <Name lang="fr">Pathologie</Name>
+       </DisorderGroup>
+-      <ExternalReferenceList count="6">
+-        <ExternalReference id="114930">
+-          <Source>ICD-10</Source>
+-          <Reference>K20</Reference>
+-          <DisorderMappingRelation id="21534">
+-            <Name lang="fr">Le code ORPHA est plus spécifique que le concept dans la terminologie cible</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation id="21604">
+-            <Name lang="fr">Attribué (Le code CIM10 est attribué par Orphanet)</Name>
+-          </DisorderMappingICDRelation>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="14890">
+-          <Source>OMIM</Source>
+-          <Reference>610247</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="45508">
+-          <Source>OMIM</Source>
+-          <Reference>613412</Reference>
+-          <DisorderMappingRelation id="21541">
+-            <Name lang="fr">Le code ORPHA est plus générique que le concept dans la terminologie cible</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114926">
+-          <Source>MeSH</Source>
+-          <Reference>D057765</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114927">
+-          <Source>UMLS</Source>
+-          <Reference>C0341106</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
+-        <ExternalReference id="114928">
+-          <Source>MedDRA</Source>
+-          <Reference>10064212</Reference>
+-          <DisorderMappingRelation id="21527">
+-            <Name lang="fr">Le code ORPHA et le concept de la terminologie cible sont équivalents</Name>
+-          </DisorderMappingRelation>
+-          <DisorderMappingICDRelation/>
+-          <DisorderMappingValidationStatus id="21611">
+-            <Name lang="fr">Validé</Name>
+-          </DisorderMappingValidationStatus>
+-        </ExternalReference>
++      <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="1">
+-        <SummaryInformation id="36752" lang="fr">
+-          <TextSectionList count="1">
+-            <TextSection id="159637" lang="fr">
+-              <TextSectionType id="16907">
+-                <Name lang="fr">Définition</Name>
+-              </TextSectionType>
+-              <Contents>Maladie chronique rare de l'oesophage à médiation immunitaire, caractérisée à l'examen clinique par des symptômes d'une dysfonction oesophagienne (notamment dysphagie, troubles de l'alimentation, impaction du bol alimentaire, vomissements et douleurs abdominales) et à l'examen histopathologique par une inflammation à prédominance d'éosinophiles constatée à la biopsie.</Contents>
+-            </TextSection>
+-          </TextSectionList>
+-        </SummaryInformation>
++      <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="28655">
+@@ -626713,7 +626671,14 @@
+       </ExternalReferenceList>
+       <DisorderDisorderAssociationList count="0">
+       </DisorderDisorderAssociationList>
+-      <SummaryInformationList count="0">
++      <SummaryInformationList count="1">
++        <SummaryInformation id="-1" lang="fr">
++          <TextSectionList count="0">
++          </TextSectionList>
++          <TextAuto>
++            <Info lang="fr">Cette maladie est décrite ici  Syndrome FOXG1</Info>
++          </TextAuto>
++        </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
+     <Disorder id="12402">
+@@ -706572,6 +706537,211 @@
+       <SummaryInformationList count="0">
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="31348">
++      <OrphaCode>617449</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617449</ExpertLink>
++      <Name lang="fr">Syndrome d'aphakie congénitale-hypoplasie de l'iris-microphtalmie-microcornée</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31346">
++      <OrphaCode>617408</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617408</ExpertLink>
++      <Name lang="fr">Folliculite pustuleuse à éosinophiles classique</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="2">
++        <Synonym lang="fr">Folliculite pustuleuse éosinophilique classique</Synonym>
++        <Synonym lang="fr">Maladie d'Ofuji</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31347">
++      <OrphaCode>617440</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617440</ExpertLink>
++      <Name lang="fr">Syndrome de jambes douloureuses et orteils instables</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21422">
++        <Name lang="fr">Syndrome clinique</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31341">
++      <OrphaCode>617307</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617307</ExpertLink>
++      <Name lang="fr">Maladie rare liée à la grossesse gémellaire monochoriale</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="fr">Catégorie</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="fr">Groupe de pathologies</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31340">
++      <OrphaCode>617304</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617304</ExpertLink>
++      <Name lang="fr">Embolie de liquide amniotique</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31343">
++      <OrphaCode>617313</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617313</ExpertLink>
++      <Name lang="fr">Maladie rare due à un partage inadéquat du placenta</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="fr">Catégorie</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="fr">Groupe de pathologies</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31342">
++      <OrphaCode>617310</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617310</ExpertLink>
++      <Name lang="fr">Maladie rare due à une anomalie de transfusion sanguine inter-gémellaire</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="36561">
++        <Name lang="fr">Catégorie</Name>
++      </DisorderType>
++      <DisorderGroup id="36540">
++        <Name lang="fr">Groupe de pathologies</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31337">
++      <OrphaCode>617294</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617294</ExpertLink>
++      <Name lang="fr">Séquence anémie-polycythémie</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="3">
++        <Synonym lang="fr">Séquence anémie-polyglobulie gémellaire</Synonym>
++        <Synonym lang="fr">Séquence foetus anémique et foetus polycythémique</Synonym>
++        <Synonym lang="fr">TAPS</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+     <Disorder id="31336">
+       <OrphaCode>616874</OrphaCode>
+       <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=616874</ExpertLink>
+@@ -706584,11 +706754,11 @@
+       </DisorderFlagList>
+       <SynonymList count="0">
+       </SynonymList>
+-      <DisorderType id="21464">
+-        <Name lang="fr">Sans type</Name>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
+       </DisorderType>
+-      <DisorderGroup id="38983">
+-        <Name lang="fr">No type</Name>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
+       </DisorderGroup>
+       <ExternalReferenceList count="0">
+       </ExternalReferenceList>
+@@ -706607,5 +706777,160 @@
+         </SummaryInformation>
+       </SummaryInformationList>
+     </Disorder>
++    <Disorder id="31339">
++      <OrphaCode>617301</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617301</ExpertLink>
++      <Name lang="fr">Retard de croissance intra-utérin sélectif</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31338">
++      <OrphaCode>617297</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617297</ExpertLink>
++      <Name lang="fr">Séquence de perfusion artérielle inversée</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="2">
++        <Synonym lang="fr">Séquence TRAP</Synonym>
++        <Synonym lang="fr">Séquence de perfusion artérielle inversée gémellaire</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31370">
++      <OrphaCode>617910</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617910</ExpertLink>
++      <Name lang="fr">Mélanome malin de la conjonctive</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="2">
++        <Synonym lang="fr">Mélanome conjonctival</Synonym>
++        <Synonym lang="fr">Mélanome de la conjonctive</Synonym>
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31371">
++      <OrphaCode>617916</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617916</ExpertLink>
++      <Name lang="fr">Hyperplasie neuroendocrine pulmonaire diffuse idiopathique</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31372">
++      <OrphaCode>617919</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617919</ExpertLink>
++      <Name lang="fr">Syndrome auto-inflammatoire au froid associé au F12</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="0">
++      </SynonymList>
++      <DisorderType id="21394">
++        <Name lang="fr">Maladie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="fr">Pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
++    <Disorder id="31373">
++      <OrphaCode>617930</OrphaCode>
++      <ExpertLink lang="fr">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=fr&amp;Expert=617930</ExpertLink>
++      <Name lang="fr">Hémophilie B Leyden</Name>
++      <DisorderFlagList count="1">
++        <DisorderFlag id="475">
++          <Value>1</Value>
++          <Label></Label>
++        </DisorderFlag>
++      </DisorderFlagList>
++      <SynonymList count="1">
++        <Synonym lang="fr">Déficit en facteur IX de type Leyden</Synonym>
++      </SynonymList>
++      <DisorderType id="21450">
++        <Name lang="fr">Sous-type clinique</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="fr">Sous-type d'une pathologie</Name>
++      </DisorderGroup>
++      <ExternalReferenceList count="0">
++      </ExternalReferenceList>
++      <DisorderDisorderAssociationList count="0">
++      </DisorderDisorderAssociationList>
++      <SummaryInformationList count="0">
++      </SummaryInformationList>
++    </Disorder>
+   </DisorderList>
+ </JDBOR>
