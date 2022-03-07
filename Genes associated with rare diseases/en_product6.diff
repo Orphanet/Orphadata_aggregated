@@ -1,0 +1,244 @@
+commit 655dce35bd7c9138100d7097b3f9ac34d1cb8241
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Mar 7 11:48:42 2022 +0100
+
+    MAR 2022
+
+diff --git a/Genes associated with rare diseases/en_product6.xml b/Genes associated with rare diseases/en_product6.xml
+index 7905ac8..de576b7 100644
+--- a/Genes associated with rare diseases/en_product6.xml	
++++ b/Genes associated with rare diseases/en_product6.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-02-01 04:53:24" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-03-01 04:53:45" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="3884">
++  <DisorderList count="3885">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166024</ExpertLink>
+@@ -229285,6 +229285,66 @@
+         </DisorderGeneAssociation>
+       </DisorderGeneAssociationList>
+     </Disorder>
++    <Disorder id="3621">
++      <OrphaCode>18</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=18</ExpertLink>
++      <Name lang="en">Distal renal tubular acidosis</Name>
++      <DisorderType id="21394">
++        <Name lang="en">Disease</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="en">Disorder</Name>
++      </DisorderGroup>
++      <DisorderGeneAssociationList count="1">
++        <DisorderGeneAssociation>
++          <SourceOfValidation>30028003[PMID]</SourceOfValidation>
++          <Gene id="18984">
++            <Name lang="en">WD repeat domain 72</Name>
++            <Symbol>WDR72</Symbol>
++            <SynonymList count="1">
++              <Synonym lang="en">FLJ38736</Synonym>
++            </SynonymList>
++            <GeneType id="25993">
++              <Name lang="en">gene with protein product</Name>
++            </GeneType>
++            <ExternalReferenceList count="5">
++              <ExternalReference id="44518">
++                <Source>HGNC</Source>
++                <Reference>26790</Reference>
++              </ExternalReference>
++              <ExternalReference id="44520">
++                <Source>OMIM</Source>
++                <Reference>613214</Reference>
++              </ExternalReference>
++              <ExternalReference id="44519">
++                <Source>SwissProt</Source>
++                <Reference>Q3MJ13</Reference>
++              </ExternalReference>
++              <ExternalReference id="59980">
++                <Source>Ensembl</Source>
++                <Reference>ENSG00000166415</Reference>
++              </ExternalReference>
++              <ExternalReference id="44517">
++                <Source>Genatlas</Source>
++                <Reference>WDR72</Reference>
++              </ExternalReference>
++            </ExternalReferenceList>
++            <LocusList count="1">
++              <Locus id="10969">
++                <GeneLocus>15q21.3</GeneLocus>
++                <LocusKey>1</LocusKey>
++              </Locus>
++            </LocusList>
++          </Gene>
++          <DisorderGeneAssociationType id="17949">
++            <Name lang="en">Disease-causing germline mutation(s) in</Name>
++          </DisorderGeneAssociationType>
++          <DisorderGeneAssociationStatus id="17991">
++            <Name lang="en">Assessed</Name>
++          </DisorderGeneAssociationStatus>
++        </DisorderGeneAssociation>
++      </DisorderGeneAssociationList>
++    </Disorder>
+     <Disorder id="19172">
+       <OrphaCode>231222</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=231222</ExpertLink>
+@@ -268764,7 +268824,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="en">Disorder</Name>
+       </DisorderGroup>
+-      <DisorderGeneAssociationList count="2">
++      <DisorderGeneAssociationList count="1">
+         <DisorderGeneAssociation>
+           <SourceOfValidation>21572413[PMID]</SourceOfValidation>
+           <Gene id="20489">
+@@ -268816,52 +268876,6 @@
+             <Name lang="en">Assessed</Name>
+           </DisorderGeneAssociationStatus>
+         </DisorderGeneAssociation>
+-        <DisorderGeneAssociation>
+-          <SourceOfValidation>30268909[PMID]</SourceOfValidation>
+-          <Gene id="24968">
+-            <Name lang="en">T-box brain transcription factor 1</Name>
+-            <Symbol>TBR1</Symbol>
+-            <SynonymList count="0">
+-            </SynonymList>
+-            <GeneType id="25993">
+-              <Name lang="en">gene with protein product</Name>
+-            </GeneType>
+-            <ExternalReferenceList count="5">
+-              <ExternalReference id="144099">
+-                <Source>Genatlas</Source>
+-                <Reference>TBR1</Reference>
+-              </ExternalReference>
+-              <ExternalReference id="133232">
+-                <Source>SwissProt</Source>
+-                <Reference>Q16650</Reference>
+-              </ExternalReference>
+-              <ExternalReference id="132507">
+-                <Source>OMIM</Source>
+-                <Reference>604616</Reference>
+-              </ExternalReference>
+-              <ExternalReference id="131785">
+-                <Source>HGNC</Source>
+-                <Reference>11590</Reference>
+-              </ExternalReference>
+-              <ExternalReference id="133408">
+-                <Source>Ensembl</Source>
+-                <Reference>ENSG00000136535</Reference>
+-              </ExternalReference>
+-            </ExternalReferenceList>
+-            <LocusList count="1">
+-              <Locus id="39649">
+-                <GeneLocus>2q24.2</GeneLocus>
+-                <LocusKey>1</LocusKey>
+-              </Locus>
+-            </LocusList>
+-          </Gene>
+-          <DisorderGeneAssociationType id="17949">
+-            <Name lang="en">Disease-causing germline mutation(s) in</Name>
+-          </DisorderGeneAssociationType>
+-          <DisorderGeneAssociationStatus id="17991">
+-            <Name lang="en">Assessed</Name>
+-          </DisorderGeneAssociationStatus>
+-        </DisorderGeneAssociation>
+       </DisorderGeneAssociationList>
+     </Disorder>
+     <Disorder id="20491">
+@@ -354081,7 +354095,7 @@
+     <Disorder id="11106">
+       <OrphaCode>77293</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77293</ExpertLink>
+-      <Name lang="en">Niemann-Pick disease type B</Name>
++      <Name lang="en">Chronic visceral acid sphingomyelinase deficiency</Name>
+       <DisorderType id="21394">
+         <Name lang="en">Disease</Name>
+       </DisorderType>
+@@ -354287,7 +354301,7 @@
+     <Disorder id="11105">
+       <OrphaCode>77292</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77292</ExpertLink>
+-      <Name lang="en">Niemann-Pick disease type A</Name>
++      <Name lang="en">Infantile neurovisceral acid sphingomyelinase deficiency</Name>
+       <DisorderType id="21394">
+         <Name lang="en">Disease</Name>
+       </DisorderType>
+@@ -385803,7 +385817,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="en">Disorder</Name>
+       </DisorderGroup>
+-      <DisorderGeneAssociationList count="58">
++      <DisorderGeneAssociationList count="59">
+         <DisorderGeneAssociation>
+           <SourceOfValidation>30639322[PMID]</SourceOfValidation>
+           <Gene id="28272">
+@@ -386045,6 +386059,52 @@
+             <Name lang="en">Assessed</Name>
+           </DisorderGeneAssociationStatus>
+         </DisorderGeneAssociation>
++        <DisorderGeneAssociation>
++          <SourceOfValidation>29288087[PMID]_30268909[PMID]</SourceOfValidation>
++          <Gene id="24968">
++            <Name lang="en">T-box brain transcription factor 1</Name>
++            <Symbol>TBR1</Symbol>
++            <SynonymList count="0">
++            </SynonymList>
++            <GeneType id="25993">
++              <Name lang="en">gene with protein product</Name>
++            </GeneType>
++            <ExternalReferenceList count="5">
++              <ExternalReference id="144099">
++                <Source>Genatlas</Source>
++                <Reference>TBR1</Reference>
++              </ExternalReference>
++              <ExternalReference id="133232">
++                <Source>SwissProt</Source>
++                <Reference>Q16650</Reference>
++              </ExternalReference>
++              <ExternalReference id="132507">
++                <Source>OMIM</Source>
++                <Reference>604616</Reference>
++              </ExternalReference>
++              <ExternalReference id="131785">
++                <Source>HGNC</Source>
++                <Reference>11590</Reference>
++              </ExternalReference>
++              <ExternalReference id="133408">
++                <Source>Ensembl</Source>
++                <Reference>ENSG00000136535</Reference>
++              </ExternalReference>
++            </ExternalReferenceList>
++            <LocusList count="1">
++              <Locus id="39649">
++                <GeneLocus>2q24.2</GeneLocus>
++                <LocusKey>1</LocusKey>
++              </Locus>
++            </LocusList>
++          </Gene>
++          <DisorderGeneAssociationType id="17949">
++            <Name lang="en">Disease-causing germline mutation(s) in</Name>
++          </DisorderGeneAssociationType>
++          <DisorderGeneAssociationStatus id="17991">
++            <Name lang="en">Assessed</Name>
++          </DisorderGeneAssociationStatus>
++        </DisorderGeneAssociation>
+         <DisorderGeneAssociation>
+           <SourceOfValidation>31079897[PMID]</SourceOfValidation>
+           <Gene id="28615">
+@@ -479991,7 +480051,7 @@
+     <Disorder id="31372">
+       <OrphaCode>617919</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=617919</ExpertLink>
+-      <Name lang="en">F12-associated cold auto-inflammatory syndrome</Name>
++      <Name lang="en">F12-associated cold autoinflammatory syndrome</Name>
+       <DisorderType id="21394">
+         <Name lang="en">Disease</Name>
+       </DisorderType>

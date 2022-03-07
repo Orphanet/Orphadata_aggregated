@@ -1,0 +1,788 @@
+commit f65bd9395f4ed3e473ab300a88d98e05768a8ad2
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Feb 1 09:55:47 2022 +0100
+
+    FEB 2022
+
+diff --git a/Epidemiological data/Rare diseases natural history/ru_product9_ages.xml b/Epidemiological data/Rare diseases natural history/ru_product9_ages.xml
+index f757899..5124841 100644
+--- a/Epidemiological data/Rare diseases natural history/ru_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/ru_product9_ages.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2022-01-01 04:52:33" version="1.3.15 / 4.1.7 [2021-11-25] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-02-01 04:54:18" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6643">
++  <DisorderList count="6653">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=166024</ExpertLink>
+@@ -2755,7 +2755,7 @@
+     <Disorder id="109">
+       <OrphaCode>558</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=558</ExpertLink>
+-      <Name lang="en">Marfan syndrome</Name>
++      <Name lang="ru">Синдром Марфана</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -15273,10 +15273,16 @@
+       <DisorderGroup id="36540">
+         <Name lang="ru">Группа заболеваний</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="ru">Пренатальный</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="ru">Младенчество</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="ru">Неонатальный</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+@@ -18343,32 +18349,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="813">
+-      <OrphaCode>1549</OrphaCode>
+-      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=1549</ExpertLink>
+-      <Name lang="ru">Криптоспоридиоз</Name>
+-      <DisorderType id="21394">
+-        <Name lang="ru">Заболевание</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="ru">Заболевание</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="ru">Все возрасты</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="ru">нормальная продолжительность жизни</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="ru">Не применимо</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="18415">
+       <OrphaCode>199642</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=199642</ExpertLink>
+@@ -23163,7 +23143,7 @@
+     <Disorder id="1043">
+       <OrphaCode>240</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=240</ExpertLink>
+-      <Name lang="en">Léri-Weill dyschondrosteosis</Name>
++      <Name lang="ru">Дисхондростеоз Лери-Вейля</Name>
+       <DisorderType id="21401">
+         <Name lang="ru">Синдром врожденных пороков развития</Name>
+       </DisorderType>
+@@ -32687,7 +32667,10 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="ru">Аутосомно-доминантное</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="ru">Аутосомно-рецессивный</Name>
+         </TypeOfInheritance>
+@@ -71268,9 +71251,24 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="ru">Все возрасты</Name>
++      <AverageAgeOfOnsetList count="6">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23508">
++          <Name lang="ru">Пренатальный</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="ru">Младенчество</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="ru">Неонатальный</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+@@ -76739,7 +76737,7 @@
+     <Disorder id="3381">
+       <OrphaCode>851</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=851</ExpertLink>
+-      <Name lang="en">Paris-Trousseau thrombocytopenia</Name>
++      <Name lang="ru">Тромбоцитопениия парижской клиники Труссо</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -80722,7 +80720,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+@@ -81734,7 +81741,7 @@
+     <Disorder id="19142">
+       <OrphaCode>230839</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=230839</ExpertLink>
+-      <Name lang="en">Classical-like Ehlers-Danlos syndrome type 1</Name>
++      <Name lang="ru">Подобный классическому синдром Элерса-Данло тип 1</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -97791,7 +97798,7 @@
+     <Disorder id="21459">
+       <OrphaCode>313855</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=313855</ExpertLink>
+-      <Name lang="en">FGFR2-related bent bone dysplasia</Name>
++      <Name lang="ru">FGFR2-ассоциированная дисплазия c искривлением костей  </Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -107426,7 +107433,7 @@
+     <Disorder id="22934">
+       <OrphaCode>404514</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=404514</ExpertLink>
+-      <Name lang="en">Acquired cystic disease-associated renal cell carcinoma</Name>
++      <Name lang="ru">Приобретенная кистозная болезнь,  ассоциированная с почечно-клеточным раком</Name>
+       <DisorderType id="21394">
+         <Name lang="ru">Заболевание</Name>
+       </DisorderType>
+@@ -134809,35 +134816,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="11041">
+-      <OrphaCode>73247</OrphaCode>
+-      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=73247</ExpertLink>
+-      <Name lang="ru">Эозинофильный эзофагит</Name>
+-      <DisorderType id="21394">
+-        <Name lang="ru">Заболевание</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="ru">Заболевание</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="ru">Все возрасты</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23641">
+-          <Name lang="ru">нормальная продолжительность жизни</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="ru">Мультигенный/мультифакториальный</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="ru">Не применимо</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="28655">
+       <OrphaCode>569821</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=569821</ExpertLink>
+@@ -156658,10 +156636,19 @@
+       <DisorderGroup id="36554">
+         <Name lang="ru">Подтип заболевания</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23529">
+           <Name lang="ru">Детство</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="ru">Младенчество</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="1">
+         <AverageAgeOfDeath id="23641">
+@@ -156710,15 +156697,15 @@
+       <DisorderGroup id="36554">
+         <Name lang="ru">Подтип заболевания</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23522">
+           <Name lang="ru">Младенчество</Name>
+         </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="ru">Неонатальный</Name>
+-        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -160239,7 +160226,16 @@
+           <Name lang="ru">Детство</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="3">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23494">
+@@ -167304,6 +167300,50 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29436">
++      <OrphaCode>589595</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589595</ExpertLink>
++      <Name lang="en">Mixed phenotype acute leukemia with t(v;11q23.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="ru">Младенчество</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="ru">раннее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13885">
+       <OrphaCode>98868</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=98868</ExpertLink>
+@@ -167417,6 +167457,53 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29433">
++      <OrphaCode>589534</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589534</ExpertLink>
++      <Name lang="en">Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="ru">раннее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="13880">
+       <OrphaCode>98863</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=98863</ExpertLink>
+@@ -167492,6 +167579,50 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29434">
++      <OrphaCode>589542</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589542</ExpertLink>
++      <Name lang="en">Myeloid/lymphoid neoplasm associated with JAK2 rearrangement</Name>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="29429">
+       <OrphaCode>589442</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=589442</ExpertLink>
+@@ -169541,6 +169672,255 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29205">
++      <OrphaCode>585877</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585877</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="ru">Младенчество</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="ru">раннее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29211">
++      <OrphaCode>585909</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585909</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="ru">Младенчество</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="7">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="ru">раннее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="ru">Пожилой</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="ru">детский</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29214">
++      <OrphaCode>585936</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585936</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with hyperdiploidy</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="ru">Нет данных</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29215">
++      <OrphaCode>585942</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585942</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with hypodiploidy</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="5">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="ru">раннее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29212">
++      <OrphaCode>585918</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585918</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(v;11q23.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="ru">Младенчество</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="6">
++        <AverageAgeOfDeath id="23613">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23627">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23599">
++          <Name lang="ru">раннее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="ru">детский</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23606">
++          <Name lang="ru">позднее детство</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23620">
++          <Name lang="ru">Молодой</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29213">
++      <OrphaCode>585929</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585929</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(12;21)(p13.2;q22.1)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="ru">Нет данных</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14044">
+       <OrphaCode>99027</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=99027</ExpertLink>
+@@ -169564,6 +169944,64 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29217">
++      <OrphaCode>585956</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585956</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="ru">Нет данных</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29216">
++      <OrphaCode>585948</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=585948</ExpertLink>
++      <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3)</Name>
++      <DisorderType id="21443">
++        <Name lang="ru">Этиологический подтип</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="ru">Подтип заболевания</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="ru">Подростковый возраст</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="ru">Взрослый</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="ru">Детство</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="1">
++        <AverageAgeOfDeath id="23655">
++          <Name lang="ru">Нет данных</Name>
++        </AverageAgeOfDeath>
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="29226">
+       <OrphaCode>586130</OrphaCode>
+       <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=586130</ExpertLink>
+@@ -176926,5 +177364,25 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="31372">
++      <OrphaCode>617919</OrphaCode>
++      <ExpertLink lang="ru">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=ru&amp;Expert=617919</ExpertLink>
++      <Name lang="en">F12-associated cold auto-inflammatory syndrome</Name>
++      <DisorderType id="21394">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="ru">Заболевание</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <AverageAgeOfDeathList count="0">
++      </AverageAgeOfDeathList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="ru">Аутосомно-доминантное</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+   </DisorderList>
+ </JDBOR>

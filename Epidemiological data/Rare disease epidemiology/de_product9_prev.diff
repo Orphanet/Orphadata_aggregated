@@ -1,0 +1,335 @@
+commit 655dce35bd7c9138100d7097b3f9ac34d1cb8241
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Mar 7 11:48:42 2022 +0100
+
+    MAR 2022
+
+diff --git a/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml
+index f757e7e..489a5c7 100644
+--- a/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-02-01 04:55:12" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-03-01 04:55:32" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6064">
++  <DisorderList count="6069">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
+@@ -77673,6 +77673,57 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="1090">
++      <OrphaCode>1587</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1587</ExpertLink>
++      <Name lang="de">Monosomie 13q14</Name>
++      <DisorderType id="21401">
++        <Name lang="de">Fehlbildungs-Syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16758">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23683">
++            <Name lang="de">Prävalenz bei Geburt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16759">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="de">Punktprävalenz</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="1115">
+       <OrphaCode>1621</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1621</ExpertLink>
+@@ -82881,6 +82932,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="1160">
++      <OrphaCode>1713</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1713</ExpertLink>
++      <Name lang="de">Mikroduplikationssyndrom 17p11.2</Name>
++      <DisorderType id="21401">
++        <Name lang="de">Fehlbildungs-Syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16762">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23697">
++            <Name lang="de">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="de">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>170.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16763">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="de">Punktprävalenz</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="1174">
+       <OrphaCode>1738</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1738</ExpertLink>
+@@ -145587,6 +145687,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="2945">
++      <OrphaCode>3314</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3314</ExpertLink>
++      <Name lang="de">Thiemann-Krankheit, familiäre From</Name>
++      <DisorderType id="21394">
++        <Name lang="de">Krankheit</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16766">
++          <Source>31248428[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="de">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="de">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>33.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16767">
++          <Source>ORPHANET_31248428[PMID]</Source>
++          <PrevalenceType id="23669">
++            <Name lang="de">Punktprävalenz</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="de">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="2974">
+       <OrphaCode>3355</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3355</ExpertLink>
+@@ -238941,7 +239090,7 @@
+     <Disorder id="23322">
+       <OrphaCode>435953</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=435953</ExpertLink>
+-      <Name lang="de">Progeroide Mermale-Hepatozelluläres Karzinom-Prädispositionssyndrom</Name>
++      <Name lang="de">Progeroide Merkmale-Hepatozelluläres Karzinom-Prädispositionssyndrom</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -254126,11 +254275,11 @@
+             <Name lang="de">1-9 / 100 000</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="de">Europa</Name>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="de">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+       </PrevalenceList>
+@@ -335824,6 +335973,57 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="12792">
++      <OrphaCode>96168</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=96168</ExpertLink>
++      <Name lang="de">Monosomie 13q34</Name>
++      <DisorderType id="21401">
++        <Name lang="de">Fehlbildungs-Syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16760">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23683">
++            <Name lang="de">Prävalenz bei Geburt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16761">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="de">Punktprävalenz</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="12791">
+       <OrphaCode>96167</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=96167</ExpertLink>
+@@ -354685,6 +354885,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="28850">
++      <OrphaCode>576278</OrphaCode>
++      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=576278</ExpertLink>
++      <Name lang="de">SATB2-assoziiertes Syndrom</Name>
++      <DisorderType id="21401">
++        <Name lang="de">Fehlbildungs-Syndrom</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="de">Störung</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="16764">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23697">
++            <Name lang="de">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="de">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>171.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16765">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="de">Punktprävalenz</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="28815">
+       <OrphaCode>573253</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=573253</ExpertLink>
