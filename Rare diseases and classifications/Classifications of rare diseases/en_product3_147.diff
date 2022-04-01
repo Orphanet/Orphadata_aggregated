@@ -1,17 +1,947 @@
-commit 655dce35bd7c9138100d7097b3f9ac34d1cb8241
+commit 45f1b105cb2ab1f31cd982124355df258b02ec5a
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Mon Mar 7 11:48:42 2022 +0100
+Date:   Fri Apr 1 09:56:06 2022 +0200
 
-    MAR 2022
+    APR 2022
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml
-index c658678..1abc5d9 100644
+index 1abc5d9..f7c3f85 100644
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2022-02-01 04:41:12" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2022-03-01 04:41:24" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2022-03-01 04:41:24" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-04-01 04:44:53" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -5074,94 +5074,214 @@
+                       <Disorder id="16882">
+                         <OrphaCode>139390</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139390</ExpertLink>
+-                        <Name lang="en">Isolated craniosynostosis</Name>
++                        <Name lang="en">Non-syndromic craniosynostosis</Name>
+                         <DisorderType id="21436">
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="7">
+-                        <ClassificationNode>
+-                          <Disorder id="521">
+-                            <OrphaCode>2343</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2343</ExpertLink>
+-                            <Name lang="en">Isolated cloverleaf skull syndrome</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="2918">
+-                            <OrphaCode>3267</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3267</ExpertLink>
+-                            <Name lang="en">Familial lambdoid synostosis</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="2983">
+-                            <OrphaCode>3366</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3366</ExpertLink>
+-                            <Name lang="en">Isolated trigonocephaly</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="10367">
+-                            <OrphaCode>35093</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35093</ExpertLink>
+-                            <Name lang="en">Isolated scaphocephaly</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="10368">
+-                            <OrphaCode>35098</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35098</ExpertLink>
+-                            <Name lang="en">Isolated plagiocephaly</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
++                      <ClassificationNodeChildList count="2">
+                         <ClassificationNode>
+-                          <Disorder id="10369">
+-                            <OrphaCode>35099</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35099</ExpertLink>
+-                            <Name lang="en">Isolated brachycephaly</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
++                          <Disorder id="31425">
++                            <OrphaCode>620096</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620096</ExpertLink>
++                            <Name lang="en">Non-syndromic unisutural craniosynostosis</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="0">
++                          <ClassificationNodeChildList count="6">
++                            <ClassificationNode>
++                              <Disorder id="31426">
++                                <OrphaCode>620102</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620102</ExpertLink>
++                                <Name lang="en">Non-syndromic unicoronal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31427">
++                                <OrphaCode>620113</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620113</ExpertLink>
++                                <Name lang="en">Non-syndromic unilambdoid craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31428">
++                                <OrphaCode>620139</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620139</ExpertLink>
++                                <Name lang="en">Non-syndromic unifrontosphenoidal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31429">
++                                <OrphaCode>620146</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620146</ExpertLink>
++                                <Name lang="en">Non-syndromic unisquamosal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="2983">
++                                <OrphaCode>3366</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3366</ExpertLink>
++                                <Name lang="en">Non-syndromic metopic craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="10367">
++                                <OrphaCode>35093</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35093</ExpertLink>
++                                <Name lang="en">Non-syndromic sagittal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="10822">
+-                            <OrphaCode>63440</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63440</ExpertLink>
+-                            <Name lang="en">Isolated oxycephaly</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
++                          <Disorder id="31430">
++                            <OrphaCode>620152</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620152</ExpertLink>
++                            <Name lang="en">Non-syndromic multisutural craniosynostosis</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="0">
++                          <ClassificationNodeChildList count="9">
++                            <ClassificationNode>
++                              <Disorder id="31431">
++                                <OrphaCode>620158</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620158</ExpertLink>
++                                <Name lang="en">Non-syndromic non-specific multisutural craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31432">
++                                <OrphaCode>620178</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620178</ExpertLink>
++                                <Name lang="en">Non-syndromic bilambdoid craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31433">
++                                <OrphaCode>620186</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620186</ExpertLink>
++                                <Name lang="en">Non-syndromic unicoronal and sagittal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31434">
++                                <OrphaCode>620192</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620192</ExpertLink>
++                                <Name lang="en">Non-syndromic metopic and sagittal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31435">
++                                <OrphaCode>620198</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620198</ExpertLink>
++                                <Name lang="en">Non-syndromic bicoronal and metopic craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31436">
++                                <OrphaCode>620205</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620205</ExpertLink>
++                                <Name lang="en">Non-syndromic bicoronal and sagittal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31437">
++                                <OrphaCode>620212</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620212</ExpertLink>
++                                <Name lang="en">Non-syndromic pansynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="10369">
++                                <OrphaCode>35099</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35099</ExpertLink>
++                                <Name lang="en">Non-syndromic bicoronal craniosynostosis</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="1683">
++                                <OrphaCode>1516</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1516</ExpertLink>
++                                <Name lang="en">Non-syndromic bilambdoid and sagittal craniosynostosis</Name>
++                                <DisorderType id="21401">
++                                  <Name lang="en">Malformation syndrome</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+@@ -5175,7 +5295,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="41">
++                      <ClassificationNodeChildList count="40">
+                         <ClassificationNode>
+                           <Disorder id="244">
+                             <OrphaCode>207</OrphaCode>
+@@ -5620,18 +5740,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="1683">
+-                            <OrphaCode>1516</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1516</ExpertLink>
+-                            <Name lang="en">Craniofacial dyssynostosis</Name>
+-                            <DisorderType id="21401">
+-                              <Name lang="en">Malformation syndrome</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="11657">
+                             <OrphaCode>85199</OrphaCode>
+@@ -6423,7 +6531,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="44">
++                      <ClassificationNodeChildList count="43">
+                         <ClassificationNode>
+                           <Disorder id="126">
+                             <OrphaCode>567</OrphaCode>
+@@ -6820,18 +6928,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="12562">
+-                            <OrphaCode>94095</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=94095</ExpertLink>
+-                            <Name lang="en">Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome</Name>
+-                            <DisorderType id="21401">
+-                              <Name lang="en">Malformation syndrome</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="12800">
+                             <OrphaCode>96176</OrphaCode>
+@@ -25448,94 +25544,214 @@
+                           <Disorder id="16882">
+                             <OrphaCode>139390</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139390</ExpertLink>
+-                            <Name lang="en">Isolated craniosynostosis</Name>
++                            <Name lang="en">Non-syndromic craniosynostosis</Name>
+                             <DisorderType id="21436">
+                               <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="7">
+-                            <ClassificationNode>
+-                              <Disorder id="521">
+-                                <OrphaCode>2343</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2343</ExpertLink>
+-                                <Name lang="en">Isolated cloverleaf skull syndrome</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="2918">
+-                                <OrphaCode>3267</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3267</ExpertLink>
+-                                <Name lang="en">Familial lambdoid synostosis</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="2983">
+-                                <OrphaCode>3366</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3366</ExpertLink>
+-                                <Name lang="en">Isolated trigonocephaly</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="10367">
+-                                <OrphaCode>35093</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35093</ExpertLink>
+-                                <Name lang="en">Isolated scaphocephaly</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="10368">
+-                                <OrphaCode>35098</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35098</ExpertLink>
+-                                <Name lang="en">Isolated plagiocephaly</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
++                          <ClassificationNodeChildList count="2">
+                             <ClassificationNode>
+-                              <Disorder id="10369">
+-                                <OrphaCode>35099</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35099</ExpertLink>
+-                                <Name lang="en">Isolated brachycephaly</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
++                              <Disorder id="31425">
++                                <OrphaCode>620096</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620096</ExpertLink>
++                                <Name lang="en">Non-syndromic unisutural craniosynostosis</Name>
++                                <DisorderType id="21436">
++                                  <Name lang="en">Clinical group</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="0">
++                              <ClassificationNodeChildList count="6">
++                                <ClassificationNode>
++                                  <Disorder id="31426">
++                                    <OrphaCode>620102</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620102</ExpertLink>
++                                    <Name lang="en">Non-syndromic unicoronal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31427">
++                                    <OrphaCode>620113</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620113</ExpertLink>
++                                    <Name lang="en">Non-syndromic unilambdoid craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31428">
++                                    <OrphaCode>620139</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620139</ExpertLink>
++                                    <Name lang="en">Non-syndromic unifrontosphenoidal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31429">
++                                    <OrphaCode>620146</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620146</ExpertLink>
++                                    <Name lang="en">Non-syndromic unisquamosal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="2983">
++                                    <OrphaCode>3366</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3366</ExpertLink>
++                                    <Name lang="en">Non-syndromic metopic craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="10367">
++                                    <OrphaCode>35093</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35093</ExpertLink>
++                                    <Name lang="en">Non-syndromic sagittal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+-                              <Disorder id="10822">
+-                                <OrphaCode>63440</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=63440</ExpertLink>
+-                                <Name lang="en">Isolated oxycephaly</Name>
+-                                <DisorderType id="21415">
+-                                  <Name lang="en">Morphological anomaly</Name>
++                              <Disorder id="31430">
++                                <OrphaCode>620152</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620152</ExpertLink>
++                                <Name lang="en">Non-syndromic multisutural craniosynostosis</Name>
++                                <DisorderType id="21436">
++                                  <Name lang="en">Clinical group</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="0">
++                              <ClassificationNodeChildList count="9">
++                                <ClassificationNode>
++                                  <Disorder id="31431">
++                                    <OrphaCode>620158</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620158</ExpertLink>
++                                    <Name lang="en">Non-syndromic non-specific multisutural craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31432">
++                                    <OrphaCode>620178</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620178</ExpertLink>
++                                    <Name lang="en">Non-syndromic bilambdoid craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31433">
++                                    <OrphaCode>620186</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620186</ExpertLink>
++                                    <Name lang="en">Non-syndromic unicoronal and sagittal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31434">
++                                    <OrphaCode>620192</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620192</ExpertLink>
++                                    <Name lang="en">Non-syndromic metopic and sagittal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31435">
++                                    <OrphaCode>620198</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620198</ExpertLink>
++                                    <Name lang="en">Non-syndromic bicoronal and metopic craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31436">
++                                    <OrphaCode>620205</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620205</ExpertLink>
++                                    <Name lang="en">Non-syndromic bicoronal and sagittal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31437">
++                                    <OrphaCode>620212</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620212</ExpertLink>
++                                    <Name lang="en">Non-syndromic pansynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="10369">
++                                    <OrphaCode>35099</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35099</ExpertLink>
++                                    <Name lang="en">Non-syndromic bicoronal craniosynostosis</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="1683">
++                                    <OrphaCode>1516</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1516</ExpertLink>
++                                    <Name lang="en">Non-syndromic bilambdoid and sagittal craniosynostosis</Name>
++                                    <DisorderType id="21401">
++                                      <Name lang="en">Malformation syndrome</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+@@ -25549,7 +25765,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="41">
++                          <ClassificationNodeChildList count="40">
+                             <ClassificationNode>
+                               <Disorder id="244">
+                                 <OrphaCode>207</OrphaCode>
+@@ -25994,18 +26210,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="1683">
+-                                <OrphaCode>1516</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1516</ExpertLink>
+-                                <Name lang="en">Craniofacial dyssynostosis</Name>
+-                                <DisorderType id="21401">
+-                                  <Name lang="en">Malformation syndrome</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="11657">
+                                 <OrphaCode>85199</OrphaCode>
+@@ -26847,7 +27051,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="23">
++                      <ClassificationNodeChildList count="21">
+                         <ClassificationNode>
+                           <Disorder id="1042">
+                             <OrphaCode>2311</OrphaCode>
+@@ -27028,18 +27232,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="12562">
+-                            <OrphaCode>94095</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=94095</ExpertLink>
+-                            <Name lang="en">Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome</Name>
+-                            <DisorderType id="21401">
+-                              <Name lang="en">Malformation syndrome</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="20065">
+                             <OrphaCode>263508</OrphaCode>
+@@ -27064,18 +27256,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="21917">
+-                            <OrphaCode>329252</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329252</ExpertLink>
+-                            <Name lang="en">Spondylocostal dysostosis-hypospadias-intellectual disability syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="10656">
+                             <OrphaCode>50817</OrphaCode>
+@@ -27159,7 +27339,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="8">
++                      <ClassificationNodeChildList count="7">
+                         <ClassificationNode>
+                           <Disorder id="392">
+                             <OrphaCode>2614</OrphaCode>
+@@ -27172,18 +27352,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="727">
+-                            <OrphaCode>1428</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1428</ExpertLink>
+-                            <Name lang="en">Familial chondromalacia patellae</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="1676">
+                             <OrphaCode>1509</OrphaCode>
+@@ -30193,7 +30361,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="47">
++                          <ClassificationNodeChildList count="46">
+                             <ClassificationNode>
+                               <Disorder id="2956">
+                                 <OrphaCode>3332</OrphaCode>
+@@ -30770,18 +30938,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="2804">
+-                                <OrphaCode>3133</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3133</ExpertLink>
+-                                <Name lang="en">Say-Field-Coldwell syndrome</Name>
+-                                <DisorderType id="21401">
+-                                  <Name lang="en">Malformation syndrome</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="2831">
+                                 <OrphaCode>3168</OrphaCode>
+@@ -33005,7 +33161,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="33">
++                  <ClassificationNodeChildList count="34">
+                     <ClassificationNode>
+                       <Disorder id="387">
+                         <OrphaCode>819</OrphaCode>
+@@ -33606,6 +33762,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31440">
++                        <OrphaCode>620363</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620363</ExpertLink>
++                        <Name lang="en">Primary hypomagnesemia-generalized seizures-intellectual disability-obesity syndrome</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="30478">
+                         <OrphaCode>600731</OrphaCode>
+@@ -47541,19 +47709,7 @@
+                                       <Name lang="en">Category</Name>
+                                     </DisorderType>
+                                   </Disorder>
+-                                  <ClassificationNodeChildList count="5">
+-                                    <ClassificationNode>
+-                                      <Disorder id="12776">
+-                                        <OrphaCode>96152</OrphaCode>
+-                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96152</ExpertLink>
+-                                        <Name lang="en">Distal monosomy 20q</Name>
+-                                        <DisorderType id="21401">
+-                                          <Name lang="en">Malformation syndrome</Name>
+-                                        </DisorderType>
+-                                      </Disorder>
+-                                      <ClassificationNodeChildList count="0">
+-                                      </ClassificationNodeChildList>
+-                                    </ClassificationNode>
++                                  <ClassificationNodeChildList count="4">
+                                     <ClassificationNode>
+                                       <Disorder id="19871">
+                                         <OrphaCode>261304</OrphaCode>
+@@ -49205,7 +49361,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="653">
++                  <ClassificationNodeChildList count="651">
+                     <ClassificationNode>
+                       <Disorder id="24010">
+                         <OrphaCode>464282</OrphaCode>
+@@ -49338,18 +49494,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="12562">
+-                        <OrphaCode>94095</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=94095</ExpertLink>
+-                        <Name lang="en">Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome</Name>
+-                        <DisorderType id="21401">
+-                          <Name lang="en">Malformation syndrome</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="12832">
+                         <OrphaCode>96263</OrphaCode>
+@@ -51786,18 +51930,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="21917">
+-                        <OrphaCode>329252</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329252</ExpertLink>
+-                        <Name lang="en">Spondylocostal dysostosis-hypospadias-intellectual disability syndrome</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="21929">
+                         <OrphaCode>329332</OrphaCode>
+@@ -63567,7 +63699,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="47">
++                      <ClassificationNodeChildList count="46">
+                         <ClassificationNode>
+                           <Disorder id="2956">
+                             <OrphaCode>3332</OrphaCode>
+@@ -64144,18 +64276,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="2804">
+-                            <OrphaCode>3133</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3133</ExpertLink>
+-                            <Name lang="en">Say-Field-Coldwell syndrome</Name>
+-                            <DisorderType id="21401">
+-                              <Name lang="en">Malformation syndrome</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="2831">
+                             <OrphaCode>3168</OrphaCode>
+@@ -69317,7 +69437,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="37">
++                  <ClassificationNodeChildList count="36">
+                     <ClassificationNode>
+                       <Disorder id="29864">
+                         <OrphaCode>597743</OrphaCode>
+@@ -69702,18 +69822,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="12562">
+-                        <OrphaCode>94095</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=94095</ExpertLink>
+-                        <Name lang="en">Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome</Name>
+-                        <DisorderType id="21401">
+-                          <Name lang="en">Malformation syndrome</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="12832">
+                         <OrphaCode>96263</OrphaCode>
+@@ -72120,7 +72228,7 @@
+                   <Disorder id="11913">
+                     <OrphaCode>89938</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89938</ExpertLink>
+-                    <Name lang="en">Infantile Bartter syndrome with sensorineural deafness</Name>
++                    <Name lang="en">Bartter syndrome type 4</Name>
+                     <DisorderType id="21450">
+                       <Name lang="en">Clinical subtype</Name>
+                     </DisorderType>

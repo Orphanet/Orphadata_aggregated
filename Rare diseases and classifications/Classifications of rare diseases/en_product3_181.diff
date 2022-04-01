@@ -1,44 +1,313 @@
-commit 655dce35bd7c9138100d7097b3f9ac34d1cb8241
+commit 45f1b105cb2ab1f31cd982124355df258b02ec5a
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Mon Mar 7 11:48:42 2022 +0100
+Date:   Fri Apr 1 09:56:06 2022 +0200
 
-    MAR 2022
+    APR 2022
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml
-index de73b19..a421004 100644
+index a421004..006d32f 100644
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2022-02-01 04:42:39" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2022-03-01 04:42:52" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2022-03-01 04:42:52" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-04-01 04:46:31" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -6246,7 +6246,7 @@
-                               <Disorder id="11105">
-                                 <OrphaCode>77292</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77292</ExpertLink>
--                                <Name lang="en">Niemann-Pick disease type A</Name>
-+                                <Name lang="en">Infantile neurovisceral acid sphingomyelinase deficiency</Name>
-                                 <DisorderType id="21394">
-                                   <Name lang="en">Disease</Name>
-                                 </DisorderType>
-@@ -30444,7 +30444,7 @@
-                   <Disorder id="11105">
-                     <OrphaCode>77292</OrphaCode>
-                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77292</ExpertLink>
--                    <Name lang="en">Niemann-Pick disease type A</Name>
-+                    <Name lang="en">Infantile neurovisceral acid sphingomyelinase deficiency</Name>
-                     <DisorderType id="21394">
-                       <Name lang="en">Disease</Name>
+@@ -3766,7 +3766,7 @@
+                       <Disorder id="28399">
+                         <OrphaCode>564178</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=564178</ExpertLink>
+-                        <Name lang="en">Primary hypomagnesemia with refractory seizures and intellectual disability</Name>
++                        <Name lang="en">Primary hypomagnesemia-refractory seizures-intellectual disability syndrome</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -6013,7 +6013,19 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="11">
++                          <ClassificationNodeChildList count="12">
++                            <ClassificationNode>
++                              <Disorder id="31388">
++                                <OrphaCode>618891</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=618891</ExpertLink>
++                                <Name lang="en">Chronic neurovisceral acid sphingomyelinase deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="6">
+                                 <OrphaCode>585</OrphaCode>
+@@ -20590,7 +20602,7 @@
+                       <Disorder id="18667">
+                         <OrphaCode>209908</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=209908</ExpertLink>
+-                        <Name lang="en">Childhood apraxia of speech</Name>
++                        <Name lang="en">Isolated childhood apraxia of speech</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -21031,7 +21043,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="10">
++              <ClassificationNodeChildList count="9">
+                 <ClassificationNode>
+                   <Disorder id="1999">
+                     <OrphaCode>2085</OrphaCode>
+@@ -21044,18 +21056,6 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+-                <ClassificationNode>
+-                  <Disorder id="3637">
+-                    <OrphaCode>2073</OrphaCode>
+-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2073</ExpertLink>
+-                    <Name lang="en">Narcolepsy type 1</Name>
+-                    <DisorderType id="21394">
+-                      <Name lang="en">Disease</Name>
+-                    </DisorderType>
+-                  </Disorder>
+-                  <ClassificationNodeChildList count="0">
+-                  </ClassificationNodeChildList>
+-                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="10312">
+                     <OrphaCode>33208</OrphaCode>
+@@ -21092,18 +21092,6 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+-                <ClassificationNode>
+-                  <Disorder id="11576">
+-                    <OrphaCode>83465</OrphaCode>
+-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83465</ExpertLink>
+-                    <Name lang="en">Narcolepsy type 2</Name>
+-                    <DisorderType id="21394">
+-                      <Name lang="en">Disease</Name>
+-                    </DisorderType>
+-                  </Disorder>
+-                  <ClassificationNodeChildList count="0">
+-                  </ClassificationNodeChildList>
+-                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="17568">
+                     <OrphaCode>164736</OrphaCode>
+@@ -21140,6 +21128,42 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31410">
++                    <OrphaCode>619284</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=619284</ExpertLink>
++                    <Name lang="en">Narcolepsy</Name>
++                    <DisorderType id="21436">
++                      <Name lang="en">Clinical group</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="2">
++                    <ClassificationNode>
++                      <Disorder id="3637">
++                        <OrphaCode>2073</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2073</ExpertLink>
++                        <Name lang="en">Narcolepsy type 1</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="11576">
++                        <OrphaCode>83465</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83465</ExpertLink>
++                        <Name lang="en">Narcolepsy type 2</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="30474">
+                     <OrphaCode>600663</OrphaCode>
+@@ -22172,7 +22196,7 @@
+                           <Disorder id="11619">
+                             <OrphaCode>84142</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=84142</ExpertLink>
+-                            <Name lang="en">Isaac syndrome</Name>
++                            <Name lang="en">Isaacs syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -27763,7 +27787,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="156">
++              <ClassificationNodeChildList count="157">
+                 <ClassificationNode>
+                   <Disorder id="31321">
+                     <OrphaCode>615964</OrphaCode>
+@@ -32480,6 +32504,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31388">
++                    <OrphaCode>618891</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=618891</ExpertLink>
++                    <Name lang="en">Chronic neurovisceral acid sphingomyelinase deficiency</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="18851">
+                     <OrphaCode>217382</OrphaCode>
+@@ -34220,7 +34256,7 @@
+                           <Disorder id="28399">
+                             <OrphaCode>564178</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=564178</ExpertLink>
+-                            <Name lang="en">Primary hypomagnesemia with refractory seizures and intellectual disability</Name>
++                            <Name lang="en">Primary hypomagnesemia-refractory seizures-intellectual disability syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -34529,24 +34565,24 @@
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="2063">
+-                            <OrphaCode>2169</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2169</ExpertLink>
+-                            <Name lang="en">Methylcobalamin deficiency type cblE</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
++                          <Disorder id="31440">
++                            <OrphaCode>620363</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620363</ExpertLink>
++                            <Name lang="en">Primary hypomagnesemia-generalized seizures-intellectual disability-obesity syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="10345">
+-                            <OrphaCode>34527</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=34527</ExpertLink>
+-                            <Name lang="en">Familial primary hypomagnesemia with normocalciuria and normocalcemia</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
++                          <Disorder id="2063">
++                            <OrphaCode>2169</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2169</ExpertLink>
++                            <Name lang="en">Methylcobalamin deficiency type cblE</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">
+@@ -38547,7 +38583,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="653">
++                      <ClassificationNodeChildList count="651">
+                         <ClassificationNode>
+                           <Disorder id="11695">
+                             <OrphaCode>85325</OrphaCode>
+@@ -39736,18 +39772,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="21917">
+-                            <OrphaCode>329252</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329252</ExpertLink>
+-                            <Name lang="en">Spondylocostal dysostosis-hypospadias-intellectual disability syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="21929">
+                             <OrphaCode>329332</OrphaCode>
+@@ -41812,18 +41836,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="12562">
+-                            <OrphaCode>94095</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=94095</ExpertLink>
+-                            <Name lang="en">Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome</Name>
+-                            <DisorderType id="21401">
+-                              <Name lang="en">Malformation syndrome</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="12749">
+                             <OrphaCode>96125</OrphaCode>
+@@ -62381,7 +62393,7 @@
+                       <Name lang="en">Category</Name>
                      </DisorderType>
-@@ -60018,7 +60018,7 @@
-                               <Disorder id="11106">
-                                 <OrphaCode>77293</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77293</ExpertLink>
--                                <Name lang="en">Niemann-Pick disease type B</Name>
-+                                <Name lang="en">Chronic visceral acid sphingomyelinase deficiency</Name>
-                                 <DisorderType id="21394">
-                                   <Name lang="en">Disease</Name>
-                                 </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="18">
++                  <ClassificationNodeChildList count="19">
+                     <ClassificationNode>
+                       <Disorder id="563">
+                         <OrphaCode>2901</OrphaCode>
+@@ -63332,7 +63344,7 @@
+                           <Disorder id="11619">
+                             <OrphaCode>84142</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=84142</ExpertLink>
+-                            <Name lang="en">Isaac syndrome</Name>
++                            <Name lang="en">Isaacs syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -63378,6 +63390,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="14646">
++                        <OrphaCode>100073</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100073</ExpertLink>
++                        <Name lang="en">Neurogenic thoracic outlet syndrome</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="16750">
+                         <OrphaCode>137932</OrphaCode>
