@@ -1,0 +1,2080 @@
+commit 46569fa389bb2350b5d923f7ab0e9d09817eb4bc
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon May 2 10:13:18 2022 +0200
+
+    MAY 2022
+
+diff --git a/Rare diseases with associated phenotypes/en_product4.xml b/Rare diseases with associated phenotypes/en_product4.xml
+index d8be112..611b6d0 100644
+--- a/Rare diseases with associated phenotypes/en_product4.xml	
++++ b/Rare diseases with associated phenotypes/en_product4.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-04-01 04:52:10" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-05-01 04:49:34" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <HPODisorderSetStatusList count="4248">
++  <HPODisorderSetStatusList count="4246">
+     <HPODisorderSetStatus id="1">
+       <Disorder id="2">
+         <OrphaCode>58</OrphaCode>
+@@ -29284,7 +29284,7 @@
+       <Disorder id="244">
+         <OrphaCode>207</OrphaCode>
+         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=207</ExpertLink>
+-        <Name lang="en">Crouzon disease</Name>
++        <Name lang="en">Crouzon syndrome</Name>
+         <DisorderType id="21401">
+           <Name lang="en">Malformation syndrome</Name>
+         </DisorderType>
+@@ -104293,7 +104293,7 @@
+       <Disorder id="946">
+         <OrphaCode>3027</OrphaCode>
+         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3027</ExpertLink>
+-        <Name lang="en">Caudal regression sequence</Name>
++        <Name lang="en">Caudal regression syndrome</Name>
+         <DisorderType id="21401">
+           <Name lang="en">Malformation syndrome</Name>
+         </DisorderType>
+@@ -157786,7 +157786,7 @@
+       <Disorder id="1684">
+         <OrphaCode>1517</OrphaCode>
+         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1517</ExpertLink>
+-        <Name lang="en">Hypertrichotic osteochondrodysplasia, Cantu type</Name>
++        <Name lang="en">Cantú syndrome</Name>
+         <DisorderType id="21401">
+           <Name lang="en">Malformation syndrome</Name>
+         </DisorderType>
+@@ -162420,295 +162420,6 @@
+       <Online>y</Online>
+       <ValidationDate>2016-06-01 00:00:00.0</ValidationDate>
+     </HPODisorderSetStatus>
+-    <HPODisorderSetStatus id="754">
+-      <Disorder id="1697">
+-        <OrphaCode>1533</OrphaCode>
+-        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1533</ExpertLink>
+-        <Name lang="en">Craniosynostosis-fibular aplasia syndrome</Name>
+-        <DisorderType id="21401">
+-          <Name lang="en">Malformation syndrome</Name>
+-        </DisorderType>
+-        <DisorderGroup id="36547">
+-          <Name lang="en">Disorder</Name>
+-        </DisorderGroup>
+-        <HPODisorderAssociationList count="27">
+-          <HPODisorderAssociation id="17746">
+-            <HPO id="63">
+-              <HPOId>HP:0000023</HPOId>
+-              <HPOTerm>Inguinal hernia</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17747">
+-            <HPO id="427">
+-              <HPOId>HP:0000028</HPOId>
+-              <HPOTerm>Cryptorchidism</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17748">
+-            <HPO id="1266">
+-              <HPOId>HP:0000174</HPOId>
+-              <HPOTerm>Abnormal palate morphology</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17749">
+-            <HPO id="326">
+-              <HPOId>HP:0000175</HPOId>
+-              <HPOTerm>Cleft palate</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17750">
+-            <HPO id="966">
+-              <HPOId>HP:0000239</HPOId>
+-              <HPOTerm>Large fontanelles</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17751">
+-            <HPO id="233">
+-              <HPOId>HP:0000248</HPOId>
+-              <HPOTerm>Brachycephaly</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17752">
+-            <HPO id="123">
+-              <HPOId>HP:0000252</HPOId>
+-              <HPOTerm>Microcephaly</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17753">
+-            <HPO id="570">
+-              <HPOId>HP:0000368</HPOId>
+-              <HPOTerm>Low-set, posteriorly rotated ears</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17754">
+-            <HPO id="445">
+-              <HPOId>HP:0000465</HPOId>
+-              <HPOTerm>Webbed neck</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17755">
+-            <HPO id="5">
+-              <HPOId>HP:0000470</HPOId>
+-              <HPOTerm>Short neck</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17756">
+-            <HPO id="335">
+-              <HPOId>HP:0000486</HPOId>
+-              <HPOTerm>Strabismus</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17757">
+-            <HPO id="7">
+-              <HPOId>HP:0000508</HPOId>
+-              <HPOTerm>Ptosis</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17758">
+-            <HPO id="917">
+-              <HPOId>HP:0000520</HPOId>
+-              <HPOTerm>Proptosis</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17759">
+-            <HPO id="652">
+-              <HPOId>HP:0000632</HPOId>
+-              <HPOTerm>Lacrimation abnormality</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17760">
+-            <HPO id="1294">
+-              <HPOId>HP:0000766</HPOId>
+-              <HPOTerm>Abnormality of the sternum</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17761">
+-            <HPO id="870">
+-              <HPOId>HP:0000960</HPOId>
+-              <HPOTerm>Sacral dimple</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17762">
+-            <HPO id="19">
+-              <HPOId>HP:0001250</HPOId>
+-              <HPOTerm>Seizures</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17763">
+-            <HPO id="663">
+-              <HPOId>HP:0001883</HPOId>
+-              <HPOTerm>Talipes</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17764">
+-            <HPO id="39">
+-              <HPOId>HP:0002093</HPOId>
+-              <HPOTerm>Respiratory insufficiency</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17765">
+-            <HPO id="938">
+-              <HPOId>HP:0002645</HPOId>
+-              <HPOTerm>Wormian bones</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17766">
+-            <HPO id="1688">
+-              <HPOId>HP:0002990</HPOId>
+-              <HPOTerm>Fibular aplasia</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17767">
+-            <HPO id="891">
+-              <HPOId>HP:0003422</HPOId>
+-              <HPOTerm>Vertebral segmentation defect</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17768">
+-            <HPO id="691">
+-              <HPOId>HP:0007598</HPOId>
+-              <HPOTerm>Bilateral single transverse palmar creases</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17769">
+-            <HPO id="741">
+-              <HPOId>HP:0009804</HPOId>
+-              <HPOTerm>Reduced number of teeth</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17770">
+-            <HPO id="94">
+-              <HPOId>HP:0010807</HPOId>
+-              <HPOTerm>Open bite</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17771">
+-            <HPO id="948">
+-              <HPOId>HP:0011800</HPOId>
+-              <HPOTerm>Midface retrusion</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="17772">
+-            <HPO id="1382">
+-              <HPOId>HP:0100810</HPOId>
+-              <HPOTerm>Pointed helix</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-        </HPODisorderAssociationList>
+-      </Disorder>
+-      <Source/>
+-      <ValidationStatus>y</ValidationStatus>
+-      <Online>y</Online>
+-      <ValidationDate>2016-06-01 00:00:00.0</ValidationDate>
+-    </HPODisorderSetStatus>
+     <HPODisorderSetStatus id="752">
+       <Disorder id="1695">
+         <OrphaCode>1529</OrphaCode>
+@@ -208795,65 +208506,6 @@
+       <Online>y</Online>
+       <ValidationDate>2016-06-01 00:00:00.0</ValidationDate>
+     </HPODisorderSetStatus>
+-    <HPODisorderSetStatus id="984">
+-      <Disorder id="2126">
+-        <OrphaCode>2258</OrphaCode>
+-        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2258</ExpertLink>
+-        <Name lang="en">Congenital unilateral pulmonary hypoplasia</Name>
+-        <DisorderType id="21394">
+-          <Name lang="en">Disease</Name>
+-        </DisorderType>
+-        <DisorderGroup id="36547">
+-          <Name lang="en">Disorder</Name>
+-        </DisorderGroup>
+-        <HPODisorderAssociationList count="4">
+-          <HPODisorderAssociation id="21777">
+-            <HPO id="919">
+-              <HPOId>HP:0000776</HPOId>
+-              <HPOTerm>Congenital diaphragmatic hernia</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28419">
+-              <Name lang="en">Frequent (79-30%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="21778">
+-            <HPO id="1124">
+-              <HPOId>HP:0004414</HPOId>
+-              <HPOTerm>Abnormality of the pulmonary artery</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28426">
+-              <Name lang="en">Occasional (29-5%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="21779">
+-            <HPO id="930">
+-              <HPOId>HP:0006703</HPOId>
+-              <HPOTerm>Aplasia/Hypoplasia of the lungs</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28412">
+-              <Name lang="en">Very frequent (99-80%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-          <HPODisorderAssociation id="21780">
+-            <HPO id="1926">
+-              <HPOId>HP:0010772</HPOId>
+-              <HPOTerm>Anomalous pulmonary venous return</HPOTerm>
+-            </HPO>
+-            <HPOFrequency id="28426">
+-              <Name lang="en">Occasional (29-5%)</Name>
+-            </HPOFrequency>
+-            <DiagnosticCriteria/>
+-          </HPODisorderAssociation>
+-        </HPODisorderAssociationList>
+-      </Disorder>
+-      <Source/>
+-      <ValidationStatus>y</ValidationStatus>
+-      <Online>y</Online>
+-      <ValidationDate>2016-06-01 00:00:00.0</ValidationDate>
+-    </HPODisorderSetStatus>
+     <HPODisorderSetStatus id="985">
+       <Disorder id="2129">
+         <OrphaCode>2261</OrphaCode>
+@@ -213472,7 +213124,7 @@
+       <Disorder id="2497">
+         <OrphaCode>661</OrphaCode>
+         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=661</ExpertLink>
+-        <Name lang="en">Ondine syndrome</Name>
++        <Name lang="en">Congenital central hypoventilation syndrome</Name>
+         <DisorderType id="21394">
+           <Name lang="en">Disease</Name>
+         </DisorderType>
+@@ -547932,8 +547584,8 @@
+         <DisorderGroup id="36547">
+           <Name lang="en">Disorder</Name>
+         </DisorderGroup>
+-        <HPODisorderAssociationList count="32">
+-          <HPODisorderAssociation id="530193">
++        <HPODisorderAssociationList count="33">
++          <HPODisorderAssociation id="530577">
+             <HPO id="5288">
+               <HPOId>HP:0012347</HPOId>
+               <HPOTerm>Abnormal protein N-linked glycosylation</HPOTerm>
+@@ -547943,7 +547595,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530194">
++          <HPODisorderAssociation id="530578">
+             <HPO id="5287">
+               <HPOId>HP:0012358</HPOId>
+               <HPOTerm>Abnormal protein O-linked glycosylation</HPOTerm>
+@@ -547953,7 +547605,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530195">
++          <HPODisorderAssociation id="530579">
+             <HPO id="123">
+               <HPOId>HP:0000252</HPOId>
+               <HPOTerm>Microcephaly</HPOTerm>
+@@ -547963,7 +547615,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530196">
++          <HPODisorderAssociation id="530580">
+             <HPO id="1275">
+               <HPOId>HP:0000340</HPOId>
+               <HPOTerm>Sloping forehead</HPOTerm>
+@@ -547973,7 +547625,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530197">
++          <HPODisorderAssociation id="530581">
+             <HPO id="8">
+               <HPOId>HP:0000639</HPOId>
+               <HPOTerm>Nystagmus</HPOTerm>
+@@ -547983,7 +547635,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530198">
++          <HPODisorderAssociation id="530582">
+             <HPO id="266">
+               <HPOId>HP:0000737</HPOId>
+               <HPOTerm>Irritability</HPOTerm>
+@@ -547993,7 +547645,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530199">
++          <HPODisorderAssociation id="530583">
+             <HPO id="20">
+               <HPOId>HP:0001251</HPOId>
+               <HPOTerm>Ataxia</HPOTerm>
+@@ -548003,7 +547655,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530200">
++          <HPODisorderAssociation id="530584">
+             <HPO id="79">
+               <HPOId>HP:0001263</HPOId>
+               <HPOTerm>Global developmental delay</HPOTerm>
+@@ -548013,7 +547665,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530201">
++          <HPODisorderAssociation id="530585">
+             <HPO id="339">
+               <HPOId>HP:0001344</HPOId>
+               <HPOTerm>Absent speech</HPOTerm>
+@@ -548023,7 +547675,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530202">
++          <HPODisorderAssociation id="530586">
+             <HPO id="28">
+               <HPOId>HP:0001347</HPOId>
+               <HPOTerm>Hyperreflexia</HPOTerm>
+@@ -548033,7 +547685,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530203">
++          <HPODisorderAssociation id="530587">
+             <HPO id="348">
+               <HPOId>HP:0001394</HPOId>
+               <HPOTerm>Cirrhosis</HPOTerm>
+@@ -548043,7 +547695,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530204">
++          <HPODisorderAssociation id="530588">
+             <HPO id="3524">
+               <HPOId>HP:0001433</HPOId>
+               <HPOTerm>Hepatosplenomegaly</HPOTerm>
+@@ -548053,7 +547705,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530205">
++          <HPODisorderAssociation id="530589">
+             <HPO id="1377">
+               <HPOId>HP:0001510</HPOId>
+               <HPOTerm>Growth delay</HPOTerm>
+@@ -548063,7 +547715,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530206">
++          <HPODisorderAssociation id="530590">
+             <HPO id="876">
+               <HPOId>HP:0001531</HPOId>
+               <HPOTerm>Failure to thrive in infancy</HPOTerm>
+@@ -548073,7 +547725,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530207">
++          <HPODisorderAssociation id="530591">
+             <HPO id="473">
+               <HPOId>HP:0001873</HPOId>
+               <HPOTerm>Thrombocytopenia</HPOTerm>
+@@ -548083,7 +547735,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530208">
++          <HPODisorderAssociation id="530592">
+             <HPO id="3552">
+               <HPOId>HP:0002254</HPOId>
+               <HPOTerm>Intermittent diarrhea</HPOTerm>
+@@ -548093,7 +547745,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530209">
++          <HPODisorderAssociation id="530593">
+             <HPO id="3268">
+               <HPOId>HP:0002509</HPOId>
+               <HPOTerm>Limb hypertonia</HPOTerm>
+@@ -548103,7 +547755,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530210">
++          <HPODisorderAssociation id="530594">
+             <HPO id="294">
+               <HPOId>HP:0002788</HPOId>
+               <HPOTerm>Recurrent upper respiratory tract infections</HPOTerm>
+@@ -548113,7 +547765,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530211">
++          <HPODisorderAssociation id="530595">
+             <HPO id="176">
+               <HPOId>HP:0002910</HPOId>
+               <HPOTerm>Elevated hepatic transaminase</HPOTerm>
+@@ -548123,7 +547775,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530212">
++          <HPODisorderAssociation id="530596">
+             <HPO id="734">
+               <HPOId>HP:0003124</HPOId>
+               <HPOTerm>Hypercholesterolemia</HPOTerm>
+@@ -548133,7 +547785,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530213">
++          <HPODisorderAssociation id="530597">
+             <HPO id="3580">
+               <HPOId>HP:0003155</HPOId>
+               <HPOTerm>Elevated alkaline phosphatase</HPOTerm>
+@@ -548143,7 +547795,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530214">
++          <HPODisorderAssociation id="530598">
+             <HPO id="4374">
+               <HPOId>HP:0003256</HPOId>
+               <HPOTerm>Abnormality of the coagulation cascade</HPOTerm>
+@@ -548153,7 +547805,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530215">
++          <HPODisorderAssociation id="530599">
+             <HPO id="3689">
+               <HPOId>HP:0006892</HPOId>
+               <HPOTerm>Frontotemporal cerebral atrophy</HPOTerm>
+@@ -548163,7 +547815,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530216">
++          <HPODisorderAssociation id="530600">
+             <HPO id="4861">
+               <HPOId>HP:0008935</HPOId>
+               <HPOTerm>Generalized neonatal hypotonia</HPOTerm>
+@@ -548173,7 +547825,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530217">
++          <HPODisorderAssociation id="530601">
+             <HPO id="4355">
+               <HPOId>HP:0008936</HPOId>
+               <HPOTerm>Muscular hypotonia of the trunk</HPOTerm>
+@@ -548183,7 +547835,17 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530218">
++          <HPODisorderAssociation id="530602">
++            <HPO id="5283">
++              <HPOId>HP:0011172</HPOId>
++              <HPOTerm>Complex febrile seizure</HPOTerm>
++            </HPO>
++            <HPOFrequency id="28419">
++              <Name lang="en">Frequent (79-30%)</Name>
++            </HPOFrequency>
++            <DiagnosticCriteria/>
++          </HPODisorderAssociation>
++          <HPODisorderAssociation id="530603">
+             <HPO id="274">
+               <HPOId>HP:0011968</HPOId>
+               <HPOTerm>Feeding difficulties</HPOTerm>
+@@ -548193,7 +547855,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530219">
++          <HPODisorderAssociation id="530604">
+             <HPO id="5284">
+               <HPOId>HP:0012301</HPOId>
+               <HPOTerm>Type II transferrin isoform profile</HPOTerm>
+@@ -548203,7 +547865,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530220">
++          <HPODisorderAssociation id="530605">
+             <HPO id="1512">
+               <HPOId>HP:0100874</HPOId>
+               <HPOTerm>Thick hair</HPOTerm>
+@@ -548213,7 +547875,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530221">
++          <HPODisorderAssociation id="530606">
+             <HPO id="1352">
+               <HPOId>HP:0002079</HPOId>
+               <HPOTerm>Hypoplasia of the corpus callosum</HPOTerm>
+@@ -548223,7 +547885,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530222">
++          <HPODisorderAssociation id="530607">
+             <HPO id="5285">
+               <HPOId>HP:0004798</HPOId>
+               <HPOTerm>Recurrent infection of the gastrointestinal tract</HPOTerm>
+@@ -548233,7 +547895,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530223">
++          <HPODisorderAssociation id="530608">
+             <HPO id="3683">
+               <HPOId>HP:0006583</HPOId>
+               <HPOTerm>Fatal liver failure in infancy</HPOTerm>
+@@ -548243,7 +547905,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530224">
++          <HPODisorderAssociation id="530609">
+             <HPO id="5286">
+               <HPOId>HP:0040187</HPOId>
+               <HPOTerm>Neonatal sepsis</HPOTerm>
+@@ -808220,8 +807882,8 @@
+         <DisorderGroup id="36547">
+           <Name lang="en">Disorder</Name>
+         </DisorderGroup>
+-        <HPODisorderAssociationList count="28">
+-          <HPODisorderAssociation id="530165">
++        <HPODisorderAssociationList count="29">
++          <HPODisorderAssociation id="530548">
+             <HPO id="3406">
+               <HPOId>HP:0002373</HPOId>
+               <HPOTerm>Febrile seizures</HPOTerm>
+@@ -808231,7 +807893,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530166">
++          <HPODisorderAssociation id="530549">
+             <HPO id="77">
+               <HPOId>HP:0000708</HPOId>
+               <HPOTerm>Behavioral abnormality</HPOTerm>
+@@ -808241,7 +807903,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530167">
++          <HPODisorderAssociation id="530550">
+             <HPO id="431">
+               <HPOId>HP:0000718</HPOId>
+               <HPOTerm>Aggressive behavior</HPOTerm>
+@@ -808251,7 +807913,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530168">
++          <HPODisorderAssociation id="530551">
+             <HPO id="432">
+               <HPOId>HP:0000722</HPOId>
+               <HPOTerm>Obsessive-compulsive behavior</HPOTerm>
+@@ -808261,7 +807923,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530169">
++          <HPODisorderAssociation id="530552">
+             <HPO id="153">
+               <HPOId>HP:0000739</HPOId>
+               <HPOTerm>Anxiety</HPOTerm>
+@@ -808271,7 +807933,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530170">
++          <HPODisorderAssociation id="530553">
+             <HPO id="103">
+               <HPOId>HP:0000750</HPOId>
+               <HPOTerm>Delayed speech and language development</HPOTerm>
+@@ -808281,7 +807943,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530171">
++          <HPODisorderAssociation id="530554">
+             <HPO id="18">
+               <HPOId>HP:0001249</HPOId>
+               <HPOTerm>Intellectual disability</HPOTerm>
+@@ -808291,7 +807953,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530172">
++          <HPODisorderAssociation id="530555">
+             <HPO id="1620">
+               <HPOId>HP:0001270</HPOId>
+               <HPOTerm>Motor delay</HPOTerm>
+@@ -808301,7 +807963,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530173">
++          <HPODisorderAssociation id="530556">
+             <HPO id="507">
+               <HPOId>HP:0002069</HPOId>
+               <HPOTerm>Generalized tonic-clonic seizures</HPOTerm>
+@@ -808311,7 +807973,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530174">
++          <HPODisorderAssociation id="530557">
+             <HPO id="1432">
+               <HPOId>HP:0002133</HPOId>
+               <HPOTerm>Status epilepticus</HPOTerm>
+@@ -808321,7 +807983,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530175">
++          <HPODisorderAssociation id="530558">
+             <HPO id="4169">
+               <HPOId>HP:0010818</HPOId>
+               <HPOTerm>Generalized tonic seizures</HPOTerm>
+@@ -808331,7 +807993,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530176">
++          <HPODisorderAssociation id="530559">
+             <HPO id="6234">
+               <HPOId>HP:0011169</HPOId>
+               <HPOTerm>Generalized clonic seizures</HPOTerm>
+@@ -808341,7 +808003,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530177">
++          <HPODisorderAssociation id="530560">
+             <HPO id="907">
+               <HPOId>HP:0012433</HPOId>
+               <HPOTerm>Abnormal social behavior</HPOTerm>
+@@ -808351,7 +808013,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530178">
++          <HPODisorderAssociation id="530561">
+             <HPO id="1591">
+               <HPOId>HP:0000729</HPOId>
+               <HPOTerm>Autistic behavior</HPOTerm>
+@@ -808361,7 +808023,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530179">
++          <HPODisorderAssociation id="530562">
+             <HPO id="2900">
+               <HPOId>HP:0000752</HPOId>
+               <HPOTerm>Hyperactivity</HPOTerm>
+@@ -808371,7 +808033,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530180">
++          <HPODisorderAssociation id="530563">
+             <HPO id="210">
+               <HPOId>HP:0001256</HPOId>
+               <HPOTerm>Intellectual disability, mild</HPOTerm>
+@@ -808381,7 +808043,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530181">
++          <HPODisorderAssociation id="530564">
+             <HPO id="79">
+               <HPOId>HP:0001263</HPOId>
+               <HPOTerm>Global developmental delay</HPOTerm>
+@@ -808391,7 +808053,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530182">
++          <HPODisorderAssociation id="530565">
+             <HPO id="3548">
+               <HPOId>HP:0002121</HPOId>
+               <HPOTerm>Absence seizure</HPOTerm>
+@@ -808401,7 +808063,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530183">
++          <HPODisorderAssociation id="530566">
+             <HPO id="269">
+               <HPOId>HP:0002123</HPOId>
+               <HPOTerm>Generalized myoclonic seizures</HPOTerm>
+@@ -808411,7 +808073,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530184">
++          <HPODisorderAssociation id="530567">
+             <HPO id="822">
+               <HPOId>HP:0002187</HPOId>
+               <HPOTerm>Intellectual disability, profound</HPOTerm>
+@@ -808421,7 +808083,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530185">
++          <HPODisorderAssociation id="530568">
+             <HPO id="700">
+               <HPOId>HP:0002342</HPOId>
+               <HPOTerm>Intellectual disability, moderate</HPOTerm>
+@@ -808431,7 +808093,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530186">
++          <HPODisorderAssociation id="530569">
+             <HPO id="4386">
+               <HPOId>HP:0007270</HPOId>
+               <HPOTerm>Atypical absence seizure</HPOTerm>
+@@ -808441,7 +808103,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530187">
++          <HPODisorderAssociation id="530570">
+             <HPO id="3765">
+               <HPOId>HP:0010819</HPOId>
+               <HPOTerm>Atonic seizure</HPOTerm>
+@@ -808451,7 +808113,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530188">
++          <HPODisorderAssociation id="530571">
+             <HPO id="242">
+               <HPOId>HP:0010864</HPOId>
+               <HPOTerm>Intellectual disability, severe</HPOTerm>
+@@ -808461,7 +808123,17 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530189">
++          <HPODisorderAssociation id="530572">
++            <HPO id="5283">
++              <HPOId>HP:0011172</HPOId>
++              <HPOTerm>Complex febrile seizure</HPOTerm>
++            </HPO>
++            <HPOFrequency id="28426">
++              <Name lang="en">Occasional (29-5%)</Name>
++            </HPOFrequency>
++            <DiagnosticCriteria/>
++          </HPODisorderAssociation>
++          <HPODisorderAssociation id="530573">
+             <HPO id="5573">
+               <HPOId>HP:0040168</HPOId>
+               <HPOTerm>Focal seizures, afebril</HPOTerm>
+@@ -808471,7 +808143,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530190">
++          <HPODisorderAssociation id="530574">
+             <HPO id="1880">
+               <HPOId>HP:0100710</HPOId>
+               <HPOTerm>Impulsivity</HPOTerm>
+@@ -808481,7 +808153,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530191">
++          <HPODisorderAssociation id="530575">
+             <HPO id="984">
+               <HPOId>HP:0000709</HPOId>
+               <HPOTerm>Psychosis</HPOTerm>
+@@ -808491,7 +808163,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530192">
++          <HPODisorderAssociation id="530576">
+             <HPO id="3922">
+               <HPOId>HP:0100738</HPOId>
+               <HPOTerm>Abnormal eating behavior</HPOTerm>
+@@ -840493,8 +840165,8 @@
+         <DisorderGroup id="36547">
+           <Name lang="en">Disorder</Name>
+         </DisorderGroup>
+-        <HPODisorderAssociationList count="45">
+-          <HPODisorderAssociation id="530120">
++        <HPODisorderAssociationList count="46">
++          <HPODisorderAssociation id="530441">
+             <HPO id="45">
+               <HPOId>HP:0002376</HPOId>
+               <HPOTerm>Developmental regression</HPOTerm>
+@@ -840504,7 +840176,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530121">
++          <HPODisorderAssociation id="530442">
+             <HPO id="5407">
+               <HPOId>HP:0007240</HPOId>
+               <HPOTerm>Progressive gait ataxia</HPOTerm>
+@@ -840514,7 +840186,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530122">
++          <HPODisorderAssociation id="530443">
+             <HPO id="2265">
+               <HPOId>HP:0007359</HPOId>
+               <HPOTerm>Focal-onset seizure</HPOTerm>
+@@ -840524,7 +840196,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530123">
++          <HPODisorderAssociation id="530444">
+             <HPO id="7010">
+               <HPOId>HP:0000466</HPOId>
+               <HPOTerm>Limited neck range of motion</HPOTerm>
+@@ -840534,7 +840206,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530124">
++          <HPODisorderAssociation id="530445">
+             <HPO id="1591">
+               <HPOId>HP:0000729</HPOId>
+               <HPOTerm>Autistic behavior</HPOTerm>
+@@ -840544,7 +840216,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530125">
++          <HPODisorderAssociation id="530446">
+             <HPO id="153">
+               <HPOId>HP:0000739</HPOId>
+               <HPOTerm>Anxiety</HPOTerm>
+@@ -840554,7 +840226,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530126">
++          <HPODisorderAssociation id="530447">
+             <HPO id="2905">
+               <HPOId>HP:0001300</HPOId>
+               <HPOTerm>Parkinsonism</HPOTerm>
+@@ -840564,7 +840236,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530127">
++          <HPODisorderAssociation id="530448">
+             <HPO id="2673">
+               <HPOId>HP:0001327</HPOId>
+               <HPOTerm>Photomyoclonic seizures</HPOTerm>
+@@ -840574,7 +840246,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530128">
++          <HPODisorderAssociation id="530449">
+             <HPO id="303">
+               <HPOId>HP:0001336</HPOId>
+               <HPOTerm>Myoclonus</HPOTerm>
+@@ -840584,7 +840256,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530129">
++          <HPODisorderAssociation id="530450">
+             <HPO id="1213">
+               <HPOId>HP:0002063</HPOId>
+               <HPOTerm>Rigidity</HPOTerm>
+@@ -840594,7 +840266,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530130">
++          <HPODisorderAssociation id="530451">
+             <HPO id="1214">
+               <HPOId>HP:0002067</HPOId>
+               <HPOTerm>Bradykinesia</HPOTerm>
+@@ -840604,7 +840276,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530131">
++          <HPODisorderAssociation id="530452">
+             <HPO id="269">
+               <HPOId>HP:0002123</HPOId>
+               <HPOTerm>Generalized myoclonic seizures</HPOTerm>
+@@ -840614,7 +840286,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530132">
++          <HPODisorderAssociation id="530453">
+             <HPO id="6836">
+               <HPOId>HP:0002349</HPOId>
+               <HPOTerm>Focal aware seizure</HPOTerm>
+@@ -840624,7 +840296,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530133">
++          <HPODisorderAssociation id="530454">
+             <HPO id="3406">
+               <HPOId>HP:0002373</HPOId>
+               <HPOTerm>Febrile seizures</HPOTerm>
+@@ -840634,7 +840306,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530134">
++          <HPODisorderAssociation id="530455">
+             <HPO id="1389">
+               <HPOId>HP:0002384</HPOId>
+               <HPOTerm>Focal impaired awareness seizure</HPOTerm>
+@@ -840644,7 +840316,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530135">
++          <HPODisorderAssociation id="530456">
+             <HPO id="2455">
+               <HPOId>HP:0002396</HPOId>
+               <HPOTerm>Cogwheel rigidity</HPOTerm>
+@@ -840654,7 +840326,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530136">
++          <HPODisorderAssociation id="530457">
+             <HPO id="7011">
+               <HPOId>HP:0006813</HPOId>
+               <HPOTerm>Hemiclonic seizures</HPOTerm>
+@@ -840664,7 +840336,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530137">
++          <HPODisorderAssociation id="530458">
+             <HPO id="3702">
+               <HPOId>HP:0007207</HPOId>
+               <HPOTerm>Photosensitive tonic-clonic seizures</HPOTerm>
+@@ -840674,7 +840346,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530138">
++          <HPODisorderAssociation id="530459">
+             <HPO id="4386">
+               <HPOId>HP:0007270</HPOId>
+               <HPOTerm>Atypical absence seizure</HPOTerm>
+@@ -840684,7 +840356,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530139">
++          <HPODisorderAssociation id="530460">
+             <HPO id="3318">
+               <HPOId>HP:0008770</HPOId>
+               <HPOTerm>Obsessive-compulsive trait</HPOTerm>
+@@ -840694,7 +840366,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530140">
++          <HPODisorderAssociation id="530461">
+             <HPO id="2855">
+               <HPOId>HP:0010841</HPOId>
+               <HPOTerm>Multifocal epileptiform discharges</HPOTerm>
+@@ -840704,7 +840376,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530141">
++          <HPODisorderAssociation id="530462">
+             <HPO id="6234">
+               <HPOId>HP:0011169</HPOId>
+               <HPOTerm>Generalized clonic seizures</HPOTerm>
+@@ -840714,7 +840386,17 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530142">
++          <HPODisorderAssociation id="530463">
++            <HPO id="5283">
++              <HPOId>HP:0011172</HPOId>
++              <HPOTerm>Complex febrile seizure</HPOTerm>
++            </HPO>
++            <HPOFrequency id="28419">
++              <Name lang="en">Frequent (79-30%)</Name>
++            </HPOFrequency>
++            <DiagnosticCriteria/>
++          </HPODisorderAssociation>
++          <HPODisorderAssociation id="530464">
+             <HPO id="6977">
+               <HPOId>HP:0011182</HPOId>
+               <HPOTerm>Interictal epileptiform activity</HPOTerm>
+@@ -840724,7 +840406,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530143">
++          <HPODisorderAssociation id="530465">
+             <HPO id="5575">
+               <HPOId>HP:0011468</HPOId>
+               <HPOTerm>Facial tics</HPOTerm>
+@@ -840734,7 +840416,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530144">
++          <HPODisorderAssociation id="530466">
+             <HPO id="7012">
+               <HPOId>HP:0012847</HPOId>
+               <HPOTerm>Epilepsia partialis continua</HPOTerm>
+@@ -840744,7 +840426,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530145">
++          <HPODisorderAssociation id="530467">
+             <HPO id="148">
+               <HPOId>HP:0100543</HPOId>
+               <HPOTerm>Cognitive impairment</HPOTerm>
+@@ -840754,7 +840436,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530146">
++          <HPODisorderAssociation id="530468">
+             <HPO id="3498">
+               <HPOId>HP:0000736</HPOId>
+               <HPOTerm>Short attention span</HPOTerm>
+@@ -840764,7 +840446,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530147">
++          <HPODisorderAssociation id="530469">
+             <HPO id="472">
+               <HPOId>HP:0000980</HPOId>
+               <HPOTerm>Pallor</HPOTerm>
+@@ -840774,7 +840456,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530148">
++          <HPODisorderAssociation id="530470">
+             <HPO id="107">
+               <HPOId>HP:0001763</HPOId>
+               <HPOTerm>Pes planus</HPOTerm>
+@@ -840784,7 +840466,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530149">
++          <HPODisorderAssociation id="530471">
+             <HPO id="4501">
+               <HPOId>HP:0002283</HPOId>
+               <HPOTerm>Global brain atrophy</HPOTerm>
+@@ -840794,7 +840476,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530150">
++          <HPODisorderAssociation id="530472">
+             <HPO id="3345">
+               <HPOId>HP:0002307</HPOId>
+               <HPOTerm>Drooling</HPOTerm>
+@@ -840804,7 +840486,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530151">
++          <HPODisorderAssociation id="530473">
+             <HPO id="435">
+               <HPOId>HP:0002311</HPOId>
+               <HPOTerm>Incoordination</HPOTerm>
+@@ -840814,7 +840496,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530152">
++          <HPODisorderAssociation id="530474">
+             <HPO id="4396">
+               <HPOId>HP:0002345</HPOId>
+               <HPOTerm>Action tremor</HPOTerm>
+@@ -840824,7 +840506,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530153">
++          <HPODisorderAssociation id="530475">
+             <HPO id="5011">
+               <HPOId>HP:0003066</HPOId>
+               <HPOTerm>Limited knee extension</HPOTerm>
+@@ -840834,7 +840516,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530154">
++          <HPODisorderAssociation id="530476">
+             <HPO id="1971">
+               <HPOId>HP:0007010</HPOId>
+               <HPOTerm>Poor fine motor coordination</HPOTerm>
+@@ -840844,7 +840526,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530155">
++          <HPODisorderAssociation id="530477">
+             <HPO id="4679">
+               <HPOId>HP:0008081</HPOId>
+               <HPOTerm>Pes valgus</HPOTerm>
+@@ -840854,7 +840536,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530156">
++          <HPODisorderAssociation id="530478">
+             <HPO id="3051">
+               <HPOId>HP:0008947</HPOId>
+               <HPOTerm>Infantile muscular hypotonia</HPOTerm>
+@@ -840864,7 +840546,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530157">
++          <HPODisorderAssociation id="530479">
+             <HPO id="5890">
+               <HPOId>HP:0011185</HPOId>
+               <HPOTerm>EEG with focal epileptiform discharges</HPOTerm>
+@@ -840874,7 +840556,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530158">
++          <HPODisorderAssociation id="530480">
+             <HPO id="4497">
+               <HPOId>HP:0011198</HPOId>
+               <HPOTerm>EEG with generalized epileptiform discharges</HPOTerm>
+@@ -840884,7 +840566,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530159">
++          <HPODisorderAssociation id="530481">
+             <HPO id="5469">
+               <HPOId>HP:0025101</HPOId>
+               <HPOTerm>Dysgenesis of the hippocampus</HPOTerm>
+@@ -840894,7 +840576,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530160">
++          <HPODisorderAssociation id="530482">
+             <HPO id="7013">
+               <HPOId>HP:0031475</HPOId>
+               <HPOTerm>Status epilepticus without prominent motor symptoms</HPOTerm>
+@@ -840904,7 +840586,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530161">
++          <HPODisorderAssociation id="530483">
+             <HPO id="1694">
+               <HPOId>HP:0100694</HPOId>
+               <HPOTerm>Tibial torsion</HPOTerm>
+@@ -840914,7 +840596,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530162">
++          <HPODisorderAssociation id="530484">
+             <HPO id="1880">
+               <HPOId>HP:0100710</HPOId>
+               <HPOTerm>Impulsivity</HPOTerm>
+@@ -840924,7 +840606,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530163">
++          <HPODisorderAssociation id="530485">
+             <HPO id="6294">
+               <HPOId>HP:0200048</HPOId>
+               <HPOTerm>Cyanotic episode</HPOTerm>
+@@ -840934,7 +840616,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530164">
++          <HPODisorderAssociation id="530486">
+             <HPO id="4169">
+               <HPOId>HP:0010818</HPOId>
+               <HPOTerm>Generalized tonic seizures</HPOTerm>
+@@ -971800,8 +971482,8 @@
+         <DisorderGroup id="36547">
+           <Name lang="en">Disorder</Name>
+         </DisorderGroup>
+-        <HPODisorderAssociationList count="11">
+-          <HPODisorderAssociation id="530225">
++        <HPODisorderAssociationList count="12">
++          <HPODisorderAssociation id="530610">
+             <HPO id="507">
+               <HPOId>HP:0002069</HPOId>
+               <HPOTerm>Generalized tonic-clonic seizures</HPOTerm>
+@@ -971811,7 +971493,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530226">
++          <HPODisorderAssociation id="530611">
+             <HPO id="4506">
+               <HPOId>HP:0007103</HPOId>
+               <HPOTerm>Hypointensity of cerebral white matter on MRI</HPOTerm>
+@@ -971821,7 +971503,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530227">
++          <HPODisorderAssociation id="530612">
+             <HPO id="1990">
+               <HPOId>HP:0007185</HPOId>
+               <HPOTerm>Loss of consciousness</HPOTerm>
+@@ -971831,7 +971513,17 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530228">
++          <HPODisorderAssociation id="530613">
++            <HPO id="5283">
++              <HPOId>HP:0011172</HPOId>
++              <HPOTerm>Complex febrile seizure</HPOTerm>
++            </HPO>
++            <HPOFrequency id="28419">
++              <Name lang="en">Frequent (79-30%)</Name>
++            </HPOFrequency>
++            <DiagnosticCriteria/>
++          </HPODisorderAssociation>
++          <HPODisorderAssociation id="530614">
+             <HPO id="4456">
+               <HPOId>HP:0012705</HPOId>
+               <HPOTerm>Abnormal metabolic brain imaging by MRS</HPOTerm>
+@@ -971841,7 +971533,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530229">
++          <HPODisorderAssociation id="530615">
+             <HPO id="7257">
+               <HPOId>HP:0031691</HPOId>
+               <HPOTerm>Severe viral infection</HPOTerm>
+@@ -971851,7 +971543,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530230">
++          <HPODisorderAssociation id="530616">
+             <HPO id="7305">
+               <HPOId>HP:0032308</HPOId>
+               <HPOTerm>Increased circulating procalcitonin level</HPOTerm>
+@@ -971861,7 +971553,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530231">
++          <HPODisorderAssociation id="530617">
+             <HPO id="7923">
+               <HPOId>HP:0032894</HPOId>
+               <HPOTerm>Seizure precipitated by febrile infection</HPOTerm>
+@@ -971871,7 +971563,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530232">
++          <HPODisorderAssociation id="530618">
+             <HPO id="7924">
+               <HPOId>HP:0033349</HPOId>
+               <HPOTerm>Seizure cluster</HPOTerm>
+@@ -971881,7 +971573,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530233">
++          <HPODisorderAssociation id="530619">
+             <HPO id="6415">
+               <HPOId>HP:0007738</HPOId>
+               <HPOTerm>Uncontrolled eye movements</HPOTerm>
+@@ -971891,7 +971583,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530234">
++          <HPODisorderAssociation id="530620">
+             <HPO id="7013">
+               <HPOId>HP:0031475</HPOId>
+               <HPOTerm>Status epilepticus without prominent motor symptoms</HPOTerm>
+@@ -971901,7 +971593,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530235">
++          <HPODisorderAssociation id="530621">
+             <HPO id="7925">
+               <HPOId>HP:0011665</HPOId>
+               <HPOTerm>Takotsubo cardiomyopathy</HPOTerm>
+@@ -1058533,8 +1058225,8 @@
+         <DisorderGroup id="36547">
+           <Name lang="en">Disorder</Name>
+         </DisorderGroup>
+-        <HPODisorderAssociationList count="12">
+-          <HPODisorderAssociation id="530108">
++        <HPODisorderAssociationList count="13">
++          <HPODisorderAssociation id="530535">
+             <HPO id="2849">
+               <HPOId>HP:0002372</HPOId>
+               <HPOTerm>Normal interictal EEG</HPOTerm>
+@@ -1058544,7 +1058236,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530109">
++          <HPODisorderAssociation id="530536">
+             <HPO id="19">
+               <HPOId>HP:0001250</HPOId>
+               <HPOTerm>Seizures</HPOTerm>
+@@ -1058554,7 +1058246,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530110">
++          <HPODisorderAssociation id="530537">
+             <HPO id="434">
+               <HPOId>HP:0001266</HPOId>
+               <HPOTerm>Choreoathetosis</HPOTerm>
+@@ -1058564,7 +1058256,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530111">
++          <HPODisorderAssociation id="530538">
+             <HPO id="503">
+               <HPOId>HP:0001332</HPOId>
+               <HPOTerm>Dystonia</HPOTerm>
+@@ -1058574,7 +1058266,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530112">
++          <HPODisorderAssociation id="530539">
+             <HPO id="38">
+               <HPOId>HP:0002072</HPOId>
+               <HPOTerm>Chorea</HPOTerm>
+@@ -1058584,7 +1058276,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530113">
++          <HPODisorderAssociation id="530540">
+             <HPO id="1677">
+               <HPOId>HP:0002305</HPOId>
+               <HPOTerm>Athetosis</HPOTerm>
+@@ -1058594,7 +1058286,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530114">
++          <HPODisorderAssociation id="530541">
+             <HPO id="1389">
+               <HPOId>HP:0002384</HPOId>
+               <HPOTerm>Focal impaired awareness seizure</HPOTerm>
+@@ -1058604,7 +1058296,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530115">
++          <HPODisorderAssociation id="530542">
+             <HPO id="893">
+               <HPOId>HP:0004305</HPOId>
+               <HPOTerm>Involuntary movements</HPOTerm>
+@@ -1058614,7 +1058306,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530116">
++          <HPODisorderAssociation id="530543">
+             <HPO id="2851">
+               <HPOId>HP:0007166</HPOId>
+               <HPOTerm>Paroxysmal dyskinesia</HPOTerm>
+@@ -1058624,7 +1058316,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530117">
++          <HPODisorderAssociation id="530544">
+             <HPO id="5573">
+               <HPOId>HP:0040168</HPOId>
+               <HPOTerm>Focal seizures, afebril</HPOTerm>
+@@ -1058634,7 +1058326,17 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530118">
++          <HPODisorderAssociation id="530545">
++            <HPO id="5283">
++              <HPOId>HP:0011172</HPOId>
++              <HPOTerm>Complex febrile seizure</HPOTerm>
++            </HPO>
++            <HPOFrequency id="28426">
++              <Name lang="en">Occasional (29-5%)</Name>
++            </HPOFrequency>
++            <DiagnosticCriteria/>
++          </HPODisorderAssociation>
++          <HPODisorderAssociation id="530546">
+             <HPO id="7413">
+               <HPOId>HP:0012002</HPOId>
+               <HPOTerm>Experiential auras</HPOTerm>
+@@ -1058644,7 +1058346,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530119">
++          <HPODisorderAssociation id="530547">
+             <HPO id="6907">
+               <HPOId>HP:0410263</HPOId>
+               <HPOTerm>Brain imaging abnormality</HPOTerm>
+@@ -1074523,8 +1074225,8 @@
+         <DisorderGroup id="36547">
+           <Name lang="en">Disorder</Name>
+         </DisorderGroup>
+-        <HPODisorderAssociationList count="47">
+-          <HPODisorderAssociation id="530061">
++        <HPODisorderAssociationList count="48">
++          <HPODisorderAssociation id="530487">
+             <HPO id="26">
+               <HPOId>HP:0001324</HPOId>
+               <HPOTerm>Muscle weakness</HPOTerm>
+@@ -1074534,7 +1074236,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530062">
++          <HPODisorderAssociation id="530488">
+             <HPO id="7335">
+               <HPOId>HP:0002077</HPOId>
+               <HPOTerm>Migraine with aura</HPOTerm>
+@@ -1074544,7 +1074246,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530063">
++          <HPODisorderAssociation id="530489">
+             <HPO id="40">
+               <HPOId>HP:0002167</HPOId>
+               <HPOTerm>Neurological speech impairment</HPOTerm>
+@@ -1074554,7 +1074256,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530064">
++          <HPODisorderAssociation id="530490">
+             <HPO id="42">
+               <HPOId>HP:0002353</HPOId>
+               <HPOTerm>EEG abnormality</HPOTerm>
+@@ -1074564,7 +1074266,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530065">
++          <HPODisorderAssociation id="530491">
+             <HPO id="4268">
+               <HPOId>HP:0011153</HPOId>
+               <HPOTerm>Focal motor seizure</HPOTerm>
+@@ -1074574,7 +1074276,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530066">
++          <HPODisorderAssociation id="530492">
+             <HPO id="5466">
+               <HPOId>HP:0011157</HPOId>
+               <HPOTerm>Focal sensory seizure</HPOTerm>
+@@ -1074584,7 +1074286,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530067">
++          <HPODisorderAssociation id="530493">
+             <HPO id="71">
+               <HPOId>HP:0000365</HPOId>
+               <HPOTerm>Hearing impairment</HPOTerm>
+@@ -1074594,7 +1074296,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530068">
++          <HPODisorderAssociation id="530494">
+             <HPO id="3370">
+               <HPOId>HP:0000575</HPOId>
+               <HPOTerm>Scotoma</HPOTerm>
+@@ -1074604,7 +1074306,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530069">
++          <HPODisorderAssociation id="530495">
+             <HPO id="9">
+               <HPOId>HP:0000651</HPOId>
+               <HPOTerm>Diplopia</HPOTerm>
+@@ -1074614,7 +1074316,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530070">
++          <HPODisorderAssociation id="530496">
+             <HPO id="23">
+               <HPOId>HP:0001260</HPOId>
+               <HPOTerm>Dysarthria</HPOTerm>
+@@ -1074624,7 +1074326,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530071">
++          <HPODisorderAssociation id="530497">
+             <HPO id="1678">
+               <HPOId>HP:0001269</HPOId>
+               <HPOTerm>Hemiparesis</HPOTerm>
+@@ -1074634,7 +1074336,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530072">
++          <HPODisorderAssociation id="530498">
+             <HPO id="1782">
+               <HPOId>HP:0001289</HPOId>
+               <HPOTerm>Confusion</HPOTerm>
+@@ -1074644,7 +1074346,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530073">
++          <HPODisorderAssociation id="530499">
+             <HPO id="3972">
+               <HPOId>HP:0001308</HPOId>
+               <HPOTerm>Tongue fasciculations</HPOTerm>
+@@ -1074654,7 +1074356,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530074">
++          <HPODisorderAssociation id="530500">
+             <HPO id="2755">
+               <HPOId>HP:0002172</HPOId>
+               <HPOTerm>Postural instability</HPOTerm>
+@@ -1074664,7 +1074366,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530075">
++          <HPODisorderAssociation id="530501">
+             <HPO id="4147">
+               <HPOId>HP:0002181</HPOId>
+               <HPOTerm>Cerebral edema</HPOTerm>
+@@ -1074674,7 +1074376,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530076">
++          <HPODisorderAssociation id="530502">
+             <HPO id="560">
+               <HPOId>HP:0002321</HPOId>
+               <HPOTerm>Vertigo</HPOTerm>
+@@ -1074684,7 +1074386,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530077">
++          <HPODisorderAssociation id="530503">
+             <HPO id="4488">
+               <HPOId>HP:0002922</HPOId>
+               <HPOTerm>Increased CSF protein</HPOTerm>
+@@ -1074694,7 +1074396,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530078">
++          <HPODisorderAssociation id="530504">
+             <HPO id="523">
+               <HPOId>HP:0003401</HPOId>
+               <HPOTerm>Paresthesia</HPOTerm>
+@@ -1074704,7 +1074406,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530079">
++          <HPODisorderAssociation id="530505">
+             <HPO id="893">
+               <HPOId>HP:0004305</HPOId>
+               <HPOTerm>Involuntary movements</HPOTerm>
+@@ -1074714,7 +1074416,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530080">
++          <HPODisorderAssociation id="530506">
+             <HPO id="5407">
+               <HPOId>HP:0007240</HPOId>
+               <HPOTerm>Progressive gait ataxia</HPOTerm>
+@@ -1074724,7 +1074426,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530081">
++          <HPODisorderAssociation id="530507">
+             <HPO id="7172">
+               <HPOId>HP:0010835</HPOId>
+               <HPOTerm>Dissociated sensory loss</HPOTerm>
+@@ -1074734,7 +1074436,17 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530082">
++          <HPODisorderAssociation id="530508">
++            <HPO id="5283">
++              <HPOId>HP:0011172</HPOId>
++              <HPOTerm>Complex febrile seizure</HPOTerm>
++            </HPO>
++            <HPOFrequency id="28419">
++              <Name lang="en">Frequent (79-30%)</Name>
++            </HPOFrequency>
++            <DiagnosticCriteria/>
++          </HPODisorderAssociation>
++          <HPODisorderAssociation id="530509">
+             <HPO id="5575">
+               <HPOId>HP:0011468</HPOId>
+               <HPOTerm>Facial tics</HPOTerm>
+@@ -1074744,7 +1074456,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530083">
++          <HPODisorderAssociation id="530510">
+             <HPO id="4832">
+               <HPOId>HP:0012229</HPOId>
+               <HPOTerm>CSF pleocytosis</HPOTerm>
+@@ -1074754,7 +1074466,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530084">
++          <HPODisorderAssociation id="530511">
+             <HPO id="2756">
+               <HPOId>HP:0012508</HPOId>
+               <HPOTerm>Metamorphopsia</HPOTerm>
+@@ -1074764,7 +1074476,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530085">
++          <HPODisorderAssociation id="530512">
+             <HPO id="4445">
+               <HPOId>HP:0030786</HPOId>
+               <HPOTerm>Photopsia</HPOTerm>
+@@ -1074774,7 +1074486,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530086">
++          <HPODisorderAssociation id="530513">
+             <HPO id="5517">
+               <HPOId>HP:0200149</HPOId>
+               <HPOTerm>CSF lymphocytic pleiocytosis</HPOTerm>
+@@ -1074784,7 +1074496,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530087">
++          <HPODisorderAssociation id="530514">
+             <HPO id="995">
+               <HPOId>HP:0000360</HPOId>
+               <HPOTerm>Tinnitus</HPOTerm>
+@@ -1074794,7 +1074506,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530088">
++          <HPODisorderAssociation id="530515">
+             <HPO id="675">
+               <HPOId>HP:0001259</HPOId>
+               <HPOTerm>Coma</HPOTerm>
+@@ -1074804,7 +1074516,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530089">
++          <HPODisorderAssociation id="530516">
+             <HPO id="1211">
+               <HPOId>HP:0001272</HPOId>
+               <HPOTerm>Cerebellar atrophy</HPOTerm>
+@@ -1074814,7 +1074526,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530090">
++          <HPODisorderAssociation id="530517">
+             <HPO id="416">
+               <HPOId>HP:0002301</HPOId>
+               <HPOTerm>Hemiplegia</HPOTerm>
+@@ -1074824,7 +1074536,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530091">
++          <HPODisorderAssociation id="530518">
+             <HPO id="43">
+               <HPOId>HP:0002357</HPOId>
+               <HPOTerm>Dysphasia</HPOTerm>
+@@ -1074834,7 +1074546,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530092">
++          <HPODisorderAssociation id="530519">
+             <HPO id="4462">
+               <HPOId>HP:0006901</HPOId>
+               <HPOTerm>Impaired thermal sensitivity</HPOTerm>
+@@ -1074844,7 +1074556,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530093">
++          <HPODisorderAssociation id="530520">
+             <HPO id="3703">
+               <HPOId>HP:0007209</HPOId>
+               <HPOTerm>Facial paralysis</HPOTerm>
+@@ -1074854,7 +1074566,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530094">
++          <HPODisorderAssociation id="530521">
+             <HPO id="4397">
+               <HPOId>HP:0007979</HPOId>
+               <HPOTerm>Gaze-evoked horizontal nystagmus</HPOTerm>
+@@ -1074864,7 +1074576,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530095">
++          <HPODisorderAssociation id="530522">
+             <HPO id="2462">
+               <HPOId>HP:0008959</HPOId>
+               <HPOTerm>Distal upper limb muscle weakness</HPOTerm>
+@@ -1074874,7 +1074586,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530096">
++          <HPODisorderAssociation id="530523">
+             <HPO id="4715">
+               <HPOId>HP:0010544</HPOId>
+               <HPOTerm>Vertical nystagmus</HPOTerm>
+@@ -1074884,7 +1074596,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530097">
++          <HPODisorderAssociation id="530524">
+             <HPO id="4677">
+               <HPOId>HP:0010833</HPOId>
+               <HPOTerm>Spontaneous pain sensation</HPOTerm>
+@@ -1074894,7 +1074606,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530098">
++          <HPODisorderAssociation id="530525">
+             <HPO id="6892">
+               <HPOId>HP:0011199</HPOId>
+               <HPOTerm>EEG with generalized sharp slow waves</HPOTerm>
+@@ -1074904,7 +1074616,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530099">
++          <HPODisorderAssociation id="530526">
+             <HPO id="6009">
+               <HPOId>HP:0012044</HPOId>
+               <HPOTerm>Seesaw nystagmus</HPOTerm>
+@@ -1074914,7 +1074626,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530100">
++          <HPODisorderAssociation id="530527">
+             <HPO id="6819">
+               <HPOId>HP:0031179</HPOId>
+               <HPOTerm>Nuchal rigidity</HPOTerm>
+@@ -1074924,7 +1074636,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530101">
++          <HPODisorderAssociation id="530528">
+             <HPO id="7143">
+               <HPOId>HP:0032044</HPOId>
+               <HPOTerm>Decreased vigilance</HPOTerm>
+@@ -1074934,7 +1074646,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530102">
++          <HPODisorderAssociation id="530529">
+             <HPO id="7337">
+               <HPOId>HP:0032506</HPOId>
+               <HPOTerm>Alien limb phenomenon</HPOTerm>
+@@ -1074944,7 +1074656,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530103">
++          <HPODisorderAssociation id="530530">
+             <HPO id="18">
+               <HPOId>HP:0001249</HPOId>
+               <HPOTerm>Intellectual disability</HPOTerm>
+@@ -1074954,7 +1074666,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530104">
++          <HPODisorderAssociation id="530531">
+             <HPO id="1432">
+               <HPOId>HP:0002133</HPOId>
+               <HPOTerm>Status epilepticus</HPOTerm>
+@@ -1074964,7 +1074676,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530105">
++          <HPODisorderAssociation id="530532">
+             <HPO id="5567">
+               <HPOId>HP:0003392</HPOId>
+               <HPOTerm>First dorsal interossei muscle weakness</HPOTerm>
+@@ -1074974,7 +1074686,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530106">
++          <HPODisorderAssociation id="530533">
+             <HPO id="6651">
+               <HPOId>HP:0011196</HPOId>
+               <HPOTerm>EEG with focal sharp waves</HPOTerm>
+@@ -1074984,7 +1074696,7 @@
+             </HPOFrequency>
+             <DiagnosticCriteria/>
+           </HPODisorderAssociation>
+-          <HPODisorderAssociation id="530107">
++          <HPODisorderAssociation id="530534">
+             <HPO id="529">
+               <HPOId>HP:0100576</HPOId>
+               <HPOTerm>Amaurosis fugax</HPOTerm>
+@@ -1201833,7 +1201545,7 @@
+       <Disorder id="18827">
+         <OrphaCode>217253</OrphaCode>
+         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
+-        <Name lang="en">Limbic encephalitis with NMDA receptor antibodies</Name>
++        <Name lang="en">NMDA receptor encephalitis</Name>
+         <DisorderType id="21394">
+           <Name lang="en">Disease</Name>
+         </DisorderType>

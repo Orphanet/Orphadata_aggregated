@@ -1,17 +1,17 @@
-commit 45f1b105cb2ab1f31cd982124355df258b02ec5a
+commit 46569fa389bb2350b5d923f7ab0e9d09817eb4bc
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Fri Apr 1 09:56:06 2022 +0200
+Date:   Mon May 2 10:13:18 2022 +0200
 
-    APR 2022
+    MAY 2022
 
 diff --git a/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml
-index 489a5c7..ab6521b 100644
+index ab6521b..0846930 100644
 --- a/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml	
 +++ b/Epidemiological data/Rare disease epidemiology/de_product9_prev.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2022-03-01 04:55:32" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2022-04-01 05:00:19" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2022-04-01 05:00:19" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-05-01 04:57:25" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
@@ -19,63 +19,123 @@ index 489a5c7..ab6521b 100644
        <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
      </Licence>
    </Availability>
--  <DisorderList count="6069">
-+  <DisorderList count="6063">
+-  <DisorderList count="6063">
++  <DisorderList count="6058">
      <Disorder id="17601">
        <OrphaCode>166024</OrphaCode>
        <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=166024</ExpertLink>
-@@ -24242,7 +24242,7 @@
-     <Disorder id="17915">
-       <OrphaCode>171622</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=171622</ExpertLink>
--      <Name lang="de">Spastische Paraplegie, autosomal-dominante, Typ 32</Name>
-+      <Name lang="de">Spastische Paraplegie, autosomal-rezessive, Typ 32</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -24291,7 +24291,7 @@
-     <Disorder id="17916">
-       <OrphaCode>171629</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=171629</ExpertLink>
--      <Name lang="de">Spastische Paraplegie, autosomal-dominante, Typ 35</Name>
-+      <Name lang="de">Spastische Paraplegie, autosomal-rezessive, Typ 35</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -38712,55 +38712,6 @@
+@@ -8133,16 +8133,16 @@
+           <PrevalenceClass id="23739">
+             <Name lang="de">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.22</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="de">Europa</Name>
++          <ValMoy>6.66</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="de">Not yet validated</Name>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="293">
+-          <Source>9918480[PMID]</Source>
++          <Source>35024668[PMID]</Source>
+           <PrevalenceType id="23683">
+             <Name lang="de">Prävalenz bei Geburt</Name>
+           </PrevalenceType>
+@@ -8152,7 +8152,7 @@
+           <PrevalenceClass id="23739">
+             <Name lang="de">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.85</ValMoy>
++          <ValMoy>6.96</ValMoy>
+           <PrevalenceGeographic id="23949">
+             <Name lang="de">Australia</Name>
+           </PrevalenceGeographic>
+@@ -74189,7 +74189,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="de">Störung</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="1">
++      <PrevalenceList count="3">
+         <Prevalence id="2539">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23669">
+@@ -74198,12 +74198,50 @@
+           <PrevalenceQualification id="23704">
+             <Name lang="de">Class only</Name>
+           </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16781">
++          <Source>ORPHANET</Source>
++          <PrevalenceType id="23683">
++            <Name lang="de">Prävalenz bei Geburt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="de">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="de">Unbekannt</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="de">Weltweit</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="de">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="16782">
++          <Source>20734338[PMID]</Source>
++          <PrevalenceType id="23683">
++            <Name lang="de">Prävalenz bei Geburt</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="de">Value and class</Name>
++          </PrevalenceQualification>
+           <PrevalenceClass id="23746">
+             <Name lang="de">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="de">Europa</Name>
++          <ValMoy>1.75</ValMoy>
++          <PrevalenceGeographic id="23949">
++            <Name lang="de">Australia</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="de">Validated</Name>
+@@ -82623,38 +82661,6 @@
          </Prevalence>
        </PrevalenceList>
      </Disorder>
--    <Disorder id="521">
--      <OrphaCode>2343</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2343</ExpertLink>
--      <Name lang="de">Kleeblattschädel-Syndrom, isoliertes</Name>
--      <DisorderType id="21415">
--        <Name lang="de">Morphologische Anomalie</Name>
+-    <Disorder id="1265">
+-      <OrphaCode>946</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=946</ExpertLink>
+-      <Name lang="de">Akrozephalosyndaktylie</Name>
+-      <DisorderType id="21436">
+-        <Name lang="de">Phenom-Gruppe</Name>
 -      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
+-      <DisorderGroup id="36540">
+-        <Name lang="de">Gruppe von Störungen</Name>
 -      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="1284">
--          <Source>ORPHANET</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>120.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="1285">
--          <Source>ORPHANET</Source>
+-      <PrevalenceList count="1">
+-        <Prevalence id="2783">
+-          <Source>ORPHANET_[EXPERT]</Source>
 -          <PrevalenceType id="23669">
 -            <Name lang="de">Punktprävalenz</Name>
 -          </PrevalenceType>
@@ -86,456 +146,6 @@ index 489a5c7..ab6521b 100644
 -            <Name lang="de">Unbekannt</Name>
 -          </PrevalenceClass>
 -          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="523">
-       <OrphaCode>2346</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2346</ExpertLink>
-@@ -43669,7 +43620,7 @@
-     <Disorder id="18024">
-       <OrphaCode>178396</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=178396</ExpertLink>
--      <Name lang="de">Hämorrhagische Krankheit durch Alpha-1-Antitrypsin Pittsburg Mutation</Name>
-+      <Name lang="de">Hämorrhagische Krankheit durch Alpha-1-Antitrypsin Pittsburgh-Mutation</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -59057,55 +59008,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="727">
--      <OrphaCode>1428</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1428</ExpertLink>
--      <Name lang="de">Patella-Chondromalazie, familiäre</Name>
--      <DisorderType id="21394">
--        <Name lang="de">Krankheit</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="1906">
--          <Source>14083144[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23725">
--            <Name lang="de">Family</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>5.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="1907">
--          <Source>ORPHANET_14083144[PMID]</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23760">
--            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="820">
-       <OrphaCode>3303</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3303</ExpertLink>
-@@ -75924,7 +75826,7 @@
-     <Disorder id="1009">
-       <OrphaCode>113</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=113</ExpertLink>
--      <Name lang="de">Bazex-Dupré-Christal-Syndrom</Name>
-+      <Name lang="de">Bazex-Dupré-Christol-Syndrom</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -85937,104 +85839,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="1284">
--      <OrphaCode>965</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=965</ExpertLink>
--      <Name lang="de">Syndrom der akromegalen Gesichtszüge</Name>
--      <DisorderType id="21401">
--        <Name lang="de">Fehlbildungs-Syndrom</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="2801">
--          <Source>23533839[PMID]_23307537[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>23.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="2802">
--          <Source>ORPHANET_23533839[PMID]_23307537[PMID]</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23760">
--            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
--    <Disorder id="1285">
--      <OrphaCode>966</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=966</ExpertLink>
--      <Name lang="de">Syndrom des akromegaloiden Gesichtes mit Hypertrichose</Name>
--      <DisorderType id="21401">
--        <Name lang="de">Fehlbildungs-Syndrom</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="2803">
--          <Source>23307537[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>27.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="2804">
--          <Source>ORPHANET_23307537[PMID]</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23760">
--            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="16888">
-       <OrphaCode>139411</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=139411</ExpertLink>
-@@ -95862,55 +95666,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="1544">
--      <OrphaCode>1321</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1321</ExpertLink>
--      <Name lang="de">Kamptodaktylie-fibröse Gewebehyperplasie-Skelettdysplasie-Syndrom</Name>
--      <DisorderType id="21401">
--        <Name lang="de">Fehlbildungs-Syndrom</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="3050">
--          <Source>5046631[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>3.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="3051">
--          <Source>ORPHANET_5046631[PMID]</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23760">
--            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="1546">
-       <OrphaCode>1323</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1323</ExpertLink>
-@@ -96490,55 +96245,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="1561">
--      <OrphaCode>1342</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1342</ExpertLink>
--      <Name lang="de">Herz-Hand-Syndrom Typ 3</Name>
--      <DisorderType id="21401">
--        <Name lang="de">Fehlbildungs-Syndrom</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="3068">
--          <Source>7450756[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>3.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="3069">
--          <Source>ORPHANET_7450756[PMID]</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23760">
--            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="1563">
-       <OrphaCode>1345</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1345</ExpertLink>
-@@ -115891,11 +115597,11 @@
-       <OrphaCode>2196</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2196</ExpertLink>
-       <Name lang="de">Familiäre Hypomagnesiämie - Hyperkalziurie - Nephrokalzinose - Augenbeteiligung</Name>
--      <DisorderType id="21394">
--        <Name lang="de">Krankheit</Name>
-+      <DisorderType id="21450">
-+        <Name lang="de">Klinischer Subtyp</Name>
-       </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
-+      <DisorderGroup id="36554">
-+        <Name lang="de">Subtyp der Störung</Name>
-       </DisorderGroup>
-       <PrevalenceList count="2">
-         <Prevalence id="3484">
-@@ -135146,55 +134852,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="2804">
--      <OrphaCode>3133</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=3133</ExpertLink>
--      <Name lang="de">Say-Field-Coldwell-Syndrom</Name>
--      <DisorderType id="21401">
--        <Name lang="de">Fehlbildungs-Syndrom</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="12744">
--          <Source>953232[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>4.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="12745">
--          <Source>ORPHANET_953232[PMID]</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23760">
--            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="20021">
-       <OrphaCode>262941</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=262941</ExpertLink>
-@@ -161581,6 +161238,57 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
-+    <Disorder id="18698">
-+      <OrphaCode>210584</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=210584</ExpertLink>
-+      <Name lang="de">Spindelzellhämangiom</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="2">
-+        <Prevalence id="16775">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23676">
-+            <Name lang="de">Jahresinzidenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+        <Prevalence id="16776">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="3530">
-       <OrphaCode>2023</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=2023</ExpertLink>
-@@ -166750,26 +166458,7 @@
-       <DisorderGroup id="36547">
-         <Name lang="de">Störung</Name>
-       </DisorderGroup>
--      <PrevalenceList count="20">
--        <Prevalence id="4590">
--          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
--          <PrevalenceType id="23683">
--            <Name lang="de">Prävalenz bei Geburt</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23711">
--            <Name lang="de">Value and class</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23732">
--            <Name lang="de">1-5 / 10 000</Name>
--          </PrevalenceClass>
--          <ValMoy>39.3</ValMoy>
 -          <PrevalenceGeographic id="23795">
 -            <Name lang="de">Europa</Name>
 -          </PrevalenceGeographic>
@@ -543,97 +153,28 @@ index 489a5c7..ab6521b 100644
 -            <Name lang="de">Validated</Name>
 -          </PrevalenceValidationStatus>
 -        </Prevalence>
-+      <PrevalenceList count="19">
-         <Prevalence id="4591">
-           <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
-           <PrevalenceType id="23683">
-@@ -167114,8 +166803,8 @@
-         </Prevalence>
-         <Prevalence id="4609">
-           <Source>ORPHANET</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
-+          <PrevalenceType id="23683">
-+            <Name lang="de">Prävalenz bei Geburt</Name>
-           </PrevalenceType>
-           <PrevalenceQualification id="23704">
-             <Name lang="de">Class only</Name>
-@@ -167127,8 +166816,8 @@
-           <PrevalenceGeographic id="23795">
-             <Name lang="de">Europa</Name>
-           </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25965">
--            <Name lang="de">Not yet validated</Name>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-           </PrevalenceValidationStatus>
-         </Prevalence>
-       </PrevalenceList>
-@@ -183837,7 +183526,7 @@
-     <Disorder id="19086">
-       <OrphaCode>228227</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=228227</ExpertLink>
--      <Name lang="de">Elastose, dermale folkale, spät-beginnende</Name>
-+      <Name lang="de">Elastose, dermale fokale, spät-beginnende</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -186624,6 +186313,38 @@
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="1278">
+       <OrphaCode>957</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=957</ExpertLink>
+@@ -99304,55 +99310,6 @@
          </Prevalence>
        </PrevalenceList>
      </Disorder>
-+    <Disorder id="3590">
-+      <OrphaCode>82</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=82</ExpertLink>
-+      <Name lang="de">Hereditäre Thrombophilie durch kongenitalen Antithrombin-Mangel</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="1">
-+        <Prevalence id="16768">
-+          <Source>ORPHANET</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23732">
-+            <Name lang="de">1-5 / 10 000</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="19142">
-       <OrphaCode>230839</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=230839</ExpertLink>
-@@ -191500,55 +191221,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="21917">
--      <OrphaCode>329252</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=329252</ExpertLink>
--      <Name lang="de">Spondylokostale Dysostose-Hypospadie-Intelligenzminderung-Syndrom</Name>
--      <DisorderType id="21394">
--        <Name lang="de">Krankheit</Name>
+-    <Disorder id="1697">
+-      <OrphaCode>1533</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=1533</ExpertLink>
+-      <Name lang="de">Kraniosynostose - Fibula-Aplasie</Name>
+-      <DisorderType id="21401">
+-        <Name lang="de">Fehlbildungs-Syndrom</Name>
 -      </DisorderType>
 -      <DisorderGroup id="36547">
 -        <Name lang="de">Störung</Name>
 -      </DisorderGroup>
 -      <PrevalenceList count="2">
--        <Prevalence id="10162">
--          <Source>23166036[PMID]</Source>
+-        <Prevalence id="3180">
+-          <Source>4403018[PMID]</Source>
 -          <PrevalenceType id="23697">
 -            <Name lang="de">Cases/families</Name>
 -          </PrevalenceType>
@@ -649,7 +190,72 @@ index 489a5c7..ab6521b 100644
 -            <Name lang="de">Validated</Name>
 -          </PrevalenceValidationStatus>
 -        </Prevalence>
--        <Prevalence id="10163">
+-        <Prevalence id="3181">
+-          <Source>ORPHANET_4403018[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="de">Punktprävalenz</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="de">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="de">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="de">Weltweit</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="de">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="16992">
+       <OrphaCode>140874</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=140874</ExpertLink>
+@@ -172773,7 +172730,7 @@
+     <Disorder id="18856">
+       <OrphaCode>217407</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=217407</ExpertLink>
+-      <Name lang="de">Hypertrichose mit rezidivierenden Hautbläschen, hereditär</Name>
++      <Name lang="de">Hereditäre Hypotrichose mit rezidivierenden Hautbläschen</Name>
+       <DisorderType id="21394">
+         <Name lang="de">Krankheit</Name>
+       </DisorderType>
+@@ -190778,55 +190735,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="21931">
+-      <OrphaCode>329341</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=329341</ExpertLink>
+-      <Name lang="de">Limbische Enzephalitis mit DPP6-Antikörpern</Name>
+-      <DisorderType id="21394">
+-        <Name lang="de">Krankheit</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="de">Störung</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="10180">
+-          <Source>23225603[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="de">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="de">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>4.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="de">Weltweit</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="de">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="10181">
 -          <Source>ORPHANET</Source>
 -          <PrevalenceType id="23669">
 -            <Name lang="de">Punktprävalenz</Name>
@@ -670,392 +276,31 @@ index 489a5c7..ab6521b 100644
 -        </Prevalence>
 -      </PrevalenceList>
 -    </Disorder>
-     <Disorder id="21916">
-       <OrphaCode>329249</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=329249</ExpertLink>
-@@ -201598,6 +201270,57 @@
+     <Disorder id="21911">
+       <OrphaCode>329228</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=329228</ExpertLink>
+@@ -265668,55 +265576,6 @@
          </Prevalence>
        </PrevalenceList>
      </Disorder>
-+    <Disorder id="22354">
-+      <OrphaCode>363976</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=363976</ExpertLink>
-+      <Name lang="de">Riesenzell-Tumor des Knochens</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="2">
-+        <Prevalence id="16779">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23676">
-+            <Name lang="de">Jahresinzidenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23711">
-+            <Name lang="de">Value and class</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23739">
-+            <Name lang="de">1-9 / 1 000 000</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.1404</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+        <Prevalence id="16780">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="22355">
-       <OrphaCode>363981</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=363981</ExpertLink>
-@@ -208480,6 +208203,57 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
-+    <Disorder id="20756">
-+      <OrphaCode>289661</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=289661</ExpertLink>
-+      <Name lang="de">Epstein-Barr Virus-positive diffuse großzellige B-Zell-Lymphom des älteren Erwachsenen</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="2">
-+        <Prevalence id="16777">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23676">
-+            <Name lang="de">Jahresinzidenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+        <Prevalence id="16778">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="20766">
-       <OrphaCode>289857</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=289857</ExpertLink>
-@@ -219145,11 +218919,11 @@
-       <OrphaCode>306516</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=306516</ExpertLink>
-       <Name lang="de">Familiäre primäre Hypomagnesiämie mit Hyperkalziurie und Nephrokalzinose</Name>
--      <DisorderType id="21436">
--        <Name lang="de">Phenom-Gruppe</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-       </DisorderType>
--      <DisorderGroup id="36540">
--        <Name lang="de">Gruppe von Störungen</Name>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-       </DisorderGroup>
-       <PrevalenceList count="2">
-         <Prevalence id="9879">
-@@ -242400,7 +242174,7 @@
-     <Disorder id="23486">
-       <OrphaCode>444138</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=444138</ExpertLink>
--      <Name lang="de">Hautablösung-Leukonychie-alral punktierte Keratosen-Cheilitis-Fingerknöchelpolster-Syndrom</Name>
-+      <Name lang="de">Hautablösung-Leukonychie-akral punktierte Keratosen-Cheilitis-Fingerknöchelpolster-Syndrom</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -261662,6 +261436,57 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
-+    <Disorder id="8562">
-+      <OrphaCode>318</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=318</ExpertLink>
-+      <Name lang="de">Akute Erythroleukämie</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="2">
-+        <Prevalence id="16769">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23676">
-+            <Name lang="de">Jahresinzidenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+        <Prevalence id="16770">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="8561">
-       <OrphaCode>514</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=514</ExpertLink>
-@@ -272268,11 +272093,11 @@
-       <OrphaCode>31043</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=31043</ExpertLink>
-       <Name lang="de">Familiäre Hypomagnesiämie mit Hyperkalziurie und Nephrokalzinose ohne schwere Augenbeteiligung</Name>
+-    <Disorder id="25936">
+-      <OrphaCode>498700</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=498700</ExpertLink>
+-      <Name lang="de">Limbische Enzephalitis mit Neurexin-3-Antikörper</Name>
 -      <DisorderType id="21394">
 -        <Name lang="de">Krankheit</Name>
-+      <DisorderType id="21450">
-+        <Name lang="de">Klinischer Subtyp</Name>
-       </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
-+      <DisorderGroup id="36554">
-+        <Name lang="de">Subtyp der Störung</Name>
-       </DisorderGroup>
-       <PrevalenceList count="2">
-         <Prevalence id="5414">
-@@ -279060,6 +278885,57 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
-+    <Disorder id="10838">
-+      <OrphaCode>64720</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=64720</ExpertLink>
-+      <Name lang="de">Leiomyosarkom</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="2">
-+        <Prevalence id="16771">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23676">
-+            <Name lang="de">Jahresinzidenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+        <Prevalence id="16772">
-+          <Source>[WHO Classification of Tumours]</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="10843">
-       <OrphaCode>64739</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=64739</ExpertLink>
-@@ -290965,38 +290841,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="10368">
--      <OrphaCode>35098</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=35098</ExpertLink>
--      <Name lang="de">Plagiozephalie, isolierte</Name>
--      <DisorderType id="21415">
--        <Name lang="de">Morphologische Anomalie</Name>
 -      </DisorderType>
 -      <DisorderGroup id="36547">
 -        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="1">
--        <Prevalence id="12042">
--          <Source>17629800[PMID]</Source>
--          <PrevalenceType id="23683">
--            <Name lang="de">Prävalenz bei Geburt</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23711">
--            <Name lang="de">Value and class</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23746">
--            <Name lang="de">1-9 / 100 000</Name>
--          </PrevalenceClass>
--          <ValMoy>3.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="10375">
-       <OrphaCode>35125</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=35125</ExpertLink>
-@@ -295033,104 +294877,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="10344">
--      <OrphaCode>34526</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=34526</ExpertLink>
--      <Name lang="de">Hypomagnesiämie, primäre, genetisch bedingte</Name>
--      <DisorderType id="36561">
--        <Name lang="de">Category</Name>
--      </DisorderType>
--      <DisorderGroup id="36540">
--        <Name lang="de">Gruppe von Störungen</Name>
 -      </DisorderGroup>
 -      <PrevalenceList count="2">
--        <Prevalence id="5494">
--          <Source>[EXPERT]</Source>
+-        <Prevalence id="13782">
+-          <Source>27170573[PMID]</Source>
 -          <PrevalenceType id="23697">
 -            <Name lang="de">Cases/families</Name>
 -          </PrevalenceType>
 -          <PrevalenceQualification id="23718">
 -            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>500.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="10600">
--          <Source>ORPHANET</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23774">
--            <Name lang="de">Unbekannt</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23795">
--            <Name lang="de">Europa</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
--    <Disorder id="10345">
--      <OrphaCode>34527</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=34527</ExpertLink>
--      <Name lang="de">Hypomagnesiämie, familiäre primäre, mit Normokalziurie und Normokalzämie</Name>
--      <DisorderType id="21394">
--        <Name lang="de">Krankheit</Name>
--      </DisorderType>
--      <DisorderGroup id="36547">
--        <Name lang="de">Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="5495">
--          <Source>24699222[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23725">
--            <Name lang="de">Family</Name>
 -          </PrevalenceQualification>
 -          <PrevalenceClass/>
 -          <ValMoy>5.0</ValMoy>
@@ -1066,8 +311,8 @@ index 489a5c7..ab6521b 100644
 -            <Name lang="de">Validated</Name>
 -          </PrevalenceValidationStatus>
 -        </Prevalence>
--        <Prevalence id="5496">
--          <Source>ORPHANET</Source>
+-        <Prevalence id="13783">
+-          <Source>ORPHANET_27170573[PMID]</Source>
 -          <PrevalenceType id="23669">
 -            <Name lang="de">Punktprävalenz</Name>
 -          </PrevalenceType>
@@ -1087,93 +332,26 @@ index 489a5c7..ab6521b 100644
 -        </Prevalence>
 -      </PrevalenceList>
 -    </Disorder>
-     <Disorder id="10346">
-       <OrphaCode>34528</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=34528</ExpertLink>
-@@ -325481,6 +325227,57 @@
+     <Disorder id="8594">
+       <OrphaCode>874</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=874</ExpertLink>
+@@ -279297,38 +279156,6 @@
          </Prevalence>
        </PrevalenceList>
      </Disorder>
-+    <Disorder id="11765">
-+      <OrphaCode>86871</OrphaCode>
-+      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86871</ExpertLink>
-+      <Name lang="de">T-Zell-Prolymphozytenleukämie</Name>
-+      <DisorderType id="21394">
-+        <Name lang="de">Krankheit</Name>
-+      </DisorderType>
-+      <DisorderGroup id="36547">
-+        <Name lang="de">Störung</Name>
-+      </DisorderGroup>
-+      <PrevalenceList count="2">
-+        <Prevalence id="16773">
-+          <Source>[WHO Classification of Tumours ]</Source>
-+          <PrevalenceType id="23676">
-+            <Name lang="de">Jahresinzidenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+        <Prevalence id="16774">
-+          <Source>[WHO Classification of Tumours ]</Source>
-+          <PrevalenceType id="23669">
-+            <Name lang="de">Punktprävalenz</Name>
-+          </PrevalenceType>
-+          <PrevalenceQualification id="23704">
-+            <Name lang="de">Class only</Name>
-+          </PrevalenceQualification>
-+          <PrevalenceClass id="23774">
-+            <Name lang="de">Unbekannt</Name>
-+          </PrevalenceClass>
-+          <ValMoy>0.0</ValMoy>
-+          <PrevalenceGeographic id="23844">
-+            <Name lang="de">Weltweit</Name>
-+          </PrevalenceGeographic>
-+          <PrevalenceValidationStatus id="25958">
-+            <Name lang="de">Validated</Name>
-+          </PrevalenceValidationStatus>
-+        </Prevalence>
-+      </PrevalenceList>
-+    </Disorder>
-     <Disorder id="11762">
-       <OrphaCode>86867</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=86867</ExpertLink>
-@@ -333205,7 +333002,7 @@
-     <Disorder id="12850">
-       <OrphaCode>96369</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=96369</ExpertLink>
--      <Name lang="de">Schizophrenie, früh beginnende, organisch bedingte</Name>
-+      <Name lang="de">Schizophrenie, früh beginnende</Name>
-       <DisorderType id="21394">
-         <Name lang="de">Krankheit</Name>
-       </DisorderType>
-@@ -334997,55 +334794,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="12562">
--      <OrphaCode>94095</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=94095</ExpertLink>
--      <Name lang="de">Spondylokostale Dysostose-Analatresie-Urogenitalfehlbildung-Syndrom</Name>
--      <DisorderType id="21401">
--        <Name lang="de">Fehlbildungs-Syndrom</Name>
+-    <Disorder id="10822">
+-      <OrphaCode>63440</OrphaCode>
+-      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=63440</ExpertLink>
+-      <Name lang="de">Oxyzephalie, isolierte</Name>
+-      <DisorderType id="21415">
+-        <Name lang="de">Morphologische Anomalie</Name>
 -      </DisorderType>
 -      <DisorderGroup id="36547">
 -        <Name lang="de">Störung</Name>
 -      </DisorderGroup>
--      <PrevalenceList count="2">
--        <Prevalence id="7314">
--          <Source>ORPHANET_7246601[PMID]_9880219[PMID]</Source>
+-      <PrevalenceList count="1">
+-        <Prevalence id="5872">
+-          <Source>ORPHANET</Source>
 -          <PrevalenceType id="23669">
 -            <Name lang="de">Punktprävalenz</Name>
 -          </PrevalenceType>
@@ -1182,73 +360,17 @@ index 489a5c7..ab6521b 100644
 -          </PrevalenceQualification>
 -          <PrevalenceClass id="23760">
 -            <Name lang="de">&lt;1 / 1 000 000</Name>
--          </PrevalenceClass>
--          <ValMoy>0.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--        <Prevalence id="7313">
--          <Source>7246601[PMID]_9880219[PMID]</Source>
--          <PrevalenceType id="23697">
--            <Name lang="de">Cases/families</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23718">
--            <Name lang="de">Case</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass/>
--          <ValMoy>3.0</ValMoy>
--          <PrevalenceGeographic id="23844">
--            <Name lang="de">Weltweit</Name>
--          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
--          </PrevalenceValidationStatus>
--        </Prevalence>
--      </PrevalenceList>
--    </Disorder>
-     <Disorder id="12563">
-       <OrphaCode>94122</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=94122</ExpertLink>
-@@ -340161,38 +339909,6 @@
-         </Prevalence>
-       </PrevalenceList>
-     </Disorder>
--    <Disorder id="12437">
--      <OrphaCode>93604</OrphaCode>
--      <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=93604</ExpertLink>
--      <Name lang="de">Bartter-Syndrom, pränatales</Name>
--      <DisorderType id="21450">
--        <Name lang="de">Klinischer Subtyp</Name>
--      </DisorderType>
--      <DisorderGroup id="36554">
--        <Name lang="de">Subtyp der Störung</Name>
--      </DisorderGroup>
--      <PrevalenceList count="1">
--        <Prevalence id="10633">
--          <Source>ORPHANET</Source>
--          <PrevalenceType id="23669">
--            <Name lang="de">Punktprävalenz</Name>
--          </PrevalenceType>
--          <PrevalenceQualification id="23704">
--            <Name lang="de">Class only</Name>
--          </PrevalenceQualification>
--          <PrevalenceClass id="23774">
--            <Name lang="de">Unbekannt</Name>
 -          </PrevalenceClass>
 -          <ValMoy>0.0</ValMoy>
 -          <PrevalenceGeographic id="23795">
 -            <Name lang="de">Europa</Name>
 -          </PrevalenceGeographic>
--          <PrevalenceValidationStatus id="25958">
--            <Name lang="de">Validated</Name>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="de">Not yet validated</Name>
 -          </PrevalenceValidationStatus>
 -        </Prevalence>
 -      </PrevalenceList>
 -    </Disorder>
-     <Disorder id="14111">
-       <OrphaCode>99094</OrphaCode>
-       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=99094</ExpertLink>
+     <Disorder id="10823">
+       <OrphaCode>63442</OrphaCode>
+       <ExpertLink lang="de">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=de&amp;Expert=63442</ExpertLink>

@@ -1,571 +1,89 @@
-commit 45f1b105cb2ab1f31cd982124355df258b02ec5a
+commit 46569fa389bb2350b5d923f7ab0e9d09817eb4bc
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Fri Apr 1 09:56:06 2022 +0200
+Date:   Mon May 2 10:13:18 2022 +0200
 
-    APR 2022
+    MAY 2022
 
 diff --git a/Rare diseases and functional consequences/nl_funct_consequences.xml b/Rare diseases and functional consequences/nl_funct_consequences.xml
-index fa46b6f..a695275 100644
+index a695275..518b4cf 100644
 --- a/Rare diseases and functional consequences/nl_funct_consequences.xml	
 +++ b/Rare diseases and functional consequences/nl_funct_consequences.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2022-03-01 04:13:06" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2022-04-01 04:14:25" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2022-04-01 04:14:25" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-05-01 04:13:40" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -7,7 +7,7 @@
-       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
-     </Licence>
-   </Availability>
--  <DisorderDisabilityRelevanceList count="945">
-+  <DisorderDisabilityRelevanceList count="944">
-     <DisorderDisabilityRelevance id="5">
-       <Disorder id="230">
-         <OrphaCode>893</OrphaCode>
-@@ -27668,7 +27668,7 @@
-       <Disorder id="14210">
-         <OrphaCode>99413</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=99413</ExpertLink>
--        <Name lang="nl">Turnersyndroom door structurele X-chromosoomanomalieën</Name>
-+        <Name lang="nl">Syndroom van Turner door structurele anomalieën van X-chromosoom</Name>
-         <DisorderType id="21443">
-           <Name lang="nl">Etiologisch subtype</Name>
-         </DisorderType>
-@@ -128658,7 +128658,7 @@
-       <Disorder id="10870">
-         <OrphaCode>65288</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=65288</ExpertLink>
--        <Name lang="nl">Permanente neonatale diabetes mellitus - pancreatische en cerebellaire agenesie-syndroom</Name>
-+        <Name lang="nl">Permanente neonatale diabetes mellitus - agenesie van pancreas en cerebellum-syndroom</Name>
-         <DisorderType id="21401">
-           <Name lang="nl">Malformatiesyndroom</Name>
-         </DisorderType>
-@@ -262562,7 +262562,7 @@
-       <Disorder id="10948">
-         <OrphaCode>70475</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=70475</ExpertLink>
--        <Name lang="nl">Proctitis door straling</Name>
-+        <Name lang="nl">Radiatieproctitis</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -264656,7 +264656,7 @@
-       <Disorder id="17873">
-         <OrphaCode>169805</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=169805</ExpertLink>
--        <Name lang="nl">Matig ernstige hemofilie A</Name>
-+        <Name lang="nl">Matige hemofilie A</Name>
-         <DisorderType id="21450">
-           <Name lang="nl">Klinisch subtype</Name>
-         </DisorderType>
-@@ -283325,445 +283325,6 @@
-       </DisabilityCategory>
-       <ReasonForNotApplicable/>
-     </DisorderDisabilityRelevance>
--    <DisorderDisabilityRelevance id="4363">
--      <Disorder id="12437">
--        <OrphaCode>93604</OrphaCode>
--        <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93604</ExpertLink>
--        <Name lang="nl">Prenataal syndroom van Bartter</Name>
--        <DisorderType id="21450">
--          <Name lang="nl">Klinisch subtype</Name>
--        </DisorderType>
--        <DisorderGroup id="36554">
--          <Name lang="nl">Subtype van aandoening</Name>
--        </DisorderGroup>
--        <DisabilityDisorderAssociationList count="25">
--          <DisabilityDisorderAssociation id="166228">
--            <Disability id="90">
--              <Name lang="nl">Zorgen voor/helpen van anderen</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166229">
--            <Disability id="90">
--              <Name lang="nl">Zorgen voor/helpen van anderen</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166230">
--            <Disability id="99">
--              <Name lang="nl">Verrichten van betaald werk in een standaard omgeving</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166231">
--            <Disability id="99">
--              <Name lang="nl">Verrichten van betaald werk in een standaard omgeving</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166232">
--            <Disability id="99">
--              <Name lang="nl">Verrichten van betaald werk in een standaard omgeving</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166233">
--            <Disability id="102">
--              <Name lang="nl">Professionele taken uitvoeren</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166234">
--            <Disability id="102">
--              <Name lang="nl">Professionele taken uitvoeren</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166235">
--            <Disability id="102">
--              <Name lang="nl">Professionele taken uitvoeren</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166236">
--            <Disability id="108">
--              <Name lang="nl">Dagelijkse routines uitvoeren</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166237">
--            <Disability id="108">
--              <Name lang="nl">Dagelijkse routines uitvoeren</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166238">
--            <Disability id="108">
--              <Name lang="nl">Dagelijkse routines uitvoeren</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166239">
--            <Disability id="111">
--              <Name lang="nl">Spelen met anderen</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166240">
--            <Disability id="111">
--              <Name lang="nl">Spelen met anderen</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166241">
--            <Disability id="113">
--              <Name lang="nl">Sport beoefenen</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27250">
--              <Name lang="nl">Ernstig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166242">
--            <Disability id="113">
--              <Name lang="nl">Sport beoefenen</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166243">
--            <Disability id="119">
--              <Name lang="nl">Temperatuur</Name>
--            </Disability>
--            <FrequenceDisability/>
--            <TemporalityDisability/>
--            <SeverityDisability/>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Environmental factor</Type>
--            <Defined>n</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166244">
--            <Disability id="120">
--              <Name lang="nl">Vochtigheid</Name>
--            </Disability>
--            <FrequenceDisability/>
--            <TemporalityDisability/>
--            <SeverityDisability/>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Environmental factor</Type>
--            <Defined>n</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166220">
--            <Disability id="8">
--              <Name lang="nl">Leren lezen</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27187">
--              <Name lang="nl">Vertraagde ontwikkeling</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166221">
--            <Disability id="9">
--              <Name lang="nl">Leren schrijven</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27187">
--              <Name lang="nl">Vertraagde ontwikkeling</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166222">
--            <Disability id="10">
--              <Name lang="nl">Leren rekenen</Name>
--            </Disability>
--            <FrequenceDisability id="27215">
--              <Name lang="nl">Soms</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27187">
--              <Name lang="nl">Vertraagde ontwikkeling</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166223">
--            <Disability id="52">
--              <Name lang="nl">Energieke activiteiten uitvoeren (klimmen, lopen, springen, zwemmen, …)</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166224">
--            <Disability id="52">
--              <Name lang="nl">Energieke activiteiten uitvoeren (klimmen, lopen, springen, zwemmen, …)</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166225">
--            <Disability id="52">
--              <Name lang="nl">Energieke activiteiten uitvoeren (klimmen, lopen, springen, zwemmen, …)</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27264">
--              <Name lang="nl">Volledig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166226">
--            <Disability id="89">
--              <Name lang="nl">Het huishouden doen</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27194">
--              <Name lang="nl">Tijdelijke beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27236">
--              <Name lang="nl">Matig</Name>
--            </SeverityDisability>
--            <LossOfAbility>n</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--          <DisabilityDisorderAssociation id="166227">
--            <Disability id="89">
--              <Name lang="nl">Het huishouden doen</Name>
--            </Disability>
--            <FrequenceDisability id="27208">
--              <Name lang="nl">Vaak</Name>
--            </FrequenceDisability>
--            <TemporalityDisability id="27180">
--              <Name lang="nl">Permanente beperking</Name>
--            </TemporalityDisability>
--            <SeverityDisability id="27222">
--              <Name lang="nl">Laag</Name>
--            </SeverityDisability>
--            <LossOfAbility>y</LossOfAbility>
--            <Type>Disability</Type>
--            <Defined>y</Defined>
--          </DisabilityDisorderAssociation>
--        </DisabilityDisorderAssociationList>
--      </Disorder>
--      <SourceOfValidation>Dr Giacomo COLUSSI[Expert]</SourceOfValidation>
--      <SpecificManagement>n</SpecificManagement>
--      <Online>y</Online>
--      <AnnotationDate>2019-07-01 00:00:00.0</AnnotationDate>
--      <StatusDisability id="27327">
--        <Name lang="nl">Nog niet gevalideerd</Name>
--      </StatusDisability>
--      <DisabilityCategory id="27278">
--        <Name lang="nl">Activiteitsbeperking/deelnamebeperking</Name>
--      </DisabilityCategory>
--      <ReasonForNotApplicable/>
--    </DisorderDisabilityRelevance>
-     <DisorderDisabilityRelevance id="4470">
-       <Disorder id="261">
-         <OrphaCode>87</OrphaCode>
-@@ -298638,7 +298199,7 @@
-       <Disorder id="12148">
-         <OrphaCode>91483</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=91483</ExpertLink>
--        <Name lang="nl">Riegeranomalie</Name>
-+        <Name lang="nl">Rieger-anomalie</Name>
+@@ -28271,7 +28271,7 @@
+       <Disorder id="2983">
+         <OrphaCode>3366</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3366</ExpertLink>
+-        <Name lang="nl">Geïsoleerde trigonocefalie</Name>
++        <Name lang="nl">Niet-syndromale metopische craniosynostose</Name>
          <DisorderType id="21415">
            <Name lang="nl">Morfologische anomalie</Name>
          </DisorderType>
-@@ -320068,7 +319629,7 @@
-       <Disorder id="203">
-         <OrphaCode>752</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=752</ExpertLink>
--        <Name lang="nl">46,XY geslachtsontwikkelingsstoornis als gevolg van 17-bèta-hydroxysteroïde dehydrogenase 3-deficiëntie</Name>
-+        <Name lang="nl">46,XY-geslachtsontwikkelingsstoornis door deficiëntie van 17-bèta-hydroxysteroïde-dehydrogenase 3</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
+@@ -45165,7 +45165,7 @@
+       <Disorder id="12438">
+         <OrphaCode>93605</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93605</ExpertLink>
+-        <Name lang="nl">Klassiek syndroom van Bartter</Name>
++        <Name lang="nl">Syndroom van Bartter type 3</Name>
+         <DisorderType id="21450">
+           <Name lang="nl">Klinisch subtype</Name>
          </DisorderType>
-@@ -320224,7 +319785,7 @@
-       <Disorder id="13104">
-         <OrphaCode>98086</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=98086</ExpertLink>
--        <Name lang="nl">46,XY-geslachtsontwikkelingsstoornis als gevolg van een defect in testosteronmetabolisme door perifeer weefsel</Name>
-+        <Name lang="nl">46,XY-geslachtsontwikkelingsstoornis door defect van testosteronmetabolisme in perifeer weefsel</Name>
-         <DisorderType id="36561">
-           <Name lang="nl">Category</Name>
+@@ -121793,7 +121793,7 @@
+       <Disorder id="19334">
+         <OrphaCode>240103</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=240103</ExpertLink>
+-        <Name lang="nl">Progressieve supranucleaire paralyse - corticobasaal parkinsonisme</Name>
++        <Name lang="nl">Progressieve supranucleaire paralyse - corticobasaal syndroom</Name>
+         <DisorderType id="21450">
+           <Name lang="nl">Klinisch subtype</Name>
          </DisorderType>
-@@ -320386,7 +319947,7 @@
-       <Disorder id="324">
-         <OrphaCode>753</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=753</ExpertLink>
--        <Name lang="nl">46,XY geslachtsontwikkelingsstoornis door 5-alfa-reductase 2-deficiëntie</Name>
-+        <Name lang="nl">46,XY-geslachtsontwikkelingsstoornis door deficiëntie van 5-alfa-reductase 2</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
+@@ -124590,7 +124590,7 @@
+       <Disorder id="19333">
+         <OrphaCode>240094</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=240094</ExpertLink>
+-        <Name lang="nl">Progressieve supranucleaire paralyse - zuivere akinesie met bevroren gang-syndroom</Name>
++        <Name lang="nl">Progressieve supranucleaire paralyse - zuivere akinesie met gangblokkade-syndroom</Name>
+         <DisorderType id="21450">
+           <Name lang="nl">Klinisch subtype</Name>
          </DisorderType>
-@@ -341737,7 +341298,7 @@
-       <Disorder id="12832">
-         <OrphaCode>96263</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=96263</ExpertLink>
--        <Name lang="nl">48,XXXY syndroom</Name>
-+        <Name lang="nl">48,XXXY-syndroom</Name>
+@@ -144112,7 +144112,7 @@
+       <Disorder id="3249">
+         <OrphaCode>478</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=478</ExpertLink>
+-        <Name lang="nl">Kallmannsyndroom</Name>
++        <Name lang="nl">Syndroom van Kallmann</Name>
+         <DisorderType id="21450">
+           <Name lang="nl">Klinisch subtype</Name>
+         </DisorderType>
+@@ -433001,7 +433001,7 @@
+       <Disorder id="11913">
+         <OrphaCode>89938</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=89938</ExpertLink>
+-        <Name lang="nl">Infantiel syndroom van Bartter met sensorineurale doofheid</Name>
++        <Name lang="nl">Syndroom van Bartter type 4</Name>
+         <DisorderType id="21450">
+           <Name lang="nl">Klinisch subtype</Name>
+         </DisorderType>
+@@ -469633,7 +469633,7 @@
+       <Disorder id="1544">
+         <OrphaCode>1321</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1321</ExpertLink>
+-        <Name lang="nl">Camptodactylie - hyperplasie van fibreus weefsel - skeletdysplasie-syndroom</Name>
++        <Name lang="nl">Camptodactylie - hyperplasie van fibreus weefsel - skeletanomalieën-syndroom</Name>
          <DisorderType id="21401">
            <Name lang="nl">Malformatiesyndroom</Name>
          </DisorderType>
-@@ -350197,7 +349758,7 @@
-       <Disorder id="11106">
-         <OrphaCode>77293</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=77293</ExpertLink>
--        <Name lang="nl">Ziekte van Niemann-Pick type B</Name>
-+        <Name lang="nl">Chronische viscerale deficiëntie van zure sfingomyelinase</Name>
-         <DisorderType id="21394">
-           <Name lang="nl">Ziekte</Name>
-         </DisorderType>
-@@ -351049,7 +350610,7 @@
-       <Disorder id="11105">
-         <OrphaCode>77292</OrphaCode>
-         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=77292</ExpertLink>
--        <Name lang="nl">Ziekte van Niemann-Pick type A</Name>
-+        <Name lang="nl">Infantiele neuroviscerale deficiëntie van zure sfingomyelinase</Name>
+@@ -579968,7 +579968,7 @@
+       <Disorder id="2497">
+         <OrphaCode>661</OrphaCode>
+         <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=661</ExpertLink>
+-        <Name lang="nl">Syndroom van Ondine</Name>
++        <Name lang="nl">Congenitale centrale hypoventilatie-syndroom</Name>
          <DisorderType id="21394">
            <Name lang="nl">Ziekte</Name>
          </DisorderType>

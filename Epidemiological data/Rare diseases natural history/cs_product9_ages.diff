@@ -1,0 +1,314 @@
+commit 46569fa389bb2350b5d923f7ab0e9d09817eb4bc
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon May 2 10:13:18 2022 +0200
+
+    MAY 2022
+
+diff --git a/Epidemiological data/Rare diseases natural history/cs_product9_ages.xml b/Epidemiological data/Rare diseases natural history/cs_product9_ages.xml
+index 689aa58..411e46f 100644
+--- a/Epidemiological data/Rare diseases natural history/cs_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/cs_product9_ages.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2022-04-01 04:59:14" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-05-01 04:56:20" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6641">
++  <DisorderList count="6636">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=166024</ExpertLink>
+@@ -2475,15 +2475,24 @@
+       <DisorderGroup id="36547">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="cs">Adolescent</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="cs">Dospělý</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23529">
+           <Name lang="cs">Dětství</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
++      <AverageAgeOfDeathList count="2">
+         <AverageAgeOfDeath id="23627">
+           <Name lang="cs">Dospělý</Name>
+         </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23634">
++          <Name lang="cs">Starší</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23445">
+@@ -21135,14 +21144,26 @@
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="cs">Rané dětství</Name>
++        <AverageAgeOfOnset id="23508">
++          <Name lang="cs">Prenatální</Name>
+         </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="cs">Novorozenecké</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
++      <AverageAgeOfDeathList count="4">
++        <AverageAgeOfDeath id="23648">
++          <Name lang="cs">Jakéhokoliv věku</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23578">
++          <Name lang="cs">embryofetální</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23592">
++          <Name lang="cs">dětský</Name>
++        </AverageAgeOfDeath>
++        <AverageAgeOfDeath id="23585">
++          <Name lang="cs">mrtvě narozený</Name>
++        </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+       <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23424">
+@@ -21675,7 +21696,10 @@
+           <Name lang="cs">normální délka života</Name>
+         </AverageAgeOfDeath>
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="cs">Autosomálně dominantní</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="cs">Autosomálně recesivní</Name>
+         </TypeOfInheritance>
+@@ -24594,38 +24618,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="1265">
+-      <OrphaCode>946</OrphaCode>
+-      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=946</ExpertLink>
+-      <Name lang="cs">Akrocefalosyndaktylie</Name>
+-      <DisorderType id="21436">
+-        <Name lang="cs">Klinická skupina</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36540">
+-        <Name lang="cs">Skupina onemocnění</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23508">
+-          <Name lang="cs">Prenatální</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="cs">Novorozenecké</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23648">
+-          <Name lang="cs">Jakéhokoliv věku</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="cs">Autosomálně dominantní</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="cs">Nepoužitelné</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="1278">
+       <OrphaCode>957</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=957</ExpertLink>
+@@ -34850,32 +34842,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="1697">
+-      <OrphaCode>1533</OrphaCode>
+-      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=1533</ExpertLink>
+-      <Name lang="cs">Syndrom zahrnující kraniosynostózu a aplázii fibuly</Name>
+-      <DisorderType id="21401">
+-        <Name lang="cs">Malformační syndrom</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="cs">Dětství</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="1">
+-        <AverageAgeOfDeath id="23655">
+-          <Name lang="cs">Data nejsou k dispozici</Name>
+-        </AverageAgeOfDeath>
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="cs">Autosomálně recesivní</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="16992">
+       <OrphaCode>140874</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=140874</ExpertLink>
+@@ -44806,7 +44772,7 @@
+     <Disorder id="2078">
+       <OrphaCode>2196</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=2196</ExpertLink>
+-      <Name lang="cs">Familiární primární hypomagnesémie s hyperkalciurií a nefrokalcinózou s vážným postižením očí</Name>
++      <Name lang="cs">Primární hypomagnesémie s hyperkalciurií a nefrokalcinózou s vážným postižením očí</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -64957,10 +64923,7 @@
+       </AverageAgeOfOnsetList>
+       <AverageAgeOfDeathList count="0">
+       </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="cs">Autosomálně dominantní</Name>
+-        </TypeOfInheritance>
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+           <Name lang="cs">Autosomálně recesivní</Name>
+         </TypeOfInheritance>
+@@ -84477,26 +84440,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="21931">
+-      <OrphaCode>329341</OrphaCode>
+-      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=329341</ExpertLink>
+-      <Name lang="cs">Limbická encefalitida s DPP6 protilátkami</Name>
+-      <DisorderType id="21394">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="cs">Dospělý</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="21911">
+       <OrphaCode>329228</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=329228</ExpertLink>
+@@ -100260,7 +100203,7 @@
+     <Disorder id="21222">
+       <OrphaCode>306516</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=306516</ExpertLink>
+-      <Name lang="cs">Familiární primární hypomagnézie s hyperkalciurií a nefrokalcinózou</Name>
++      <Name lang="cs">Primární hypomagnézie s hyperkalciurií a nefrokalcinózou</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -103127,26 +103070,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="23782">
+-      <OrphaCode>459353</OrphaCode>
+-      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=459353</ExpertLink>
+-      <Name lang="cs">Deficit C1 inhibitoru</Name>
+-      <DisorderType id="21394">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="cs">Autosomálně dominantní</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="23767">
+       <OrphaCode>459033</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=459033</ExpertLink>
+@@ -122485,26 +122408,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="25936">
+-      <OrphaCode>498700</OrphaCode>
+-      <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=498700</ExpertLink>
+-      <Name lang="cs">Limbická encefalitida s protilátkami proti neurexinu 3</Name>
+-      <DisorderType id="21394">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="cs">Onemocnění</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="cs">Dospělý</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <AverageAgeOfDeathList count="0">
+-      </AverageAgeOfDeathList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="8594">
+       <OrphaCode>874</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=874</ExpertLink>
+@@ -126018,7 +125921,7 @@
+     <Disorder id="9284">
+       <OrphaCode>31043</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=31043</ExpertLink>
+-      <Name lang="cs">Familiární primární hypomagnezémie s hyperkalciurií a nefrokalcinózou bez těžkého postižení očí</Name>
++      <Name lang="cs">Primární hypomagnezémie s hyperkalciurií a nefrokalcinózou bez těžkého postižení očí</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -128426,7 +128329,7 @@
+     <Disorder id="10882">
+       <OrphaCode>66529</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=66529</ExpertLink>
+-      <Name lang="cs">Tako-tsubo kardiomyopatie</Name>
++      <Name lang="cs">Tako-Tsubo kardiomyopatie</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>
+@@ -171803,7 +171706,7 @@
+     <Disorder id="28672">
+       <OrphaCode>570371</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=570371</ExpertLink>
+-      <Name lang="cs">Tranzientní antenatální Bartterův syndrom</Name>
++      <Name lang="cs">Bartterův syndrom typu 5</Name>
+       <DisorderType id="21450">
+         <Name lang="cs">Klinický podtyp</Name>
+       </DisorderType>
+@@ -177089,7 +176992,7 @@
+     <Disorder id="31415">
+       <OrphaCode>619363</OrphaCode>
+       <ExpertLink lang="cs">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=cs&amp;Expert=619363</ExpertLink>
+-      <Name lang="en">Neonatal onset-severe multisystem auto-inflammatory disease-increased IL-18</Name>
++      <Name lang="en">Neonatal-onset severe multisystemic autoinflammatory disease with increased IL18</Name>
+       <DisorderType id="21394">
+         <Name lang="cs">Onemocnění</Name>
+       </DisorderType>

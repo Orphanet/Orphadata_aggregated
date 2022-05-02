@@ -1,125 +1,41 @@
-commit 45f1b105cb2ab1f31cd982124355df258b02ec5a
+commit 46569fa389bb2350b5d923f7ab0e9d09817eb4bc
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Fri Apr 1 09:56:06 2022 +0200
+Date:   Mon May 2 10:13:18 2022 +0200
 
-    APR 2022
+    MAY 2022
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml
-index a421004..006d32f 100644
+index 006d32f..54405ac 100644
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_181.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2022-03-01 04:42:52" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2022-04-01 04:46:31" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2022-04-01 04:46:31" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-05-01 04:44:10" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -3766,7 +3766,7 @@
-                       <Disorder id="28399">
-                         <OrphaCode>564178</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=564178</ExpertLink>
--                        <Name lang="en">Primary hypomagnesemia with refractory seizures and intellectual disability</Name>
-+                        <Name lang="en">Primary hypomagnesemia-refractory seizures-intellectual disability syndrome</Name>
-                         <DisorderType id="21394">
-                           <Name lang="en">Disease</Name>
-                         </DisorderType>
-@@ -6013,7 +6013,19 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="11">
-+                          <ClassificationNodeChildList count="12">
-+                            <ClassificationNode>
-+                              <Disorder id="31388">
-+                                <OrphaCode>618891</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=618891</ExpertLink>
-+                                <Name lang="en">Chronic neurovisceral acid sphingomyelinase deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="6">
-                                 <OrphaCode>585</OrphaCode>
-@@ -20590,7 +20602,7 @@
-                       <Disorder id="18667">
-                         <OrphaCode>209908</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=209908</ExpertLink>
--                        <Name lang="en">Childhood apraxia of speech</Name>
-+                        <Name lang="en">Isolated childhood apraxia of speech</Name>
-                         <DisorderType id="21394">
-                           <Name lang="en">Disease</Name>
-                         </DisorderType>
-@@ -21031,7 +21043,7 @@
+@@ -151,7 +151,91 @@
                    <Name lang="en">Category</Name>
                  </DisorderType>
                </Disorder>
--              <ClassificationNodeChildList count="10">
-+              <ClassificationNodeChildList count="9">
-                 <ClassificationNode>
-                   <Disorder id="1999">
-                     <OrphaCode>2085</OrphaCode>
-@@ -21044,18 +21056,6 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="3637">
--                    <OrphaCode>2073</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2073</ExpertLink>
--                    <Name lang="en">Narcolepsy type 1</Name>
--                    <DisorderType id="21394">
--                      <Name lang="en">Disease</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="10312">
-                     <OrphaCode>33208</OrphaCode>
-@@ -21092,18 +21092,6 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="11576">
--                    <OrphaCode>83465</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83465</ExpertLink>
--                    <Name lang="en">Narcolepsy type 2</Name>
--                    <DisorderType id="21394">
--                      <Name lang="en">Disease</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
-                 <ClassificationNode>
-                   <Disorder id="17568">
-                     <OrphaCode>164736</OrphaCode>
-@@ -21140,6 +21128,42 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
+-              <ClassificationNodeChildList count="7">
++              <ClassificationNodeChildList count="8">
 +                <ClassificationNode>
-+                  <Disorder id="31410">
-+                    <OrphaCode>619284</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=619284</ExpertLink>
-+                    <Name lang="en">Narcolepsy</Name>
++                  <Disorder id="31456">
++                    <OrphaCode>622014</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=622014</ExpertLink>
++                    <Name lang="en">Autoimmune encephalitis</Name>
 +                    <DisorderType id="21436">
 +                      <Name lang="en">Clinical group</Name>
 +                    </DisorderType>
 +                  </Disorder>
-+                  <ClassificationNodeChildList count="2">
++                  <ClassificationNodeChildList count="4">
 +                    <ClassificationNode>
-+                      <Disorder id="3637">
-+                        <OrphaCode>2073</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2073</ExpertLink>
-+                        <Name lang="en">Narcolepsy type 1</Name>
++                      <Disorder id="18827">
++                        <OrphaCode>217253</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
++                        <Name lang="en">NMDA receptor encephalitis</Name>
 +                        <DisorderType id="21394">
 +                          <Name lang="en">Disease</Name>
 +                        </DisorderType>
@@ -128,10 +44,58 @@ index a421004..006d32f 100644
 +                      </ClassificationNodeChildList>
 +                    </ClassificationNode>
 +                    <ClassificationNode>
-+                      <Disorder id="11576">
-+                        <OrphaCode>83465</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83465</ExpertLink>
-+                        <Name lang="en">Narcolepsy type 2</Name>
++                      <Disorder id="11164">
++                        <OrphaCode>79138</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79138</ExpertLink>
++                        <Name lang="en">Bickerstaff brainstem encephalitis</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="11590">
++                        <OrphaCode>83597</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83597</ExpertLink>
++                        <Name lang="en">Acute disseminated encephalomyelitis</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="29582">
++                            <OrphaCode>592894</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592894</ExpertLink>
++                            <Name lang="en">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="29583">
++                            <OrphaCode>592900</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592900</ExpertLink>
++                            <Name lang="en">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="11592">
++                        <OrphaCode>83601</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83601</ExpertLink>
++                        <Name lang="en">Steroid-responsive encephalopathy associated with autoimmune thyroiditis</Name>
 +                        <DisorderType id="21394">
 +                          <Name lang="en">Disease</Name>
 +                        </DisorderType>
@@ -142,35 +106,811 @@ index a421004..006d32f 100644
 +                  </ClassificationNodeChildList>
 +                </ClassificationNode>
                  <ClassificationNode>
-                   <Disorder id="30474">
-                     <OrphaCode>600663</OrphaCode>
-@@ -22172,7 +22196,7 @@
-                           <Disorder id="11619">
-                             <OrphaCode>84142</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=84142</ExpertLink>
--                            <Name lang="en">Isaac syndrome</Name>
-+                            <Name lang="en">Isaacs syndrome</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
+                   <Disorder id="28936">
+                     <OrphaCode>581271</OrphaCode>
+@@ -168,7 +252,7 @@
+                   <Disorder id="2497">
+                     <OrphaCode>661</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=661</ExpertLink>
+-                    <Name lang="en">Ondine syndrome</Name>
++                    <Name lang="en">Congenital central hypoventilation syndrome</Name>
+                     <DisorderType id="21394">
+                       <Name lang="en">Disease</Name>
+                     </DisorderType>
+@@ -8382,174 +8466,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="17539">
+-                        <OrphaCode>163892</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163892</ExpertLink>
+-                        <Name lang="en">Limbic encephalitis</Name>
+-                        <DisorderType id="21436">
+-                          <Name lang="en">Clinical group</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="2">
+-                        <ClassificationNode>
+-                          <Disorder id="17540">
+-                            <OrphaCode>163895</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163895</ExpertLink>
+-                            <Name lang="en">Paraneoplastic limbic encephalitis</Name>
+-                            <DisorderType id="21436">
+-                              <Name lang="en">Clinical group</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="3">
+-                            <ClassificationNode>
+-                              <Disorder id="17541">
+-                                <OrphaCode>163898</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163898</ExpertLink>
+-                                <Name lang="en">Classic paraneoplastic limbic encephalitis</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17542">
+-                                <OrphaCode>163903</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163903</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis associated with antibodies to cell membrane antigens</Name>
+-                                <DisorderType id="36561">
+-                                  <Name lang="en">Category</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="1">
+-                                <ClassificationNode>
+-                                  <Disorder id="17543">
+-                                    <OrphaCode>163908</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="18827">
+-                                <OrphaCode>217253</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with NMDA receptor antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="17545">
+-                            <OrphaCode>163918</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163918</ExpertLink>
+-                            <Name lang="en">Non-paraneoplastic limbic encephalitis</Name>
+-                            <DisorderType id="36561">
+-                              <Name lang="en">Category</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="7">
+-                            <ClassificationNode>
+-                              <Disorder id="25936">
+-                                <OrphaCode>498700</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=498700</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with neurexin-3 antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17543">
+-                                <OrphaCode>163908</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17546">
+-                                <OrphaCode>163921</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163921</ExpertLink>
+-                                <Name lang="en">Posttransplant acute limbic encephalitis</Name>
+-                                <DisorderType id="21429">
+-                                  <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17547">
+-                                <OrphaCode>163924</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163924</ExpertLink>
+-                                <Name lang="en">Non-herpetic acute limbic encephalitis</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="18827">
+-                                <OrphaCode>217253</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with NMDA receptor antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="20372">
+-                                <OrphaCode>276402</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276402</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with caspr2 antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="21931">
+-                                <OrphaCode>329341</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329341</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with DPP6 antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="22324">
+                         <OrphaCode>363567</OrphaCode>
+@@ -8610,6 +8526,90 @@
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31456">
++                        <OrphaCode>622014</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=622014</ExpertLink>
++                        <Name lang="en">Autoimmune encephalitis</Name>
++                        <DisorderType id="21436">
++                          <Name lang="en">Clinical group</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="4">
++                        <ClassificationNode>
++                          <Disorder id="18827">
++                            <OrphaCode>217253</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
++                            <Name lang="en">NMDA receptor encephalitis</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="11164">
++                            <OrphaCode>79138</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79138</ExpertLink>
++                            <Name lang="en">Bickerstaff brainstem encephalitis</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="11590">
++                            <OrphaCode>83597</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83597</ExpertLink>
++                            <Name lang="en">Acute disseminated encephalomyelitis</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="2">
++                            <ClassificationNode>
++                              <Disorder id="29582">
++                                <OrphaCode>592894</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592894</ExpertLink>
++                                <Name lang="en">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
++                                <DisorderType id="21450">
++                                  <Name lang="en">Clinical subtype</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="29583">
++                                <OrphaCode>592900</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592900</ExpertLink>
++                                <Name lang="en">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
++                                <DisorderType id="21450">
++                                  <Name lang="en">Clinical subtype</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="11592">
++                            <OrphaCode>83601</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83601</ExpertLink>
++                            <Name lang="en">Steroid-responsive encephalopathy associated with autoimmune thyroiditis</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -14645,19 +14645,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="9">
+-                    <ClassificationNode>
+-                      <Disorder id="11592">
+-                        <OrphaCode>83601</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83601</ExpertLink>
+-                        <Name lang="en">Steroid-responsive encephalopathy associated with autoimmune thyroiditis</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
++                  <ClassificationNodeChildList count="8">
+                     <ClassificationNode>
+                       <Disorder id="282">
+                         <OrphaCode>540</OrphaCode>
+@@ -14716,6 +14704,102 @@
+                         </DisorderType>
+                       </Disorder>
+                       <ClassificationNodeChildList count="4">
++                        <ClassificationNode>
++                          <Disorder id="31456">
++                            <OrphaCode>622014</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=622014</ExpertLink>
++                            <Name lang="en">Autoimmune encephalitis</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="4">
++                            <ClassificationNode>
++                              <Disorder id="18827">
++                                <OrphaCode>217253</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
++                                <Name lang="en">NMDA receptor encephalitis</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="11164">
++                                <OrphaCode>79138</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79138</ExpertLink>
++                                <Name lang="en">Bickerstaff brainstem encephalitis</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="11590">
++                                <OrphaCode>83597</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83597</ExpertLink>
++                                <Name lang="en">Acute disseminated encephalomyelitis</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="2">
++                                <ClassificationNode>
++                                  <Disorder id="29582">
++                                    <OrphaCode>592894</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592894</ExpertLink>
++                                    <Name lang="en">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="29583">
++                                    <OrphaCode>592900</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592900</ExpertLink>
++                                    <Name lang="en">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="11592">
++                                <OrphaCode>83601</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83601</ExpertLink>
++                                <Name lang="en">Steroid-responsive encephalopathy associated with autoimmune thyroiditis</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="17546">
++                            <OrphaCode>163921</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163921</ExpertLink>
++                            <Name lang="en">Posttransplant acute limbic encephalitis</Name>
++                            <DisorderType id="21429">
++                              <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="13269">
+                             <OrphaCode>98252</OrphaCode>
+@@ -14921,15 +15005,15 @@
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="13270">
+-                            <OrphaCode>98253</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98253</ExpertLink>
+-                            <Name lang="en">Postinfectious encephalitis</Name>
++                          <Disorder id="13272">
++                            <OrphaCode>98255</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98255</ExpertLink>
++                            <Name lang="en">Chronic encephalitis</Name>
+                             <DisorderType id="36561">
+                               <Name lang="en">Category</Name>
                              </DisorderType>
-@@ -27763,7 +27787,7 @@
+                           </Disorder>
+-                          <ClassificationNodeChildList count="5">
++                          <ClassificationNodeChildList count="4">
+                             <ClassificationNode>
+                               <Disorder id="5529">
+                                 <OrphaCode>1929</OrphaCode>
+@@ -14942,54 +15026,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="11164">
+-                                <OrphaCode>79138</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79138</ExpertLink>
+-                                <Name lang="en">Bickerstaff brainstem encephalitis</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="11590">
+-                                <OrphaCode>83597</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83597</ExpertLink>
+-                                <Name lang="en">Acute disseminated encephalomyelitis</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="2">
+-                                <ClassificationNode>
+-                                  <Disorder id="29582">
+-                                    <OrphaCode>592894</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592894</ExpertLink>
+-                                    <Name lang="en">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="29583">
+-                                    <OrphaCode>592900</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592900</ExpertLink>
+-                                    <Name lang="en">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="11591">
+                                 <OrphaCode>83600</OrphaCode>
+@@ -15002,30 +15038,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17543">
+-                                <OrphaCode>163908</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                                <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="13272">
+-                            <OrphaCode>98255</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98255</ExpertLink>
+-                            <Name lang="en">Chronic encephalitis</Name>
+-                            <DisorderType id="36561">
+-                              <Name lang="en">Category</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="2">
+                             <ClassificationNode>
+                               <Disorder id="884">
+                                 <OrphaCode>2806</OrphaCode>
+@@ -15052,174 +15064,6 @@
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="17539">
+-                            <OrphaCode>163892</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163892</ExpertLink>
+-                            <Name lang="en">Limbic encephalitis</Name>
+-                            <DisorderType id="21436">
+-                              <Name lang="en">Clinical group</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="2">
+-                            <ClassificationNode>
+-                              <Disorder id="17540">
+-                                <OrphaCode>163895</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163895</ExpertLink>
+-                                <Name lang="en">Paraneoplastic limbic encephalitis</Name>
+-                                <DisorderType id="21436">
+-                                  <Name lang="en">Clinical group</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="3">
+-                                <ClassificationNode>
+-                                  <Disorder id="17541">
+-                                    <OrphaCode>163898</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163898</ExpertLink>
+-                                    <Name lang="en">Classic paraneoplastic limbic encephalitis</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="17542">
+-                                    <OrphaCode>163903</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163903</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis associated with antibodies to cell membrane antigens</Name>
+-                                    <DisorderType id="36561">
+-                                      <Name lang="en">Category</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="1">
+-                                    <ClassificationNode>
+-                                      <Disorder id="17543">
+-                                        <OrphaCode>163908</OrphaCode>
+-                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                                        <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                                        <DisorderType id="21394">
+-                                          <Name lang="en">Disease</Name>
+-                                        </DisorderType>
+-                                      </Disorder>
+-                                      <ClassificationNodeChildList count="0">
+-                                      </ClassificationNodeChildList>
+-                                    </ClassificationNode>
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="18827">
+-                                    <OrphaCode>217253</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with NMDA receptor antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="17545">
+-                                <OrphaCode>163918</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163918</ExpertLink>
+-                                <Name lang="en">Non-paraneoplastic limbic encephalitis</Name>
+-                                <DisorderType id="36561">
+-                                  <Name lang="en">Category</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="7">
+-                                <ClassificationNode>
+-                                  <Disorder id="25936">
+-                                    <OrphaCode>498700</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=498700</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with neurexin-3 antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="17543">
+-                                    <OrphaCode>163908</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="17546">
+-                                    <OrphaCode>163921</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163921</ExpertLink>
+-                                    <Name lang="en">Posttransplant acute limbic encephalitis</Name>
+-                                    <DisorderType id="21429">
+-                                      <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="17547">
+-                                    <OrphaCode>163924</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163924</ExpertLink>
+-                                    <Name lang="en">Non-herpetic acute limbic encephalitis</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="18827">
+-                                    <OrphaCode>217253</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with NMDA receptor antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="20372">
+-                                    <OrphaCode>276402</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276402</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with caspr2 antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="21931">
+-                                    <OrphaCode>329341</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329341</ExpertLink>
+-                                    <Name lang="en">Limbic encephalitis with DPP6 antibodies</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -15427,7 +15271,7 @@
                    <Name lang="en">Category</Name>
                  </DisorderType>
                </Disorder>
--              <ClassificationNodeChildList count="156">
-+              <ClassificationNodeChildList count="157">
+-              <ClassificationNodeChildList count="59">
++              <ClassificationNodeChildList count="60">
                  <ClassificationNode>
-                   <Disorder id="31321">
-                     <OrphaCode>615964</OrphaCode>
-@@ -32480,6 +32504,18 @@
+                   <Disorder id="28139">
+                     <OrphaCode>556985</OrphaCode>
+@@ -15464,6 +15308,18 @@
                    <ClassificationNodeChildList count="0">
                    </ClassificationNodeChildList>
                  </ClassificationNode>
 +                <ClassificationNode>
-+                  <Disorder id="31388">
-+                    <OrphaCode>618891</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=618891</ExpertLink>
-+                    <Name lang="en">Chronic neurovisceral acid sphingomyelinase deficiency</Name>
++                  <Disorder id="31449">
++                    <OrphaCode>621758</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=621758</ExpertLink>
++                    <Name lang="en">Fibrosis-neurodegeneration-cerebral angiomatosis syndrome</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="28631">
+                     <OrphaCode>569290</OrphaCode>
+@@ -20935,7 +20791,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="4">
++              <ClassificationNodeChildList count="3">
+                 <ClassificationNode>
+                   <Disorder id="5528">
+                     <OrphaCode>1183</OrphaCode>
+@@ -20972,66 +20828,6 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+-                <ClassificationNode>
+-                  <Disorder id="17540">
+-                    <OrphaCode>163895</OrphaCode>
+-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163895</ExpertLink>
+-                    <Name lang="en">Paraneoplastic limbic encephalitis</Name>
+-                    <DisorderType id="21436">
+-                      <Name lang="en">Clinical group</Name>
+-                    </DisorderType>
+-                  </Disorder>
+-                  <ClassificationNodeChildList count="3">
+-                    <ClassificationNode>
+-                      <Disorder id="17541">
+-                        <OrphaCode>163898</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163898</ExpertLink>
+-                        <Name lang="en">Classic paraneoplastic limbic encephalitis</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="17542">
+-                        <OrphaCode>163903</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163903</ExpertLink>
+-                        <Name lang="en">Limbic encephalitis associated with antibodies to cell membrane antigens</Name>
+-                        <DisorderType id="36561">
+-                          <Name lang="en">Category</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="1">
+-                        <ClassificationNode>
+-                          <Disorder id="17543">
+-                            <OrphaCode>163908</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                            <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="18827">
+-                        <OrphaCode>217253</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217253</ExpertLink>
+-                        <Name lang="en">Limbic encephalitis with NMDA receptor antibodies</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                  </ClassificationNodeChildList>
+-                </ClassificationNode>
+               </ClassificationNodeChildList>
+             </ClassificationNode>
+             <ClassificationNode>
+@@ -27787,7 +27583,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="157">
++              <ClassificationNodeChildList count="158">
+                 <ClassificationNode>
+                   <Disorder id="31321">
+                     <OrphaCode>615964</OrphaCode>
+@@ -32516,6 +32312,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31423">
++                    <OrphaCode>619979</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=619979</ExpertLink>
++                    <Name lang="en">Developmental delay-immunodeficiency-leukoencephalopathy-hypohomocysteinemia syndrome</Name>
 +                    <DisorderType id="21394">
 +                      <Name lang="en">Disease</Name>
 +                    </DisorderType>
@@ -181,89 +921,101 @@ index a421004..006d32f 100644
                  <ClassificationNode>
                    <Disorder id="18851">
                      <OrphaCode>217382</OrphaCode>
-@@ -34220,7 +34256,7 @@
-                           <Disorder id="28399">
-                             <OrphaCode>564178</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=564178</ExpertLink>
--                            <Name lang="en">Primary hypomagnesemia with refractory seizures and intellectual disability</Name>
-+                            <Name lang="en">Primary hypomagnesemia-refractory seizures-intellectual disability syndrome</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
-                             </DisorderType>
-@@ -34529,24 +34565,24 @@
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
--                          <Disorder id="2063">
--                            <OrphaCode>2169</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2169</ExpertLink>
--                            <Name lang="en">Methylcobalamin deficiency type cblE</Name>
--                            <DisorderType id="21450">
--                              <Name lang="en">Clinical subtype</Name>
-+                          <Disorder id="31440">
-+                            <OrphaCode>620363</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=620363</ExpertLink>
-+                            <Name lang="en">Primary hypomagnesemia-generalized seizures-intellectual disability-obesity syndrome</Name>
-+                            <DisorderType id="21394">
-+                              <Name lang="en">Disease</Name>
-                             </DisorderType>
-                           </Disorder>
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
--                          <Disorder id="10345">
--                            <OrphaCode>34527</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=34527</ExpertLink>
--                            <Name lang="en">Familial primary hypomagnesemia with normocalciuria and normocalcemia</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
-+                          <Disorder id="2063">
-+                            <OrphaCode>2169</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2169</ExpertLink>
-+                            <Name lang="en">Methylcobalamin deficiency type cblE</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-                             </DisorderType>
-                           </Disorder>
-                           <ClassificationNodeChildList count="0">
-@@ -38547,7 +38583,7 @@
+@@ -32585,7 +32393,19 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="9">
++                  <ClassificationNodeChildList count="10">
++                    <ClassificationNode>
++                      <Disorder id="31449">
++                        <OrphaCode>621758</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=621758</ExpertLink>
++                        <Name lang="en">Fibrosis-neurodegeneration-cerebral angiomatosis syndrome</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="19537">
+                         <OrphaCode>247691</OrphaCode>
+@@ -38583,7 +38403,7 @@
                            <Name lang="en">Category</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="653">
-+                      <ClassificationNodeChildList count="651">
+-                      <ClassificationNodeChildList count="651">
++                      <ClassificationNodeChildList count="652">
                          <ClassificationNode>
                            <Disorder id="11695">
                              <OrphaCode>85325</OrphaCode>
-@@ -39736,18 +39772,6 @@
+@@ -40756,6 +40576,18 @@
                            <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="21917">
--                            <OrphaCode>329252</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=329252</ExpertLink>
--                            <Name lang="en">Spondylocostal dysostosis-hypospadias-intellectual disability syndrome</Name>
--                            <DisorderType id="21394">
--                              <Name lang="en">Disease</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="21494">
++                            <OrphaCode>314555</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314555</ExpertLink>
++                            <Name lang="en">Facial dysmorphism-ocular anomalies-osteopenia-intellectual disability-dental anomalies syndrome</Name>
++                            <DisorderType id="21401">
++                              <Name lang="en">Malformation syndrome</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
                          <ClassificationNode>
-                           <Disorder id="21929">
-                             <OrphaCode>329332</OrphaCode>
-@@ -41812,18 +41836,6 @@
+                           <Disorder id="18916">
+                             <OrphaCode>220493</OrphaCode>
+@@ -43400,7 +43232,7 @@
+                           <Disorder id="1544">
+                             <OrphaCode>1321</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1321</ExpertLink>
+-                            <Name lang="en">Camptodactyly-fibrous tissue hyperplasia-skeletal dysplasia syndrome</Name>
++                            <Name lang="en">Camptodactyly-fibrous tissue hyperplasia-skeletal anomalies syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -44168,7 +44000,7 @@
+                           <Disorder id="1684">
+                             <OrphaCode>1517</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1517</ExpertLink>
+-                            <Name lang="en">Hypertrichotic osteochondrodysplasia, Cantu type</Name>
++                            <Name lang="en">Cantú syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -46564,6 +46396,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31405">
++                            <OrphaCode>619233</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=619233</ExpertLink>
++                            <Name lang="en">Hereditary persistence of fetal hemoglobin-intellectual disability syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="1360">
+                             <OrphaCode>1064</OrphaCode>
+@@ -47272,18 +47116,6 @@
                            <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
 -                        <ClassificationNode>
--                          <Disorder id="12562">
--                            <OrphaCode>94095</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=94095</ExpertLink>
--                            <Name lang="en">Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome</Name>
+-                          <Disorder id="1284">
+-                            <OrphaCode>965</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=965</ExpertLink>
+-                            <Name lang="en">Acromegaloid facial appearance syndrome</Name>
 -                            <DisorderType id="21401">
 -                              <Name lang="en">Malformation syndrome</Name>
 -                            </DisorderType>
@@ -272,42 +1024,130 @@ index a421004..006d32f 100644
 -                          </ClassificationNodeChildList>
 -                        </ClassificationNode>
                          <ClassificationNode>
-                           <Disorder id="12749">
-                             <OrphaCode>96125</OrphaCode>
-@@ -62381,7 +62393,7 @@
+                           <Disorder id="1304">
+                             <OrphaCode>989</OrphaCode>
+@@ -48187,7 +48019,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="10">
++              <ClassificationNodeChildList count="9">
+                 <ClassificationNode>
+                   <Disorder id="32">
+                     <OrphaCode>2912</OrphaCode>
+@@ -48453,15 +48285,15 @@
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+-                  <Disorder id="13270">
+-                    <OrphaCode>98253</OrphaCode>
+-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98253</ExpertLink>
+-                    <Name lang="en">Postinfectious encephalitis</Name>
++                  <Disorder id="13272">
++                    <OrphaCode>98255</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98255</ExpertLink>
++                    <Name lang="en">Chronic encephalitis</Name>
+                     <DisorderType id="36561">
                        <Name lang="en">Category</Name>
                      </DisorderType>
                    </Disorder>
--                  <ClassificationNodeChildList count="18">
-+                  <ClassificationNodeChildList count="19">
+-                  <ClassificationNodeChildList count="5">
++                  <ClassificationNodeChildList count="4">
                      <ClassificationNode>
-                       <Disorder id="563">
-                         <OrphaCode>2901</OrphaCode>
-@@ -63332,7 +63344,7 @@
-                           <Disorder id="11619">
-                             <OrphaCode>84142</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=84142</ExpertLink>
--                            <Name lang="en">Isaac syndrome</Name>
-+                            <Name lang="en">Isaacs syndrome</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
-                             </DisorderType>
-@@ -63378,6 +63390,18 @@
+                       <Disorder id="5529">
+                         <OrphaCode>1929</OrphaCode>
+@@ -48474,54 +48306,6 @@
                        <ClassificationNodeChildList count="0">
                        </ClassificationNodeChildList>
                      </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="14646">
-+                        <OrphaCode>100073</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100073</ExpertLink>
-+                        <Name lang="en">Neurogenic thoracic outlet syndrome</Name>
-+                        <DisorderType id="21450">
-+                          <Name lang="en">Clinical subtype</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="11164">
+-                        <OrphaCode>79138</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79138</ExpertLink>
+-                        <Name lang="en">Bickerstaff brainstem encephalitis</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="11590">
+-                        <OrphaCode>83597</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83597</ExpertLink>
+-                        <Name lang="en">Acute disseminated encephalomyelitis</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="2">
+-                        <ClassificationNode>
+-                          <Disorder id="29582">
+-                            <OrphaCode>592894</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592894</ExpertLink>
+-                            <Name lang="en">Acute disseminated encephalomyelitis with anti-MOG antibodies</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="29583">
+-                            <OrphaCode>592900</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=592900</ExpertLink>
+-                            <Name lang="en">Acute disseminated encephalomyelitis without anti-MOG antibodies</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
                      <ClassificationNode>
-                       <Disorder id="16750">
-                         <OrphaCode>137932</OrphaCode>
+                       <Disorder id="11591">
+                         <OrphaCode>83600</OrphaCode>
+@@ -48534,30 +48318,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="17543">
+-                        <OrphaCode>163908</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163908</ExpertLink>
+-                        <Name lang="en">Limbic encephalitis with LGI1 antibodies</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                  </ClassificationNodeChildList>
+-                </ClassificationNode>
+-                <ClassificationNode>
+-                  <Disorder id="13272">
+-                    <OrphaCode>98255</OrphaCode>
+-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98255</ExpertLink>
+-                    <Name lang="en">Chronic encephalitis</Name>
+-                    <DisorderType id="36561">
+-                      <Name lang="en">Category</Name>
+-                    </DisorderType>
+-                  </Disorder>
+-                  <ClassificationNodeChildList count="2">
+                     <ClassificationNode>
+                       <Disorder id="884">
+                         <OrphaCode>2806</OrphaCode>
+@@ -53778,7 +53538,7 @@
+                               <Disorder id="946">
+                                 <OrphaCode>3027</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3027</ExpertLink>
+-                                <Name lang="en">Caudal regression sequence</Name>
++                                <Name lang="en">Caudal regression syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
