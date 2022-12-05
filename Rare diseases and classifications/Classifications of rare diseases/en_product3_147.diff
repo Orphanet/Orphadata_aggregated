@@ -1,0 +1,541 @@
+commit b18c171d5ba8181794aeffcce3d0c8a41ddab6cb
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Dec 5 14:56:57 2022 +0100
+
+    DEC 2022
+
+diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml
+old mode 100644
+new mode 100755
+index cb774ba..02a83ae
+--- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
++++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_147.xml	
+@@ -1,5 +1,12 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-06-14 16:15:11" version="1.3.16 / 4.1.7 [2022-01-26] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2022-11-28 07:34:50" version="1.3.18 / 4.1.7 [2022-07-12] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <Availability> 
++    <Licence>
++      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
++      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
++      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
++    </Licence>
++  </Availability>
+   <ClassificationList count="1">
+     <Classification id="147">
+       <OrphaNumber>156268</OrphaNumber>
+@@ -9628,7 +9635,7 @@
+                                   <Name lang="en">Morphological anomaly</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="2">
++                              <ClassificationNodeChildList count="3">
+                                 <ClassificationNode>
+                                   <Disorder id="28815">
+                                     <OrphaCode>573253</OrphaCode>
+@@ -9653,6 +9660,18 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31668">
++                                    <OrphaCode>633076</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633076</ExpertLink>
++                                    <Name lang="en">Split cord malformation, composite type</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+@@ -13237,7 +13256,7 @@
+                           <Disorder id="18946">
+                             <OrphaCode>221126</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=221126</ExpertLink>
+-                            <Name lang="en">Fowler vasculopaty</Name>
++                            <Name lang="en">Fowler vasculopathy</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -14357,7 +14376,7 @@
+                   <Disorder id="12482">
+                     <OrphaCode>93921</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93921</ExpertLink>
+-                    <Name lang="en">Schwannomatosis</Name>
++                    <Name lang="en">Full schwannomatosis</Name>
+                     <DisorderType id="21394">
+                       <Name lang="en">Disease</Name>
+                     </DisorderType>
+@@ -22652,7 +22671,7 @@
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="23">
++                      <ClassificationNodeChildList count="24">
+                         <ClassificationNode>
+                           <Disorder id="1043">
+                             <OrphaCode>240</OrphaCode>
+@@ -22977,6 +22996,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31658">
++                            <OrphaCode>632603</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=632603</ExpertLink>
++                            <Name lang="en">Horseshoe kidney-Nievergelt/Savarirayan mesomelic dysplasia-seizures-hypertrichosis-intellectual disability-pulmonary involvement syndrome</Name>
++                            <DisorderType id="21401">
++                              <Name lang="en">Malformation syndrome</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -23029,7 +23060,7 @@
+                           <Disorder id="2160">
+                             <OrphaCode>2292</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2292</ExpertLink>
+-                            <Name lang="en">Congenital bowing of long bones</Name>
++                            <Name lang="en">Congenital bowing of long bones-short stature-dolichomacrocephaly-ocular hypertelorism syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -23101,7 +23132,7 @@
+                           <Disorder id="21763">
+                             <OrphaCode>324307</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324307</ExpertLink>
+-                            <Name lang="en">Severe lateral tibial bowing with short stature</Name>
++                            <Name lang="en">Severe lateral tibial bowing-short stature-mild winged scapula-mild facial dysmorphism syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -24913,7 +24944,7 @@
+                           <Disorder id="28140">
+                             <OrphaCode>557003</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=557003</ExpertLink>
+-                            <Name lang="en">Oculocerebrodental syndrome</Name>
++                            <Name lang="en">Oculoskeletodental syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -28684,7 +28715,7 @@
+                                   <Name lang="en">Category</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="15">
++                              <ClassificationNodeChildList count="16">
+                                 <ClassificationNode>
+                                   <Disorder id="3071">
+                                     <OrphaCode>1570</OrphaCode>
+@@ -28697,6 +28728,18 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31679">
++                                    <OrphaCode>633211</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633211</ExpertLink>
++                                    <Name lang="en">Preaxial digit brachydactyly-webbed fingers</Name>
++                                    <DisorderType id="21401">
++                                      <Name lang="en">Malformation syndrome</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                                 <ClassificationNode>
+                                   <Disorder id="12318">
+                                     <OrphaCode>93396</OrphaCode>
+@@ -29500,7 +29543,7 @@
+                                   <Name lang="en">Clinical group</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="4">
++                              <ClassificationNodeChildList count="5">
+                                 <ClassificationNode>
+                                   <Disorder id="20936">
+                                     <OrphaCode>294973</OrphaCode>
+@@ -29549,6 +29592,18 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31680">
++                                    <OrphaCode>633228</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633228</ExpertLink>
++                                    <Name lang="en">Proximal femoral focal deficiency</Name>
++                                    <DisorderType id="21415">
++                                      <Name lang="en">Morphological anomaly</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+@@ -32256,7 +32311,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="51">
++              <ClassificationNodeChildList count="52">
+                 <ClassificationNode>
+                   <Disorder id="145">
+                     <OrphaCode>904</OrphaCode>
+@@ -33133,6 +33188,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31660">
++                    <OrphaCode>633004</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633004</ExpertLink>
++                    <Name lang="en">KDM3B-related intellectual disability-facial dysmorphism-short stature syndrome</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+               </ClassificationNodeChildList>
+             </ClassificationNode>
+             <ClassificationNode>
+@@ -34448,7 +34515,19 @@
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="3">
++                      <ClassificationNodeChildList count="4">
++                        <ClassificationNode>
++                          <Disorder id="31664">
++                            <OrphaCode>633028</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633028</ExpertLink>
++                            <Name lang="en">CPE-related Prader-Willi-like syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="17936">
+                             <OrphaCode>171829</OrphaCode>
+@@ -49894,7 +49973,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="21">
++                  <ClassificationNodeChildList count="22">
+                     <ClassificationNode>
+                       <Disorder id="2370">
+                         <OrphaCode>2570</OrphaCode>
+@@ -50003,6 +50082,18 @@
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31670">
++                        <OrphaCode>633099</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633099</ExpertLink>
++                        <Name lang="en">PAICS deficiency</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="25213">
+                         <OrphaCode>480528</OrphaCode>
+@@ -50206,7 +50297,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="652">
++                  <ClassificationNodeChildList count="656">
+                     <ClassificationNode>
+                       <Disorder id="24010">
+                         <OrphaCode>464282</OrphaCode>
+@@ -53840,7 +53931,19 @@
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="3">
++                      <ClassificationNodeChildList count="4">
++                        <ClassificationNode>
++                          <Disorder id="31664">
++                            <OrphaCode>633028</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633028</ExpertLink>
++                            <Name lang="en">CPE-related Prader-Willi-like syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="17936">
+                             <OrphaCode>171829</OrphaCode>
+@@ -55575,7 +55678,7 @@
+                       <Disorder id="28140">
+                         <OrphaCode>557003</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=557003</ExpertLink>
+-                        <Name lang="en">Oculocerebrodental syndrome</Name>
++                        <Name lang="en">Oculoskeletodental syndrome</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -59255,6 +59358,78 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31661">
++                        <OrphaCode>633014</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633014</ExpertLink>
++                        <Name lang="en">SLC12A2-related developmental delay-intellectual disability-sensorineural deafness syndrome</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="31662">
++                            <OrphaCode>633021</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633021</ExpertLink>
++                            <Name lang="en">SLC12A2-related autosomal recessive neonatal-developmental delay-intellectual disability-feeding difficulty-sensorineural deafness syndrome</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31663">
++                            <OrphaCode>633024</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633024</ExpertLink>
++                            <Name lang="en">SLC12A2-related autosomal dominant infantile-developmental delay-intellectual disability-sensorineural deafness syndrome</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31660">
++                        <OrphaCode>633004</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633004</ExpertLink>
++                        <Name lang="en">KDM3B-related intellectual disability-facial dysmorphism-short stature syndrome</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31665">
++                        <OrphaCode>633035</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633035</ExpertLink>
++                        <Name lang="en">Intellectual disability-early-onset cataract-microcephaly syndrome</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31658">
++                        <OrphaCode>632603</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=632603</ExpertLink>
++                        <Name lang="en">Horseshoe kidney-Nievergelt/Savarirayan mesomelic dysplasia-seizures-hypertrichosis-intellectual disability-pulmonary involvement syndrome</Name>
++                        <DisorderType id="21401">
++                          <Name lang="en">Malformation syndrome</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="570">
+                         <OrphaCode>2983</OrphaCode>
+@@ -62082,7 +62257,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="15">
++                          <ClassificationNodeChildList count="16">
+                             <ClassificationNode>
+                               <Disorder id="3071">
+                                 <OrphaCode>1570</OrphaCode>
+@@ -62095,6 +62270,18 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31679">
++                                <OrphaCode>633211</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633211</ExpertLink>
++                                <Name lang="en">Preaxial digit brachydactyly-webbed fingers</Name>
++                                <DisorderType id="21401">
++                                  <Name lang="en">Malformation syndrome</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="12318">
+                                 <OrphaCode>93396</OrphaCode>
+@@ -65442,7 +65629,7 @@
+                               <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="4">
++                          <ClassificationNodeChildList count="5">
+                             <ClassificationNode>
+                               <Disorder id="20936">
+                                 <OrphaCode>294973</OrphaCode>
+@@ -65491,6 +65678,18 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31680">
++                                <OrphaCode>633228</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633228</ExpertLink>
++                                <Name lang="en">Proximal femoral focal deficiency</Name>
++                                <DisorderType id="21415">
++                                  <Name lang="en">Morphological anomaly</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+@@ -65941,7 +66140,7 @@
+                           <Disorder id="2160">
+                             <OrphaCode>2292</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2292</ExpertLink>
+-                            <Name lang="en">Congenital bowing of long bones</Name>
++                            <Name lang="en">Congenital bowing of long bones-short stature-dolichomacrocephaly-ocular hypertelorism syndrome</Name>
+                             <DisorderType id="21401">
+                               <Name lang="en">Malformation syndrome</Name>
+                             </DisorderType>
+@@ -67467,7 +67666,7 @@
+                       <Disorder id="11787">
+                         <OrphaCode>86914</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=86914</ExpertLink>
+-                        <Name lang="en">Lymphedema-cerebral arteriovenous anomaly syndrome</Name>
++                        <Name lang="en">Lymphedema-cerebral arteriovenous anomaly-primary pulmonary hypertension syndrome</Name>
+                         <DisorderType id="21401">
+                           <Name lang="en">Malformation syndrome</Name>
+                         </DisorderType>
+@@ -70680,7 +70879,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="185">
++              <ClassificationNodeChildList count="187">
+                 <ClassificationNode>
+                   <Disorder id="27595">
+                     <OrphaCode>529574</OrphaCode>
+@@ -71213,7 +71412,7 @@
+                   <Disorder id="183">
+                     <OrphaCode>637</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=637</ExpertLink>
+-                    <Name lang="en">Neurofibromatosis type 2</Name>
++                    <Name lang="en">Full NF2-related schwannomatosis</Name>
+                     <DisorderType id="21394">
+                       <Name lang="en">Disease</Name>
+                     </DisorderType>
+@@ -71969,7 +72168,7 @@
+                   <Disorder id="28140">
+                     <OrphaCode>557003</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=557003</ExpertLink>
+-                    <Name lang="en">Oculocerebrodental syndrome</Name>
++                    <Name lang="en">Oculoskeletodental syndrome</Name>
+                     <DisorderType id="21394">
+                       <Name lang="en">Disease</Name>
+                     </DisorderType>
+@@ -72013,6 +72212,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31592">
++                    <OrphaCode>631248</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=631248</ExpertLink>
++                    <Name lang="en">Mitchell Syndrome</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="23721">
+                     <OrphaCode>457351</OrphaCode>
+@@ -73225,6 +73436,42 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31661">
++                    <OrphaCode>633014</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633014</ExpertLink>
++                    <Name lang="en">SLC12A2-related developmental delay-intellectual disability-sensorineural deafness syndrome</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="2">
++                    <ClassificationNode>
++                      <Disorder id="31662">
++                        <OrphaCode>633021</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633021</ExpertLink>
++                        <Name lang="en">SLC12A2-related autosomal recessive neonatal-developmental delay-intellectual disability-feeding difficulty-sensorineural deafness syndrome</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31663">
++                        <OrphaCode>633024</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=633024</ExpertLink>
++                        <Name lang="en">SLC12A2-related autosomal dominant infantile-developmental delay-intellectual disability-sensorineural deafness syndrome</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="17774">
+                     <OrphaCode>168569</OrphaCode>
