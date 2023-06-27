@@ -1,0 +1,141 @@
+commit 10888e2451b47a2f6af40fe12c930f1526a24134
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Jun 27 10:28:21 2023 +0200
+
+    JUNE 2023
+
+diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_200.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_200.xml
+index 206ceb4..2e98508 100644
+--- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_200.xml	
++++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_200.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-11-28 07:38:59" version="1.3.18 / 4.1.7 [2022-07-12] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2023-06-19 08:51:34" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -1755,7 +1755,31 @@
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="0">
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="31739">
++                            <OrphaCode>642945</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=642945</ExpertLink>
++                            <Name lang="en">Perrault syndrome type 1</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31742">
++                            <OrphaCode>642976</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=642976</ExpertLink>
++                            <Name lang="en">Perrault syndrome type 2</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -2724,7 +2748,7 @@
+                   <Disorder id="11950">
+                     <OrphaCode>90059</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90059</ExpertLink>
+-                    <Name lang="en">Acute sensorineural hearing loss by acute acoustic trauma or sudden deafness or surgery induced acoustic trauma</Name>
++                    <Name lang="en">Sudden sensorineural hearing loss</Name>
+                     <DisorderType id="21429">
+                       <Name lang="en">Particular clinical situation in a disease or syndrome</Name>
+                     </DisorderType>
+@@ -2746,7 +2770,7 @@
+                       <Disorder id="12047">
+                         <OrphaCode>90636</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90636</ExpertLink>
+-                        <Name lang="en">Autosomal recessive non-syndromic sensorineural deafness type DFNB</Name>
++                        <Name lang="en">Rare autosomal recessive non-syndromic sensorineural deafness type DFNB</Name>
+                         <DisorderType id="21443">
+                           <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+@@ -2758,7 +2782,7 @@
+                       <Disorder id="12050">
+                         <OrphaCode>90641</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90641</ExpertLink>
+-                        <Name lang="en">Mitochondrial non-syndromic sensorineural deafness</Name>
++                        <Name lang="en">Rare mitochondrial non-syndromic sensorineural deafness</Name>
+                         <DisorderType id="21443">
+                           <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+@@ -2770,7 +2794,7 @@
+                       <Disorder id="12045">
+                         <OrphaCode>90625</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90625</ExpertLink>
+-                        <Name lang="en">X-linked non-syndromic sensorineural deafness type DFN</Name>
++                        <Name lang="en">Rare X-linked non-syndromic sensorineural deafness type DFN</Name>
+                         <DisorderType id="21443">
+                           <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+@@ -2782,7 +2806,7 @@
+                       <Disorder id="12046">
+                         <OrphaCode>90635</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=90635</ExpertLink>
+-                        <Name lang="en">Autosomal dominant non-syndromic sensorineural deafness type DFNA</Name>
++                        <Name lang="en">Rare autosomal dominant non-syndromic sensorineural deafness type DFNA</Name>
+                         <DisorderType id="21443">
+                           <Name lang="en">Etiological subtype</Name>
+                         </DisorderType>
+@@ -3051,7 +3075,7 @@
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="5">
++                      <ClassificationNodeChildList count="4">
+                         <ClassificationNode>
+                           <Disorder id="293">
+                             <OrphaCode>861</OrphaCode>
+@@ -3076,18 +3100,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="20490">
+-                            <OrphaCode>280651</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280651</ExpertLink>
+-                            <Name lang="en">Acrodysostosis with multiple hormone resistance</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="22207">
+                             <OrphaCode>357158</OrphaCode>
+@@ -3816,7 +3828,7 @@
+                   <Disorder id="17564">
+                     <OrphaCode>164004</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=164004</ExpertLink>
+-                    <Name lang="en">Middle ear anomaly</Name>
++                    <Name lang="en">Middle and/or inner ear anomaly</Name>
+                     <DisorderType id="36561">
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+@@ -5002,7 +5014,7 @@
+                       <Disorder id="429">
+                         <OrphaCode>124</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=124</ExpertLink>
+-                        <Name lang="en">Blackfan-Diamond anemia</Name>
++                        <Name lang="en">Diamond-Blackfan anemia</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>

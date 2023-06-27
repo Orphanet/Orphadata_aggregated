@@ -1,0 +1,180 @@
+commit 10888e2451b47a2f6af40fe12c930f1526a24134
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Jun 27 10:28:21 2023 +0200
+
+    JUNE 2023
+
+diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml
+index 9e5f4e8..5f66a7c 100644
+--- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml	
++++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2022-11-28 07:37:34" version="1.3.18 / 4.1.7 [2022-07-12] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2023-06-19 08:49:55" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -659,11 +659,35 @@
+                         <OrphaCode>3188</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3188</ExpertLink>
+                         <Name lang="en">Congenital pulmonary veins atresia or stenosis</Name>
+-                        <DisorderType id="21415">
+-                          <Name lang="en">Morphological anomaly</Name>
++                        <DisorderType id="21436">
++                          <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="0">
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="14143">
++                            <OrphaCode>99126</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99126</ExpertLink>
++                            <Name lang="en">Congenital pulmonary vein atresia</Name>
++                            <DisorderType id="21415">
++                              <Name lang="en">Morphological anomaly</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31729">
++                            <OrphaCode>642071</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=642071</ExpertLink>
++                            <Name lang="en">Primary pulmonary vein stenosis</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -786,18 +810,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="797">
+-                        <OrphaCode>2357</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2357</ExpertLink>
+-                        <Name lang="en">Bronchogenic cyst</Name>
+-                        <DisorderType id="21415">
+-                          <Name lang="en">Morphological anomaly</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="798">
+                         <OrphaCode>2040</OrphaCode>
+@@ -1146,6 +1158,66 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31859">
++                        <OrphaCode>649014</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=649014</ExpertLink>
++                        <Name lang="en">Bronchial malformation</Name>
++                        <DisorderType id="21436">
++                          <Name lang="en">Clinical group</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="4">
++                        <ClassificationNode>
++                          <Disorder id="31856">
++                            <OrphaCode>648992</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=648992</ExpertLink>
++                            <Name lang="en">Non-syndromic bridging bronchus</Name>
++                            <DisorderType id="21415">
++                              <Name lang="en">Morphological anomaly</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31858">
++                            <OrphaCode>649010</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=649010</ExpertLink>
++                            <Name lang="en">Non-syndromic congenital bronchial atresia</Name>
++                            <DisorderType id="21415">
++                              <Name lang="en">Morphological anomaly</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31861">
++                            <OrphaCode>649029</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=649029</ExpertLink>
++                            <Name lang="en">Isolated left bronchial isomerism</Name>
++                            <DisorderType id="21415">
++                              <Name lang="en">Morphological anomaly</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="797">
++                            <OrphaCode>2357</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2357</ExpertLink>
++                            <Name lang="en">Bronchogenic cyst</Name>
++                            <DisorderType id="21415">
++                              <Name lang="en">Morphological anomaly</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="236">
+                         <OrphaCode>774</OrphaCode>
+@@ -1484,18 +1556,6 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+-                <ClassificationNode>
+-                  <Disorder id="863">
+-                    <OrphaCode>3389</OrphaCode>
+-                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3389</ExpertLink>
+-                    <Name lang="en">Tuberculosis</Name>
+-                    <DisorderType id="21394">
+-                      <Name lang="en">Disease</Name>
+-                    </DisorderType>
+-                  </Disorder>
+-                  <ClassificationNodeChildList count="0">
+-                  </ClassificationNodeChildList>
+-                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="3050">
+                     <OrphaCode>3471</OrphaCode>
+@@ -3428,6 +3488,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31793">
++                    <OrphaCode>645814</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=645814</ExpertLink>
++                    <Name lang="en">Primary pulmonary tuberculosis</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="20721">
+                     <OrphaCode>289390</OrphaCode>

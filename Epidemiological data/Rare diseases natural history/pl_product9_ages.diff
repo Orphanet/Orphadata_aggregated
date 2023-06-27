@@ -1,0 +1,2989 @@
+commit 10888e2451b47a2f6af40fe12c930f1526a24134
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Jun 27 10:28:21 2023 +0200
+
+    JUNE 2023
+
+diff --git a/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml b/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml
+index 1a5f38e..b39ca35 100644
+--- a/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml	
++++ b/Epidemiological data/Rare diseases natural history/pl_product9_ages.xml	
+@@ -1,13 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<JDBOR date="2022-11-28 07:50:59" version="1.3.18 / 4.1.7 [2022-07-12] (orientdb version)" copyright="Orphanet (c) 2022" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-  <Availability> 
+-    <Licence>
+-      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+-      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
+-      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+-    </Licence>
+-  </Availability>
+-  <DisorderList count="6650">
++<JDBOR date="2023-06-19 10:34:28" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++  <Availability> 
++    <Licence>
++      <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
++      <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
++      <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
++    </Licence>
++  </Availability>
++  <DisorderList count="6638">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=166024</ExpertLink>
+@@ -4269,7 +4269,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+@@ -5772,7 +5775,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+@@ -8741,7 +8747,7 @@
+     <Disorder id="420">
+       <OrphaCode>1143</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1143</ExpertLink>
+-      <Name lang="pl">Artrogrypoza</Name>
++      <Name lang="pl">Wrodzona wielostawowa artrogrypoza pochodzenia neurogennego</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -10656,11 +10662,11 @@
+       <OrphaCode>506</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=506</ExpertLink>
+       <Name lang="pl">Zespół Leigha</Name>
+-      <DisorderType id="21436">
+-        <Name lang="pl">Grupa fenomenów</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
+       </DisorderType>
+-      <DisorderGroup id="36540">
+-        <Name lang="pl">Grupa kliniczna</Name>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23557">
+@@ -10797,7 +10803,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23515">
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+@@ -11789,7 +11798,7 @@
+     <Disorder id="18030">
+       <OrphaCode>178478</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=178478</ExpertLink>
+-      <Name lang="pl">Botulizm przyranny</Name>
++      <Name lang="pl">Botulizm niemowlęcy</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -12270,9 +12279,12 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+@@ -14210,7 +14222,7 @@
+     <Disorder id="17947">
+       <OrphaCode>171871</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=171871</ExpertLink>
+-      <Name lang="pl">Pseudohipoaldosteronizm typu 1</Name>
++      <Name lang="pl">Pseudohipoaldosteronizm typu 1 pochodzenia nerkowego</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -15362,7 +15374,7 @@
+     <Disorder id="815">
+       <OrphaCode>549</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=549</ExpertLink>
+-      <Name lang="pl">Legionelloza</Name>
++      <Name lang="pl">Choroba legionistów</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -16367,27 +16379,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="18376">
+-      <OrphaCode>189439</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=189439</ExpertLink>
+-      <Name lang="pl">Pierwotna barwnikowa choroba guzkowa nadnerczy</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="880">
+       <OrphaCode>3006</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3006</ExpertLink>
+@@ -16895,27 +16886,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="875">
+-      <OrphaCode>1136</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1136</ExpertLink>
+-      <Name lang="pl">Malformacja Arnolda i Chiari typu II</Name>
+-      <DisorderType id="21415">
+-        <Name lang="pl">Wada morfologiczna</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="876">
+       <OrphaCode>397</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=397</ExpertLink>
+@@ -17205,11 +17175,11 @@
+       <OrphaCode>3389</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3389</ExpertLink>
+       <Name lang="pl">Gruźlica</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
++      <DisorderType id="21436">
++        <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23557">
+@@ -18191,7 +18161,7 @@
+     <Disorder id="912">
+       <OrphaCode>373</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=373</ExpertLink>
+-      <Name lang="pl">Zespół Simpsona, Golabiego i Behmela</Name>
++      <Name lang="pl">Zespół Simpson, Golabi i Behmel</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -18614,12 +18584,9 @@
+           <Name lang="pl">Dorosły</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23431">
+-          <Name lang="pl">Recesywny sprzężony z chromosomem X</Name>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23424">
++          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -21542,7 +21509,7 @@
+     <Disorder id="1344">
+       <OrphaCode>1037</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1037</ExpertLink>
+-      <Name lang="pl">Artrogrypoza</Name>
++      <Name lang="pl">Wrodzona wielostawowa artrogrypoza</Name>
+       <DisorderType id="21436">
+         <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+@@ -23345,7 +23312,7 @@
+     <Disorder id="1481">
+       <OrphaCode>115</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=115</ExpertLink>
+-      <Name lang="pl">Wrodzona archanodaktylia przykurczowa</Name>
++      <Name lang="pl">Wrodzona archanodaktylia z przykurczami</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -24968,24 +24935,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="16740">
+-      <OrphaCode>137902</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=137902</ExpertLink>
+-      <Name lang="pl">Izolowana hipoplazja nerwu wzrokowego</Name>
+-      <DisorderType id="21415">
+-        <Name lang="pl">Wada morfologiczna</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="1444">
+       <OrphaCode>1187</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1187</ExpertLink>
+@@ -25058,27 +25007,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="16743">
+-      <OrphaCode>137911</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=137911</ExpertLink>
+-      <Name lang="pl">Autyzm - znamię naczyniowe twarzy typu "port-wine stain</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="16744">
+       <OrphaCode>137914</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=137914</ExpertLink>
+@@ -25901,7 +25829,7 @@
+     <Disorder id="17085">
+       <OrphaCode>155867</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=155867</ExpertLink>
+-      <Name lang="pl">Pośrodkowy rozszczep twarzy</Name>
++      <Name lang="pl">Rozszczep twarzy przy linii środkowej</Name>
+       <DisorderType id="21436">
+         <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+@@ -26475,13 +26403,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
+         <AverageAgeOfOnset id="23529">
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+@@ -28505,27 +28436,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="16909">
+-      <OrphaCode>139491</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=139491</ExpertLink>
+-      <Name lang="pl">Hemochromatoza typu 4</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="1743">
+       <OrphaCode>1653</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1653</ExpertLink>
+@@ -29075,12 +28985,12 @@
+     <Disorder id="1757">
+       <OrphaCode>1671</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1671</ExpertLink>
+-      <Name lang="pl">Rozdwojenie rdzenia kręgowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
++      <Name lang="pl">Rozdwojenie rdzenia kręgowego typu 1</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23536">
+@@ -31764,7 +31674,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+@@ -33059,7 +32972,7 @@
+     <Disorder id="17152">
+       <OrphaCode>157832</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=157832</ExpertLink>
+-      <Name lang="en">Craniorhiny</Name>
++      <Name lang="pl">Kraniorynia</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -39519,7 +39432,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+@@ -39527,10 +39443,7 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23445">
+           <Name lang="pl">Dominujący sprzężony z chromosomem X</Name>
+         </TypeOfInheritance>
+@@ -40022,13 +39935,10 @@
+           <Name lang="pl">W każdym wieku</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
++      <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+           <Name lang="pl">Autosomalny dominujący</Name>
+         </TypeOfInheritance>
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="19594">
+@@ -40280,30 +40190,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="2160">
+-      <OrphaCode>2292</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2292</ExpertLink>
+-      <Name lang="pl">Wrodzona łukowatość kości długich</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2175">
+       <OrphaCode>2319</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2319</ExpertLink>
+@@ -42071,30 +41957,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="19814">
+-      <OrphaCode>255241</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=255241</ExpertLink>
+-      <Name lang="pl">Zespół Leigha z  leukodystrofią</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2470">
+       <OrphaCode>2709</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2709</ExpertLink>
+@@ -42119,30 +41981,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="19815">
+-      <OrphaCode>255249</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=255249</ExpertLink>
+-      <Name lang="pl">Zespół Leigha z zespołem nerczycowym</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2489">
+       <OrphaCode>2728</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2728</ExpertLink>
+@@ -42374,24 +42212,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="2486">
+-      <OrphaCode>2725</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2725</ExpertLink>
+-      <Name lang="pl">Wady oka - arachnodaktylia - kardiopatia</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2511">
+       <OrphaCode>2755</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2755</ExpertLink>
+@@ -43484,27 +43304,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="2533">
+-      <OrphaCode>1306</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1306</ExpertLink>
+-      <Name lang="pl">Zespół Buschkego i Ollendorffa</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="19749">
+       <OrphaCode>254424</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=254424</ExpertLink>
+@@ -46607,30 +46406,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20072">
+-      <OrphaCode>263558</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=263558</ExpertLink>
+-      <Name lang="pl">Uogólniony zespół złuszczania się skóry typu C</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23480">
+-          <Name lang="pl">Nieznany</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2729">
+       <OrphaCode>3035</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3035</ExpertLink>
+@@ -48689,33 +48464,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20199">
+-      <OrphaCode>268770</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268770</ExpertLink>
+-      <Name lang="pl">Torbielowaty rozszczep górnego odcinka kręgosłupa piersiowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2598">
+       <OrphaCode>2865</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2865</ExpertLink>
+@@ -48761,33 +48509,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20198">
+-      <OrphaCode>268766</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268766</ExpertLink>
+-      <Name lang="pl">Torbielowaty rozszczep kręgosłupa szyjno-piersiowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2596">
+       <OrphaCode>2863</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2863</ExpertLink>
+@@ -48809,114 +48530,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20197">
+-      <OrphaCode>268762</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268762</ExpertLink>
+-      <Name lang="pl">Torbielowaty rozszczep kręgosłupa szyjnego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="20196">
+-      <OrphaCode>268758</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268758</ExpertLink>
+-      <Name lang="pl">Torbielowaty rozszczep kręgosłupa lędźwiowo-krzyżowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="20195">
+-      <OrphaCode>268752</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268752</ExpertLink>
+-      <Name lang="pl">Torbielowaty rozszczep kręgosłupa piersiowo-lędźwiowo-krzyżowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="20194">
+-      <OrphaCode>268748</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268748</ExpertLink>
+-      <Name lang="pl">Całkowity torbielowaty rozszczep kręgosłupa</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="20193">
+       <OrphaCode>268744</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268744</ExpertLink>
+@@ -48944,33 +48557,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20192">
+-      <OrphaCode>268740</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268740</ExpertLink>
+-      <Name lang="pl">Otwarty rozszczep górnego odcinka kręgosłupa piersiowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2606">
+       <OrphaCode>2875</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2875</ExpertLink>
+@@ -49044,11 +48630,11 @@
+       <OrphaCode>268813</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268813</ExpertLink>
+       <Name lang="pl">Mielocystocele</Name>
+-      <DisorderType id="21415">
+-        <Name lang="pl">Wada morfologiczna</Name>
++      <DisorderType id="21436">
++        <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -49400,33 +48986,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20188">
+-      <OrphaCode>268384</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268384</ExpertLink>
+-      <Name lang="pl">Otwarty rozszczep kręgosłupa piersiowo-lędźwiowo-krzyżowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2589">
+       <OrphaCode>2855</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2855</ExpertLink>
+@@ -49478,60 +49037,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20189">
+-      <OrphaCode>268388</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268388</ExpertLink>
+-      <Name lang="pl">Otwarty rozszczep kręgosłupa lędźwiowo-krzyżowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="20190">
+-      <OrphaCode>268392</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268392</ExpertLink>
+-      <Name lang="pl">Otwarty rozszczep kręgosłupa szyjnego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="2590">
+       <OrphaCode>708</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=708</ExpertLink>
+@@ -49559,33 +49064,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20191">
+-      <OrphaCode>268397</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268397</ExpertLink>
+-      <Name lang="pl">Otwarty rozszczep kręgosłupa szyjno-piersiowego</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="20184">
+       <OrphaCode>268363</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268363</ExpertLink>
+@@ -49662,38 +49140,11 @@
+       <OrphaCode>268369</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268369</ExpertLink>
+       <Name lang="pl">Otwarty rozszczep kręgosłupa</Name>
+-      <DisorderType id="21415">
+-        <Name lang="pl">Wada morfologiczna</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="20187">
+-      <OrphaCode>268377</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=268377</ExpertLink>
+-      <Name lang="pl">Całkowity otwarty rozszczep kręgosłupa</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
++      <DisorderType id="21436">
++        <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23522">
+@@ -52665,14 +52116,11 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="0">
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
++        <TypeOfInheritance id="23480">
++          <Name lang="pl">Nieznany</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -55505,24 +54953,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="2882">
+-      <OrphaCode>3225</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3225</ExpertLink>
+-      <Name lang="pl">Utrata słuchu - rodzinna niewrażliwość ślinianek na aldosteron</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="20354">
+       <OrphaCode>276193</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=276193</ExpertLink>
+@@ -55641,10 +55071,13 @@
+       <DisorderGroup id="36554">
+         <Name lang="pl">Podtyp zaburzenia</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+           <Name lang="pl">Dorosły</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+@@ -57323,7 +56756,7 @@
+     <Disorder id="3249">
+       <OrphaCode>478</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=478</ExpertLink>
+-      <Name lang="pl">Zespół Kallmanna - choroba serca</Name>
++      <Name lang="pl">Zespół Kallmanna</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -58124,30 +57557,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="18616">
+-      <OrphaCode>208981</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=208981</ExpertLink>
+-      <Name lang="pl">Poliradikuloneuropatia związana z gammapatią monoklonalną IgG/IgA/IgM bez znanych przeciwciał</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23550">
+-          <Name lang="pl">Wiek podeszły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="3191">
+       <OrphaCode>1101</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1101</ExpertLink>
+@@ -58427,12 +57836,12 @@
+     <Disorder id="3175">
+       <OrphaCode>2204</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2204</ExpertLink>
+-      <Name lang="pl">Dysplastyczna hiperostoza korowa</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
++      <Name lang="pl">Dysplastyczna hiperostoza korowa typu Kozłowskiego i Tsuruta</Name>
++      <DisorderType id="21450">
++        <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23508">
+@@ -59096,7 +58505,10 @@
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
+         <TypeOfInheritance id="23417">
+           <Name lang="pl">Autosomalny recesywny</Name>
+         </TypeOfInheritance>
+@@ -60734,48 +60146,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="18751">
+-      <OrphaCode>213574</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=213574</ExpertLink>
+-      <Name lang="pl">Rzadkie warianty gruczolakoraka trzonu macicy</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23550">
+-          <Name lang="pl">Wiek podeszły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+-    <Disorder id="18745">
+-      <OrphaCode>213524</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=213524</ExpertLink>
+-      <Name lang="pl">Zespół dziedzicznego raka jajnika specyficznego narządowo</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="3577">
+       <OrphaCode>2066</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=2066</ExpertLink>
+@@ -60858,11 +60228,11 @@
+       <OrphaCode>3188</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=3188</ExpertLink>
+       <Name lang="pl">Wrodzona atrezja lub zwężenie żył płucnych</Name>
+-      <DisorderType id="21415">
+-        <Name lang="pl">Wada morfologiczna</Name>
++      <DisorderType id="21436">
++        <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23529">
+@@ -63890,7 +63260,7 @@
+     <Disorder id="18906">
+       <OrphaCode>220402</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220402</ExpertLink>
+-      <Name lang="pl">Twardzina skórna rozlana</Name>
++      <Name lang="pl">Systemowa ograniczona twardzina skórna</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -64004,7 +63374,7 @@
+     <Disorder id="18905">
+       <OrphaCode>220393</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=220393</ExpertLink>
+-      <Name lang="pl">Twardzina skórna rozlana</Name>
++      <Name lang="pl">Systemowa rozlana twardzina skórna</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -64536,9 +63906,12 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+@@ -64679,7 +64052,7 @@
+     <Disorder id="3391">
+       <OrphaCode>1578</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=1578</ExpertLink>
+-      <Name lang="pl">Niedobór dehydratazy</Name>
++      <Name lang="pl">Niedobór dehydratazy karbinoloaminowej pteryny</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -65594,7 +64967,7 @@
+     <Disorder id="3750">
+       <OrphaCode>301</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=301</ExpertLink>
+-      <Name lang="pl">Wyściółczak</Name>
++      <Name lang="pl">Guz pochodzenia ependymalnego</Name>
+       <DisorderType id="21436">
+         <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+@@ -68883,11 +68256,11 @@
+       <OrphaCode>231108</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=231108</ExpertLink>
+       <Name lang="pl">Rodzinny guz rabdoidalny</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="1">
+         <AverageAgeOfOnset id="23529">
+@@ -69965,30 +69338,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="19301">
+-      <OrphaCode>238755</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238755</ExpertLink>
+-      <Name lang="pl">Autosomalna dominująca dystrofia obręczowo-kończynowa typu 1H</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="pl">Wiek młodzieńczy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="19302">
+       <OrphaCode>238763</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=238763</ExpertLink>
+@@ -75524,27 +74873,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="22465">
+-      <OrphaCode>370019</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=370019</ExpertLink>
+-      <Name lang="pl">Dysplazja kręgowo-nasadowa typu Czarny-Ratajczak</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="22479">
+       <OrphaCode>370088</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=370088</ExpertLink>
+@@ -76707,8 +76035,8 @@
+       <OrphaCode>823</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=823</ExpertLink>
+       <Name lang="pl">Izolowany rozszczep kręgosłupa</Name>
+-      <DisorderType id="21436">
+-        <Name lang="pl">Grupa fenomenów</Name>
++      <DisorderType id="36561">
++        <Name lang="pl">Kategoria</Name>
+       </DisorderType>
+       <DisorderGroup id="36540">
+         <Name lang="pl">Grupa kliniczna</Name>
+@@ -81764,36 +81092,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20516">
+-      <OrphaCode>280914</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280914</ExpertLink>
+-      <Name lang="pl">Idiopatyczne zapalenie przedniego odcinka błony naczyniowej</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="4">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="pl">Wiek młodzieńczy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23550">
+-          <Name lang="pl">Wiek podeszły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="20515">
+       <OrphaCode>280898</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280898</ExpertLink>
+@@ -82223,27 +81521,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="20490">
+-      <OrphaCode>280651</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280651</ExpertLink>
+-      <Name lang="pl">Dyzostoza kończynowa ze mnogą opornością hormonalną</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="20500">
+       <OrphaCode>280779</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=280779</ExpertLink>
+@@ -89447,27 +88724,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="24171">
+-      <OrphaCode>466801</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=466801</ExpertLink>
+-      <Name lang="pl">Autosomalna recesywna dystrofia obręczowo-kończynowa typu 2W</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="24170">
+       <OrphaCode>466794</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=466794</ExpertLink>
+@@ -93680,7 +92936,7 @@
+     <Disorder id="22754">
+       <OrphaCode>399180</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=399180</ExpertLink>
+-      <Name lang="pl">Wtórna martwica awaskularna</Name>
++      <Name lang="pl">Wtórna martwica awaskularna niezwiązana z urazem</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -93890,30 +93146,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="22743">
+-      <OrphaCode>398980</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=398980</ExpertLink>
+-      <Name lang="pl">Pierwotny rak otrzewnej surowiczy/brodawkowaty</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23550">
+-          <Name lang="pl">Wiek podeszły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="22742">
+       <OrphaCode>398971</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=398971</ExpertLink>
+@@ -94886,27 +94118,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="23352">
+-      <OrphaCode>437572</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=437572</ExpertLink>
+-      <Name lang="pl">Dystrofia łopatkowo-strzałkowa o późnym początku zależna od MYH7</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23543">
+-          <Name lang="pl">Dorosły</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="23367">
+       <OrphaCode>438178</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=438178</ExpertLink>
+@@ -95859,7 +95070,13 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+@@ -101270,7 +100487,7 @@
+     <Disorder id="25842">
+       <OrphaCode>496689</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=496689</ExpertLink>
+-      <Name lang="en">Kyphoscoliosis-lateral tongue atrophy-hereditary spastic paraplegia syndrome</Name>
++      <Name lang="pl">Zespół kyfoskoliozy - bocznego zaniku języka - dziedziczenj paraplegii spastycznej</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -101294,7 +100511,7 @@
+     <Disorder id="25843">
+       <OrphaCode>496693</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=496693</ExpertLink>
+-      <Name lang="en">Omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome</Name>
++      <Name lang="pl">Zespół przepukliny pępowinowej, przepukliny przeponowej, wad układu sercowo-naczyniowego oraz wad promieniowej strony kończyny górnej</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -102090,11 +101307,11 @@
+       <OrphaCode>500055</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=500055</ExpertLink>
+       <Name lang="pl">Zespół mikrodelecji 16p13.2</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
++      <DisorderType id="21443">
++        <Name lang="pl">Podtyp etiologiczny</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36554">
++        <Name lang="pl">Podtyp zaburzenia</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23529">
+@@ -103187,30 +102404,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="8667">
+-      <OrphaCode>553</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=553</ExpertLink>
+-      <Name lang="pl">Zespół Cushinga</Name>
+-      <DisorderType id="21436">
+-        <Name lang="pl">Grupa fenomenów</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36540">
+-        <Name lang="pl">Grupa kliniczna</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23557">
+-          <Name lang="pl">W każdym wieku</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="8660">
+       <OrphaCode>679</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=679</ExpertLink>
+@@ -103638,10 +102831,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="3">
++      <AverageAgeOfOnsetList count="5">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23543">
+           <Name lang="pl">Dorosły</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+@@ -104003,7 +103202,7 @@
+     <Disorder id="25898">
+       <OrphaCode>498228</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=498228</ExpertLink>
+-      <Name lang="en">Phyllodes tumor of the prostate</Name>
++      <Name lang="pl">Guz liściasty prostaty</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -104105,33 +103304,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="8674">
+-      <OrphaCode>759</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=759</ExpertLink>
+-      <Name lang="pl">Przedwczesne pokwitanie pochodzenia ośrodkowego</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="8672">
+       <OrphaCode>786</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=786</ExpertLink>
+@@ -104270,7 +103442,7 @@
+     <Disorder id="25941">
+       <OrphaCode>499009</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=499009</ExpertLink>
+-      <Name lang="en">Congenital syphilis</Name>
++      <Name lang="pl">Kiła wrodzona</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -105380,7 +104552,7 @@
+     <Disorder id="25310">
+       <OrphaCode>485418</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=485418</ExpertLink>
+-      <Name lang="pl">Zespół niepełnosprawności intelektualnej sprzężony z chromosomem X sprzężony z CLCN4</Name>
++      <Name lang="pl">Choroba tkanki łącznej związana z EMILIN-1</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -105437,7 +104609,7 @@
+     <Disorder id="25306">
+       <OrphaCode>485350</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=485350</ExpertLink>
+-      <Name lang="pl">Zespół niepełnosprawności intelektualnej sprzężony z chromosomem X sprzężony z CLCN4</Name>
++      <Name lang="pl">Zespół niepełnosprawności intelektualnej sprzężony z chromosomem X, związany z CLCN4</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -106637,7 +105809,7 @@
+     <Disorder id="25413">
+       <OrphaCode>488647</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488647</ExpertLink>
+-      <Name lang="en">DDX41-related hematologic malignancy predisposition syndrome</Name>
++      <Name lang="pl">Zespół predyspozycji do nowotworów hematologicznych związany z DDX41</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -106760,7 +105932,7 @@
+     <Disorder id="25395">
+       <OrphaCode>488265</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488265</ExpertLink>
+-      <Name lang="pl">Dysplazja włóknista kości</Name>
++      <Name lang="pl">Dysplazja kostno-włóknista</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -106805,7 +105977,7 @@
+     <Disorder id="25392">
+       <OrphaCode>488232</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=488232</ExpertLink>
+-      <Name lang="en">Split-foot malformation-mesoaxial polydactyly syndrome</Name>
++      <Name lang="pl">Zespół rozszczepienia stopy - polidaktylii promienia środkowego</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -108002,30 +107174,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="10947">
+-      <OrphaCode>70474</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70474</ExpertLink>
+-      <Name lang="pl">Zespół Leigha z kardiomiopatią</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="10945">
+       <OrphaCode>70472</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=70472</ExpertLink>
+@@ -110667,7 +109815,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="3">
++      <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23536">
+           <Name lang="pl">Wiek młodzieńczy</Name>
+         </AverageAgeOfOnset>
+@@ -110677,6 +109825,9 @@
+         <AverageAgeOfOnset id="23529">
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23494">
+@@ -110729,7 +109880,7 @@
+     <Disorder id="10790">
+       <OrphaCode>59305</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=59305</ExpertLink>
+-      <Name lang="pl">Ciążowa choroba trofoblastyczna</Name>
++      <Name lang="pl">Ciążowy nowotwór trofoblastyczny</Name>
+       <DisorderType id="21436">
+         <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+@@ -110915,10 +110066,13 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
++      <TypeOfInheritanceList count="2">
+         <TypeOfInheritance id="23410">
+           <Name lang="pl">Autosomalny dominujący</Name>
+         </TypeOfInheritance>
++        <TypeOfInheritance id="23417">
++          <Name lang="pl">Autosomalny recesywny</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="10792">
+@@ -111479,7 +110633,7 @@
+     <Disorder id="28366">
+       <OrphaCode>563612</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=563612</ExpertLink>
+-      <Name lang="pl">Izolowana przepuklina mózgowa</Name>
++      <Name lang="pl">Izolowana egzencefalia</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -111647,7 +110801,7 @@
+     <Disorder id="10760">
+       <OrphaCode>55654</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=55654</ExpertLink>
+-      <Name lang="pl">Hipotrichoza skóry głowy</Name>
++      <Name lang="pl">Hipotrichoza prosta</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -111671,7 +110825,7 @@
+     <Disorder id="28451">
+       <OrphaCode>565858</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=565858</ExpertLink>
+-      <Name lang="en">Craniosynostosis-microretrognathia-severe intellectual disability syndrome</Name>
++      <Name lang="pl">Zespół kraniosynostozy, mikroretrognacji i ciężkiej niepełnosprawności intelektualnej</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -114299,7 +113453,7 @@
+     <Disorder id="11101">
+       <OrphaCode>77258</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=77258</ExpertLink>
+-      <Name lang="pl">Zespół włosowo-nosowo-paliczkowy typu 1 i 3</Name>
++      <Name lang="pl">Zespół włosowo-nosowo-paliczkowy typu 1</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -115160,7 +114314,7 @@
+     <Disorder id="28626">
+       <OrphaCode>569248</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=569248</ExpertLink>
+-      <Name lang="en">Microcystic stromal tumor</Name>
++      <Name lang="pl">Drobnopęcherzykowy guz z komórek podścieliska</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -117564,7 +116718,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="4">
++      <AverageAgeOfOnsetList count="3">
+         <AverageAgeOfOnset id="23536">
+           <Name lang="pl">Wiek młodzieńczy</Name>
+         </AverageAgeOfOnset>
+@@ -117574,9 +116728,6 @@
+         <AverageAgeOfOnset id="23529">
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -117621,8 +116772,8 @@
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23431">
+-          <Name lang="pl">Recesywny sprzężony z chromosomem X</Name>
++        <TypeOfInheritance id="23445">
++          <Name lang="pl">Dominujący sprzężony z chromosomem X</Name>
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+@@ -118538,7 +117689,7 @@
+     <Disorder id="10748">
+       <OrphaCode>54247</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=54247</ExpertLink>
+-      <Name lang="pl">Przednia atrofia kory</Name>
++      <Name lang="pl">Tylna atrofia kory</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -119051,7 +118202,7 @@
+     <Disorder id="10638">
+       <OrphaCode>49042</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=49042</ExpertLink>
+-      <Name lang="pl">Wrodzony niedorozwój szkliwa</Name>
++      <Name lang="pl">Wrodzony niedorozwój zębiny</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -119592,7 +118743,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="3">
++      <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23536">
+           <Name lang="pl">Wiek młodzieńczy</Name>
+         </AverageAgeOfOnset>
+@@ -119602,6 +118753,9 @@
+         <AverageAgeOfOnset id="23529">
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+@@ -120833,7 +119987,7 @@
+     <Disorder id="28082">
+       <OrphaCode>544482</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=544482</ExpertLink>
+-      <Name lang="pl">Zespół hemolityczny mocznicowy związany z infekcją</Name>
++      <Name lang="pl">Zespół hemolityczno-mocznicowy związany z infekcją</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -123387,16 +122541,13 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="3">
++      <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23529">
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23522">
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -126314,7 +125465,7 @@
+     <Disorder id="12032">
+       <OrphaCode>90368</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90368</ExpertLink>
+-      <Name lang="pl">Hipotrichoza skóry głowy</Name>
++      <Name lang="pl">Hipotrichoza prosta skóry głowy</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -126470,30 +125621,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="12055">
+-      <OrphaCode>90646</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90646</ExpertLink>
+-      <Name lang="pl">Głuchota - hipogonadyzm</Name>
+-      <DisorderType id="21401">
+-        <Name lang="pl">Zespół wad wrodzonych</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23431">
+-          <Name lang="pl">Recesywny sprzężony z chromosomem X</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="12050">
+       <OrphaCode>90641</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=90641</ExpertLink>
+@@ -128303,7 +127430,7 @@
+     <Disorder id="11511">
+       <OrphaCode>79485</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=79485</ExpertLink>
+-      <Name lang="pl">Fakomatoza barwnikowo-rogowaciejąca</Name>
++      <Name lang="pl">Fakomatoza barwnikowo-naczyniowa</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -134573,10 +133700,49 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="30617">
++      <OrphaCode>603689</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=603689</ExpertLink>
++      <Name lang="pl">Zależny od KLHL7 zespół podobny do Bohring-Opitz</Name>
++      <DisorderType id="21401">
++        <Name lang="pl">Zespół wad wrodzonych</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30616">
++      <OrphaCode>603684</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=603684</ExpertLink>
++      <Name lang="pl">Nakładanie zależnego od KLHL7 zespołu podobnego do Bohring-Opitz/pocenia wywołanego zimnem</Name>
++      <DisorderType id="21401">
++        <Name lang="pl">Zespół wad wrodzonych</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="30619">
+       <OrphaCode>603699</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=603699</ExpertLink>
+-      <Name lang="pl">Zaburzenie zależne of KLHL7</Name>
++      <Name lang="pl">Recesywne zaburzenie związane z KLHL7</Name>
+       <DisorderType id="21436">
+         <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+@@ -134766,7 +133932,10 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+@@ -134774,6 +133943,24 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="30474">
++      <OrphaCode>600663</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600663</ExpertLink>
++      <Name lang="pl">Poważne zaburzenia neurorozwojowe, stereotypie ruchowe, przewlekłe zaparcia, zaburzenia cyklu snu i czuwania związane z NRXN1</Name>
++      <DisorderType id="21401">
++        <Name lang="pl">Zespół wad wrodzonych</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="30478">
+       <OrphaCode>600731</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600731</ExpertLink>
+@@ -134909,6 +134096,222 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="30552">
++      <OrphaCode>601028</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601028</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z przetoką odbytniczo-pochwową</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30553">
++      <OrphaCode>601033</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601033</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z przetoką typu-H</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30548">
++      <OrphaCode>601008</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601008</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z zwężeniem odbytu</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30549">
++      <OrphaCode>601013</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601013</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z rozszerzeniem jelita grubego</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30550">
++      <OrphaCode>601018</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601018</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z atrezją odbytnicy</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30551">
++      <OrphaCode>601023</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601023</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z zwężeniem odbytnicy</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30544">
++      <OrphaCode>600984</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600984</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa odbytu z przetoką odbytniczo-pęcherzową</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30545">
++      <OrphaCode>600993</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600993</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z przetoką przedsionka odbytu</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30546">
++      <OrphaCode>600998</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600998</ExpertLink>
++      <Name lang="pl">Niesyndromiczna wada rozwojowa kloaki</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30547">
++      <OrphaCode>601002</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=601002</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa bez przetoki</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30541">
++      <OrphaCode>600961</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600961</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z przetoką odbytniczo-cewkową</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="30540">
++      <OrphaCode>600952</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=600952</ExpertLink>
++      <Name lang="pl">Niesyndromiczna anorektalna wada rozwojowa z przetoką kroczową</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12866">
+       <OrphaCode>97244</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=97244</ExpertLink>
+@@ -136058,30 +135461,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="12850">
+-      <OrphaCode>96369</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=96369</ExpertLink>
+-      <Name lang="pl">Schizofrenia o wczesnym początku</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="pl">Wiek młodzieńczy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23424">
+-          <Name lang="pl">Wielogenowy/wieloczynnikowy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="12861">
+       <OrphaCode>97238</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=97238</ExpertLink>
+@@ -136385,30 +135764,6 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="12663">
+-      <OrphaCode>95708</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95708</ExpertLink>
+-      <Name lang="pl">Przedwczesne pokwitanie</Name>
+-      <DisorderType id="36561">
+-        <Name lang="pl">Kategoria</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36540">
+-        <Name lang="pl">Grupa kliniczna</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23529">
+-          <Name lang="pl">Dzieciństwo</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="2">
+-        <TypeOfInheritance id="23410">
+-          <Name lang="pl">Autosomalny dominujący</Name>
+-        </TypeOfInheritance>
+-        <TypeOfInheritance id="23494">
+-          <Name lang="pl">Nie dotyczy</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="12661">
+       <OrphaCode>95706</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=95706</ExpertLink>
+@@ -136734,10 +136089,19 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23543">
+           <Name lang="pl">Dorosły</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23417">
+@@ -138386,6 +137750,72 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29862">
++      <OrphaCode>597733</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597733</ExpertLink>
++      <Name lang="pl">Albinizm oczno-skórny typ 8</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29863">
++      <OrphaCode>597738</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597738</ExpertLink>
++      <Name lang="pl">Zespół Luscan i Lumish</Name>
++      <DisorderType id="21401">
++        <Name lang="pl">Zespół wad wrodzonych</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29868">
++      <OrphaCode>597887</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597887</ExpertLink>
++      <Name lang="pl">Zapalna choroba jelit zwiazana z ALPI </Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12397">
+       <OrphaCode>93555</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93555</ExpertLink>
+@@ -138422,6 +137852,63 @@
+       <TypeOfInheritanceList count="0">
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29871">
++      <OrphaCode>597939</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597939</ExpertLink>
++      <Name lang="pl">Eutyreoza z dysprealbuinemiczną hipertyroksynemią</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29864">
++      <OrphaCode>597743</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597743</ExpertLink>
++      <Name lang="pl">Zespół małogłowia, znacznej niepełnosprawności intelektualnej oraz mnogich wad wrodzonych związany z SETD2</Name>
++      <DisorderType id="21401">
++        <Name lang="pl">Zespół wad wrodzonych</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="29865">
++      <OrphaCode>597746</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597746</ExpertLink>
++      <Name lang="pl">Zespół blefarofimozy i niepełnosprawności intelektualnej, typ SBBYS/zespół płciowo-rzepkowy</Name>
++      <DisorderType id="21401">
++        <Name lang="pl">Zespół wad wrodzonych</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12394">
+       <OrphaCode>93552</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93552</ExpertLink>
+@@ -138452,6 +137939,30 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29867">
++      <OrphaCode>597874</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=597874</ExpertLink>
++      <Name lang="pl">Zespół opóźnionego rozwoju, małogłowia, niskiego wzrostu oraz padaczki związany z MTHFS</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23508">
++          <Name lang="pl">Prenatalny</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12404">
+       <OrphaCode>93562</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93562</ExpertLink>
+@@ -138498,7 +138009,16 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="0">
++      <AverageAgeOfOnsetList count="3">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23410">
+@@ -138506,6 +138026,24 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29878">
++      <OrphaCode>598363</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=598363</ExpertLink>
++      <Name lang="pl">Wieloukładowy zespół zapalny u dzieci i dorosłych</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12402">
+       <OrphaCode>93560</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93560</ExpertLink>
+@@ -138773,6 +138311,24 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29925">
++      <OrphaCode>599376</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=599376</ExpertLink>
++      <Name lang="pl">Hipomielinizacja struktur z wczesnym wytwarzaniem mieliny</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12324">
+       <OrphaCode>93402</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93402</ExpertLink>
+@@ -138968,30 +138524,6 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+-    <Disorder id="12290">
+-      <OrphaCode>93359</OrphaCode>
+-      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93359</ExpertLink>
+-      <Name lang="pl">Dysplazja kręgowo-nasadowo-przynasadowa z wiotkością stawów</Name>
+-      <DisorderType id="21394">
+-        <Name lang="pl">Choroba</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
+-      </DisorderGroup>
+-      <AverageAgeOfOnsetList count="2">
+-        <AverageAgeOfOnset id="23522">
+-          <Name lang="pl">Okres niemowlęcy</Name>
+-        </AverageAgeOfOnset>
+-        <AverageAgeOfOnset id="23515">
+-          <Name lang="pl">Okres noworodkowy</Name>
+-        </AverageAgeOfOnset>
+-      </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="1">
+-        <TypeOfInheritance id="23417">
+-          <Name lang="pl">Autosomalny recesywny</Name>
+-        </TypeOfInheritance>
+-      </TypeOfInheritanceList>
+-    </Disorder>
+     <Disorder id="12289">
+       <OrphaCode>93358</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93358</ExpertLink>
+@@ -139278,9 +138810,12 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
+-        <AverageAgeOfOnset id="23564">
+-          <Name lang="pl">Brak danych</Name>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23522">
++          <Name lang="pl">Okres niemowlęcy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23515">
++          <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="2">
+@@ -140267,6 +139802,24 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="29788">
++      <OrphaCode>596937</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=596937</ExpertLink>
++      <Name lang="pl">Choroba naczyń wrotnych i zatokowych</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="1">
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="12445">
+       <OrphaCode>93612</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=93612</ExpertLink>
+@@ -141134,7 +140687,10 @@
+           <Name lang="pl">Okres noworodkowy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="29443">
+@@ -141152,7 +140708,10 @@
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="29442">
+@@ -141173,7 +140732,10 @@
+           <Name lang="pl">Okres niemowlęcy</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="29445">
+@@ -141191,7 +140753,10 @@
+           <Name lang="pl">Wiek podeszły</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="29444">
+@@ -141209,7 +140774,10 @@
+           <Name lang="pl">Dorosły</Name>
+         </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+-      <TypeOfInheritanceList count="0">
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
+     <Disorder id="29447">
+@@ -142160,7 +141728,7 @@
+     <Disorder id="29436">
+       <OrphaCode>589595</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589595</ExpertLink>
+-      <Name lang="en">Mixed phenotype acute leukemia with t(v;11q23.3)</Name>
++      <Name lang="pl">Ostra białaczka o mieszanym fenotypie z t(v;11q23.3)</Name>
+       <DisorderType id="21443">
+         <Name lang="pl">Podtyp etiologiczny</Name>
+       </DisorderType>
+@@ -142280,7 +141848,7 @@
+     <Disorder id="29433">
+       <OrphaCode>589534</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=589534</ExpertLink>
+-      <Name lang="en">Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)</Name>
++      <Name lang="pl">Ostra białaczka o mieszanym fenotypie z t(9;22)(q34.1;q11.2)</Name>
+       <DisorderType id="21443">
+         <Name lang="pl">Podtyp etiologiczny</Name>
+       </DisorderType>
+@@ -142728,10 +142296,19 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="1">
++      <AverageAgeOfOnsetList count="4">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23543">
++          <Name lang="pl">Dorosły</Name>
++        </AverageAgeOfOnset>
+         <AverageAgeOfOnset id="23529">
+           <Name lang="pl">Dzieciństwo</Name>
+         </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23550">
++          <Name lang="pl">Wiek podeszły</Name>
++        </AverageAgeOfOnset>
+       </AverageAgeOfOnsetList>
+       <TypeOfInheritanceList count="1">
+         <TypeOfInheritance id="23431">
+@@ -144155,7 +143732,7 @@
+     <Disorder id="29204">
+       <OrphaCode>585867</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585867</ExpertLink>
+-      <Name lang="en">Acute myeloid leukemia with t(9;22)(q34.1;q11.2)</Name>
++      <Name lang="pl">Ostra białaczka szpikowa z t(9;22)(q34.1;q11.2)</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -144218,7 +143795,7 @@
+     <Disorder id="29211">
+       <OrphaCode>585909</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=585909</ExpertLink>
+-      <Name lang="en">B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)</Name>
++      <Name lang="pl">Białaczka limfoblastyczna/chłoniak z komórek B z t(9;22)(q34.1;q11.2)</Name>
+       <DisorderType id="21443">
+         <Name lang="pl">Podtyp etiologiczny</Name>
+       </DisorderType>
+@@ -144944,7 +144521,7 @@
+     <Disorder id="13823">
+       <OrphaCode>98806</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=98806</ExpertLink>
+-      <Name lang="pl">Dystonia pierwotna, typ DYT13</Name>
++      <Name lang="pl">Dystonia pierwotna, typ DYT6</Name>
+       <DisorderType id="21394">
+         <Name lang="pl">Choroba</Name>
+       </DisorderType>
+@@ -145449,10 +145026,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+-      <AverageAgeOfOnsetList count="3">
+-        <AverageAgeOfOnset id="23536">
+-          <Name lang="pl">Wiek młodzieńczy</Name>
+-        </AverageAgeOfOnset>
++      <AverageAgeOfOnsetList count="2">
+         <AverageAgeOfOnset id="23543">
+           <Name lang="pl">Dorosły</Name>
+         </AverageAgeOfOnset>
+@@ -145632,11 +145206,11 @@
+       <OrphaCode>573253</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=573253</ExpertLink>
+       <Name lang="pl">Malformacja rozszczepionego sznura typu II</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
++      <DisorderType id="21415">
++        <Name lang="pl">Wada morfologiczna</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23536">
+@@ -145722,11 +145296,11 @@
+       <OrphaCode>573278</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=573278</ExpertLink>
+       <Name lang="pl">Malformacja rozszczepionego sznura</Name>
+-      <DisorderType id="21415">
+-        <Name lang="pl">Wada morfologiczna</Name>
++      <DisorderType id="21436">
++        <Name lang="pl">Grupa fenomenów</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="pl">Zaburzenie</Name>
++      <DisorderGroup id="36540">
++        <Name lang="pl">Grupa kliniczna</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23536">
+@@ -145766,7 +145340,7 @@
+     <Disorder id="28736">
+       <OrphaCode>572361</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=572361</ExpertLink>
+-      <Name lang="en">Blepharophimosis-ptosis-epicanthus inversus syndrome type 2</Name>
++      <Name lang="pl">Zespół zwężenia szpar powiekowych, opadania powiek i odwróconych fałdów nakątnych typu 2</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -145967,7 +145541,7 @@
+     <Disorder id="28765">
+       <OrphaCode>572768</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=572768</ExpertLink>
+-      <Name lang="en">Microcephaly-micromelia syndrome</Name>
++      <Name lang="pl">Zespół małogłowia i mikromelii</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -146033,7 +145607,7 @@
+     <Disorder id="28732">
+       <OrphaCode>572333</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=572333</ExpertLink>
+-      <Name lang="en">Blepharophimosis-ptosis-epicanthus inversus syndrome plus</Name>
++      <Name lang="pl">Zespół zwężenia szpar powiekowych, opadania powiek i odwróconych fałdów nakątnych plus</Name>
+       <DisorderType id="21401">
+         <Name lang="pl">Zespół wad wrodzonych</Name>
+       </DisorderType>
+@@ -146051,7 +145625,7 @@
+     <Disorder id="28735">
+       <OrphaCode>572354</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=572354</ExpertLink>
+-      <Name lang="en">Blepharophimosis-ptosis-epicanthus inversus syndrome type 1</Name>
++      <Name lang="pl">Zespół zwężenia szpar powiekowych, opadania powiek i odwróconych fałdów nakątnych typu 1</Name>
+       <DisorderType id="21450">
+         <Name lang="pl">Podtyp kliniczny</Name>
+       </DisorderType>
+@@ -148887,11 +148461,11 @@
+       <OrphaCode>99966</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99966</ExpertLink>
+       <Name lang="pl">Atypowy guz teratoidny rabdoidny</Name>
+-      <DisorderType id="21450">
+-        <Name lang="pl">Podtyp kliniczny</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
+       </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="pl">Podtyp zaburzenia</Name>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
+       </DisorderGroup>
+       <AverageAgeOfOnsetList count="4">
+         <AverageAgeOfOnset id="23508">
+@@ -149672,6 +149246,24 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="31819">
++      <OrphaCode>647815</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647815</ExpertLink>
++      <Name lang="pl">Dziedziczne napadowe zapalenie śródbłonka rogówki</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14474">
+       <OrphaCode>99901</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99901</ExpertLink>
+@@ -149699,6 +149291,24 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="31818">
++      <OrphaCode>647811</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=647811</ExpertLink>
++      <Name lang="pl">Zespół sercowo-moczowo-płciowy</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="14478">
+       <OrphaCode>99905</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=99905</ExpertLink>
+@@ -150872,6 +150482,45 @@
+         </TypeOfInheritance>
+       </TypeOfInheritanceList>
+     </Disorder>
++    <Disorder id="31736">
++      <OrphaCode>642747</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=642747</ExpertLink>
++      <Name lang="pl">Ataksja móżdżkowa związana z PUM1</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="0">
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="1">
++        <TypeOfInheritance id="23410">
++          <Name lang="pl">Autosomalny dominujący</Name>
++        </TypeOfInheritance>
++      </TypeOfInheritanceList>
++    </Disorder>
++    <Disorder id="31468">
++      <OrphaCode>623789</OrphaCode>
++      <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=623789</ExpertLink>
++      <Name lang="pl">Dysforia integralności ciała</Name>
++      <DisorderType id="21394">
++        <Name lang="pl">Choroba</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="pl">Zaburzenie</Name>
++      </DisorderGroup>
++      <AverageAgeOfOnsetList count="2">
++        <AverageAgeOfOnset id="23536">
++          <Name lang="pl">Wiek młodzieńczy</Name>
++        </AverageAgeOfOnset>
++        <AverageAgeOfOnset id="23529">
++          <Name lang="pl">Dzieciństwo</Name>
++        </AverageAgeOfOnset>
++      </AverageAgeOfOnsetList>
++      <TypeOfInheritanceList count="0">
++      </TypeOfInheritanceList>
++    </Disorder>
+     <Disorder id="31372">
+       <OrphaCode>617919</OrphaCode>
+       <ExpertLink lang="pl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=pl&amp;Expert=617919</ExpertLink>
