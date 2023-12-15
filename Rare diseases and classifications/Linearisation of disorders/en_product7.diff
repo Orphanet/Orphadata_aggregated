@@ -1,0 +1,3374 @@
+commit 481d14fea17f62fcae7251f3673242ec271b28fa
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Dec 4 20:10:24 2023 +0100
+
+    DEC 2023
+
+diff --git a/Rare diseases and classifications/Linearisation of disorders/en_product7.xml b/Rare diseases and classifications/Linearisation of disorders/en_product7.xml
+index 1b9627c..6905c25 100644
+--- a/Rare diseases and classifications/Linearisation of disorders/en_product7.xml	
++++ b/Rare diseases and classifications/Linearisation of disorders/en_product7.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2023-06-22 14:15:44" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2023-12-04 08:17:43" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="9479">
++  <DisorderList count="9514">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166024</ExpertLink>
+@@ -1317,34 +1317,34 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="55">
+-      <OrphaCode>262</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=262</ExpertLink>
+-      <Name lang="en">Duchenne and Becker muscular dystrophy</Name>
++    <Disorder id="17654">
++      <OrphaCode>166478</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166478</ExpertLink>
++      <Name lang="en">Cerebral malformation with epilepsy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+             <OrphaCode>98006</OrphaCode>
+             <Name lang="en">Rare neurologic disease</Name>
+           </TargetDisorder>
+-          <RootDisorder id="55" cycle="true"/>
++          <RootDisorder id="17654" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="17654">
+-      <OrphaCode>166478</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=166478</ExpertLink>
+-      <Name lang="en">Cerebral malformation with epilepsy</Name>
++    <Disorder id="55">
++      <OrphaCode>262</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=262</ExpertLink>
++      <Name lang="en">Duchenne and Becker muscular dystrophy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+             <OrphaCode>98006</OrphaCode>
+             <Name lang="en">Rare neurologic disease</Name>
+           </TargetDisorder>
+-          <RootDisorder id="17654" cycle="true"/>
++          <RootDisorder id="55" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+@@ -3165,7 +3165,7 @@
+     <Disorder id="173">
+       <OrphaCode>394</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=394</ExpertLink>
+-      <Name lang="en">Classic homocystinuria</Name>
++      <Name lang="en">Homocystinuria due to cystathionine beta-synthase deficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10507">
+@@ -6344,7 +6344,7 @@
+     <Disorder id="367">
+       <OrphaCode>610</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=610</ExpertLink>
+-      <Name lang="en">Bethlem myopathy</Name>
++      <Name lang="en">Bethlem muscular dystrophy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+@@ -9588,23 +9588,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="543">
+-      <OrphaCode>587</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=587</ExpertLink>
+-      <Name lang="en">Muir-Torre syndrome</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="19592">
+-            <OrphaCode>250908</OrphaCode>
+-            <Name lang="en">Rare neoplastic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="543" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="542">
+       <OrphaCode>570</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=570</ExpertLink>
+@@ -15711,7 +15694,7 @@
+     <Disorder id="839">
+       <OrphaCode>2314</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2314</ExpertLink>
+-      <Name lang="en">Autosomal dominant hyper-IgE syndrome</Name>
++      <Name lang="en">Autosomal dominant hyper-IgE syndrome due to STAT3 deficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13022">
+@@ -19873,23 +19856,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="1270">
+-      <OrphaCode>1795</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1795</ExpertLink>
+-      <Name lang="en">Peripheral dysostosis</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="12333">
+-            <OrphaCode>93419</OrphaCode>
+-            <Name lang="en">Rare bone disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="1270" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="1268">
+       <OrphaCode>37</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=37</ExpertLink>
+@@ -21491,7 +21457,7 @@
+     <Disorder id="16894">
+       <OrphaCode>139431</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=139431</ExpertLink>
+-      <Name lang="en">Jeavons syndrome</Name>
++      <Name lang="en">Epilepsy with eyelid myoclonia</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+@@ -33017,7 +32983,7 @@
+     <Disorder id="2188">
+       <OrphaCode>2337</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2337</ExpertLink>
+-      <Name lang="en">Non-epidermolytic palmoplantar keratoderma</Name>
++      <Name lang="en">Diffuse palmoplantar keratoderma, Bothnian type</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11896">
+@@ -35737,7 +35703,7 @@
+     <Disorder id="19696">
+       <OrphaCode>251919</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251919</ExpertLink>
+-      <Name lang="en">Pineal parenchymal tumor of intermediate differenciation</Name>
++      <Name lang="en">Pineal parenchymal tumor of intermediate differentiation</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="19592">
+@@ -36295,23 +36261,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="19687">
+-      <OrphaCode>251883</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251883</ExpertLink>
+-      <Name lang="en">Medulloepithelioma of the central nervous system</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="19592">
+-            <OrphaCode>250908</OrphaCode>
+-            <Name lang="en">Rare neoplastic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19687" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="2087">
+       <OrphaCode>2206</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2206</ExpertLink>
+@@ -36329,23 +36278,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="19686">
+-      <OrphaCode>251880</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=251880</ExpertLink>
+-      <Name lang="en">Ependymoblastoma</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="19592">
+-            <OrphaCode>250908</OrphaCode>
+-            <Name lang="en">Rare neoplastic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19686" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="2084">
+       <OrphaCode>2201</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2201</ExpertLink>
+@@ -37353,7 +37285,7 @@
+       <OrphaCode>250908</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=250908</ExpertLink>
+       <Name lang="en">Rare neoplastic disease</Name>
+-      <DisorderDisorderAssociationList count="731">
++      <DisorderDisorderAssociationList count="732">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="19592" cycle="true"/>
+           <RootDisorder id="99">
+@@ -37394,16 +37326,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="19592" cycle="true"/>
+-          <RootDisorder id="543">
+-            <OrphaCode>587</OrphaCode>
+-            <Name lang="en">Muir-Torre syndrome</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="19592" cycle="true"/>
+           <RootDisorder id="548">
+@@ -39598,7 +39520,7 @@
+           <TargetDisorder id="19592" cycle="true"/>
+           <RootDisorder id="14485">
+             <OrphaCode>99912</OrphaCode>
+-            <Name lang="en">Malignant dysgerminomatous germ cell tumor of the ovary</Name>
++            <Name lang="en">Ovarian dysgerminoma</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -39628,7 +39550,7 @@
+           <TargetDisorder id="19592" cycle="true"/>
+           <RootDisorder id="14488">
+             <OrphaCode>99915</OrphaCode>
+-            <Name lang="en">Maligant granulosa cell tumor of the ovary</Name>
++            <Name lang="en">Malignant granulosa cell tumor of the ovary</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -41844,26 +41766,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="19592" cycle="true"/>
+-          <RootDisorder id="19686">
+-            <OrphaCode>251880</OrphaCode>
+-            <Name lang="en">Ependymoblastoma</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="19592" cycle="true"/>
+-          <RootDisorder id="19687">
+-            <OrphaCode>251883</OrphaCode>
+-            <Name lang="en">Medulloepithelioma of the central nervous system</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="19592" cycle="true"/>
+           <RootDisorder id="19689">
+@@ -41938,7 +41840,7 @@
+           <TargetDisorder id="19592" cycle="true"/>
+           <RootDisorder id="19696">
+             <OrphaCode>251919</OrphaCode>
+-            <Name lang="en">Pineal parenchymal tumor of intermediate differenciation</Name>
++            <Name lang="en">Pineal parenchymal tumor of intermediate differentiation</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -44664,6 +44566,46 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592" cycle="true"/>
++          <RootDisorder id="31899">
++            <OrphaCode>652650</OrphaCode>
++            <Name lang="en">Nodal T-follicular helper cell lymphoma, follicular type</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592" cycle="true"/>
++          <RootDisorder id="31900">
++            <OrphaCode>652658</OrphaCode>
++            <Name lang="en">Monomorphic epitheliotropic intestinal T-cell lymphoma</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592" cycle="true"/>
++          <RootDisorder id="31929">
++            <OrphaCode>656417</OrphaCode>
++            <Name lang="en">Embryonal tumor with multilayered rosettes</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592" cycle="true"/>
++          <RootDisorder id="31939">
++            <OrphaCode>658590</OrphaCode>
++            <Name lang="en">Eyelid sebaceous carcinoma</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="2122">
+@@ -50228,7 +50170,7 @@
+     <Disorder id="19856">
+       <OrphaCode>261190</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=261190</ExpertLink>
+-      <Name lang="en">15q14 microdeletion syndrome</Name>
++      <Name lang="en">Cleft palate-congenital heart defect-intellectual disability syndrome due to 15q14 microdeletion</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12469">
+@@ -63825,34 +63767,34 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="3188">
+-      <OrphaCode>1779</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1779</ExpertLink>
+-      <Name lang="en">Dysmorphism-cleft palate-loose skin syndrome</Name>
++    <Disorder id="18613">
++      <OrphaCode>208650</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=208650</ExpertLink>
++      <Name lang="en">NLRP3-associated autoinflammatory disease</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="12469">
+-            <OrphaCode>93890</OrphaCode>
+-            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
+           </TargetDisorder>
+-          <RootDisorder id="3188" cycle="true"/>
++          <RootDisorder id="18613" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="18613">
+-      <OrphaCode>208650</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=208650</ExpertLink>
+-      <Name lang="en">Cryopyrin-associated periodic syndrome</Name>
++    <Disorder id="3188">
++      <OrphaCode>1779</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1779</ExpertLink>
++      <Name lang="en">Dysmorphism-cleft palate-loose skin syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="13041">
+-            <OrphaCode>98023</OrphaCode>
+-            <Name lang="en">Rare systemic or rheumatologic disease</Name>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
+           </TargetDisorder>
+-          <RootDisorder id="18613" cycle="true"/>
++          <RootDisorder id="3188" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+@@ -65528,7 +65470,7 @@
+     <Disorder id="3521">
+       <OrphaCode>3240</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3240</ExpertLink>
+-      <Name lang="en">Central nervous system calcification-deafness-tubular acidosis-anemia syndrome</Name>
++      <Name lang="en">Early-onset progressive leukoencephalopathy-central nervous system calcification-deafness-visual impairment syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12469">
+@@ -68214,7 +68156,7 @@
+     <Disorder id="3399">
+       <OrphaCode>2330</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2330</ExpertLink>
+-      <Name lang="en">Kasabach-Merritt syndrome</Name>
++      <Name lang="en">Kasabach-Merritt phenomenon</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13010">
+@@ -69744,7 +69686,7 @@
+     <Disorder id="18885">
+       <OrphaCode>217656</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217656</ExpertLink>
+-      <Name lang="en">Familial isolated arrhythmogenic right ventricular dysplasia</Name>
++      <Name lang="en">Inherited isolated arrhythmogenic cardiomyopathy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948">
+@@ -72158,7 +72100,7 @@
+     <Disorder id="3704">
+       <OrphaCode>132</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=132</ExpertLink>
+-      <Name lang="en">Butyrylcholinesterase deficiency</Name>
++      <Name lang="en">Hereditary butyrylcholinesterase deficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10507">
+@@ -72393,74 +72335,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="19115">
+-      <OrphaCode>228366</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228366</ExpertLink>
+-      <Name lang="en">CLN7 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19115" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19114">
+-      <OrphaCode>228363</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228363</ExpertLink>
+-      <Name lang="en">CLN6 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19114" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19113">
+-      <OrphaCode>228360</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228360</ExpertLink>
+-      <Name lang="en">CLN5 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19113" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19112">
+-      <OrphaCode>228357</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228357</ExpertLink>
+-      <Name lang="en">CLN9 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19112" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="19119">
+       <OrphaCode>228384</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228384</ExpertLink>
+@@ -72529,125 +72403,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="19107">
+-      <OrphaCode>228340</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228340</ExpertLink>
+-      <Name lang="en">CLN4A disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19107" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19106">
+-      <OrphaCode>228337</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228337</ExpertLink>
+-      <Name lang="en">CLN10 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19106" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19105">
+-      <OrphaCode>228329</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228329</ExpertLink>
+-      <Name lang="en">CLN1 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19105" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19111">
+-      <OrphaCode>228354</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228354</ExpertLink>
+-      <Name lang="en">CLN8 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19111" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19110">
+-      <OrphaCode>228349</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228349</ExpertLink>
+-      <Name lang="en">CLN2 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19110" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19109">
+-      <OrphaCode>228346</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228346</ExpertLink>
+-      <Name lang="en">CLN3 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19109" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+-    <Disorder id="19108">
+-      <OrphaCode>228343</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228343</ExpertLink>
+-      <Name lang="en">CLN4B disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="19108" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="19096">
+       <OrphaCode>228290</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228290</ExpertLink>
+@@ -74110,23 +73865,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="3611">
+-      <OrphaCode>2194</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2194</ExpertLink>
+-      <Name lang="en">Anti-HLA hyperimmunization</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13022">
+-            <OrphaCode>98004</OrphaCode>
+-            <Name lang="en">Rare immune disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="3611" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="19163">
+       <OrphaCode>231147</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=231147</ExpertLink>
+@@ -80264,23 +80002,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="21505">
+-      <OrphaCode>314629</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314629</ExpertLink>
+-      <Name lang="en">CLN11 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="21505" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="21504">
+       <OrphaCode>314621</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314621</ExpertLink>
+@@ -83293,7 +83014,7 @@
+     <Disorder id="22219">
+       <OrphaCode>357237</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357237</ExpertLink>
+-      <Name lang="en">Severe combined immunodeficiency due to CARD11 deficiency</Name>
++      <Name lang="en">Combined immunodeficiency due to CARD11 deficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13022">
+@@ -83868,23 +83589,6 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="22104">
+-      <OrphaCode>352709</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352709</ExpertLink>
+-      <Name lang="en">CLN13 disease</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024">
+-            <OrphaCode>98006</OrphaCode>
+-            <Name lang="en">Rare neurologic disease</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="22104" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="22105">
+       <OrphaCode>352712</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352712</ExpertLink>
+@@ -84993,7 +84697,7 @@
+     <Disorder id="20888">
+       <OrphaCode>293910</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293910</ExpertLink>
+-      <Name lang="en">Familial isolated arrhythmogenic ventricular dysplasia, right dominant form</Name>
++      <Name lang="en">Inherited isolated arrhythmogenic cardiomyopathy, dominant-right variant</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948">
+@@ -85010,7 +84714,7 @@
+     <Disorder id="20887">
+       <OrphaCode>293899</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293899</ExpertLink>
+-      <Name lang="en">Familial isolated arrhythmogenic ventricular dysplasia, biventricular form</Name>
++      <Name lang="en">Inherited isolated arrhythmogenic ventricular dysplasia, biventricular variant</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948">
+@@ -85027,7 +84731,7 @@
+     <Disorder id="20886">
+       <OrphaCode>293888</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293888</ExpertLink>
+-      <Name lang="en">Familial isolated arrhythmogenic ventricular dysplasia, left dominant form</Name>
++      <Name lang="en">Inherited isolated arrhythmogenic cardiomyopathy, dominant-left variant</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948">
+@@ -92252,7 +91956,7 @@
+     <Disorder id="21357">
+       <OrphaCode>309185</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=309185</ExpertLink>
+-      <Name lang="en">Tay-Sachs disease, B variant, juvenile form</Name>
++      <Name lang="en">Tay-Sachs disease, juvenile form</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10507">
+@@ -92269,7 +91973,7 @@
+     <Disorder id="21356">
+       <OrphaCode>309178</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=309178</ExpertLink>
+-      <Name lang="en">Tay-Sachs disease, B variant, infantile form</Name>
++      <Name lang="en">Tay-Sachs disease, infantile form</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10507">
+@@ -92283,27 +91987,10 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+-    <Disorder id="21359">
+-      <OrphaCode>309239</OrphaCode>
+-      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=309239</ExpertLink>
+-      <Name lang="en">Tay-Sachs disease, B1 variant</Name>
+-      <DisorderDisorderAssociationList count="1">
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="10507">
+-            <OrphaCode>68367</OrphaCode>
+-            <Name lang="en">Rare inborn errors of metabolism</Name>
+-          </TargetDisorder>
+-          <RootDisorder id="21359" cycle="true"/>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-      </DisorderDisorderAssociationList>
+-    </Disorder>
+     <Disorder id="21358">
+       <OrphaCode>309192</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=309192</ExpertLink>
+-      <Name lang="en">Tay-Sachs disease, B variant, adult form</Name>
++      <Name lang="en">Tay-Sachs disease, adult form</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10507">
+@@ -93306,7 +92993,7 @@
+     <Disorder id="21236">
+       <OrphaCode>306577</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=306577</ExpertLink>
+-      <Name lang="en">Sodium channelopathy-related small fiber neuropathy</Name>
++      <Name lang="en">Hereditary sodium channelopathy-related small fibers neuropathy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+@@ -96383,7 +96070,7 @@
+     <Disorder id="7030">
+       <OrphaCode>1303</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1303</ExpertLink>
+-      <Name lang="en">Bronchiolitis obliterans with obstructive pulmonary disease</Name>
++      <Name lang="en">Bronchiolitis obliterans</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12974">
+@@ -99664,7 +99351,7 @@
+     <Disorder id="22612">
+       <OrphaCode>391372</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=391372</ExpertLink>
+-      <Name lang="en">Intellectual disability-severe speech delay-mild dysmorphism syndrome</Name>
++      <Name lang="en">FOXP1 Syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+@@ -102506,9 +102193,9 @@
+       <Name lang="en">Placental insufficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="12948">
+-            <OrphaCode>97929</OrphaCode>
+-            <Name lang="en">Rare cardiac disease</Name>
++          <TargetDisorder id="12845">
++            <OrphaCode>96344</OrphaCode>
++            <Name lang="en">Rare gynecologic or obstetric disease</Name>
+           </TargetDisorder>
+           <RootDisorder id="23376" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+@@ -104067,7 +103754,7 @@
+     <Disorder id="23534">
+       <OrphaCode>447737</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447737</ExpertLink>
+-      <Name lang="en">DOCK2 deficiency</Name>
++      <Name lang="en">Combined immunodeficiency due to DOCK2 deficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13022">
+@@ -109371,7 +109058,7 @@
+     <Disorder id="26077">
+       <OrphaCode>502430</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=502430</ExpertLink>
+-      <Name lang="en">Metopic ridging-ptosis-facial dysmorphism syndrome</Name>
++      <Name lang="en">Weiss-Kruszka Syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12469">
+@@ -110850,7 +110537,7 @@
+     <Disorder id="8591">
+       <OrphaCode>247</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247</ExpertLink>
+-      <Name lang="en">Arrhythmogenic right ventricular cardiomyopathy</Name>
++      <Name lang="en">Inherited arrhythmogenic cardiomyopathy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948">
+@@ -117697,7 +117384,7 @@
+           <TargetDisorder id="10772" cycle="true"/>
+           <RootDisorder id="31841">
+             <OrphaCode>648562</OrphaCode>
+-            <Name lang="en">Ferroportin Disease</Name>
++            <Name lang="en">Ferroportin disease</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -121276,7 +120963,7 @@
+     <Disorder id="11094">
+       <OrphaCode>75840</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=75840</ExpertLink>
+-      <Name lang="en">Congenital muscular dystrophy, Ullrich type</Name>
++      <Name lang="en">Ullrich congenital muscular dystrophy</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024">
+@@ -123774,6 +123461,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="10331">
++      <OrphaCode>34145</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=34145</ExpertLink>
++      <Name lang="en">Immunoglobulin A nephropathy</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12456">
++            <OrphaCode>93626</OrphaCode>
++            <Name lang="en">Rare renal disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="10331" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="10330">
+       <OrphaCode>33577</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=33577</ExpertLink>
+@@ -127144,7 +126848,7 @@
+       <OrphaCode>68367</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=68367</ExpertLink>
+       <Name lang="en">Rare inborn errors of metabolism</Name>
+-      <DisorderDisorderAssociationList count="692">
++      <DisorderDisorderAssociationList count="693">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10507" cycle="true"/>
+           <RootDisorder id="3">
+@@ -127409,7 +127113,7 @@
+           <TargetDisorder id="10507" cycle="true"/>
+           <RootDisorder id="173">
+             <OrphaCode>394</OrphaCode>
+-            <Name lang="en">Classic homocystinuria</Name>
++            <Name lang="en">Homocystinuria due to cystathionine beta-synthase deficiency</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -128669,7 +128373,7 @@
+           <TargetDisorder id="10507" cycle="true"/>
+           <RootDisorder id="3704">
+             <OrphaCode>132</OrphaCode>
+-            <Name lang="en">Butyrylcholinesterase deficiency</Name>
++            <Name lang="en">Hereditary butyrylcholinesterase deficiency</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -132249,7 +131953,7 @@
+           <TargetDisorder id="10507" cycle="true"/>
+           <RootDisorder id="21356">
+             <OrphaCode>309178</OrphaCode>
+-            <Name lang="en">Tay-Sachs disease, B variant, infantile form</Name>
++            <Name lang="en">Tay-Sachs disease, infantile form</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -132259,7 +131963,7 @@
+           <TargetDisorder id="10507" cycle="true"/>
+           <RootDisorder id="21357">
+             <OrphaCode>309185</OrphaCode>
+-            <Name lang="en">Tay-Sachs disease, B variant, juvenile form</Name>
++            <Name lang="en">Tay-Sachs disease, juvenile form</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -132269,17 +131973,7 @@
+           <TargetDisorder id="10507" cycle="true"/>
+           <RootDisorder id="21358">
+             <OrphaCode>309192</OrphaCode>
+-            <Name lang="en">Tay-Sachs disease, B variant, adult form</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="10507" cycle="true"/>
+-          <RootDisorder id="21359">
+-            <OrphaCode>309239</OrphaCode>
+-            <Name lang="en">Tay-Sachs disease, B1 variant</Name>
++            <Name lang="en">Tay-Sachs disease, adult form</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -134065,6 +133759,26 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10507" cycle="true"/>
++          <RootDisorder id="31914">
++            <OrphaCode>653880</OrphaCode>
++            <Name lang="en">Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10507" cycle="true"/>
++          <RootDisorder id="31946">
++            <OrphaCode>658813</OrphaCode>
++            <Name lang="en">Methylenetetrahydrofolate dehydrogenase 1 deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="28106">
+@@ -134411,7 +134125,7 @@
+       <OrphaCode>68416</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=68416</ExpertLink>
+       <Name lang="en">Rare infectious disease</Name>
+-      <DisorderDisorderAssociationList count="207">
++      <DisorderDisorderAssociationList count="210">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10557" cycle="true"/>
+           <RootDisorder id="32">
+@@ -136366,7 +136080,7 @@
+           <TargetDisorder id="10557" cycle="true"/>
+           <RootDisorder id="30484">
+             <OrphaCode>600832</OrphaCode>
+-            <Name lang="en">Legionellosis</Name>
++            <Name lang="en">Legionella infection</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -136482,6 +136196,36 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10557" cycle="true"/>
++          <RootDisorder id="31948">
++            <OrphaCode>658909</OrphaCode>
++            <Name lang="en">Fasciolopsiasis</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10557" cycle="true"/>
++          <RootDisorder id="31949">
++            <OrphaCode>658913</OrphaCode>
++            <Name lang="en">Paragonimiasis</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10557" cycle="true"/>
++          <RootDisorder id="31950">
++            <OrphaCode>658917</OrphaCode>
++            <Name lang="en">Clonorchiasis</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="10556">
+@@ -140534,7 +140278,7 @@
+       <OrphaCode>89826</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=89826</ExpertLink>
+       <Name lang="en">Rare skin disease</Name>
+-      <DisorderDisorderAssociationList count="560">
++      <DisorderDisorderAssociationList count="559">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11896" cycle="true"/>
+           <RootDisorder id="23">
+@@ -140989,7 +140733,7 @@
+           <TargetDisorder id="11896" cycle="true"/>
+           <RootDisorder id="2188">
+             <OrphaCode>2337</OrphaCode>
+-            <Name lang="en">Non-epidermolytic palmoplantar keratoderma</Name>
++            <Name lang="en">Diffuse palmoplantar keratoderma, Bothnian type</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -146065,16 +145809,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="11896" cycle="true"/>
+-          <RootDisorder id="31458">
+-            <OrphaCode>622720</OrphaCode>
+-            <Name lang="en">Genetic autoinflammatory syndrome with skin involvement</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11896" cycle="true"/>
+           <RootDisorder id="31459">
+@@ -146107,9 +145841,9 @@
+         </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11896" cycle="true"/>
+-          <RootDisorder id="31720">
+-            <OrphaCode>641380</OrphaCode>
+-            <Name lang="en">PAPASH syndrome</Name>
++          <RootDisorder id="31918">
++            <OrphaCode>656071</OrphaCode>
++            <Name lang="en">Atrophic papulosis</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -146117,9 +145851,9 @@
+         </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11896" cycle="true"/>
+-          <RootDisorder id="31721">
+-            <OrphaCode>641385</OrphaCode>
+-            <Name lang="en">PASS syndrome</Name>
++          <RootDisorder id="31919">
++            <OrphaCode>656085</OrphaCode>
++            <Name lang="en">Benign atrophic papulosis</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -146127,9 +145861,9 @@
+         </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="11896" cycle="true"/>
+-          <RootDisorder id="31722">
+-            <OrphaCode>641390</OrphaCode>
+-            <Name lang="en">PsAPASH syndrome</Name>
++          <RootDisorder id="31945">
++            <OrphaCode>658810</OrphaCode>
++            <Name lang="en">Atrophoderma of Pasini and Pierini</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -157389,7 +157123,7 @@
+     <Disorder id="30484">
+       <OrphaCode>600832</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=600832</ExpertLink>
+-      <Name lang="en">Legionellosis</Name>
++      <Name lang="en">Legionella infection</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10557">
+@@ -159260,7 +158994,7 @@
+       <OrphaCode>96344</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96344</ExpertLink>
+       <Name lang="en">Rare gynecologic or obstetric disease</Name>
+-      <DisorderDisorderAssociationList count="30">
++      <DisorderDisorderAssociationList count="32">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12845" cycle="true"/>
+           <RootDisorder id="2270">
+@@ -159441,6 +159175,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12845" cycle="true"/>
++          <RootDisorder id="23376">
++            <OrphaCode>439167</OrphaCode>
++            <Name lang="en">Placental insufficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12845" cycle="true"/>
+           <RootDisorder id="23616">
+@@ -159561,6 +159305,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12845" cycle="true"/>
++          <RootDisorder id="31906">
++            <OrphaCode>653698</OrphaCode>
++            <Name lang="en">Lymphocytic mastitis</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="12846">
+@@ -163545,7 +163299,7 @@
+       <OrphaCode>98004</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98004</ExpertLink>
+       <Name lang="en">Rare immune disease</Name>
+-      <DisorderDisorderAssociationList count="234">
++      <DisorderDisorderAssociationList count="240">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13022" cycle="true"/>
+           <RootDisorder id="142">
+@@ -163660,7 +163414,7 @@
+           <TargetDisorder id="13022" cycle="true"/>
+           <RootDisorder id="839">
+             <OrphaCode>2314</OrphaCode>
+-            <Name lang="en">Autosomal dominant hyper-IgE syndrome</Name>
++            <Name lang="en">Autosomal dominant hyper-IgE syndrome due to STAT3 deficiency</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -163786,16 +163540,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13022" cycle="true"/>
+-          <RootDisorder id="3611">
+-            <OrphaCode>2194</OrphaCode>
+-            <Name lang="en">Anti-HLA hyperimmunization</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13022" cycle="true"/>
+           <RootDisorder id="3615">
+@@ -165340,7 +165084,7 @@
+           <TargetDisorder id="13022" cycle="true"/>
+           <RootDisorder id="22219">
+             <OrphaCode>357237</OrphaCode>
+-            <Name lang="en">Severe combined immunodeficiency due to CARD11 deficiency</Name>
++            <Name lang="en">Combined immunodeficiency due to CARD11 deficiency</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -165600,7 +165344,7 @@
+           <TargetDisorder id="13022" cycle="true"/>
+           <RootDisorder id="23534">
+             <OrphaCode>447737</OrphaCode>
+-            <Name lang="en">DOCK2 deficiency</Name>
++            <Name lang="en">Combined immunodeficiency due to DOCK2 deficiency</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -165870,7 +165614,7 @@
+           <TargetDisorder id="13022" cycle="true"/>
+           <RootDisorder id="31716">
+             <OrphaCode>641368</OrphaCode>
+-            <Name lang="en">Autosomal recessive hyper-IgE syndrome</Name>
++            <Name lang="en">Autosomal recessive hyper-IgE syndrome due to ZNF341 deficiency</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -165886,6 +165630,76 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31912">
++            <OrphaCode>653751</OrphaCode>
++            <Name lang="en">X-linked combined immunodeficiency due to SASH3 deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31926">
++            <OrphaCode>656300</OrphaCode>
++            <Name lang="en">Autosomal recessive combined immunodeficiency due to partial IL6ST deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31927">
++            <OrphaCode>656313</OrphaCode>
++            <Name lang="en">Autosomal dominant combined immunodeficiency due to partial IL6ST deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31928">
++            <OrphaCode>656326</OrphaCode>
++            <Name lang="en">Autosomal recessive combined immunodeficiency due to IL6R deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31932">
++            <OrphaCode>656912</OrphaCode>
++            <Name lang="en">Autosomal dominant combined immunodeficiency due to ERBIN deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31951">
++            <OrphaCode>658946</OrphaCode>
++            <Name lang="en">Early-onset autoimmune disorder due to DOCK11 partial deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022" cycle="true"/>
++          <RootDisorder id="31952">
++            <OrphaCode>658951</OrphaCode>
++            <Name lang="en">Early-onset immune dysregulation due to DOCK11 complete deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="13010">
+@@ -166257,7 +166071,7 @@
+           <TargetDisorder id="13010" cycle="true"/>
+           <RootDisorder id="3399">
+             <OrphaCode>2330</OrphaCode>
+-            <Name lang="en">Kasabach-Merritt syndrome</Name>
++            <Name lang="en">Kasabach-Merritt phenomenon</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -168839,7 +168653,7 @@
+       <OrphaCode>98006</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98006</ExpertLink>
+       <Name lang="en">Rare neurologic disease</Name>
+-      <DisorderDisorderAssociationList count="1558">
++      <DisorderDisorderAssociationList count="1552">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="2">
+@@ -169224,7 +169038,7 @@
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="367">
+             <OrphaCode>610</OrphaCode>
+-            <Name lang="en">Bethlem myopathy</Name>
++            <Name lang="en">Bethlem muscular dystrophy</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -171794,7 +171608,7 @@
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="11094">
+             <OrphaCode>75840</OrphaCode>
+-            <Name lang="en">Congenital muscular dystrophy, Ullrich type</Name>
++            <Name lang="en">Ullrich congenital muscular dystrophy</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -175104,7 +174918,7 @@
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="16894">
+             <OrphaCode>139431</OrphaCode>
+-            <Name lang="en">Jeavons syndrome</Name>
++            <Name lang="en">Epilepsy with eyelid myoclonia</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -177920,116 +177734,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19105">
+-            <OrphaCode>228329</OrphaCode>
+-            <Name lang="en">CLN1 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19106">
+-            <OrphaCode>228337</OrphaCode>
+-            <Name lang="en">CLN10 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19107">
+-            <OrphaCode>228340</OrphaCode>
+-            <Name lang="en">CLN4A disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19108">
+-            <OrphaCode>228343</OrphaCode>
+-            <Name lang="en">CLN4B disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19109">
+-            <OrphaCode>228346</OrphaCode>
+-            <Name lang="en">CLN3 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19110">
+-            <OrphaCode>228349</OrphaCode>
+-            <Name lang="en">CLN2 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19111">
+-            <OrphaCode>228354</OrphaCode>
+-            <Name lang="en">CLN8 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19112">
+-            <OrphaCode>228357</OrphaCode>
+-            <Name lang="en">CLN9 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19113">
+-            <OrphaCode>228360</OrphaCode>
+-            <Name lang="en">CLN5 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19114">
+-            <OrphaCode>228363</OrphaCode>
+-            <Name lang="en">CLN6 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="19115">
+-            <OrphaCode>228366</OrphaCode>
+-            <Name lang="en">CLN7 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="19117">
+@@ -179174,7 +178878,7 @@
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="21236">
+             <OrphaCode>306577</OrphaCode>
+-            <Name lang="en">Sodium channelopathy-related small fiber neuropathy</Name>
++            <Name lang="en">Hereditary sodium channelopathy-related small fibers neuropathy</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -179640,16 +179344,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="21505">
+-            <OrphaCode>314629</OrphaCode>
+-            <Name lang="en">CLN11 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="21506">
+@@ -180360,16 +180054,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="13024" cycle="true"/>
+-          <RootDisorder id="22104">
+-            <OrphaCode>352709</OrphaCode>
+-            <Name lang="en">CLN13 disease</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="22107">
+@@ -180954,7 +180638,7 @@
+           <TargetDisorder id="13024" cycle="true"/>
+           <RootDisorder id="22612">
+             <OrphaCode>391372</OrphaCode>
+-            <Name lang="en">Intellectual disability-severe speech delay-mild dysmorphism syndrome</Name>
++            <Name lang="en">FOXP1 Syndrome</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -184420,6 +184104,76 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31898">
++            <OrphaCode>652532</OrphaCode>
++            <Name lang="en">Adult-onset progressive leukoencephalopathy-early-onset deafness</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31910">
++            <OrphaCode>653725</OrphaCode>
++            <Name lang="en">Autosomal recessive limb-girdle muscular dystrophy, type 28</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31911">
++            <OrphaCode>653728</OrphaCode>
++            <Name lang="en">Congenital insensitivity to pain syndrome, Marsili type</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31923">
++            <OrphaCode>656273</OrphaCode>
++            <Name lang="en">Hypotonia-hypoventilation-intellectual disability-dysautonomia-epilepsy-eye abnormalities syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31924">
++            <OrphaCode>656279</OrphaCode>
++            <Name lang="en">1p36.33 duplication syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31935">
++            <OrphaCode>658549</OrphaCode>
++            <Name lang="en">Idiopathic small fibers neuropathy</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024" cycle="true"/>
++          <RootDisorder id="31943">
++            <OrphaCode>658778</OrphaCode>
++            <Name lang="en">COQ7-related distal hereditary motor neuropathy</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="30241">
+@@ -184477,7 +184231,7 @@
+       <OrphaCode>98036</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98036</ExpertLink>
+       <Name lang="en">Rare otorhinolaryngologic disease</Name>
+-      <DisorderDisorderAssociationList count="55">
++      <DisorderDisorderAssociationList count="57">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13054" cycle="true"/>
+           <RootDisorder id="183">
+@@ -184718,6 +184472,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13054" cycle="true"/>
++          <RootDisorder id="12511">
++            <OrphaCode>93953</OrphaCode>
++            <Name lang="en">Familial thyroglossal duct cyst</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13054" cycle="true"/>
+           <RootDisorder id="12545">
+@@ -185028,13 +184792,23 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13054" cycle="true"/>
++          <RootDisorder id="31903">
++            <OrphaCode>652681</OrphaCode>
++            <Name lang="en">Idiopathic subglottic stenosis</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="13041">
+       <OrphaCode>98023</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98023</ExpertLink>
+       <Name lang="en">Rare systemic or rheumatologic disease</Name>
+-      <DisorderDisorderAssociationList count="246">
++      <DisorderDisorderAssociationList count="254">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13041" cycle="true"/>
+           <RootDisorder id="109">
+@@ -186279,7 +186053,7 @@
+           <TargetDisorder id="13041" cycle="true"/>
+           <RootDisorder id="18613">
+             <OrphaCode>208650</OrphaCode>
+-            <Name lang="en">Cryopyrin-associated periodic syndrome</Name>
++            <Name lang="en">NLRP3-associated autoinflammatory disease</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -187455,6 +187229,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31458">
++            <OrphaCode>622720</OrphaCode>
++            <Name lang="en">Genetic autoinflammatory syndrome with skin involvement</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13041" cycle="true"/>
+           <RootDisorder id="31696">
+@@ -187465,6 +187249,36 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31720">
++            <OrphaCode>641380</OrphaCode>
++            <Name lang="en">PAPASH syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31721">
++            <OrphaCode>641385</OrphaCode>
++            <Name lang="en">PASS syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31722">
++            <OrphaCode>641390</OrphaCode>
++            <Name lang="en">PsAPASH syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13041" cycle="true"/>
+           <RootDisorder id="31784">
+@@ -187495,6 +187309,46 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31893">
++            <OrphaCode>652510</OrphaCode>
++            <Name lang="en">Genetic autoinflammatory syndrome with acne and/or hidradenitis suppurativa</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31896">
++            <OrphaCode>652522</OrphaCode>
++            <Name lang="en">Periodic fever-immunodeficiency-thrombocytopenia syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31905">
++            <OrphaCode>653434</OrphaCode>
++            <Name lang="en">Autoinflammatory syndrome with acne and/or hidradenitis suppurativa</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041" cycle="true"/>
++          <RootDisorder id="31938">
++            <OrphaCode>658584</OrphaCode>
++            <Name lang="en">Rowell syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="13040">
+@@ -189525,7 +189379,7 @@
+       <OrphaCode>97929</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97929</ExpertLink>
+       <Name lang="en">Rare cardiac disease</Name>
+-      <DisorderDisorderAssociationList count="81">
++      <DisorderDisorderAssociationList count="80">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="315">
+@@ -189640,7 +189494,7 @@
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="8591">
+             <OrphaCode>247</OrphaCode>
+-            <Name lang="en">Arrhythmogenic right ventricular cardiomyopathy</Name>
++            <Name lang="en">Inherited arrhythmogenic cardiomyopathy</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -190110,7 +189964,7 @@
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="18885">
+             <OrphaCode>217656</OrphaCode>
+-            <Name lang="en">Familial isolated arrhythmogenic right ventricular dysplasia</Name>
++            <Name lang="en">Inherited isolated arrhythmogenic cardiomyopathy</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -190190,7 +190044,7 @@
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="20886">
+             <OrphaCode>293888</OrphaCode>
+-            <Name lang="en">Familial isolated arrhythmogenic ventricular dysplasia, left dominant form</Name>
++            <Name lang="en">Inherited isolated arrhythmogenic cardiomyopathy, dominant-left variant</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -190200,7 +190054,7 @@
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="20887">
+             <OrphaCode>293899</OrphaCode>
+-            <Name lang="en">Familial isolated arrhythmogenic ventricular dysplasia, biventricular form</Name>
++            <Name lang="en">Inherited isolated arrhythmogenic ventricular dysplasia, biventricular variant</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -190210,7 +190064,7 @@
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="20888">
+             <OrphaCode>293910</OrphaCode>
+-            <Name lang="en">Familial isolated arrhythmogenic ventricular dysplasia, right dominant form</Name>
++            <Name lang="en">Inherited isolated arrhythmogenic cardiomyopathy, dominant-right variant</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -190266,16 +190120,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="12948" cycle="true"/>
+-          <RootDisorder id="23376">
+-            <OrphaCode>439167</OrphaCode>
+-            <Name lang="en">Placental insufficiency</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12948" cycle="true"/>
+           <RootDisorder id="23393">
+@@ -190359,7 +190203,7 @@
+       <OrphaCode>97955</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97955</ExpertLink>
+       <Name lang="en">Rare respiratory disease</Name>
+-      <DisorderDisorderAssociationList count="130">
++      <DisorderDisorderAssociationList count="131">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12974" cycle="true"/>
+           <RootDisorder id="49">
+@@ -190524,7 +190368,7 @@
+           <TargetDisorder id="12974" cycle="true"/>
+           <RootDisorder id="7030">
+             <OrphaCode>1303</OrphaCode>
+-            <Name lang="en">Bronchiolitis obliterans with obstructive pulmonary disease</Name>
++            <Name lang="en">Bronchiolitis obliterans</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -190780,16 +190624,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="12974" cycle="true"/>
+-          <RootDisorder id="12511">
+-            <OrphaCode>93953</OrphaCode>
+-            <Name lang="en">Familial thyroglossal duct cyst</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12974" cycle="true"/>
+           <RootDisorder id="13070">
+@@ -191660,6 +191494,26 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12974" cycle="true"/>
++          <RootDisorder id="31941">
++            <OrphaCode>658602</OrphaCode>
++            <Name lang="en">Transplant-related bronchiolitis obliterans</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12974" cycle="true"/>
++          <RootDisorder id="31942">
++            <OrphaCode>658612</OrphaCode>
++            <Name lang="en">Non-transplant-related bronchiolitis obliterans</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="12964">
+@@ -191700,7 +191554,7 @@
+       <OrphaCode>97966</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=97966</ExpertLink>
+       <Name lang="en">Rare ophthalmic disorder</Name>
+-      <DisorderDisorderAssociationList count="402">
++      <DisorderDisorderAssociationList count="403">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12984" cycle="true"/>
+           <RootDisorder id="155">
+@@ -195721,6 +195575,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12984" cycle="true"/>
++          <RootDisorder id="31907">
++            <OrphaCode>653709</OrphaCode>
++            <Name lang="en">Cone rod dystrophy-short stature syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="12980">
+@@ -199755,16 +199619,6 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
+-        <DisorderDisorderAssociation>
+-          <TargetDisorder id="12333" cycle="true"/>
+-          <RootDisorder id="1270">
+-            <OrphaCode>1795</OrphaCode>
+-            <Name lang="en">Peripheral dysostosis</Name>
+-          </RootDisorder>
+-          <DisorderDisorderAssociationType id="21485">
+-            <Name lang="en">Preferential parent</Name>
+-          </DisorderDisorderAssociationType>
+-        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12333" cycle="true"/>
+           <RootDisorder id="1276">
+@@ -203895,6 +203749,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12333" cycle="true"/>
++          <RootDisorder id="31925">
++            <OrphaCode>656283</OrphaCode>
++            <Name lang="en">Autosomal recessive combined immunodeficiency due to complete IL6ST deficiency</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="29932">
+@@ -204787,9 +204651,9 @@
+       <Name lang="en">Familial thyroglossal duct cyst</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="12974">
+-            <OrphaCode>97955</OrphaCode>
+-            <Name lang="en">Rare respiratory disease</Name>
++          <TargetDisorder id="13054">
++            <OrphaCode>98036</OrphaCode>
++            <Name lang="en">Rare otorhinolaryngologic disease</Name>
+           </TargetDisorder>
+           <RootDisorder id="12511" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+@@ -205023,7 +204887,7 @@
+       <OrphaCode>93626</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93626</ExpertLink>
+       <Name lang="en">Rare renal disease</Name>
+-      <DisorderDisorderAssociationList count="157">
++      <DisorderDisorderAssociationList count="159">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12456" cycle="true"/>
+           <RootDisorder id="97">
+@@ -205394,6 +205258,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12456" cycle="true"/>
++          <RootDisorder id="10331">
++            <OrphaCode>34145</OrphaCode>
++            <Name lang="en">Immunoglobulin A nephropathy</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12456" cycle="true"/>
+           <RootDisorder id="10332">
+@@ -206594,6 +206468,16 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12456" cycle="true"/>
++          <RootDisorder id="31909">
++            <OrphaCode>653722</OrphaCode>
++            <Name lang="en">Digenic Alport syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="12458">
+@@ -206736,7 +206620,7 @@
+       <OrphaCode>93890</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=93890</ExpertLink>
+       <Name lang="en">Rare developmental defect during embryogenesis</Name>
+-      <DisorderDisorderAssociationList count="2872">
++      <DisorderDisorderAssociationList count="2888">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="12469" cycle="true"/>
+           <RootDisorder id="44">
+@@ -216651,7 +216535,7 @@
+           <TargetDisorder id="12469" cycle="true"/>
+           <RootDisorder id="3521">
+             <OrphaCode>3240</OrphaCode>
+-            <Name lang="en">Central nervous system calcification-deafness-tubular acidosis-anemia syndrome</Name>
++            <Name lang="en">Early-onset progressive leukoencephalopathy-central nervous system calcification-deafness-visual impairment syndrome</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -226731,7 +226615,7 @@
+           <TargetDisorder id="12469" cycle="true"/>
+           <RootDisorder id="19856">
+             <OrphaCode>261190</OrphaCode>
+-            <Name lang="en">15q14 microdeletion syndrome</Name>
++            <Name lang="en">Cleft palate-congenital heart defect-intellectual disability syndrome due to 15q14 microdeletion</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -233341,7 +233225,7 @@
+           <TargetDisorder id="12469" cycle="true"/>
+           <RootDisorder id="26077">
+             <OrphaCode>502430</OrphaCode>
+-            <Name lang="en">Metopic ridging-ptosis-facial dysmorphism syndrome</Name>
++            <Name lang="en">Weiss-Kruszka Syndrome</Name>
+           </RootDisorder>
+           <DisorderDisorderAssociationType id="21485">
+             <Name lang="en">Preferential parent</Name>
+@@ -235457,6 +235341,166 @@
+             <Name lang="en">Preferential parent</Name>
+           </DisorderDisorderAssociationType>
+         </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31892">
++            <OrphaCode>652487</OrphaCode>
++            <Name lang="en">Developmental delay-overweight-facial dysmorphism-behavioral abnormalities syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31894">
++            <OrphaCode>652514</OrphaCode>
++            <Name lang="en">Cleft palate-congenital heart defect-intellectual disability syndrome due to MEIS2 mutation</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31895">
++            <OrphaCode>652519</OrphaCode>
++            <Name lang="en">Cleft palate-congenital heart defect-intellectual disability syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31897">
++            <OrphaCode>652528</OrphaCode>
++            <Name lang="en">Non-syndromic supernumerary kidneys</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31901">
++            <OrphaCode>652668</OrphaCode>
++            <Name lang="en">Primary superior vena cava aneurysm</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31902">
++            <OrphaCode>652678</OrphaCode>
++            <Name lang="en">Primary inferior vena cava aneurysm</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31908">
++            <OrphaCode>653712</OrphaCode>
++            <Name lang="en">CHD4-related neurodevelopmental disorder</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31913">
++            <OrphaCode>653767</OrphaCode>
++            <Name lang="en">Jansen-de Vries syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31920">
++            <OrphaCode>656126</OrphaCode>
++            <Name lang="en">Segmental spinal dysgenesis</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31921">
++            <OrphaCode>656130</OrphaCode>
++            <Name lang="en">PBX1-related congenital anomalies of kidney and urinary tract syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31922">
++            <OrphaCode>656135</OrphaCode>
++            <Name lang="en">Intellectual disability-cupped ears syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31933">
++            <OrphaCode>658540</OrphaCode>
++            <Name lang="en">16q22 deletion syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31937">
++            <OrphaCode>658574</OrphaCode>
++            <Name lang="en">Isolated pulmonary artery sling</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31940">
++            <OrphaCode>658595</OrphaCode>
++            <Name lang="en">DNMT3A-related microcephalic dwarfism</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31944">
++            <OrphaCode>658805</OrphaCode>
++            <Name lang="en">Greig cephalopolysyndactyly-contiguous gene syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469" cycle="true"/>
++          <RootDisorder id="31947">
++            <OrphaCode>658843</OrphaCode>
++            <Name lang="en">Developmental delay-ataxia-hypotonia-facial dysmorphism syndrome</Name>
++          </RootDisorder>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
+     <Disorder id="12426">
+@@ -251135,7 +251179,7 @@
+     <Disorder id="31841">
+       <OrphaCode>648562</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=648562</ExpertLink>
+-      <Name lang="en">Ferroportin Disease</Name>
++      <Name lang="en">Ferroportin disease</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="10772">
+@@ -251390,7 +251434,7 @@
+     <Disorder id="14488">
+       <OrphaCode>99915</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99915</ExpertLink>
+-      <Name lang="en">Maligant granulosa cell tumor of the ovary</Name>
++      <Name lang="en">Malignant granulosa cell tumor of the ovary</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="19592">
+@@ -251560,7 +251604,7 @@
+     <Disorder id="14485">
+       <OrphaCode>99912</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99912</ExpertLink>
+-      <Name lang="en">Malignant dysgerminomatous germ cell tumor of the ovary</Name>
++      <Name lang="en">Ovarian dysgerminoma</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="19592">
+@@ -251931,6 +251975,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31925">
++      <OrphaCode>656283</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656283</ExpertLink>
++      <Name lang="en">Autosomal recessive combined immunodeficiency due to complete IL6ST deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12333">
++            <OrphaCode>93419</OrphaCode>
++            <Name lang="en">Rare bone disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31925" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31924">
++      <OrphaCode>656279</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656279</ExpertLink>
++      <Name lang="en">1p36.33 duplication syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31924" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14453">
+       <OrphaCode>99880</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99880</ExpertLink>
+@@ -251948,6 +252026,108 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31927">
++      <OrphaCode>656313</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656313</ExpertLink>
++      <Name lang="en">Autosomal dominant combined immunodeficiency due to partial IL6ST deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31927" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31926">
++      <OrphaCode>656300</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656300</ExpertLink>
++      <Name lang="en">Autosomal recessive combined immunodeficiency due to partial IL6ST deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31926" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31921">
++      <OrphaCode>656130</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656130</ExpertLink>
++      <Name lang="en">PBX1-related congenital anomalies of kidney and urinary tract syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31921" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31920">
++      <OrphaCode>656126</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656126</ExpertLink>
++      <Name lang="en">Segmental spinal dysgenesis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31920" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31923">
++      <OrphaCode>656273</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656273</ExpertLink>
++      <Name lang="en">Hypotonia-hypoventilation-intellectual disability-dysautonomia-epilepsy-eye abnormalities syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31923" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31922">
++      <OrphaCode>656135</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656135</ExpertLink>
++      <Name lang="en">Intellectual disability-cupped ears syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31922" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14460">
+       <OrphaCode>99887</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99887</ExpertLink>
+@@ -251965,6 +252145,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31933">
++      <OrphaCode>658540</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658540</ExpertLink>
++      <Name lang="en">16q22 deletion syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31933" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31932">
++      <OrphaCode>656912</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656912</ExpertLink>
++      <Name lang="en">Autosomal dominant combined immunodeficiency due to ERBIN deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31932" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14462">
+       <OrphaCode>99889</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99889</ExpertLink>
+@@ -251982,6 +252196,57 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31935">
++      <OrphaCode>658549</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658549</ExpertLink>
++      <Name lang="en">Idiopathic small fibers neuropathy</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31935" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31929">
++      <OrphaCode>656417</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656417</ExpertLink>
++      <Name lang="en">Embryonal tumor with multilayered rosettes</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592">
++            <OrphaCode>250908</OrphaCode>
++            <Name lang="en">Rare neoplastic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31929" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31928">
++      <OrphaCode>656326</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656326</ExpertLink>
++      <Name lang="en">Autosomal recessive combined immunodeficiency due to IL6R deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31928" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14458">
+       <OrphaCode>99885</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99885</ExpertLink>
+@@ -252016,6 +252281,57 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31908">
++      <OrphaCode>653712</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653712</ExpertLink>
++      <Name lang="en">CHD4-related neurodevelopmental disorder</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31908" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31909">
++      <OrphaCode>653722</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653722</ExpertLink>
++      <Name lang="en">Digenic Alport syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12456">
++            <OrphaCode>93626</OrphaCode>
++            <Name lang="en">Rare renal disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31909" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31910">
++      <OrphaCode>653725</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653725</ExpertLink>
++      <Name lang="en">Autosomal recessive limb-girdle muscular dystrophy, type 28</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31910" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14438">
+       <OrphaCode>99865</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99865</ExpertLink>
+@@ -252033,6 +252349,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31911">
++      <OrphaCode>653728</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653728</ExpertLink>
++      <Name lang="en">Congenital insensitivity to pain syndrome, Marsili type</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31911" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14433">
+       <OrphaCode>99860</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99860</ExpertLink>
+@@ -252050,6 +252383,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31905">
++      <OrphaCode>653434</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653434</ExpertLink>
++      <Name lang="en">Autoinflammatory syndrome with acne and/or hidradenitis suppurativa</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31905" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31906">
++      <OrphaCode>653698</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653698</ExpertLink>
++      <Name lang="en">Lymphocytic mastitis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12845">
++            <OrphaCode>96344</OrphaCode>
++            <Name lang="en">Rare gynecologic or obstetric disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31906" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14434">
+       <OrphaCode>99861</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99861</ExpertLink>
+@@ -252067,6 +252434,57 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31907">
++      <OrphaCode>653709</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653709</ExpertLink>
++      <Name lang="en">Cone rod dystrophy-short stature syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12984">
++            <OrphaCode>97966</OrphaCode>
++            <Name lang="en">Rare ophthalmic disorder</Name>
++          </TargetDisorder>
++          <RootDisorder id="31907" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31918">
++      <OrphaCode>656071</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656071</ExpertLink>
++      <Name lang="en">Atrophic papulosis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="11896">
++            <OrphaCode>89826</OrphaCode>
++            <Name lang="en">Rare skin disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31918" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31919">
++      <OrphaCode>656085</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656085</ExpertLink>
++      <Name lang="en">Benign atrophic papulosis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="11896">
++            <OrphaCode>89826</OrphaCode>
++            <Name lang="en">Rare skin disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31919" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14441">
+       <OrphaCode>99868</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99868</ExpertLink>
+@@ -252084,6 +252502,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31912">
++      <OrphaCode>653751</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653751</ExpertLink>
++      <Name lang="en">X-linked combined immunodeficiency due to SASH3 deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31912" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14440">
+       <OrphaCode>99867</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99867</ExpertLink>
+@@ -252101,6 +252536,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31913">
++      <OrphaCode>653767</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653767</ExpertLink>
++      <Name lang="en">Jansen-de Vries syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31913" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31914">
++      <OrphaCode>653880</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653880</ExpertLink>
++      <Name lang="en">Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10507">
++            <OrphaCode>68367</OrphaCode>
++            <Name lang="en">Rare inborn errors of metabolism</Name>
++          </TargetDisorder>
++          <RootDisorder id="31914" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14442">
+       <OrphaCode>99869</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99869</ExpertLink>
+@@ -252118,6 +252587,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31895">
++      <OrphaCode>652519</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652519</ExpertLink>
++      <Name lang="en">Cleft palate-congenital heart defect-intellectual disability syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31895" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14422">
+       <OrphaCode>99849</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99849</ExpertLink>
+@@ -252135,6 +252621,57 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31894">
++      <OrphaCode>652514</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652514</ExpertLink>
++      <Name lang="en">Cleft palate-congenital heart defect-intellectual disability syndrome due to MEIS2 mutation</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31894" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31893">
++      <OrphaCode>652510</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652510</ExpertLink>
++      <Name lang="en">Genetic autoinflammatory syndrome with acne and/or hidradenitis suppurativa</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31893" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31892">
++      <OrphaCode>652487</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652487</ExpertLink>
++      <Name lang="en">Developmental delay-overweight-facial dysmorphism-behavioral abnormalities syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31892" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14418">
+       <OrphaCode>99845</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99845</ExpertLink>
+@@ -252271,6 +252808,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31903">
++      <OrphaCode>652681</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652681</ExpertLink>
++      <Name lang="en">Idiopathic subglottic stenosis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13054">
++            <OrphaCode>98036</OrphaCode>
++            <Name lang="en">Rare otorhinolaryngologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31903" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31902">
++      <OrphaCode>652678</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652678</ExpertLink>
++      <Name lang="en">Primary inferior vena cava aneurysm</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31902" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14431">
+       <OrphaCode>99858</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99858</ExpertLink>
+@@ -252288,6 +252859,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31901">
++      <OrphaCode>652668</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652668</ExpertLink>
++      <Name lang="en">Primary superior vena cava aneurysm</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31901" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14429">
+       <OrphaCode>99856</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99856</ExpertLink>
+@@ -252305,6 +252893,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31900">
++      <OrphaCode>652658</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652658</ExpertLink>
++      <Name lang="en">Monomorphic epitheliotropic intestinal T-cell lymphoma</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592">
++            <OrphaCode>250908</OrphaCode>
++            <Name lang="en">Rare neoplastic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31900" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14426">
+       <OrphaCode>99853</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99853</ExpertLink>
+@@ -252322,6 +252927,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31899">
++      <OrphaCode>652650</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652650</ExpertLink>
++      <Name lang="en">Nodal T-follicular helper cell lymphoma, follicular type</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592">
++            <OrphaCode>250908</OrphaCode>
++            <Name lang="en">Rare neoplastic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31899" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31898">
++      <OrphaCode>652532</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652532</ExpertLink>
++      <Name lang="en">Adult-onset progressive leukoencephalopathy-early-onset deafness</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31898" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14427">
+       <OrphaCode>99854</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99854</ExpertLink>
+@@ -252339,6 +252978,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31897">
++      <OrphaCode>652528</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652528</ExpertLink>
++      <Name lang="en">Non-syndromic supernumerary kidneys</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31897" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14425">
+       <OrphaCode>99852</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99852</ExpertLink>
+@@ -252356,6 +253012,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31896">
++      <OrphaCode>652522</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652522</ExpertLink>
++      <Name lang="en">Periodic fever-immunodeficiency-thrombocytopenia syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31896" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14405">
+       <OrphaCode>99832</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99832</ExpertLink>
+@@ -252815,6 +253488,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31952">
++      <OrphaCode>658951</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658951</ExpertLink>
++      <Name lang="en">Early-onset immune dysregulation due to DOCK11 complete deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31952" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14362">
+       <OrphaCode>99789</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99789</ExpertLink>
+@@ -252866,6 +253556,159 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31938">
++      <OrphaCode>658584</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658584</ExpertLink>
++      <Name lang="en">Rowell syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31938" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31939">
++      <OrphaCode>658590</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658590</ExpertLink>
++      <Name lang="en">Eyelid sebaceous carcinoma</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="19592">
++            <OrphaCode>250908</OrphaCode>
++            <Name lang="en">Rare neoplastic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31939" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31937">
++      <OrphaCode>658574</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658574</ExpertLink>
++      <Name lang="en">Isolated pulmonary artery sling</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31937" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31942">
++      <OrphaCode>658612</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658612</ExpertLink>
++      <Name lang="en">Non-transplant-related bronchiolitis obliterans</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12974">
++            <OrphaCode>97955</OrphaCode>
++            <Name lang="en">Rare respiratory disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31942" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31943">
++      <OrphaCode>658778</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658778</ExpertLink>
++      <Name lang="en">COQ7-related distal hereditary motor neuropathy</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13024">
++            <OrphaCode>98006</OrphaCode>
++            <Name lang="en">Rare neurologic disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31943" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31940">
++      <OrphaCode>658595</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658595</ExpertLink>
++      <Name lang="en">DNMT3A-related microcephalic dwarfism</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31940" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31941">
++      <OrphaCode>658602</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658602</ExpertLink>
++      <Name lang="en">Transplant-related bronchiolitis obliterans</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12974">
++            <OrphaCode>97955</OrphaCode>
++            <Name lang="en">Rare respiratory disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31941" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31946">
++      <OrphaCode>658813</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658813</ExpertLink>
++      <Name lang="en">Methylenetetrahydrofolate dehydrogenase 1 deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10507">
++            <OrphaCode>68367</OrphaCode>
++            <Name lang="en">Rare inborn errors of metabolism</Name>
++          </TargetDisorder>
++          <RootDisorder id="31946" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31947">
++      <OrphaCode>658843</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658843</ExpertLink>
++      <Name lang="en">Developmental delay-ataxia-hypotonia-facial dysmorphism syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31947" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14345">
+       <OrphaCode>99772</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99772</ExpertLink>
+@@ -252883,6 +253726,40 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31944">
++      <OrphaCode>658805</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658805</ExpertLink>
++      <Name lang="en">Greig cephalopolysyndactyly-contiguous gene syndrome</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="12469">
++            <OrphaCode>93890</OrphaCode>
++            <Name lang="en">Rare developmental defect during embryogenesis</Name>
++          </TargetDisorder>
++          <RootDisorder id="31944" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31945">
++      <OrphaCode>658810</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658810</ExpertLink>
++      <Name lang="en">Atrophoderma of Pasini and Pierini</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="11896">
++            <OrphaCode>89826</OrphaCode>
++            <Name lang="en">Rare skin disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31945" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14344">
+       <OrphaCode>99771</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99771</ExpertLink>
+@@ -252900,6 +253777,57 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31950">
++      <OrphaCode>658917</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658917</ExpertLink>
++      <Name lang="en">Clonorchiasis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10557">
++            <OrphaCode>68416</OrphaCode>
++            <Name lang="en">Rare infectious disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31950" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31951">
++      <OrphaCode>658946</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658946</ExpertLink>
++      <Name lang="en">Early-onset autoimmune disorder due to DOCK11 partial deficiency</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="13022">
++            <OrphaCode>98004</OrphaCode>
++            <Name lang="en">Rare immune disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31951" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
++    <Disorder id="31948">
++      <OrphaCode>658909</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658909</ExpertLink>
++      <Name lang="en">Fasciolopsiasis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10557">
++            <OrphaCode>68416</OrphaCode>
++            <Name lang="en">Rare infectious disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31948" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="14349">
+       <OrphaCode>99776</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99776</ExpertLink>
+@@ -252917,6 +253845,23 @@
+         </DisorderDisorderAssociation>
+       </DisorderDisorderAssociationList>
+     </Disorder>
++    <Disorder id="31949">
++      <OrphaCode>658913</OrphaCode>
++      <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658913</ExpertLink>
++      <Name lang="en">Paragonimiasis</Name>
++      <DisorderDisorderAssociationList count="1">
++        <DisorderDisorderAssociation>
++          <TargetDisorder id="10557">
++            <OrphaCode>68416</OrphaCode>
++            <Name lang="en">Rare infectious disease</Name>
++          </TargetDisorder>
++          <RootDisorder id="31949" cycle="true"/>
++          <DisorderDisorderAssociationType id="21485">
++            <Name lang="en">Preferential parent</Name>
++          </DisorderDisorderAssociationType>
++        </DisorderDisorderAssociation>
++      </DisorderDisorderAssociationList>
++    </Disorder>
+     <Disorder id="31580">
+       <OrphaCode>631073</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=631073</ExpertLink>
+@@ -253467,9 +254412,9 @@
+       <Name lang="en">PsAPASH syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="11896">
+-            <OrphaCode>89826</OrphaCode>
+-            <Name lang="en">Rare skin disease</Name>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
+           </TargetDisorder>
+           <RootDisorder id="31722" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+@@ -253501,9 +254446,9 @@
+       <Name lang="en">PAPASH syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="11896">
+-            <OrphaCode>89826</OrphaCode>
+-            <Name lang="en">Rare skin disease</Name>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
+           </TargetDisorder>
+           <RootDisorder id="31720" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+@@ -253518,9 +254463,9 @@
+       <Name lang="en">PASS syndrome</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="11896">
+-            <OrphaCode>89826</OrphaCode>
+-            <Name lang="en">Rare skin disease</Name>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
+           </TargetDisorder>
+           <RootDisorder id="31721" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">
+@@ -253549,7 +254494,7 @@
+     <Disorder id="31716">
+       <OrphaCode>641368</OrphaCode>
+       <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641368</ExpertLink>
+-      <Name lang="en">Autosomal recessive hyper-IgE syndrome</Name>
++      <Name lang="en">Autosomal recessive hyper-IgE syndrome due to ZNF341 deficiency</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+           <TargetDisorder id="13022">
+@@ -254987,9 +255932,9 @@
+       <Name lang="en">Genetic autoinflammatory syndrome with skin involvement</Name>
+       <DisorderDisorderAssociationList count="1">
+         <DisorderDisorderAssociation>
+-          <TargetDisorder id="11896">
+-            <OrphaCode>89826</OrphaCode>
+-            <Name lang="en">Rare skin disease</Name>
++          <TargetDisorder id="13041">
++            <OrphaCode>98023</OrphaCode>
++            <Name lang="en">Rare systemic or rheumatologic disease</Name>
+           </TargetDisorder>
+           <RootDisorder id="31458" cycle="true"/>
+           <DisorderDisorderAssociationType id="21485">

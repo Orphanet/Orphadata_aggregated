@@ -1,0 +1,1973 @@
+commit 481d14fea17f62fcae7251f3673242ec271b28fa
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Dec 4 20:10:24 2023 +0100
+
+    DEC 2023
+
+diff --git a/Epidemiological data/Rare disease epidemiology/nl_product9_prev.xml b/Epidemiological data/Rare disease epidemiology/nl_product9_prev.xml
+index 65af3d3..f024277 100644
+--- a/Epidemiological data/Rare disease epidemiology/nl_product9_prev.xml	
++++ b/Epidemiological data/Rare disease epidemiology/nl_product9_prev.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2023-06-22 14:21:26" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2023-12-04 08:24:16" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -7,7 +7,7 @@
+       <LegalCode>https://creativecommons.org/licenses/by/4.0/legalcode</LegalCode>
+     </Licence>
+   </Availability>
+-  <DisorderList count="6089">
++  <DisorderList count="6088">
+     <Disorder id="17601">
+       <OrphaCode>166024</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=166024</ExpertLink>
+@@ -551,7 +551,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="12">
+-          <Source>ISBN:9780071363228[OTHER]</Source>
++          <Source>36980153[PMID]_37732042[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23697">
+             <Name lang="nl">Cases/families</Name>
+           </PrevalenceType>
+@@ -559,7 +559,7 @@
+             <Name lang="nl">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>50.0</ValMoy>
++          <ValMoy>154.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="nl">Wereldwijd</Name>
+           </PrevalenceGeographic>
+@@ -568,15 +568,15 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="13">
+-          <Source>ORPHANET_ISBN:9780071363228[OTHER]</Source>
++          <Source>36980153[PMID]_37732042[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="nl">Puntprevalentie</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="nl">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+@@ -1222,9 +1222,9 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
++      <PrevalenceList count="4">
+         <Prevalence id="42">
+-          <Source>10094192[PMID]</Source>
++          <Source>36082656[PMID]</Source>
+           <PrevalenceType id="23697">
+             <Name lang="nl">Cases/families</Name>
+           </PrevalenceType>
+@@ -1232,7 +1232,7 @@
+             <Name lang="nl">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>100.0</ValMoy>
++          <ValMoy>161.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="nl">Wereldwijd</Name>
+           </PrevalenceGeographic>
+@@ -1241,15 +1241,15 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="44">
+-          <Source>ORPHANET_10094192[PMID]</Source>
++          <Source>36082656[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="nl">Puntprevalentie</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="nl">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+@@ -1278,6 +1278,25 @@
+             <Name lang="nl">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="17450">
++          <Source>27706744[PMID]</Source>
++          <PrevalenceType id="23683">
++            <Name lang="nl">Geboorteprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="nl">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23739">
++            <Name lang="nl">1-9 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.63</ValMoy>
++          <PrevalenceGeographic id="24243">
++            <Name lang="nl">Cuba</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="17615">
+@@ -1315,7 +1334,7 @@
+     <Disorder id="14">
+       <OrphaCode>365</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=365</ExpertLink>
+-      <Name lang="nl">Glycogeenstapelingsziekte type 2</Name>
++      <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -5558,7 +5577,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="3">
+         <Prevalence id="228">
+           <Source>ORPHANET</Source>
+           <PrevalenceType id="23683">
+@@ -5597,6 +5616,25 @@
+             <Name lang="nl">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="17460">
++          <Source>25390741[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="nl">Europa</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="49">
+@@ -16148,45 +16186,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="5">
+-        <Prevalence id="579">
+-          <Source>[EXPERT]_ORPHANET</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="nl">Geboorteprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="nl">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="nl">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>10.8</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="580">
+-          <Source>EUROCAT European surveillance of congenital anomalies 2010[REG]</Source>
+-          <PrevalenceType id="23683">
+-            <Name lang="nl">Geboorteprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="nl">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="nl">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>1.8</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="nl">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
++      <PrevalenceList count="2">
+         <Prevalence id="581">
+           <Source>12088082[PMID]</Source>
+           <PrevalenceType id="23683">
+@@ -16225,25 +16225,6 @@
+             <Name lang="nl">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
+-        <Prevalence id="583">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="nl">Unknown</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="nl">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="147">
+@@ -16307,7 +16288,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="30">
++      <PrevalenceList count="31">
+         <Prevalence id="586">
+           <Source>32803853[PMID]</Source>
+           <PrevalenceType id="23683">
+@@ -16878,6 +16859,25 @@
+             <Name lang="nl">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="17461">
++          <Source>32803853[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="149">
+@@ -23348,7 +23348,7 @@
+     <Disorder id="277">
+       <OrphaCode>2443</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2443</ExpertLink>
+-      <Name lang="nl">Stoornis van mitochondriale oxidatieve fosforylatie door afwijkingen in nucleair DNA</Name>
++      <Name lang="nl">Stoornis van mitochondriale oxidatieve fosforylatie door anomalieën van nucleair DNA</Name>
+       <DisorderType id="36561">
+         <Name lang="nl">Categorie</Name>
+       </DisorderType>
+@@ -39950,6 +39950,57 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="515">
++      <OrphaCode>2300</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2300</ExpertLink>
++      <Name lang="nl">Multipele intestinale atresie</Name>
++      <DisorderType id="21415">
++        <Name lang="nl">Morfologische anomalie</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17448">
++          <Source>29437734[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17449">
++          <Source>29437734[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23683">
++            <Name lang="nl">Geboorteprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="nl">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23746">
++            <Name lang="nl">1-9 / 100 000</Name>
++          </PrevalenceClass>
++          <ValMoy>4.05</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="18125">
+       <OrphaCode>180226</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=180226</ExpertLink>
+@@ -41085,55 +41136,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="543">
+-      <OrphaCode>587</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=587</ExpertLink>
+-      <Name lang="nl">Syndroom van Muir-Torre</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="1317">
+-          <Source>16321766[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="nl">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="nl">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>205.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="1318">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="nl">Unknown</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="542">
+       <OrphaCode>570</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=570</ExpertLink>
+@@ -45569,7 +45571,7 @@
+     <Disorder id="595">
+       <OrphaCode>3320</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3320</ExpertLink>
+-      <Name lang="nl">Trombocytopenie - aplasie van radius-syndroom</Name>
++      <Name lang="nl">Trombocytopenie - afwezige radius-syndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -77875,24 +77877,22 @@
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+-        <Prevalence id="16539">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
++        <Prevalence id="17459">
++          <Source>[https://www.ncbi.nlm.nih.gov/books/NBK1760/]_ORPHANET</Source>
++          <PrevalenceType id="23683">
++            <Name lang="nl">Geboorteprevalentie</Name>
+           </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
++          <PrevalenceQualification id="23711">
++            <Name lang="nl">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="nl">Unknown</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="nl">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
++          <ValMoy>1.875</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="nl">Wereldwijd</Name>
+           </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
++          <PrevalenceValidationStatus/>
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+@@ -85952,55 +85952,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="1270">
+-      <OrphaCode>1795</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1795</ExpertLink>
+-      <Name lang="nl">Perifere dysostose</Name>
+-      <DisorderType id="21401">
+-        <Name lang="nl">Malformatiesyndroom</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="14022">
+-          <Source>7205902[PMID]_6018472[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="nl">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="nl">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>6.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="14023">
+-          <Source>ORPHANET_7205902[PMID]_6018472[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="1268">
+       <OrphaCode>37</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=37</ExpertLink>
+@@ -91361,55 +91312,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="1486">
+-      <OrphaCode>1240</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1240</ExpertLink>
+-      <Name lang="nl">Metafysaire acroscyfodysplasie</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="2997">
+-          <Source>6543849[PMID]_1860252[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="nl">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="nl">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>4.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="2998">
+-          <Source>ORPHANET_6543849[PMID]_1860252[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="1483">
+       <OrphaCode>1237</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1237</ExpertLink>
+@@ -98232,7 +98134,7 @@
+     <Disorder id="1580">
+       <OrphaCode>163</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=163</ExpertLink>
+-      <Name lang="nl">Erfelijke hyperferritinemie - cataract-syndroom</Name>
++      <Name lang="nl">Hereditaire hyperferritinemie - cataract-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -114699,7 +114601,7 @@
+     <Disorder id="2188">
+       <OrphaCode>2337</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2337</ExpertLink>
+-      <Name lang="nl">Niet-epidermolytische palmoplantaire keratodermie</Name>
++      <Name lang="nl">Diffuse palmoplantaire keratodermie, Botnisch type</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -120916,38 +120818,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="19687">
+-      <OrphaCode>251883</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=251883</ExpertLink>
+-      <Name lang="nl">Medullo-epithelioom van centraal zenuwstelsel</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="13673">
+-          <Source>RARECARE surveillance of rare cancers in Europe[REG]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="nl">Jaarlijkse incidentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="nl">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="2087">
+       <OrphaCode>2206</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2206</ExpertLink>
+@@ -129892,7 +129762,7 @@
+     <Disorder id="2554">
+       <OrphaCode>2812</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2812</ExpertLink>
+-      <Name lang="nl">Parana hardehuidsyndroom</Name>
++      <Name lang="nl">Parana-hardehuidsyndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -133504,11 +133374,11 @@
+       <OrphaCode>261190</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=261190</ExpertLink>
+       <Name lang="nl">15q14-microdeletiesyndroom</Name>
+-      <DisorderType id="21401">
+-        <Name lang="nl">Malformatiesyndroom</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="9233">
+@@ -140795,7 +140665,7 @@
+     <Disorder id="20203">
+       <OrphaCode>268810</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=268810</ExpertLink>
+-      <Name lang="nl">Posterieure meningocele</Name>
++      <Name lang="nl">Geïsoleerde posterieure meningocele</Name>
+       <DisorderType id="21415">
+         <Name lang="nl">Morfologische anomalie</Name>
+       </DisorderType>
+@@ -143580,7 +143450,7 @@
+     <Disorder id="20132">
+       <OrphaCode>264978</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=264978</ExpertLink>
+-      <Name lang="nl">Geneesmiddel- of stralingsblootstelling-gerelateerde interstitiële longziekte</Name>
++      <Name lang="nl">Interstitiële longziekte gerelateerd aan medicatie of radiatie</Name>
+       <DisorderType id="21429">
+         <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
+       </DisorderType>
+@@ -145450,7 +145320,7 @@
+     <Disorder id="20329">
+       <OrphaCode>275786</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=275786</ExpertLink>
+-      <Name lang="nl">Geneesmiddel- of toxine-geïnduceerde pulmonale arteriële hypertensie</Name>
++      <Name lang="nl">Medicatie- of toxinegeïnduceerde pulmonale arteriële hypertensie</Name>
+       <DisorderType id="21436">
+         <Name lang="nl">Group of phenomes</Name>
+       </DisorderType>
+@@ -156186,7 +156056,7 @@
+     <Disorder id="20410">
+       <OrphaCode>279894</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=279894</ExpertLink>
+-      <Name lang="nl">Toxische maculopathie door antimalariageneesmiddelen</Name>
++      <Name lang="nl">Toxische maculopathie door antimalariamiddel</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -165057,7 +164927,7 @@
+     <Disorder id="3521">
+       <OrphaCode>3240</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=3240</ExpertLink>
+-      <Name lang="nl">Calcificatie van centraal zenuwstelsel - doofheid - tubulaire acidose - anemie-syndroom</Name>
++      <Name lang="nl">Vroeg optredende progressieve leuko-encefalopathie - calcificatie van centraal zenuwstelsel - doofheid - visuele stoornis-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -166333,11 +166203,11 @@
+       <OrphaCode>1685</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1685</ExpertLink>
+       <Name lang="nl">Distomatose</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21436">
++        <Name lang="nl">Group of phenomes</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36540">
++        <Name lang="nl">Groep van aandoeningen</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="4672">
+@@ -167766,7 +167636,7 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="2">
++      <PrevalenceList count="3">
+         <Prevalence id="4737">
+           <Source>34229749[PMID]</Source>
+           <PrevalenceType id="23683">
+@@ -167805,6 +167675,25 @@
+             <Name lang="nl">Validated</Name>
+           </PrevalenceValidationStatus>
+         </Prevalence>
++        <Prevalence id="17462">
++          <Source>34229749[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+     <Disorder id="3566">
+@@ -175706,8 +175595,8 @@
+       <OrphaCode>2330</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2330</ExpertLink>
+       <Name lang="nl">Syndroom van Kasabach-Merritt</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21429">
++        <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+@@ -178965,7 +178854,7 @@
+     <Disorder id="18885">
+       <OrphaCode>217656</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=217656</ExpertLink>
+-      <Name lang="nl">Familiale geïsoleerde aritmogene rechterventrikeldysplasie</Name>
++      <Name lang="nl">Erfelijke geïsoleerde aritmogene cardiomyopathie</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -186848,55 +186737,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="19112">
+-      <OrphaCode>228357</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228357</ExpertLink>
+-      <Name lang="nl">CLN9-ziekte</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="13516">
+-          <Source>15349861[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="nl">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="nl">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="13517">
+-          <Source>ORPHANET_15349861[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="19119">
+       <OrphaCode>228384</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228384</ExpertLink>
+@@ -187133,38 +186973,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="19105">
+-      <OrphaCode>228329</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228329</ExpertLink>
+-      <Name lang="nl">CLN1-ziekte</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="13520">
+-          <Source>25205113[PMID]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="nl">Jaarlijkse incidentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="nl">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23746">
+-            <Name lang="nl">1-9 / 100 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>5.0</ValMoy>
+-          <PrevalenceGeographic id="24362">
+-            <Name lang="nl">Finland</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="19096">
+       <OrphaCode>228290</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=228290</ExpertLink>
+@@ -190167,38 +189975,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="3611">
+-      <OrphaCode>2194</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=2194</ExpertLink>
+-      <Name lang="nl">Anti-HLA hyperimmunisatie</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="4785">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="nl">Unknown</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="nl">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="19163">
+       <OrphaCode>231147</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=231147</ExpertLink>
+@@ -193161,7 +192937,7 @@
+     <Disorder id="19291">
+       <OrphaCode>238654</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238654</ExpertLink>
+-      <Name lang="nl">Congenitale primaire mega-ureter, niet-refluxerende en niet-geobstrueerde vorm</Name>
++      <Name lang="nl">Congenitale primaire mega-ureter, niet-refluerende en niet-obstructieve vorm</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -193193,7 +192969,7 @@
+     <Disorder id="19290">
+       <OrphaCode>238650</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238650</ExpertLink>
+-      <Name lang="nl">Congenitale primaire mega-ureter, refluxerende vorm</Name>
++      <Name lang="nl">Congenitale primaire mega-ureter, refluerende vorm</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -193225,7 +193001,7 @@
+     <Disorder id="19289">
+       <OrphaCode>238646</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=238646</ExpertLink>
+-      <Name lang="nl">Congenitale primaire mega-ureter, geobstrueerde vorm</Name>
++      <Name lang="nl">Congenitale primaire mega-ureter, obstructieve vorm</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -197959,8 +197735,8 @@
+       <OrphaCode>324307</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=324307</ExpertLink>
+       <Name lang="nl">Ernstige laterale tibiale kromming - kleine gestalte - milde scapula alata - milde faciale dysmorfie-syndroom</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21401">
++        <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+@@ -201705,55 +201481,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="21505">
+-      <OrphaCode>314629</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=314629</ExpertLink>
+-      <Name lang="nl">CLN11-ziekte</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="9999">
+-          <Source>22608501[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="nl">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="nl">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>2.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="10000">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="21504">
+       <OrphaCode>314621</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=314621</ExpertLink>
+@@ -210159,55 +209886,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="22104">
+-      <OrphaCode>352709</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=352709</ExpertLink>
+-      <Name lang="nl">CLN13-ziekte</Name>
+-      <DisorderType id="21443">
+-        <Name lang="nl">Etiologisch subtype</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36554">
+-        <Name lang="nl">Subtype van aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="10280">
+-          <Source>23297359[PMID]</Source>
+-          <PrevalenceType id="23697">
+-            <Name lang="nl">Cases/families</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23718">
+-            <Name lang="nl">Case</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass/>
+-          <ValMoy>4.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="10281">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="22105">
+       <OrphaCode>352712</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=352712</ExpertLink>
+@@ -221437,7 +221115,7 @@
+     <Disorder id="21321">
+       <OrphaCode>308552</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=308552</ExpertLink>
+-      <Name lang="nl">Glycogeenstapelingsziekte type 2, infantiele vorm</Name>
++      <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie, infantiele aanvang</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -226235,7 +225913,7 @@
+     <Disorder id="24028">
+       <OrphaCode>464458</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=464458</ExpertLink>
+-      <Name lang="nl">Paracetamolvergiftiging</Name>
++      <Name lang="nl">Intoxicatie door paracetamol</Name>
+       <DisorderType id="21429">
+         <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
+       </DisorderType>
+@@ -230807,11 +230485,11 @@
+       <OrphaCode>1303</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=1303</ExpertLink>
+       <Name lang="nl">Bronchiolitis obliterans met obstructieve longziekte</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21436">
++        <Name lang="nl">Group of phenomes</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36540">
++        <Name lang="nl">Groep van aandoeningen</Name>
+       </DisorderGroup>
+       <PrevalenceList count="1">
+         <Prevalence id="5059">
+@@ -231105,42 +230783,10 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="7037">
+-      <OrphaCode>225</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=225</ExpertLink>
+-      <Name lang="nl">Maternaal overgeërfde diabetes en doofheid</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="1">
+-        <Prevalence id="5069">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="nl">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23739">
+-            <Name lang="nl">1-9 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.1</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="nl">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="nl">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="24156">
+       <OrphaCode>466677</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=466677</ExpertLink>
+-      <Name lang="nl">Vergiftiging als gevolg van een schorpioenensteek</Name>
++      <Name lang="nl">Vergiftiging door schorpioenensteek</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -237661,7 +237307,7 @@
+     <Disorder id="22612">
+       <OrphaCode>391372</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=391372</ExpertLink>
+-      <Name lang="nl">Intellectuele achterstand - ernstige spraakachterstand - milde dysmorfie-syndroom</Name>
++      <Name lang="nl">FOXP1-syndroom</Name>
+       <DisorderType id="21401">
+         <Name lang="nl">Malformatiesyndroom</Name>
+       </DisorderType>
+@@ -240573,7 +240219,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="10970">
+-          <Source>24136356[PMID]</Source>
++          <Source>34052541[PMID]</Source>
+           <PrevalenceType id="23697">
+             <Name lang="nl">Cases/families</Name>
+           </PrevalenceType>
+@@ -240581,7 +240227,7 @@
+             <Name lang="nl">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>18.0</ValMoy>
++          <ValMoy>250.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="nl">Wereldwijd</Name>
+           </PrevalenceGeographic>
+@@ -240590,15 +240236,15 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="10976">
+-          <Source>ORPHANET_24136356[PMID]</Source>
++          <Source>34052541[PMID]_31111319[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="nl">Puntprevalentie</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="nl">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+@@ -247511,7 +247157,7 @@
+     <Disorder id="23491">
+       <OrphaCode>444490</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=444490</ExpertLink>
+-      <Name lang="nl">Familiaal chylomicronemiesyndroom</Name>
++      <Name lang="nl">Familiale chylomicronemie-syndroom</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -250376,7 +250022,7 @@
+     <Disorder id="23106">
+       <OrphaCode>420429</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=420429</ExpertLink>
+-      <Name lang="nl">Glycogeenstapelingsziekte door zure maltasedeficiëntie, late aanvang</Name>
++      <Name lang="nl">Glycogeenstapelingsziekte door zure-maltasedeficiëntie, late aanvang</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -268046,11 +267692,11 @@
+       <OrphaCode>679</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=679</ExpertLink>
+       <Name lang="nl">Maligne atrofische papulose</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
++      <DisorderType id="21450">
++        <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="5236">
+@@ -271042,7 +270688,7 @@
+     <Disorder id="8591">
+       <OrphaCode>247</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=247</ExpertLink>
+-      <Name lang="nl">Aritmogene rechterventrikelcardiomyopathie</Name>
++      <Name lang="nl">Erfelijke aritmogene cardiomyopathie</Name>
+       <DisorderType id="21436">
+         <Name lang="nl">Group of phenomes</Name>
+       </DisorderType>
+@@ -277447,7 +277093,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="6085">
+-          <Source>ORPHANET</Source>
++          <Source>37219052[PMID]</Source>
+           <PrevalenceType id="23697">
+             <Name lang="nl">Cases/families</Name>
+           </PrevalenceType>
+@@ -277455,7 +277101,7 @@
+             <Name lang="nl">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>98.0</ValMoy>
++          <ValMoy>558.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="nl">Wereldwijd</Name>
+           </PrevalenceGeographic>
+@@ -277464,15 +277110,15 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="6086">
+-          <Source>ORPHANET</Source>
++          <Source>37219052[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="nl">Puntprevalentie</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23704">
+             <Name lang="nl">Class only</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
+           </PrevalenceClass>
+           <ValMoy>0.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+@@ -283400,57 +283046,6 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
+-    <Disorder id="10862">
+-      <OrphaCode>65250</OrphaCode>
+-      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=65250</ExpertLink>
+-      <Name lang="nl">Perineurale cyste</Name>
+-      <DisorderType id="21394">
+-        <Name lang="nl">Ziekte</Name>
+-      </DisorderType>
+-      <DisorderGroup id="36547">
+-        <Name lang="nl">Aandoening</Name>
+-      </DisorderGroup>
+-      <PrevalenceList count="2">
+-        <Prevalence id="5903">
+-          <Source>[EXPERT]</Source>
+-          <PrevalenceType id="23676">
+-            <Name lang="nl">Jaarlijkse incidentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23711">
+-            <Name lang="nl">Value and class</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23732">
+-            <Name lang="nl">1-5 / 10 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>50.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="nl">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25958">
+-            <Name lang="nl">Validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="5904">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23774">
+-            <Name lang="nl">Unknown</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23844">
+-            <Name lang="nl">Wereldwijd</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="nl">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-      </PrevalenceList>
+-    </Disorder>
+     <Disorder id="28334">
+       <OrphaCode>562569</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=562569</ExpertLink>
+@@ -299810,7 +299405,7 @@
+     <Disorder id="10348">
+       <OrphaCode>34587</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=34587</ExpertLink>
+-      <Name lang="nl">Glycogeenstapelingsziekte als gevolg van LAMP-2-deficiëntie</Name>
++      <Name lang="nl">Glycogeenstapelingsziekte deficiëntie van LAMP-2</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -307232,7 +306827,7 @@
+     <Disorder id="28089">
+       <OrphaCode>544578</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=544578</ExpertLink>
+-      <Name lang="nl">Congenitale primaire mega-ureter met reflux en obstructie</Name>
++      <Name lang="nl">Congenitale primaire mega-ureter, refluerende en obstructieve vorm</Name>
+       <DisorderType id="21450">
+         <Name lang="nl">Klinisch subtype</Name>
+       </DisorderType>
+@@ -308556,7 +308151,7 @@
+     <Disorder id="11950">
+       <OrphaCode>90059</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=90059</ExpertLink>
+-      <Name lang="nl">Acuut sensorineuraal gehoorverlies door acuut akoestisch trauma of plotse doofheid of chirurgisch geïnduceerd akoestisch trauma</Name>
++      <Name lang="nl">Plotseling sensorineuraal gehoorverlies</Name>
+       <DisorderType id="21429">
+         <Name lang="nl">Particulaire klinische situatie binnen een ziekte of syndroom</Name>
+       </DisorderType>
+@@ -308799,7 +308394,7 @@
+     <Disorder id="11934">
+       <OrphaCode>90037</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=90037</ExpertLink>
+-      <Name lang="nl">Geneesmiddelgeïnduceerde auto-immune hemolytische anemie</Name>
++      <Name lang="nl">Medicatiegeïnduceerde auto-immune hemolytische anemie</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -311704,7 +311299,7 @@
+     <Disorder id="11818">
+       <OrphaCode>88642</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=88642</ExpertLink>
+-      <Name lang="nl">Congenitale ongevoelighied voor pijn - anosmie - neuropathische artropathie</Name>
++      <Name lang="nl">Congenitale ongevoeligheid voor pijn - anosmie - neuropathische artropathie</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -320133,19 +319728,19 @@
+       <DisorderGroup id="36547">
+         <Name lang="nl">Aandoening</Name>
+       </DisorderGroup>
+-      <PrevalenceList count="3">
++      <PrevalenceList count="2">
+         <Prevalence id="6521">
+-          <Source>ISBN:801860245[OTHER]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
++          <Source>31920360[PMID]</Source>
++          <PrevalenceType id="23683">
++            <Name lang="nl">Geboorteprevalentie</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="nl">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23739">
++            <Name lang="nl">1-9 / 1 000 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.042</ValMoy>
++          <ValMoy>0.3</ValMoy>
+           <PrevalenceGeographic id="25482">
+             <Name lang="nl">United States</Name>
+           </PrevalenceGeographic>
+@@ -320154,38 +319749,19 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="6522">
+-          <Source>ORPHANET</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
+-          </PrevalenceType>
+-          <PrevalenceQualification id="23704">
+-            <Name lang="nl">Class only</Name>
+-          </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
+-          </PrevalenceClass>
+-          <ValMoy>0.0</ValMoy>
+-          <PrevalenceGeographic id="23795">
+-            <Name lang="nl">Europa</Name>
+-          </PrevalenceGeographic>
+-          <PrevalenceValidationStatus id="25965">
+-            <Name lang="nl">Not yet validated</Name>
+-          </PrevalenceValidationStatus>
+-        </Prevalence>
+-        <Prevalence id="6523">
+-          <Source>9155958[PMID]</Source>
+-          <PrevalenceType id="23669">
+-            <Name lang="nl">Puntprevalentie</Name>
++          <Source>31920360[PMID]</Source>
++          <PrevalenceType id="23683">
++            <Name lang="nl">Geboorteprevalentie</Name>
+           </PrevalenceType>
+           <PrevalenceQualification id="23711">
+             <Name lang="nl">Value and class</Name>
+           </PrevalenceQualification>
+-          <PrevalenceClass id="23760">
+-            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          <PrevalenceClass id="23746">
++            <Name lang="nl">1-9 / 100 000</Name>
+           </PrevalenceClass>
+-          <ValMoy>0.08</ValMoy>
+-          <PrevalenceGeographic id="25475">
+-            <Name lang="nl">United Kingdom</Name>
++          <ValMoy>1.3</ValMoy>
++          <PrevalenceGeographic id="23795">
++            <Name lang="nl">Europa</Name>
+           </PrevalenceGeographic>
+           <PrevalenceValidationStatus id="25958">
+             <Name lang="nl">Validated</Name>
+@@ -337768,6 +337344,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="30477">
++      <OrphaCode>600691</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600691</ExpertLink>
++      <Name lang="nl">Gecombineerde deficiëntie van factor VII en factor X</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17473">
++          <Source>28164683[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>7.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17474">
++          <Source>28164683[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="30478">
+       <OrphaCode>600731</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600731</ExpertLink>
+@@ -341042,7 +340667,7 @@
+       </DisorderGroup>
+       <PrevalenceList count="2">
+         <Prevalence id="7390">
+-          <Source>[EXPERT]</Source>
++          <Source>34237446[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23697">
+             <Name lang="nl">Cases/families</Name>
+           </PrevalenceType>
+@@ -341050,7 +340675,7 @@
+             <Name lang="nl">Case</Name>
+           </PrevalenceQualification>
+           <PrevalenceClass/>
+-          <ValMoy>50.0</ValMoy>
++          <ValMoy>24.0</ValMoy>
+           <PrevalenceGeographic id="23844">
+             <Name lang="nl">Wereldwijd</Name>
+           </PrevalenceGeographic>
+@@ -341059,7 +340684,7 @@
+           </PrevalenceValidationStatus>
+         </Prevalence>
+         <Prevalence id="7391">
+-          <Source>ORPHANET</Source>
++          <Source>34237446[PMID]_ORPHANET</Source>
+           <PrevalenceType id="23669">
+             <Name lang="nl">Puntprevalentie</Name>
+           </PrevalenceType>
+@@ -341326,6 +340951,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="30241">
++      <OrphaCode>600194</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=600194</ExpertLink>
++      <Name lang="nl">Stollingsstoornis door factor V Atlanta</Name>
++      <DisorderType id="21443">
++        <Name lang="nl">Etiologisch subtype</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17471">
++          <Source>33773040[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>1.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17472">
++          <Source>33773040[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="12942">
+       <OrphaCode>97678</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=97678</ExpertLink>
+@@ -344375,7 +344049,7 @@
+     <Disorder id="29860">
+       <OrphaCode>597623</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=597623</ExpertLink>
+-      <Name lang="nl">IRF2BPL- gerelateerd syndroom van neurologische ontwikkelingsregressie - dystonie - insulten</Name>
++      <Name lang="nl">IRF2BPL-gerelateerd syndroom van regressieve neurologische ontwikkelingsstoornis - dystonie - insulten</Name>
+       <DisorderType id="21394">
+         <Name lang="nl">Ziekte</Name>
+       </DisorderType>
+@@ -346193,6 +345867,93 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29929">
++      <OrphaCode>599490</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599490</ExpertLink>
++      <Name lang="nl">Verworven deficiëntie van factor V</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="4">
++        <Prevalence id="17451">
++          <Source>27428013[PMID]_36713339[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23774">
++            <Name lang="nl">Unknown</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17452">
++          <Source>27428013[PMID]_36713339[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>200.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17453">
++          <Source>15613918[PMID]</Source>
++          <PrevalenceType id="23676">
++            <Name lang="nl">Jaarlijkse incidentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="nl">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.029</ValMoy>
++          <PrevalenceGeographic id="23949">
++            <Name lang="nl">Australia</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17454">
++          <Source>19404538[PMID]</Source>
++          <PrevalenceType id="23676">
++            <Name lang="nl">Jaarlijkse incidentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="nl">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.009</ValMoy>
++          <PrevalenceGeographic id="25244">
++            <Name lang="nl">Singapore</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="12331">
+       <OrphaCode>93409</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93409</ExpertLink>
+@@ -346242,6 +346003,251 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29930">
++      <OrphaCode>599495</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599495</ExpertLink>
++      <Name lang="nl">Verworven deficiëntie van factor VII</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17455">
++          <Source>36546749[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>83.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17456">
++          <Source>36546749[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29931">
++      <OrphaCode>599501</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599501</ExpertLink>
++      <Name lang="nl">Verworven deficiëntie van factor X</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17457">
++          <Source>37587057[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>77.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17458">
++          <Source>37587057[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23711">
++            <Name lang="nl">Value and class</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29932">
++      <OrphaCode>599507</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599507</ExpertLink>
++      <Name lang="nl">Verworven deficiëntie van factor XI</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17463">
++          <Source>18519152[PMID]_29027258[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>15.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17464">
++          <Source>18519152[PMID]_29027258[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29933">
++      <OrphaCode>599513</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599513</ExpertLink>
++      <Name lang="nl">Verworven deficiëntie van factor XIII</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17465">
++          <Source>30446212[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>95.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17466">
++          <Source>30446212[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
++    <Disorder id="29934">
++      <OrphaCode>599519</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599519</ExpertLink>
++      <Name lang="nl">Stollingsstoornis gerelateerd aan korte isovormen van factor V</Name>
++      <DisorderType id="21394">
++        <Name lang="nl">Ziekte</Name>
++      </DisorderType>
++      <DisorderGroup id="36547">
++        <Name lang="nl">Aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17467">
++          <Source>25634741[PMID]_33773040[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>3.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17468">
++          <Source>25634741[PMID]_33773040[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="12334">
+       <OrphaCode>93420</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93420</ExpertLink>
+@@ -346274,6 +346280,55 @@
+         </Prevalence>
+       </PrevalenceList>
+     </Disorder>
++    <Disorder id="29935">
++      <OrphaCode>599579</OrphaCode>
++      <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=599579</ExpertLink>
++      <Name lang="nl">Stollingsstoornis door factor V Amsterdam</Name>
++      <DisorderType id="21443">
++        <Name lang="nl">Etiologisch subtype</Name>
++      </DisorderType>
++      <DisorderGroup id="36554">
++        <Name lang="nl">Subtype van aandoening</Name>
++      </DisorderGroup>
++      <PrevalenceList count="2">
++        <Prevalence id="17469">
++          <Source>25634741[PMID]</Source>
++          <PrevalenceType id="23697">
++            <Name lang="nl">Cases/families</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23718">
++            <Name lang="nl">Case</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass/>
++          <ValMoy>2.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++        <Prevalence id="17470">
++          <Source>25634741[PMID]_ORPHANET</Source>
++          <PrevalenceType id="23669">
++            <Name lang="nl">Puntprevalentie</Name>
++          </PrevalenceType>
++          <PrevalenceQualification id="23704">
++            <Name lang="nl">Class only</Name>
++          </PrevalenceQualification>
++          <PrevalenceClass id="23760">
++            <Name lang="nl">&lt;1 / 1 000 000</Name>
++          </PrevalenceClass>
++          <ValMoy>0.0</ValMoy>
++          <PrevalenceGeographic id="23844">
++            <Name lang="nl">Wereldwijd</Name>
++          </PrevalenceGeographic>
++          <PrevalenceValidationStatus id="25958">
++            <Name lang="nl">Validated</Name>
++          </PrevalenceValidationStatus>
++        </Prevalence>
++      </PrevalenceList>
++    </Disorder>
+     <Disorder id="12291">
+       <OrphaCode>93360</OrphaCode>
+       <ExpertLink lang="nl">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=nl&amp;Expert=93360</ExpertLink>

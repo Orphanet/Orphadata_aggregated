@@ -1,0 +1,356 @@
+commit 481d14fea17f62fcae7251f3673242ec271b28fa
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Mon Dec 4 20:10:24 2023 +0100
+
+    DEC 2023
+
+diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_196.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_196.xml
+index e1f5b60..38a6a6c 100644
+--- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_196.xml	
++++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_196.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2023-06-22 14:00:53" version="1.3.25 / 4.1.7 [2023-04-17] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2023-12-04 08:05:36" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -2833,8 +2833,8 @@
+                     <OrphaCode>679</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=679</ExpertLink>
+                     <Name lang="en">Malignant atrophic papulosis</Name>
+-                    <DisorderType id="21394">
+-                      <Name lang="en">Disease</Name>
++                    <DisorderType id="21450">
++                      <Name lang="en">Clinical subtype</Name>
+                     </DisorderType>
+                   </Disorder>
+                   <ClassificationNodeChildList count="0">
+@@ -2875,7 +2875,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="19">
++              <ClassificationNodeChildList count="21">
+                 <ClassificationNode>
+                   <Disorder id="11651">
+                     <OrphaCode>85193</OrphaCode>
+@@ -3157,7 +3157,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="9">
++                          <ClassificationNodeChildList count="11">
+                             <ClassificationNode>
+                               <Disorder id="28477">
+                                 <OrphaCode>566067</OrphaCode>
+@@ -3210,12 +3210,12 @@
+                               <Disorder id="18613">
+                                 <OrphaCode>208650</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=208650</ExpertLink>
+-                                <Name lang="en">Cryopyrin-associated periodic syndrome</Name>
++                                <Name lang="en">NLRP3-associated autoinflammatory disease</Name>
+                                 <DisorderType id="21436">
+                                   <Name lang="en">Clinical group</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="5">
++                              <ClassificationNodeChildList count="4">
+                                 <ClassificationNode>
+                                   <Disorder id="2375">
+                                     <OrphaCode>575</OrphaCode>
+@@ -3264,18 +3264,6 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="31372">
+-                                    <OrphaCode>617919</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=617919</ExpertLink>
+-                                    <Name lang="en">F12-associated cold autoinflammatory syndrome</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+@@ -3350,6 +3338,30 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31896">
++                                <OrphaCode>652522</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652522</ExpertLink>
++                                <Name lang="en">Periodic fever-immunodeficiency-thrombocytopenia syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31372">
++                                <OrphaCode>617919</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=617919</ExpertLink>
++                                <Name lang="en">F12-associated cold autoinflammatory syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+@@ -3363,41 +3375,89 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="14">
+-                        <ClassificationNode>
+-                          <Disorder id="31720">
+-                            <OrphaCode>641380</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641380</ExpertLink>
+-                            <Name lang="en">PAPASH syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="31721">
+-                            <OrphaCode>641385</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641385</ExpertLink>
+-                            <Name lang="en">PASS syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
++                      <ClassificationNodeChildList count="9">
+                         <ClassificationNode>
+-                          <Disorder id="6523">
+-                            <OrphaCode>793</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=793</ExpertLink>
+-                            <Name lang="en">SAPHO syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
++                          <Disorder id="31905">
++                            <OrphaCode>653434</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=653434</ExpertLink>
++                            <Name lang="en">Autoinflammatory syndrome with acne and/or hidradenitis suppurativa</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="0">
++                          <ClassificationNodeChildList count="6">
++                            <ClassificationNode>
++                              <Disorder id="31720">
++                                <OrphaCode>641380</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641380</ExpertLink>
++                                <Name lang="en">PAPASH syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="10924">
++                                <OrphaCode>69126</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=69126</ExpertLink>
++                                <Name lang="en">PAPA syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="20725">
++                                <OrphaCode>289478</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289478</ExpertLink>
++                                <Name lang="en">PASH syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31721">
++                                <OrphaCode>641385</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641385</ExpertLink>
++                                <Name lang="en">PASS syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="31722">
++                                <OrphaCode>641390</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641390</ExpertLink>
++                                <Name lang="en">PsAPASH syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="6523">
++                                <OrphaCode>793</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=793</ExpertLink>
++                                <Name lang="en">SAPHO syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+@@ -3460,18 +3520,6 @@
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="10924">
+-                            <OrphaCode>69126</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=69126</ExpertLink>
+-                            <Name lang="en">PAPA syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="11109">
+                             <OrphaCode>77297</OrphaCode>
+@@ -3496,18 +3544,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="20725">
+-                            <OrphaCode>289478</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=289478</ExpertLink>
+-                            <Name lang="en">PASH syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="21817">
+                             <OrphaCode>324964</OrphaCode>
+@@ -3556,18 +3592,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="31722">
+-                            <OrphaCode>641390</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=641390</ExpertLink>
+-                            <Name lang="en">PsAPASH syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="3057">
+                             <OrphaCode>3243</OrphaCode>
+@@ -3651,7 +3675,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="4">
++                      <ClassificationNodeChildList count="5">
+                         <ClassificationNode>
+                           <Disorder id="31418">
+                             <OrphaCode>619948</OrphaCode>
+@@ -3664,6 +3688,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31951">
++                            <OrphaCode>658946</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658946</ExpertLink>
++                            <Name lang="en">Early-onset autoimmune disorder due to DOCK11 partial deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="21782">
+                             <OrphaCode>324530</OrphaCode>
+@@ -4424,6 +4460,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31952">
++                    <OrphaCode>658951</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658951</ExpertLink>
++                    <Name lang="en">Early-onset immune dysregulation due to DOCK11 complete deficiency</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="27635">
+                     <OrphaCode>529977</OrphaCode>
+@@ -4436,6 +4484,18 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="31938">
++                    <OrphaCode>658584</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658584</ExpertLink>
++                    <Name lang="en">Rowell syndrome</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="19277">
+                     <OrphaCode>238569</OrphaCode>
