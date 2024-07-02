@@ -1,0 +1,974 @@
+commit 4a84d9e90bb507ce17a52f782689062056a98175
+Author: davidlagorce <david.lagorce@inserm.fr>
+Date:   Tue Jul 2 21:30:06 2024 +0200
+
+    JULY 2024
+
+diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_150.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_150.xml
+index 2a94650..5d2970d 100644
+--- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_150.xml	
++++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_150.xml	
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2023-12-04 08:02:22" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2024-07-01 09:20:52" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+   <Availability> 
+     <Licence>
+       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
+@@ -1301,7 +1301,7 @@
+                       <Name lang="en">Clinical group</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="7">
++                  <ClassificationNodeChildList count="14">
+                     <ClassificationNode>
+                       <Disorder id="353">
+                         <OrphaCode>1947</OrphaCode>
+@@ -1315,10 +1315,10 @@
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="11288">
+-                        <OrphaCode>79262</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79262</ExpertLink>
+-                        <Name lang="en">Adult neuronal ceroid lipofuscinosis</Name>
++                      <Disorder id="19105">
++                        <OrphaCode>228329</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228329</ExpertLink>
++                        <Name lang="en">CLN1 disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -1327,34 +1327,22 @@
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="11289">
+-                        <OrphaCode>79263</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79263</ExpertLink>
+-                        <Name lang="en">Infantile neuronal ceroid lipofuscinosis</Name>
++                      <Disorder id="19110">
++                        <OrphaCode>228349</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228349</ExpertLink>
++                        <Name lang="en">CLN2 disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="1">
+-                        <ClassificationNode>
+-                          <Disorder id="20066">
+-                            <OrphaCode>263516</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263516</ExpertLink>
+-                            <Name lang="en">Progressive myoclonic epilepsy type 3</Name>
+-                            <DisorderType id="21450">
+-                              <Name lang="en">Clinical subtype</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
++                      <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="11290">
+-                        <OrphaCode>79264</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79264</ExpertLink>
+-                        <Name lang="en">Juvenile neuronal ceroid lipofuscinosis</Name>
++                      <Disorder id="19109">
++                        <OrphaCode>228346</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228346</ExpertLink>
++                        <Name lang="en">CLN3 disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -1363,10 +1351,10 @@
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="17765">
+-                        <OrphaCode>168486</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=168486</ExpertLink>
+-                        <Name lang="en">Congenital neuronal ceroid lipofuscinosis</Name>
++                      <Disorder id="19108">
++                        <OrphaCode>228343</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228343</ExpertLink>
++                        <Name lang="en">CLN4 disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -1375,10 +1363,10 @@
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+-                      <Disorder id="17766">
+-                        <OrphaCode>168491</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=168491</ExpertLink>
+-                        <Name lang="en">Late infantile neuronal ceroid lipofuscinosis</Name>
++                      <Disorder id="20066">
++                        <OrphaCode>263516</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263516</ExpertLink>
++                        <Name lang="en">Progressive myoclonic epilepsy type 3</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -1390,7 +1378,91 @@
+                       <Disorder id="21506">
+                         <OrphaCode>314632</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314632</ExpertLink>
+-                        <Name lang="en">ATP13A2-related juvenile neuronal ceroid lipofuscinosis</Name>
++                        <Name lang="en">CLN12 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="21505">
++                        <OrphaCode>314629</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314629</ExpertLink>
++                        <Name lang="en">CLN11 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="19113">
++                        <OrphaCode>228360</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228360</ExpertLink>
++                        <Name lang="en">CLN5 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="19114">
++                        <OrphaCode>228363</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228363</ExpertLink>
++                        <Name lang="en">CLN6 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="19115">
++                        <OrphaCode>228366</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228366</ExpertLink>
++                        <Name lang="en">CLN7 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="19111">
++                        <OrphaCode>228354</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228354</ExpertLink>
++                        <Name lang="en">CLN8 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="22104">
++                        <OrphaCode>352709</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=352709</ExpertLink>
++                        <Name lang="en">CLN13 disease</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="19106">
++                        <OrphaCode>228337</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=228337</ExpertLink>
++                        <Name lang="en">CLN10 disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -1529,7 +1601,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="7">
++                  <ClassificationNodeChildList count="8">
+                     <ClassificationNode>
+                       <Disorder id="24">
+                         <OrphaCode>583</OrphaCode>
+@@ -1770,6 +1842,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="32001">
++                        <OrphaCode>662216</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=662216</ExpertLink>
++                        <Name lang="en">Mucopolysaccharidosis type 10</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -2734,7 +2818,7 @@
+                       <Disorder id="10348">
+                         <OrphaCode>34587</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=34587</ExpertLink>
+-                        <Name lang="en">Glycogen storage disease due to LAMP-2 deficiency</Name>
++                        <Name lang="en">Danon disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -4914,7 +4998,7 @@
+                               <Disorder id="16711">
+                                 <OrphaCode>137754</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=137754</ExpertLink>
+-                                <Name lang="en">Neurological conditions associated with aminoacylase 1 deficiency</Name>
++                                <Name lang="en">Aminoacylase 1 deficiency</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -5310,7 +5394,7 @@
+                               <Disorder id="23516">
+                                 <OrphaCode>445038</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=445038</ExpertLink>
+-                                <Name lang="en">3-methylglutaconic aciduria type 7</Name>
++                                <Name lang="en">3-methylglutaconic aciduria-neonatal cataract-neurologic involvement-congenital neutropenia syndrome</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -6238,7 +6322,7 @@
+                       <Disorder id="10348">
+                         <OrphaCode>34587</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=34587</ExpertLink>
+-                        <Name lang="en">Glycogen storage disease due to LAMP-2 deficiency</Name>
++                        <Name lang="en">Danon disease</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -8507,7 +8591,7 @@
+                                   <Name lang="en">Category</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="14">
++                              <ClassificationNodeChildList count="13">
+                                 <ClassificationNode>
+                                   <Disorder id="63">
+                                     <OrphaCode>550</OrphaCode>
+@@ -8556,18 +8640,6 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="7037">
+-                                    <OrphaCode>225</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=225</ExpertLink>
+-                                    <Name lang="en">Maternally-inherited diabetes and deafness</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+                                 <ClassificationNode>
+                                   <Disorder id="12050">
+                                     <OrphaCode>90641</OrphaCode>
+@@ -10450,7 +10522,7 @@
+                       <Disorder id="23160">
+                         <OrphaCode>423479</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=423479</ExpertLink>
+-                        <Name lang="en">X-linked intellectual disability-limb spasticity-retinal dystrophy-diabetes insipidus syndrome</Name>
++                        <Name lang="en">X-linked intellectual disability-limb spasticity-retinal dystrophy-arginine vasopressin deficiency</Name>
+                         <DisorderType id="21394">
+                           <Name lang="en">Disease</Name>
+                         </DisorderType>
+@@ -10615,7 +10687,223 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="9">
++              <ClassificationNodeChildList count="10">
++                <ClassificationNode>
++                  <Disorder id="1025">
++                    <OrphaCode>657</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=657</ExpertLink>
++                    <Name lang="en">Congenital isolated hyperinsulinism</Name>
++                    <DisorderType id="21436">
++                      <Name lang="en">Clinical group</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="2">
++                    <ClassificationNode>
++                      <Disorder id="17593">
++                        <OrphaCode>165985</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165985</ExpertLink>
++                        <Name lang="en">Diazoxide-sensitive diffuse hyperinsulinism</Name>
++                        <DisorderType id="21436">
++                          <Name lang="en">Clinical group</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="9">
++                        <ClassificationNode>
++                          <Disorder id="10403">
++                            <OrphaCode>35878</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=35878</ExpertLink>
++                            <Name lang="en">Hyperinsulinism-hyperammonemia syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="10987">
++                            <OrphaCode>71212</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=71212</ExpertLink>
++                            <Name lang="en">Hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="11325">
++                            <OrphaCode>79299</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79299</ExpertLink>
++                            <Name lang="en">Congenital glucokinase-related hyperinsulinism</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="17595">
++                            <OrphaCode>165991</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165991</ExpertLink>
++                            <Name lang="en">Exercise-induced hyperinsulinism</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="20056">
++                            <OrphaCode>263455</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=263455</ExpertLink>
++                            <Name lang="en">Congenital hyperinsulinism due to HNF4A deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="20383">
++                            <OrphaCode>276556</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276556</ExpertLink>
++                            <Name lang="en">Hyperinsulinism due to UCP2 deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="20384">
++                            <OrphaCode>276575</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276575</ExpertLink>
++                            <Name lang="en">Autosomal dominant hyperinsulinism due to SUR1 deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="20385">
++                            <OrphaCode>276580</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276580</ExpertLink>
++                            <Name lang="en">Autosomal dominant hyperinsulinism due to Kir6.2 deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="21787">
++                            <OrphaCode>324575</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=324575</ExpertLink>
++                            <Name lang="en">Hyperinsulinism due to HNF1A deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="20386">
++                        <OrphaCode>276585</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276585</ExpertLink>
++                        <Name lang="en">Diazoxide-resistant hyperinsulinism</Name>
++                        <DisorderType id="21436">
++                          <Name lang="en">Clinical group</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="11324">
++                            <OrphaCode>79298</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79298</ExpertLink>
++                            <Name lang="en">Diazoxide-resistant focal hyperinsulinism</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="2">
++                            <ClassificationNode>
++                              <Disorder id="20387">
++                                <OrphaCode>276598</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276598</ExpertLink>
++                                <Name lang="en">Diazoxide-resistant focal hyperinsulinism due to SUR1 deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="20388">
++                                <OrphaCode>276603</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=276603</ExpertLink>
++                                <Name lang="en">Diazoxide-resistant focal hyperinsulinism due to Kir6.2 deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="17594">
++                            <OrphaCode>165988</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=165988</ExpertLink>
++                            <Name lang="en">Diazoxide-resistant diffuse hyperinsulinism</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="2">
++                            <ClassificationNode>
++                              <Disorder id="11541">
++                                <OrphaCode>79643</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79643</ExpertLink>
++                                <Name lang="en">Autosomal recessive hyperinsulinism due to SUR1 deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="11542">
++                                <OrphaCode>79644</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79644</ExpertLink>
++                                <Name lang="en">Autosomal recessive hyperinsulinism due to Kir6.2 deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="194">
+                     <OrphaCode>60</OrphaCode>
+@@ -11850,7 +12138,7 @@
+                               <Disorder id="13925">
+                                 <OrphaCode>98908</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98908</ExpertLink>
+-                                <Name lang="en">Neutral lipid storage myopathy</Name>
++                                <Name lang="en">Neutral lipid storage disease with myopathy</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -11923,7 +12211,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="4">
++              <ClassificationNodeChildList count="5">
+                 <ClassificationNode>
+                   <Disorder id="249">
+                     <OrphaCode>167</OrphaCode>
+@@ -11979,7 +12267,31 @@
+                           <Name lang="en">Clinical subtype</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="0">
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="32042">
++                            <OrphaCode>664500</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=664500</ExpertLink>
++                            <Name lang="en">Hermansky-Pudlak syndrome due to AP3B1 deficiency</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="32043">
++                            <OrphaCode>664511</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=664511</ExpertLink>
++                            <Name lang="en">Early-onset severe Hermansky-Pudlak syndrome with hearing loss, due to AP3D1 deficiency</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -12020,6 +12332,18 @@
+                     </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="32130">
++                    <OrphaCode>675782</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675782</ExpertLink>
++                    <Name lang="en">Progressive hypotonia-intellectual disability-facial dysmorphism syndrome due to FYVE-defective RBSN</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+               </ClassificationNodeChildList>
+             </ClassificationNode>
+             <ClassificationNode>
+@@ -12041,46 +12365,22 @@
+                       <Name lang="en">Clinical group</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="6">
+-                    <ClassificationNode>
+-                      <Disorder id="11303">
+-                        <OrphaCode>79277</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79277</ExpertLink>
+-                        <Name lang="en">Congenital erythropoietic porphyria</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="11304">
+-                        <OrphaCode>79278</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79278</ExpertLink>
+-                        <Name lang="en">Autosomal erythropoietic protoporphyria</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
++                  <ClassificationNodeChildList count="2">
+                     <ClassificationNode>
+-                      <Disorder id="12578">
+-                        <OrphaCode>95157</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95157</ExpertLink>
+-                        <Name lang="en">Acute hepatic porphyria</Name>
++                      <Disorder id="31964">
++                        <OrphaCode>659681</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=659681</ExpertLink>
++                        <Name lang="en">Erythropoietic porphyria</Name>
+                         <DisorderType id="21436">
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="4">
++                      <ClassificationNodeChildList count="6">
+                         <ClassificationNode>
+-                          <Disorder id="11299">
+-                            <OrphaCode>79273</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79273</ExpertLink>
+-                            <Name lang="en">Hereditary coproporphyria</Name>
++                          <Disorder id="11303">
++                            <OrphaCode>79277</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79277</ExpertLink>
++                            <Name lang="en">Congenital erythropoietic porphyria</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -12089,10 +12389,10 @@
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="11302">
+-                            <OrphaCode>79276</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79276</ExpertLink>
+-                            <Name lang="en">Acute intermittent porphyria</Name>
++                          <Disorder id="11304">
++                            <OrphaCode>79278</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79278</ExpertLink>
++                            <Name lang="en">Autosomal erythropoietic protoporphyria</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -12101,10 +12401,10 @@
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="11499">
+-                            <OrphaCode>79473</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79473</ExpertLink>
+-                            <Name lang="en">Porphyria variegata</Name>
++                          <Disorder id="23451">
++                            <OrphaCode>443197</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443197</ExpertLink>
++                            <Name lang="en">X-linked erythropoietic protoporphyria</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -12113,10 +12413,10 @@
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="14678">
+-                            <OrphaCode>100924</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100924</ExpertLink>
+-                            <Name lang="en">Porphyria due to ALA dehydratase deficiency</Name>
++                          <Disorder id="20463">
++                            <OrphaCode>280379</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280379</ExpertLink>
++                            <Name lang="en">Erythropoietic uroporphyria associated with myeloid malignancy</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -12124,18 +12424,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="12581">
+-                        <OrphaCode>95161</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95161</ExpertLink>
+-                        <Name lang="en">Chronic hepatic porphyria</Name>
+-                        <DisorderType id="21436">
+-                          <Name lang="en">Clinical group</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="2">
+                         <ClassificationNode>
+                           <Disorder id="12580">
+                             <OrphaCode>95159</OrphaCode>
+@@ -12149,34 +12437,82 @@
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                         <ClassificationNode>
+-                          <Disorder id="14841">
+-                            <OrphaCode>101330</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101330</ExpertLink>
+-                            <Name lang="en">Porphyria cutanea tarda</Name>
++                          <Disorder id="31963">
++                            <OrphaCode>659672</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=659672</ExpertLink>
++                            <Name lang="en">Harderoporphyria</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="2">
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="31965">
++                        <OrphaCode>659694</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=659694</ExpertLink>
++                        <Name lang="en">Hepatic porphyria</Name>
++                        <DisorderType id="21436">
++                          <Name lang="en">Clinical group</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="2">
++                        <ClassificationNode>
++                          <Disorder id="12578">
++                            <OrphaCode>95157</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=95157</ExpertLink>
++                            <Name lang="en">Acute hepatic porphyria</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="4">
+                             <ClassificationNode>
+-                              <Disorder id="23434">
+-                                <OrphaCode>443057</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443057</ExpertLink>
+-                                <Name lang="en">Sporadic porphyria cutanea tarda</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
++                              <Disorder id="11299">
++                                <OrphaCode>79273</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79273</ExpertLink>
++                                <Name lang="en">Hereditary coproporphyria</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
+                                 </DisorderType>
+                               </Disorder>
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+-                              <Disorder id="23435">
+-                                <OrphaCode>443062</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443062</ExpertLink>
+-                                <Name lang="en">Familial porphyria cutanea tarda</Name>
+-                                <DisorderType id="21450">
+-                                  <Name lang="en">Clinical subtype</Name>
++                              <Disorder id="11302">
++                                <OrphaCode>79276</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79276</ExpertLink>
++                                <Name lang="en">Acute intermittent porphyria</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="11499">
++                                <OrphaCode>79473</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79473</ExpertLink>
++                                <Name lang="en">Variegate porphyria</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="14678">
++                                <OrphaCode>100924</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=100924</ExpertLink>
++                                <Name lang="en">Porphyria due to ALA dehydratase deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
+                                 </DisorderType>
+                               </Disorder>
+                               <ClassificationNodeChildList count="0">
+@@ -12184,30 +12520,54 @@
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="20463">
+-                        <OrphaCode>280379</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280379</ExpertLink>
+-                        <Name lang="en">Erythropoietic uroporphyria associated with myeloid malignancy</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="23451">
+-                        <OrphaCode>443197</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443197</ExpertLink>
+-                        <Name lang="en">X-linked erythropoietic protoporphyria</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
++                        <ClassificationNode>
++                          <Disorder id="31966">
++                            <OrphaCode>659698</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=659698</ExpertLink>
++                            <Name lang="en">Hepatic cutaneous porphyria</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="1">
++                            <ClassificationNode>
++                              <Disorder id="14841">
++                                <OrphaCode>101330</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101330</ExpertLink>
++                                <Name lang="en">Porphyria cutanea tarda</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="2">
++                                <ClassificationNode>
++                                  <Disorder id="23434">
++                                    <OrphaCode>443057</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443057</ExpertLink>
++                                    <Name lang="en">Sporadic porphyria cutanea tarda</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="23435">
++                                    <OrphaCode>443062</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=443062</ExpertLink>
++                                    <Name lang="en">Familial porphyria cutanea tarda</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+                   </ClassificationNodeChildList>
+@@ -12759,7 +13119,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="7">
++                      <ClassificationNodeChildList count="8">
+                         <ClassificationNode>
+                           <Disorder id="29867">
+                             <OrphaCode>597874</OrphaCode>
+@@ -12776,7 +13136,19 @@
+                           <Disorder id="31946">
+                             <OrphaCode>658813</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=658813</ExpertLink>
+-                            <Name lang="en">Methylenetetrahydrofolate dehydrogenase 1 deficiency</Name>
++                            <Name lang="en">Combined immunodeficiency-megaloblastic anemia due to methylenetetrahydrofolate dehydrogenase 1 deficiency</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="31990">
++                            <OrphaCode>661412</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=661412</ExpertLink>
++                            <Name lang="en">Megaloblastic anemia-immunodeficiency due to folate transporter 1 deficiency</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -13227,7 +13599,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="9">
++                      <ClassificationNodeChildList count="11">
+                         <ClassificationNode>
+                           <Disorder id="504">
+                             <OrphaCode>446</OrphaCode>
+@@ -13396,6 +13768,30 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="23415">
++                            <OrphaCode>440731</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=440731</ExpertLink>
++                            <Name lang="en">L-ferritin deficiency</Name>
++                            <DisorderType id="21408">
++                              <Name lang="en">Biological anomaly</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="1580">
++                            <OrphaCode>163</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=163</ExpertLink>
++                            <Name lang="en">Hereditary hyperferritinemia-cataract syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="31841">
+                             <OrphaCode>648562</OrphaCode>
