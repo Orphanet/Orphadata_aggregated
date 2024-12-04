@@ -1,259 +1,35 @@
-commit 4a84d9e90bb507ce17a52f782689062056a98175
+commit 6eb274384f0c4cd30cc83f08ce097956913930ce
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Jul 2 21:30:06 2024 +0200
+Date:   Wed Dec 4 08:42:13 2024 +0100
 
-    JULY 2024
+    DEC 2024
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_209.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_209.xml
-index 33dc49e..21bf170 100644
+index 21bf170..b4aa653 100644
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_209.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_209.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2023-12-04 08:06:36" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2024-07-01 09:25:13" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2024-07-01 09:25:13" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2024-12-03 07:09:42" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -79,7 +79,7 @@
-                   <Name lang="en">Clinical group</Name>
-                 </DisorderType>
-               </Disorder>
--              <ClassificationNodeChildList count="4">
-+              <ClassificationNodeChildList count="5">
-                 <ClassificationNode>
-                   <Disorder id="14344">
-                     <OrphaCode>99771</OrphaCode>
-@@ -128,6 +128,18 @@
-                   <ClassificationNodeChildList count="0">
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-+                <ClassificationNode>
-+                  <Disorder id="32027">
-+                    <OrphaCode>664372</OrphaCode>
-+                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=664372</ExpertLink>
-+                    <Name lang="en">Soft and hard cleft palate</Name>
-+                    <DisorderType id="21415">
-+                      <Name lang="en">Morphological anomaly</Name>
-+                    </DisorderType>
-+                  </Disorder>
-+                  <ClassificationNodeChildList count="0">
-+                  </ClassificationNodeChildList>
-+                </ClassificationNode>
-               </ClassificationNodeChildList>
-             </ClassificationNode>
-             <ClassificationNode>
-@@ -461,19 +473,7 @@
-                       <Name lang="en">Category</Name>
+@@ -1104,7 +1104,7 @@
+                   <Disorder id="330">
+                     <OrphaCode>1600</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1600</ExpertLink>
+-                    <Name lang="en">Monosomy 18q</Name>
++                    <Name lang="en">Monosomy 18q syndrome</Name>
+                     <DisorderType id="21401">
+                       <Name lang="en">Malformation syndrome</Name>
                      </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="3">
--                    <ClassificationNode>
--                      <Disorder id="218">
--                        <OrphaCode>857</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=857</ExpertLink>
--                        <Name lang="en">Townes-Brocks syndrome</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-+                  <ClassificationNodeChildList count="2">
-                     <ClassificationNode>
-                       <Disorder id="237">
-                         <OrphaCode>107</OrphaCode>
-@@ -783,7 +783,7 @@
-                           <Name lang="en">Clinical group</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="14">
-+                      <ClassificationNodeChildList count="10">
-                         <ClassificationNode>
-                           <Disorder id="2506">
-                             <OrphaCode>2750</OrphaCode>
-@@ -808,18 +808,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="2508">
--                            <OrphaCode>2752</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2752</ExpertLink>
--                            <Name lang="en">Orofaciodigital syndrome type 3</Name>
--                            <DisorderType id="21401">
--                              <Name lang="en">Malformation syndrome</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="2509">
-                             <OrphaCode>2753</OrphaCode>
-@@ -868,18 +856,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="3165">
--                            <OrphaCode>2756</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2756</ExpertLink>
--                            <Name lang="en">Orofaciodigital syndrome type 10</Name>
--                            <DisorderType id="21401">
--                              <Name lang="en">Malformation syndrome</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="17017">
-                             <OrphaCode>141000</OrphaCode>
-@@ -904,30 +880,6 @@
-                           <ClassificationNodeChildList count="0">
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="17078">
--                            <OrphaCode>141327</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=141327</ExpertLink>
--                            <Name lang="en">Orofaciodigital syndrome type 12</Name>
--                            <DisorderType id="21401">
--                              <Name lang="en">Malformation syndrome</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="17079">
--                            <OrphaCode>141330</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=141330</ExpertLink>
--                            <Name lang="en">Orofaciodigital syndrome type 13</Name>
--                            <DisorderType id="21401">
--                              <Name lang="en">Malformation syndrome</Name>
--                            </DisorderType>
--                          </Disorder>
--                          <ClassificationNodeChildList count="0">
--                          </ClassificationNodeChildList>
--                        </ClassificationNode>
-                         <ClassificationNode>
-                           <Disorder id="23271">
-                             <OrphaCode>434179</OrphaCode>
-@@ -1925,7 +1877,7 @@
-                       <Name lang="en">Category</Name>
+@@ -1128,7 +1128,7 @@
+                   <Disorder id="562">
+                     <OrphaCode>718</OrphaCode>
+                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=718</ExpertLink>
+-                    <Name lang="en">Isolated Pierre Robin syndrome</Name>
++                    <Name lang="en">Isolated Pierre Robin sequence</Name>
+                     <DisorderType id="21401">
+                       <Name lang="en">Malformation syndrome</Name>
                      </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="72">
-+                  <ClassificationNodeChildList count="73">
-                     <ClassificationNode>
-                       <Disorder id="280">
-                         <OrphaCode>564</OrphaCode>
-@@ -2602,7 +2554,7 @@
-                       <Disorder id="3096">
-                         <OrphaCode>1415</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1415</ExpertLink>
--                        <Name lang="en">Cholestasis-pigmentary retinopathy-cleft palate syndrome</Name>
-+                        <Name lang="en">Hardikar syndrome</Name>
-                         <DisorderType id="21401">
-                           <Name lang="en">Malformation syndrome</Name>
-                         </DisorderType>
-@@ -2778,6 +2730,18 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="31986">
-+                        <OrphaCode>660021</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=660021</ExpertLink>
-+                        <Name lang="en">Orofacial clefting-cardiac anomalies-facial dysmorphism syndrome</Name>
-+                        <DisorderType id="21401">
-+                          <Name lang="en">Malformation syndrome</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="26568">
-                         <OrphaCode>508476</OrphaCode>
-@@ -2801,7 +2765,7 @@
-                       <Name lang="en">Clinical group</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="14">
-+                  <ClassificationNodeChildList count="10">
-                     <ClassificationNode>
-                       <Disorder id="2506">
-                         <OrphaCode>2750</OrphaCode>
-@@ -2826,18 +2790,6 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="2508">
--                        <OrphaCode>2752</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2752</ExpertLink>
--                        <Name lang="en">Orofaciodigital syndrome type 3</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="2509">
-                         <OrphaCode>2753</OrphaCode>
-@@ -2886,18 +2838,6 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="3165">
--                        <OrphaCode>2756</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2756</ExpertLink>
--                        <Name lang="en">Orofaciodigital syndrome type 10</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="17017">
-                         <OrphaCode>141000</OrphaCode>
-@@ -2922,30 +2862,6 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="17078">
--                        <OrphaCode>141327</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=141327</ExpertLink>
--                        <Name lang="en">Orofaciodigital syndrome type 12</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
--                    <ClassificationNode>
--                      <Disorder id="17079">
--                        <OrphaCode>141330</OrphaCode>
--                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=141330</ExpertLink>
--                        <Name lang="en">Orofaciodigital syndrome type 13</Name>
--                        <DisorderType id="21401">
--                          <Name lang="en">Malformation syndrome</Name>
--                        </DisorderType>
--                      </Disorder>
--                      <ClassificationNodeChildList count="0">
--                      </ClassificationNodeChildList>
--                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="23271">
-                         <OrphaCode>434179</OrphaCode>

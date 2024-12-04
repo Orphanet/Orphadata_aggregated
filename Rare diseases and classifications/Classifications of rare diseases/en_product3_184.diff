@@ -1,225 +1,208 @@
-commit 4a84d9e90bb507ce17a52f782689062056a98175
+commit 6eb274384f0c4cd30cc83f08ce097956913930ce
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Tue Jul 2 21:30:06 2024 +0200
+Date:   Wed Dec 4 08:42:13 2024 +0100
 
-    JULY 2024
+    DEC 2024
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml
-index 94bacdc..6305dfe 100644
+index 6305dfe..27ef0f3 100644
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_184.xml	
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2023-12-04 08:04:36" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2023" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2024-07-01 09:23:10" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<JDBOR date="2024-07-01 09:23:10" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<JDBOR date="2024-12-03 07:07:37" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -1320,12 +1320,24 @@
-                   <Disorder id="14881">
-                     <OrphaCode>101945</OrphaCode>
-                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101945</ExpertLink>
--                    <Name lang="en">Rare bronchopulmonary tumor</Name>
-+                    <Name lang="en">Rare bronchopulmonary and pleural cavity tumors</Name>
-                     <DisorderType id="36561">
-                       <Name lang="en">Category</Name>
-                     </DisorderType>
-                   </Disorder>
--                  <ClassificationNodeChildList count="7">
-+                  <ClassificationNodeChildList count="10">
-+                    <ClassificationNode>
-+                      <Disorder id="31371">
-+                        <OrphaCode>617916</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=617916</ExpertLink>
-+                        <Name lang="en">Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                     <ClassificationNode>
-                       <Disorder id="752">
-                         <OrphaCode>2420</OrphaCode>
-@@ -1347,7 +1359,43 @@
-                           <Name lang="en">Disease</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="0">
-+                      <ClassificationNodeChildList count="3">
-+                        <ClassificationNode>
-+                          <Disorder id="32134">
-+                            <OrphaCode>675837</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675837</ExpertLink>
-+                            <Name lang="en">Diffused pleural mesothelioma</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="32133">
-+                            <OrphaCode>675833</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675833</ExpertLink>
-+                            <Name lang="en">Localized pleural mesothelioma</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-+                        <ClassificationNode>
-+                          <Disorder id="32135">
-+                            <OrphaCode>675841</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675841</ExpertLink>
-+                            <Name lang="en">Pleural mesothelioma in situ</Name>
-+                            <DisorderType id="21450">
-+                              <Name lang="en">Clinical subtype</Name>
-+                            </DisorderType>
-+                          </Disorder>
-+                          <ClassificationNodeChildList count="0">
-+                          </ClassificationNodeChildList>
-+                        </ClassificationNode>
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-                     <ClassificationNode>
-@@ -1470,6 +1518,30 @@
-                       <ClassificationNodeChildList count="0">
-                       </ClassificationNodeChildList>
-                     </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="32132">
-+                        <OrphaCode>675822</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675822</ExpertLink>
-+                        <Name lang="en">Well-differentiated papillary mesothelial tumour of the pleura</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-+                    <ClassificationNode>
-+                      <Disorder id="32131">
-+                        <OrphaCode>675814</OrphaCode>
-+                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675814</ExpertLink>
-+                        <Name lang="en">Adenomatoid tumour of the pleura</Name>
-+                        <DisorderType id="21394">
-+                          <Name lang="en">Disease</Name>
-+                        </DisorderType>
-+                      </Disorder>
-+                      <ClassificationNodeChildList count="0">
-+                      </ClassificationNodeChildList>
-+                    </ClassificationNode>
-                   </ClassificationNodeChildList>
-                 </ClassificationNode>
-               </ClassificationNodeChildList>
-@@ -1483,7 +1555,7 @@
+@@ -1555,7 +1555,7 @@
                    <Name lang="en">Category</Name>
                  </DisorderType>
                </Disorder>
--              <ClassificationNodeChildList count="44">
-+              <ClassificationNodeChildList count="43">
+-              <ClassificationNodeChildList count="43">
++              <ClassificationNodeChildList count="44">
                  <ClassificationNode>
                    <Disorder id="3768">
                      <OrphaCode>389</OrphaCode>
-@@ -2545,7 +2617,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="9">
-+                          <ClassificationNodeChildList count="8">
-                             <ClassificationNode>
-                               <Disorder id="8627">
-                                 <OrphaCode>122</OrphaCode>
-@@ -2774,18 +2846,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="31371">
--                                <OrphaCode>617916</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=617916</ExpertLink>
--                                <Name lang="en">Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                         <ClassificationNode>
-@@ -2953,7 +3013,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="4">
-+                          <ClassificationNodeChildList count="5">
-                             <ClassificationNode>
-                               <Disorder id="14503">
-                                 <OrphaCode>99930</OrphaCode>
-@@ -2963,19 +3023,7 @@
-                                   <Name lang="en">Disease</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="1">
--                                <ClassificationNode>
--                                  <Disorder id="14505">
--                                    <OrphaCode>99932</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99932</ExpertLink>
--                                    <Name lang="en">Heiner syndrome</Name>
--                                    <DisorderType id="21450">
--                                      <Name lang="en">Clinical subtype</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
-+                              <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-                             <ClassificationNode>
-@@ -3314,6 +3362,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="14505">
-+                                <OrphaCode>99932</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99932</ExpertLink>
-+                                <Name lang="en">Heiner syndrome</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                           </ClassificationNodeChildList>
-                         </ClassificationNode>
-                       </ClassificationNodeChildList>
-@@ -3524,18 +3584,6 @@
-                   <ClassificationNodeChildList count="0">
+@@ -1565,7 +1565,55 @@
+                       <Name lang="en">Disease</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="0">
++                  <ClassificationNodeChildList count="4">
++                    <ClassificationNode>
++                      <Disorder id="32186">
++                        <OrphaCode>687733</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=687733</ExpertLink>
++                        <Name lang="en">Pulmonary Langerhans cell histiocytosis</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="32188">
++                        <OrphaCode>687741</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=687741</ExpertLink>
++                        <Name lang="en">Multisystem Langerhans cell histiocytosis</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="32187">
++                        <OrphaCode>687738</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=687738</ExpertLink>
++                        <Name lang="en">Single-system multifocal Langerhans cell histiocytosis</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="32185">
++                        <OrphaCode>687730</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=687730</ExpertLink>
++                        <Name lang="en">Unifocal Langerhans cell histiocytosis</Name>
++                        <DisorderType id="21450">
++                          <Name lang="en">Clinical subtype</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
                    </ClassificationNodeChildList>
                  </ClassificationNode>
--                <ClassificationNode>
--                  <Disorder id="31923">
--                    <OrphaCode>656273</OrphaCode>
--                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=656273</ExpertLink>
--                    <Name lang="en">Hypotonia-hypoventilation-intellectual disability-dysautonomia-epilepsy-eye abnormalities syndrome</Name>
--                    <DisorderType id="21422">
--                      <Name lang="en">Clinical syndrome</Name>
--                    </DisorderType>
--                  </Disorder>
--                  <ClassificationNodeChildList count="0">
--                  </ClassificationNodeChildList>
--                </ClassificationNode>
                  <ClassificationNode>
-                   <Disorder id="31793">
-                     <OrphaCode>645814</OrphaCode>
+@@ -1844,6 +1892,18 @@
+                     </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="3441">
++                    <OrphaCode>2038</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2038</ExpertLink>
++                    <Name lang="en">Pulmonary arteriovenous malformation</Name>
++                    <DisorderType id="21415">
++                      <Name lang="en">Morphological anomaly</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="16993">
+                     <OrphaCode>140896</OrphaCode>
+@@ -1945,10 +2005,10 @@
+                               </Disorder>
+                               <ClassificationNodeChildList count="3">
+                                 <ClassificationNode>
+-                                  <Disorder id="10958">
+-                                    <OrphaCode>70587</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70587</ExpertLink>
+-                                    <Name lang="en">Infant acute respiratory distress syndrome</Name>
++                                  <Disorder id="32167">
++                                    <OrphaCode>685082</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=685082</ExpertLink>
++                                    <Name lang="en">Pediatric acute respiratory distress syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -1982,7 +2042,7 @@
+                                       <Disorder id="18862">
+                                         <OrphaCode>217563</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217563</ExpertLink>
+-                                        <Name lang="en">Neonatal acute respiratory distress due to SP-B deficiency</Name>
++                                        <Name lang="en">Neonatal acute respiratory distress syndrome</Name>
+                                         <DisorderType id="21394">
+                                           <Name lang="en">Disease</Name>
+                                         </DisorderType>
+@@ -2080,7 +2140,7 @@
+                                   <Disorder id="6520">
+                                     <OrphaCode>662</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=662</ExpertLink>
+-                                    <Name lang="en">Yellow nail syndrome</Name>
++                                    <Name lang="en">Lymphedema with yellow nails</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -3281,57 +3341,33 @@
+                                     <OrphaCode>31740</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=31740</ExpertLink>
+                                     <Name lang="en">Hypersensitivity pneumonitis</Name>
+-                                    <DisorderType id="21436">
+-                                      <Name lang="en">Clinical group</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="2">
+                                     <ClassificationNode>
+-                                      <Disorder id="14480">
+-                                        <OrphaCode>99907</OrphaCode>
+-                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99907</ExpertLink>
+-                                        <Name lang="en">House allergic alveolitis</Name>
+-                                        <DisorderType id="21394">
+-                                          <Name lang="en">Disease</Name>
++                                      <Disorder id="32172">
++                                        <OrphaCode>686462</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=686462</ExpertLink>
++                                        <Name lang="en">Non-fibrotic hypersensitivity pneumonitis</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+                                       <ClassificationNodeChildList count="0">
+                                       </ClassificationNodeChildList>
+                                     </ClassificationNode>
+                                     <ClassificationNode>
+-                                      <Disorder id="14482">
+-                                        <OrphaCode>99909</OrphaCode>
+-                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99909</ExpertLink>
+-                                        <Name lang="en">Occupational allergic alveolitis</Name>
+-                                        <DisorderType id="21436">
+-                                          <Name lang="en">Clinical group</Name>
++                                      <Disorder id="32173">
++                                        <OrphaCode>686465</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=686465</ExpertLink>
++                                        <Name lang="en">Fibrotic hypersensitivity pneumonitis</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
+                                         </DisorderType>
+                                       </Disorder>
+-                                      <ClassificationNodeChildList count="2">
+-                                        <ClassificationNode>
+-                                          <Disorder id="14479">
+-                                            <OrphaCode>99906</OrphaCode>
+-                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99906</ExpertLink>
+-                                            <Name lang="en">Farmer's lung disease</Name>
+-                                            <DisorderType id="21394">
+-                                              <Name lang="en">Disease</Name>
+-                                            </DisorderType>
+-                                          </Disorder>
+-                                          <ClassificationNodeChildList count="0">
+-                                          </ClassificationNodeChildList>
+-                                        </ClassificationNode>
+-                                        <ClassificationNode>
+-                                          <Disorder id="14481">
+-                                            <OrphaCode>99908</OrphaCode>
+-                                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99908</ExpertLink>
+-                                            <Name lang="en">Pigeon-breeder lung disease</Name>
+-                                            <DisorderType id="21394">
+-                                              <Name lang="en">Disease</Name>
+-                                            </DisorderType>
+-                                          </Disorder>
+-                                          <ClassificationNodeChildList count="0">
+-                                          </ClassificationNodeChildList>
+-                                        </ClassificationNode>
++                                      <ClassificationNodeChildList count="0">
+                                       </ClassificationNodeChildList>
+                                     </ClassificationNode>
+                                   </ClassificationNodeChildList>
