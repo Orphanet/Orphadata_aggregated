@@ -1,77 +1,228 @@
-commit 6eb274384f0c4cd30cc83f08ce097956913930ce
+commit 7ab24fe976be5c798004246aa079a429e568689b
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Wed Dec 4 08:42:13 2024 +0100
+Date:   Mon Jun 30 11:46:37 2025 +0200
 
-    DEC 2024
+    JULY 2025
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml
-index 769b07b..2acf92f 100644
+old mode 100644
+new mode 100755
+index 2acf92f..7f9781a
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_189.xml	
 @@ -1,5 +1,5 @@
- <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2024-07-01 09:23:40" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2024-12-03 07:08:07" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2024-12-03 07:08:07" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<?xml version="1.0" encoding="UTF-8"?>
++<JDBOR date="2025-06-24 07:33:15" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -2351,7 +2351,7 @@
+@@ -31,7 +31,7 @@
+                   <Name lang="en">Category</Name>
+                 </DisorderType>
+               </Disorder>
+-              <ClassificationNodeChildList count="14">
++              <ClassificationNodeChildList count="16">
+                 <ClassificationNode>
+                   <Disorder id="31939">
+                     <OrphaCode>658590</OrphaCode>
+@@ -68,6 +68,30 @@
+                   <ClassificationNodeChildList count="0">
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="32104">
++                    <OrphaCode>674968</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=674968</ExpertLink>
++                    <Name lang="en">Bilateral diffuse uveal melanocytic proliferation disease</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
++                <ClassificationNode>
++                  <Disorder id="32302">
++                    <OrphaCode>695631</OrphaCode>
++                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695631</ExpertLink>
++                    <Name lang="en">Primary vitreoretinal large B-cell lymphoma</Name>
++                    <DisorderType id="21394">
++                      <Name lang="en">Disease</Name>
++                    </DisorderType>
++                  </Disorder>
++                  <ClassificationNodeChildList count="0">
++                  </ClassificationNodeChildList>
++                </ClassificationNode>
+                 <ClassificationNode>
+                   <Disorder id="122">
+                     <OrphaCode>790</OrphaCode>
+@@ -493,7 +517,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="10">
++                          <ClassificationNodeChildList count="11">
+                             <ClassificationNode>
+                               <Disorder id="27238">
+                                 <OrphaCode>519337</OrphaCode>
+@@ -508,7 +532,7 @@
+                                   <Disorder id="255">
+                                     <OrphaCode>53</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=53</ExpertLink>
+-                                    <Name lang="en">Albers-Schönberg osteopetrosis</Name>
++                                    <Name lang="en">Albers-SchÃ¶nberg osteopetrosis</Name>
+                                     <DisorderType id="21401">
+                                       <Name lang="en">Malformation syndrome</Name>
+                                     </DisorderType>
+@@ -938,6 +962,18 @@
+                                 </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="32100">
++                                <OrphaCode>674947</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=674947</ExpertLink>
++                                <Name lang="en">Diffuse unilateral subacute neuroretinitis</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="31705">
+                                 <OrphaCode>637064</OrphaCode>
+@@ -1406,7 +1442,7 @@
+                                       <Disorder id="22641">
+                                         <OrphaCode>391677</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=391677</ExpertLink>
+-                                        <Name lang="en">Short stature-optic atrophy-Pelger-Huët anomaly syndrome</Name>
++                                        <Name lang="en">Short stature-optic atrophy-Pelger-HuÃ«t anomaly syndrome</Name>
+                                         <DisorderType id="21401">
+                                           <Name lang="en">Malformation syndrome</Name>
+                                         </DisorderType>
+@@ -2351,7 +2387,7 @@
                                    <Name lang="en">Category</Name>
                                  </DisorderType>
                                </Disorder>
--                              <ClassificationNodeChildList count="69">
-+                              <ClassificationNodeChildList count="68">
+-                              <ClassificationNodeChildList count="68">
++                              <ClassificationNodeChildList count="67">
                                  <ClassificationNode>
                                    <Disorder id="11307">
                                      <OrphaCode>79281</OrphaCode>
-@@ -2556,18 +2556,6 @@
+@@ -2668,7 +2704,7 @@
+                                   <Disorder id="2277">
+                                     <OrphaCode>559</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=559</ExpertLink>
+-                                    <Name lang="en">Marinesco-Sjögren syndrome</Name>
++                                    <Name lang="en">Marinesco-SjÃ¶gren syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -3096,18 +3132,6 @@
                                    <ClassificationNodeChildList count="0">
                                    </ClassificationNodeChildList>
                                  </ClassificationNode>
 -                                <ClassificationNode>
--                                  <Disorder id="10656">
--                                    <OrphaCode>50817</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=50817</ExpertLink>
--                                    <Name lang="en">Duane anomaly-myopathy-scoliosis syndrome</Name>
--                                    <DisorderType id="21394">
--                                      <Name lang="en">Disease</Name>
+-                                  <Disorder id="3173">
+-                                    <OrphaCode>2963</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2963</ExpertLink>
+-                                    <Name lang="en">Progeroid syndrome, Petty type</Name>
+-                                    <DisorderType id="21401">
+-                                      <Name lang="en">Malformation syndrome</Name>
 -                                    </DisorderType>
 -                                  </Disorder>
 -                                  <ClassificationNodeChildList count="0">
 -                                  </ClassificationNodeChildList>
 -                                </ClassificationNode>
                                  <ClassificationNode>
-                                   <Disorder id="11103">
-                                     <OrphaCode>77260</OrphaCode>
-@@ -2764,7 +2752,7 @@
-                                   <Disorder id="11113">
-                                     <OrphaCode>77301</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=77301</ExpertLink>
--                                    <Name lang="en">Monosomy 9q22.3</Name>
-+                                    <Name lang="en">Monosomy 9q22.3 syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -3160,7 +3148,7 @@
-                                   <Disorder id="1086">
-                                     <OrphaCode>1581</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1581</ExpertLink>
--                                    <Name lang="en">Non-distal deletion 10q</Name>
-+                                    <Name lang="en">Non-distal deletion 10q syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -4623,7 +4611,19 @@
+                                   <Disorder id="3498">
+                                     <OrphaCode>3474</OrphaCode>
+@@ -3399,7 +3423,7 @@
                            <Name lang="en">Category</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="3">
-+                      <ClassificationNodeChildList count="4">
+-                      <ClassificationNodeChildList count="13">
++                      <ClassificationNodeChildList count="14">
+                         <ClassificationNode>
+                           <Disorder id="63">
+                             <OrphaCode>550</OrphaCode>
+@@ -3424,6 +3448,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
 +                        <ClassificationNode>
-+                          <Disorder id="20516">
-+                            <OrphaCode>280914</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=280914</ExpertLink>
-+                            <Name lang="en">Isolated idiopathic anterior uveitis</Name>
++                          <Disorder id="22348">
++                            <OrphaCode>363746</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=363746</ExpertLink>
++                            <Name lang="en">Balint syndrome</Name>
++                            <DisorderType id="21422">
++                              <Name lang="en">Clinical syndrome</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="13705">
+                             <OrphaCode>98688</OrphaCode>
+@@ -3894,7 +3930,7 @@
+                               <Disorder id="1022">
+                                 <OrphaCode>475</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=475</ExpertLink>
+-                                <Name lang="en">Joubert syndrome</Name>
++                                <Name lang="en">Isolated Joubert syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -4662,7 +4698,7 @@
+                               <Disorder id="703">
+                                 <OrphaCode>117</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=117</ExpertLink>
+-                                <Name lang="en">Behçet disease</Name>
++                                <Name lang="en">BehÃ§et disease</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -4926,7 +4962,7 @@
+                               <Disorder id="703">
+                                 <OrphaCode>117</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=117</ExpertLink>
+-                                <Name lang="en">Behçet disease</Name>
++                                <Name lang="en">BehÃ§et disease</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -5034,7 +5070,7 @@
+                               <Disorder id="703">
+                                 <OrphaCode>117</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=117</ExpertLink>
+-                                <Name lang="en">Behçet disease</Name>
++                                <Name lang="en">BehÃ§et disease</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -5103,7 +5139,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="7">
++                      <ClassificationNodeChildList count="9">
+                         <ClassificationNode>
+                           <Disorder id="16899">
+                             <OrphaCode>139450</OrphaCode>
+@@ -5368,6 +5404,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="32104">
++                            <OrphaCode>674968</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=674968</ExpertLink>
++                            <Name lang="en">Bilateral diffuse uveal melanocytic proliferation disease</Name>
 +                            <DisorderType id="21394">
 +                              <Name lang="en">Disease</Name>
 +                            </DisorderType>
@@ -80,322 +231,250 @@ index 769b07b..2acf92f 100644
 +                          </ClassificationNodeChildList>
 +                        </ClassificationNode>
                          <ClassificationNode>
-                           <Disorder id="20416">
-                             <OrphaCode>279922</OrphaCode>
-@@ -8020,7 +8020,7 @@
-                                   <Disorder id="337">
-                                     <OrphaCode>3378</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3378</ExpertLink>
--                                    <Name lang="en">Trisomy 13</Name>
-+                                    <Name lang="en">Trisomy 13 syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -9592,7 +9592,7 @@
-                                   <Disorder id="12749">
-                                     <OrphaCode>96125</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96125</ExpertLink>
--                                    <Name lang="en">Distal deletion 6p</Name>
-+                                    <Name lang="en">Distal deletion 6p syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -9877,7 +9877,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="23">
-+                          <ClassificationNodeChildList count="24">
-                             <ClassificationNode>
-                               <Disorder id="1388">
-                                 <OrphaCode>1106</OrphaCode>
-@@ -10094,6 +10094,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32219">
-+                                <OrphaCode>689829</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=689829</ExpertLink>
-+                                <Name lang="en">Microphthalmia-motor delay-language delay-brain anomalies-diaphragmatic hernia syndrome</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="30614">
-                                 <OrphaCode>603494</OrphaCode>
-@@ -10670,7 +10682,7 @@
-                                       <Disorder id="14199">
-                                         <OrphaCode>99226</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99226</ExpertLink>
--                                        <Name lang="en">Monosomy X</Name>
-+                                        <Name lang="en">Monosomy X syndrome</Name>
-                                         <DisorderType id="21443">
-                                           <Name lang="en">Etiological subtype</Name>
-                                         </DisorderType>
-@@ -10682,7 +10694,7 @@
-                                       <Disorder id="14200">
-                                         <OrphaCode>99228</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99228</ExpertLink>
--                                        <Name lang="en">Mosaic monosomy X</Name>
-+                                        <Name lang="en">Mosaic monosomy X syndrome</Name>
-                                         <DisorderType id="21443">
-                                           <Name lang="en">Etiological subtype</Name>
-                                         </DisorderType>
-@@ -10720,7 +10732,7 @@
-                                   <Disorder id="201">
-                                     <OrphaCode>281</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=281</ExpertLink>
--                                    <Name lang="en">Monosomy 5p</Name>
-+                                    <Name lang="en">Monosomy 5p syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -10732,7 +10744,7 @@
-                                   <Disorder id="1090">
-                                     <OrphaCode>1587</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1587</ExpertLink>
--                                    <Name lang="en">Monosomy 13q14</Name>
-+                                    <Name lang="en">Monosomy 13q14 syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -10744,7 +10756,7 @@
-                                   <Disorder id="1156">
-                                     <OrphaCode>1705</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1705</ExpertLink>
--                                    <Name lang="en">Distal duplication 14q</Name>
-+                                    <Name lang="en">Distal duplication 14q syndrome</Name>
-                                     <DisorderType id="21401">
-                                       <Name lang="en">Malformation syndrome</Name>
-                                     </DisorderType>
-@@ -11966,7 +11978,7 @@
-                                       <Disorder id="1114">
-                                         <OrphaCode>1620</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1620</ExpertLink>
--                                        <Name lang="en">Distal deletion 3p</Name>
-+                                        <Name lang="en">Distal deletion 3p syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -12649,7 +12661,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="14">
-+                          <ClassificationNodeChildList count="15">
-                             <ClassificationNode>
-                               <Disorder id="1864">
-                                 <OrphaCode>1896</OrphaCode>
-@@ -13670,6 +13682,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32157">
-+                                <OrphaCode>684305</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=684305</ExpertLink>
-+                                <Name lang="en">NOCGUS syndrome</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
+                           <Disorder id="32102">
+                             <OrphaCode>674958</OrphaCode>
+@@ -5392,6 +5440,18 @@
+                           <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="10453">
++                            <OrphaCode>39044</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=39044</ExpertLink>
++                            <Name lang="en">Uveal melanoma</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
                        </ClassificationNodeChildList>
-@@ -14076,7 +14100,7 @@
-                                           <Disorder id="14199">
-                                             <OrphaCode>99226</OrphaCode>
-                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99226</ExpertLink>
--                                            <Name lang="en">Monosomy X</Name>
-+                                            <Name lang="en">Monosomy X syndrome</Name>
-                                             <DisorderType id="21443">
-                                               <Name lang="en">Etiological subtype</Name>
-                                             </DisorderType>
-@@ -14088,7 +14112,7 @@
-                                           <Disorder id="14200">
-                                             <OrphaCode>99228</OrphaCode>
-                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99228</ExpertLink>
--                                            <Name lang="en">Mosaic monosomy X</Name>
-+                                            <Name lang="en">Mosaic monosomy X syndrome</Name>
-                                             <DisorderType id="21443">
-                                               <Name lang="en">Etiological subtype</Name>
-                                             </DisorderType>
-@@ -14126,7 +14150,7 @@
-                                       <Disorder id="201">
-                                         <OrphaCode>281</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=281</ExpertLink>
--                                        <Name lang="en">Monosomy 5p</Name>
-+                                        <Name lang="en">Monosomy 5p syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14138,7 +14162,7 @@
-                                       <Disorder id="328">
-                                         <OrphaCode>1598</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1598</ExpertLink>
--                                        <Name lang="en">Monosomy 18p</Name>
-+                                        <Name lang="en">Monosomy 18p syndrome</Name>
+                     </ClassificationNode>
+                     <ClassificationNode>
+@@ -6110,7 +6170,7 @@
+                                       <Disorder id="18015">
+                                         <OrphaCode>178333</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=178333</ExpertLink>
+-                                        <Name lang="en">Åland Islands eye disease</Name>
++                                        <Name lang="en">Ã…land Islands eye disease</Name>
                                          <DisorderType id="21394">
                                            <Name lang="en">Disease</Name>
                                          </DisorderType>
-@@ -14150,7 +14174,7 @@
-                                       <Disorder id="330">
-                                         <OrphaCode>1600</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1600</ExpertLink>
--                                        <Name lang="en">Monosomy 18q</Name>
-+                                        <Name lang="en">Monosomy 18q syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14162,7 +14186,7 @@
-                                       <Disorder id="337">
-                                         <OrphaCode>3378</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3378</ExpertLink>
--                                        <Name lang="en">Trisomy 13</Name>
-+                                        <Name lang="en">Trisomy 13 syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14174,7 +14198,7 @@
-                                       <Disorder id="339">
-                                         <OrphaCode>3380</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3380</ExpertLink>
--                                        <Name lang="en">Trisomy 18</Name>
-+                                        <Name lang="en">Trisomy 18 syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14186,7 +14210,7 @@
-                                       <Disorder id="346">
-                                         <OrphaCode>236</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=236</ExpertLink>
--                                        <Name lang="en">Trisomy 9p</Name>
-+                                        <Name lang="en">Trisomy 9p syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14210,7 +14234,7 @@
-                                       <Disorder id="1090">
-                                         <OrphaCode>1587</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1587</ExpertLink>
--                                        <Name lang="en">Monosomy 13q14</Name>
-+                                        <Name lang="en">Monosomy 13q14 syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14222,7 +14246,7 @@
-                                       <Disorder id="1092">
-                                         <OrphaCode>1590</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1590</ExpertLink>
--                                        <Name lang="en">Distal deletion 13q</Name>
-+                                        <Name lang="en">Distal deletion 13q syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14234,7 +14258,7 @@
-                                       <Disorder id="1149">
-                                         <OrphaCode>1695</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1695</ExpertLink>
--                                        <Name lang="en">Non-distal duplication 10q</Name>
-+                                        <Name lang="en">Non-distal duplication 10q syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14246,7 +14270,7 @@
-                                       <Disorder id="1178">
-                                         <OrphaCode>1742</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1742</ExpertLink>
--                                        <Name lang="en">Trisomy 5p</Name>
-+                                        <Name lang="en">Trisomy 5p syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14258,7 +14282,7 @@
-                                       <Disorder id="3491">
-                                         <OrphaCode>3309</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3309</ExpertLink>
--                                        <Name lang="en">Tetrasomy 5p</Name>
-+                                        <Name lang="en">Tetrasomy 5p syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14270,7 +14294,7 @@
-                                       <Disorder id="12694">
-                                         <OrphaCode>96070</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96070</ExpertLink>
--                                        <Name lang="en">Distal duplication 2p</Name>
-+                                        <Name lang="en">Distal duplication 2p syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14294,7 +14318,7 @@
-                                       <Disorder id="12726">
-                                         <OrphaCode>96102</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96102</ExpertLink>
--                                        <Name lang="en">Distal duplication 10q</Name>
-+                                        <Name lang="en">Distal duplication 10q syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14306,7 +14330,7 @@
-                                       <Disorder id="12792">
-                                         <OrphaCode>96168</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96168</ExpertLink>
--                                        <Name lang="en">Monosomy 13q34</Name>
-+                                        <Name lang="en">Monosomy 13q34 syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -14328,7 +14352,7 @@
-                                           <Disorder id="338">
-                                             <OrphaCode>1707</OrphaCode>
-                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1707</ExpertLink>
--                                            <Name lang="en">Distal duplication 15q</Name>
-+                                            <Name lang="en">Distal duplication 15q syndrome</Name>
-                                             <DisorderType id="21443">
-                                               <Name lang="en">Etiological subtype</Name>
-                                             </DisorderType>
-@@ -14340,7 +14364,7 @@
-                                           <Disorder id="21499">
-                                             <OrphaCode>314588</OrphaCode>
-                                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314588</ExpertLink>
--                                            <Name lang="en">Distal triplication 15q</Name>
-+                                            <Name lang="en">Distal triplication 15q syndrome</Name>
-                                             <DisorderType id="21443">
-                                               <Name lang="en">Etiological subtype</Name>
-                                             </DisorderType>
-@@ -14366,7 +14390,7 @@
-                                       <Disorder id="1232">
-                                         <OrphaCode>3376</OrphaCode>
-                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3376</ExpertLink>
--                                        <Name lang="en">Triploidy</Name>
-+                                        <Name lang="en">Triploidy syndrome</Name>
-                                         <DisorderType id="21401">
-                                           <Name lang="en">Malformation syndrome</Name>
-                                         </DisorderType>
-@@ -17312,7 +17336,7 @@
-                           <Disorder id="346">
-                             <OrphaCode>236</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=236</ExpertLink>
--                            <Name lang="en">Trisomy 9p</Name>
-+                            <Name lang="en">Trisomy 9p syndrome</Name>
-                             <DisorderType id="21401">
-                               <Name lang="en">Malformation syndrome</Name>
-                             </DisorderType>
-@@ -17718,7 +17742,7 @@
-                               <Disorder id="12749">
-                                 <OrphaCode>96125</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96125</ExpertLink>
--                                <Name lang="en">Distal deletion 6p</Name>
-+                                <Name lang="en">Distal deletion 6p syndrome</Name>
-                                 <DisorderType id="21401">
-                                   <Name lang="en">Malformation syndrome</Name>
+@@ -6431,19 +6491,7 @@
+                                   <Name lang="en">Category</Name>
                                  </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="51">
+-                                <ClassificationNode>
+-                                  <Disorder id="11544">
+-                                    <OrphaCode>79665</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79665</ExpertLink>
+-                                    <Name lang="en">Gardner syndrome</Name>
+-                                    <DisorderType id="21450">
+-                                      <Name lang="en">Clinical subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
++                              <ClassificationNodeChildList count="50">
+                                 <ClassificationNode>
+                                   <Disorder id="888">
+                                     <OrphaCode>845</OrphaCode>
+@@ -6592,7 +6640,7 @@
+                                   <Disorder id="1328">
+                                     <OrphaCode>64</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64</ExpertLink>
+-                                    <Name lang="en">Alström syndrome</Name>
++                                    <Name lang="en">AlstrÃ¶m syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -7672,7 +7720,7 @@
+                                   <Disorder id="586">
+                                     <OrphaCode>816</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=816</ExpertLink>
+-                                    <Name lang="en">Sjögren-Larsson syndrome</Name>
++                                    <Name lang="en">SjÃ¶gren-Larsson syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -8003,7 +8051,7 @@
+                                   <Name lang="en">Category</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="9">
++                              <ClassificationNodeChildList count="10">
+                                 <ClassificationNode>
+                                   <Disorder id="190">
+                                     <OrphaCode>649</OrphaCode>
+@@ -8016,6 +8064,18 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="22927">
++                                    <OrphaCode>404473</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=404473</ExpertLink>
++                                    <Name lang="en">Intellectual disability-peripheral spasticity-exudative vitreoretinopathy syndrome</Name>
++                                    <DisorderType id="21401">
++                                      <Name lang="en">Malformation syndrome</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                                 <ClassificationNode>
+                                   <Disorder id="337">
+                                     <OrphaCode>3378</OrphaCode>
+@@ -8418,7 +8478,7 @@
+                               <Disorder id="249">
+                                 <OrphaCode>167</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=167</ExpertLink>
+-                                <Name lang="en">Chédiak-Higashi syndrome</Name>
++                                <Name lang="en">ChÃ©diak-Higashi syndrome</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -9877,7 +9937,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="24">
++                          <ClassificationNodeChildList count="25">
+                             <ClassificationNode>
+                               <Disorder id="1388">
+                                 <OrphaCode>1106</OrphaCode>
+@@ -10082,6 +10142,18 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="1741">
++                                <OrphaCode>1647</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1647</ExpertLink>
++                                <Name lang="en">Oculocerebrocutaneous syndrome</Name>
++                                <DisorderType id="21401">
++                                  <Name lang="en">Malformation syndrome</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="30688">
+                                 <OrphaCode>611201</OrphaCode>
+@@ -10768,7 +10840,7 @@
+                                   <Disorder id="2277">
+                                     <OrphaCode>559</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=559</ExpertLink>
+-                                    <Name lang="en">Marinesco-Sjögren syndrome</Name>
++                                    <Name lang="en">Marinesco-SjÃ¶gren syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -11937,7 +12009,7 @@
+                                       <Name lang="en">Clinical group</Name>
+                                     </DisorderType>
+                                   </Disorder>
+-                                  <ClassificationNodeChildList count="6">
++                                  <ClassificationNodeChildList count="7">
+                                     <ClassificationNode>
+                                       <Disorder id="2739">
+                                         <OrphaCode>3047</OrphaCode>
+@@ -11998,6 +12070,18 @@
+                                       <ClassificationNodeChildList count="0">
+                                       </ClassificationNodeChildList>
+                                     </ClassificationNode>
++                                    <ClassificationNode>
++                                      <Disorder id="32450">
++                                        <OrphaCode>700160</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=700160</ExpertLink>
++                                        <Name lang="en">ADNP-related blepharophimosis-intellectual disability syndrome</Name>
++                                        <DisorderType id="21394">
++                                          <Name lang="en">Disease</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
+                                     <ClassificationNode>
+                                       <Disorder id="31702">
+                                         <OrphaCode>637013</OrphaCode>
+@@ -13094,7 +13178,7 @@
+                                       <Disorder id="13978">
+                                         <OrphaCode>98961</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98961</ExpertLink>
+-                                        <Name lang="en">Reis-Bücklers corneal dystrophy</Name>
++                                        <Name lang="en">Reis-BÃ¼cklers corneal dystrophy</Name>
+                                         <DisorderType id="21394">
+                                           <Name lang="en">Disease</Name>
+                                         </DisorderType>
+@@ -13190,7 +13274,7 @@
+                                       <Disorder id="13989">
+                                         <OrphaCode>98972</OrphaCode>
+                                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=98972</ExpertLink>
+-                                        <Name lang="en">Central cloudy dystrophy of François</Name>
++                                        <Name lang="en">Central cloudy dystrophy of FranÃ§ois</Name>
+                                         <DisorderType id="21394">
+                                           <Name lang="en">Disease</Name>
+                                         </DisorderType>
+@@ -13686,7 +13770,7 @@
+                               <Disorder id="32157">
+                                 <OrphaCode>684305</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=684305</ExpertLink>
+-                                <Name lang="en">NOCGUS syndrome</Name>
++                                <Name lang="en">Neurooculocardiogenitourinary syndrome</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -14032,7 +14116,7 @@
+                                   <Disorder id="3187">
+                                     <OrphaCode>1272</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1272</ExpertLink>
+-                                    <Name lang="en">Aymé-Gripp syndrome</Name>
++                                    <Name lang="en">AymÃ©-Gripp syndrome</Name>
+                                     <DisorderType id="21401">
+                                       <Name lang="en">Malformation syndrome</Name>
+                                     </DisorderType>
+@@ -15532,7 +15616,7 @@
+                                   <Disorder id="2277">
+                                     <OrphaCode>559</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=559</ExpertLink>
+-                                    <Name lang="en">Marinesco-Sjögren syndrome</Name>
++                                    <Name lang="en">Marinesco-SjÃ¶gren syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -15640,7 +15724,7 @@
+                                   <Disorder id="1328">
+                                     <OrphaCode>64</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=64</ExpertLink>
+-                                    <Name lang="en">Alström syndrome</Name>
++                                    <Name lang="en">AlstrÃ¶m syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -16325,8 +16409,8 @@
+                                     <OrphaCode>2969</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2969</ExpertLink>
+                                     <Name lang="en">Proteus-like syndrome</Name>
+-                                    <DisorderType id="21394">
+-                                      <Name lang="en">Disease</Name>
++                                    <DisorderType id="21450">
++                                      <Name lang="en">Clinical subtype</Name>
+                                     </DisorderType>
+                                   </Disorder>
+                                   <ClassificationNodeChildList count="0">
+@@ -17421,8 +17505,8 @@
+                             <OrphaCode>2969</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2969</ExpertLink>
+                             <Name lang="en">Proteus-like syndrome</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
++                            <DisorderType id="21450">
++                              <Name lang="en">Clinical subtype</Name>
+                             </DisorderType>
+                           </Disorder>
+                           <ClassificationNodeChildList count="0">

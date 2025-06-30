@@ -1,53 +1,50 @@
-commit 6eb274384f0c4cd30cc83f08ce097956913930ce
+commit 7ab24fe976be5c798004246aa079a429e568689b
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Wed Dec 4 08:42:13 2024 +0100
+Date:   Mon Jun 30 11:46:37 2025 +0200
 
-    DEC 2024
+    JULY 2025
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_195.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_195.xml
-index 430bfe5..8a9f9d9 100644
+old mode 100644
+new mode 100755
+index 8a9f9d9..f28377d
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_195.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_195.xml	
 @@ -1,5 +1,5 @@
- <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2024-07-01 09:24:06" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2024-12-03 07:08:36" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2024-12-03 07:08:36" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<?xml version="1.0" encoding="UTF-8"?>
++<JDBOR date="2025-06-24 07:33:32" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -616,7 +616,7 @@
-                                   <Disorder id="23535">
-                                     <OrphaCode>447740</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447740</ExpertLink>
--                                    <Name lang="en">Susceptibility to localized juvenile periodontitis</Name>
-+                                    <Name lang="en">Aggressive periodontitis</Name>
-                                     <DisorderType id="21394">
-                                       <Name lang="en">Disease</Name>
-                                     </DisorderType>
-@@ -819,7 +819,7 @@
-                           <Name lang="en">Category</Name>
-                         </DisorderType>
-                       </Disorder>
--                      <ClassificationNodeChildList count="12">
-+                      <ClassificationNodeChildList count="11">
-                         <ClassificationNode>
-                           <Disorder id="10676">
-                             <OrphaCode>51636</OrphaCode>
-@@ -899,7 +899,7 @@
+@@ -239,7 +239,7 @@
                                    <Name lang="en">Category</Name>
                                  </DisorderType>
                                </Disorder>
--                              <ClassificationNodeChildList count="6">
-+                              <ClassificationNodeChildList count="7">
+-                              <ClassificationNodeChildList count="16">
++                              <ClassificationNodeChildList count="18">
                                  <ClassificationNode>
-                                   <Disorder id="14471">
-                                     <OrphaCode>99898</OrphaCode>
-@@ -964,7 +964,19 @@
-                                   <Disorder id="25162">
-                                     <OrphaCode>477857</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=477857</ExpertLink>
--                                    <Name lang="en">Autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency</Name>
-+                                    <Name lang="en">Mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency</Name>
+                                   <Disorder id="23516">
+                                     <OrphaCode>445038</OrphaCode>
+@@ -268,7 +268,7 @@
+                                   <Disorder id="32126">
+                                     <OrphaCode>675767</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=675767</ExpertLink>
+-                                    <Name lang="en">Severe congenital neutropenia-developmental delay-pancreatic insufficiency syndrome due to SRP54 deficiency</Name>
++                                    <Name lang="en">Severe congenital neutropenia-developmental delay syndrome due to SRP54 deficiency</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -288,6 +288,30 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="31896">
++                                    <OrphaCode>652522</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=652522</ExpertLink>
++                                    <Name lang="en">Periodic fever-immunodeficiency-thrombocytopenia syndrome</Name>
 +                                    <DisorderType id="21394">
 +                                      <Name lang="en">Disease</Name>
 +                                    </DisorderType>
@@ -56,27 +53,661 @@ index 430bfe5..8a9f9d9 100644
 +                                  </ClassificationNodeChildList>
 +                                </ClassificationNode>
 +                                <ClassificationNode>
-+                                  <Disorder id="32171">
-+                                    <OrphaCode>686447</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=686447</ExpertLink>
-+                                    <Name lang="en">IFNG-responsive severe mendelian susceptibility to mycobacterial diseases</Name>
++                                  <Disorder id="32244">
++                                    <OrphaCode>693647</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=693647</ExpertLink>
++                                    <Name lang="en">Agammaglobulinemia-early-onset hypertrophic cardiomyopathy-neutropenia syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                                 <ClassificationNode>
+                                   <Disorder id="445">
+                                     <OrphaCode>193</OrphaCode>
+@@ -640,7 +664,7 @@
+                                   <Disorder id="2551">
+                                     <OrphaCode>678</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=678</ExpertLink>
+-                                    <Name lang="en">Papillon-Lefèvre syndrome</Name>
++                                    <Name lang="en">Papillon-LefÃ¨vre syndrome</Name>
                                      <DisorderType id="21394">
                                        <Name lang="en">Disease</Name>
                                      </DisorderType>
-@@ -1024,7 +1036,7 @@
-                                   <Disorder id="28824">
-                                     <OrphaCode>574957</OrphaCode>
-                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=574957</ExpertLink>
--                                    <Name lang="en">Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency</Name>
-+                                    <Name lang="en">Mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency</Name>
+@@ -899,7 +923,7 @@
+                                   <Name lang="en">Category</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="7">
++                              <ClassificationNodeChildList count="8">
+                                 <ClassificationNode>
+                                   <Disorder id="14471">
+                                     <OrphaCode>99898</OrphaCode>
+@@ -960,6 +984,18 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32409">
++                                    <OrphaCode>699618</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699618</ExpertLink>
++                                    <Name lang="en">Severe mendelian susceptibility to mycobacterial diseases due to complete IFNG deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                                 <ClassificationNode>
+                                   <Disorder id="25162">
+                                     <OrphaCode>477857</OrphaCode>
+@@ -973,10 +1009,10 @@
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
+                                 <ClassificationNode>
+-                                  <Disorder id="32171">
+-                                    <OrphaCode>686447</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=686447</ExpertLink>
+-                                    <Name lang="en">IFNG-responsive severe mendelian susceptibility to mycobacterial diseases</Name>
++                                  <Disorder id="32408">
++                                    <OrphaCode>699615</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699615</ExpertLink>
++                                    <Name lang="en">Severe mendelian susceptibility to mycobacterial diseases due to complete IRF1 deficiency</Name>
                                      <DisorderType id="21394">
                                        <Name lang="en">Disease</Name>
                                      </DisorderType>
-@@ -1136,19 +1148,7 @@
-                           <Disorder id="10963">
-                             <OrphaCode>70592</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=70592</ExpertLink>
--                            <Name lang="en">Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency</Name>
+@@ -1115,31 +1151,7 @@
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="2">
+-                                <ClassificationNode>
+-                                  <Disorder id="21682">
+-                                    <OrphaCode>319612</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319612</ExpertLink>
+-                                    <Name lang="en">X-linked mendelian susceptibility to mycobacterial diseases due to IKBKG deficiency</Name>
+-                                    <DisorderType id="21443">
+-                                      <Name lang="en">Etiological subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
+-                                <ClassificationNode>
+-                                  <Disorder id="21683">
+-                                    <OrphaCode>319623</OrphaCode>
+-                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=319623</ExpertLink>
+-                                    <Name lang="en">X-linked mendelian susceptibility to mycobacterial diseases due to CYBB deficiency</Name>
+-                                    <DisorderType id="21443">
+-                                      <Name lang="en">Etiological subtype</Name>
+-                                    </DisorderType>
+-                                  </Disorder>
+-                                  <ClassificationNodeChildList count="0">
+-                                  </ClassificationNodeChildList>
+-                                </ClassificationNode>
++                              <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+@@ -1215,7 +1227,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="18">
++                      <ClassificationNodeChildList count="19">
+                         <ClassificationNode>
+                           <Disorder id="920">
+                             <OrphaCode>342</OrphaCode>
+@@ -1468,6 +1480,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="32305">
++                            <OrphaCode>695807</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695807</ExpertLink>
++                            <Name lang="en">Immunodeficiency-systemic inflammation-lymphoma predisposition syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="31896">
+                             <OrphaCode>652522</OrphaCode>
+@@ -1577,7 +1601,19 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="4">
++                  <ClassificationNodeChildList count="5">
++                    <ClassificationNode>
++                      <Disorder id="11580">
++                        <OrphaCode>83471</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83471</ExpertLink>
++                        <Name lang="en">T-cell immunodeficiency with thymic aplasia</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="14908">
+                         <OrphaCode>101972</OrphaCode>
+@@ -1857,11 +1893,11 @@
+                             <OrphaCode>480549</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=480549</ExpertLink>
+                             <Name lang="en">Non-severe combined immunodeficiency</Name>
+-                            <DisorderType id="36561">
+-                              <Name lang="en">Category</Name>
++                            <DisorderType id="21436">
++                              <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="33">
++                          <ClassificationNodeChildList count="28">
+                             <ClassificationNode>
+                               <Disorder id="21761">
+                                 <OrphaCode>324294</OrphaCode>
+@@ -1874,18 +1910,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="23533">
+-                                <OrphaCode>447731</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447731</ExpertLink>
+-                                <Name lang="en">NIK deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="671">
+                                 <OrphaCode>760</OrphaCode>
+@@ -1934,18 +1958,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="10452">
+-                                <OrphaCode>39041</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=39041</ExpertLink>
+-                                <Name lang="en">Omenn syndrome</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="14385">
+                                 <OrphaCode>99812</OrphaCode>
+@@ -2006,18 +2018,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="18853">
+-                                <OrphaCode>217390</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217390</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to DOCK8 deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="19061">
+                                 <OrphaCode>228000</OrphaCode>
+@@ -2042,18 +2042,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="21515">
+-                                <OrphaCode>314689</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314689</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to STK4 deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="21585">
+                                 <OrphaCode>317476</OrphaCode>
+@@ -2090,18 +2078,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="25136">
+-                                <OrphaCode>477661</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=477661</ExpertLink>
+-                                <Name lang="en">IL21-related infantile inflammatory bowel disease</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="19269">
+                                 <OrphaCode>238505</OrphaCode>
+@@ -2171,12 +2147,144 @@
+                                   <Name lang="en">Clinical group</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="6">
++                              <ClassificationNodeChildList count="15">
++                                <ClassificationNode>
++                                  <Disorder id="32300">
++                                    <OrphaCode>695191</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695191</ExpertLink>
++                                    <Name lang="en">Late-onset combined immunodeficiency due to ICOSL deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32363">
++                                    <OrphaCode>697403</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=697403</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency-hypogammaglobulinemia-skeletal anomalies syndrome due to IKBKA deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32360">
++                                    <OrphaCode>697394</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=697394</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to c-REL deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32400">
++                                    <OrphaCode>699578</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699578</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency with low Ig due to BCL10 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32365">
++                                    <OrphaCode>697414</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=697414</ExpertLink>
++                                    <Name lang="en">Early-onset combined immunodeficiency with low Ig due to dominant negative IKAROS mutation</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32359">
++                                    <OrphaCode>697389</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=697389</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to HELIOS deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32358">
++                                    <OrphaCode>697385</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=697385</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency-cancer predisposing syndrome due to AIOLOS deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="2">
++                                    <ClassificationNode>
++                                      <Disorder id="32403">
++                                        <OrphaCode>699593</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699593</ExpertLink>
++                                        <Name lang="en">Combined immunodeficiency-lymphopenia-cancer predisposing syndrome due to AIOLOS deficiency</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
++                                    <ClassificationNode>
++                                      <Disorder id="32404">
++                                        <OrphaCode>699596</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699596</ExpertLink>
++                                        <Name lang="en">Combined immunodeficiency-hypogammaglobulinemia-cancer predisposing syndrome due to AIOLOS deficiency</Name>
++                                        <DisorderType id="21450">
++                                          <Name lang="en">Clinical subtype</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32299">
++                                    <OrphaCode>695183</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695183</ExpertLink>
++                                    <Name lang="en">Late-onset combined immunodeficiency due to ICOS deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32238">
++                                    <OrphaCode>692812</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=692812</ExpertLink>
++                                    <Name lang="en">RAC2-related combined immunodeficiency-bronchiectasis-cancer-predisposing syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                                 <ClassificationNode>
+                                   <Disorder id="22702">
+                                     <OrphaCode>397787</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397787</ExpertLink>
+-                                    <Name lang="en">Combined immunodeficiency due to IKK2 deficiency</Name>
++                                    <Name lang="en">Combined immunodeficiency due to IKBKB deficiency</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -2307,76 +2415,172 @@
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+-                              <Disorder id="26294">
+-                                <OrphaCode>504530</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=504530</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to Moesin deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="27968">
+-                                <OrphaCode>538958</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=538958</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to CD70 deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="28036">
+-                                <OrphaCode>542301</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=542301</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to CARMIL2 deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="27969">
+-                                <OrphaCode>538963</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=538963</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to ITK deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="23515">
+-                                <OrphaCode>445018</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=445018</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to LRBA deficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="29784">
+-                                <OrphaCode>596759</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=596759</ExpertLink>
+-                                <Name lang="en">Combined immunodeficiency due to RELA haploinsufficiency</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
++                              <Disorder id="32297">
++                                <OrphaCode>695164</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695164</ExpertLink>
++                                <Name lang="en">Combined immunodeficiency with low B cells</Name>
++                                <DisorderType id="36561">
++                                  <Name lang="en">Category</Name>
+                                 </DisorderType>
+                               </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
++                              <ClassificationNodeChildList count="8">
++                                <ClassificationNode>
++                                  <Disorder id="32456">
++                                    <OrphaCode>700205</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=700205</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to IKBKB gain-of-function mutation</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="18853">
++                                    <OrphaCode>217390</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=217390</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to DOCK8 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32298">
++                                    <OrphaCode>695172</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695172</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to dimerization defective IKAROS mutation</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="25136">
++                                    <OrphaCode>477661</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=477661</ExpertLink>
++                                    <Name lang="en">IL21-related infantile inflammatory bowel disease</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="23533">
++                                    <OrphaCode>447731</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447731</ExpertLink>
++                                    <Name lang="en">NIK deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="21515">
++                                    <OrphaCode>314689</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=314689</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to STK4 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="10452">
++                                    <OrphaCode>39041</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=39041</ExpertLink>
++                                    <Name lang="en">Omenn syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="26294">
++                                    <OrphaCode>504530</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=504530</ExpertLink>
++                                    <Name lang="en">Combined immunodeficiency due to Moesin deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="27968">
++                                <OrphaCode>538958</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=538958</ExpertLink>
++                                <Name lang="en">Combined immunodeficiency due to CD70 deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="28036">
++                                <OrphaCode>542301</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=542301</ExpertLink>
++                                <Name lang="en">Combined immunodeficiency due to CARMIL2 deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="27969">
++                                <OrphaCode>538963</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=538963</ExpertLink>
++                                <Name lang="en">Combined immunodeficiency due to ITK deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="23515">
++                                <OrphaCode>445018</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=445018</ExpertLink>
++                                <Name lang="en">Combined immunodeficiency due to LRBA deficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="29784">
++                                <OrphaCode>596759</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=596759</ExpertLink>
++                                <Name lang="en">Combined immunodeficiency due to RELA haploinsufficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+@@ -2392,18 +2596,6 @@
+                         </DisorderType>
+                       </Disorder>
+                       <ClassificationNodeChildList count="7">
+-                        <ClassificationNode>
+-                          <Disorder id="3469">
+-                            <OrphaCode>1572</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1572</ExpertLink>
+-                            <Name lang="en">Common variable immunodeficiency</Name>
 -                            <DisorderType id="21394">
 -                              <Name lang="en">Disease</Name>
 -                            </DisorderType>
@@ -84,366 +715,115 @@ index 430bfe5..8a9f9d9 100644
 -                          <ClassificationNodeChildList count="0">
 -                          </ClassificationNodeChildList>
 -                        </ClassificationNode>
--                        <ClassificationNode>
--                          <Disorder id="18313">
--                            <OrphaCode>183713</OrphaCode>
--                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=183713</ExpertLink>
--                            <Name lang="en">Bacterial susceptibility due to TLR signaling pathway deficiency</Name>
-+                            <Name lang="en">Transient predisposition to invasive pyogenic bacterial infection</Name>
-                             <DisorderType id="21394">
-                               <Name lang="en">Disease</Name>
+                         <ClassificationNode>
+                           <Disorder id="17825">
+                             <OrphaCode>169139</OrphaCode>
+@@ -2449,12 +2641,12 @@
+                               <Name lang="en">Category</Name>
                              </DisorderType>
-@@ -1727,7 +1727,7 @@
-                                   <Name lang="en">Clinical group</Name>
-                                 </DisorderType>
-                               </Disorder>
--                              <ClassificationNodeChildList count="7">
-+                              <ClassificationNodeChildList count="8">
-                                 <ClassificationNode>
-                                   <Disorder id="993">
-                                     <OrphaCode>275</OrphaCode>
-@@ -1812,6 +1812,18 @@
-                                   <ClassificationNodeChildList count="0">
-                                   </ClassificationNodeChildList>
-                                 </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="32190">
-+                                    <OrphaCode>688543</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=688543</ExpertLink>
-+                                    <Name lang="en">Reticular dysgenesis-like severe combined immunodeficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="3">
++                          <ClassificationNodeChildList count="2">
                              <ClassificationNode>
-@@ -1823,31 +1835,7 @@
-                                   <Name lang="en">Clinical group</Name>
+                               <Disorder id="19134">
+                                 <OrphaCode>229717</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=229717</ExpertLink>
+-                                <Name lang="en">Isolated agammaglobulinemia</Name>
++                                <Name lang="en">Non-syndromic agammaglobulinemia</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -2476,7 +2668,7 @@
+                                   <Disorder id="10310">
+                                     <OrphaCode>33110</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=33110</ExpertLink>
+-                                    <Name lang="en">Autosomal agammaglobulinemia</Name>
++                                    <Name lang="en">Autosomal non-syndromic agammaglobulinemia</Name>
+                                     <DisorderType id="21450">
+                                       <Name lang="en">Clinical subtype</Name>
+                                     </DisorderType>
+@@ -2495,7 +2687,7 @@
+                                   <Name lang="en">Category</Name>
                                  </DisorderType>
                                </Disorder>
 -                              <ClassificationNodeChildList count="3">
--                                <ClassificationNode>
--                                  <Disorder id="22219">
--                                    <OrphaCode>357237</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357237</ExpertLink>
--                                    <Name lang="en">Combined immunodeficiency due to CARD11 deficiency</Name>
--                                    <DisorderType id="21394">
--                                      <Name lang="en">Disease</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="22702">
--                                    <OrphaCode>397787</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397787</ExpertLink>
--                                    <Name lang="en">Severe combined immunodeficiency due to IKK2 deficiency</Name>
--                                    <DisorderType id="21394">
--                                      <Name lang="en">Disease</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
-+                              <ClassificationNodeChildList count="1">
++                              <ClassificationNodeChildList count="5">
                                  <ClassificationNode>
-                                   <Disorder id="23115">
-                                     <OrphaCode>420573</OrphaCode>
-@@ -1873,7 +1861,7 @@
+                                   <Disorder id="7025">
+                                     <OrphaCode>632</OrphaCode>
+@@ -2532,18 +2724,30 @@
+                                   <ClassificationNodeChildList count="0">
+                                   </ClassificationNodeChildList>
+                                 </ClassificationNode>
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="22685">
+-                                <OrphaCode>397596</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397596</ExpertLink>
+-                                <Name lang="en">Activated PI3K-delta syndrome</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
++                                <ClassificationNode>
++                                  <Disorder id="32244">
++                                    <OrphaCode>693647</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=693647</ExpertLink>
++                                    <Name lang="en">Agammaglobulinemia-early-onset hypertrophic cardiomyopathy-neutropenia syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32242">
++                                    <OrphaCode>693627</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=693627</ExpertLink>
++                                    <Name lang="en">Agammaglobulinemia-skin involvement-failure to thrive syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                           </ClassificationNodeChildList>
+@@ -2689,7 +2893,7 @@
                                <Name lang="en">Category</Name>
                              </DisorderType>
                            </Disorder>
--                          <ClassificationNodeChildList count="36">
-+                          <ClassificationNodeChildList count="33">
+-                          <ClassificationNodeChildList count="5">
++                          <ClassificationNodeChildList count="3">
                              <ClassificationNode>
-                               <Disorder id="21761">
-                                 <OrphaCode>324294</OrphaCode>
-@@ -2018,42 +2006,6 @@
+                               <Disorder id="412">
+                                 <OrphaCode>1006</OrphaCode>
+@@ -2726,11 +2930,35 @@
                                <ClassificationNodeChildList count="0">
                                </ClassificationNodeChildList>
                              </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="18304">
--                                <OrphaCode>183663</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=183663</ExpertLink>
--                                <Name lang="en">Hyper-IgM syndrome with susceptibility to opportunistic infections</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="2">
--                                <ClassificationNode>
--                                  <Disorder id="14799">
--                                    <OrphaCode>101088</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101088</ExpertLink>
--                                    <Name lang="en">X-linked hyper-IgM syndrome</Name>
--                                    <DisorderType id="21450">
--                                      <Name lang="en">Clinical subtype</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                                <ClassificationNode>
--                                  <Disorder id="14801">
--                                    <OrphaCode>101090</OrphaCode>
--                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101090</ExpertLink>
--                                    <Name lang="en">Hyper-IgM syndrome type 3</Name>
--                                    <DisorderType id="21450">
--                                      <Name lang="en">Clinical subtype</Name>
--                                    </DisorderType>
--                                  </Disorder>
--                                  <ClassificationNodeChildList count="0">
--                                  </ClassificationNodeChildList>
--                                </ClassificationNode>
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="18853">
-                                 <OrphaCode>217390</OrphaCode>
-@@ -2114,18 +2066,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="22220">
--                                <OrphaCode>357329</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357329</ExpertLink>
--                                <Name lang="en">Combined immunodeficiency due to IL21R deficiency</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="22712">
-                                 <OrphaCode>397959</OrphaCode>
-@@ -2150,18 +2090,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="25089">
--                                <OrphaCode>476113</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=476113</ExpertLink>
--                                <Name lang="en">Combined immunodeficiency due to TFRC deficiency</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="25136">
-                                 <OrphaCode>477661</OrphaCode>
-@@ -2186,30 +2114,6 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="23534">
--                                <OrphaCode>447737</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447737</ExpertLink>
--                                <Name lang="en">Combined immunodeficiency due to DOCK2 deficiency</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
--                            <ClassificationNode>
--                              <Disorder id="22713">
--                                <OrphaCode>397964</OrphaCode>
--                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397964</ExpertLink>
--                                <Name lang="en">Combined immunodeficiency due to MALT1 deficiency</Name>
--                                <DisorderType id="21394">
--                                  <Name lang="en">Disease</Name>
--                                </DisorderType>
--                              </Disorder>
--                              <ClassificationNodeChildList count="0">
--                              </ClassificationNodeChildList>
--                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="23233">
-                                 <OrphaCode>431149</OrphaCode>
-@@ -2258,6 +2162,150 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="32323">
++                            <OrphaCode>696851</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696851</ExpertLink>
++                            <Name lang="en">Common variable immunodeficiency and related disorders</Name>
++                            <DisorderType id="36561">
++                              <Name lang="en">Category</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="4">
 +                            <ClassificationNode>
-+                              <Disorder id="32192">
-+                                <OrphaCode>688571</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=688571</ExpertLink>
-+                                <Name lang="en">Combined immunodeficiency with low immunoglobulins</Name>
-+                                <DisorderType id="21436">
-+                                  <Name lang="en">Clinical group</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="6">
-+                                <ClassificationNode>
-+                                  <Disorder id="22702">
-+                                    <OrphaCode>397787</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397787</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to IKK2 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="18304">
-+                                    <OrphaCode>183663</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=183663</ExpertLink>
-+                                    <Name lang="en">Hyper-IgM syndrome with susceptibility to opportunistic infections</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="2">
-+                                    <ClassificationNode>
-+                                      <Disorder id="14799">
-+                                        <OrphaCode>101088</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101088</ExpertLink>
-+                                        <Name lang="en">X-linked hyper-IgM syndrome</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                    <ClassificationNode>
-+                                      <Disorder id="14801">
-+                                        <OrphaCode>101090</OrphaCode>
-+                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101090</ExpertLink>
-+                                        <Name lang="en">Hyper-IgM syndrome type 3</Name>
-+                                        <DisorderType id="21450">
-+                                          <Name lang="en">Clinical subtype</Name>
-+                                        </DisorderType>
-+                                      </Disorder>
-+                                      <ClassificationNodeChildList count="0">
-+                                      </ClassificationNodeChildList>
-+                                    </ClassificationNode>
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="23534">
-+                                    <OrphaCode>447737</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=447737</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to DOCK2 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="22219">
-+                                    <OrphaCode>357237</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357237</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to CARD11 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="25089">
-+                                    <OrphaCode>476113</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=476113</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to TFRC deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="22220">
-+                                    <OrphaCode>357329</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=357329</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to IL21R deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32191">
-+                                <OrphaCode>688563</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=688563</ExpertLink>
-+                                <Name lang="en">Combined immunodeficiency with normal Ig and poor specific antibody response</Name>
-+                                <DisorderType id="21436">
-+                                  <Name lang="en">Clinical group</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="2">
-+                                <ClassificationNode>
-+                                  <Disorder id="22713">
-+                                    <OrphaCode>397964</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397964</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to MALT1 deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                                <ClassificationNode>
-+                                  <Disorder id="32194">
-+                                    <OrphaCode>688594</OrphaCode>
-+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=688594</ExpertLink>
-+                                    <Name lang="en">Combined immunodeficiency due to RELB deficiency</Name>
-+                                    <DisorderType id="21394">
-+                                      <Name lang="en">Disease</Name>
-+                                    </DisorderType>
-+                                  </Disorder>
-+                                  <ClassificationNodeChildList count="0">
-+                                  </ClassificationNodeChildList>
-+                                </ClassificationNode>
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="26294">
-                                 <OrphaCode>504530</OrphaCode>
-@@ -2857,7 +2905,7 @@
-                               <Name lang="en">Category</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="15">
-+                          <ClassificationNodeChildList count="16">
-                             <ClassificationNode>
-                               <Disorder id="3035">
-                                 <OrphaCode>3453</OrphaCode>
-@@ -2990,6 +3038,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32194">
-+                                <OrphaCode>688594</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=688594</ExpertLink>
-+                                <Name lang="en">Combined immunodeficiency due to RELB deficiency</Name>
++                              <Disorder id="19170">
++                                <OrphaCode>231205</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=231205</ExpertLink>
++                                <Name lang="en">Common variable immunodeficiency without known genetic defect</Name>
 +                                <DisorderType id="21394">
 +                                  <Name lang="en">Disease</Name>
 +                                </DisorderType>
@@ -452,101 +832,450 @@ index 430bfe5..8a9f9d9 100644
 +                              </ClassificationNodeChildList>
 +                            </ClassificationNode>
                              <ClassificationNode>
-                               <Disorder id="31951">
-                                 <OrphaCode>658946</OrphaCode>
-@@ -3315,7 +3375,7 @@
+-                              <Disorder id="20898">
+-                                <OrphaCode>293978</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293978</ExpertLink>
+-                                <Name lang="en">Deficiency in anterior pituitary function-variable immunodeficiency syndrome</Name>
++                              <Disorder id="32324">
++                                <OrphaCode>696857</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696857</ExpertLink>
++                                <Name lang="en">Common variable immunodeficiency phenotype due to germinal digenic/polygenic mutations</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -2739,10 +2967,10 @@
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
+                             <ClassificationNode>
+-                              <Disorder id="22438">
+-                                <OrphaCode>369861</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=369861</ExpertLink>
+-                                <Name lang="en">Congenital sideroblastic anemia-B-cell immunodeficiency-periodic fever-developmental delay syndrome</Name>
++                              <Disorder id="32325">
++                                <OrphaCode>696863</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696863</ExpertLink>
++                                <Name lang="en">Common variable immunodeficiency phenotype due to somatic mutations</Name>
+                                 <DisorderType id="21394">
+                                   <Name lang="en">Disease</Name>
+                                 </DisorderType>
+@@ -2750,6 +2978,234 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="32326">
++                                <OrphaCode>696870</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696870</ExpertLink>
++                                <Name lang="en">Common variable immunodeficiency phenotype due to germinal monogenic mutation</Name>
++                                <DisorderType id="36561">
++                                  <Name lang="en">Category</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="16">
++                                <ClassificationNode>
++                                  <Disorder id="32331">
++                                    <OrphaCode>696894</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696894</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to CD21 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="20898">
++                                    <OrphaCode>293978</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293978</ExpertLink>
++                                    <Name lang="en">Deficiency in anterior pituitary function-variable immunodeficiency syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="22685">
++                                    <OrphaCode>397596</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=397596</ExpertLink>
++                                    <Name lang="en">Activated PI3K-delta syndrome</Name>
++                                    <DisorderType id="21436">
++                                      <Name lang="en">Clinical group</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="2">
++                                    <ClassificationNode>
++                                      <Disorder id="32245">
++                                        <OrphaCode>693661</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=693661</ExpertLink>
++                                        <Name lang="en">Activated PI3K-delta syndrome 1</Name>
++                                        <DisorderType id="21394">
++                                          <Name lang="en">Disease</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
++                                    <ClassificationNode>
++                                      <Disorder id="32247">
++                                        <OrphaCode>693681</OrphaCode>
++                                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=693681</ExpertLink>
++                                        <Name lang="en">Activated PI3K-delta syndrome 2</Name>
++                                        <DisorderType id="21394">
++                                          <Name lang="en">Disease</Name>
++                                        </DisorderType>
++                                      </Disorder>
++                                      <ClassificationNodeChildList count="0">
++                                      </ClassificationNodeChildList>
++                                    </ClassificationNode>
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="22438">
++                                    <OrphaCode>369861</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=369861</ExpertLink>
++                                    <Name lang="en">Congenital sideroblastic anemia-B-cell immunodeficiency-periodic fever-developmental delay syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="21584">
++                                    <OrphaCode>317473</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=317473</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to IKAROS functional haploinsufficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32340">
++                                    <OrphaCode>696931</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696931</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to TWEAK deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32342">
++                                    <OrphaCode>696942</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696942</ExpertLink>
++                                    <Name lang="en">Childhood-onset common variable immunodeficiency due to ARHGEF1 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32343">
++                                    <OrphaCode>696945</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696945</ExpertLink>
++                                    <Name lang="en">X-linked common variable immunodeficiency phenotype due to SH3KBP1 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32366">
++                                    <OrphaCode>697417</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=697417</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to SEC61A1 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32327">
++                                    <OrphaCode>696874</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696874</ExpertLink>
++                                    <Name lang="en">NFKB1-related immune dysregulation</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32334">
++                                    <OrphaCode>696907</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696907</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to homozygous TACI deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32339">
++                                    <OrphaCode>696925</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696925</ExpertLink>
++                                    <Name lang="en">Adult-onset common variable immunodeficiency due to BAFF-receptor deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="11356">
++                                    <OrphaCode>79330</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79330</ExpertLink>
++                                    <Name lang="en">MOGS-CDG</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="3521">
++                                    <OrphaCode>3240</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3240</ExpertLink>
++                                    <Name lang="en">Early-onset progressive leukoencephalopathy-central nervous system calcification-deafness-visual impairment syndrome</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32333">
++                                    <OrphaCode>696904</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696904</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to IRF2BP2 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                                <ClassificationNode>
++                                  <Disorder id="32328">
++                                    <OrphaCode>696881</OrphaCode>
++                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696881</ExpertLink>
++                                    <Name lang="en">Common variable immunodeficiency phenotype due to CD19/CD81 deficiency</Name>
++                                    <DisorderType id="21394">
++                                      <Name lang="en">Disease</Name>
++                                    </DisorderType>
++                                  </Disorder>
++                                  <ClassificationNodeChildList count="0">
++                                  </ClassificationNodeChildList>
++                                </ClassificationNode>
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+@@ -2788,7 +3244,7 @@
+                                   <Disorder id="249">
+                                     <OrphaCode>167</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=167</ExpertLink>
+-                                    <Name lang="en">Chédiak-Higashi syndrome</Name>
++                                    <Name lang="en">ChÃ©diak-Higashi syndrome</Name>
+                                     <DisorderType id="21394">
+                                       <Name lang="en">Disease</Name>
+                                     </DisorderType>
+@@ -2905,7 +3361,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="16">
++                          <ClassificationNodeChildList count="17">
+                             <ClassificationNode>
+                               <Disorder id="3035">
+                                 <OrphaCode>3453</OrphaCode>
+@@ -3062,6 +3518,18 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="32402">
++                                <OrphaCode>699590</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699590</ExpertLink>
++                                <Name lang="en">Immune dysregulation with immunodeficiency due to AIOLOS haploinsufficiency</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="20316">
+                                 <OrphaCode>275523</OrphaCode>
+@@ -3109,7 +3577,7 @@
+                               <Name lang="en">Clinical group</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="5">
++                          <ClassificationNodeChildList count="6">
+                             <ClassificationNode>
+                               <Disorder id="19277">
+                                 <OrphaCode>238569</OrphaCode>
+@@ -3158,6 +3626,18 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
+                             </ClassificationNode>
++                            <ClassificationNode>
++                              <Disorder id="32305">
++                                <OrphaCode>695807</OrphaCode>
++                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=695807</ExpertLink>
++                                <Name lang="en">Immunodeficiency-systemic inflammation-lymphoma predisposition syndrome</Name>
++                                <DisorderType id="21394">
++                                  <Name lang="en">Disease</Name>
++                                </DisorderType>
++                              </Disorder>
++                              <ClassificationNodeChildList count="0">
++                              </ClassificationNodeChildList>
++                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="28448">
+                                 <OrphaCode>565788</OrphaCode>
+@@ -3375,7 +3855,7 @@
                            <Name lang="en">Category</Name>
                          </DisorderType>
                        </Disorder>
--                      <ClassificationNodeChildList count="24">
-+                      <ClassificationNodeChildList count="25">
+-                      <ClassificationNodeChildList count="25">
++                      <ClassificationNodeChildList count="24">
                          <ClassificationNode>
                            <Disorder id="144">
                              <OrphaCode>906</OrphaCode>
-@@ -3496,6 +3556,18 @@
+@@ -3400,18 +3880,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="515">
+-                            <OrphaCode>2300</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2300</ExpertLink>
+-                            <Name lang="en">Multiple intestinal atresia</Name>
+-                            <DisorderType id="21415">
+-                              <Name lang="en">Morphological anomaly</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="1665">
+                             <OrphaCode>1493</OrphaCode>
+@@ -3476,7 +3944,7 @@
+                           <Disorder id="10922">
+                             <OrphaCode>69088</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=69088</ExpertLink>
+-                            <Name lang="en">Anhidrotic ectodermal dysplasia-immunodeficiency-osteopetrosis-lymphedema syndrome</Name>
++                            <Name lang="en">Hypohidrotic ectodermal dysplasia-immunodeficiency-osteopetrosis-lymphedema syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -3772,18 +4240,6 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
+-                        <ClassificationNode>
+-                          <Disorder id="21584">
+-                            <OrphaCode>317473</OrphaCode>
+-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=317473</ExpertLink>
+-                            <Name lang="en">Pancytopenia due to IKZF1 mutations</Name>
+-                            <DisorderType id="21394">
+-                              <Name lang="en">Disease</Name>
+-                            </DisorderType>
+-                          </Disorder>
+-                          <ClassificationNodeChildList count="0">
+-                          </ClassificationNodeChildList>
+-                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="21903">
+                             <OrphaCode>329173</OrphaCode>
+@@ -3805,7 +4261,7 @@
+                               <Name lang="en">Category</Name>
+                             </DisorderType>
+                           </Disorder>
+-                          <ClassificationNodeChildList count="7">
++                          <ClassificationNodeChildList count="6">
+                             <ClassificationNode>
+                               <Disorder id="17819">
+                                 <OrphaCode>169095</OrphaCode>
+@@ -3866,18 +4322,6 @@
+                               <ClassificationNodeChildList count="0">
+                               </ClassificationNodeChildList>
                              </ClassificationNode>
+-                            <ClassificationNode>
+-                              <Disorder id="11580">
+-                                <OrphaCode>83471</OrphaCode>
+-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=83471</ExpertLink>
+-                                <Name lang="en">T-cell immunodeficiency with thymic aplasia</Name>
+-                                <DisorderType id="21394">
+-                                  <Name lang="en">Disease</Name>
+-                                </DisorderType>
+-                              </Disorder>
+-                              <ClassificationNodeChildList count="0">
+-                              </ClassificationNodeChildList>
+-                            </ClassificationNode>
+                             <ClassificationNode>
+                               <Disorder id="518">
+                                 <OrphaCode>2308</OrphaCode>
+@@ -4052,7 +4496,7 @@
+                           <Disorder id="23336">
+                             <OrphaCode>436252</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=436252</ExpertLink>
+-                            <Name lang="en">Combined immunodeficiency-enteropathy spectrum</Name>
++                            <Name lang="en">Combined immunodeficiency-multiple intestinal atresia</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
+                             </DisorderType>
+@@ -4072,6 +4516,18 @@
+                           <ClassificationNodeChildList count="0">
                            </ClassificationNodeChildList>
                          </ClassificationNode>
 +                        <ClassificationNode>
-+                          <Disorder id="25159">
-+                            <OrphaCode>477814</OrphaCode>
-+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=477814</ExpertLink>
-+                            <Name lang="en">Progressive microcephaly-seizures-cortical blindness-developmental delay syndrome</Name>
-+                            <DisorderType id="21401">
-+                              <Name lang="en">Malformation syndrome</Name>
++                          <Disorder id="32405">
++                            <OrphaCode>699599</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=699599</ExpertLink>
++                            <Name lang="en">ICHAD syndrome</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
 +                            </DisorderType>
 +                          </Disorder>
 +                          <ClassificationNodeChildList count="0">
 +                          </ClassificationNodeChildList>
 +                        </ClassificationNode>
                          <ClassificationNode>
-                           <Disorder id="17836">
-                             <OrphaCode>169346</OrphaCode>
-@@ -3733,7 +3805,7 @@
-                               <Name lang="en">Category</Name>
+                           <Disorder id="31423">
+                             <OrphaCode>619979</OrphaCode>
+@@ -4124,7 +4580,7 @@
+                           <Disorder id="249">
+                             <OrphaCode>167</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=167</ExpertLink>
+-                            <Name lang="en">Chédiak-Higashi syndrome</Name>
++                            <Name lang="en">ChÃ©diak-Higashi syndrome</Name>
+                             <DisorderType id="21394">
+                               <Name lang="en">Disease</Name>
                              </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="5">
-+                          <ClassificationNodeChildList count="7">
-                             <ClassificationNode>
-                               <Disorder id="17819">
-                                 <OrphaCode>169095</OrphaCode>
-@@ -3746,6 +3818,30 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32184">
-+                                <OrphaCode>687695</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=687695</ExpertLink>
-+                                <Name lang="en">10p13-p14 deletion syndrome</Name>
-+                                <DisorderType id="21401">
-+                                  <Name lang="en">Malformation syndrome</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32164">
-+                                <OrphaCode>685017</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=685017</ExpertLink>
-+                                <Name lang="en">Combined immunodeficiency due to TBX1 deficiency</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="110">
-                                 <OrphaCode>138</OrphaCode>
-@@ -3805,7 +3901,7 @@
-                               <Name lang="en">Clinical group</Name>
-                             </DisorderType>
-                           </Disorder>
--                          <ClassificationNodeChildList count="10">
-+                          <ClassificationNodeChildList count="11">
-                             <ClassificationNode>
-                               <Disorder id="839">
-                                 <OrphaCode>2314</OrphaCode>
-@@ -3914,6 +4010,18 @@
-                               <ClassificationNodeChildList count="0">
-                               </ClassificationNodeChildList>
-                             </ClassificationNode>
-+                            <ClassificationNode>
-+                              <Disorder id="32018">
-+                                <OrphaCode>662829</OrphaCode>
-+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=662829</ExpertLink>
-+                                <Name lang="en">Intellectual disability-speech delay-dysmorphic features-T cell abnormalities syndrome</Name>
-+                                <DisorderType id="21394">
-+                                  <Name lang="en">Disease</Name>
-+                                </DisorderType>
-+                              </Disorder>
-+                              <ClassificationNodeChildList count="0">
-+                              </ClassificationNodeChildList>
-+                            </ClassificationNode>
-                             <ClassificationNode>
-                               <Disorder id="31422">
-                                 <OrphaCode>619972</OrphaCode>

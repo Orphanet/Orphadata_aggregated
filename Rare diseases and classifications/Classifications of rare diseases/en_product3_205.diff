@@ -1,107 +1,231 @@
-commit 6eb274384f0c4cd30cc83f08ce097956913930ce
+commit 7ab24fe976be5c798004246aa079a429e568689b
 Author: davidlagorce <david.lagorce@inserm.fr>
-Date:   Wed Dec 4 08:42:13 2024 +0100
+Date:   Mon Jun 30 11:46:37 2025 +0200
 
-    DEC 2024
+    JULY 2025
 
 diff --git a/Rare diseases and classifications/Classifications of rare diseases/en_product3_205.xml b/Rare diseases and classifications/Classifications of rare diseases/en_product3_205.xml
-index 9a3fd5c..dd7dbc2 100644
+old mode 100644
+new mode 100755
+index dd7dbc2..19e7c7e
 --- a/Rare diseases and classifications/Classifications of rare diseases/en_product3_205.xml	
 +++ b/Rare diseases and classifications/Classifications of rare diseases/en_product3_205.xml	
 @@ -1,5 +1,5 @@
- <?xml version="1.0" encoding="ISO-8859-1"?>
--<JDBOR date="2024-07-01 09:25:07" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-+<JDBOR date="2024-12-03 07:09:37" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+-<?xml version="1.0" encoding="ISO-8859-1"?>
+-<JDBOR date="2024-12-03 07:09:37" version="1.3.29 / 4.1.7 [2023-08-02] (orientdb version)" copyright="Orphanet (c) 2024" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
++<?xml version="1.0" encoding="UTF-8"?>
++<JDBOR date="2025-06-24 07:34:24" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
    <Availability> 
      <Licence>
        <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
-@@ -2348,7 +2348,7 @@
-                           <Disorder id="14199">
-                             <OrphaCode>99226</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99226</ExpertLink>
--                            <Name lang="en">Monosomy X</Name>
-+                            <Name lang="en">Monosomy X syndrome</Name>
-                             <DisorderType id="21443">
-                               <Name lang="en">Etiological subtype</Name>
-                             </DisorderType>
-@@ -2360,7 +2360,7 @@
-                           <Disorder id="14200">
-                             <OrphaCode>99228</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99228</ExpertLink>
--                            <Name lang="en">Mosaic monosomy X</Name>
-+                            <Name lang="en">Mosaic monosomy X syndrome</Name>
-                             <DisorderType id="21443">
-                               <Name lang="en">Etiological subtype</Name>
-                             </DisorderType>
-@@ -2398,7 +2398,7 @@
-                       <Disorder id="390">
-                         <OrphaCode>9</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=9</ExpertLink>
--                        <Name lang="en">Tetrasomy X</Name>
-+                        <Name lang="en">Tetrasomy X syndrome</Name>
-                         <DisorderType id="21401">
-                           <Name lang="en">Malformation syndrome</Name>
+@@ -665,7 +665,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="4">
++                  <ClassificationNodeChildList count="5">
+                     <ClassificationNode>
+                       <Disorder id="12886">
+                         <OrphaCode>97293</OrphaCode>
+@@ -826,7 +826,7 @@
+                       <Disorder id="18741">
+                         <OrphaCode>213500</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=213500</ExpertLink>
+-                        <Name lang="en">Ovarian cancer</Name>
++                        <Name lang="en">Rare ovarian cancer</Name>
+                         <DisorderType id="36561">
+                           <Name lang="en">Category</Name>
                          </DisorderType>
-@@ -2422,7 +2422,7 @@
-                       <Disorder id="1231">
-                         <OrphaCode>3375</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3375</ExpertLink>
--                        <Name lang="en">Trisomy X</Name>
-+                        <Name lang="en">Trisomy X syndrome</Name>
-                         <DisorderType id="21401">
-                           <Name lang="en">Malformation syndrome</Name>
-                         </DisorderType>
-@@ -2554,7 +2554,7 @@
-                       <Disorder id="12825">
-                         <OrphaCode>96201</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=96201</ExpertLink>
--                        <Name lang="en">X small rings</Name>
-+                        <Name lang="en">X small rings syndrome</Name>
-                         <DisorderType id="21401">
-                           <Name lang="en">Malformation syndrome</Name>
-                         </DisorderType>
-@@ -2982,7 +2982,7 @@
-                               <Disorder id="22720">
-                                 <OrphaCode>398069</OrphaCode>
-                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=398069</ExpertLink>
--                                <Name lang="en">MAGEL2-related Prader-Willi-like syndrome</Name>
-+                                <Name lang="en">Schaaf-Yang syndrome</Name>
+@@ -858,7 +858,7 @@
+                               <Disorder id="18743">
+                                 <OrphaCode>213512</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=213512</ExpertLink>
+-                                <Name lang="en">Malignant mixed Müllerian tumor of the ovary</Name>
++                                <Name lang="en">Malignant mixed MÃ¼llerian tumor of the ovary</Name>
                                  <DisorderType id="21394">
                                    <Name lang="en">Disease</Name>
                                  </DisorderType>
-@@ -3788,7 +3788,7 @@
-                           <Disorder id="14199">
-                             <OrphaCode>99226</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99226</ExpertLink>
--                            <Name lang="en">Monosomy X</Name>
-+                            <Name lang="en">Monosomy X syndrome</Name>
-                             <DisorderType id="21443">
-                               <Name lang="en">Etiological subtype</Name>
+@@ -1062,6 +1062,18 @@
+                         </ClassificationNode>
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="32322">
++                        <OrphaCode>696830</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=696830</ExpertLink>
++                        <Name lang="en">Female adnexal tumor of probable Wolffian origin</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -1119,7 +1131,7 @@
+                           <Name lang="en">Category</Name>
+                         </DisorderType>
+                       </Disorder>
+-                      <ClassificationNodeChildList count="7">
++                      <ClassificationNodeChildList count="8">
+                         <ClassificationNode>
+                           <Disorder id="3384">
+                             <OrphaCode>145</OrphaCode>
+@@ -1192,6 +1204,18 @@
+                           <ClassificationNodeChildList count="0">
+                           </ClassificationNodeChildList>
+                         </ClassificationNode>
++                        <ClassificationNode>
++                          <Disorder id="32283">
++                            <OrphaCode>694963</OrphaCode>
++                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=694963</ExpertLink>
++                            <Name lang="en">Inflammatory breast cancer</Name>
++                            <DisorderType id="21394">
++                              <Name lang="en">Disease</Name>
++                            </DisorderType>
++                          </Disorder>
++                          <ClassificationNodeChildList count="0">
++                          </ClassificationNodeChildList>
++                        </ClassificationNode>
+                         <ClassificationNode>
+                           <Disorder id="18137">
+                             <OrphaCode>180261</OrphaCode>
+@@ -1558,7 +1582,7 @@
+                       <Disorder id="11033">
+                         <OrphaCode>73217</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=73217</ExpertLink>
+-                        <Name lang="en">Müllerian aplasia</Name>
++                        <Name lang="en">MÃ¼llerian aplasia</Name>
+                         <DisorderType id="21436">
+                           <Name lang="en">Clinical group</Name>
+                         </DisorderType>
+@@ -1568,7 +1592,7 @@
+                           <Disorder id="18086">
+                             <OrphaCode>180068</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=180068</ExpertLink>
+-                            <Name lang="en">Partial bilateral aplasia of the Müllerian ducts</Name>
++                            <Name lang="en">Partial bilateral aplasia of the MÃ¼llerian ducts</Name>
+                             <DisorderType id="21436">
+                               <Name lang="en">Clinical group</Name>
                              </DisorderType>
-@@ -3800,7 +3800,7 @@
-                           <Disorder id="14200">
-                             <OrphaCode>99228</OrphaCode>
-                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=99228</ExpertLink>
--                            <Name lang="en">Mosaic monosomy X</Name>
-+                            <Name lang="en">Mosaic monosomy X syndrome</Name>
-                             <DisorderType id="21443">
-                               <Name lang="en">Etiological subtype</Name>
+@@ -1578,7 +1602,7 @@
+                               <Disorder id="2783">
+                                 <OrphaCode>3109</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3109</ExpertLink>
+-                                <Name lang="en">Mayer-Rokitansky-Küster-Hauser syndrome</Name>
++                                <Name lang="en">Mayer-Rokitansky-KÃ¼ster-Hauser syndrome</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -1588,7 +1612,7 @@
+                                   <Disorder id="2378">
+                                     <OrphaCode>2578</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2578</ExpertLink>
+-                                    <Name lang="en">Mayer-Rokitansky-Küster-Hauser syndrome type 2</Name>
++                                    <Name lang="en">Mayer-Rokitansky-KÃ¼ster-Hauser syndrome type 2</Name>
+                                     <DisorderType id="21450">
+                                       <Name lang="en">Clinical subtype</Name>
+                                     </DisorderType>
+@@ -1600,7 +1624,7 @@
+                                   <Disorder id="19545">
+                                     <OrphaCode>247775</OrphaCode>
+                                     <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247775</ExpertLink>
+-                                    <Name lang="en">Mayer-Rokitansky-Küster-Hauser syndrome type 1</Name>
++                                    <Name lang="en">Mayer-Rokitansky-KÃ¼ster-Hauser syndrome type 1</Name>
+                                     <DisorderType id="21450">
+                                       <Name lang="en">Clinical subtype</Name>
+                                     </DisorderType>
+@@ -1614,7 +1638,7 @@
+                               <Disorder id="19544">
+                                 <OrphaCode>247768</OrphaCode>
+                                 <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247768</ExpertLink>
+-                                <Name lang="en">Müllerian aplasia and hyperandrogenism</Name>
++                                <Name lang="en">MÃ¼llerian aplasia and hyperandrogenism</Name>
+                                 <DisorderType id="21401">
+                                   <Name lang="en">Malformation syndrome</Name>
+                                 </DisorderType>
+@@ -1628,7 +1652,7 @@
+                           <Disorder id="18087">
+                             <OrphaCode>180071</OrphaCode>
+                             <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=180071</ExpertLink>
+-                            <Name lang="en">Unilateral aplasia of the Müllerian ducts</Name>
++                            <Name lang="en">Unilateral aplasia of the MÃ¼llerian ducts</Name>
+                             <DisorderType id="21436">
+                               <Name lang="en">Clinical group</Name>
                              </DisorderType>
-@@ -3838,7 +3838,7 @@
-                       <Disorder id="334">
-                         <OrphaCode>1642</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=1642</ExpertLink>
--                        <Name lang="en">Distal deletion 9p</Name>
-+                        <Name lang="en">Distal deletion 9p syndrome</Name>
+@@ -1846,7 +1870,7 @@
+                       <Disorder id="2304">
+                         <OrphaCode>2491</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2491</ExpertLink>
+-                        <Name lang="en">Müllerian duct anomalies-limb anomalies syndrome</Name>
++                        <Name lang="en">MÃ¼llerian duct anomalies-limb anomalies syndrome</Name>
                          <DisorderType id="21401">
                            <Name lang="en">Malformation syndrome</Name>
                          </DisorderType>
-@@ -4054,7 +4054,7 @@
-                       <Disorder id="18396">
-                         <OrphaCode>199310</OrphaCode>
-                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=199310</ExpertLink>
--                        <Name lang="en">Tetragametic chimerism</Name>
-+                        <Name lang="en">Tetragametic chimerism syndrome</Name>
+@@ -2213,7 +2237,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="2">
++                  <ClassificationNodeChildList count="3">
+                     <ClassificationNode>
+                       <Disorder id="11572">
+                         <OrphaCode>83453</OrphaCode>
+@@ -2238,6 +2262,18 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
++                    <ClassificationNode>
++                      <Disorder id="32233">
++                        <OrphaCode>692256</OrphaCode>
++                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=692256</ExpertLink>
++                        <Name lang="en">Isolated anogenital granulomatosis</Name>
++                        <DisorderType id="21394">
++                          <Name lang="en">Disease</Name>
++                        </DisorderType>
++                      </Disorder>
++                      <ClassificationNodeChildList count="0">
++                      </ClassificationNodeChildList>
++                    </ClassificationNode>
+                   </ClassificationNodeChildList>
+                 </ClassificationNode>
+                 <ClassificationNode>
+@@ -2333,7 +2369,7 @@
+                       <Name lang="en">Category</Name>
+                     </DisorderType>
+                   </Disorder>
+-                  <ClassificationNodeChildList count="18">
++                  <ClassificationNodeChildList count="17">
+                     <ClassificationNode>
+                       <Disorder id="44">
+                         <OrphaCode>881</OrphaCode>
+@@ -2598,18 +2634,6 @@
+                       <ClassificationNodeChildList count="0">
+                       </ClassificationNodeChildList>
+                     </ClassificationNode>
+-                    <ClassificationNode>
+-                      <Disorder id="23616">
+-                        <OrphaCode>449291</OrphaCode>
+-                        <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=449291</ExpertLink>
+-                        <Name lang="en">Symptomatic form of fragile X syndrome in female carriers</Name>
+-                        <DisorderType id="21394">
+-                          <Name lang="en">Disease</Name>
+-                        </DisorderType>
+-                      </Disorder>
+-                      <ClassificationNodeChildList count="0">
+-                      </ClassificationNodeChildList>
+-                    </ClassificationNode>
+                     <ClassificationNode>
+                       <Disorder id="28735">
+                         <OrphaCode>572354</OrphaCode>
+@@ -4066,7 +4090,7 @@
+                       <Disorder id="19544">
+                         <OrphaCode>247768</OrphaCode>
+                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=247768</ExpertLink>
+-                        <Name lang="en">Müllerian aplasia and hyperandrogenism</Name>
++                        <Name lang="en">MÃ¼llerian aplasia and hyperandrogenism</Name>
                          <DisorderType id="21401">
                            <Name lang="en">Malformation syndrome</Name>
                          </DisorderType>
