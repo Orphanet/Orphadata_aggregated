@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<JDBOR date="2025-06-24 07:32:11" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
-  <Availability> 
+<JDBOR date="2025-12-09 07:07:02" version="1.3.42 / 4.1.8 [2025-03-03]" copyright="Orphanet (c) 2025" dbserver="jdbc:sybase:Tds:canard.orpha.net:2020">
+  <Availability>
     <Licence>
       <FullName lang="en">Creative Commons Attribution 4.0 International</FullName>
       <ShortIdentifier>CC-BY-4.0</ShortIdentifier>
@@ -262,7 +262,7 @@
                       <Disorder id="22137">
                         <OrphaCode>353327</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=353327</ExpertLink>
-                        <Name lang="en">Congenital myasthenic syndromes with glycosylation defect</Name>
+                        <Name lang="en">Congenital myasthenic syndrome with glycosylation defect</Name>
                         <DisorderType id="21443">
                           <Name lang="en">Etiological subtype</Name>
                         </DisorderType>
@@ -3178,7 +3178,7 @@
                       <Disorder id="381">
                         <OrphaCode>773</OrphaCode>
                         <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=773</ExpertLink>
-                        <Name lang="en">Refsum disease</Name>
+                        <Name lang="en">Adult Refsum disease</Name>
                         <DisorderType id="21394">
                           <Name lang="en">Disease</Name>
                         </DisorderType>
@@ -4419,39 +4419,51 @@
                           <Name lang="en">Category</Name>
                         </DisorderType>
                       </Disorder>
-                      <ClassificationNodeChildList count="2">
+                      <ClassificationNodeChildList count="1">
                         <ClassificationNode>
-                          <Disorder id="611">
-                            <OrphaCode>716</OrphaCode>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=716</ExpertLink>
-                            <Name lang="en">Phenylketonuria</Name>
-                            <DisorderType id="21394">
-                              <Name lang="en">Disease</Name>
+                          <Disorder id="32523">
+                            <OrphaCode>708881</OrphaCode>
+                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=708881</ExpertLink>
+                            <Name lang="en">Phenylalanine hydroxylase deficiency</Name>
+                            <DisorderType id="21436">
+                              <Name lang="en">Clinical group</Name>
                             </DisorderType>
                           </Disorder>
-                          <ClassificationNodeChildList count="4">
+                          <ClassificationNodeChildList count="3">
                             <ClassificationNode>
-                              <Disorder id="11279">
-                                <OrphaCode>79253</OrphaCode>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79253</ExpertLink>
-                                <Name lang="en">Mild phenylketonuria</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="en">Clinical subtype</Name>
+                              <Disorder id="611">
+                                <OrphaCode>716</OrphaCode>
+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=716</ExpertLink>
+                                <Name lang="en">Phenylketonuria</Name>
+                                <DisorderType id="21394">
+                                  <Name lang="en">Disease</Name>
                                 </DisorderType>
                               </Disorder>
-                              <ClassificationNodeChildList count="0">
-                              </ClassificationNodeChildList>
-                            </ClassificationNode>
-                            <ClassificationNode>
-                              <Disorder id="11280">
-                                <OrphaCode>79254</OrphaCode>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=79254</ExpertLink>
-                                <Name lang="en">Classic phenylketonuria</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="en">Clinical subtype</Name>
-                                </DisorderType>
-                              </Disorder>
-                              <ClassificationNodeChildList count="0">
+                              <ClassificationNodeChildList count="2">
+                                <ClassificationNode>
+                                  <Disorder id="20847">
+                                    <OrphaCode>293284</OrphaCode>
+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293284</ExpertLink>
+                                    <Name lang="en">Tetrahydrobiopterin-responsive phenylketonuria</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="en">Clinical subtype</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
+                                <ClassificationNode>
+                                  <Disorder id="32524">
+                                    <OrphaCode>708895</OrphaCode>
+                                    <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=708895</ExpertLink>
+                                    <Name lang="en">Tetrahydrobiopterin-unresponsive phenylketonuria</Name>
+                                    <DisorderType id="21450">
+                                      <Name lang="en">Clinical subtype</Name>
+                                    </DisorderType>
+                                  </Disorder>
+                                  <ClassificationNodeChildList count="0">
+                                  </ClassificationNodeChildList>
+                                </ClassificationNode>
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
@@ -4467,29 +4479,17 @@
                               </ClassificationNodeChildList>
                             </ClassificationNode>
                             <ClassificationNode>
-                              <Disorder id="20847">
-                                <OrphaCode>293284</OrphaCode>
-                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=293284</ExpertLink>
-                                <Name lang="en">Tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria</Name>
-                                <DisorderType id="21450">
-                                  <Name lang="en">Clinical subtype</Name>
+                              <Disorder id="1889">
+                                <OrphaCode>2209</OrphaCode>
+                                <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2209</ExpertLink>
+                                <Name lang="en">Maternal phenylketonuria syndrome</Name>
+                                <DisorderType id="21401">
+                                  <Name lang="en">Malformation syndrome</Name>
                                 </DisorderType>
                               </Disorder>
                               <ClassificationNodeChildList count="0">
                               </ClassificationNodeChildList>
                             </ClassificationNode>
-                          </ClassificationNodeChildList>
-                        </ClassificationNode>
-                        <ClassificationNode>
-                          <Disorder id="1889">
-                            <OrphaCode>2209</OrphaCode>
-                            <ExpertLink lang="en">http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=2209</ExpertLink>
-                            <Name lang="en">Maternal phenylketonuria syndrome</Name>
-                            <DisorderType id="21401">
-                              <Name lang="en">Malformation syndrome</Name>
-                            </DisorderType>
-                          </Disorder>
-                          <ClassificationNodeChildList count="0">
                           </ClassificationNodeChildList>
                         </ClassificationNode>
                       </ClassificationNodeChildList>
